@@ -53,6 +53,16 @@ export default function PickLocationScreen() {
     setCenter(c);
   }, []);
 
+  const goBackToSettings = useCallback(() => {
+    // After a hard refresh of pick-location, expo-router stack has no prior
+    // screen so router.back() is a no-op — fall back to home.
+    if (router.canGoBack()) {
+      router.back();
+    } else {
+      router.replace('/');
+    }
+  }, [router]);
+
   const confirm = () => {
     setCoords({
       latitude: center.lat,
@@ -60,7 +70,7 @@ export default function PickLocationScreen() {
       isFallback: false,
       label: '地圖揀位',
     });
-    router.back();
+    goBackToSettings();
   };
 
   return (
@@ -90,7 +100,7 @@ export default function PickLocationScreen() {
         >
           <Text style={styles.primaryBtnText}>用呢個位置</Text>
         </Pressable>
-        <Pressable style={styles.secondaryBtn} onPress={() => router.back()}>
+        <Pressable style={styles.secondaryBtn} onPress={goBackToSettings}>
           <Text style={styles.secondaryBtnText}>返地區列表</Text>
         </Pressable>
         <Text style={styles.attr}>地圖資料 © Google</Text>

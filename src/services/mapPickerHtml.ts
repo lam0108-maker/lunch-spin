@@ -63,6 +63,7 @@ export function buildMapPickerHtml(initial: MapPickerInitial): string {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="referrer" content="no-referrer-when-downgrade" />
   <style>
     html, body, #map { margin: 0; padding: 0; width: 100%; height: 100%; background: #e8eef2; }
   </style>
@@ -90,14 +91,25 @@ export function buildMapPickerHtml(initial: MapPickerInitial): string {
         } catch (e) {}
         try {
           if (window.parent && window.parent !== window) {
-            window.parent.postMessage(payload, '*');
+            window.parent.postMessage(payload, window.location.origin || '*');
+          }
+        } catch (e) {}
+      }
+
+      function triggerResize(map) {
+        try {
+          if (window.google && google.maps && google.maps.event) {
+            google.maps.event.trigger(map, 'resize');
+            var c = map.getCenter();
+            if (c) map.setCenter(c);
           }
         } catch (e) {}
       }
 
       window.initMapPicker = function () {
         var init = window.INITIAL || { lat: 22.3193, lng: 114.1694, zoom: 15 };
-        var map = new google.maps.Map(document.getElementById('map'), {
+        var el = document.getElementById('map');
+        var map = new google.maps.Map(el, {
           center: { lat: init.lat, lng: init.lng },
           zoom: init.zoom,
           disableDefaultUI: false,
@@ -112,6 +124,13 @@ export function buildMapPickerHtml(initial: MapPickerInitial): string {
         map.addListener('click', function (e) {
           if (e.latLng) map.panTo(e.latLng);
         });
+        triggerResize(map);
+        setTimeout(function () { triggerResize(map); }, 100);
+        setTimeout(function () { triggerResize(map); }, 400);
+        if (typeof ResizeObserver !== 'undefined') {
+          var ro = new ResizeObserver(function () { triggerResize(map); });
+          ro.observe(el);
+        }
       };
     })();
   </script>

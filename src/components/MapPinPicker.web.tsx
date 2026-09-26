@@ -1,5 +1,5 @@
 import Constants from 'expo-constants';
-import { useCallback, useEffect, useMemo, useRef } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { getGoogleMapsApiKey } from '../services/googleMapsKey';
 import {
@@ -102,28 +102,47 @@ export function MapPinPicker({ initial, onCenterChange }: Props) {
     if (center) onCenterChangeRef.current(center);
   }, []);
 
+  // Defer iframe src until the message listener is registered, so the first
+  // idle postMessage from a cached map-picker.html is not missed.
+  const [iframeSrc, setIframeSrc] = useState<string | null>(null);
+
   useEffect(() => {
     const onMessage = (event: MessageEvent) => {
+      if (typeof window !== 'undefined' && event.origin !== window.location.origin) {
+        return;
+      }
       handlePayload(event.data);
     };
     window.addEventListener('message', onMessage);
-    return () => window.removeEventListener('message', onMessage);
-  }, [handlePayload]);
+    setIframeSrc(src);
+    return () => {
+      window.removeEventListener('message', onMessage);
+      setIframeSrc(null);
+    };
+  }, [handlePayload, src]);
 
   return (
     <View style={styles.wrap}>
       {/* Same-origin src (not srcDoc) so Maps Referer is the Pages origin */}
-      <iframe
-        title="地圖揀位"
-        src={src}
-        style={{
-          border: 'none',
-          width: '100%',
-          height: '100%',
-          display: 'block',
-        }}
-        sandbox="allow-scripts allow-same-origin allow-popups"
-      />
+      {iframeSrc ? (
+        <iframe
+          title="地圖揀位"
+          src={iframeSrc}
+          style={{
+            border: 'none',
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            width: '100%',
+            height: '100%',
+            display: 'block',
+          }}
+          sandbox="allow-scripts allow-same-origin allow-popups"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      ) : null}
       <View pointerEvents="none" style={styles.pinOverlay}>
         <Text style={styles.pinEmoji}>📍</Text>
       </View>
