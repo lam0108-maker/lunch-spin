@@ -1,8 +1,8 @@
+import Constants from 'expo-constants';
 import { useCallback, useEffect, useMemo, useRef } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { getGoogleMapsApiKey } from '../services/googleMapsKey';
 import {
-  buildMapPickerHtml,
   HK_DEFAULT_CENTER,
   type MapPickerInitial,
 } from '../services/mapPickerHtml';
@@ -50,15 +50,42 @@ function parseCenterMessage(raw: unknown): MapCenter | null {
   return null;
 }
 
+/** Resolve Expo web baseUrl so public/map-picker.html is same-origin on GH Pages. */
+function getWebBasePath(): string {
+  const fromExperiments = (
+    Constants.expoConfig?.experiments as { baseUrl?: string } | undefined
+  )?.baseUrl;
+  const raw = (fromExperiments ?? '/lunch-spin').trim();
+  if (!raw || raw === '/') return '';
+  return raw.replace(/\/$/, '');
+}
+
+function buildMapPickerSrc(opts: {
+  lat: number;
+  lng: number;
+  zoom: number;
+  apiKey: string;
+}): string {
+  const qs = new URLSearchParams({
+    lat: String(opts.lat),
+    lng: String(opts.lng),
+    zoom: String(opts.zoom),
+    key: opts.apiKey,
+  });
+  return `${getWebBasePath()}/map-picker.html?${qs.toString()}`;
+}
+
 /**
- * Web: Google Maps via iframe srcDoc; fixed center pin overlay.
+ * Web: Google Maps via same-origin iframe `src` (NOT srcdoc).
+ * Same-origin page → Maps JS sends Referer of the Pages origin, so
+ * HTTP referrer restriction https://lam0108-maker.github.io/* works.
  * Never calls Location APIs.
  */
 export function MapPinPicker({ initial, onCenterChange }: Props) {
   const apiKey = getGoogleMapsApiKey();
-  const html = useMemo(
+  const src = useMemo(
     () =>
-      buildMapPickerHtml({
+      buildMapPickerSrc({
         lat: initial?.lat ?? HK_DEFAULT_CENTER.lat,
         lng: initial?.lng ?? HK_DEFAULT_CENTER.lng,
         zoom: initial?.zoom ?? HK_DEFAULT_CENTER.zoom,
@@ -85,10 +112,10 @@ export function MapPinPicker({ initial, onCenterChange }: Props) {
 
   return (
     <View style={styles.wrap}>
-      {/* iframe is valid on react-native-web; allow-popups for Google Maps */}
+      {/* Same-origin src (not srcDoc) so Maps Referer is the Pages origin */}
       <iframe
         title="地圖揀位"
-        srcDoc={html}
+        src={src}
         style={{
           border: 'none',
           width: '100%',
