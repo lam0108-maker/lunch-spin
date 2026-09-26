@@ -1,0 +1,1673 @@
+{
+  "district": "九龍灣",
+  "version": "1.2",
+  "updated_at": "2026-09-25",
+  "criteria": {
+    "serves_lunch": true,
+    "dine_in": true,
+    "exclude": [
+      "bakery",
+      "pure_cafe",
+      "takeaway_only",
+      "no_dine_in"
+    ]
+  },
+  "restaurants": [
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "fairwood-megabox",
+      "name_zh": "大快活（MegaBox）",
+      "name_en": "Fairwood (MegaBox)",
+      "lat": 22.319704,
+      "lng": 114.207939,
+      "area": "MegaBox",
+      "address": "九龍灣宏照道38號企業廣場五期MEGABOX L2 24號鋪",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox L2 大快活，官網標示堂食／外賣，全日飯麵／焗餐。雙餸碗連熱飲約$39，一般午市套餐約四十至六十元；商場午市或會排隊。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "大快活官方分店（九龍灣MEGABOX L2）",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MegaBox 官方 Dining 目錄（Fairwood）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "大快活官網午市餐牌",
+          "url": "https://www.fairwood.com.hk/food_menus?tab=lunch",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $39–60"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "mcdonalds-megabox",
+      "name_zh": "麥當勞（MegaBox）",
+      "name_en": "McDonald's (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍灣宏照道38號企業廣場五期MegaBox L2 34號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店",
+        "大堂座位"
+      ],
+      "lunch_notes": "MegaBox L2 麥當勞，有大堂座位，漢堡／套餐作午餐。App常見超值套餐約$36起，正價套餐約四十多至五十多元；商場人流高峰或排隊。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "麥當勞官方分店（MegaBox）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/325/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MegaBox 官方 Dining 目錄（McDonald's）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon MegaBox",
+          "url": "https://photon.komoot.io/api/?q=MegaBox+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $36–55"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "tai-hing-megabox",
+      "name_zh": "太興（MegaBox）",
+      "name_en": "Tai Hing (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍九龍灣宏照道38號企業廣場5期Megabox第10層7號舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳風",
+        "燒味飯",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox L10 太興，供應燒味飯、粉麵同港式焗飯等堂食午餐。公開目錄人均約$51–100；燒味拼盤或套餐喺呢個價帶，商場午市或稍等。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（太興 MegaBox）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=577",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MegaBox 官方 Dining 目錄（Tai Hing）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：太興人均約$51–100",
+          "url": "https://www.feehk.com/%E5%85%83%E6%9C%97%E9%A4%90%E5%BB%B3/%E5%A4%AA%E8%88%88-34245",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $55–100"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "pepper-lunch-megabox",
+      "name_zh": "胡椒廚房（MegaBox）",
+      "name_en": "Pepper Lunch (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍灣宏照道38號企業廣場五期MegaBox L10 3號舖",
+      "cuisine": [
+        "日式",
+        "鐵板"
+      ],
+      "tags": [
+        "連鎖",
+        "鐵板飯",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox L10 胡椒廚房，自煮鐵板飯作午餐堂食。公開目錄人均約$51–100，推廣鐵板餐約$62起；要自己喺熱鐵板上炒熟，午市或稍等。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（Pepper Lunch）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon MegaBox",
+          "url": "https://photon.komoot.io/api/?q=MegaBox+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "WeekendHK：Pepper Lunch人均約$51–100",
+          "url": "https://www.weekendhk.com/restaurant/pepperlunch1%e4%ba%9e%e5%a4%aa%e4%b8%ad%e5%bf%83-%e8%a7%80%e5%a1%98-%e6%97%a5%e6%9c%ac%e8%8f%9c-%e6%99%9a%e9%a4%90-%e5%8d%88%e9%a4%90-%e4%b8%8b%e5%8d%88%e8%8c%b6-2752592/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：Pepper Lunch鐵板推廣約$62起",
+          "url": "https://www.jetsotoday.com/pepper-lunch-wok-202608/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $55–100"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "genki-sushi-megabox",
+      "name_zh": "元気寿司（MegaBox）",
+      "name_en": "Genki Sushi (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍灣宏照道38號企業廣場五期MegaBox G 7號舖",
+      "cuisine": [
+        "日式",
+        "壽司"
+      ],
+      "tags": [
+        "連鎖",
+        "壽司",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox G層元気寿司，迴轉／點餐壽司連鎖。官方午食の選低至$59起（堂食限定，視分店供應）；掃碟可再高，午市人多建議錯峰。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（Genki Sushi）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon MegaBox",
+          "url": "https://photon.komoot.io/api/?q=MegaBox+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "元気寿司官方：午食の選低至$59起（堂食限定）",
+          "url": "https://order.genkisushi.com.hk/tc/dine-in-menu/lunch-menu-may-2026",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $59–120"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "yoshinoya-megabox-aeon",
+      "name_zh": "吉野家（MegaBox AEON）",
+      "name_en": "Yoshinoya (MegaBox AEON)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍灣宏照道38號企業廣場五期MegaBox L2（AEON）",
+      "cuisine": [
+        "日式",
+        "牛肉飯"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "丼飯",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox L2 AEON 吉野家，牛肉飯／定食快餐堂食。公開推廣午市丼飯加餃子約$35起；一般一人午餐多四十至六十元，適合赶時間。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（Yoshinoya AEON）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon MegaBox",
+          "url": "https://photon.komoot.io/api/?q=MegaBox+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Jetso Today：吉野家午市套餐約$35起",
+          "url": "https://www.jetsotoday.com/yoshinoya-202602/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $35–60"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "trusty-congee-king-megabox",
+      "name_zh": "靠得住（MegaBox）",
+      "name_en": "Trusty Congee King (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍灣宏照道38號企業廣場五期MegaBox L10 7號舖",
+      "cuisine": [
+        "粥麵",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "粥品",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox L10 靠得住粥麵小館，粥、粉麵同小菜作午餐堂食。公開目錄人均多約$51–100帶；未核實本店官價，一份粥加小食大約呢個範圍。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（Trusty Congee King）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon MegaBox",
+          "url": "https://photon.komoot.io/api/?q=MegaBox+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice／目錄慣例：靠得住粥麵人均約$51–100（未核實本店官價）",
+          "url": "https://www.openrice.com/zh/hongkong/restaurants?what=%E9%9D%A0%E5%BE%97%E4%BD%8F",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $45–80（午餐／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "coco-ichibanya-megabox",
+      "name_zh": "CoCo壹番屋（MegaBox）",
+      "name_en": "CURRY HOUSE COCO ICHIBANYA (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍灣宏照道38號企業廣場五期MegaBox L10 2號舖",
+      "cuisine": [
+        "日式",
+        "咖喱"
+      ],
+      "tags": [
+        "連鎖",
+        "咖喱",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox L10 CoCo壹番屋，咖喱飯主食堂食。公開慣例一人咖喱飯約五十至八十幾；未核實本店官價，可自選辣度同配料。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（COCO ICHIBANYA）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon MegaBox",
+          "url": "https://photon.komoot.io/api/?q=MegaBox+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "公開慣例：CoCo壹番屋咖喱飯約$50–85（未核實本店官價）",
+          "url": "https://www.ichibanya.com.hk/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $50–85（午餐套餐／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "mcdonalds-telford",
+      "name_zh": "麥當勞（德福廣場）",
+      "name_en": "McDonald's (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣德福廣場 I 期第F21號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店",
+        "大堂座位"
+      ],
+      "lunch_notes": "德福廣場一期麥當勞，有大堂座位，漢堡／套餐作午餐。App常見超值套餐約$36起，正價套餐約四十多至五十多元；德福午市人流高或排隊。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "麥當勞官方分店（德福廣場）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/273/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "德福廣場官方餐飲食肆",
+          "url": "https://www.telford-plaza.com/tch/dining",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $36–55"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "tai-hing-telford",
+      "name_zh": "太興（德福廣場）",
+      "name_en": "Tai Hing (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍九龍灣德福廣場第二期5樓520-523號舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳風",
+        "燒味飯",
+        "商場店"
+      ],
+      "lunch_notes": "德福二期太興，官方約07:00–21:30；燒味飯、粉麵同焗飯午餐堂食。公開目錄人均約$51–100；寫字樓午市或稍等。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "德福廣場官方（太興）",
+          "url": "https://www.telford-plaza.com/tch/dining/taihing",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "衞生署星級有營食肆（太興 德福）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=760",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：太興人均約$51–100",
+          "url": "https://www.feehk.com/%E5%85%83%E6%9C%97%E9%A4%90%E5%BB%B3/%E5%A4%AA%E8%88%88-34245",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $55–100"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "cafe-de-coral-telford",
+      "name_zh": "大家樂（德福廣場）",
+      "name_en": "Café de Coral (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍九龍灣德福廣場6樓614號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店",
+        "EatSmart"
+      ],
+      "lunch_notes": "德福廣場大家樂，EatSmart列快餐店；午市有飯／粉麵／焗飯套餐連飲。公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（大家樂 德福廣場）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10952",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "德福廣場官方餐飲食肆",
+          "url": "https://www.telford-plaza.com/tch/dining",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "tamjai-samgor-telford",
+      "name_zh": "譚仔三哥米線（德福廣場）",
+      "name_en": "TamJai SamGor Mixian (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍九龍灣德福廣場II期6樓613號舖",
+      "cuisine": [
+        "米線",
+        "麵食"
+      ],
+      "tags": [
+        "連鎖",
+        "自選配料",
+        "商場店",
+        "EatSmart"
+      ],
+      "lunch_notes": "德福二期譚仔三哥，主打自選／過橋米線堂食。目錄標示人均約$50以下，實際視乎配料同小食；官方有主餐牌可對湯底同食材。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（譚仔三哥 德福廣場）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10446",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "德福廣場官方餐飲食肆",
+          "url": "https://www.telford-plaza.com/tch/dining",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔三哥人均約$50以下",
+          "url": "https://www.feehk.com/%E6%97%BA%E8%A7%92%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-66722",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "譚仔三哥官方主餐牌（自選／過橋米線）",
+          "url": "https://www.tjsamgor.com/hk/menu/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $40–65"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "teawood-telford",
+      "name_zh": "茶木（德福廣場）",
+      "name_en": "TeaWood (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣偉業街33號德福廣場一期 G53D 號舖",
+      "cuisine": [
+        "台式",
+        "休閒餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "套餐",
+        "商場店"
+      ],
+      "lunch_notes": "德福一期茶木台式休閒餐廳，官方約11:00–22:00；牛肉麵、飯同定食式正餐。公開目錄人均約$51–100；適合想食完整台式午餐多過快餐。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "德福廣場官方（茶木）",
+          "url": "https://www.telford-plaza.com/tch/dining/teawood",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "衞生署星級有營食肆搜尋列（茶木 九龍灣德福）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res_adv.aspx?dist_id=9&page=1&str_filter_star_1=4&str_filter_star_2_1=4&str_filter_star_2_2=4&str_filter_star_3=4",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "WeekendHK：茶木人均約$51–100",
+          "url": "https://www.weekendhk.com/restaurant/%e8%8c%b6%e6%9c%a8%e2%80%a7%e5%8f%b0%e5%bc%8f%e4%bc%91%e9%96%92%e9%a4%90%e5%bb%b3po",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $70–110"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "trusty-congee-telford",
+      "name_zh": "靠得住（德福廣場）",
+      "name_en": "Trusty Congee King (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍九龍灣偉業街33號德福廣場二期5樓528-529號舖",
+      "cuisine": [
+        "粥麵",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "粥品",
+        "商場店"
+      ],
+      "lunch_notes": "德福二期靠得住，官方約11:00–21:30；粥、粉麵同小菜午餐堂食。公開目錄人均多約$51–100帶；未核實本店官價，一份粥加小食大約呢個範圍。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "德福廣場官方（靠得住粥麵小館）",
+          "url": "https://www.telford-plaza.com/tch/dining/trustycongeeking528",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "衞生署星級有營食肆（靠得住 德福）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=773",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice／目錄慣例：靠得住粥麵人均約$51–100（未核實本店官價）",
+          "url": "https://www.openrice.com/zh/hongkong/restaurants?what=%E9%9D%A0%E5%BE%97%E4%BD%8F",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $45–80（午餐／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "pepper-lunch-express-telford",
+      "name_zh": "Pepper Lunch Express（德福廣場）",
+      "name_en": "Pepper Lunch Express (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣偉業街33號德福廣場二期5樓501B10號舖",
+      "cuisine": [
+        "日式",
+        "鐵板"
+      ],
+      "tags": [
+        "連鎖",
+        "鐵板飯",
+        "商場店"
+      ],
+      "lunch_notes": "德福二期 Pepper Lunch Express，官方約11:30–22:00；自煮鐵板飯午餐堂食。公開目錄人均約$51–100，推廣鐵板餐約$62起；Express 定位偏快，適合赶時間。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "德福廣場官方（Pepper Lunch Express）",
+          "url": "https://www.telford-plaza.com/tch/dining/pepperlunchexpress",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "WeekendHK：Pepper Lunch人均約$51–100",
+          "url": "https://www.weekendhk.com/restaurant/pepperlunch1%e4%ba%9e%e5%a4%aa%e4%b8%ad%e5%bf%83-%e8%a7%80%e5%a1%98-%e6%97%a5%e6%9c%ac%e8%8f%9c-%e6%99%9a%e9%a4%90-%e5%8d%88%e9%a4%90-%e4%b8%8b%e5%8d%88%e8%8c%b6-2752592/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：Pepper Lunch鐵板推廣約$62起",
+          "url": "https://www.jetsotoday.com/pepper-lunch-wok-202608/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $55–100"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "menwah-bingteng-telford",
+      "name_zh": "敏華冰廳（德福廣場）",
+      "name_en": "Men Wah Bing Teng (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣偉業街33號德福廣場一期 G53A 號舖",
+      "cuisine": [
+        "冰室",
+        "茶餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "常餐",
+        "商場店"
+      ],
+      "lunch_notes": "德福一期敏華冰廳，官方約07:00–22:00；港式冰室飯麵／常餐作午餐。公開目錄人均約$51–100，單點常餐多五十至七十元帶；德福地下舖午市或滿座。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "德福廣場官方（敏華冰廳）",
+          "url": "https://www.telford-plaza.com/tch/dining/menwahbingteng53a",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK／OpenRice：敏華冰廳人均約$51–100",
+          "url": "https://www.feehk.com/%E5%A4%AA%E5%8F%A4%E9%A4%90%E5%BB%B3/%E6%95%8F%E8%8F%AF%E5%86%B0%E5%BB%B3-8217",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $50–90"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "sushiro-telford",
+      "name_zh": "壽司郎（德福廣場）",
+      "name_en": "Sushiro (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣偉業街33號德福廣場二期6樓615號舖",
+      "cuisine": [
+        "日式",
+        "壽司"
+      ],
+      "tags": [
+        "連鎖",
+        "迴轉壽司",
+        "商場店"
+      ],
+      "lunch_notes": "德福二期壽司郎，官方約10:30–22:00；迴轉壽司堂食。公開紅碟約$12起，一人午餐視碟數常約八十至一百五；人氣高建議 App 取票。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "德福廣場官方（壽司郎）",
+          "url": "https://www.telford-plaza.com/tch/dining/sushiro",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "公開碟價慣例：壽司郎紅碟約$12起、一人午餐常約$80–150（視碟數）",
+          "url": "https://dimjeng.com/tool/hong-kong/sushiro-bill-calculator-hk/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $80–150"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "asam-chicken-rice-telford",
+      "name_zh": "亞參雞飯（德福廣場）",
+      "name_en": "Asam Chicken Rice (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣偉業街33號德福廣場一期 G102 號舖",
+      "cuisine": [
+        "馬來西亞菜",
+        "雞飯"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "德福一期亞參雞飯，官方約11:00–21:30；海南雞飯／咖哩麵作午餐堂食。公開目錄人均約$51–100；一份雞飯加飲大致呢個價帶。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "德福廣場官方（亞參雞飯）",
+          "url": "https://www.telford-plaza.com/tch/dining/asamchickenrice",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "WeekendHK／ugo：亞參雞飯人均約$51–100",
+          "url": "https://www.weekendhk.com/restaurant/%e4%ba%9e%e5%8f%83%e9%9b%9e%e9%a3%afpopcorn1-%e5%b0%87%e8%bb%8d%e6%be%b3-%e5%8d%88",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $55–90"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "fairwood-richland",
+      "name_zh": "大快活（麗晶花園）",
+      "name_en": "Fairwood (Richland Gardens)",
+      "lat": 22.329311,
+      "lng": 114.206038,
+      "area": "麗晶商場／麗晶花園",
+      "address": "九龍灣宏光道麗晶花園麗晶商場1樓108號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "lunch_notes": "麗晶商場大快活，官網標示堂食／外賣，約07:00–20:30。雙餸碗連熱飲約$39，一般午市套餐約四十至六十元；邨商場街坊店定位。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "大快活官方分店（九龍灣麗晶花園）",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 麗晶商場",
+          "url": "https://photon.komoot.io/api/?q=%E9%BA%97%E6%99%B6%E5%95%86%E5%A0%B4+%E4%B9%9D%E9%BE%8D%E7%81%A3",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "大快活官網午市餐牌",
+          "url": "https://www.fairwood.com.hk/food_menus?tab=lunch",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $39–60"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "mcdonalds-richland",
+      "name_zh": "麥當勞（麗晶花園）",
+      "name_en": "McDonald's (Richland Gardens)",
+      "lat": 22.3296128,
+      "lng": 114.2059085,
+      "area": "麗晶商場／麗晶花園",
+      "address": "九龍灣宏光道80號麗晶花園商場及停車場218-1號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店",
+        "大堂座位"
+      ],
+      "lunch_notes": "麗晶商場麥當勞，有大堂座位，漢堡／套餐作午餐。App常見超值套餐約$36起，正價套餐約四十多至五十多元；邨商場人流相對穩陣。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "麥當勞官方分店（麗晶花園）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/222/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 麗晶商場",
+          "url": "https://photon.komoot.io/api/?q=Richland+Gardens+Shopping+Centre+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $36–55"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "mcdonalds-wang-hoi",
+      "name_zh": "麥當勞（宏開道／其士商業中心）",
+      "name_en": "McDonald's (Wang Hoi Road / Chevalier Commercial Centre)",
+      "lat": 22.3213309,
+      "lng": 114.2112739,
+      "area": "企業廣場／臨興街一帶（宏開道）",
+      "address": "九龍九龍灣宏開道8號其士商業中心地下1及2號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "大廈底",
+        "大堂座位"
+      ],
+      "lunch_notes": "其士商業中心地下麥當勞，寫字樓區大廈底定位，有大堂座位。App常見超值套餐約$36起，正價套餐約四十多至五十多元；午市上班族較多。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "麥當勞官方分店（宏開道）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/346/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 其士商業中心",
+          "url": "https://photon.komoot.io/api/?q=Chevalier+Commercial+Centre+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $36–55"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "crystal-jade-jiang-nan-megabox",
+      "name_zh": "翡翠江南（MegaBox）",
+      "name_en": "Crystal Jade Jiang Nan (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍灣宏照道38號企業廣場五期MegaBox 6樓2號舖",
+      "cuisine": [
+        "江浙菜",
+        "滬菜"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "套餐",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox L6 翡翠江南，江浙／滬菜正餐堂食。傳媒報導午市一人套餐$98起，目錄人均約$101–200；小籠包、麵食係典型選擇，加一另計。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（Crystal Jade Jiang Nan）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MegaBox Chinese Restaurants 分類（Crystal Jade Jiang Nan）",
+          "url": "https://www.megabox.com.hk/shop_category.php?mid=73&scid=11&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon MegaBox",
+          "url": "https://photon.komoot.io/api/?q=MegaBox+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "香港經濟日報：翡翠江南午市一人套餐$98起",
+          "url": "https://paper.hket.com/article/3998080/%E7%BF%A1%E7%BF%A0%E6%B1%9F%E5%8D%97%E4%B9%9D%E9%BE%8D%E7%81%A3%E5%88%86%E5%BA%97%E7%99%BB%E5%A0%B4%20%E5%8D%88%E5%B8%82%E4%B8%80%E4%BA%BA%E5%A5%97%E9%A4%90-98%E8%B5%B7",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "ugo：翡翠江南人均約$101–200、午市一人套餐$98起",
+          "url": "https://ugo-hk.com/restaurant/13792/%E7%BF%A1%E7%BF%A0%E6%B1%9F%E5%8D%97",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $98–180"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "the-palace-huangfu-megabox",
+      "name_zh": "煌府一號／The Palace（MegaBox）",
+      "name_en": "The Palace / Huangfu No.1 (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍九龍灣宏照道38號Megabox13樓4號舖",
+      "cuisine": [
+        "粵菜",
+        "中菜"
+      ],
+      "tags": [
+        "連鎖",
+        "酒樓",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox L13 煌府一號／The Palace，中菜廳正餐堂食。同類中菜廳午市人均多約一百至二百；未核實本店官價，加一另計，建議查當日套餐。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（The Palace）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "衞生署星級有營食肆（煌府一號 Megabox）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=608",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon MegaBox",
+          "url": "https://photon.komoot.io/api/?q=MegaBox+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "同類中菜廳慣例（煌府一號午市／未核實官價）",
+          "url": "https://www.openrice.com/zh/hongkong/restaurants?what=%E7%85%8C%E5%BA%9C%E4%B8%80%E8%99%9F",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $100–200（午市／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "california-pizza-kitchen-megabox",
+      "name_zh": "California Pizza Kitchen（MegaBox）",
+      "name_en": "California Pizza Kitchen (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍灣宏照道38號企業廣場五期MegaBox L11 10號舖",
+      "cuisine": [
+        "美式",
+        "薄餅"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox L11 California Pizza Kitchen，西式薄餅／沙律正餐堂食。公開目錄人均多約$101–200帶；未核實本店官價，一人薄餅加飲大約呢個範圍。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（California Pizza Kitchen）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon MegaBox",
+          "url": "https://photon.komoot.io/api/?q=MegaBox+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "公開目錄慣例：CPK 人均約$101–200（未核實本店官價）",
+          "url": "https://www.openrice.com/zh/hongkong/r-california-pizza-kitchen-%E4%B9%9D%E9%BE%8D%E7%81%A3-%E7%BE%8E%E5%BC%8F-r888973",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $90–160（午餐／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "rakuraku-ramen-megabox",
+      "name_zh": "樂拉麵 RAKURAKU（MegaBox）",
+      "name_en": "RAKURAKU RAMEN (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "area": "MegaBox",
+      "address": "九龍灣宏照道38號企業廣場五期MegaBox L10 9-10號舖",
+      "cuisine": [
+        "日式",
+        "拉麵"
+      ],
+      "tags": [
+        "連鎖",
+        "拉麵",
+        "商場店"
+      ],
+      "lunch_notes": "MegaBox L10 樂拉麵 RAKURAKU，拉麵／石鍋飯作午餐堂食。公開目錄人均約$51–100；一碗拉麵加小食大致呢個價帶，午市或稍等。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（RAKURAKU RAMEN）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon MegaBox",
+          "url": "https://photon.komoot.io/api/?q=MegaBox+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "WeekendHK：樂拉麵 RAKURAKU 人均約$51–100",
+          "url": "https://www.weekendhk.com/restaurant/rakuraku%e6%a8%82%e6%8b%89%e9%ba%b5megabox-%e4%b9%9d%e9%be%8d%e7%81%a3-%e6%97%a5%e6%9c%ac%e8%8f%9c-%e6%8b%89%e9%ba%b5-2704894/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $55–100"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "gyukaku-telford",
+      "name_zh": "牛角日本燒肉專門店（德福廣場）",
+      "name_en": "Gyu-Kaku Japanese Yakiniku (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣偉業街33號德福廣場二期4樓425號舖",
+      "cuisine": [
+        "日式",
+        "燒肉"
+      ],
+      "tags": [
+        "連鎖",
+        "燒肉",
+        "定食",
+        "商場店"
+      ],
+      "lunch_notes": "德福二期牛角，官方約11:30起涵蓋午市；燒肉定食堂食（非放題店）。食評午市定食約人均一百上下，視套餐可再高；未核實官價，加一另計。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "德福廣場官方（牛角日本燒肉專門店）",
+          "url": "https://www.telford-plaza.com/tch/dining/bltf2113b48ee299b5c",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "牛角官方分店（九龍灣德福廣場）",
+          "url": "https://www.gyukaku.com.hk/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "衞生署星級有營食肆（牛角 德福廣場二期）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=386",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：德福牛角午市定食約人均$100上下（視套餐／未核實官價）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%89%9B%E8%A7%92%E6%97%A5%E6%9C%AC%E7%87%92%E8%82%89%E5%B0%88%E9%96%80%E5%BA%97-%E4%B9%9D%E9%BE%8D%E7%81%A3-%E6%97%A5%E6%9C%AC%E8%8F%9C-%E7%84%A1%E8%82%89%E5%AE%9A%E9%A3%9F-r49333",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $100–200（午市定食／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "tao-heung-telford",
+      "name_zh": "稻香（德福廣場）",
+      "name_en": "Tao Heung (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣偉業街33號德福廣場二期8樓801號舖",
+      "cuisine": [
+        "粵菜",
+        "點心"
+      ],
+      "tags": [
+        "連鎖",
+        "酒樓",
+        "商場店"
+      ],
+      "lunch_notes": "德福二期稻香，日間時段有點心／中菜午餐堂食。OpenRice食評顯示稻香午市孖寶／定食常見約三十幾至八十元帶；酒樓加一另計，人多要等位。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "德福廣場官方（稻香）",
+          "url": "https://www.telford-plaza.com/tch/dining/bltdd4c54a0eb9dda16",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "稻香集團官方分店搜尋（德福廣場）",
+          "url": "https://www.taoheung.com.hk/tc/search/index.html?c=1&d=2",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：稻香午市孖寶／定食約$34–80帶（視點餐）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%A8%BB%E9%A6%99-%E4%B9%9D%E9%BE%8D%E7%81%A3-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $50–100"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "lei-garden-telford",
+      "name_zh": "利苑（德福廣場）",
+      "name_en": "Lei Garden (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣偉業街33號德福廣場一期1樓F2號舖",
+      "cuisine": [
+        "粵菜",
+        "點心"
+      ],
+      "tags": [
+        "連鎖",
+        "酒樓",
+        "商場店"
+      ],
+      "lunch_notes": "德福利苑，官方平日午市約11:30–15:00；粵菜／點心正餐堂食。目錄人均偏高約$201–400帶；未核實當日午市套餐官價，加一另計，宜預留預算。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "德福廣場官方（利苑）",
+          "url": "https://www.telford-plaza.com/tch/dining/blt2d9f42de9aee6abe",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "利苑官方分店（九龍灣）",
+          "url": "https://leigarden.hk/zh-hant/branch/%e4%b9%9d%e9%be%8d%e7%81%a3/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "ugo：利苑（九龍灣）目錄人均約$201–400（午市點心／未核實官價）",
+          "url": "https://ugo-hk.com/restaurant/13102/%E5%88%A9%E8%8B%91-%E4%B9%9D%E9%BE%8D%E7%81%A3",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $150–300（午市／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "peking-garden-telford",
+      "name_zh": "北京樓（德福廣場）",
+      "name_en": "Peking Garden (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣偉業街33號德福廣場一期1樓F20號舖",
+      "cuisine": [
+        "京菜",
+        "中菜"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "德福一期北京樓（美心中菜），官方約08:00–22:30涵蓋午市；京菜／外省菜正餐堂食。同類中菜廳午市人均多約一百至二百；未核實官價，加一另計。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "德福廣場官方（北京樓）",
+          "url": "https://www.telford-plaza.com/tch/dining/pekinggarden",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "同類美心中菜慣例（北京樓午市／未核實官價）",
+          "url": "https://www.openrice.com/zh/hongkong/restaurants?what=%E5%8C%97%E4%BA%AC%E6%A8%93",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $100–200（午市／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "maxims-palace-telford",
+      "name_zh": "美心皇宮（德福廣場）",
+      "name_en": "Maxim's Palace (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "area": "德福廣場",
+      "address": "九龍灣偉業街33號德福廣場一期地下G54號舖",
+      "cuisine": [
+        "粵菜",
+        "點心"
+      ],
+      "tags": [
+        "連鎖",
+        "酒樓",
+        "商場店"
+      ],
+      "lunch_notes": "德福一期美心皇宮，官方約07:30–23:30；點心／粵菜午餐堂食。OpenRice目錄人均約$101–200；未核實官價，視點心數量同加一，人多建議訂位。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "德福廣場官方（美心皇宮）",
+          "url": "https://www.telford-plaza.com/tch/dining/maximspalace",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 德福廣場",
+          "url": "https://photon.komoot.io/api/?q=Telford+Plaza+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice目錄：美心皇宮人均約$101–200（午市點心／未核實官價）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%BE%8E%E5%BF%83%E7%9A%87%E5%AE%AE-%E4%B9%9D%E9%BE%8D%E7%81%A3-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-r2053",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $80–160（午市點心／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "yue-fat-richland",
+      "name_zh": "裕發滷水餐廳（麗晶花園）",
+      "name_en": "Yue Fat Lou Shui Restaurant (Richland Gardens)",
+      "lat": 22.3296128,
+      "lng": 114.2059085,
+      "area": "麗晶商場／麗晶花園",
+      "address": "九龍灣宏光道80號麗晶花園商場2樓203-205號舖",
+      "cuisine": [
+        "滷水",
+        "麵食"
+      ],
+      "tags": [
+        "街坊店",
+        "正餐",
+        "EatSmart"
+      ],
+      "lunch_notes": "麗晶商場裕發滷水餐廳，EatSmart列中菜廳／麵食；滷味、粉麵作午餐堂食。同類店一人午餐多約五十至九十；未核實本店官價，邨商場街坊定位。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（裕發滷水餐廳）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10894",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 麗晶商場",
+          "url": "https://photon.komoot.io/api/?q=Richland+Gardens+Shopping+Centre+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "price_lunch_hkd": "約 $50–90（午餐／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "tamjai-yunnan-wang-hoi",
+      "name_zh": "譚仔雲南米線（宏開道／其士商業中心）",
+      "name_en": "TamJai Yunnan Mixian (Wang Hoi Road / Chevalier Commercial Centre)",
+      "lat": 22.3213309,
+      "lng": 114.2112739,
+      "area": "企業廣場／臨興街一帶（宏開道）",
+      "address": "九龍灣宏開道8號其士商業中心1樓B舖",
+      "cuisine": [
+        "米線",
+        "雲南菜"
+      ],
+      "tags": [
+        "連鎖",
+        "自選配料",
+        "大廈底",
+        "EatSmart"
+      ],
+      "lunch_notes": "其士商業中心譚仔雲南米線，自選湯底同配料米線為主食。目錄／食評人均多約$50上下，加小食會再高；寫字樓區午市或滿座。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（譚仔雲南米線 宏開道）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10332",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 其士商業中心",
+          "url": "https://photon.komoot.io/api/?q=Chevalier+Commercial+Centre+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔雲南人均約$50以下",
+          "url": "https://www.feehk.com/%E5%B0%96%E6%B2%99%E5%92%80%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $45–70"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "verified_at": "2026-09-25",
+      "id": "tao-heung-teahouse-one-kowloon",
+      "name_zh": "稻香．茶居（一號九龍）",
+      "name_en": "Tao Heung Tea House (One Kowloon)",
+      "lat": 22.3206348,
+      "lng": 114.2101349,
+      "area": "一號九龍／宏遠街（企業廣場一帶）",
+      "address": "九龍九龍灣宏遠街一號「一號九龍」G01舖",
+      "cuisine": [
+        "粵菜",
+        "點心"
+      ],
+      "tags": [
+        "連鎖",
+        "酒樓",
+        "大廈底"
+      ],
+      "lunch_notes": "一號九龍稻香．茶居，官方約11:00–16:00涵蓋午市；點心／中式套餐堂食。OpenRice食評顯示稻香午市孖寶／定食常見約三十幾至八十元帶；寫字樓區，加一另計。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "稻香集團官方分店搜尋（稻香．茶居 一號九龍）",
+          "url": "https://www.taoheung.com.hk/tc/search/index.html?c=1&d=2",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 一號九龍",
+          "url": "https://photon.komoot.io/api/?q=One+Kowloon+Kowloon+Bay",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：稻香午市孖寶／定食約$34–80帶（視點餐）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%A8%BB%E9%A6%99-%E4%B9%9D%E9%BE%8D%E7%81%A3-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "price_lunch_hkd": "約 $50–100"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "luckin-coffee-megabox",
+      "name_zh": "瑞幸咖啡（MegaBox）",
+      "name_en": "Luckin Coffee (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "exclude_reason": "pure_cafe：MegaBox 官方 Dining 目錄列 Luckin Coffee（G 14a，Deli & Confectioneries），屬純咖啡店，無確認正餐午餐",
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "starbucks-megabox",
+      "name_zh": "星巴克（MegaBox）",
+      "name_en": "Starbucks Coffee (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "exclude_reason": "pure_cafe：MegaBox 官方 Dining 目錄列 Starbucks Coffee（L6 4），屬純咖啡店，無確認正餐午餐",
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "antoshimo-cafe-bakery-megabox",
+      "name_zh": "Antoshimo Cafe & Bakery（MegaBox）",
+      "name_en": "Antoshimo Cafe & Bakery (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "exclude_reason": "bakery：MegaBox 官方目錄列 Antoshimo Cafe & Bakery（L10 6），官方介紹偏重沖繩餅店／cafe bakery，非正餐午餐堂食定位",
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（Antoshimo）",
+          "url": "https://www.megabox.com.hk/shopping_directory.php?mid=5&smc=D",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "luckin-coffee-telford",
+      "name_zh": "瑞幸咖啡（德福廣場）",
+      "name_en": "Luckin Coffee (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "exclude_reason": "pure_cafe：德福官方商戶頁列瑞幸咖啡（G18, G/F, 1期），屬純咖啡店，無確認正餐午餐",
+      "sources": [
+        {
+          "name": "德福廣場官方（瑞幸咖啡）",
+          "url": "https://www.telford-plaza.com/tch/dining/luckincoffee",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "starbucks-telford",
+      "name_zh": "星巴克（德福廣場）",
+      "name_en": "Starbucks Coffee (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "exclude_reason": "pure_cafe：德福官方商戶頁列星巴克（G1A, G/F, 1期），屬純咖啡店，無確認正餐午餐",
+      "sources": [
+        {
+          "name": "德福廣場官方（星巴克）",
+          "url": "https://www.telford-plaza.com/tch/dining/starbuckscoffee",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "phi-coffee-pancake-megabox",
+      "name_zh": "PHI Coffee & Pancake（MegaBox）",
+      "name_en": "PHI COFFEE & PANCAKE (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "exclude_reason": "pure_cafe：MegaBox 官方目錄列 PHI COFFEE & PANCAKE（L5 3, 4 & 9），以咖啡／梳乎厘班戟為主，非正餐午餐堂食定位",
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "golden-lilies-banquet-megabox",
+      "name_zh": "金百合宴會廳（MegaBox）",
+      "name_en": "Golden Lilies Banquet Hall (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "exclude_reason": "banquet／非日常午餐：MegaBox 官方目錄列 Golden Lilies Banquet Hall（L14 1，Chinese Restaurants），官方介紹偏宴會廳，非日常午市堂食定位",
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（Golden Lilies Banquet Hall）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "matcha-tokyo-megabox",
+      "name_zh": "THE MATCHA TOKYO（MegaBox）",
+      "name_en": "THE MATCHA TOKYO (MegaBox)",
+      "lat": 22.3197876,
+      "lng": 114.2084895,
+      "exclude_reason": "pure_cafe：MegaBox 官方目錄列 THE MATCHA TOKYO（L1 21 & 22，Japanese Gourmets），以抹茶專門店／cafe 定位為主，無確認正餐午餐",
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（THE MATCHA TOKYO）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "qianlang-restaurant-telford",
+      "name_zh": "茜廊餐廳（德福廣場）",
+      "name_en": "Qianlang Restaurant (Telford Plaza)",
+      "lat": 22.3230617,
+      "lng": 114.2128233,
+      "exclude_reason": "no_lunch：德福官方相關商戶頁列茜廊餐廳（P8, 平台, 1期）營業約 07:30–10:30，僅早餐時段，無午市",
+      "sources": [
+        {
+          "name": "德福廣場官方相關頁（茜廊餐廳時段見關聯列表）",
+          "url": "https://www.telford-plaza.com/tch/dining/bltf2113b48ee299b5c",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "tds-training-restaurant-kowloon-bay",
+      "name_zh": "TDS 訓練餐廳（九龍灣）",
+      "name_en": "TDS Training Restaurant (Kowloon Bay)",
+      "lat": 22.3198886,
+      "lng": 114.2135795,
+      "exclude_reason": "members_only／非一般公眾午餐：EatSmart 列「酒店及旅遊學院、國際廚藝學院 (TDS餐飲學會-九龍灣)(西式訓練餐廳)(只供會員)」，只供會員",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（TDS 九龍灣訓練餐廳）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=549",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "club-one-telford-gardens",
+      "name_zh": "會所1号 · 德藝會（德福花園）",
+      "name_en": "Club One / Tak Art Club (Telford Gardens)",
+      "lat": 22.3223161,
+      "lng": 114.2130752,
+      "exclude_reason": "private_club：EatSmart 列會所1号 · 德藝會（德福花園 P13-14），介紹偏會所／宴會貴賓房，非一般公眾商場午餐堂食",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（會所1号 · 德藝會）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=329",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "status": "enrichment complete",
+    "phase": "phase-2.5",
+    "notes_zh": "phase-2.5（v1.2）：33 間加厚 cuisine／tags／lunch_notes／price_lunch_hkd；有價 33（其中有公開推廣／目錄依據 23，未核實官價 10）。唔開新店、唔改 excluded。仍缺：企業廣場街舖、MegaBox／德福其餘正餐、麗晶非連鎖等（見 README）。",
+    "bbox_approx": [
+      22.318,
+      114.205,
+      22.335,
+      114.22
+    ],
+    "center_approx": [
+      22.323,
+      114.21
+    ]
+  }
+}

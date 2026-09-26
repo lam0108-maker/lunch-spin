@@ -1,0 +1,813 @@
+{
+  "district": "鯉魚門",
+  "version": "1.2",
+  "updated_at": "2026-09-25",
+  "criteria": {
+    "serves_lunch": true,
+    "dine_in": true,
+    "exclude": [
+      "bakery",
+      "pure_cafe",
+      "takeaway_only",
+      "no_dine_in",
+      "dinner_only_unverified_lunch"
+    ]
+  },
+  "restaurants": [
+    {
+      "id": "lung-mun-seafood",
+      "name_zh": "龍門海鮮酒家",
+      "name_en": "Lung Mun Seafood Restaurant",
+      "lat": 22.2925523,
+      "lng": 114.2390303,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道西",
+      "address": "九龍鯉魚門海傍道西20-22號地下",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午餐堂食",
+        "QTS",
+        "海景"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "鯉魚門海鮮街老牌粵菜海鮮酒家，官網／旅發局列每日由 12:00 起堂食。FeeHK 目錄人均約 $201–400；活海鮮多另選另計，建議提早訂枱。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "龍門海鮮酒家官網 Contact Us",
+          "url": "http://www.lungmun.com.hk/en/contactus.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "旅發局 PartnerNet（Lung Mun Sea Food Restaurant）",
+          "url": "https://partnernet.hktb.com/en/e_marketplace/company_directory/index.html?companyID=2552&accordionDefault=company&viewMode=Details",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice 龍門海鮮酒家",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E9%BE%8D%E9%96%80%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-%E9%AF%89%E9%AD%9A%E9%96%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%B5%B7%E9%AE%AE-r1974",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK：龍門海鮮酒家人均約$201–400",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E9%BE%8D%E9%96%80%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-72165",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $201–400"
+    },
+    {
+      "id": "gateway-cuisine-nam-dai-mun",
+      "name_zh": "南大門（Gateway Cuisine）",
+      "name_en": "Gateway Cuisine",
+      "lat": 22.2887339,
+      "lng": 114.2369456,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道中",
+      "address": "九龍鯉魚門海傍道中58A號地舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午市時段",
+        "QTS",
+        "海景"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "旅發局 QTS 認證海鮮酒家，OpenRice 列 11:00–15:00 午市堂食。FeeHK 目錄人均約 $401–800；海景位較搶手，多數建議訂枱，活海鮮另計。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "旅發局 QTS：Gateway Cuisine",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id2996.gateway-cuisine.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Discover Hong Kong：Gateway Cuisine",
+          "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-gateway-cuisine.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice 南大門",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E5%8D%97%E5%A4%A7%E9%96%80-%E9%AF%89%E9%AD%9A%E9%96%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%B5%B7%E9%AE%AE-r18288",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "南大門官網",
+          "url": "https://gatewaycuisine.com/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK：南大門人均約$401–800",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E5%8D%97%E5%A4%A7%E9%96%80-35771",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $401–800"
+    },
+    {
+      "id": "monet-garden-hai-tin",
+      "name_zh": "海天宴會廳（Monet Garden）",
+      "name_en": "Monet Garden",
+      "lat": 22.2888,
+      "lng": 114.2369,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道中",
+      "address": "九龍鯉魚門海傍道中59號地舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "宴會",
+        "午餐堂食",
+        "海景"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道中 Monet Garden 海天宴會廳，OpenRice 列每日 12:00 起堂食。FeeHK 目錄人均約 $201–400；官網有套餐／宴會選項，活海鮮另計，宜先訂。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "Monet Garden 海天宴會廳官網",
+          "url": "https://www.monetgarden.com.hk/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice 海天宴會廳",
+          "url": "https://www.openrice.com/zh/hongkong/r-monet-garden-lei-yue-mun-hong-kong-style-seafood-r469895",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK：海天宴會廳人均約$201–400",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E6%B5%B7%E5%A4%A9%E5%AE%B4%E6%9C%83%E5%BB%B3-20218",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $201–400"
+    },
+    {
+      "id": "ku-kee-seafood",
+      "name_zh": "鉅記海鮮酒家",
+      "name_en": "Ku Kee Restaurant",
+      "lat": 22.2921,
+      "lng": 114.239,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道西",
+      "address": "九龍鯉魚門海傍道西10C號地舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午餐堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道西鉅記海鮮酒家，OpenRice 列每日 12:00 起堂食。FeeHK 目錄人均約 $401–800；海鮮街酒家模式，活海鮮另選另計，建議訂枱。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "OpenRice 鉅記海鮮酒家",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E9%89%85%E8%A8%98%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-%E9%AF%89%E9%AD%9A%E9%96%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%B5%B7%E9%AE%AE-r1740",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK：鉅記海鮮酒家人均約$401–800",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E9%89%85%E8%A8%98%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-71990",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $401–800"
+    },
+    {
+      "id": "lung-tang-seafood",
+      "name_zh": "龍騰海鮮酒樓",
+      "name_en": "Lung Tang Restaurant",
+      "lat": 22.2913,
+      "lng": 114.2385,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道中",
+      "address": "九龍鯉魚門海傍道中1-2號地舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午餐堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道中龍騰海鮮酒樓，OpenRice 列約 11:30 起全日堂食。FeeHK 目錄人均約 $401–800；可自選海鮮交酒樓煮，加工費另計，人多宜訂。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "OpenRice 龍騰海鮮酒樓",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E9%BE%8D%E9%A8%B0%E6%B5%B7%E9%AE%AE%E9%85%92%E6%A8%93-%E9%AF%89%E9%AD%9A%E9%96%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%B5%B7%E9%AE%AE-r1979",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK：龍騰海鮮酒樓人均約$401–800",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E9%BE%8D%E9%A8%B0%E6%B5%B7%E9%AE%AE%E9%85%92%E6%A8%93-72170",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $401–800"
+    },
+    {
+      "id": "sea-king-garden",
+      "name_zh": "海皇園林酒家",
+      "name_en": "Sea King Garden Restaurant",
+      "lat": 22.2902,
+      "lng": 114.2379,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道中",
+      "address": "九龍鯉魚門海傍道中39號地下",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午餐堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道中海皇園林酒家，U Food 列約 11:00 起堂食。FeeHK 目錄人均約 $401–800；園林酒家定位，活海鮮另計，午市建議先電話確認。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "U Food 海皇園林酒家",
+          "url": "https://ufood.com.hk/restaurant/detail/%E9%AF%89%E9%AD%9A%E9%96%80/%E6%B5%B7%E7%9A%87%E5%9C%92%E6%9E%97%E9%85%92%E5%AE%B6/10105300008",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK：海皇園林酒家人均約$401–800",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E6%B5%B7%E7%9A%87%E5%9C%92%E6%9E%97%E9%85%92%E5%AE%B6-72920",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $401–800"
+    },
+    {
+      "id": "lei-yue-mun-seafood-restaurant",
+      "name_zh": "鯉魚門海鮮酒家",
+      "name_en": "Lei Yue Mun Seafood Restaurant",
+      "lat": 22.2924,
+      "lng": 114.239,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道西",
+      "address": "九龍鯉魚門海傍道西26-30號",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午餐堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道西鯉魚門海鮮酒家，U Food 列約 12:00 起堂食。FeeHK 目錄人均約 $101–200，相對海鮮街偏低帶；實際視點叫海鮮浮動，宜現場確認。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "U Food 鯉魚門海鮮酒家",
+          "url": "https://ufood.com.hk/restaurant/detail/%E9%AF%89%E9%AD%9A%E9%96%80/%E9%AF%89%E9%AD%9A%E9%96%80%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6/10105300021",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK：鯉魚門海鮮酒家人均約$101–200",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E9%AF%89%E9%AD%9A%E9%96%80%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-74391",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $101–200"
+    },
+    {
+      "id": "lei-yue-mun-tai-hing",
+      "name_zh": "鯉魚門大興餐廳",
+      "name_en": "Lei Yue Mun Tai Hing Restaurant",
+      "lat": 22.2926,
+      "lng": 114.2392,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道西",
+      "address": "九龍鯉魚門海傍道西54C號地舖",
+      "cuisine": [
+        "港式",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "茶餐廳風",
+        "海鮮套餐",
+        "午餐堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道西大興，港式海鮮茶餐廳定位，OpenRice 列約 11:00 起堂食。食評海鮮套餐常見約 $348–408（有指免加一優惠）；人多宜先訂，星期日燒味部休息。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "OpenRice 鯉魚門大興餐廳",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E9%AF%89%E9%AD%9A%E9%96%80%E5%A4%A7%E8%88%88%E9%A4%90%E5%BB%B3-%E9%AF%89%E9%AD%9A%E9%96%80-%E6%B8%AF%E5%BC%8F-%E6%B5%B7%E9%AE%AE-r521383",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：大興海鮮套餐約$348–408",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E9%AF%89%E9%AD%9A%E9%96%80%E5%A4%A7%E8%88%88%E9%A4%90%E5%BB%B3-%E9%AF%89%E9%AD%9A%E9%96%80-%E6%B8%AF%E5%BC%8F-%E6%B5%B7%E9%AE%AE-r521383/reviews",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $348–408"
+    },
+    {
+      "id": "silver-dragon-cafe",
+      "name_zh": "銀龍咖啡茶座",
+      "name_en": "Silver Dragon Cafe",
+      "lat": 22.29,
+      "lng": 114.2378,
+      "district": "鯉魚門",
+      "area": "三家村／海傍道中",
+      "address": "九龍鯉魚門海傍道中31號地下B號舖",
+      "cuisine": [
+        "港式",
+        "茶餐廳"
+      ],
+      "tags": [
+        "平價午餐",
+        "本地小食",
+        "堂食",
+        "非海鮮酒家"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "三家村／海傍道中銀龍咖啡茶座（非連鎖銀龍），OpenRice 列周一、三至日 10:00–16:30。FeeHK 目錄人均約 $50 以下；通粉／公仔麵等散點，適合唔想食海鮮酒家時抽Lunch。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "OpenRice 銀龍咖啡茶座",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E9%8A%80%E9%BE%8D%E5%92%96%E5%95%A1%E8%8C%B6%E5%BA%A7-%E9%AF%89%E9%AD%9A%E9%96%80-%E6%B8%AF%E5%BC%8F-r113923",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "GetReadyHK：鯉魚門本地美食（銀龍）",
+          "url": "https://www.getreadyhk.com/leisure-and-fun/place-to-go/item/1123-lei-yue-mun-food",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK：銀龍咖啡茶座人均約$50以下",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E9%8A%80%E9%BE%8D%E5%92%96%E5%95%A1%E8%8C%B6%E5%BA%A7-61793",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $30–50"
+    },
+    {
+      "id": "san-shun-lei-cha-chaan-teng",
+      "name_zh": "新順利茶餐廳",
+      "name_en": "San Shun Lei Cafe",
+      "lat": 22.2927,
+      "lng": 114.2393,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道西",
+      "address": "九龍鯉魚門海傍道西58號",
+      "cuisine": [
+        "港式",
+        "茶餐廳"
+      ],
+      "tags": [
+        "平價午餐",
+        "早餐午餐",
+        "堂食",
+        "非海鮮酒家"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道西新順利茶餐廳，OpenRice 列每日約 07:00–18:00，目錄人均約 $50 以下。沙嗲牛米／通粉等茶記主食；適合赶船或唔食海鮮嘅平價午餐堂食。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "OpenRice 新順利茶餐廳",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E6%96%B0%E9%A0%86%E5%88%A9%E8%8C%B6%E9%A4%90%E5%BB%B3-%E9%AF%89%E9%AD%9A%E9%96%80-%E6%B8%AF%E5%BC%8F-r19990",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $30–50"
+    },
+    {
+      "id": "kong-lung-seafood",
+      "name_zh": "港龍海鮮酒家",
+      "name_en": "Kong Lung Seafood Restaurant",
+      "lat": 22.29285,
+      "lng": 114.23945,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道西",
+      "address": "九龍鯉魚門海傍道西62號地舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午餐堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道西港龍海鮮酒家，OpenRice 列約 11:30 起堂食。FeeHK 目錄人均約 $201–400；可買海鮮交酒樓加工，加工費另計，午市建議先訂。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "OpenRice 港龍海鮮酒家",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E6%B8%AF%E9%BE%8D%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-%E9%AF%89%E9%AD%9A%E9%96%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%B5%B7%E9%AE%AE-r1717",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "OpenRice Kong Lung Seafood Restaurant (EN)",
+          "url": "https://www.openrice.com/en/hongkong/r-kong-lung-seafood-restaurant-lei-yue-mun-guangdong-seafood-r1717",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "FeeHK：港龍海鮮酒家人均約$201–400",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E6%B8%AF%E9%BE%8D%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-71973",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $201–400"
+    },
+    {
+      "id": "kam-lee-loy-seafood",
+      "name_zh": "金利來",
+      "name_en": "Kam Lee Loy",
+      "lat": 22.29255,
+      "lng": 114.23915,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道西",
+      "address": "九龍鯉魚門海傍道西54B號地舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午餐堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道西金利來，OpenRice 列約 10:30 起堂食；食評有提午／晚市海鮮餐。本輪未截到統一官價，參考同類海鮮街酒家標約 $201–400 模糊帶，以店內為準。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "OpenRice 金利來",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E9%87%91%E5%88%A9%E4%BE%86-%E9%AF%89%E9%AD%9A%E9%96%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%B5%B7%E9%AE%AE-r26786",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "U Food Kam Lee Loy Seafood Restaurant",
+          "url": "https://ufood.com.hk/restaurant/search/result?distIds=53",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "同類鯉魚門海鮮酒家FeeHK／目錄人均約$201–400（未核實本店官價）",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E9%BE%8D%E9%96%80%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-72165",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $201–400（午市／未核實官價）"
+    },
+    {
+      "id": "happy-seafood-restaurant",
+      "name_zh": "快樂漁港酒家",
+      "name_en": "Happy Seafood Restaurant",
+      "lat": 22.2892,
+      "lng": 114.2372,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道中／三家村",
+      "address": "九龍鯉魚門海傍道中53號地下A號舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午市時段",
+        "海景",
+        "少鹽少糖食店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道中快樂漁港，OpenRice 列約 11:30 起堂食，食評確認午市入座。FeeHK 目錄人均約 $401–800；海景酒家，參與少鹽少糖計劃，活海鮮另計宜訂枱。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "OpenRice 快樂漁港酒家",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E5%BF%AB%E6%A8%82%E6%BC%81%E6%B8%AF%E9%85%92%E5%AE%B6-%E9%AF%89%E9%AD%9A%E9%96%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%B5%B7%E9%AE%AE-r1138",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "U Food 快樂漁港酒家",
+          "url": "https://ufood.com.hk/restaurant/search/result?distIds=53",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "FeeHK：快樂漁港酒家人均約$401–800",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E5%BF%AB%E6%A8%82%E6%BC%81%E6%B8%AF%E9%85%92%E5%AE%B6-71587",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $401–800"
+    },
+    {
+      "id": "wai-lung-seafood",
+      "name_zh": "威龍海鮮酒家",
+      "name_en": "Wai Lung Seafood Restaurant",
+      "lat": 22.2907,
+      "lng": 114.2381,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道中",
+      "address": "九龍鯉魚門海傍道中17號",
+      "cuisine": [
+        "粵菜",
+        "潮州",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午市時段",
+        "海景"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道中威龍，粵菜／潮州海鮮酒家；OpenRice 約 11:30 起，KKday 列午市使用 12:00–14:30。KKday 套餐優惠約 $198–488／位（視方案）；茶芥加一另計，建議預訂。",
+      "price_level": 3,
+      "sources": [
+        {
+          "name": "OpenRice 威龍海鮮酒家",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E5%A8%81%E9%BE%8D%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-%E9%AF%89%E9%AD%9A%E9%96%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%B5%B7%E9%AE%AE-r3957",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "KKday：威龍海鮮套餐約$198–488／位（含午市時段）",
+          "url": "https://www.kkday.com/zh-hk/product/526719",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $198–488"
+    },
+    {
+      "id": "hoi-pang-seafood",
+      "name_zh": "海鵬海鮮",
+      "name_en": "Hoi Pang Seafood",
+      "lat": 22.29275,
+      "lng": 114.23935,
+      "district": "鯉魚門",
+      "area": "海鮮街／海傍道西",
+      "address": "九龍鯉魚門海傍道西59B號",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "海鮮街",
+        "酒家",
+        "午餐堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "海傍道西海鵬海鮮，OpenRice 列約 10:00 起堂食。FeeHK 目錄人均約 $101–200，屬海鮮街較低價帶；實際視點菜浮動，暫無大量食評，到店以餐牌為準。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "OpenRice 海鵬海鮮",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E6%B5%B7%E9%B5%AC%E6%B5%B7%E9%AE%AE-%E9%AF%89%E9%AD%9A%E9%96%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%B5%B7%E9%AE%AE-r76608",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "U Food 海鵬海鮮",
+          "url": "https://ufood.com.hk/restaurant/search/result?distIds=53",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "FeeHK：海鵬海鮮人均約$101–200",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3/%E6%B5%B7%E9%B5%AC%E6%B5%B7%E9%AE%AE-59358",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $101–200"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "crab-fairy-sam-ka-tsuen",
+      "name_zh": "蟹仙海鮮蒸氣石碢（三家村碼頭）",
+      "name_en": "Crab Fairy (Sam Ka Tsuen Pier)",
+      "lat": 22.2906939,
+      "lng": 114.2366133,
+      "exclude_reason": "偏晚餐／未覆蓋正常午市：OpenRice 訂座時段平日由 14:00 起（日／公眾假期由 13:00），未核實約 11:00–15:00 完整午市堂食",
+      "sources": [
+        {
+          "name": "OpenRice Crab Fairy（三家村碼頭東翼）",
+          "url": "https://www.openrice.com/en/hongkong/r-crab-fairy-yau-tong-hong-kong-style-seafood-r799352",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "ming-kee-seafood",
+      "name_zh": "鯉魚門明記海鮮",
+      "name_en": "Lei Yue Mun Ming Kee Seafood",
+      "lat": 22.2895,
+      "lng": 114.2376,
+      "exclude_reason": "未核實午餐時段／偏海鮮宴套餐：官網主打堂食套餐預訂（須提前 24 小時）及海鮮零售自取，未列平日正常午市營業時間表",
+      "sources": [
+        {
+          "name": "鯉魚門明記海鮮官網",
+          "url": "https://leiyuemunmingkee.com/",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "siu-heung-yuen-bakery",
+      "name_zh": "紹香園",
+      "name_en": "Siu Heung Yuen",
+      "lat": 22.2893,
+      "lng": 114.2375,
+      "exclude_reason": "bakery：媒體推介列紹香園（海傍道中46A）為餅家／手信（合桃、肉乾、雞仔餅），非正餐午餐堂食",
+      "sources": [
+        {
+          "name": "GetReadyHK：鯉魚門本地美食（紹香園）",
+          "url": "https://www.getreadyhk.com/leisure-and-fun/place-to-go/item/1123-lei-yue-mun-food",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "sam-ka-tsuen-suisan-closed",
+      "name_zh": "三家村水產（已結業）",
+      "name_en": "Sankason Suisan (Closed)",
+      "lat": 22.2907661,
+      "lng": 114.2364945,
+      "exclude_reason": "已結業：OpenRice 標示「已結業」；原址三家村渡輪碼頭東翼（旅發局曾列 Sankason Suisan）",
+      "sources": [
+        {
+          "name": "OpenRice 三家村水產（已結業）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E4%B8%89%E5%AE%B6%E6%9D%91%E6%B0%B4%E7%94%A2-%E6%B2%B9%E5%A1%98-%E6%97%A5%E6%9C%AC%E8%8F%9C-%E6%B5%B7%E9%AE%AE-r545549",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "lei-yue-mun-plaza-chains-in-yau-tong",
+      "name_zh": "鯉魚門廣場連鎖（大家樂／麥當勞／吉野家／百份百）",
+      "name_en": "Lei Yue Mun Plaza chains (kept in yau-tong)",
+      "lat": 22.2965,
+      "lng": 114.2388,
+      "exclude_reason": "已收於油塘檔 `yau-tong/`：鯉魚門廣場大家樂／麥當勞／吉野家／百份百不重複收錄本區；廣場屬油塘站上蓋生活圈",
+      "sources": [
+        {
+          "name": "麥當勞官網（鯉魚門廣場／油塘）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/203/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "衞生署星級有營食肆（百份百鯉魚門廣場）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10803",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "hoi-king-seafood",
+      "name_zh": "海景海鮮酒家",
+      "name_en": "Hoi King Seafood Restaurant",
+      "lat": 22.2898,
+      "lng": 114.2377,
+      "exclude_reason": "dinner_only_unverified_lunch：OpenRice／U Food 頁均無列營業時間表；食評多為晚市，未核實約 11:00–15:00 午市堂食",
+      "sources": [
+        {
+          "name": "OpenRice 海景海鮮酒家",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E6%B5%B7%E6%99%AF%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6-%E9%AF%89%E9%AD%9A%E9%96%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E6%B5%B7%E9%AE%AE-r5965",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "U Food 海景海鮮酒家",
+          "url": "https://ufood.com.hk/restaurant/detail/%E9%AF%89%E9%AD%9A%E9%96%80/%E6%B5%B7%E6%99%AF%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6/10105300010",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "crab-fairy-hua-fang",
+      "name_zh": "蟹仙華舫（三家村碼頭南翼）",
+      "name_en": "Crab Fairy Hua Fang (Sam Ka Tsuen Pier South)",
+      "lat": 22.2905,
+      "lng": 114.2365,
+      "exclude_reason": "未核實完整午市營業時間：OpenRice 營業時間欄空白；僅見訂座時段由約 12:30 起，無官網／目錄列明 11–15 正常午市時段表",
+      "sources": [
+        {
+          "name": "OpenRice 蟹仙華舫",
+          "url": "https://www.openrice.com/en/hongkong/r-%E8%9F%B9%E4%BB%99%E8%8F%AF%E8%88%AB-lei-yue-mun-hong-kong-style-seafood-r800434",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "jims-cafe-shung-shun",
+      "name_zh": "Jim's cafe（崇信街／鯉灣天下）",
+      "name_en": "Jim's cafe",
+      "lat": 22.2932,
+      "lng": 114.238,
+      "exclude_reason": "未核實午餐時段：U Food 有列祟信街8號鯉灣天下地下3B，但無營業時間；舊博客（2014）不足作現況午市證據",
+      "sources": [
+        {
+          "name": "U Food Jim's cafe",
+          "url": "https://ufood.com.hk/restaurant/search/result?distIds=53",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "lo-yau-kei-cart-noodles",
+      "name_zh": "老友記（車仔麵）",
+      "name_en": "Lo Yau Kei (Cart Noodles)",
+      "lat": 22.2932,
+      "lng": 114.238,
+      "exclude_reason": "缺營業時間來源：FeeHK／媒體有列鯉魚門店，本輪 OpenRice／官網無可用午市時間表 → 略（seed 缺口延續）",
+      "sources": [
+        {
+          "name": "FeeHK 鯉魚門餐廳列表（老友記）",
+          "url": "https://www.feehk.com/%E9%AF%89%E9%AD%9A%E9%96%80%E9%A4%90%E5%BB%B3",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "shui-heung-yuen-bakery-hoi-pong",
+      "name_zh": "瑞香園餅家",
+      "name_en": "Shui Heung Yuen Bakery",
+      "lat": 22.2895,
+      "lng": 114.2375,
+      "exclude_reason": "bakery：U Food 列海傍道41號C地下為餅家，非正餐午餐堂食",
+      "sources": [
+        {
+          "name": "U Food 瑞香園餅家",
+          "url": "https://ufood.com.hk/restaurant/search/result?distIds=53",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "status": "enrichment complete",
+    "phase": "phase-2.5",
+    "notes_zh": "phase-2.5（v1.2）：唔開新店、唔改 excluded。15 間加厚 cuisine／tags／lunch_notes／price_lunch_hkd；價錢以 FeeHK 目錄、KKday 套餐、OpenRice 食評為主——有依據 14、未核實官價 1（金利來）。廣場連鎖仍歸油塘。禁止估離地價。",
+    "bbox_approx": [
+      22.284,
+      114.235,
+      22.295,
+      114.245
+    ],
+    "center_approx": [
+      22.291,
+      114.238
+    ]
+  }
+}

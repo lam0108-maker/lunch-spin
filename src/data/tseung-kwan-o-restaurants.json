@@ -1,0 +1,3106 @@
+{
+  "district": "將軍澳",
+  "version": "1.3",
+  "updated_at": "2026-09-25",
+  "criteria": {
+    "serves_lunch": true,
+    "dine_in": true,
+    "exclude": [
+      "bakery",
+      "pure_cafe",
+      "takeaway_only",
+      "no_dine_in"
+    ]
+  },
+  "restaurants": [
+    {
+      "id": "osm_node_12492286125",
+      "name_zh": "大家樂（將軍澳廣場）",
+      "name_en": "Café de Coral (Tseung Kwan O Plaza)",
+      "lat": 22.3092763,
+      "lng": 114.2622529,
+      "area": "將軍澳廣場",
+      "address": "新界將軍澳唐德街1號將軍澳廣場1樓1-009至013號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "位於將軍澳廣場嘅大家樂連鎖快餐，平日午市有飯／粉麵／焗飯套餐連飲。 公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/eng/res.aspx?rst_id=10958",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12492286125",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "cafe-de-coral-nan-fung-plaza",
+      "name_zh": "大家樂（南豐廣場）",
+      "name_en": "Café de Coral (Nan Fung Plaza)",
+      "lat": 22.314526,
+      "lng": 114.2639495,
+      "area": "南豐廣場",
+      "address": "新界將軍澳培成路8號南豐廣場1樓R-2號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "位於南豐廣場嘅大家樂連鎖快餐，平日午市有飯／粉麵／焗飯套餐連飲。 公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/eng/res.aspx?rst_id=10984",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "cafe-de-coral-the-lohas",
+      "name_zh": "大家樂（康城 The LOHAS）",
+      "name_en": "Café de Coral (The LOHAS)",
+      "lat": 22.2955174,
+      "lng": 114.268519,
+      "area": "The LOHAS 康城",
+      "address": "新界將軍澳康城路1號The LOHAS 2樓205A號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "位於The LOHAS 康城嘅大家樂連鎖快餐，平日午市有飯／粉麵／焗飯套餐連飲。 公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/eng/res.aspx?rst_id=10960",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "cafe-de-coral-mcp2",
+      "name_zh": "大家樂（新都城中心二期）",
+      "name_en": "Café de Coral (Metro City Plaza Phase 2)",
+      "lat": 22.3232493,
+      "lng": 114.2581947,
+      "area": "新都城中心二期",
+      "address": "新界將軍澳欣景路8號新都城中心二期UG樓033號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "位於新都城中心二期嘅大家樂連鎖快餐，平日午市有飯／粉麵／焗飯套餐連飲。 公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
+      "sources": [
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "cafe-de-coral-popcorn2",
+      "name_zh": "大家樂（PopCorn 2）",
+      "name_en": "Café de Coral (PopCorn 2)",
+      "lat": 22.3080254,
+      "lng": 114.2601939,
+      "area": "PopCorn 2",
+      "address": "新界將軍澳唐俊街9號PopCorn 2地下G50A號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "位於PopCorn 2嘅大家樂連鎖快餐，平日午市有飯／粉麵／焗飯套餐連飲。 公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
+      "sources": [
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "cafe-de-coral-choi-ming",
+      "name_zh": "大家樂（彩明商場）",
+      "name_en": "Café de Coral (Choi Ming Shopping Centre)",
+      "lat": 22.3059781,
+      "lng": 114.2513181,
+      "area": "彩明商場",
+      "address": "新界將軍澳彩明街1號彩明商場3樓311及312號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "位於彩明商場嘅大家樂連鎖快餐，平日午市有飯／粉麵／焗飯套餐連飲。 公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
+      "sources": [
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "cafe-de-coral-king-lam",
+      "name_zh": "大家樂（景林商場）",
+      "name_en": "Café de Coral (King Lam Shopping Centre)",
+      "lat": 22.318858,
+      "lng": 114.2463595,
+      "area": "景林商場",
+      "address": "新界將軍澳寶琳路38號景林商場地下3B號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "位於景林商場嘅大家樂連鎖快餐，平日午市有飯／粉麵／焗飯套餐連飲。 公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
+      "sources": [
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "cafe-de-coral-tsui-lam",
+      "name_zh": "大家樂（翠林新城）",
+      "name_en": "Café de Coral (Tsui Lam Shopping Centre)",
+      "lat": 22.322749,
+      "lng": 114.2490099,
+      "area": "翠林新城",
+      "address": "新界將軍澳翠林邨翠林商場108號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "位於翠林新城嘅大家樂連鎖快餐，平日午市有飯／粉麵／焗飯套餐連飲。 公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
+      "sources": [
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "fairwood-po-lam",
+      "name_zh": "大快活（寶林商場）",
+      "name_en": "Fairwood (Po Lam Shopping Centre)",
+      "lat": 22.3225,
+      "lng": 114.257,
+      "area": "寶林商場",
+      "address": "新界將軍澳寶林邨寶林商場地下102號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "堂食"
+      ],
+      "price_level": 1,
+      "lunch_notes": "大快活（寶林商場，鄰近寶琳站）供應堂食飯麵／焗餐。 官網推廣雙餸碗連熱飲約$39，一般午市套餐約四十至六十元；官方分店頁標示堂食。",
+      "sources": [
+        {
+          "name": "大快活官方分店",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–60"
+    },
+    {
+      "id": "fairwood-mcp1",
+      "name_zh": "大快活（新都城中心一期）",
+      "name_en": "Fairwood (Metro City Plaza Phase 1)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "area": "新都城中心一期",
+      "address": "新界將軍澳新都城中心一期商場二樓204及207A號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "堂食"
+      ],
+      "price_level": 1,
+      "lunch_notes": "大快活（新都城中心一期，鄰近寶琳站B2）供應堂食飯麵／焗餐。 官網推廣雙餸碗連熱飲約$39，一般午市套餐約四十至六十元；官方分店頁標示堂食。",
+      "sources": [
+        {
+          "name": "大快活官方分店",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–60"
+    },
+    {
+      "id": "fairwood-mcp-discovery",
+      "name_zh": "大快活（都會駅）",
+      "name_en": "Fairwood (MCP Discovery)",
+      "lat": 22.3064,
+      "lng": 114.2525,
+      "area": "都會駅",
+      "address": "新界將軍澳景嶺路8號都會駅商場第二層R02號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "堂食"
+      ],
+      "price_level": 1,
+      "lunch_notes": "大快活（都會駅，調景嶺站B出口樓上）供應堂食飯麵／焗餐。 官網推廣雙餸碗連熱飲約$39，一般午市套餐約四十至六十元；官方分店頁標示堂食。",
+      "sources": [
+        {
+          "name": "大快活官方分店",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–60"
+    },
+    {
+      "id": "fairwood-hang-hau-lianli",
+      "name_zh": "大快活（坑口連理街）",
+      "name_en": "Fairwood (Hang Hau Lian Li Street)",
+      "lat": 22.3171896,
+      "lng": 114.2664035,
+      "area": "坑口連理街／TKO Gateway",
+      "address": "新界將軍澳坑口連理街1樓111號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "堂食"
+      ],
+      "price_level": 1,
+      "lunch_notes": "大快活（坑口連理街，坑口站樓上）供應堂食飯麵／焗餐。 官網推廣雙餸碗連熱飲約$39，一般午市套餐約四十至六十元；官方分店頁標示堂食。",
+      "sources": [
+        {
+          "name": "大快活官方分店",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–60"
+    },
+    {
+      "id": "fairwood-park-central",
+      "name_zh": "大快活（將軍澳中心）",
+      "name_en": "Fairwood (Park Central)",
+      "lat": 22.3083978,
+      "lng": 114.2588054,
+      "area": "將軍澳中心",
+      "address": "新界將軍澳唐德街9號將軍澳中心地庫一樓B12及B13號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "堂食"
+      ],
+      "price_level": 1,
+      "lunch_notes": "大快活（將軍澳中心商場）供應堂食飯麵／焗餐。 官網推廣雙餸碗連熱飲約$39，一般午市套餐約四十至六十元；官方分店頁標示堂食。",
+      "sources": [
+        {
+          "name": "大快活官方分店",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–60"
+    },
+    {
+      "id": "fairwood-bauhinia",
+      "name_zh": "大快活（寶盈花園）",
+      "name_en": "Fairwood (Bauhinia Garden)",
+      "lat": 22.3062104,
+      "lng": 114.2622697,
+      "area": "寶盈花園",
+      "address": "新界將軍澳唐俊街11號寶盈花園商場地下S9等舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "堂食"
+      ],
+      "price_level": 1,
+      "lunch_notes": "大快活（寶盈花園街舖／商場）供應堂食飯麵／焗餐。 官網推廣雙餸碗連熱飲約$39，一般午市套餐約四十至六十元；官方分店頁標示堂食。",
+      "sources": [
+        {
+          "name": "大快活官方分店",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–60"
+    },
+    {
+      "id": "mcdonalds-park-central",
+      "name_zh": "麥當勞（將軍澳中心）",
+      "name_en": "McDonald's (Park Central)",
+      "lat": 22.3083978,
+      "lng": 114.2588054,
+      "area": "將軍澳中心",
+      "address": "新界將軍澳唐德街9號將軍澳中心地下G33號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "大堂座位"
+      ],
+      "price_level": 1,
+      "lunch_notes": "麥當勞（將軍澳中心）有大堂座位，漢堡／套餐作午餐。 App常見指定超值套餐約$36起，門市正價套餐大約四十多至五十多元；人流高峰或要排隊。",
+      "sources": [
+        {
+          "name": "麥當勞香港官方分店",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/342/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $36–55"
+    },
+    {
+      "id": "mcdonalds-beverly-garden",
+      "name_zh": "麥當勞（海悅豪園）",
+      "name_en": "McDonald's (Beverly Garden)",
+      "lat": 22.314,
+      "lng": 114.2645,
+      "area": "海悅豪園",
+      "address": "新界將軍澳坑口培成路18號海悅豪園購物商場地下9號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "大堂座位"
+      ],
+      "price_level": 1,
+      "lunch_notes": "麥當勞（海悅豪園）有大堂座位，漢堡／套餐作午餐。 App常見指定超值套餐約$36起，門市正價套餐大約四十多至五十多元；人流高峰或要排隊。",
+      "sources": [
+        {
+          "name": "麥當勞香港官方分店",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/261/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $36–55"
+    },
+    {
+      "id": "osm_node_3478494185",
+      "name_zh": "麥當勞（寶林／茵怡一帶）",
+      "name_en": "McDonald's (Po Lam / Verbena area)",
+      "lat": 22.3249974,
+      "lng": 114.2560381,
+      "area": "寶林",
+      "address": "新界將軍澳寶琳一帶（OSM 節點；另有官方寶林商場店：寶林商場地下103號舖）",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "大堂座位"
+      ],
+      "price_level": 1,
+      "lunch_notes": "麥當勞（寶林）有大堂座位，漢堡／套餐作午餐。 App常見指定超值套餐約$36起，門市正價套餐大約四十多至五十多元；人流高峰或要排隊。",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/3478494185",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "麥當勞香港官方分店（寶林邨）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/170/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $36–55"
+    },
+    {
+      "id": "osm_node_4781074332",
+      "name_zh": "麥當勞（TKO Spot／尚德）",
+      "name_en": "McDonald's (TKO Spot)",
+      "lat": 22.3107875,
+      "lng": 114.2585311,
+      "area": "TKO Spot",
+      "address": "新界將軍澳唐明街2號TKO Spot一帶（OSM）；公開目錄另列2樓216號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "大堂座位"
+      ],
+      "price_level": 1,
+      "lunch_notes": "麥當勞（TKO Spot）有大堂座位，漢堡／套餐作午餐。 App常見指定超值套餐約$36起，門市正價套餐大約四十多至五十多元；人流高峰或要排隊。",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4781074332",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $36–55"
+    },
+    {
+      "id": "tamjai-yunnan-tko-plaza",
+      "name_zh": "譚仔雲南米線（將軍澳廣場）",
+      "name_en": "TamJai Yunnan Mixian (Tseung Kwan O Plaza)",
+      "lat": 22.3089292,
+      "lng": 114.2626026,
+      "area": "將軍澳廣場",
+      "address": "新界將軍澳將軍澳廣場1樓96-100號舖",
+      "cuisine": [
+        "米線",
+        "雲南菜"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料"
+      ],
+      "price_level": 1,
+      "lunch_notes": "譚仔雲南米線（將軍澳廣場）以自選湯底同配料米線為主食午餐。 目錄／食評人均多約$50上下，加小食或過橋會再高；平日午市較易滿座。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10341",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔雲南人均約$50以下",
+          "url": "https://www.feehk.com/%E5%B0%96%E6%B2%99%E5%92%80%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-26751",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "OpenRice食評：譚仔雲南米線午餐約$52起（配料視乎）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-%E6%B2%99%E7%94%B0-%E6%BB%87%E8%8F%9C-%E9%9B%B2%E5%8D%97-%E7%B2%89%E9%BA%B5-%E7%B1%B3%E7%B7%9A-r601021",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–70"
+    },
+    {
+      "id": "tamjai-samgor-mcp",
+      "name_zh": "譚仔三哥米線（新都城中心）",
+      "name_en": "TamJai SamGor Mixian (Metro City)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "area": "新都城中心",
+      "address": "新界將軍澳新都城中心2樓2018號舖",
+      "cuisine": [
+        "米線",
+        "麵食"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料"
+      ],
+      "price_level": 1,
+      "lunch_notes": "譚仔三哥（新都城中心）主打自選／過橋米線堂食。 目錄標示人均約$50以下，實際視乎配料同小食；官方有主餐牌可對湯底同食材。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10458",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔三哥人均約$50以下",
+          "url": "https://www.feehk.com/%E6%97%BA%E8%A7%92%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-66722",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "譚仔三哥官方主餐牌（自選／過橋米線）",
+          "url": "https://www.tjsamgor.com/hk/menu/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $40–65"
+    },
+    {
+      "id": "tamjai-samgor-east-point",
+      "name_zh": "譚仔三哥米線（東港城）",
+      "name_en": "TamJai SamGor Mixian (East Point City)",
+      "lat": 22.3163916,
+      "lng": 114.2654772,
+      "area": "東港城",
+      "address": "新界將軍澳重華路8號東港城2樓236號舖",
+      "cuisine": [
+        "米線",
+        "麵食"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料"
+      ],
+      "price_level": 1,
+      "lunch_notes": "譚仔三哥（東港城）主打自選／過橋米線堂食。 目錄標示人均約$50以下，實際視乎配料同小食；官方有主餐牌可對湯底同食材。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10421",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔三哥人均約$50以下",
+          "url": "https://www.feehk.com/%E6%97%BA%E8%A7%92%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-66722",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "譚仔三哥官方主餐牌（自選／過橋米線）",
+          "url": "https://www.tjsamgor.com/hk/menu/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $40–65"
+    },
+    {
+      "id": "tamjai-samgor-ming-tak",
+      "name_zh": "譚仔三哥米線（明德商場）",
+      "name_en": "TamJai SamGor Mixian (Ming Tak Shopping Centre)",
+      "lat": 22.3161894,
+      "lng": 114.2683465,
+      "area": "明德商場",
+      "address": "新界將軍澳培成里10號明德商場地下7及8號舖",
+      "cuisine": [
+        "米線",
+        "麵食"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料"
+      ],
+      "price_level": 1,
+      "lunch_notes": "譚仔三哥（明德商場）主打自選／過橋米線堂食。 目錄標示人均約$50以下，實際視乎配料同小食；官方有主餐牌可對湯底同食材。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10467",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔三哥人均約$50以下",
+          "url": "https://www.feehk.com/%E6%97%BA%E8%A7%92%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-66722",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "譚仔三哥官方主餐牌（自選／過橋米線）",
+          "url": "https://www.tjsamgor.com/hk/menu/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $40–65"
+    },
+    {
+      "id": "osm_node_11212297858",
+      "name_zh": "翠華餐廳（TKO Spot／唐明街）",
+      "name_en": "Tsui Wah Restaurant (Tong Ming Street)",
+      "lat": 22.3108319,
+      "lng": 114.2588817,
+      "area": "TKO Spot",
+      "address": "新界將軍澳唐明街2號一帶（OSM）",
+      "cuisine": [
+        "茶餐廳",
+        "粵菜"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳",
+        "正餐"
+      ],
+      "price_level": 2,
+      "lunch_notes": "翠華餐廳（TKO Spot）茶餐廳連鎖，有飯麵、焗餐同小菜作正餐午餐。 公開食評午餐人均多約$60–70；比一般快餐稍貴，適合想坐低食完整一餐嘅人。",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/11212297858",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：翠華午餐人均約$60–70",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%BF%A0%E8%8F%AF%E9%A4%90%E5%BB%B3-%E5%B0%96%E6%B2%99%E5%92%80-%E6%B8%AF%E5%BC%8F-%E7%84%A1%E8%82%89%E9%A4%90%E5%96%AE-r23190/reviews",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $60–90"
+    },
+    {
+      "id": "percent-restaurant-nan-fung",
+      "name_zh": "百份百餐廳（南豐廣場）",
+      "name_en": "100% Restaurant (Nan Fung Plaza)",
+      "lat": 22.314526,
+      "lng": 114.2639495,
+      "area": "南豐廣場",
+      "address": "新界將軍澳培成路8號南豐廣場1樓R-1B號舖",
+      "cuisine": [
+        "茶餐廳",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳",
+        "午餐"
+      ],
+      "price_level": 2,
+      "lunch_notes": "百份百餐廳（南豐廣場）港式茶餐廳，供應常餐、碟頭飯同粉麵。 食評提及午餐人均約$60上下；邨商場／街舖定位，適合街坊抽Lunch。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1124",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：百份百餐廳午餐約人均$60上下",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%99%BE%E4%BB%BD%E7%99%BE%E9%A4%90%E5%BB%B3-%E8%8D%83%E7%81%A3-%E6%B8%AF%E5%BC%8F-r666247/reviews",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $50–80"
+    },
+    {
+      "id": "teawood-popcorn",
+      "name_zh": "茶木‧台式休閒餐廳（PopCorn）",
+      "name_en": "Teawood Taiwanese Restaurant (PopCorn)",
+      "lat": 22.3080254,
+      "lng": 114.2601939,
+      "area": "PopCorn",
+      "address": "新界將軍澳唐賢街9號PopCorn地下G26及G27號舖",
+      "cuisine": [
+        "台式",
+        "休閒餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "套餐"
+      ],
+      "price_level": 2,
+      "lunch_notes": "茶木（PopCorn）台式休閒餐廳，有牛肉麵、飯同定食式正餐。 公開目錄人均約$51–100；PopCorn商場店，適合想食完整台式午餐多過快餐。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=588",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "WeekendHK：茶木人均約$51–100",
+          "url": "https://www.weekendhk.com/restaurant/%e8%8c%b6%e6%9c%a8%e2%80%a7%e5%8f%b0%e5%bc%8f%e4%bc%91%e9%96%92%e9%a4%90%e5%bb%b3popcorn1-%e5%b0%87%e8%bb%8d%e6%be%b3-%e5%8f%b0%e7%81%a3%e8%8f%9c-2895454/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $70–110"
+    },
+    {
+      "id": "osm_node_11722929665",
+      "name_zh": "海港酒家（新都城一期）",
+      "name_en": "Harbour Plaza Restaurant (MCP Phase 1)",
+      "lat": 22.3209089,
+      "lng": 114.257342,
+      "area": "新都城中心一期",
+      "address": "新界將軍澳新都城中心一期（OSM 標註）",
+      "cuisine": [
+        "粵菜",
+        "酒樓"
+      ],
+      "tags": [
+        "酒樓",
+        "午市",
+        "點心"
+      ],
+      "price_level": 2,
+      "lunch_notes": "海港酒家（新都城中心一期）粵菜酒樓，一般有午市點心／常餐。 本輪未截到公開價目；同類新界商場酒樓午市人均多八十至一百五十元，以店內為準。",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/11722929665",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "衞生署星級有營食肆（海王漁港將軍澳）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=415",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $80–150（午市／未核實官價）"
+    },
+    {
+      "id": "osm_node_3478494184",
+      "name_zh": "小寶車仔麵",
+      "name_en": "",
+      "lat": 22.3237894,
+      "lng": 114.254692,
+      "area": "寶林／毓雅里",
+      "address": "新界將軍澳毓雅里一帶（OSM）",
+      "cuisine": [
+        "車仔麵",
+        "麵食"
+      ],
+      "tags": [
+        "麵食",
+        "午餐",
+        "街舖"
+      ],
+      "price_level": 1,
+      "lunch_notes": "小寶車仔麵（寶林／毓雅里）街舖車仔麵，OSM標示 cuisine=車仔麵，屬正常午餐主食。 第二來源未核實營業時段同官價；同類車仔麵一碗連配料多三十多至六十元，以店內為準。",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/3478494184",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $35–60（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "haoyan-seafood-mcp-discovery",
+      "name_zh": "豪宴海鮮酒家（都會駅）",
+      "name_en": "Hao Yan Seafood Restaurant (MCP Discovery)",
+      "lat": 22.3064,
+      "lng": 114.2525,
+      "area": "都會駅",
+      "address": "新界將軍澳景嶺路8號都會駅商場2樓R01號舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "酒樓",
+        "午市"
+      ],
+      "price_level": 2,
+      "lunch_notes": "豪宴海鮮酒家（都會駅）粵菜海鮮酒樓，有營食肆列中菜廳。 典型午市有點心或套餐；本輪未截到公開價目，價帶參考同類酒樓，以店內為準。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1267",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $80–150（午市／未核實官價）"
+    },
+    {
+      "id": "yoshinoya-mcp1",
+      "name_zh": "吉野家（新都城中心一期）",
+      "name_en": "Yoshinoya (Metro City Plaza Phase 1)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "area": "新都城中心一期",
+      "address": "新界將軍澳運亨路1號新都城中心一期2樓256-258號舖",
+      "cuisine": [
+        "日式",
+        "牛肉飯"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "丼飯"
+      ],
+      "price_level": 1,
+      "lunch_notes": "吉野家（新都城中心一期）牛肉飯／定食快餐，MCP1官方目錄列約07:00–22:00。 公開推廣午市丼飯加餃子約$35起；一般一人午餐多四十至六十元。",
+      "sources": [
+        {
+          "name": "新都城中心一期官方餐飲",
+          "url": "https://www.metrocity1.com/dining-zh-hant/%e5%90%89%e9%87%8e%e5%ae%b6/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "新都城中心一期佳餚美食目錄",
+          "url": "https://www.metrocity1.com/dining/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Jetso Today：吉野家午市套餐約$35起",
+          "url": "https://www.jetsotoday.com/yoshinoya-202602/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $35–60"
+    },
+    {
+      "id": "mos-burger-mcp1",
+      "name_zh": "摩斯漢堡（新都城中心一期）",
+      "name_en": "MOS Burger (Metro City Plaza Phase 1)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "area": "新都城中心一期",
+      "address": "新界將軍澳運亨路1號新都城中心一期地下G29–G31號舖",
+      "cuisine": [
+        "漢堡",
+        "日式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "套餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "摩斯漢堡（新都城中心一期）日式漢堡堂食，商場列約08:00–22:00。 2026公開特惠：輕量套餐約$47–48、一人豐盛餐$70起；午市至下午6時常見推廣。",
+      "sources": [
+        {
+          "name": "新都城中心一期官方餐飲",
+          "url": "https://www.metrocity1.com/dining-zh-hant/mos-burger/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "新都城中心一期佳餚美食目錄",
+          "url": "https://www.metrocity1.com/dining/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Jetso Bear：摩斯一人特惠套餐$47–72／二人約人均$61",
+          "url": "https://jetsobear.com/mos-burger-new-value-set-meals-2026-p316240/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $47–75"
+    },
+    {
+      "id": "saizeriya-mcp1",
+      "name_zh": "薩莉亞意式餐廳（新都城中心一期）",
+      "name_en": "Saizeriya (Metro City Plaza Phase 1)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "area": "新都城中心一期",
+      "address": "新界將軍澳運亨路1號新都城中心一期地下G7、G16–24號舖",
+      "cuisine": [
+        "意式",
+        "家庭餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "午市套餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "薩莉亞（新都城中心一期）平日11:00–17:00有午市自由選／鐵板套餐。 官網主菜約$30–35，加沙律飲品大約$45–60，鐵板套餐$60；親子同打工仔都常見。",
+      "sources": [
+        {
+          "name": "薩莉亞官方分店情報",
+          "url": "https://www.saizeriya.com.hk/shop-info/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "新都城中心一期官方餐飲",
+          "url": "https://www.metrocity1.com/dining-zh-hant/saizeriya-italian-restaurant/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "薩莉亞官網：午市自由選主菜$30–35、鐵板套餐$60",
+          "url": "https://www.saizeriya.com.hk/%e3%80%90lunch-menu%e6%9b%b4%e6%96%b0%e3%80%91bravo%e5%a4%a7%e6%ba%80%e8%b6%b3%e9%90%b5%e6%9d%bf%e5%a5%97%e9%a4%90%e3%83%bb%e8%87%aa%e7%94%b1%e9%81%b8%e8%b6%85%e5%80%bc%e5%a5%97%e9%a4%90-%e6%9b%b4-2/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–80"
+    },
+    {
+      "id": "saizeriya-mcp2",
+      "name_zh": "薩莉亞意式餐廳（新都城中心二期）",
+      "name_en": "Saizeriya (Metro City Plaza Phase 2)",
+      "lat": 22.3232493,
+      "lng": 114.2581947,
+      "area": "新都城中心二期",
+      "address": "新界將軍澳欣景路8號新都城中心二期2樓2057–59號舖",
+      "cuisine": [
+        "意式",
+        "家庭餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "午市套餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "薩莉亞（新都城中心二期）平日11:00–17:00有午市自由選／鐵板套餐。 官網主菜約$30–35，加沙律飲品大約$45–60，鐵板套餐$60；親子同打工仔都常見。",
+      "sources": [
+        {
+          "name": "薩莉亞官方分店情報",
+          "url": "https://www.saizeriya.com.hk/shop-info/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "薩莉亞官網：午市自由選主菜$30–35、鐵板套餐$60",
+          "url": "https://www.saizeriya.com.hk/%e3%80%90lunch-menu%e6%9b%b4%e6%96%b0%e3%80%91bravo%e5%a4%a7%e6%ba%80%e8%b6%b3%e9%90%b5%e6%9d%bf%e5%a5%97%e9%a4%90%e3%83%bb%e8%87%aa%e7%94%b1%e9%81%b8%e8%b6%85%e5%80%bc%e5%a5%97%e9%a4%90-%e6%9b%b4-2/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–80"
+    },
+    {
+      "id": "saizeriya-tko-plaza",
+      "name_zh": "薩莉亞意式餐廳（將軍澳廣場）",
+      "name_en": "Saizeriya (Tseung Kwan O Plaza)",
+      "lat": 22.3089292,
+      "lng": 114.2626026,
+      "area": "將軍澳廣場",
+      "address": "新界將軍澳唐德街1號將軍澳廣場AEON店第2層L207號舖",
+      "cuisine": [
+        "意式",
+        "家庭餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "午市套餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "薩莉亞（將軍澳廣場）平日11:00–17:00有午市自由選／鐵板套餐。 官網主菜約$30–35，加沙律飲品大約$45–60，鐵板套餐$60；親子同打工仔都常見。",
+      "sources": [
+        {
+          "name": "薩莉亞官方分店情報",
+          "url": "https://www.saizeriya.com.hk/shop-info/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "薩莉亞官網：午市自由選主菜$30–35、鐵板套餐$60",
+          "url": "https://www.saizeriya.com.hk/%e3%80%90lunch-menu%e6%9b%b4%e6%96%b0%e3%80%91bravo%e5%a4%a7%e6%ba%80%e8%b6%b3%e9%90%b5%e6%9d%bf%e5%a5%97%e9%a4%90%e3%83%bb%e8%87%aa%e7%94%b1%e9%81%b8%e8%b6%85%e5%80%bc%e5%a5%97%e9%a4%90-%e6%9b%b4-2/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–80"
+    },
+    {
+      "id": "saizeriya-east-point",
+      "name_zh": "薩莉亞意式餐廳（東港城）",
+      "name_en": "Saizeriya (East Point City)",
+      "lat": 22.3163916,
+      "lng": 114.2654772,
+      "area": "東港城",
+      "address": "新界將軍澳重華路8號東港城第2層275號舖",
+      "cuisine": [
+        "意式",
+        "家庭餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "午市套餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "薩莉亞（東港城）平日11:00–17:00有午市自由選／鐵板套餐。 官網主菜約$30–35，加沙律飲品大約$45–60，鐵板套餐$60；親子同打工仔都常見。",
+      "sources": [
+        {
+          "name": "薩莉亞官方分店情報",
+          "url": "https://www.saizeriya.com.hk/shop-info/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "薩莉亞官網：午市自由選主菜$30–35、鐵板套餐$60",
+          "url": "https://www.saizeriya.com.hk/%e3%80%90lunch-menu%e6%9b%b4%e6%96%b0%e3%80%91bravo%e5%a4%a7%e6%ba%80%e8%b6%b3%e9%90%b5%e6%9d%bf%e5%a5%97%e9%a4%90%e3%83%bb%e8%87%aa%e7%94%b1%e9%81%b8%e8%b6%85%e5%80%bc%e5%a5%97%e9%a4%90-%e6%9b%b4-2/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–80"
+    },
+    {
+      "id": "saizeriya-sheung-tak",
+      "name_zh": "薩莉亞意式餐廳（尚德廣場）",
+      "name_en": "Saizeriya (Sheung Tak Plaza)",
+      "lat": 22.3107875,
+      "lng": 114.2585311,
+      "area": "尚德廣場／TKO Spot",
+      "address": "新界將軍澳唐明街2號尚德邨商業／停車場大樓1樓117號舖",
+      "cuisine": [
+        "意式",
+        "家庭餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "午市套餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "薩莉亞（尚德廣場／TKO Spot）平日11:00–17:00有午市自由選／鐵板套餐。 官網主菜約$30–35，加沙律飲品大約$45–60，鐵板套餐$60；親子同打工仔都常見。",
+      "sources": [
+        {
+          "name": "薩莉亞官方分店情報",
+          "url": "https://www.saizeriya.com.hk/shop-info/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "薩莉亞官網：午市自由選主菜$30–35、鐵板套餐$60",
+          "url": "https://www.saizeriya.com.hk/%e3%80%90lunch-menu%e6%9b%b4%e6%96%b0%e3%80%91bravo%e5%a4%a7%e6%ba%80%e8%b6%b3%e9%90%b5%e6%9d%bf%e5%a5%97%e9%a4%90%e3%83%bb%e8%87%aa%e7%94%b1%e9%81%b8%e8%b6%85%e5%80%bc%e5%a5%97%e9%a4%90-%e6%9b%b4-2/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–80"
+    },
+    {
+      "id": "saizeriya-popwalk2",
+      "name_zh": "薩莉亞意式餐廳（天晉滙二期）",
+      "name_en": "Saizeriya (PopWalk 2)",
+      "lat": 22.3063116,
+      "lng": 114.2608126,
+      "area": "天晉滙二期 PopWalk",
+      "address": "新界將軍澳唐賢街19號天晉滙二期地下G20號舖",
+      "cuisine": [
+        "意式",
+        "家庭餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "午市套餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "薩莉亞（天晉滙二期 PopWalk）平日11:00–17:00有午市自由選／鐵板套餐。 官網主菜約$30–35，加沙律飲品大約$45–60，鐵板套餐$60；親子同打工仔都常見。",
+      "sources": [
+        {
+          "name": "薩莉亞官方分店情報",
+          "url": "https://www.saizeriya.com.hk/shop-info/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "薩莉亞官網：午市自由選主菜$30–35、鐵板套餐$60",
+          "url": "https://www.saizeriya.com.hk/%e3%80%90lunch-menu%e6%9b%b4%e6%96%b0%e3%80%91bravo%e5%a4%a7%e6%ba%80%e8%b6%b3%e9%90%b5%e6%9d%bf%e5%a5%97%e9%a4%90%e3%83%bb%e8%87%aa%e7%94%b1%e9%81%b8%e8%b6%85%e5%80%bc%e5%a5%97%e9%a4%90-%e6%9b%b4-2/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–80"
+    },
+    {
+      "id": "subway-mcp1",
+      "name_zh": "Subway（新都城中心一期）",
+      "name_en": "Subway (Metro City Plaza Phase 1)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "area": "新都城中心一期",
+      "address": "新界將軍澳運亨路1號新都城中心一期2樓254–255號舖",
+      "cuisine": [
+        "三文治",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "輕食"
+      ],
+      "price_level": 1,
+      "lunch_notes": "Subway（新都城中心一期）三文治／ wrap 快餐，MCP1目錄列約11:00–20:30。 本輪未截到香港統一官價表；一般Footlong連飲大約四十至七十元，以店內為準。",
+      "sources": [
+        {
+          "name": "新都城中心一期官方餐飲",
+          "url": "https://www.metrocity1.com/dining-zh-hant/subway/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "新都城中心一期佳餚美食目錄",
+          "url": "https://www.metrocity1.com/dining/",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $40–70（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "pick-one-bing-sutt-mcp1",
+      "name_zh": "拾一冰室（新都城中心一期）",
+      "name_en": "Pick One Bing Sutt (Metro City Plaza Phase 1)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "area": "新都城中心一期",
+      "address": "新界將軍澳運亨路1號新都城中心一期地下G25號舖",
+      "cuisine": [
+        "冰室",
+        "茶餐廳"
+      ],
+      "tags": [
+        "冰室",
+        "午餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "拾一冰室（新都城中心一期）港式冰室，MCP1目錄列約07:00–22:00，有飯麵粉麵正餐。 本輪未截到統一官價；同類冰室午餐多四十多至七十多元，以店內為準。",
+      "sources": [
+        {
+          "name": "新都城中心一期官方（拾一冰室）",
+          "url": "https://www.metrocity1.com/new-shop-zh-hant/%e6%8b%be%e4%b8%80%e5%86%b0%e5%ae%a4/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "新都城中心一期佳餚美食目錄",
+          "url": "https://www.metrocity1.com/dining/",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–75（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "mixian-sense-popcorn2",
+      "name_zh": "米線陣（PopCorn 2）",
+      "name_en": "Mixian Sense (PopCorn 2)",
+      "lat": 22.3080254,
+      "lng": 114.2601939,
+      "area": "PopCorn 2",
+      "address": "新界將軍澳唐俊街9號PopCorn 2地下G50B號舖",
+      "cuisine": [
+        "米線",
+        "亞洲麵食"
+      ],
+      "tags": [
+        "連鎖",
+        "午餐",
+        "大家樂集團"
+      ],
+      "price_level": 1,
+      "lunch_notes": "米線陣（PopCorn 2）主打米線／麵食堂食，屬大家樂集團。 OpenRice連鎖目錄人均約$50以下；商場舖，午市以一碗米線加飲為典型。",
+      "sources": [
+        {
+          "name": "PopCorn 官方餐飲食肆（米線陣）",
+          "url": "https://www.popcorntko.com.hk/tch/dining/bltcae3afde8fbb817b",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/eng/res.aspx?rst_id=11174",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice 連鎖目錄：米線陣人均約$50以下",
+          "url": "https://www.openrice.com/zh/hongkong/restaurants?chainId=10002886",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–65"
+    },
+    {
+      "id": "mixian-sense-mcp2",
+      "name_zh": "米線陣（新都城中心二期）",
+      "name_en": "Mixian Sense (Metro City Phase 2)",
+      "lat": 22.3232493,
+      "lng": 114.2581947,
+      "area": "新都城中心二期",
+      "address": "新界將軍澳欣景路8號新都城中心二期UG樓UG008號舖",
+      "cuisine": [
+        "米線",
+        "亞洲麵食"
+      ],
+      "tags": [
+        "連鎖",
+        "午餐",
+        "大家樂集團"
+      ],
+      "price_level": 1,
+      "lunch_notes": "米線陣（新都城中心二期）主打米線／麵食堂食，屬大家樂集團。 OpenRice連鎖目錄人均約$50以下；商場舖，午市以一碗米線加飲為典型。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/eng/res.aspx?rst_id=11173",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice 連鎖目錄：米線陣人均約$50以下",
+          "url": "https://www.openrice.com/zh/hongkong/restaurants?chainId=10002886",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–65"
+    },
+    {
+      "id": "asam-chicken-rice-popcorn",
+      "name_zh": "亞參雞飯（PopCorn）",
+      "name_en": "ASAM Chicken Rice (PopCorn)",
+      "lat": 22.3080254,
+      "lng": 114.2601939,
+      "area": "PopCorn",
+      "address": "新界將軍澳唐賢街9號PopCorn 1地下G05–G06號舖",
+      "cuisine": [
+        "新加坡菜",
+        "雞飯"
+      ],
+      "tags": [
+        "正餐",
+        "午餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "亞參雞飯（PopCorn）星馬雞飯為主，PopCorn列約11:00–21:30。 公開目錄人均約$51–100；海南雞飯／咖哩麵係典型午餐選擇。",
+      "sources": [
+        {
+          "name": "PopCorn 官方餐飲食肆（亞參雞飯）",
+          "url": "https://www.popcorntko.com.hk/tch/dining/asamchickenrice",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "WeekendHK／ugo：亞參雞飯人均約$51–100",
+          "url": "https://www.weekendhk.com/restaurant/%e4%ba%9e%e5%8f%83%e9%9b%9e%e9%a3%afpopcorn1-%e5%b0%87%e8%bb%8d%e6%be%b3-%e5%8d%88%e9%a4%90-%e4%b8%8b%e5%8d%88%e8%8c%b6-%e6%99%9a%e9%a4%90-cafe-%e5%ae%b5%e5%ae%b5%e5%a4%9c-2895364/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $55–90"
+    },
+    {
+      "id": "putien-popcorn2",
+      "name_zh": "莆田（PopCorn 2）",
+      "name_en": "PUTIEN (PopCorn 2)",
+      "lat": 22.3080254,
+      "lng": 114.2601939,
+      "area": "PopCorn 2",
+      "address": "新界將軍澳唐俊街9號PopCorn 2 1樓F94號舖",
+      "cuisine": [
+        "閩菜",
+        "福建菜"
+      ],
+      "tags": [
+        "正餐",
+        "午市",
+        "連鎖"
+      ],
+      "price_level": 2,
+      "lunch_notes": "莆田（PopCorn 2）閩菜館，PopCorn官方列約11:30–22:30堂食。 目錄人均約$101–200；偏正餐定位，一人午餐通常高過快餐同茶餐廳。",
+      "sources": [
+        {
+          "name": "PopCorn 官方餐飲食肆（莆田）",
+          "url": "https://www.popcorntko.com.hk/tch/dining/bltc949be3e9e492163",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "莆田官方",
+          "url": "http://www.putien.com/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "WeekendHK／目錄：莆田人均約$101–200",
+          "url": "https://www.weekendhk.com/restaurant/%e8%8e%86%e7%94%b0popcorn2-%e5%b0%87%e8%bb%8d%e6%be%b3-%e4%b8%ad%e8%8f%9c-%e6%b5%b7%e9%ae%ae-%e4%b8%8b%e5%8d%88%e8%8c%b6-%e5%8d%88%e9%a4%90-%e6%99%9a%e9%a4%90-2895253/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $120–200"
+    },
+    {
+      "id": "yamamoto-hamburg-popcorn",
+      "name_zh": "山本漢堡 Yamamoto Hamburg（PopCorn）",
+      "name_en": "Yamamoto Hamburg (PopCorn)",
+      "lat": 22.3080254,
+      "lng": 114.2601939,
+      "area": "PopCorn",
+      "address": "新界將軍澳唐賢街9號PopCorn 1 1樓F23號舖",
+      "cuisine": [
+        "日式",
+        "漢堡飯"
+      ],
+      "tags": [
+        "正餐",
+        "午餐",
+        "商場店"
+      ],
+      "price_level": 2,
+      "lunch_notes": "山本漢堡（PopCorn）日式漢堡飯正餐，PopCorn列約08:00–22:00。 本輪未截到統一官價表；同類日式漢堡飯午餐多七十元起，以店內餐牌為準。",
+      "sources": [
+        {
+          "name": "PopCorn 官方餐飲食肆（Yamamoto Hamburg）",
+          "url": "https://www.popcorntko.com.hk/tch/dining/616",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $70–120（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "elan-restaurant-mcp2",
+      "name_zh": "意樂餐廳（新都城中心二期）",
+      "name_en": "Élan Restaurant (Metro City Phase 2)",
+      "lat": 22.3232493,
+      "lng": 114.2581947,
+      "area": "新都城中心二期",
+      "address": "新界將軍澳欣景路8號新都城中心二期2樓2028–31號舖",
+      "cuisine": [
+        "日韓",
+        "休閒餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "午餐",
+        "輕食"
+      ],
+      "price_level": 2,
+      "lunch_notes": "意樂餐廳（新都城中心二期）日韓風輕食／麵食連鎖，EatSmart列堂食正餐。 公開目錄多人均$51–100；本輪未截到統一官價，以店內套餐餐牌為準。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1323",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $60–100（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "elan-restaurant-popwalk2",
+      "name_zh": "意樂餐廳（天晉滙II）",
+      "name_en": "Élan Restaurant (PopWalk II)",
+      "lat": 22.3063116,
+      "lng": 114.2608126,
+      "area": "天晉滙II PopWalk",
+      "address": "新界將軍澳唐賢街19號天晉滙II商場地下G06A號舖",
+      "cuisine": [
+        "日韓",
+        "休閒餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "午餐",
+        "輕食"
+      ],
+      "price_level": 2,
+      "lunch_notes": "意樂餐廳（天晉滙II PopWalk）日韓風輕食／麵食連鎖，EatSmart列堂食正餐。 公開目錄多人均$51–100；本輪未截到統一官價，以店內套餐餐牌為準。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1320",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $60–100（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "tsui-wah-hau-tak-gateway",
+      "name_zh": "翠華餐廳（厚德／TKO Gateway）",
+      "name_en": "Tsui Wah Restaurant (Hau Tak / TKO Gateway)",
+      "lat": 22.3171896,
+      "lng": 114.2664035,
+      "area": "厚德邨 TKO Gateway",
+      "address": "新界將軍澳常寧路2號厚德邨TKO Gateway東翼1樓E164號舖",
+      "cuisine": [
+        "茶餐廳",
+        "粵菜"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳",
+        "正餐"
+      ],
+      "price_level": 2,
+      "lunch_notes": "翠華餐廳（厚德邨 TKO Gateway）茶餐廳連鎖，有飯麵、焗餐同小菜作正餐午餐。 公開食評午餐人均多約$60–70；比一般快餐稍貴，適合想坐低食完整一餐嘅人。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=56",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：翠華午餐人均約$60–70",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%BF%A0%E8%8F%AF%E9%A4%90%E5%BB%B3-%E5%B0%96%E6%B2%99%E5%92%80-%E6%B8%AF%E5%BC%8F-%E7%84%A1%E8%82%89%E9%A4%90%E5%96%AE-r23190/reviews",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $60–90"
+    },
+    {
+      "id": "zhenwei-xianchu-beverly",
+      "name_zh": "真味鮮廚（海悅豪園）",
+      "name_en": "Zhen Wei Xian Chu (Beverly Garden)",
+      "lat": 22.314,
+      "lng": 114.2645,
+      "area": "海悅豪園",
+      "address": "新界將軍澳培成路18號海悅豪園地下10號舖樓全層",
+      "cuisine": [
+        "粵菜",
+        "中菜廳"
+      ],
+      "tags": [
+        "中菜",
+        "午市"
+      ],
+      "price_level": 2,
+      "lunch_notes": "真味鮮廚（海悅豪園）中菜廳（海港系品牌），有營食肆核實堂食。 午市有正餐／小菜；本輪未截到公開價目，參考同類中菜廳，以店內為準。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=417",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $70–120（午市／未核實官價）"
+    },
+    {
+      "id": "namkee-noodles-mcp2",
+      "name_zh": "香港仔南記粉麵（新都城中心二期）",
+      "name_en": "Aberdeen Nam Kee Noodle (Metro City Phase 2)",
+      "lat": 22.3232493,
+      "lng": 114.2581947,
+      "area": "新都城中心二期",
+      "address": "新界將軍澳貿業路8號新都城中心2期2樓2032–34號舖",
+      "cuisine": [
+        "粉麵",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "粉麵",
+        "快餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "香港仔南記粉麵（新都城中心二期）粉麵連鎖，湯粉／撈麵作主食午餐。 同類粉麵舖公開食評常見三十多元起；本輪未截到統一官價表，實際以店內餐牌為準。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=2040",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $30–55（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "haiwang-yugang-mcp2",
+      "name_zh": "海王漁港（新都城中心二期）",
+      "name_en": "Harbour King Seafood (Metro City Phase 2)",
+      "lat": 22.3232493,
+      "lng": 114.2581947,
+      "area": "新都城中心二期",
+      "address": "新界將軍澳新都城中心第二期第二層2008號舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "酒樓",
+        "午市"
+      ],
+      "price_level": 2,
+      "lunch_notes": "海王漁港（新都城中心二期）粵菜海鮮酒樓，有營食肆列中菜廳，與一期海港酒家為不同店號。 午市以點心／海鮮常餐為主；本輪未截到公開價目，以店內為準。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=415",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $80–150（午市／未核實官價）"
+    },
+    {
+      "id": "tamjai-yunnan-mcp3",
+      "name_zh": "譚仔雲南米線（新都城三期／都會駅）",
+      "name_en": "TamJai Yunnan Mixian (MCP Discovery Phase III)",
+      "lat": 22.3064,
+      "lng": 114.2525,
+      "area": "都會駅／新都城三期",
+      "address": "新界將軍澳新都城第三期2樓216–219號舖",
+      "cuisine": [
+        "米線",
+        "雲南菜"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料"
+      ],
+      "price_level": 1,
+      "lunch_notes": "譚仔雲南米線（都會駅／新都城三期）以自選湯底同配料米線為主食午餐。 目錄／食評人均多約$50上下，加小食或過橋會再高；平日午市較易滿座。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10333",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔雲南人均約$50以下",
+          "url": "https://www.feehk.com/%E5%B0%96%E6%B2%99%E5%92%80%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-26751",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "OpenRice食評：譚仔雲南米線午餐約$52起（配料視乎）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-%E6%B2%99%E7%94%B0-%E6%BB%87%E8%8F%9C-%E9%9B%B2%E5%8D%97-%E7%B2%89%E9%BA%B5-%E7%B1%B3%E7%B7%9A-r601021",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–70"
+    },
+    {
+      "id": "tamjai-yunnan-sheung-tak",
+      "name_zh": "譚仔雲南米線（尚德商場）",
+      "name_en": "TamJai Yunnan Mixian (Sheung Tak Shopping Centre)",
+      "lat": 22.3107875,
+      "lng": 114.2585311,
+      "area": "尚德商場",
+      "address": "新界將軍澳尚德邨尚德商場2樓240號舖",
+      "cuisine": [
+        "米線",
+        "雲南菜"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料"
+      ],
+      "price_level": 1,
+      "lunch_notes": "譚仔雲南米線（尚德商場）以自選湯底同配料米線為主食午餐。 目錄／食評人均多約$50上下，加小食或過橋會再高；平日午市較易滿座。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10334",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔雲南人均約$50以下",
+          "url": "https://www.feehk.com/%E5%B0%96%E6%B2%99%E5%92%80%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-26751",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "OpenRice食評：譚仔雲南米線午餐約$52起（配料視乎）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-%E6%B2%99%E7%94%B0-%E6%BB%87%E8%8F%9C-%E9%9B%B2%E5%8D%97-%E7%B2%89%E9%BA%B5-%E7%B1%B3%E7%B7%9A-r601021",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–70"
+    },
+    {
+      "id": "osm_node_4806152287",
+      "name_zh": "牛奶冰室（海悅豪園）",
+      "name_en": "Milk Cafe (Beverly Garden)",
+      "lat": 22.3145928,
+      "lng": 114.2652368,
+      "area": "海悅豪園",
+      "address": "新界將軍澳培成路18號海悅豪園購物中心地下G1號舖",
+      "cuisine": [
+        "冰室",
+        "茶餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "冰室",
+        "港式常餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "牛奶冰室（海悅豪園）港式冰室連鎖，營業約07:00–21:00，有炒滑蛋、飯麵等正餐。 公開品牌頁核實時段；午餐人均未見統一官價表，以店內餐牌為準，大約四十多至七十多元。",
+      "sources": [
+        {
+          "name": "Taste of Asia 牛奶冰室分店",
+          "url": "https://www.tasteofasia.com.hk/brand/milk-cafe?8e9afa92_page=3",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4806152287",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–75（午餐常餐／未核實官價）"
+    },
+    {
+      "id": "milk-cafe-king-lam",
+      "name_zh": "牛奶冰室（景林商場）",
+      "name_en": "Milk Cafe (King Lam Shopping Centre)",
+      "lat": 22.318858,
+      "lng": 114.2463595,
+      "area": "景林商場",
+      "address": "新界將軍澳景林商場地下7號舖",
+      "cuisine": [
+        "冰室",
+        "茶餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "冰室",
+        "港式常餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "牛奶冰室（景林商場）港式冰室連鎖，營業約07:00–21:00，有炒滑蛋、飯麵等正餐。 公開品牌頁核實時段；午餐人均未見統一官價表，以店內餐牌為準，大約四十多至七十多元。",
+      "sources": [
+        {
+          "name": "Taste of Asia 牛奶冰室分店",
+          "url": "https://www.tasteofasia.com.hk/brand/milk-cafe?8e9afa92_page=3",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–75（午餐常餐／未核實官價）"
+    },
+    {
+      "id": "milk-cafe-savannah",
+      "name_zh": "牛奶冰室（澳南海岸 SAVANNAH PLACE）",
+      "name_en": "Milk Cafe (SAVANNAH PLACE)",
+      "lat": 22.3056296,
+      "lng": 114.2639563,
+      "area": "澳南海岸／康城一帶",
+      "address": "新界將軍澳至善街3號澳南海岸 SAVANNAH PLACE 地下G01及G02號舖",
+      "cuisine": [
+        "冰室",
+        "茶餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "冰室",
+        "港式常餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "牛奶冰室（澳南海岸／康城一帶）港式冰室連鎖，營業約07:00–21:00，有炒滑蛋、飯麵等正餐。 公開品牌頁核實時段；午餐人均未見統一官價表，以店內餐牌為準，大約四十多至七十多元。",
+      "sources": [
+        {
+          "name": "Taste of Asia 牛奶冰室分店",
+          "url": "https://www.tasteofasia.com.hk/brand/milk-cafe?8e9afa92_page=3",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–75（午餐常餐／未核實官價）"
+    },
+    {
+      "id": "mx-hau-tak-gateway",
+      "name_zh": "美心MX（厚德／TKO Gateway）",
+      "name_en": "Maxim's MX (Hau Tak / TKO Gateway)",
+      "lat": 22.3171896,
+      "lng": 114.2664035,
+      "area": "厚德邨 TKO Gateway",
+      "address": "新界將軍澳常寧路厚德邨厚德商場西翼1樓W103舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "燒味"
+      ],
+      "price_level": 1,
+      "lunch_notes": "美心MX（厚德邨 TKO Gateway）港式快餐，午市常見雙餸飯、燒味飯同米線。 公開午市雙餸飯連熱飲約$39，加燒味會再高少少；商場舖適合赶時間抽Lunch。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10533",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Jetso Club：美心MX午市雙餸飯連飲$39",
+          "url": "https://www.jetsoclub.com/2025/09/mx-15-219.html",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "mx-mcp-discovery",
+      "name_zh": "美心MX（都會駅／MCP Discovery）",
+      "name_en": "Maxim's MX (MCP Discovery)",
+      "lat": 22.3064,
+      "lng": 114.2525,
+      "area": "都會駅",
+      "address": "新界將軍澳MCP Discovery二樓244-245號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "燒味"
+      ],
+      "price_level": 1,
+      "lunch_notes": "美心MX（都會駅）港式快餐，午市常見雙餸飯、燒味飯同米線。 公開午市雙餸飯連熱飲約$39，加燒味會再高少少；商場舖適合赶時間抽Lunch。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10534",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Jetso Club：美心MX午市雙餸飯連飲$39",
+          "url": "https://www.jetsoclub.com/2025/09/mx-15-219.html",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "mx-popwalk3",
+      "name_zh": "美心MX（天晉匯3）",
+      "name_en": "Maxim's MX (PopWalk 3)",
+      "lat": 22.3063116,
+      "lng": 114.2608126,
+      "area": "天晉匯3 PopWalk",
+      "address": "新界將軍澳至善街19號天晉匯3地下G08-G10號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "燒味"
+      ],
+      "price_level": 1,
+      "lunch_notes": "美心MX（天晉匯3 PopWalk）港式快餐，午市常見雙餸飯、燒味飯同米線。 公開午市雙餸飯連熱飲約$39，加燒味會再高少少；商場舖適合赶時間抽Lunch。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10543",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Jetso Club：美心MX午市雙餸飯連飲$39",
+          "url": "https://www.jetsoclub.com/2025/09/mx-15-219.html",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "namkee-park-central",
+      "name_zh": "香港仔南記粉麵（將軍澳中心）",
+      "name_en": "Nam Kee Noodle (Park Central)",
+      "lat": 22.3070018,
+      "lng": 114.2571932,
+      "area": "將軍澳中心",
+      "address": "新界將軍澳唐德街9號將軍澳中心1樓181B舖",
+      "cuisine": [
+        "粉麵",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "粉麵",
+        "快餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "香港仔南記粉麵（將軍澳中心）粉麵連鎖，湯粉／撈麵作主食午餐。 同類粉麵舖公開食評常見三十多元起；本輪未截到統一官價表，實際以店內餐牌為準。",
+      "sources": [
+        {
+          "name": "旅發局 香港仔南記粉麵分店名單",
+          "url": "https://www.discoverhongkong.com/tc/travel-guide/qts/restaurants-results/restaurants-details.id18953.%E9%A6%99%E6%B8%AF%E4%BB%94%E5%8D%97%E8%A8%98%E7%B2%89%E9%BA%B5.html",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $30–55（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "cha-yu-fan-hau-choi-ming",
+      "name_zh": "茶魚飯后（彩明商場）",
+      "name_en": "Cha Yu Fan Hau (Choi Ming Shopping Centre)",
+      "lat": 22.3059781,
+      "lng": 114.2513181,
+      "area": "彩明商場",
+      "address": "新界將軍澳彩明街1號彩明苑彩明商場3樓307A號舖",
+      "cuisine": [
+        "茶餐廳",
+        "港式"
+      ],
+      "tags": [
+        "茶餐廳",
+        "午餐",
+        "商場店"
+      ],
+      "price_level": 1,
+      "lunch_notes": "茶魚飯后（彩明商場）茶餐廳，有營食肆核實堂食正餐。 典型有飯／粉麵／常餐；本輪未截到公開價目，價帶參考同類茶餐廳，以店內為準。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1547",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $50–80（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "fish-and-chick-monterey",
+      "name_zh": "Fish & Chick（MONTEREY Place）",
+      "name_en": "Fish & Chick (MONTEREY Place)",
+      "lat": 22.3020179,
+      "lng": 114.261932,
+      "area": "澳南海岸 MONTEREY Place",
+      "address": "將軍澳澳南海岸唐俊街23號MONTEREY Place地下G23B號舖",
+      "cuisine": [
+        "西式快餐",
+        "炸魚薯條"
+      ],
+      "tags": [
+        "快餐",
+        "午餐",
+        "輕食"
+      ],
+      "price_level": 2,
+      "lunch_notes": "Fish & Chick（澳南海岸 MONTEREY Place）西式快餐／輕食，有營食肆列快餐店。 供應炸魚薯條等正餐堂食；本輪未截到公開價目，以店內餐牌為準。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10589",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $60–100（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "shanghai-laolao-popcorn2",
+      "name_zh": "上海姥姥（PopCorn 2）",
+      "name_en": "Shanghai Lao Lao (PopCorn 2)",
+      "lat": 22.3086325,
+      "lng": 114.2615024,
+      "area": "PopCorn 2",
+      "address": "新界將軍澳唐俊街9號PopCorn 2地下G50D號舖",
+      "cuisine": [
+        "上海菜",
+        "中菜"
+      ],
+      "tags": [
+        "中菜",
+        "午餐",
+        "商場店"
+      ],
+      "price_level": 2,
+      "lunch_notes": "上海姥姥（PopCorn 2）上海菜中菜廳，有營食肆核實，PopCorn 2堂食。 本輪未截到統一官價；同類上海菜館午市小菜／麵點人均多八十元起，以店內為準。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/eng/res.aspx?rst_id=11081",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $80–130（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "percent-ming-tak",
+      "name_zh": "百份百餐廳（明德商場）",
+      "name_en": "Percent Restaurant (Ming Tak Shopping Centre)",
+      "lat": 22.3161894,
+      "lng": 114.2683465,
+      "area": "明德商場",
+      "address": "新界將軍澳明德邨明德商場地下42-45及48號舖",
+      "cuisine": [
+        "茶餐廳",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳",
+        "午餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "百份百餐廳（明德商場）港式茶餐廳，供應常餐、碟頭飯同粉麵。 食評提及午餐人均約$60上下；邨商場／街舖定位，適合街坊抽Lunch。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1103",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：百份百餐廳午餐約人均$60上下",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%99%BE%E4%BB%BD%E7%99%BE%E9%A4%90%E5%BB%B3-%E8%8D%83%E7%81%A3-%E6%B8%AF%E5%BC%8F-r666247/reviews",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $50–80"
+    },
+    {
+      "id": "percent-mcp1",
+      "name_zh": "百份百餐廳（新都城中心一期）",
+      "name_en": "Percent Restaurant (Metro City Plaza Phase 1)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "area": "新都城中心一期",
+      "address": "新界將軍澳新都城中心1期地下27號鋪",
+      "cuisine": [
+        "茶餐廳",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳",
+        "午餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "百份百餐廳（新都城中心一期）港式茶餐廳，供應常餐、碟頭飯同粉麵。 食評提及午餐人均約$60上下；邨商場／街舖定位，適合街坊抽Lunch。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10793",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "新都城中心一期佳餚美食",
+          "url": "https://www.metrocity1.com/dining/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：百份百餐廳午餐約人均$60上下",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%99%BE%E4%BB%BD%E7%99%BE%E9%A4%90%E5%BB%B3-%E8%8D%83%E7%81%A3-%E6%B8%AF%E5%BC%8F-r666247/reviews",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $50–80"
+    },
+    {
+      "id": "percent-po-lam",
+      "name_zh": "百份百餐廳（寶琳邨寶勤樓）",
+      "name_en": "Percent Restaurant (Po Lam Estate)",
+      "lat": 22.3225,
+      "lng": 114.257,
+      "area": "寶林商場／寶琳邨",
+      "address": "新界將軍澳寶琳邨寶勤樓地下",
+      "cuisine": [
+        "茶餐廳",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳",
+        "午餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "百份百餐廳（寶琳邨寶勤樓街舖一帶）港式茶餐廳，供應常餐、碟頭飯同粉麵。 食評提及午餐人均約$60上下；邨商場／街舖定位，適合街坊抽Lunch。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1119",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：百份百餐廳午餐約人均$60上下",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%99%BE%E4%BB%BD%E7%99%BE%E9%A4%90%E5%BB%B3-%E8%8D%83%E7%81%A3-%E6%B8%AF%E5%BC%8F-r666247/reviews",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $50–80"
+    },
+    {
+      "id": "percent-tsui-lam",
+      "name_zh": "百份百餐廳（翠林新城）",
+      "name_en": "Percent Restaurant (Tsui Lam Shopping Centre)",
+      "lat": 22.322749,
+      "lng": 114.2490099,
+      "area": "翠林新城",
+      "address": "將軍澳翠林路11號翠林新城5樓128、130A及131A號舖",
+      "cuisine": [
+        "茶餐廳",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳",
+        "午餐"
+      ],
+      "price_level": 1,
+      "lunch_notes": "百份百餐廳（翠林新城）港式茶餐廳，供應常餐、碟頭飯同粉麵。 食評提及午餐人均約$60上下；邨商場／街舖定位，適合街坊抽Lunch。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1412",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：百份百餐廳午餐約人均$60上下",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%99%BE%E4%BB%BD%E7%99%BE%E9%A4%90%E5%BB%B3-%E8%8D%83%E7%81%A3-%E6%B8%AF%E5%BC%8F-r666247/reviews",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $50–80"
+    },
+    {
+      "id": "tamjai-yunnan-nan-fung",
+      "name_zh": "譚仔雲南米線（南豐廣場）",
+      "name_en": "TamJai Yunnan Mixian (Nan Fung Plaza)",
+      "lat": 22.314526,
+      "lng": 114.2639495,
+      "area": "南豐廣場",
+      "address": "將軍澳培成路8號南豐廣場地下A51及A52號舖",
+      "cuisine": [
+        "米線",
+        "雲南菜"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料"
+      ],
+      "price_level": 1,
+      "lunch_notes": "譚仔雲南米線（南豐廣場）以自選湯底同配料米線為主食午餐。 目錄／食評人均多約$50上下，加小食或過橋會再高；平日午市較易滿座。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10335",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔雲南人均約$50以下",
+          "url": "https://www.feehk.com/%E5%B0%96%E6%B2%99%E5%92%80%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-26751",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "OpenRice食評：譚仔雲南米線午餐約$52起（配料視乎）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-%E6%B2%99%E7%94%B0-%E6%BB%87%E8%8F%9C-%E9%9B%B2%E5%8D%97-%E7%B2%89%E9%BA%B5-%E7%B1%B3%E7%B7%9A-r601021",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–70"
+    },
+    {
+      "id": "tamjai-yunnan-choi-ming",
+      "name_zh": "譚仔雲南米線（彩明商場）",
+      "name_en": "TamJai Yunnan Mixian (Choi Ming Shopping Centre)",
+      "lat": 22.3059781,
+      "lng": 114.2513181,
+      "area": "彩明商場",
+      "address": "將軍澳彩明街1號彩明商場221號舖",
+      "cuisine": [
+        "米線",
+        "雲南菜"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料"
+      ],
+      "price_level": 1,
+      "lunch_notes": "譚仔雲南米線（彩明商場）以自選湯底同配料米線為主食午餐。 目錄／食評人均多約$50上下，加小食或過橋會再高；平日午市較易滿座。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10358",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔雲南人均約$50以下",
+          "url": "https://www.feehk.com/%E5%B0%96%E6%B2%99%E5%92%80%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-26751",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "OpenRice食評：譚仔雲南米線午餐約$52起（配料視乎）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-%E6%B2%99%E7%94%B0-%E6%BB%87%E8%8F%9C-%E9%9B%B2%E5%8D%97-%E7%B2%89%E9%BA%B5-%E7%B1%B3%E7%B7%9A-r601021",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–70"
+    },
+    {
+      "id": "tamjai-yunnan-lohas",
+      "name_zh": "譚仔雲南米線（The LOHAS 康城）",
+      "name_en": "TamJai Yunnan Mixian (The LOHAS)",
+      "lat": 22.2955174,
+      "lng": 114.268519,
+      "area": "The LOHAS 康城",
+      "address": "將軍澳THE LOHAS 4樓424-425號舖",
+      "cuisine": [
+        "米線",
+        "雲南菜"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料"
+      ],
+      "price_level": 1,
+      "lunch_notes": "譚仔雲南米線（The LOHAS 康城）以自選湯底同配料米線為主食午餐。 目錄／食評人均多約$50上下，加小食或過橋會再高；平日午市較易滿座。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10366",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔雲南人均約$50以下",
+          "url": "https://www.feehk.com/%E5%B0%96%E6%B2%99%E5%92%80%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-26751",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "OpenRice食評：譚仔雲南米線午餐約$52起（配料視乎）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-%E6%B2%99%E7%94%B0-%E6%BB%87%E8%8F%9C-%E9%9B%B2%E5%8D%97-%E7%B2%89%E9%BA%B5-%E7%B1%B3%E7%B7%9A-r601021",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–70"
+    },
+    {
+      "id": "tamjai-yunnan-po-lam",
+      "name_zh": "譚仔雲南米線（寶林商場）",
+      "name_en": "TamJai Yunnan Mixian (Po Lam Shopping Centre)",
+      "lat": 22.3225,
+      "lng": 114.257,
+      "area": "寶林商場",
+      "address": "將軍澳寶琳北路18號寶琳邨寶林商場2樓207號鋪",
+      "cuisine": [
+        "米線",
+        "雲南菜"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料"
+      ],
+      "price_level": 1,
+      "lunch_notes": "譚仔雲南米線（寶林商場）以自選湯底同配料米線為主食午餐。 目錄／食評人均多約$50上下，加小食或過橋會再高；平日午市較易滿座。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10398",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔雲南人均約$50以下",
+          "url": "https://www.feehk.com/%E5%B0%96%E6%B2%99%E5%92%80%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-26751",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "OpenRice食評：譚仔雲南米線午餐約$52起（配料視乎）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-%E6%B2%99%E7%94%B0-%E6%BB%87%E8%8F%9C-%E9%9B%B2%E5%8D%97-%E7%B2%89%E9%BA%B5-%E7%B1%B3%E7%B7%9A-r601021",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $45–70"
+    },
+    {
+      "id": "tai-hing-lohas",
+      "name_zh": "太興（The LOHAS 康城）",
+      "name_en": "Tai Hing (The LOHAS)",
+      "lat": 22.2955174,
+      "lng": 114.268519,
+      "area": "The LOHAS 康城",
+      "address": "將軍澳THE LOHAS 康城4樓402號舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳風",
+        "燒味飯"
+      ],
+      "price_level": 1,
+      "lunch_notes": "太興（The LOHAS 康城）供應燒味飯、粉麵同港式焗飯等堂食午餐。 公開目錄人均約$51–100；燒味拼盤或套餐喺呢個價帶，午市商場舖或會排隊。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10207",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：太興人均約$51–100",
+          "url": "https://www.feehk.com/%E5%85%83%E6%9C%97%E9%A4%90%E5%BB%B3/%E5%A4%AA%E8%88%88-34245",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $55–100"
+    },
+    {
+      "id": "tai-hing-east-point",
+      "name_zh": "太興（東港城）",
+      "name_en": "Tai Hing (East Point City)",
+      "lat": 22.3163916,
+      "lng": 114.2654772,
+      "area": "東港城",
+      "address": "新界將軍澳東港城2樓217A舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳風",
+        "燒味飯"
+      ],
+      "price_level": 1,
+      "lunch_notes": "太興（東港城）供應燒味飯、粉麵同港式焗飯等堂食午餐。 公開目錄人均約$51–100；燒味拼盤或套餐喺呢個價帶，午市商場舖或會排隊。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=576",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：太興人均約$51–100",
+          "url": "https://www.feehk.com/%E5%85%83%E6%9C%97%E9%A4%90%E5%BB%B3/%E5%A4%AA%E8%88%88-34245",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $55–100"
+    },
+    {
+      "id": "tai-hing-mcp2",
+      "name_zh": "太興（新都城中心二期）",
+      "name_en": "Tai Hing (Metro City Plaza Phase 2)",
+      "lat": 22.3232493,
+      "lng": 114.2581947,
+      "area": "新都城中心二期",
+      "address": "新界將軍澳新都城中心二期高層地下UG086舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳風",
+        "燒味飯"
+      ],
+      "price_level": 1,
+      "lunch_notes": "太興（新都城中心二期）供應燒味飯、粉麵同港式焗飯等堂食午餐。 公開目錄人均約$51–100；燒味拼盤或套餐喺呢個價帶，午市商場舖或會排隊。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=743",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：太興人均約$51–100",
+          "url": "https://www.feehk.com/%E5%85%83%E6%9C%97%E9%A4%90%E5%BB%B3/%E5%A4%AA%E8%88%88-34245",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $55–100"
+    },
+    {
+      "id": "tai-hing-mcp-discovery",
+      "name_zh": "太興（都會駅）",
+      "name_en": "Tai Hing (MCP Discovery)",
+      "lat": 22.3064,
+      "lng": 114.2525,
+      "area": "都會駅",
+      "address": "新界將軍澳都會駅地下GL002舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳風",
+        "燒味飯"
+      ],
+      "price_level": 1,
+      "lunch_notes": "太興（都會駅）供應燒味飯、粉麵同港式焗飯等堂食午餐。 公開目錄人均約$51–100；燒味拼盤或套餐喺呢個價帶，午市商場舖或會排隊。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=745",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：太興人均約$51–100",
+          "url": "https://www.feehk.com/%E5%85%83%E6%9C%97%E9%A4%90%E5%BB%B3/%E5%A4%AA%E8%88%88-34245",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $55–100"
+    },
+    {
+      "id": "tai-hing-tko-plaza",
+      "name_zh": "太興（將軍澳廣場）",
+      "name_en": "Tai Hing (Tseung Kwan O Plaza)",
+      "lat": 22.3092763,
+      "lng": 114.2622529,
+      "area": "將軍澳廣場",
+      "address": "新界將軍澳廣場商場1樓1-004舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳風",
+        "燒味飯"
+      ],
+      "price_level": 1,
+      "lunch_notes": "太興（將軍澳廣場）供應燒味飯、粉麵同港式焗飯等堂食午餐。 公開目錄人均約$51–100；燒味拼盤或套餐喺呢個價帶，午市商場舖或會排隊。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=749",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：太興人均約$51–100",
+          "url": "https://www.feehk.com/%E5%85%83%E6%9C%97%E9%A4%90%E5%BB%B3/%E5%A4%AA%E8%88%88-34245",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $55–100"
+    },
+    {
+      "id": "momoku-hau-tak-gateway",
+      "name_zh": "韓樂（厚德／TKO Gateway）",
+      "name_en": "Momoku (Hau Tak / TKO Gateway)",
+      "lat": 22.3171896,
+      "lng": 114.2664035,
+      "area": "厚德邨 TKO Gateway",
+      "address": "新界將軍澳常寧路2號厚德邨TKO Gateway西翼地下W001-W002號舖",
+      "cuisine": [
+        "韓國菜"
+      ],
+      "tags": [
+        "連鎖",
+        "韓式",
+        "正餐"
+      ],
+      "price_level": 2,
+      "lunch_notes": "韓樂（厚德邨 TKO Gateway）韓式正餐連鎖，有營食肆列亞洲／日韓菜並有官網。 OpenRice顯示主菜約$62–65，加飲品後人均多$51–100；厚德TKO Gateway商場店。",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1338",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "韓樂官方網站",
+          "url": "https://www.momoku.com.hk",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice：韓樂主菜約$62–65、人均約$51–100",
+          "url": "https://www.openrice.com/en/hongkong/r-momoku-tin-shui-wai-korean-korean-fried-chicken-r534657",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "district": "將軍澳",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-24",
+      "price_lunch_hkd": "約 $65–100"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "osm_node_7118346062",
+      "name_zh": "太平洋咖啡（康城一帶）",
+      "name_en": "Pacific Coffee",
+      "lat": 22.3331229,
+      "lng": 114.2650476,
+      "exclude_reason": "pure_cafe：OSM amenity=cafe cuisine=coffee_shop，屬純咖啡店，無確認正餐午餐",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/7118346062",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "osm_node_8676582400",
+      "name_zh": "JOMO Kitchen & Health Hub",
+      "name_en": "JOMO Kitchen & Health Hub",
+      "lat": 22.3016704,
+      "lng": 114.2622406,
+      "exclude_reason": "pure_cafe：OSM amenity=cafe；未核實正餐午餐／堂食午餐時段",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/8676582400",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "osm_node_14191432606",
+      "name_zh": "華御結",
+      "name_en": "hana-musubi",
+      "lat": 22.3348381,
+      "lng": 114.2637194,
+      "exclude_reason": "takeaway_only／無確認堂食：OSM amenity=fast_food 且 shop=kiosk，壽司飯糰櫃位為主",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14191432606",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "osm_node_6307690446",
+      "name_zh": "Oscar Cafe",
+      "name_en": "Oscar Cafe",
+      "lat": 22.3076563,
+      "lng": 114.2666036,
+      "exclude_reason": "pure_cafe／未核實：名稱為 Cafe，雖 OSM 標 restaurant，但無官方／目錄第二來源確認正餐午餐堂食",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/6307690446",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "osm_node_4781074334",
+      "name_zh": "（無名 restaurant OSM 節點）",
+      "name_en": "",
+      "lat": 22.3113897,
+      "lng": 114.2617599,
+      "exclude_reason": "未核實堂食／午餐：OSM amenity=restaurant 但無 name／品牌／菜單來源",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4781074334",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "osm_way_302740091",
+      "name_zh": "（翠林邨錯誤標註 restaurant way）",
+      "name_en": "",
+      "lat": 22.3217582,
+      "lng": 114.2489736,
+      "exclude_reason": "資料質素：OSM way 標 amenity=restaurant 但顯示為屋邨／無店名，不可視為食肆",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/302740091",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "beans-the-backyard-popcorn2",
+      "name_zh": "荳子 BEANS The Backyard（PopCorn 2）",
+      "name_en": "BEANS The Backyard (PopCorn 2)",
+      "lat": 22.3080254,
+      "lng": 114.2601939,
+      "exclude_reason": "pure_cafe／偏 cafe：公開目錄以 All Day Breakfast／甜品咖啡為主，本輪未用商場官方第二來源確認「正常正餐午餐」為主定位，暫剔除",
+      "sources": [
+        {
+          "name": "OpenRice（參考，非核實收錄依據）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E8%8D%B3%E5%AD%90-%E5%B0%87%E8%BB%8D%E6%BE%B3-%E8%A5%BF%E5%BC%8F-all-day-breakfast-r472851",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "osm_node_6312151835",
+      "name_zh": "Snack Express Tko",
+      "name_en": "Snack Express Tko",
+      "lat": 22.3076659,
+      "lng": 114.260825,
+      "exclude_reason": "未核實堂食／正餐午餐：OSM amenity=fast_food 無名細資料／無官方第二來源",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/6312151835",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "osm_node_4806127027",
+      "name_zh": "（無名 burger fast_food OSM 節點）",
+      "name_en": "",
+      "lat": 22.3109593,
+      "lng": 114.2623385,
+      "exclude_reason": "未核實：OSM amenity=fast_food cuisine=burger 但無店名／品牌／官方地址",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4806127027",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "coffee-art-mcp1",
+      "name_zh": "Coffee Art（新都城中心一期）",
+      "name_en": "Coffee Art (Metro City Plaza Phase 1)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "exclude_reason": "pure_cafe：商場目錄歸入「咖啡店及熟食」；未確認以正餐午餐主食為主",
+      "sources": [
+        {
+          "name": "新都城中心一期佳餚美食目錄",
+          "url": "https://www.metrocity1.com/dining/",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "yanheung-bakery-mcp1",
+      "name_zh": "研香（新都城中心一期）",
+      "name_en": "YAN HEUNG (Metro City Plaza Phase 1)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "exclude_reason": "bakery：商場目錄歸入「麵包店、飲品及其他」",
+      "sources": [
+        {
+          "name": "新都城中心一期佳餚美食目錄",
+          "url": "https://www.metrocity1.com/dining/",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "grove-cafe-cihe",
+      "name_zh": "Grove Café（明愛專上學院）",
+      "name_en": "Grove Café (Caritas Institute of Higher Education)",
+      "lat": 22.315,
+      "lng": 114.255,
+      "exclude_reason": "pure_cafe／校園咖啡室：有營食肆名稱為 Grove Café，定位偏 cafe；本輪未確認對外公眾正餐午餐堂食為主",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=470",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "tko-police-station-canteen",
+      "name_zh": "將軍澳警署食堂",
+      "name_en": "Tseung Kwan O Police Station Canteen",
+      "lat": 22.318,
+      "lng": 114.255,
+      "exclude_reason": "非一般公眾午餐堂食：有營食肆列警署食堂，屬內部／特定場所飯堂，不納入抽Lunch公眾餐廳名單",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10551",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "tko-hospital-staff-canteen",
+      "name_zh": "將軍澳醫院職員餐廳",
+      "name_en": "Tseung Kwan O Hospital Staff Restaurant",
+      "lat": 22.3185,
+      "lng": 114.27,
+      "exclude_reason": "職員餐廳：有營食肆列醫院職員餐廳，非對外公眾正餐午餐定位",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=4583",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "sushi-express-mcp1",
+      "name_zh": "爭鮮（新都城中心一期）",
+      "name_en": "Sushiro Express / Sushi Express (MCP1)",
+      "lat": 22.3212245,
+      "lng": 114.2575128,
+      "exclude_reason": "未核實正餐午餐堂食定位：MCP1 官方目錄歸入「咖啡店及熟食」；本輪無第二來源確認以正餐午餐主食及座位堂食為主，暫剔除",
+      "sources": [
+        {
+          "name": "新都城中心一期佳餚美食",
+          "url": "https://www.metrocity1.com/dining/",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "status": "enrichment complete",
+    "notes_zh": "phase-2.5 enrichment（v1.3）：為既有75間加厚 cuisine、lunch_notes、新增 price_lunch_hkd；唔開新店、唔改收錄／剔除名單。價錢以官網推廣／目錄／可信食評為據，未核實者標「午餐套餐」或模糊字串。",
+    "phase": "phase-2.5",
+    "bbox_approx": [
+      22.295,
+      114.245,
+      22.335,
+      114.275
+    ]
+  }
+}
