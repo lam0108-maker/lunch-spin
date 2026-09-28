@@ -1,6 +1,6 @@
 {
   "district": "牛頭角",
-  "version": "1.3",
+  "version": "1.4",
   "updated_at": "2026-09-28",
   "criteria": {
     "serves_lunch": true,
@@ -2033,6 +2033,1959 @@
           "checked_at": "2026-09-28"
         }
       ]
+    },
+    {
+      "id": "star-kam-kok-ngau-tau-kok-road",
+      "name_zh": "明星金閣（牛頭角）",
+      "name_en": "Star Kam Kok Seafood Restaurant (Ngau Tau Kok)",
+      "lat": 22.3170233,
+      "lng": 114.2176816,
+      "district": "牛頭角",
+      "area": "牛頭角道／淘大花園側街舖",
+      "address": "九龍牛頭角道165號地下及1樓（淘大花園側）",
+      "cuisine": [
+        "粵菜",
+        "點心",
+        "酒樓"
+      ],
+      "tags": [
+        "午市點心",
+        "燒味飯",
+        "街坊酒樓"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $50–120（酒樓午市價帶，未核實當日官價）",
+      "lunch_notes": "集團官網列明牛頭角店朝早6:30開至晚上11:00，屬酒樓堂食。午市有點心同粉麵飯，適合附近街坊同淘大返工食。座標用OSM牛頭角道路段，非獨立樓宇節點。",
+      "sources": [
+        {
+          "name": "明星海鮮酒家集團官網－明星金閣分店",
+          "url": "https://www.starseafood.hk/%e6%98%8e%e6%98%9f%e9%87%91%e9%96%a3/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（牛頭角道路段）",
+          "url": "https://nominatim.openstreetmap.org/search?q=165%20Ngau%20Tau%20Kok%20Road%20Hong%20Kong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "gold-label-amoy-plaza",
+      "name_zh": "金牌（淘大商場3期）",
+      "name_en": "Gold Label Cafe & Restaurant (Amoy Plaza Phase 3)",
+      "lat": 22.3245696,
+      "lng": 114.2162558,
+      "district": "牛頭角",
+      "area": "淘大商場",
+      "address": "九龍牛頭角道77號淘大商場3期（恒隆目錄 Gold Label）",
+      "cuisine": [
+        "港式",
+        "茶餐廳"
+      ],
+      "tags": [
+        "茶餐廳",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $50–90（茶餐廳午市價帶，未核實官價）",
+      "lunch_notes": "恒隆將 Gold Label 列作 Hong Kong Flavours 餐飲商戶，屬茶餐廳堂食而非純咖啡。適合想食港式西餐或多士餐嘅午飯。精確舖號以商場現場為準。",
+      "sources": [
+        {
+          "name": "恒隆商場淘大餐飲目錄",
+          "url": "https://www.hanglungmalls.com/en/amoy-plaza/dining",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "phd-lok-wah",
+      "name_zh": "PHD 薄餅博士（樂華商場）",
+      "name_en": "PHD (Lok Wah Commercial Centre)",
+      "lat": 22.3214929,
+      "lng": 114.2202448,
+      "district": "牛頭角",
+      "area": "樂華商場／樂華邨",
+      "address": "牛頭角振華道70號樂華商場地下118號舖",
+      "cuisine": [
+        "薄餅",
+        "西式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $50–90（薄餅套餐價帶，未核實官價）",
+      "lunch_notes": "樂華商場水牌列地下118號舖 PHD。連鎖薄餅店有堂食座位，適合想換口味嘅邨仔午飯。",
+      "sources": [
+        {
+          "name": "樂華商場店鋪資訊（shoppinggai）",
+          "url": "https://www.shoppinggai.com/LokWahShoppingCentre",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "emperor-dumplings-lok-wah",
+      "name_zh": "皇后餃子（樂華商場）",
+      "name_en": "Emperor Dumplings (Lok Wah Commercial Centre)",
+      "lat": 22.3214929,
+      "lng": 114.2202448,
+      "district": "牛頭角",
+      "area": "樂華商場／樂華邨",
+      "address": "牛頭角振華道70號樂華商場地下119-120號舖",
+      "cuisine": [
+        "餃子",
+        "粉麵"
+      ],
+      "tags": [
+        "連鎖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（餃子粉麵價帶，未核實官價）",
+      "lunch_notes": "商場水牌列07:00–21:30，地下舖。餃子、湯麵類堂食，開得早，趕時間午飯可以。",
+      "sources": [
+        {
+          "name": "樂華商場店鋪資訊（shoppinggai）",
+          "url": "https://www.shoppinggai.com/LokWahShoppingCentre",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "ba-fang-yun-ji-lok-wah",
+      "name_zh": "八方雲集（樂華商場）",
+      "name_en": "Ba Fang Yun Ji (Lok Wah Commercial Centre)",
+      "lat": 22.3214929,
+      "lng": 114.2202448,
+      "district": "牛頭角",
+      "area": "樂華商場／樂華邨",
+      "address": "牛頭角振華道70號樂華商場2樓214號舖",
+      "cuisine": [
+        "鍋貼",
+        "水餃"
+      ],
+      "tags": [
+        "連鎖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–60（鍋貼套餐價帶，未核實官價）",
+      "lunch_notes": "商場水牌列2樓214號舖八方雲集鍋貼水餃專門店。連鎖堂食，午飯可以叫鍋貼加湯。",
+      "sources": [
+        {
+          "name": "樂華商場店鋪資訊（shoppinggai）",
+          "url": "https://www.shoppinggai.com/LokWahShoppingCentre",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "mx-upper-ngau-tau-kok",
+      "name_zh": "MX（牛頭角上邨商場）",
+      "name_en": "MX (Upper Ngau Tau Kok Estate Shopping Centre)",
+      "lat": 22.3202084,
+      "lng": 114.2160177,
+      "district": "牛頭角",
+      "area": "牛頭角上邨商場",
+      "address": "牛頭角上邨商場1號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "屋邨商場",
+        "連鎖"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $39–70（連鎖快餐午市價帶，未核實當日官價）",
+      "lunch_notes": "中電商戶名單列 MX 於牛頭角上邨商場1號舖。美心MX屬堂食快餐，覆蓋上邨街坊同市政大廈附近午飯。",
+      "sources": [
+        {
+          "name": "中電商戶名單（MX上邨）",
+          "url": "https://www.clp.com.hk/content/dam/clphk/documents/community-and-environment-site/Merchant%20List%20for%20Webpage.pdf",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（上邨商場）",
+          "url": "https://nominatim.openstreetmap.org/search?q=Upper%20Ngau%20Tau%20Kok%20Estate%20Shopping%20Centre",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "mcdonalds-kentlum-ntk-road",
+      "name_zh": "麥當勞（牛頭角道瓊林大廈）",
+      "name_en": "McDonald's (Kentlum Mansion, Ngau Tau Kok Road)",
+      "lat": 22.3170233,
+      "lng": 114.2176816,
+      "district": "牛頭角",
+      "area": "牛頭角道街舖（近上邨／花園大廈）",
+      "address": "牛頭角道327-333號瓊林大廈地庫及地下部份",
+      "cuisine": [
+        "快餐",
+        "漢堡"
+      ],
+      "tags": [
+        "街舖",
+        "連鎖"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $30–55（套餐價帶，未核實當日官價）",
+      "lunch_notes": "中電名單確認瓊林大廈地庫及地下。街舖麥當勞，方便牛頭角道一帶堂食。座標用OSM牛頭角道路段，未找到獨立樓宇節點。",
+      "sources": [
+        {
+          "name": "中電商戶名單",
+          "url": "https://www.clp.com.hk/content/dam/clphk/documents/community-and-environment-site/Merchant%20List%20for%20Webpage.pdf",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "mcdonalds-millennium-city",
+      "name_zh": "麥當勞（創紀之城一期）",
+      "name_en": "McDonald's (Millennium City 1)",
+      "lat": 22.3136565,
+      "lng": 114.221455,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／創紀之城一期",
+      "address": "觀塘道388號創紀之城1A地下",
+      "cuisine": [
+        "快餐",
+        "漢堡"
+      ],
+      "tags": [
+        "觀塘道走廊",
+        "連鎖",
+        "近牛頭角站B",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $30–55（套餐價帶，未核實當日官價）",
+      "lunch_notes": "麥當勞官網列創紀之城地下1A，由牛頭角站沿觀塘道行幾分鐘。堂食快餐，適合寫字樓午飯。座標用OSM創紀之城一期。",
+      "sources": [
+        {
+          "name": "麥當勞香港－搵餐廳（創紀之城）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "中電商戶名單（創紀之城地下1A）",
+          "url": "https://www.clp.com.hk/content/dam/clphk/documents/community-and-environment-site/Merchant%20List%20for%20Webpage.pdf",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "fairwood-millennium-city-6",
+      "name_zh": "大快活（創紀之城六期）",
+      "name_en": "Fairwood (Millennium City 6)",
+      "lat": 22.3132987,
+      "lng": 114.2220255,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／創紀之城六期",
+      "address": "觀塘觀塘道392號創紀之城6期1樓1號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "觀塘道走廊",
+        "連鎖",
+        "寫字樓午飯",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $39–70（連鎖快餐午市價帶，未核實當日官價）",
+      "lunch_notes": "大快活官網分店頁寫07:00–17:30，明顯針對返工午飯。牛頭角站B出口沿觀塘道過去創紀之城。",
+      "sources": [
+        {
+          "name": "大快活官網－搵舖食飯",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "heichinrou-millennium-city-6",
+      "name_zh": "聘珍樓（創紀之城六期）",
+      "name_en": "Heichinrou (Millennium City 6)",
+      "lat": 22.3132987,
+      "lng": 114.2220255,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／創紀之城六期",
+      "address": "九龍觀塘道392號創紀之城6期6樓",
+      "cuisine": [
+        "粵菜",
+        "點心"
+      ],
+      "tags": [
+        "酒樓",
+        "觀塘道走廊",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 3,
+      "price_lunch_hkd": "約 $100–200（酒樓午市價帶，未核實官價）",
+      "lunch_notes": "聘珍樓集團官方社交專頁列觀塘店地址。6樓酒樓堂食，適合午市點心或小菜，價錢高過快餐。",
+      "sources": [
+        {
+          "name": "聘珍樓集團（香港）官方Facebook分店資料",
+          "url": "https://www.facebook.com/heichinrouhk/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "mcdonalds-ym2",
+      "name_zh": "麥當勞（裕民坊）",
+      "name_en": "McDonald's (YM² Yue Man Square)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "九龍觀塘協和街33號裕民坊商場1樓176舖",
+      "cuisine": [
+        "快餐",
+        "漢堡"
+      ],
+      "tags": [
+        "裕民坊",
+        "連鎖",
+        "24小時",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $30–55（套餐價帶，未核實當日官價）",
+      "lunch_notes": "麥當勞官網同McCafé名單確認1樓176舖堂食。由牛頭角站沿觀塘道／天橋去觀塘站、裕民坊一段。",
+      "sources": [
+        {
+          "name": "麥當勞香港－裕民坊分店",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/369/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "gyukaku-buffet-ym2",
+      "name_zh": "牛角Buffet（裕民坊）",
+      "name_en": "Gyu-Kaku Buffet (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘裕民坊3樓301號舖",
+      "cuisine": [
+        "日本菜",
+        "燒肉"
+      ],
+      "tags": [
+        "放題",
+        "午市",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 3,
+      "price_lunch_hkd": "約 $150–280（燒肉午市放題價帶，未核實官價）",
+      "lunch_notes": "牛角官網列裕民坊Buffet店，平日12:00起。有午市放題餐目，堂食為主，食時較長。",
+      "sources": [
+        {
+          "name": "牛角官網－分店位置（觀塘裕民坊）",
+          "url": "https://www.gyukaku.com.hk/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "watergate-chicken-ym2",
+      "name_zh": "水門雞飯（裕民坊）",
+      "name_en": "Watergate Chicken Rice (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘協和街33號裕民坊1樓101號舖",
+      "cuisine": [
+        "泰國菜",
+        "雞飯"
+      ],
+      "tags": [
+        "堂食",
+        "午市",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $50–90（雞飯套餐價帶，未核實官價）",
+      "lunch_notes": "水門雞飯官網分店頁寫觀塘店12:00開，有雞飯、船粉等正餐堂食。商場1樓，適合一個人午飯。",
+      "sources": [
+        {
+          "name": "水門雞飯官網－分店資訊",
+          "url": "https://watergate-chickenrice.com/branch/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "pai-fang-bento-ym2",
+      "name_zh": "百芳池上便當（裕民坊）",
+      "name_en": "Pai Fang Chih Shang Bento (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘協和街33號裕民坊YM² 2樓208-211號舖",
+      "cuisine": [
+        "台灣菜",
+        "便當"
+      ],
+      "tags": [
+        "堂食",
+        "午市便當",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $50–80（台式便當價帶，未核實官價）",
+      "lunch_notes": "YM²官方餐飲目錄列2樓中式佳餚。台式便當、拌麵堂食，適合趕時間午飯。",
+      "sources": [
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "twelve-flavors-ym2",
+      "name_zh": "十二味（裕民坊）",
+      "name_en": "Twelve Flavors (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘協和街33號裕民坊YM² 3樓308號舖",
+      "cuisine": [
+        "川菜"
+      ],
+      "tags": [
+        "堂食",
+        "麻辣",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–130（川菜午市價帶，未核實官價）",
+      "lunch_notes": "YM²官方目錄同商場優惠商戶名單都列十二味。3樓堂食川菜，適合想食辣嘅午飯。",
+      "sources": [
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "YM²優惠券參與商戶名單",
+          "url": "https://www.ym2.hk/tc/Promotion/375",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "qian-sui-dandan-ym2",
+      "name_zh": "千歲擔擔麪（裕民坊）",
+      "name_en": "Qian Sui Dan Dan Noodles (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘協和街33號裕民坊YM² 3樓302A號舖",
+      "cuisine": [
+        "粉麵",
+        "京川滬"
+      ],
+      "tags": [
+        "堂食",
+        "麵",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–110（麵食午市價帶，未核實官價）",
+      "lunch_notes": "YM²官方目錄列3樓中式佳餚。擔擔麵堂食，一個人午飯可以。",
+      "sources": [
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "YM²優惠券參與商戶名單",
+          "url": "https://www.ym2.hk/tc/Promotion/375",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "ju-hao-xuan-ym2",
+      "name_zh": "聚豪軒（裕民坊）",
+      "name_en": "Ju Hao Xuan (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘協和街33號裕民坊YM² 2樓212號舖",
+      "cuisine": [
+        "粵菜",
+        "中菜"
+      ],
+      "tags": [
+        "堂食",
+        "中菜館",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–130（中菜午市價帶，未核實官價）",
+      "lunch_notes": "YM²官方目錄列2樓中式佳餚。中菜堂食，適合兩至三人午飯。",
+      "sources": [
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "YM²優惠券參與商戶名單",
+          "url": "https://www.ym2.hk/tc/Promotion/375",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "zheng-yi-qiu-zheng-ym2",
+      "name_zh": "蒸益求蒸（裕民坊）",
+      "name_en": "Zheng Yi Qiu Zheng (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘協和街33號裕民坊YM² 3樓306號舖",
+      "cuisine": [
+        "港式",
+        "點心"
+      ],
+      "tags": [
+        "堂食",
+        "蒸點",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $50–90（蒸點午市價帶，未核實官價）",
+      "lunch_notes": "YM²官方目錄列3樓中式佳餚，優惠商戶名單亦有。以蒸點／港式為主，適合清淡午飯。",
+      "sources": [
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "YM²優惠券參與商戶名單",
+          "url": "https://www.ym2.hk/tc/Promotion/375",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "himotei-ym2",
+      "name_zh": "日暮亭（裕民坊）",
+      "name_en": "Himotei (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘協和街33號裕民坊YM² 3樓305號舖",
+      "cuisine": [
+        "日本菜",
+        "定食"
+      ],
+      "tags": [
+        "午市定食",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–110（定食價帶，未核實官價）",
+      "lunch_notes": "YM²住戶優惠頁寫明「午市定食」，確認有正餐午餐而非純Cafe。拉麵、丼飯、咖哩類堂食。",
+      "sources": [
+        {
+          "name": "YM²裕民坊商戶優惠（午市定食）",
+          "url": "https://www.ym2.hk/tc/ShopOffer",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "uosho-ym2",
+      "name_zh": "魚尚（裕民坊）",
+      "name_en": "Gen-Suki / Uo-Sho (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘協和街33號裕民坊YM² 地下G4-G5號舖",
+      "cuisine": [
+        "日本菜",
+        "壽司"
+      ],
+      "tags": [
+        "堂食",
+        "美心",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–120（壽司午市價帶，未核實官價）",
+      "lunch_notes": "YM²官方目錄列地下中式佳餚「魚尚」。美心壽司堂食，地下舖位方便午飯。",
+      "sources": [
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "YM²優惠券參與商戶名單",
+          "url": "https://www.ym2.hk/tc/Promotion/375",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "hana-musubi-ym2",
+      "name_zh": "華御結（裕民坊）",
+      "name_en": "Hana-musubi (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘協和街33號裕民坊YM² 1樓178號舖",
+      "cuisine": [
+        "日本菜",
+        "飯團"
+      ],
+      "tags": [
+        "堂食",
+        "快速午餐",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（飯團便當價帶，未核實官價）",
+      "lunch_notes": "YM²官方目錄列1樓。日式飯團／便當堂食，趕時間可以。",
+      "sources": [
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "mcdonalds-hing-yip-street",
+      "name_zh": "麥當勞（興業街）",
+      "name_en": "McDonald's (Hing Yip Street)",
+      "lat": 22.3092741,
+      "lng": 114.2251595,
+      "district": "牛頭角",
+      "area": "牛頭角工業區往觀塘商貿區／興業街",
+      "address": "觀塘興業街4號1樓102號鋪",
+      "cuisine": [
+        "快餐",
+        "漢堡"
+      ],
+      "tags": [
+        "工廈午飯",
+        "連鎖",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $30–55（套餐價帶，未核實當日官價）",
+      "lunch_notes": "麥當勞McCafé地址名單確認興業街4號1樓。服務觀塘商貿區工廈午飯，由牛頭角站向東南行。座標用OSM興業街。",
+      "sources": [
+        {
+          "name": "麥當勞香港－McCafé櫃檯地址",
+          "url": "https://mcdonalds.com.hk/mccafe-address-list/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "kang-ben-shan-ym2",
+      "name_zh": "康本膳（裕民坊）",
+      "name_en": "Kang Ben Shan (YM²)",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "district": "牛頭角",
+      "area": "牛頭角往觀塘市中心／裕民坊",
+      "address": "觀塘協和街33號裕民坊YM² 3樓302號舖",
+      "cuisine": [
+        "中式",
+        "健康餐"
+      ],
+      "tags": [
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–110（中式午市價帶，未核實官價）",
+      "lunch_notes": "YM²官方目錄同優惠商戶名單列康本膳為中式佳餚。3樓堂食，細節餐牌未核實官價。",
+      "sources": [
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "YM²優惠券參與商戶名單",
+          "url": "https://www.ym2.hk/tc/Promotion/375",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "seung-ju-mak-ting-fu",
+      "name_zh": "雙豬嘜燒味飯店（定富街）",
+      "name_en": "Seung Ju Mak Siu Mei (Ting Fu Street)",
+      "lat": 22.3174362,
+      "lng": 114.2161892,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／定富街街舖",
+      "address": "九龍觀塘定富街14號地下",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "燒味飯"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（街坊燒味飯價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌，定富街地下。近牛頭角站往觀塘方向側街。座標用OSM定富街路段。午市時段未核實當日時間，按持牌食肆常規推斷有堂食午飯。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（14 Ting Fu Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=14%20Ting%20Fu%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "wah-on-ting-fu",
+      "name_zh": "華安餐廳（定富街）",
+      "name_en": "Wah On Restaurant (Ting Fu Street)",
+      "lat": 22.3174362,
+      "lng": 114.2161892,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／定富街街舖",
+      "address": "九龍觀塘定富街34號地下",
+      "cuisine": [
+        "港式",
+        "茶餐廳"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（茶餐廳午市價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌，定富街地下茶餐廳。座標用OSM定富街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（34 Ting Fu Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=34%20Ting%20Fu%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "fu-wah-ting-fu",
+      "name_zh": "Fu Wah Restaurant（定富街）",
+      "name_en": "Fu Wah Restaurant (Ting Fu Street)",
+      "lat": 22.3174362,
+      "lng": 114.2161892,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／定富街街舖",
+      "address": "九龍牛頭角定富街18號地下",
+      "cuisine": [
+        "港式"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–75（街坊午餐價帶，未核實官價）",
+      "lunch_notes": "食環署小食食肆牌，定富街地下。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（18 Ting Fu Street Ngau Tau Kok）",
+          "url": "https://nominatim.openstreetmap.org/search?q=18%20Ting%20Fu%20Street%20Ngau%20Tau%20Kok",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "Light Refreshment Restaurant"
+    },
+    {
+      "id": "ting-on-siu-kun",
+      "name_zh": "定安小館茶餐廳",
+      "name_en": "Ting On Siu Kun Cafe",
+      "lat": 22.3184825,
+      "lng": 114.2151988,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／定安街／定富街街舖",
+      "address": "九龍牛頭角定安街90-92號及定富街24號地下",
+      "cuisine": [
+        "港式",
+        "茶餐廳"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（茶餐廳午市價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌，轉角舖連定安街同定富街。座標用OSM定安街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（90 Ting On Street Ngau Tau Kok）",
+          "url": "https://nominatim.openstreetmap.org/search?q=90%20Ting%20On%20Street%20Ngau%20Tau%20Kok",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "shing-hing-noodle-ting-on",
+      "name_zh": "Shing Hing Noodle and Restaurant（定安街）",
+      "name_en": "Shing Hing Noodle and Restaurant",
+      "lat": 22.3168371,
+      "lng": 114.2168334,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／定安街街舖",
+      "address": "九龍觀塘定安街98號地下",
+      "cuisine": [
+        "粉麵",
+        "港式"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–75（粉麵午市價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌，定安街地下粉麵店。座標用OSM定安街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（98 Ting On Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=98%20Ting%20On%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "lo-saam-yau-jaa-min",
+      "name_zh": "老三油渣麵（定安街）",
+      "name_en": "Lo Saam Yau Jaa Min",
+      "lat": 22.3184825,
+      "lng": 114.2151988,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／定安街街舖",
+      "address": "九龍牛頭角定安街75號定興樓地下3號舖",
+      "cuisine": [
+        "粉麵"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–70（麵食價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。座標用OSM定安街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（75 Ting On Street Ngau Tau Kok）",
+          "url": "https://nominatim.openstreetmap.org/search?q=75%20Ting%20On%20Street%20Ngau%20Tau%20Kok",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "wong-hing-kee-ting-on",
+      "name_zh": "Wong Hing Kee（定安街）",
+      "name_en": "Wong Hing Kee",
+      "lat": 22.3168371,
+      "lng": 114.2168334,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／定安街街舖",
+      "address": "九龍牛頭角定安街122A號地下",
+      "cuisine": [
+        "港式"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（街坊午餐價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌，定安街地下。座標用OSM定安街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（122A Ting On Street Ngau Tau Kok）",
+          "url": "https://nominatim.openstreetmap.org/search?q=122A%20Ting%20On%20Street%20Ngau%20Tau%20Kok",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "ying-ying-siu-chue",
+      "name_zh": "盈盈小廚（定安街）",
+      "name_en": "Ying Ying Siu Chue",
+      "lat": 22.3168371,
+      "lng": 114.2168334,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／定安街街舖",
+      "address": "九龍牛頭角定安街100-102號仁寧樓地下A2舖",
+      "cuisine": [
+        "港式",
+        "小廚"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $45–85（小廚午市價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。座標用OSM定安街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（100 Ting On Street Ngau Tau Kok）",
+          "url": "https://nominatim.openstreetmap.org/search?q=100%20Ting%20On%20Street%20Ngau%20Tau%20Kok",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "hong-ngai-thai-ting-yip",
+      "name_zh": "紅蟻泰國菜（定業街）",
+      "name_en": "Hong Ngai Thai",
+      "lat": 22.3180371,
+      "lng": 114.2158376,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／定業街街舖",
+      "address": "九龍觀塘定業街1號地下",
+      "cuisine": [
+        "泰國菜"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $50–100（泰菜午市價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌，定業街地下。座標用OSM定業街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（1 Ting Yip Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=1%20Ting%20Yip%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "ho-wan-indonesian-tung-ming",
+      "name_zh": "好運印尼餐廳（通明街）",
+      "name_en": "Ho Wan Indonesian Restaurant",
+      "lat": 22.3167371,
+      "lng": 114.2226395,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／通明街街舖",
+      "address": "九龍觀塘通明街46號地下",
+      "cuisine": [
+        "印尼菜"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 2,
+      "price_lunch_hkd": "約 $50–100（印尼菜午市價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。通明街近牛頭角站B出口往觀塘市中心。座標用OSM通明街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（46 Tung Ming Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=46%20Tung%20Ming%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "ma-je-chongqing-tung-ming",
+      "name_zh": "馬姐重慶麻辣燙（通明街）",
+      "name_en": "Ma Je Chongqing Malatang",
+      "lat": 22.3167371,
+      "lng": 114.2226395,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／通明街街舖",
+      "address": "九龍觀塘通明街7號／宜安街8號光明大廈地下低層B室",
+      "cuisine": [
+        "川菜",
+        "麻辣燙"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（麻辣燙價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。座標用OSM通明街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（7 Tung Ming Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=7%20Tung%20Ming%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "sun-kee-tung-ming",
+      "name_zh": "SUN KEE（通明街／牛頭角道）",
+      "name_en": "Sun Kee",
+      "lat": 22.3167371,
+      "lng": 114.2226395,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／通明街街舖",
+      "address": "九龍牛頭角道347-349號及通明街1-5號興達樓地下7及8號舖連閣仔",
+      "cuisine": [
+        "港式"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（街坊午餐價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌，牛頭角道轉通明街地下。座標用OSM通明街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（8 Tung Ming Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=8%20Tung%20Ming%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "sap-baat-jo-gau-jai-fan",
+      "name_zh": "十八座狗仔粉（仁安大廈）",
+      "name_en": "18 Blocks Puppy Noodles",
+      "lat": 22.3167371,
+      "lng": 114.2226395,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／通明街／牛頭角道街舖",
+      "address": "九龍牛頭角道357-375號、康寧道23號、通明街8號仁安大廈地下G舖",
+      "cuisine": [
+        "粉麵"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–65（粉麵價帶，未核實官價）",
+      "lunch_notes": "食環署小食食肆牌。仁安大廈地下，近牛頭角站往觀塘市中心路口。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（8 Tung Ming Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=8%20Tung%20Ming%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "Light Refreshment Restaurant"
+    },
+    {
+      "id": "yat-ban-siu-ngo-yan-on",
+      "name_zh": "壹品燒鵝（仁安大廈）",
+      "name_en": "Yat Ban Siu Ngo",
+      "lat": 22.3167371,
+      "lng": 114.2226395,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／通明街／牛頭角道街舖",
+      "address": "九龍牛頭角道357-375號、康寧道23號、通明街8號仁安大廈地下D舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（燒味飯價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌，仁安大廈地下。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（8 Tung Ming Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=8%20Tung%20Ming%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "ba-fang-yun-ji-yan-on",
+      "name_zh": "八方雲集（仁安大廈）",
+      "name_en": "Ba Fang Yun Ji (Yan On Mansion)",
+      "lat": 22.3167371,
+      "lng": 114.2226395,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／通明街／牛頭角道街舖",
+      "address": "九龍牛頭角道357-375號、康寧道23號、通明街8號仁安大廈地下K舖",
+      "cuisine": [
+        "餃子",
+        "鍋貼"
+      ],
+      "tags": [
+        "街舖",
+        "連鎖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（餃子套餐價帶，未核實官價）",
+      "lunch_notes": "食環署小食食肆牌。鍋貼水餃專門店，仁安大廈地下。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（8 Tung Ming Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=8%20Tung%20Ming%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "Light Refreshment Restaurant"
+    },
+    {
+      "id": "manuruya-horse-shoe",
+      "name_zh": "Manuruya（馬蹄徑）",
+      "name_en": "Manuruya",
+      "lat": 22.3145747,
+      "lng": 114.2222315,
+      "district": "牛頭角",
+      "area": "牛頭角站往觀塘／馬蹄徑街舖",
+      "address": "九龍觀塘馬蹄徑5號寶峰大廈地下6號舖",
+      "cuisine": [
+        "未分類"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（街舖午餐價帶，未核實官價）",
+      "lunch_notes": "食環署小食食肆牌。馬蹄徑近牛頭角站B出口往創紀之城。菜式未有官網餐牌，只確認持牌處所。座標用OSM寶峰大廈。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（5 Horse Shoe Lane Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=5%20Horse%20Shoe%20Lane%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "Light Refreshment Restaurant"
+    },
+    {
+      "id": "ming-fai-cafe-ntk-road",
+      "name_zh": "明輝茶餐廳（牛頭角道33號）",
+      "name_en": "Ming Fai Cafe",
+      "lat": 22.3170233,
+      "lng": 114.2176816,
+      "district": "牛頭角",
+      "area": "牛頭角道街舖",
+      "address": "九龍牛頭角道33號宏光樓地下1號舖（主要部分）及2號舖",
+      "cuisine": [
+        "港式",
+        "茶餐廳"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（茶餐廳午市價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。牛頭角道地面街舖，非商場。座標用OSM牛頭角道路段。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（33 Ngau Tau Kok Road Hong Kong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=33%20Ngau%20Tau%20Kok%20Road%20Hong%20Kong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "cheung-wing-cafe-ntk-road",
+      "name_zh": "祥榮茶餐廳（牛頭角道）",
+      "name_en": "Cheung Wing Cafe",
+      "lat": 22.3147103,
+      "lng": 114.2210083,
+      "district": "牛頭角",
+      "area": "牛頭角道往觀塘市中心街舖",
+      "address": "九龍觀塘牛頭角道245-247號禧雀樓地下",
+      "cuisine": [
+        "港式",
+        "茶餐廳"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（茶餐廳午市價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。牛頭角道近市中心一段地面舖。座標用OSM牛頭角道。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（245 Ngau Tau Kok Road Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=245%20Ngau%20Tau%20Kok%20Road%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "wing-ying-bing-teng",
+      "name_zh": "永英冰廳（觀塘道）",
+      "name_en": "Wing Ying Cafe",
+      "lat": 22.3247712,
+      "lng": 114.2143214,
+      "district": "牛頭角",
+      "area": "觀塘道街舖（牛頭角段）",
+      "address": "九龍牛頭角觀塘道265號地下",
+      "cuisine": [
+        "港式",
+        "冰室"
+      ],
+      "tags": [
+        "街舖",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（冰室午市價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。觀塘道地面。OSM將265號吸附到觀塘道牛頭角下路段，非獨立舖位節點。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（265 Kwun Tong Road Ngau Tau Kok）",
+          "url": "https://nominatim.openstreetmap.org/search?q=265%20Kwun%20Tong%20Road%20Ngau%20Tau%20Kok",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "hei-kee-hong-ning",
+      "name_zh": "喜記餐廳（康寧道）",
+      "name_en": "Hei Kee Restaurant",
+      "lat": 22.3136644,
+      "lng": 114.2234587,
+      "district": "牛頭角",
+      "area": "觀塘市中心／康寧道街舖",
+      "address": "九龍觀塘康寧道44A號泰安樓地下",
+      "cuisine": [
+        "港式",
+        "茶餐廳"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（茶餐廳午市價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。康寧道近裕民坊一段街舖。座標用OSM康寧道市中心段（55號節點較近市中心）。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（55 Hong Ning Road Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=55%20Hong%20Ning%20Road%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "come-more-bowl-hong-ning",
+      "name_zh": "來多碗香港車仔麵（康寧道）",
+      "name_en": "Come More a Bowl Cart Noodle",
+      "lat": 22.3136644,
+      "lng": 114.2234587,
+      "district": "牛頭角",
+      "area": "觀塘市中心／康寧道街舖",
+      "address": "九龍觀塘康寧道44號地下B舖",
+      "cuisine": [
+        "車仔麵"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–70（車仔麵價帶，未核實官價）",
+      "lunch_notes": "食環署小食食肆牌；中電商戶名單亦列同一地址。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "中電商戶名單（來多碗車仔麵觀塘店）",
+          "url": "https://www.clp.com.hk/content/dam/clphk/documents/community-and-environment-site/Web%20List.pdf",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（55 Hong Ning Road Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=55%20Hong%20Ning%20Road%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "Light Refreshment Restaurant"
+    },
+    {
+      "id": "tung-kee-noodles-hong-ning",
+      "name_zh": "東記粉麵家（康寧道）",
+      "name_en": "Tung Kee Noodles",
+      "lat": 22.3136644,
+      "lng": 114.2234587,
+      "district": "牛頭角",
+      "area": "觀塘市中心／康寧道街舖",
+      "address": "九龍觀塘康寧道44號泰安樓地下D舖",
+      "cuisine": [
+        "粉麵"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–70（粉麵價帶，未核實官價）",
+      "lunch_notes": "食環署小食食肆牌，康寧道地下。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（55 Hong Ning Road Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=55%20Hong%20Ning%20Road%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "Light Refreshment Restaurant"
+    },
+    {
+      "id": "da-sang-fish-soup-hong-ning",
+      "name_zh": "達生魚湯米線（康寧道）",
+      "name_en": "Da Sang Fish Soup Mixian",
+      "lat": 22.3136644,
+      "lng": 114.2234587,
+      "district": "牛頭角",
+      "area": "觀塘市中心／康寧道街舖",
+      "address": "九龍觀塘康寧道55號康寧閣地下10-12號舖",
+      "cuisine": [
+        "粉麵",
+        "魚湯米線"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–75（米線價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。座標用OSM康寧道55號路段。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（55 Hong Ning Road Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=55%20Hong%20Ning%20Road%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "tamjai-hong-ning",
+      "name_zh": "譚仔雲南米線（康寧道）",
+      "name_en": "TamJai Yunnan Mixian (Hong Ning Road)",
+      "lat": 22.3136644,
+      "lng": 114.2234587,
+      "district": "牛頭角",
+      "area": "觀塘市中心／康寧道街舖",
+      "address": "九龍觀塘康寧道56號地下及閣仔",
+      "cuisine": [
+        "雲南米線"
+      ],
+      "tags": [
+        "街舖",
+        "連鎖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $45–80（米線價帶，未核實官價）",
+      "lunch_notes": "食環署小食食肆牌確認康寧道地面分店。連鎖米線堂食午飯。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（56 Hong Ning Road Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=56%20Hong%20Ning%20Road%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "Light Refreshment Restaurant"
+    },
+    {
+      "id": "seung-sum-suanlafen-hong-ning",
+      "name_zh": "傷心酸辣粉（康寧道）",
+      "name_en": "Shangxin Suanlafen",
+      "lat": 22.3136644,
+      "lng": 114.2234587,
+      "district": "牛頭角",
+      "area": "觀塘市中心／康寧道街舖",
+      "address": "九龍觀塘康寧道40號泰安樓地下C舖",
+      "cuisine": [
+        "川菜",
+        "酸辣粉"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–75（粉麵價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。座標用OSM康寧道市中心段。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（55 Hong Ning Road Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=55%20Hong%20Ning%20Road%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "dai-lung-wah-shui-wo",
+      "name_zh": "大龍華燒味店（瑞和街）",
+      "name_en": "Dai Lung Wah Siu Mei",
+      "lat": 22.3156654,
+      "lng": 114.2254281,
+      "district": "牛頭角",
+      "area": "觀塘市中心／瑞和街街舖",
+      "address": "九龍觀塘瑞和街50-68號南泰樓地下B舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（燒味飯價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。瑞和街近裕民坊舊街市一段。座標用OSM瑞和街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（50 Shui Wo Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=50%20Shui%20Wo%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "chung-kee-congee-mut-wah",
+      "name_zh": "忠記粥品（物華街）",
+      "name_en": "Chung Kee Congee",
+      "lat": 22.3151003,
+      "lng": 114.2254081,
+      "district": "牛頭角",
+      "area": "觀塘市中心／物華街街舖",
+      "address": "九龍觀塘物華街43號華安樓地下1號舖",
+      "cuisine": [
+        "粥品",
+        "港式"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $30–60（粥粉麵價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。物華街地下。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（45 Mut Wah Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=45%20Mut%20Wah%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "chiu-yan-siu-ngo-mut-wah",
+      "name_zh": "超人燒鵝（物華街）",
+      "name_en": "Chiu Yan Siu Ngo",
+      "lat": 22.3151003,
+      "lng": 114.2254081,
+      "district": "牛頭角",
+      "area": "觀塘市中心／物華街街舖",
+      "address": "九龍觀塘物華街45號華安樓地下2號舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（燒味飯價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。物華街地下。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（45 Mut Wah Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=45%20Mut%20Wah%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "yuen-kee-wonton-mut-wah",
+      "name_zh": "袁記雲餃（物華街）",
+      "name_en": "Yuen Kee Wonton",
+      "lat": 22.3151003,
+      "lng": 114.2254081,
+      "district": "牛頭角",
+      "area": "觀塘市中心／物華街街舖",
+      "address": "九龍觀塘物華街43-53號華安樓地下3號舖",
+      "cuisine": [
+        "粉麵",
+        "雲吞"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–70（雲吞麵價帶，未核實官價）",
+      "lunch_notes": "食環署小食食肆牌。物華街地下。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（45 Mut Wah Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=45%20Mut%20Wah%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "Light Refreshment Restaurant"
+    },
+    {
+      "id": "kwong-tung-siu-mei-fu-yan",
+      "name_zh": "廣東燒味餐廳（輔仁街）",
+      "name_en": "Kwong Tung Siu Mei Restaurant",
+      "lat": 22.3155937,
+      "lng": 114.2240879,
+      "district": "牛頭角",
+      "area": "觀塘市中心／輔仁街街舖",
+      "address": "九龍觀塘輔仁街34號（前部）及28-38號地下",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（燒味飯價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌（名單出現相鄰兩個舖位紀錄）。座標用OSM輔仁街。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（34 Fu Yan Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=34%20Fu%20Yan%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
+    },
+    {
+      "id": "sun-cheung-fat-hip-wo",
+      "name_zh": "新祥發（協和街）",
+      "name_en": "Sun Cheung Fat",
+      "lat": 22.3224559,
+      "lng": 114.2259802,
+      "district": "牛頭角",
+      "area": "觀塘／協和街街舖",
+      "address": "九龍觀塘協和街123-125號地下",
+      "cuisine": [
+        "港式"
+      ],
+      "tags": [
+        "街舖",
+        "堂食",
+        "邊界鄰近觀塘"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（街坊午餐價帶，未核實官價）",
+      "lunch_notes": "食環署普通食肆牌。協和街地面。座標用OSM協和街，路段吸附偏山邊，實際舖位以牌照地址為準。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim（123 Hip Wo Street Kwun Tong）",
+          "url": "https://nominatim.openstreetmap.org/search?q=123%20Hip%20Wo%20Street%20Kwun%20Tong",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28",
+      "licence_type": "General Restaurant"
     }
   ],
   "excluded": [
@@ -2265,12 +4218,256 @@
           "checked_at": "2026-09-28"
         }
       ]
+    },
+    {
+      "id": "a1-bakery-amoy",
+      "name_zh": "A-1 Bakery（淘大）",
+      "name_en": "A-1 Bakery",
+      "lat": 22.3245696,
+      "lng": 114.2162558,
+      "exclude_reason": "恒隆分類 Coffee & Bakery，屬麵包舖，不符合正餐午餐＋堂食準則。",
+      "sources": [
+        {
+          "name": "恒隆商場淘大餐飲目錄",
+          "url": "https://www.hanglungmalls.com/en/amoy-plaza/dining",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "golden-hall-dessert-amoy",
+      "name_zh": "金滿堂甜品（淘大）",
+      "name_en": "Golden Hall Dessert",
+      "lat": 22.3245696,
+      "lng": 114.2162558,
+      "exclude_reason": "恒隆分類 Snack & Dessert，純甜品無確認正餐午餐。",
+      "sources": [
+        {
+          "name": "恒隆商場淘大餐飲目錄",
+          "url": "https://www.hanglungmalls.com/en/amoy-plaza/dining",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "mammy-pancake-amoy",
+      "name_zh": "媽咪雞蛋仔（淘大）",
+      "name_en": "Mammy Pancake",
+      "lat": 22.3245696,
+      "lng": 114.2162558,
+      "exclude_reason": "小食舖，非正餐午餐。",
+      "sources": [
+        {
+          "name": "恒隆商場淘大餐飲目錄",
+          "url": "https://www.hanglungmalls.com/en/amoy-plaza/dining",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "forest-bakery-lok-wah",
+      "name_zh": "森林麵包（樂華商場）",
+      "name_en": "The Forest Bakery",
+      "lat": 22.3214929,
+      "lng": 114.2202448,
+      "exclude_reason": "商場水牌列麵包店，排除 bakery。",
+      "sources": [
+        {
+          "name": "樂華商場店鋪資訊",
+          "url": "https://www.shoppinggai.com/LokWahShoppingCentre",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "kee-heung-wine-amoy",
+      "name_zh": "奇香酒行（淘大）",
+      "name_en": "Kee Heung Wine Cellar",
+      "lat": 22.3245696,
+      "lng": 114.2162558,
+      "exclude_reason": "酒行／酒吧類，非午餐正餐飯堂。",
+      "sources": [
+        {
+          "name": "恒隆商場淘大餐飲目錄",
+          "url": "https://www.hanglungmalls.com/en/amoy-plaza/dining",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "ntk-market-evening-dai-pai-dong",
+      "name_zh": "牛頭角市政大廈熟食中心晚市大牌檔（十二少／新南苑／合利等）",
+      "name_en": "Ngau Tau Kok Market Cooked Food Centre evening stalls",
+      "lat": 22.3215139,
+      "lng": 114.2163956,
+      "exclude_reason": "FEHD確認183號市政大廈有熟食中心及座位；但多檔公開資料顯示17:00才開，未核實平日11:00–15:00午市。個別檔名暫時只有食評網線索，不入庫。",
+      "sources": [
+        {
+          "name": "FEHD 公眾街市／熟食市場名單",
+          "url": "https://www.fehd.gov.hk/english/pleasant_environment/tidy_market/Markets_CFC_list.html",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Wikimedia Commons（熟食中心位置）",
+          "url": "https://commons.wikimedia.org/wiki/Category:Ngau_Tau_Kok_Market_Cooked_Food_Centre",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "pak-kee-coffee-ntk-market",
+      "name_zh": "北記咖啡奶茶（市政大廈熟食中心）",
+      "name_en": "Pak Kee Coffee Milk Tea",
+      "lat": 22.3215139,
+      "lng": 114.2163956,
+      "exclude_reason": "熟食中心存在可核對，但檔名、舖號同06:00–15:00時段目前只有OpenRice類來源，按規則不入 restaurants。",
+      "sources": [
+        {
+          "name": "FEHD 牛頭角街市",
+          "url": "https://www.fehd.gov.hk/english/pleasant_environment/tidy_market/Markets_CFC_list.html",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "macau-curry-king-315-ntk",
+      "name_zh": "澳門咖喱王清湯腩（牛頭角道315號）",
+      "name_en": "Macau Curry King",
+      "lat": 22.3170233,
+      "lng": 114.2176816,
+      "exclude_reason": "地址線索主要來自食評網，未找到餐廳／商場／政府官源確認堂食午市，不估座標入庫。",
+      "sources": []
+    },
+    {
+      "id": "original-taste-93wys",
+      "name_zh": "原味小聚（93WYS）",
+      "name_en": "Original Taste Hotpot (93WYS)",
+      "lat": 22.3163182,
+      "lng": 114.2149264,
+      "exclude_reason": "93偉業街工業廈座標可核對，但餐廳本身未有非OpenRice官源確認午市堂食，暫排除。",
+      "sources": [
+        {
+          "name": "OpenStreetMap Nominatim（93 Wai Yip Street）",
+          "url": "https://nominatim.openstreetmap.org/search?q=93%20Wai%20Yip%20Street%20Hong%20Kong",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "ho-choi-millennium-city-1",
+      "name_zh": "好彩海鮮酒家（創紀之城一期）",
+      "name_en": "Ho Choi Seafood Restaurant (Millennium City 1)",
+      "lat": 22.3136565,
+      "lng": 114.221455,
+      "exclude_reason": "位置在牛頭角站B出口沿觀塘道創紀之城一期5樓，午市酒樓可能性高，但未找到集團官網分店頁可核對營業時段，按規則暫不入庫。",
+      "sources": [
+        {
+          "name": "OpenStreetMap Nominatim（創紀之城一期）",
+          "url": "https://nominatim.openstreetmap.org/search?q=Millennium%20City%201%20388%20Kwun%20Tong%20Road",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "ym2-bakeries-desserts",
+      "name_zh": "裕民坊烘焙／甜品／小食舖（美心烘焙所、皇玥、恆香、春芳號、日本雪糕屋、興發熟食等）",
+      "name_en": "YM² bakeries desserts snacks",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "exclude_reason": "YM²官方目錄屬烘焙、甜品或小食，不符合正餐午餐準則。",
+      "sources": [
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "plato-black-coffee-ym2",
+      "name_zh": "Plato Cafe & Bistro／BLACK COFFEE（裕民坊）",
+      "name_en": "Plato / Black Coffee YM2",
+      "lat": 22.3144679,
+      "lng": 114.2253233,
+      "exclude_reason": "YM²分類為咖啡店及甜點，未單獨核實正餐午餐套餐，暫排除。",
+      "sources": [
+        {
+          "name": "YM²裕民坊餐飲目錄",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "tsun-yip-cooked-food-market",
+      "name_zh": "駿業熟食市場（檔販）",
+      "name_en": "Tsun Yip Cooked Food Market stalls",
+      "lat": 22.3117936,
+      "lng": 114.2228978,
+      "exclude_reason": "FEHD確認熟食市場存在，有堂食座位可能，但未核實個別檔名同平日11:00–15:00午市，不估入庫。",
+      "sources": [
+        {
+          "name": "FEHD 公眾街市／熟食市場名單",
+          "url": "https://www.fehd.gov.hk/english/pleasant_environment/tidy_market/Markets_CFC_list.html",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "OpenStreetMap Nominatim",
+          "url": "https://nominatim.openstreetmap.org/search?q=Tsun%20Yip%20Cooked%20Food%20Market",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-corridor-gf-remainder",
+      "name_zh": "走廊其餘食環署地下持牌食肆（未逐間入庫）",
+      "name_en": "Remaining FEHD G/F licensed restaurants on corridor streets",
+      "lat": 22.3148132,
+      "lng": 114.2202901,
+      "exclude_reason": "2026-09-28食環署觀塘區名單，定富／馬蹄徑／通明／定安／牛頭角道／觀塘道／康寧／瑞和／物華／協和／輔仁等地下持牌食肆合共約90+間。本輪只入庫核心街舖同市中心代表店。其餘未逐間核座標／或屬酒吧、Cafe、小食、商場地面美食廣場（E Plaza、Scramble Hill等）暫不入庫。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "focus-bar-tung-ming",
+      "name_zh": "FOCUS BAR（通明街）",
+      "name_en": "FOCUS BAR",
+      "lat": 22.3167371,
+      "lng": 114.2226395,
+      "exclude_reason": "食環署有牌，但店名屬酒吧，唔當午飯正餐。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "home-coffee-lab-hong-ning",
+      "name_zh": "THE HOME COFFEE LAB（康寧道）",
+      "name_en": "THE HOME COFFEE LAB",
+      "lat": 22.3224647,
+      "lng": 114.2255409,
+      "exclude_reason": "店名屬Cafe，未核實正餐午餐。",
+      "sources": [
+        {
+          "name": "食環署持牌食肆公開資料（2026-09-28 清單）",
+          "url": "https://www.fehd.gov.hk/english/licensing/license/text/LP_Restaurants_EN.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
     }
   ],
   "meta": {
-    "status": "coverage expand",
-    "phase": "phase-3-ntk-expand",
-    "notes_zh": "phase-3-ntk-expand（v1.3）：針對淘大簇過度集中，新增 18 間非淘大堂食午餐（站／街舖／得寶／上邨／樂華／鴻圖工廈／坪石／啟業等）；保留既有34間 id。本輪唔再大量加淘大連鎖。收費 API：0。",
+    "status": "user attachment merge on v1.3",
+    "phase": "phase-2.6",
+    "notes_zh": "v1.4：保留研究員 v1.3（52），合併用戶附件新增店；跳過 id／全名重複、先前剔除政策（如 HI TEA）、明顯同分店異 id；部分標「邊界鄰近觀塘」（裕民坊／康寧道等）。",
     "added_this_round": 18,
     "added_ids": [
       "ming-fai-noodle-cafe-ntk-road",
@@ -2304,6 +4501,15 @@
       22.32,
       114.217
     ],
-    "paid_api_calls": 0
+    "paid_api_calls": 0,
+    "merge": {
+      "added": 54,
+      "added_kt_boundary": 31,
+      "added_ntk_core": 23,
+      "skipped_id_or_name": 14,
+      "skipped_same_shop": 2,
+      "skipped_exclude_policy": 1,
+      "excluded_merged": 16
+    }
   }
 }
