@@ -50,7 +50,7 @@ const DISTRICT_SEEDS: DistrictSeed[] = [
     seed: tkoSeedData as SeedFile,
   },
   {
-    // 牛頭角站／下邨／淘大／樂華／坪石一帶；同觀塘、九龍灣有邊界重疊，以下用最近中心處理
+    // 牛頭角站／下邨／淘大／樂華／坪石一帶；同觀塘、九龍灣有邊界重疊，多 hit 時用半徑內 seed 數量決勝
     label: '牛頭角',
     bbox: {
       minLat: 22.312,
@@ -198,7 +198,31 @@ function districtCenter(d: DistrictSeed): { lat: number; lng: number } {
   };
 }
 
-function resolveDistrictSeed(coords: UserCoords): DistrictSeed | null {
+/** Count seed restaurants within radius of origin (haversine). */
+function countSeedInRadius(
+  d: DistrictSeed,
+  origin: { lat: number; lng: number },
+  radius: number,
+): number {
+  const list = d.seed.restaurants ?? [];
+  let n = 0;
+  for (const r of list) {
+    if (typeof r.lat !== 'number' || typeof r.lng !== 'number') continue;
+    if (haversineMeters(origin, { lat: r.lat, lng: r.lng }) <= radius) n += 1;
+  }
+  return n;
+}
+
+/**
+ * Resolve which district seed to use for coords.
+ * Label match wins. Else bbox hits: if multiple overlap, pick the district
+ * with the most seed restaurants within `radius` (tie-break: nearest bbox center).
+ * When radius omitted (isIn* helpers), treat radius as Infinity (count all seeds).
+ */
+function resolveDistrictSeed(
+  coords: UserCoords,
+  radius?: RadiusMeters,
+): DistrictSeed | null {
   const label = coords.label ?? '';
   // 地圖揀位等無地區 label：唔好用「包含」誤中；只認明確地區名
   const byLabel = DISTRICT_SEEDS.find((d) => label.includes(d.label));
@@ -211,12 +235,14 @@ function resolveDistrictSeed(coords: UserCoords): DistrictSeed | null {
   if (hits.length === 1) return hits[0]!;
 
   const origin = { lat: coords.latitude, lng: coords.longitude };
+  const r = radius ?? Number.POSITIVE_INFINITY;
   return hits
     .map((d) => ({
       d,
+      count: countSeedInRadius(d, origin, r),
       dist: haversineMeters(origin, districtCenter(d)),
     }))
-    .sort((a, b) => a.dist - b.dist)[0]!.d;
+    .sort((a, b) => b.count - a.count || a.dist - b.dist)[0]!.d;
 }
 
 /** @deprecated use hasLocalSeedDistrict — kept for call-site clarity */
@@ -288,7 +314,7 @@ export function getLocalSeedNearbyPlaces(
   coords: UserCoords,
   radius: RadiusMeters,
 ): Place[] {
-  const district = resolveDistrictSeed(coords);
+  const district = resolveDistrictSeed(coords, radius);
   if (!district) return [];
 
   const origin = { lat: coords.latitude, lng: coords.longitude };
