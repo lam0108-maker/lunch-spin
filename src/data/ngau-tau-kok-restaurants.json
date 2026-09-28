@@ -1,7 +1,7 @@
 {
   "district": "牛頭角",
-  "version": "1.2",
-  "updated_at": "2026-09-25",
+  "version": "1.3",
+  "updated_at": "2026-09-28",
   "criteria": {
     "serves_lunch": true,
     "dine_in": true,
@@ -1313,6 +1313,726 @@
       "serves_lunch": true,
       "verified_at": "2026-09-25",
       "price_lunch_hkd": "約 $70–120（午市／未核實官價）"
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "ming-fai-noodle-cafe-ntk-road",
+      "name_zh": "明輝粉麵茶餐廳（牛頭角道）",
+      "name_en": "Ming Fai Noodle Cafe (Ngau Tau Kok Road)",
+      "lat": 22.3257871,
+      "lng": 114.2148999,
+      "area": "牛頭角道街舖",
+      "address": "牛頭角牛頭角道33號宏光樓地下1-2號舖",
+      "cuisine": [
+        "港式茶餐廳",
+        "粉麵"
+      ],
+      "tags": [
+        "街舖",
+        "茶餐廳",
+        "午餐套餐",
+        "EatSmart"
+      ],
+      "lunch_notes": "牛頭角道宏光樓街舖茶餐廳，衞生署星級有營食肆列粉麵／茶餐廳；平日可堂食午餐。飯麵小菜為主，實際價目以店內餐牌為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–60（午餐套餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（明輝粉麵茶餐廳）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10096",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Nominatim／Photon 宏光樓",
+          "url": "https://nominatim.openstreetmap.org/search?q=%E5%AE%8F%E5%85%89%E6%A8%93+%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%93&format=json",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "wohi-yunnan-noodle-garden-estate",
+      "name_zh": "和喜雲南米線（花園大廈）",
+      "name_en": "Wohi Yunnan Noodle (Garden Estate)",
+      "lat": 22.3170742,
+      "lng": 114.2186722,
+      "area": "花園大廈",
+      "address": "牛頭角花園大廈孔雀樓地下259號舖",
+      "cuisine": [
+        "雲南米線",
+        "粉麵"
+      ],
+      "tags": [
+        "街舖",
+        "米線",
+        "午餐套餐",
+        "EatSmart"
+      ],
+      "lunch_notes": "花園大廈孔雀樓街舖，衞生署星級有營食肆列雲南米線／中菜廳。近牛頭角站，適合平日堂食米線午餐；價目以店內為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–55（午餐套餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（和喜雲南米線）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10227",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 觀塘花園大廈",
+          "url": "https://photon.komoot.io/api/?q=%E8%A7%80%E5%A1%98%E8%8A%B1%E5%9C%92%E5%A4%A7%E5%BB%88+%E7%89%9B%E9%A0%AD%E8%A7%92",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "chun-tin-kitchen-garden-estate",
+      "name_zh": "春天小廚（花園大廈）",
+      "name_en": "Chun Tin Kitchen (Garden Estate)",
+      "lat": 22.3173264,
+      "lng": 114.2166971,
+      "area": "花園大廈",
+      "address": "牛頭角牛頭角道269-271號觀塘花園大廈孔雀樓地下269-271舖",
+      "cuisine": [
+        "港式小廚",
+        "中菜"
+      ],
+      "tags": [
+        "街舖",
+        "小廚",
+        "午餐套餐",
+        "EatSmart"
+      ],
+      "lunch_notes": "花園大廈孔雀樓地舖，衞生署星級有營食肆列中菜廳。牛頭角道沿線街舖，平日可作堂食簡餐／小菜午餐；價目以店內餐牌為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（午餐套餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（春天小廚）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10228",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Nominatim 觀塘花園大廈／牛頭角道",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kwun+Tong+Garden+Estate+Ngau+Tau+Kok+Road&format=json",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "cheung-wing-cha-bing-ntk-road",
+      "name_zh": "祥榮茶冰廳（牛頭角道）",
+      "name_en": "Cheung Wing Cha Bing (Ngau Tau Kok Road)",
+      "lat": 22.3171233,
+      "lng": 114.2177816,
+      "area": "牛頭角道街舖",
+      "address": "牛頭角牛頭角道245-247號地下",
+      "cuisine": [
+        "港式茶餐廳",
+        "冰室"
+      ],
+      "tags": [
+        "街舖",
+        "茶餐廳",
+        "午餐套餐",
+        "EatSmart"
+      ],
+      "lunch_notes": "牛頭角道街舖茶冰廳，衞生署星級有營食肆列中菜廳。近花園大廈／得寶一帶，平日可堂食茶記午餐；價目以店內為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–60（午餐常餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（祥榮茶冰廳）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10229",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Nominatim／Photon 牛頭角道",
+          "url": "https://nominatim.openstreetmap.org/search?q=Ngau+Tau+Kok+Road+245+Hong+Kong&format=json",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "sun-luen-fat-cafe-ting-fook",
+      "name_zh": "新聯發茶餐廳（定富街）",
+      "name_en": "Sun Luen Fat Cafe (Ting Fook Street)",
+      "lat": 22.3174807,
+      "lng": 114.2164326,
+      "area": "定富街",
+      "address": "牛頭角定富街5-7號億富樓地舖",
+      "cuisine": [
+        "港式茶餐廳"
+      ],
+      "tags": [
+        "街舖",
+        "茶餐廳",
+        "午餐套餐",
+        "EatSmart"
+      ],
+      "lunch_notes": "定富街億富樓地舖茶餐廳，衞生署星級有營食肆列出。近牛頭角站／下邨一帶，平日可堂食茶記午餐；價目以店內餐牌為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–60（午餐常餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（新聯發茶餐廳）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10230",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 億富樓／定富街",
+          "url": "https://photon.komoot.io/api/?q=%E5%AE%9A%E5%AF%8C%E8%A1%97+%E5%84%84%E5%AF%8C%E6%A8%93+%E7%89%9B%E9%A0%AD%E8%A7%92",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "yat-chau-min-garden-estate",
+      "name_zh": "一粥麵（花園大廈玉蓮臺）",
+      "name_en": "Yat Chau Min (Garden Estate Lotus Tower)",
+      "lat": 22.3155168,
+      "lng": 114.2204976,
+      "area": "花園大廈",
+      "address": "九龍牛頭角道297號觀塘花園大廈玉蓮臺3座地下19-21號舖",
+      "cuisine": [
+        "港式快餐",
+        "粥麵"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "EatSmart",
+        "街舖"
+      ],
+      "lunch_notes": "美心旗下「一粥麵」花園大廈玉蓮臺分店，衞生署星級有營食肆列中菜廳／麵食。近牛頭角站，連鎖粥粉麵飯可作平日午餐。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–65（午餐套餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（一粥麵 花園大廈）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=11110",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon／Nominatim 玉蓮臺",
+          "url": "https://nominatim.openstreetmap.org/search?q=%E7%8E%89%E8%93%AE%E8%87%BA+%E7%89%9B%E9%A0%AD%E8%A7%92&format=json",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "curry-king-kitchen-ting-fook",
+      "name_zh": "咖喱王小廚（定富街）",
+      "name_en": "Curry King Kitchen (Ting Fook Street)",
+      "lat": 22.31698,
+      "lng": 114.2169,
+      "area": "定富街",
+      "address": "九龍牛頭角定富街16號地下",
+      "cuisine": [
+        "咖喱",
+        "港式小廚"
+      ],
+      "tags": [
+        "街舖",
+        "小廚",
+        "午餐套餐",
+        "EatSmart"
+      ],
+      "lunch_notes": "定富街地下小廚，衞生署星級有營食肆列中菜廳。近牛頭角站，平日可堂食咖喱／小菜午餐；價目以店內為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（午餐套餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（咖喱王小廚）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1159",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 定富街／牛頭角站一帶",
+          "url": "https://photon.komoot.io/api/?q=%E5%AE%9A%E5%AF%8C%E8%A1%97+%E7%89%9B%E9%A0%AD%E8%A7%92",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "macau-curry-king-ntk-road",
+      "name_zh": "澳門咖喱王清湯腩（牛頭角道）",
+      "name_en": "Macau Curry King Clear Broth Brisket (Ngau Tau Kok Road)",
+      "lat": 22.3153,
+      "lng": 114.2202,
+      "area": "牛頭角道街舖",
+      "address": "牛頭角牛頭角道315號地下",
+      "cuisine": [
+        "清湯腩",
+        "咖喱",
+        "粉麵"
+      ],
+      "tags": [
+        "街舖",
+        "粉麵",
+        "午餐套餐",
+        "EatSmart"
+      ],
+      "lunch_notes": "牛頭角道街舖，衞生署星級有營食肆列茶餐廳。近玉蓮臺／牛頭角站，以清湯腩／咖喱粉麵作午餐堂食；價目以店內為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（午餐套餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（澳門咖喱王清湯腩）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10193",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Nominatim／Photon 牛頭角道／玉蓮臺一帶",
+          "url": "https://nominatim.openstreetmap.org/search?q=Ngau+Tau+Kok+Road+Hong+Kong&format=json",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "maxims-mx-upper-ntk-estate",
+      "name_zh": "美心MX（牛頭角上邨商場）",
+      "name_en": "Maxim's MX (Upper Ngau Tau Kok Estate Shopping Centre)",
+      "lat": 22.3202084,
+      "lng": 114.2160177,
+      "area": "牛頭角上邨商場",
+      "address": "九龍牛頭角邨牛頭角上邨商場地下1號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店",
+        "EatSmart"
+      ],
+      "lunch_notes": "牛頭角上邨商場美心MX，衞生署星級有營食肆列快餐店。屋邨商場連鎖快餐，飯麵／套餐可作平日午餐；商場人流午市或會排隊。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $39–65（午餐套餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（美心MX 牛頭角）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10527",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "房屋署／房委會 牛頭角上邨商場簡介",
+          "url": "https://www.housingauthority.gov.hk/tc/commercial-properties/shopping-centres/list-of-shopping-centres/details/upper-ngau-tau-kok-estate/index.html",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 牛頭角上邨商場",
+          "url": "https://photon.komoot.io/api/?q=%E7%89%9B%E9%A0%AD%E8%A7%92%E4%B8%8A%E9%82%A8%E5%95%86%E5%A0%B4",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "mcdonalds-lok-wah",
+      "name_zh": "麥當勞（樂華商場）",
+      "name_en": "McDonald's (Lok Wah Commercial Centre)",
+      "lat": 22.3219597,
+      "lng": 114.2200872,
+      "area": "樂華商場",
+      "address": "牛頭角樂華邨樂華商場310號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店"
+      ],
+      "lunch_notes": "樂華商場麥當勞，官方分店頁列樂華邨樂華商場310號舖，有大堂座位。可作全日／午餐快餐；推廣套餐價目以 App／店內為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $36–55",
+      "sources": [
+        {
+          "name": "麥當勞香港分店頁（樂華邨 #194）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/194/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 樂華商場",
+          "url": "https://photon.komoot.io/api/?q=%E6%A8%82%E8%8F%AF%E5%95%86%E5%A0%B4+%E7%89%9B%E9%A0%AD%E8%A7%92",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "tamjai-samgor-tak-bo",
+      "name_zh": "譚仔三哥米線（得寶商場）",
+      "name_en": "TamJai SamGor Mixian (Tak Bo Garden)",
+      "lat": 22.3170233,
+      "lng": 114.2176816,
+      "area": "得寶商場",
+      "address": "九龍牛頭角得寶花園商場地下A3及A5號舖",
+      "cuisine": [
+        "雲南米線",
+        "粉麵"
+      ],
+      "tags": [
+        "連鎖",
+        "米線",
+        "午餐套餐",
+        "商場店",
+        "EatSmart"
+      ],
+      "lunch_notes": "得寶花園商場譚仔三哥，官方分店頁列週一至五約11:00–22:30堂食。衞生署星級有營食肆亦有列；米線配料自選，適合牛頭角站／工業區一帶午餐。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–65",
+      "sources": [
+        {
+          "name": "譚仔三哥官方分店（得寶花園商場 s081）",
+          "url": "https://www.tjsamgor.com/hk/stores/s081/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "衞生署星級有營食肆（譚仔三哥 得寶花園商場）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10463",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 得寶花園／牛頭角道3號",
+          "url": "https://photon.komoot.io/api/?q=%E5%BE%97%E5%AF%B6%E8%8A%B1%E5%9C%92%E5%95%86%E5%A0%B4+%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%93",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "saizeriya-tak-bo",
+      "name_zh": "薩莉亞（得寶商場）",
+      "name_en": "Saizeriya (Tak Bo Garden)",
+      "lat": 22.3170733,
+      "lng": 114.2177316,
+      "area": "得寶商場",
+      "address": "九龍牛頭角道3號得寶花園商場1樓R1號舖",
+      "cuisine": [
+        "意式",
+        "西式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "西餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "lunch_notes": "得寶商場薩莉亞，官方分店情報列九龍灣得寶店地址及平日約11:00–22:00（截單較早）。意式／西式廉價堂食，適合站附近午餐。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80",
+      "sources": [
+        {
+          "name": "薩莉亞官方分店情報（九龍灣得寶店）",
+          "url": "https://www.saizeriya.com.hk/shop-info/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "薩莉亞官方：九龍灣得寶店翻新重開公告",
+          "url": "https://www.saizeriya.com.hk/%E3%80%90%E7%BF%BB%E6%96%B0%E5%BE%8C%E9%87%8D%E9%96%8B%E3%80%91%E4%B9%9D%E9%BE%8D%E7%81%A3%E5%BE%97%E5%AF%B6%E5%BA%979%E6%9C%8816%E6%97%A5%E7%99%BB%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 得寶花園商場",
+          "url": "https://photon.komoot.io/api/?q=%E5%BE%97%E5%AF%B6%E8%8A%B1%E5%9C%92%E5%95%86%E5%A0%B4+%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%93",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "cafe-de-coral-paul-y-hung-to",
+      "name_zh": "大家樂（保華企業中心／鴻圖道）",
+      "name_en": "Café de Coral (Paul Y Centre / Hung To Road)",
+      "lat": 22.3114373,
+      "lng": 114.221908,
+      "area": "鴻圖道／工廈區",
+      "address": "九龍觀塘鴻圖道51號保華企業中心地下2號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "工廈區",
+        "EatSmart"
+      ],
+      "lunch_notes": "鴻圖道保華企業中心大家樂，衞生署星級有營食肆列快餐店。服務觀塘／牛頭角工廈午餐客群；連鎖飯麵套餐，公開推廣常見約$39起。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $39–65",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（大家樂 Paul Y）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10963",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 鴻圖道51號",
+          "url": "https://photon.komoot.io/api/?q=Hung+To+Road+51+Kwun+Tong",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48（連鎖慣例）",
+          "url": "https://www.stheadline.com/food/3549243/",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "fairwood-ping-shek",
+      "name_zh": "大快活（坪石邨）",
+      "name_en": "Fairwood (Ping Shek Estate)",
+      "lat": 22.333443,
+      "lng": 114.209859,
+      "area": "坪石邨",
+      "address": "彩虹坪石邨街市平台1號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "屋邨店"
+      ],
+      "lunch_notes": "坪石邨街市平台大快活，官方搵舖頁列堂食＋外賣，約06:30–21:00。服務彩德／坪石／啟業北面住區午餐；雙餸碗等公開價約$39起。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $39–60",
+      "sources": [
+        {
+          "name": "大快活官方搵舖食飯（彩虹坪石邨）",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "大快活官網：雙餸百搭碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/food_menus?tab=lunch",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 坪石邨",
+          "url": "https://photon.komoot.io/api/?q=%E5%9D%AA%E7%9F%B3%E9%82%A8",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "mcdonalds-ping-shek",
+      "name_zh": "麥當勞（坪石邨）",
+      "name_en": "McDonald's (Ping Shek Estate)",
+      "lat": 22.3329217,
+      "lng": 114.2091263,
+      "area": "坪石邨",
+      "address": "牛池灣坪石村停車場G1號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "24小時",
+        "屋邨店"
+      ],
+      "lunch_notes": "坪石邨停車場麥當勞，官方分店頁列室內用餐／大堂座位／24小時。服務北面住區全日快餐午餐；推廣套餐以 App／店內為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $36–55",
+      "sources": [
+        {
+          "name": "麥當勞香港分店頁（坪石邨 #307）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/307/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 坪石邨",
+          "url": "https://photon.komoot.io/api/?q=%E5%9D%AA%E7%9F%B3%E9%82%A8+%E5%81%9C%E8%BB%8A%E5%A0%B4",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "yumai-kai-yip",
+      "name_zh": "魚米（啟業邨）",
+      "name_en": "Yu Mai (Kai Yip Estate)",
+      "lat": 22.3304526,
+      "lng": 114.2099143,
+      "area": "啟業邨",
+      "address": "九龍九龍灣啟業邨啟賢樓地下3A舖",
+      "cuisine": [
+        "港式茶餐廳",
+        "粉麵"
+      ],
+      "tags": [
+        "茶餐廳",
+        "粉麵",
+        "午餐套餐",
+        "EatSmart",
+        "屋邨店"
+      ],
+      "lunch_notes": "啟業邨啟賢樓魚米，衞生署星級有營食肆列茶餐廳／麵食。地理上近彩德／坪石北面，可作該帶午餐堂食；價目以店內為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（午餐套餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（魚米 啟業邨）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=2154",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 啟業邨啟賢樓",
+          "url": "https://photon.komoot.io/api/?q=%E5%95%9F%E6%A5%AD%E9%82%A8+%E5%95%9F%E8%B3%A2%E6%A8%93",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "tong-ka-kai-yip",
+      "name_zh": "湯加（啟業邨）",
+      "name_en": "Tong Ka (Kai Yip Estate)",
+      "lat": 22.3305026,
+      "lng": 114.2099643,
+      "area": "啟業邨",
+      "address": "九龍九龍灣啟業邨啟賢樓地下3號舖",
+      "cuisine": [
+        "港式茶餐廳",
+        "粉麵"
+      ],
+      "tags": [
+        "茶餐廳",
+        "粉麵",
+        "午餐套餐",
+        "EatSmart",
+        "屋邨店"
+      ],
+      "lunch_notes": "啟業邨啟賢樓湯加，衞生署星級有營食肆列茶餐廳／麵食。與魚米同座，服務啟業／彩德北面午餐；價目以店內為準。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（午餐套餐／未核實官價）",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（湯加 啟業邨）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10049",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 啟業邨啟賢樓",
+          "url": "https://photon.komoot.io/api/?q=%E5%95%9F%E6%A5%AD%E9%82%A8+%E5%95%9F%E8%B3%A2%E6%A8%93",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "district": "牛頭角",
+      "dine_in": true,
+      "serves_lunch": true,
+      "verified_at": "2026-09-28",
+      "id": "cafe-de-coral-kai-yip",
+      "name_zh": "大家樂（啟業商場）",
+      "name_en": "Café de Coral (Kai Yip Shopping Centre)",
+      "lat": 22.3288066,
+      "lng": 114.2094441,
+      "area": "啟業商場",
+      "address": "九龍灣啟業道18號啟業邨啟業商場地下10號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "lunch_notes": "啟業商場大家樂，民坊官方租戶名冊列地下10號舖餐飲。服務啟業／彩德／坪石北面住區連鎖午餐；公開推廣常見約$39起。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $39–65",
+      "sources": [
+        {
+          "name": "民坊官方：啟業商場租戶名冊（大家樂 地下10）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Nominatim 啓業商場",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kai+Yip+Shopping+Centre+Kowloon+Bay&format=json",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48（連鎖慣例）",
+          "url": "https://www.stheadline.com/food/3549243/",
+          "checked_at": "2026-09-28"
+        }
+      ]
     }
   ],
   "excluded": [
@@ -1475,21 +2195,115 @@
           "checked_at": "2026-09-24"
         }
       ]
+    },
+    {
+      "id": "tsui-wah-lai-yip-street",
+      "name_zh": "翠華餐廳（勵業街・舊址）",
+      "name_en": "Tsui Wah Restaurant (Lai Yip Street, former)",
+      "lat": 22.3125,
+      "lng": 114.2205,
+      "exclude_reason": "closed：勵業街50號舊總部分店已於約2021年結業；雖 EatSmart PDF 仍見名單，但新聞／開飯等指已停業，禁止當現營堂食收錄",
+      "sources": [
+        {
+          "name": "衞生署 EatSmart 餐廳名單 PDF（仍列勵業街地址，資料或過時）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/files/eatsmart_restaurant_list.pdf",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "明報：翠華前總部分店結業報導",
+          "url": "https://finance.mingpao.com/fin/instantf/20211208/1638927893450/",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "kuri-cafe-tak-bo",
+      "name_zh": "KURI Café（得寶商場）",
+      "name_en": "KURI Café (Tak Bo Garden)",
+      "lat": 22.3170233,
+      "lng": 114.2176816,
+      "exclude_reason": "pure_cafe：EatSmart 歸西餐廳／Café 名稱，本輪未確認正餐午餐定位，按準則剔除",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆名單（KURI Café 得寶商場）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res_adv.aspx?dist_id=20&page=13&str_filter_star_1=4&str_filter_star_2_1=4&str_filter_star_2_2=4&str_filter_star_3=4",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "yoshinoya-tak-bo-unverified",
+      "name_zh": "吉野家（得寶商場・未核實／或已遷出）",
+      "name_en": "Yoshinoya (Tak Bo Garden, unverified)",
+      "lat": 22.3170233,
+      "lng": 114.2176816,
+      "exclude_reason": "hours_unverified／可能已遷出：第三方／舊消費券名單曾列得寶122號舖，但吉野家官網分店頁未能核實現營；禁止估，暫不收",
+      "sources": [
+        {
+          "name": "吉野家官方分店頁（未能由此輪核實得寶現址）",
+          "url": "https://www.yoshinoya.com.hk/store-location/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "中電消費券商戶名單（舊列得寶吉野家，或已過時）",
+          "url": "https://www.hongkongcard.com/blogs/coupons-clp-kwuntong-kowloonbay-restaurant",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "kam-yuen-chun-choi-yi-unverified",
+      "name_zh": "沁園春（彩頤居・未核實對外午市）",
+      "name_en": "Kam Yuen Chun (Choi Yee, unverified public lunch)",
+      "lat": 22.325,
+      "lng": 114.214,
+      "exclude_reason": "not_verified_public_lunch：EatSmart PDF 列彩霞道55號彩頤居地下，惟彩頤居為房協長者屋苑，本輪未確認是否對外公眾午市堂食，暫剔除",
+      "sources": [
+        {
+          "name": "衞生署 EatSmart 餐廳名單 PDF（沁園春 彩頤居）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/files/eatsmart_restaurant_list.pdf",
+          "checked_at": "2026-09-28"
+        }
+      ]
     }
   ],
   "meta": {
-    "status": "enrichment complete",
-    "phase": "phase-2.5",
-    "notes_zh": "phase-2.5 enrichment（v1.2）：為既有34間加厚 cuisine、lunch_notes、新增 price_lunch_hkd；唔開新店、唔改收錄／剔除名單。價錢以官網推廣／目錄／可信食評為據，未核實者標「午餐套餐／未核實官價」模糊帶。",
-    "bbox_approx": [
-      22.31,
-      114.21,
-      22.332,
-      114.235
+    "status": "coverage expand",
+    "phase": "phase-3-ntk-expand",
+    "notes_zh": "phase-3-ntk-expand（v1.3）：針對淘大簇過度集中，新增 18 間非淘大堂食午餐（站／街舖／得寶／上邨／樂華／鴻圖工廈／坪石／啟業等）；保留既有34間 id。本輪唔再大量加淘大連鎖。收費 API：0。",
+    "added_this_round": 18,
+    "added_ids": [
+      "ming-fai-noodle-cafe-ntk-road",
+      "wohi-yunnan-noodle-garden-estate",
+      "chun-tin-kitchen-garden-estate",
+      "cheung-wing-cha-bing-ntk-road",
+      "sun-luen-fat-cafe-ting-fook",
+      "yat-chau-min-garden-estate",
+      "curry-king-kitchen-ting-fook",
+      "macau-curry-king-ntk-road",
+      "maxims-mx-upper-ntk-estate",
+      "mcdonalds-lok-wah",
+      "tamjai-samgor-tak-bo",
+      "saizeriya-tak-bo",
+      "cafe-de-coral-paul-y-hung-to",
+      "fairwood-ping-shek",
+      "mcdonalds-ping-shek",
+      "yumai-kai-yip",
+      "tong-ka-kai-yip",
+      "cafe-de-coral-kai-yip"
     ],
+    "excluded_added_this_round": 4,
+    "bbox_approx": [
+      22.312,
+      114.208,
+      22.335,
+      114.225
+    ],
+    "bbox_note_zh": "建議 App minLat 由約22.32 南擴至約22.312–22.314，以覆蓋牛頭角站（約22.315）及鴻圖道工廈午餐；北至坪石／啟業約22.333。須同觀塘／九龍灣 bbox 協調避免重複抽池。",
     "center_approx": [
-      22.324,
-      114.216
-    ]
+      22.32,
+      114.217
+    ],
+    "paid_api_calls": 0
   }
 }

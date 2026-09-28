@@ -50,12 +50,12 @@ const DISTRICT_SEEDS: DistrictSeed[] = [
     seed: tkoSeedData as SeedFile,
   },
   {
-    // 淘大／樂華一帶（偏北）；唔同觀塘 apm 帶重疊
+    // 牛頭角站／下邨／淘大／樂華／坪石一帶；同觀塘、九龍灣有邊界重疊，以下用最近中心處理
     label: '牛頭角',
     bbox: {
-      minLat: 22.32,
-      maxLat: 22.332,
-      minLng: 114.21,
+      minLat: 22.312,
+      maxLat: 22.335,
+      minLng: 114.208,
       maxLng: 114.225,
     },
     seed: ntkSeedData as SeedFile,
