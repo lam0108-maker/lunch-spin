@@ -1,6 +1,6 @@
 {
   "district": "牛頭角",
-  "version": "1.4",
+  "version": "1.5",
   "updated_at": "2026-09-28",
   "criteria": {
     "serves_lunch": true,
@@ -1944,45 +1944,6 @@
         {
           "name": "衞生署星級有營食肆（魚米 啟業邨）",
           "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=2154",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Photon 啟業邨啟賢樓",
-          "url": "https://photon.komoot.io/api/?q=%E5%95%9F%E6%A5%AD%E9%82%A8+%E5%95%9F%E8%B3%A2%E6%A8%93",
-          "checked_at": "2026-09-28"
-        }
-      ]
-    },
-    {
-      "district": "牛頭角",
-      "dine_in": true,
-      "serves_lunch": true,
-      "verified_at": "2026-09-28",
-      "id": "tong-ka-kai-yip",
-      "name_zh": "湯加（啟業邨）",
-      "name_en": "Tong Ka (Kai Yip Estate)",
-      "lat": 22.3305026,
-      "lng": 114.2099643,
-      "area": "啟業邨",
-      "address": "九龍九龍灣啟業邨啟賢樓地下3號舖",
-      "cuisine": [
-        "港式茶餐廳",
-        "粉麵"
-      ],
-      "tags": [
-        "茶餐廳",
-        "粉麵",
-        "午餐套餐",
-        "EatSmart",
-        "屋邨店"
-      ],
-      "lunch_notes": "啟業邨啟賢樓湯加，衞生署星級有營食肆列茶餐廳／麵食。與魚米同座，服務啟業／彩德北面午餐；價目以店內為準。",
-      "price_level": 1,
-      "price_lunch_hkd": "約 $40–70（午餐套餐／未核實官價）",
-      "sources": [
-        {
-          "name": "衞生署星級有營食肆（湯加 啟業邨）",
-          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10049",
           "checked_at": "2026-09-28"
         },
         {
@@ -3986,6 +3947,1215 @@
       ],
       "verified_at": "2026-09-28",
       "licence_type": "General Restaurant"
+    },
+    {
+      "id": "tin-shing-bing-satt-choi-tak",
+      "name_zh": "天誠冰室（彩德商場）",
+      "name_en": "Tin Shing Cafe (Choi Tak Shopping Centre)",
+      "lat": 22.329543,
+      "lng": 114.212787,
+      "district": "牛頭角",
+      "area": "彩德商場",
+      "address": "九龍牛頭角彩德邨彩德商場5樓503號舖",
+      "cuisine": [
+        "港式茶餐廳",
+        "冰室"
+      ],
+      "tags": [
+        "茶餐廳",
+        "冰室",
+        "fehd_licensed",
+        "fehd_rl",
+        "fehd_rr",
+        "屋邨店",
+        "午餐套餐"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "房委會主要商場店舖名冊（修訂2026-09-01）列彩德商場餐飲；FEHD 持普通／小食相關牌。店名冰室＝港式茶餐廳類，平日午市飯麵／常餐合理。價目未核實官價。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（天誠冰室／牌照3151801698／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "房委會主要商場店舖名冊（彩德商場・天誠冰室 503）",
+          "url": "https://www.housingauthority.gov.hk/tc/common/pdf/commercial-properties/shopping-centres/details/shop_list_of_major_shopping_centres.pdf",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "lung-kee-restaurant-choi-tak",
+      "name_zh": "龍記餐廳（彩德商場）",
+      "name_en": "Lung Kee Restaurant (Choi Tak)",
+      "lat": 22.329573,
+      "lng": 114.212697,
+      "district": "牛頭角",
+      "area": "彩德商場",
+      "address": "九龍牛頭角彩德邨彩德商場五樓510號舖",
+      "cuisine": [
+        "中菜",
+        "港式"
+      ],
+      "tags": [
+        "酒樓／餐廳",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店",
+        "宴會廳"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "房委名冊列「龍記餐廳宴會廳」彩德510；FEHD 普通食肆牌。銀龍舊址曾在此舖，現為龍記。午市堂食以店內為準；價目未核實。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（龍記餐廳／牌照2251806534／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "房委會主要商場店舖名冊（彩德商場・龍記餐廳宴會廳 510）",
+          "url": "https://www.housingauthority.gov.hk/tc/common/pdf/commercial-properties/shopping-centres/details/shop_list_of_major_shopping_centres.pdf",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "lung-shun-hin-choi-tak",
+      "name_zh": "龍順軒海鮮酒家（彩德商場）",
+      "name_en": "Lung Shun Hin Seafood Restaurant (Choi Tak)",
+      "lat": 22.329593,
+      "lng": 114.212757,
+      "district": "牛頭角",
+      "area": "彩德商場",
+      "address": "九龍牛頭角彩德邨彩德商場6樓602號舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮酒家"
+      ],
+      "tags": [
+        "酒家",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店",
+        "點心"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "房委名冊列彩德602龍順軒海鮮酒家；FEHD 普通食肆。酒家類通常有午市點心／套餐；價目未核實官價。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（彩德龍順軒海鮮酒家／牌照2251803331／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "房委會主要商場店舖名冊（彩德商場・龍順軒海鮮酒家 602）",
+          "url": "https://www.housingauthority.gov.hk/tc/common/pdf/commercial-properties/shopping-centres/details/shop_list_of_major_shopping_centres.pdf",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "leng-kee-cha-chaan-teng-on-kay",
+      "name_zh": "靚記茶餐廳（安基商場）",
+      "name_en": "Leng Kee Cafe (On Kay Court Shopping Centre)",
+      "lat": 22.3220945,
+      "lng": 114.2171543,
+      "district": "牛頭角",
+      "area": "安基商場",
+      "address": "九龍牛頭角安基苑商場地下12號舖",
+      "cuisine": [
+        "港式茶餐廳"
+      ],
+      "tags": [
+        "茶餐廳",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店",
+        "午餐套餐"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "房委名冊列安基商場餐飲「靚記茶餐廳」地下12號；FEHD 普通食肆。茶餐廳名＝午市飯麵／常餐定位。價目未核實。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（靚記茶餐廳／牌照2251805416／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "房委會主要商場店舖名冊（安基商場・靚記茶餐廳 12）",
+          "url": "https://www.housingauthority.gov.hk/tc/common/pdf/commercial-properties/shopping-centres/details/shop_list_of_major_shopping_centres.pdf",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "hollywood-cafe-lok-wah",
+      "name_zh": "荷里活冰室（樂華商場）",
+      "name_en": "Hollywood Cafe (Lok Wah)",
+      "lat": 22.32194,
+      "lng": 114.220087,
+      "district": "牛頭角",
+      "area": "樂華商場",
+      "address": "九龍觀塘樂華北邨樂華商場地下108及109號舖",
+      "cuisine": [
+        "港式茶餐廳",
+        "冰室"
+      ],
+      "tags": [
+        "茶餐廳",
+        "冰室",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "FEHD 普通食肆；2025-10 樂華商場租戶實地紀錄列地下108-109荷里活冰室。冰室＝港式茶餐廳午市主食。價目未核實。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（荷里活冰室／牌照2251123534／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Grassroots O2 樂華商場租戶紀錄 2025-10-01（108-109）",
+          "url": "http://o2and00823.blogspot.com/2025/10/2025-10-01.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "tai-wah-restaurant-lok-wah",
+      "name_zh": "泰華餐廳（樂華邨信華樓）",
+      "name_en": "Tai Wah Restaurant (Lok Wah)",
+      "lat": 22.32183,
+      "lng": 114.220137,
+      "district": "牛頭角",
+      "area": "樂華商場",
+      "address": "九龍觀塘樂華邨信華樓103-105號舖",
+      "cuisine": [
+        "港式茶餐廳"
+      ],
+      "tags": [
+        "茶餐廳",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "FEHD 普通食肆；2025-10 樂華租戶表列信華樓103-105泰華餐廳。茶餐廳午市飯麵。價目未核實。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（泰華餐廳／牌照2251100700／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Grassroots O2 樂華商場租戶紀錄 2025-10-01（信華樓 103-105）",
+          "url": "http://o2and00823.blogspot.com/2025/10/2025-10-01.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "tai-wah-congee-noodle-lok-wah",
+      "name_zh": "泰華粥麵（樂華邨信華樓）",
+      "name_en": "Tai Wah Congee & Noodle (Lok Wah)",
+      "lat": 22.32181,
+      "lng": 114.220157,
+      "district": "牛頭角",
+      "area": "樂華商場",
+      "address": "九龍牛頭角振華道70號樂華南邨及樂華北邨信華樓地下106,107及108號舖",
+      "cuisine": [
+        "粥麵",
+        "港式"
+      ],
+      "tags": [
+        "粥麵",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "FEHD 普通食肆；2025-10 樂華租戶表列信華樓106-108泰華粥麵餐廳。粥麵＝午市主食。價目未核實。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（泰華粥麵／牌照2251804273／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Grassroots O2 樂華商場租戶紀錄 2025-10-01（信華樓 106-108）",
+          "url": "http://o2and00823.blogspot.com/2025/10/2025-10-01.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "tak-sing-restaurant-lok-wah",
+      "name_zh": "德聲酒家（樂華商場）",
+      "name_en": "Tak Sing Restaurant (Lok Wah)",
+      "lat": 22.32203,
+      "lng": 114.219987,
+      "district": "牛頭角",
+      "area": "樂華商場",
+      "address": "九龍牛頭角振華道70號樂華南北邨樂華商場2樓218及219號舖",
+      "cuisine": [
+        "粵菜",
+        "點心"
+      ],
+      "tags": [
+        "酒家",
+        "點心",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店",
+        "連鎖"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "德聲飲食集團官網列牛頭角／樂華分店，營業時間約07:00–22:00；FEHD 普通食肆。酒家午市點心／飯市。價目未核實。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（德聲酒家／牌照2251806659／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "德聲飲食集團官網分店（樂華店）",
+          "url": "https://www.taksings.com/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Grassroots O2 樂華商場租戶紀錄 2025-10-01（218-219）",
+          "url": "http://o2and00823.blogspot.com/2025/10/2025-10-01.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "tsui-hing-lau-lok-wah",
+      "name_zh": "聚興樓（樂華商場）",
+      "name_en": "Tsui Hing Lau (Lok Wah)",
+      "lat": 22.32206,
+      "lng": 114.220057,
+      "district": "牛頭角",
+      "area": "樂華商場",
+      "address": "九龍牛頭角振華道70號樂華南和北邨勤華樓樂華商場二樓205號舖",
+      "cuisine": [
+        "粵菜",
+        "酒樓"
+      ],
+      "tags": [
+        "酒樓",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "FEHD 普通食肆；2025-10 樂華租戶表列二樓205聚興樓。酒樓類通常有午市；價目未核實。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（聚興樓／牌照2251806880／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Grassroots O2 樂華商場租戶紀錄 2025-10-01（205）",
+          "url": "http://o2and00823.blogspot.com/2025/10/2025-10-01.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "lok-wah-dai-pai-dong",
+      "name_zh": "樂華大排檔（樂華熟食檔）",
+      "name_en": "Lok Wah Dai Pai Dong",
+      "lat": 22.32176,
+      "lng": 114.220117,
+      "district": "牛頭角",
+      "area": "樂華商場",
+      "address": "九龍牛頭角振華道70號樂華南北邨近安華樓之商業範圍5,6,7及8號熟食檔位",
+      "cuisine": [
+        "港式",
+        "大牌檔"
+      ],
+      "tags": [
+        "大牌檔",
+        "熟食檔",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "FEHD 普通食肆（熟食檔位）；2025-10 樂華紀錄列冬菇亭 CFS5-8 樂華大排檔。屋邨熟食檔一般有座位午市飯麵；個別檔營業時段以現場為準。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（樂華大排檔／牌照2251806871／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Grassroots O2 樂華商場租戶紀錄 2025-10-01（冬菇亭 CFS5-8）",
+          "url": "http://o2and00823.blogspot.com/2025/10/2025-10-01.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "kam-tai-pan-lok-wah",
+      "name_zh": "金大班（樂華熟食檔）",
+      "name_en": "Kam Tai Pan (Lok Wah)",
+      "lat": 22.32173,
+      "lng": 114.220137,
+      "district": "牛頭角",
+      "area": "樂華商場",
+      "address": "九龍牛頭角振華道70號樂華南北邨近安華樓之商業範圍9,10,11及12號熟食檔位",
+      "cuisine": [
+        "港式",
+        "大牌檔"
+      ],
+      "tags": [
+        "大牌檔",
+        "熟食檔",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "FEHD 普通食肆；2025-10 樂華紀錄列冬菇亭 CFS9-12 金大班。熟食檔堂食午市；時段以現場為準。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金大班／牌照2251806251／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Grassroots O2 樂華商場租戶紀錄 2025-10-01（冬菇亭 CFS9-12）",
+          "url": "http://o2and00823.blogspot.com/2025/10/2025-10-01.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "sam-yuet-bing-satt-kai-yip",
+      "name_zh": "三悅冰室（啟業商場）",
+      "name_en": "Sam Yuet Cafe (Kai Yip)",
+      "lat": 22.3288466,
+      "lng": 114.2095041,
+      "district": "牛頭角",
+      "area": "啟業商場",
+      "address": "九龍觀塘九龍灣啟業邨啟業商場地下6號舖",
+      "cuisine": [
+        "港式茶餐廳",
+        "冰室"
+      ],
+      "tags": [
+        "茶餐廳",
+        "冰室",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "民坊啟業商場名冊（2026-07）列地下6號三悅冰室（餐飲）；FEHD 普通食肆。冰室午市主食。價目未核實。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（三悅冰室／牌照2251807245／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "民坊啟業商場租戶名冊（地下6＝三悅冰室）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "wing-kee-beef-noodle-kai-yip",
+      "name_zh": "榮基牛雜粉麵（啟業商場）",
+      "name_en": "Wing Kee Beef Offal Noodle (Kai Yip)",
+      "lat": 22.3288666,
+      "lng": 114.2093941,
+      "district": "牛頭角",
+      "area": "啟業商場",
+      "address": "九龍觀塘啟業邨啟業商場地下G9號舖",
+      "cuisine": [
+        "粉麵",
+        "牛雜"
+      ],
+      "tags": [
+        "粉麵",
+        "fehd_licensed",
+        "fehd_rr",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "民坊啟業名冊列地下9號榮基牛雜粉麵；FEHD 小食食肆牌但店名粉麵＋商場餐飲分類。粉麵＝午市主食。價目未核實。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（榮基牛雜粉麵／牌照3151801944／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "民坊啟業商場租戶名冊（地下9＝榮基牛雜粉麵）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "itamomo-chicken-factory-kai-yip",
+      "name_zh": "Itamomo Chicken Factory（啟業商場）",
+      "name_en": "Itamomo Chicken Factory (Kai Yip)",
+      "lat": 22.3288266,
+      "lng": 114.2095241,
+      "district": "牛頭角",
+      "area": "啟業商場",
+      "address": "九龍九龍灣啟業邨啟業商場地下5號舖",
+      "cuisine": [
+        "日式",
+        "雞專門店"
+      ],
+      "tags": [
+        "飯類",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店",
+        "連鎖"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "民坊啟業名冊列地下5號 Itamomo and Chicken Factory（餐飲）；FEHD 普通食肆。營業時段涵蓋午市飯類；價目未核實。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Itamomo Chicken Factory／牌照2251808822／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "民坊啟業商場租戶名冊（地下5＝Itamomo and Chicken Factory）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "chuen-fuk-tong-kai-yip",
+      "name_zh": "全福堂（啟業邨啟樂樓）",
+      "name_en": "Chuen Fuk Tong (Kai Yip)",
+      "lat": 22.3302526,
+      "lng": 114.2100643,
+      "district": "牛頭角",
+      "area": "啟業邨",
+      "address": "九龍觀塘啟業邨啟樂樓地下7號舖",
+      "cuisine": [
+        "中菜",
+        "港式"
+      ],
+      "tags": [
+        "餐廳",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "民坊啟業名冊列啟樂樓地下7號全福堂（餐飲）；FEHD 普通食肆。堂食正餐；價目未核實。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（全福堂／牌照2251802949／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "民坊啟業商場租戶名冊（啟樂樓7＝全福堂）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "sun-wah-yuen-kai-yip",
+      "name_zh": "新華苑酒家（啟業邨）",
+      "name_en": "Sun Wah Yuen Restaurant (Kai Yip)",
+      "lat": 22.3287566,
+      "lng": 114.2093441,
+      "district": "牛頭角",
+      "area": "啟業商場",
+      "address": "九龍觀塘啟業邨社區會堂地下SD01號舖",
+      "cuisine": [
+        "粵菜",
+        "酒家"
+      ],
+      "tags": [
+        "酒家",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店",
+        "點心"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "民坊啟業名冊列社區會堂座 SD01 新華苑酒家；FEHD 普通食肆。酒家午市點心／飯市；價目未核實。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新華苑酒家／牌照2251808992／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "民坊啟業商場租戶名冊（SD01＝新華苑酒家）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "sik-hou-di-kai-yip",
+      "name_zh": "食好啲（啟業邨熟食亭）",
+      "name_en": "Sik Hou Di (Kai Yip Cooked Food)",
+      "lat": 22.3289066,
+      "lng": 114.2093241,
+      "district": "牛頭角",
+      "area": "啟業商場",
+      "address": "九龍九龍灣啟業邨地下（商場構成部份）1及4號熟食檔位（另牌2及3號檔）",
+      "cuisine": [
+        "港式",
+        "熟食"
+      ],
+      "tags": [
+        "熟食檔",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "民坊啟業名冊列熟食亭1-4食好啲；FEHD 有兩張普通食肆牌覆蓋檔位。屋邨熟食亭一般有座位；午市時段以現場為準。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（食好啲／牌照2251809162／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署持牌食肆 XML（食好啲／牌照2251809995／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "民坊啟業商場租戶名冊（熟食亭1-4＝食好啲）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "san-hop-hing-kai-yip",
+      "name_zh": "新合興飯店（啟業邨熟食亭）",
+      "name_en": "San Hop Hing (Kai Yip)",
+      "lat": 22.3289266,
+      "lng": 114.2092941,
+      "district": "牛頭角",
+      "area": "啟業商場",
+      "address": "九龍九龍灣啟業邨（商場構成部份）地下8號熟食檔位",
+      "cuisine": [
+        "港式",
+        "飯店"
+      ],
+      "tags": [
+        "熟食檔",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "民坊啟業名冊列熟食亭8新合興；FEHD 普通食肆。飯店／熟食亭堂食；時段以現場為準。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新合興飯店／牌照2251810166／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "民坊啟業商場租戶名冊（熟食亭8＝新合興）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "chiu-ching-wo-kai-yip",
+      "name_zh": "潮正和（啟業邨熟食亭）",
+      "name_en": "Chiu Ching Wo (Kai Yip)",
+      "lat": 22.3289466,
+      "lng": 114.2093441,
+      "district": "牛頭角",
+      "area": "啟業商場",
+      "address": "九龍九龍灣啟業邨（商場構成部份）地下6及7號熟食檔位",
+      "cuisine": [
+        "潮州",
+        "火鍋"
+      ],
+      "tags": [
+        "熟食檔",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "民坊啟業名冊列熟食亭6&7潮正和牛肉火鍋 & 湘川閣；FEHD 普通食肆。堂食；午市時段以現場為準。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（潮正和／牌照2251810768／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "民坊啟業商場租戶名冊（熟食亭6-7＝潮正和）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "sushiexpress-kai-yip",
+      "name_zh": "爭鮮（啟業邨）",
+      "name_en": "Sushi Express (Kai Yip)",
+      "lat": 22.3305026,
+      "lng": 114.2099643,
+      "district": "牛頭角",
+      "area": "啟業邨",
+      "address": "九龍灣啟業邨啟賢樓地下3號舖",
+      "cuisine": [
+        "日本菜",
+        "壽司"
+      ],
+      "tags": [
+        "壽司",
+        "連鎖",
+        "fehd_licensed",
+        "屋邨店",
+        "外帶／堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "爭鮮官網門市檢索列啟業店；民坊名冊列啟賢樓地下3號爭鮮。壽司／丼飯午市；營業時段以官網／店面為準。原湯加同址已改列 excluded。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "爭鮮官網門市檢索（啟業店）",
+          "url": "https://www.sushiexpress.com.hk/location/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "民坊啟業商場租戶名冊（啟賢樓3＝爭鮮）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "sushiexpress-wai-king-mansion",
+      "name_zh": "爭鮮迴轉壽司（偉景樓／九龍灣）",
+      "name_en": "Sushi Express (Wai King Mansion)",
+      "lat": 22.3174165,
+      "lng": 114.1927275,
+      "district": "牛頭角",
+      "area": "牛頭角道街舖",
+      "address": "九龍九龍灣牛頭角道165-169號偉景樓地下F,G,H及I舖",
+      "cuisine": [
+        "日本菜",
+        "迴轉壽司"
+      ],
+      "tags": [
+        "壽司",
+        "連鎖",
+        "fehd_licensed",
+        "fehd_rl",
+        "堂食"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "爭鮮官網列九龍灣店（偉景樓）約113席；FEHD 普通食肆牌照對應同址。迴轉壽司全日／午市。價目以店內碟價為準。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（爭鮮迴轉壽司／牌照2251802602／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "爭鮮官網門市檢索（九龍灣店・偉景樓）",
+          "url": "https://www.sushiexpress.com.hk/location/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 偉景樓",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E4%B9%9D%E9%BE%8D%E7%81%A3%20%E7%89%9B%E9%A0%AD%E8%A7%92%E9%81%93165%20%E5%81%89%E6%99%AF%E6%A8%93",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "sushiexpress-ping-shek",
+      "name_zh": "爭鮮迴轉壽司（坪石邨）",
+      "name_en": "Sushi Express (Ping Shek)",
+      "lat": 22.3329717,
+      "lng": 114.2091763,
+      "district": "牛頭角",
+      "area": "坪石邨",
+      "address": "九龍觀塘坪石邨停車場地下G4號舖",
+      "cuisine": [
+        "日本菜",
+        "迴轉壽司"
+      ],
+      "tags": [
+        "壽司",
+        "連鎖",
+        "fehd_licensed",
+        "fehd_rl",
+        "屋邨店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "爭鮮官網列彩虹店＝坪石邨停車場4號舖；FEHD 普通食肆。迴轉壽司午市堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（爭鮮迴轉壽司／牌照2251804866／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "爭鮮官網門市檢索（彩虹店・坪石邨停車場）",
+          "url": "https://www.sushiexpress.com.hk/location/",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "jiu-fen-full-amoy-plaza",
+      "name_zh": "九份飽（淘大商場）",
+      "name_en": "Jiu Fen Full (Amoy Plaza)",
+      "lat": 22.3241287,
+      "lng": 114.2165577,
+      "district": "牛頭角",
+      "area": "淘大商場",
+      "address": "九龍牛頭角道77號淘大花園一期淘大商場地下G142號舖",
+      "cuisine": [
+        "台灣菜",
+        "魯肉飯"
+      ],
+      "tags": [
+        "台灣菜",
+        "飯類",
+        "fehd_licensed",
+        "fehd_rl",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "恒隆淘大官方餐飲頁列營業時間11:00–22:30，招牌懷舊魯肉飯；FEHD 普通食肆。午市正餐。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（九份飽／牌照2251805151／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "恒隆淘大商場官方（九份飽）",
+          "url": "https://www.hanglungmalls.com/amoy-plaza/dining/jiu-fen-full",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "ging-sun-ho-amoy-plaza",
+      "name_zh": "堅信號上海生煎皇（淘大商場）",
+      "name_en": "Ging Sun Ho (Amoy Plaza)",
+      "lat": 22.3240387,
+      "lng": 114.2165777,
+      "district": "牛頭角",
+      "area": "淘大商場",
+      "address": "九龍九龍灣牛頭角道77號淘大商場二期地下G187-188號舖",
+      "cuisine": [
+        "上海菜",
+        "生煎",
+        "麵食"
+      ],
+      "tags": [
+        "上海菜",
+        "麵食",
+        "fehd_licensed",
+        "fehd_rl",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "恒隆淘大官方列11:00–22:00，提供生煎、菜飯、麵食；FEHD 普通食肆。午市主食齊。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（堅信號上海生煎皇／牌照2251808202／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "恒隆淘大商場官方（堅信號）",
+          "url": "https://www.hanglungmalls.com/amoy-plaza/dining/ging-sun-ho-king-of-bun",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "huo-huo-chicken-amoy-plaza",
+      "name_zh": "火火雞肉（淘大商場）",
+      "name_en": "Huo Huo Chicken (Amoy Plaza)",
+      "lat": 22.3241587,
+      "lng": 114.2164177,
+      "district": "牛頭角",
+      "area": "淘大商場",
+      "address": "九龍九龍灣牛頭角道77號淘大花園淘大商場第二期地下G255號舖",
+      "cuisine": [
+        "台灣菜",
+        "雞肉飯"
+      ],
+      "tags": [
+        "台灣菜",
+        "飯類",
+        "fehd_licensed",
+        "fehd_rl",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "恒隆淘大官方列11:30–22:00，招牌臺醬雞腿飯／魯肉飯；FEHD 普通食肆。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（火火雞肉／牌照2251806905／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "恒隆淘大商場官方（火火雞肉）",
+          "url": "https://hanglungmalls.com/amoy-plaza/dining/huo-huo-chicken",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "thai-cool-amoy-plaza",
+      "name_zh": "泰Cool（淘大商場）",
+      "name_en": "Thai Cool (Amoy Plaza)",
+      "lat": 22.3242787,
+      "lng": 114.2166277,
+      "district": "牛頭角",
+      "area": "淘大商場",
+      "address": "九龍觀塘牛頭角道77號淘大花園第4期淘大商場1樓 F232-240 號舖及2樓部份",
+      "cuisine": [
+        "泰國菜"
+      ],
+      "tags": [
+        "泰國菜",
+        "fehd_licensed",
+        "fehd_rl",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "恒隆淘大官方列泰Cool營業約11:30–22:00，新派泰國菜／焗飯等；FEHD 普通食肆。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（泰COOL／牌照2251809366／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "恒隆淘大商場官方（泰Cool）",
+          "url": "https://hanglungmalls.com/amoy-plaza/dining/thai-cool",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "grand-dumplings-amoy-plaza",
+      "name_zh": "餃子爺爺（淘大商場）",
+      "name_en": "Grand Dumplings (Amoy Plaza)",
+      "lat": 22.3239787,
+      "lng": 114.2163977,
+      "district": "牛頭角",
+      "area": "淘大商場",
+      "address": "九龍觀塘牛頭角道77號淘大商場第一期地下G4-7舖",
+      "cuisine": [
+        "餃子",
+        "中菜"
+      ],
+      "tags": [
+        "餃子",
+        "fehd_licensed",
+        "fehd_rl",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "恒隆淘大官方餐飲目錄有餃子爺爺（煎餃／湯餃）；FEHD 普通食肆。餃子類午市主食。營業時段以商場／店面為準。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（餃子爺爺／牌照2251805993／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "恒隆淘大商場官方（餃子爺爺）",
+          "url": "https://www.hanglungmalls.com/amoy-plaza/dining/grand-dumplings",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "veggie-factory-amoy-plaza",
+      "name_zh": "菜籽素食工房（淘大商場）",
+      "name_en": "Veggie Factory (Amoy Plaza)",
+      "lat": 22.3241987,
+      "lng": 114.2166777,
+      "district": "牛頭角",
+      "area": "淘大商場",
+      "address": "九龍九龍灣牛頭角道77號淘大花園第三期淘大商場地下G285號舖",
+      "cuisine": [
+        "素食"
+      ],
+      "tags": [
+        "素食",
+        "fehd_licensed",
+        "fehd_rl",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "恒隆淘大官方餐飲目錄列菜籽素食工房（素食分類）；FEHD 普通食肆。素食正餐午市；詳細時段以店面為準。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（素食工房／牌照2251810908／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "恒隆淘大商場官方（菜籽素食工房）",
+          "url": "https://www.hanglungmalls.com/amoy-plaza/dining/veggie-factory",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "machiya-tak-bo",
+      "name_zh": "九町屋（得寶商場）",
+      "name_en": "Machiya (Tak Bo)",
+      "lat": 22.3170733,
+      "lng": 114.2176016,
+      "district": "牛頭角",
+      "area": "得寶商場",
+      "address": "九龍牛頭角道3號得寶花園得寶商場地下123號舖",
+      "cuisine": [
+        "日本菜",
+        "拉麵"
+      ],
+      "tags": [
+        "拉麵",
+        "fehd_licensed",
+        "fehd_rl",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "FEHD 普通食肆；shopping街得寶商場目錄列九町屋營業約11:00–22:00。日式拉麵午市。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（九町屋／牌照2251806808／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "shopping街得寶商場商戶目錄（九町屋）",
+          "url": "https://www.shoppinggai.com/TakBoGardenShoppingArcade",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "fei-zai-yunnan-noodle-tak-bo",
+      "name_zh": "肥仔雲南小鍋米線（得寶商場）",
+      "name_en": "Fei Zai Yunnan Noodle (Tak Bo)",
+      "lat": 22.3169633,
+      "lng": 114.2177816,
+      "district": "牛頭角",
+      "area": "得寶商場",
+      "address": "九龍牛頭角道3號德寶花園商場地下37舖",
+      "cuisine": [
+        "雲南米線"
+      ],
+      "tags": [
+        "米線",
+        "fehd_licensed",
+        "fehd_rl",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "FEHD 普通食肆；shopping街得寶目錄列營業約11:00–21:30。米線＝午市主食。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（肥仔雲南小鍋米線／牌照2251808503／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "shopping街得寶商場商戶目錄（肥仔雲南小鍋米線）",
+          "url": "https://www.shoppinggai.com/TakBoGardenShoppingArcade",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
+    },
+    {
+      "id": "issyokemen-tak-bo",
+      "name_zh": "一生懸麵（得寶商場）",
+      "name_en": "Issyokemen (Tak Bo)",
+      "lat": 22.3171033,
+      "lng": 114.2177416,
+      "district": "牛頭角",
+      "area": "得寶商場",
+      "address": "九龍牛頭角道3號得寶花園得寶商場地下121號舖",
+      "cuisine": [
+        "日本菜",
+        "拉麵"
+      ],
+      "tags": [
+        "拉麵",
+        "fehd_licensed",
+        "fehd_rr",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "FEHD 小食食肆牌；shopping街得寶目錄列一生懸麵（日式拉麵）。拉麵＝午市主食；時段以店面為準。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（一生懸麵／牌照3151802169／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "shopping街得寶商場商戶目錄（一生懸麵）",
+          "url": "https://www.shoppinggai.com/TakBoGardenShoppingArcade",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "verified_at": "2026-09-28"
     }
   ],
   "excluded": [
@@ -4462,34 +5632,1585 @@
           "checked_at": "2026-09-28"
         }
       ]
+    },
+    {
+      "id": "tong-ka-kai-yip",
+      "name_zh": "湯加（啟業邨）",
+      "name_en": "Tong Ka (Kai Yip Estate)",
+      "lat": 22.3305026,
+      "lng": 114.2099643,
+      "exclude_reason": "closed_or_relocated：民坊啟業商場名冊（2026-07）及爭鮮官網門市檢索均顯示啟賢樓地下3號舖現為爭鮮；EatSmart 舊列湯加視為過時，本輪改收爭鮮啟業店",
+      "sources": [
+        {
+          "name": "民坊啟業商場租戶名冊（啟賢樓地下3號＝爭鮮）",
+          "url": "https://www.peoplesplace.com.hk/information/%E5%95%9F%E6%A5%AD%E5%95%86%E5%A0%B4/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "爭鮮官網門市檢索（啟業店）",
+          "url": "https://www.sushiexpress.com.hk/location/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "原湯加 EatSmart 頁（或過時）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10049",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "address": "九龍九龍灣啟業邨啟賢樓地下3號舖"
+    },
+    {
+      "id": "fehd-rr-3151802071",
+      "name_zh": "小方糖甜品（FEHD RR）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "pure_dessert：店名甜品；FEHD 小食食肆牌，非正餐午餐堂食",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（小方糖甜品／牌照3151802071／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署持牌食肆公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151802071",
+      "address": "九龍牛頭角道77號淘大花園淘大商場第二期地下 G224-G225舖"
+    },
+    {
+      "id": "fehd-rr-3151802318",
+      "name_zh": "MCL 淘大戲院（FEHD RR）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "cinema：戲院持牌小食，非餐廳正餐午餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（MCL 淘大戲院／牌照3151802318／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署持牌食肆公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151802318",
+      "address": "九龍九龍灣牛頭角道77號淘大商場三期戲院 地下C及D部份"
+    },
+    {
+      "id": "fehd-rr-3151802479",
+      "name_zh": "Starbucks Coffee（FEHD RR）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "pure_cafe：連鎖咖啡店，非正餐午餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Starbucks Coffee／牌照3151802479／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署持牌食肆公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151802479",
+      "address": "九龍牛頭角觀塘道348號宏利廣場 地下G01舖及舖前部份走廊"
+    },
+    {
+      "id": "fehd-rr-3151802770",
+      "name_zh": "Kuri Cafe（FEHD RR）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "pure_cafe：店名 Cafe；得寶／牛頭角區另有舊剔除紀錄，本輪按 cafe 準則剔除",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Kuri Cafe／牌照3151802770／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署持牌食肆公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151802770",
+      "address": "九龍牛頭角道3號 得寶花園得寶商場地下T104A及T104B舖"
+    },
+    {
+      "id": "fehd-rr-3151803214",
+      "name_zh": "地茂館甜品（FEHD RR）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "pure_dessert：店名甜品，非正餐午餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（地茂館甜品／牌照3151803214／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署持牌食肆公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151803214",
+      "address": "九龍牛頭角道77號淘大花園淘大商場3期地下G281號舖"
+    },
+    {
+      "id": "fehd-rr-3151803694",
+      "name_zh": "URBAN COFFEE ROASTER EKCC（FEHD RR）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "pure_cafe：咖啡烘焙店名，非正餐午餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（URBAN COFFEE ROASTER EKCC／牌照3151803694／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署持牌食肆公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151803694",
+      "address": "九龍牛頭角道60號東九文化中心1樓咖啡店"
+    },
+    {
+      "id": "fehd-rl-2251801432",
+      "name_zh": "豆漿大王(淘大店)（淘大商場）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "takeaway_or_snack_focus：恒隆淘大分類「快餐/外賣」＋米芝連街頭小食定位，本輪未確認獨立堂食正餐桌位，暫剔除",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（豆漿大王(淘大店)／牌照2251801432／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251801432",
+      "address": "九龍牛頭角道77號淘大商場第二期地下舖位G208-209 及戶外座位"
+    },
+    {
+      "id": "fehd-rl-2251804024",
+      "name_zh": "肯德基（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（肯德基／牌照2251804024／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251804024",
+      "address": "九龍牛頭角道77號淘大商塲第一期地下G92-95號鋪"
+    },
+    {
+      "id": "fehd-rl-2251804556",
+      "name_zh": "元氣壽司（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（元氣壽司／牌照2251804556／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251804556",
+      "address": "九龍牛頭角道77號淘大商場第二期 地下G226-227及G230-233號舖"
+    },
+    {
+      "id": "fehd-rl-2251805638",
+      "name_zh": "金牌（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金牌／牌照2251805638／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251805638",
+      "address": "九龍觀塘牛頭角道77號淘大花園三期淘大商場 地下G266-270號鋪"
+    },
+    {
+      "id": "fehd-rl-2251805841",
+      "name_zh": "SUPERNORMAL（淘大商場）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "bar_restaurant_unverified_lunch_menu：恒隆列「酒吧餐廳」；雖有11:30開門，本輪未另核正餐午市套餐菜單，保守剔除待核",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（SUPERNORMAL／牌照2251805841／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251805841",
+      "address": "九龍九龍灣牛頭角道77號淘大商場 第二期地下196-199號鋪"
+    },
+    {
+      "id": "fehd-rl-2251806118",
+      "name_zh": "Hungry Korean Kowloon Bay（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Hungry Korean Kowloon Bay／牌照2251806118／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251806118",
+      "address": "九龍牛頭角牛頭角道77號淘大商場一期地下G113號舖"
+    },
+    {
+      "id": "fehd-rl-2251806330",
+      "name_zh": "魚米（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（魚米／牌照2251806330／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251806330",
+      "address": "九龍九龍灣牛頭角道77號淘大花園淘大商場第二期 地下G238-241號鋪"
+    },
+    {
+      "id": "fehd-rl-2251807403",
+      "name_zh": "MOS Cafe（淘大商場）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "pure_cafe：品牌 Café；v1.4 已有類似剔除，本輪再以 FEHD 牌對應剔除",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（MOS Cafe／牌照2251807403／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251807403",
+      "address": "九龍牛頭角道77號淘大花園淘大商場二期地下G189鋪"
+    },
+    {
+      "id": "fehd-rl-2251809506",
+      "name_zh": "茶舍（淘大商場）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "hours_unverified_cafe：店名茶舍／偏 cafe；v1.4 已剔除 HI TEA，本輪 FEHD 牌對應剔除",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（茶舍／牌照2251809506／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251809506",
+      "address": "九龍九龍灣牛頭角道77號淘大商場二期 地下G242-245號舖"
+    },
+    {
+      "id": "fehd-rl-2251809524",
+      "name_zh": "MoMoKu Milk Cafe RUD & Chicken Factory（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（MoMoKu Milk Cafe RUD & Chicken Factory／牌照2251809524／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251809524",
+      "address": "九龍九龍灣牛頭角道77號 淘大商場三期地下G301-320號舖"
+    },
+    {
+      "id": "fehd-rl-2251810236",
+      "name_zh": "稻香（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（稻香／牌照2251810236／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251810236",
+      "address": "九龍牛頭角牛頭角道77號淘大花園第三期 淘大商場二樓S159 及 S171-175號舖"
+    },
+    {
+      "id": "fehd-rl-2251810290",
+      "name_zh": "壹番屋（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（壹番屋／牌照2251810290／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251810290",
+      "address": "九龍牛頭角道77號淘大花園 淘大商場3期地下G261-265號鋪"
+    },
+    {
+      "id": "fehd-rl-2251810324",
+      "name_zh": "必勝客（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（必勝客／牌照2251810324／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251810324",
+      "address": "九龍牛頭角道77號淘大花園2期淘大商場 1樓F162-168號舖"
+    },
+    {
+      "id": "fehd-rl-2251810333",
+      "name_zh": "廿一堂（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（廿一堂／牌照2251810333／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251810333",
+      "address": "九龍觀塘牛頭角道77號淘大花園 淘大商場一期地下G114-G115號舖"
+    },
+    {
+      "id": "fehd-rl-2251810379",
+      "name_zh": "牛氣（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（牛氣／牌照2251810379／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251810379",
+      "address": "九龍九龍灣牛頭角道77號淘大花園一期 淘大商場地下G143-162號舖"
+    },
+    {
+      "id": "fehd-rl-2251810449",
+      "name_zh": "沙嗲王（淘大・FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：淘大分店已在 v1.4 kept，本輪僅作 FEHD 牌照對照，不重複入庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（沙嗲王／牌照2251810449／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251810449",
+      "address": "九龍觀塘九龍灣牛頭角道77號 淘大商場第二期1樓 F173-181及F183-187鋪"
+    },
+    {
+      "id": "fehd-rl-3851811216",
+      "name_zh": "淘大無名持牌食肆（牌照3851811216）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：FEHD 有牌但店名空白，禁止估入 kept",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（無名／牌照3851811216／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3851811216",
+      "address": "九龍九龍灣牛頭角道77號淘大商場一期2樓S150號鋪"
+    },
+    {
+      "id": "fehd-rl-3851811368",
+      "name_zh": "Leaf（淘大商場）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：淘大2樓 Leaf；本輪未核正餐午餐定位",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Leaf／牌照3851811368／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3851811368",
+      "address": "九龍牛頭角道77號淘大花園一期淘大商場 2樓S152號鋪"
+    },
+    {
+      "id": "fehd-rr-3151800385",
+      "name_zh": "淘大無名持牌食肆（牌照3151800385）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：FEHD 有牌但店名空白，禁止估入 kept",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（無名／牌照3151800385／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151800385",
+      "address": "九龍牛頭角道77號淘大商場地下G201A鋪及戶外座位"
+    },
+    {
+      "id": "fehd-rr-3151800622",
+      "name_zh": "林香檸（淘大商場）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "snack_drink：小食／飲料專門，非正餐午餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（林香檸／牌照3151800622／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151800622",
+      "address": "九龍九龍灣牛頭角道77號淘大花園一期地下128號舖"
+    },
+    {
+      "id": "fehd-rr-3151803171",
+      "name_zh": "樂園魚旦專家（淘大商場）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "snack：魚蛋小食專門，非正餐午餐主食定位",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（樂園魚旦專家／牌照3151803171／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151803171",
+      "address": "九龍牛頭角牛頭角道77號 淘大花園一期淘大商場地下G12-15號舖"
+    },
+    {
+      "id": "fehd-rr-3151803366",
+      "name_zh": "Moon Ocean（淘大商場）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：淘大舖位有 FEHD 牌，但本輪未取得恒隆正餐目錄／營業時段可核午餐堂食",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Moon Ocean／牌照3151803366／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151803366",
+      "address": "九龍牛頭角道77號淘大花園第四期淘大商場 2樓S190號鋪"
+    },
+    {
+      "id": "fehd-rr-3951804075",
+      "name_zh": "PEEKAPOKE（淘大商場）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：Poke 類；本輪未核堂食午市第二來源細節",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（PEEKAPOKE／牌照3951804075／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3951804075",
+      "address": "九龍九龍灣牛頭角道77號 淘大花園一期淘大商場 二樓S150A號舖"
+    },
+    {
+      "id": "fehd-rl-2251065003",
+      "name_zh": "金閣海鮮酒家（FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：對應現庫 star-kam-kok-ngau-tau-kok-road",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金閣海鮮酒家／牌照2251065003／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251065003",
+      "address": "九龍觀塘 牛頭角道165號一樓及地下(部份)"
+    },
+    {
+      "id": "fehd-rl-2251303619",
+      "name_zh": "祥榮茶餐廳（FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：祥榮茶冰廳／茶餐廳",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（祥榮茶餐廳／牌照2251303619／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251303619",
+      "address": "九龍觀塘牛頭角道245-247號喜雀樓地下"
+    },
+    {
+      "id": "fehd-rl-2251801195",
+      "name_zh": "小食皇大排檔",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（小食皇大排檔／牌照2251801195／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251801195",
+      "address": "九龍牛頭角牛頭角道55號利基大廈地下G舖"
+    },
+    {
+      "id": "fehd-rl-2251801557",
+      "name_zh": "享弄台點咖啡館（牛頭角）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "pure_cafe：店名咖啡館；樂華租戶表亦作 JOYLANE 享弄台點咖啡館，非正餐午餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（享弄台點咖啡館／牌照2251801557／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251801557",
+      "address": "九龍牛頭角樂華(北)商場2層215號舖"
+    },
+    {
+      "id": "fehd-rl-2251801742",
+      "name_zh": "銀龍茶餐廳（FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：銀龍彩盈坊",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（銀龍茶餐廳／牌照2251801742／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251801742",
+      "address": "九龍牛頭角彩盈邨彩盈商場1號鋪"
+    },
+    {
+      "id": "fehd-rl-2251802505",
+      "name_zh": "福耀餐廳",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（福耀餐廳／牌照2251802505／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251802505",
+      "address": "九龍牛頭角定安街45-51號安泰大厦地下1號舖"
+    },
+    {
+      "id": "fehd-rl-2251802930",
+      "name_zh": "大快活快餐（FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：大快活彩德",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大快活快餐／牌照2251802930／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251802930",
+      "address": "九龍牛頭角彩德商場5樓514號舖"
+    },
+    {
+      "id": "fehd-rl-2251804158",
+      "name_zh": "SP.ACE（牛頭角）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：店名不明品類，僅 FEHD 牌，無輔助來源確認午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（SP.ACE／牌照2251804158／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251804158",
+      "address": "九龍牛頭角定安街47號地下"
+    },
+    {
+      "id": "fehd-rl-2251804228",
+      "name_zh": "新豐記",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新豐記／牌照2251804228／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251804228",
+      "address": "九龍觀塘牛頭角道357-375號 康寧道23號 通明街8號 仁安大廈地下H鋪"
+    },
+    {
+      "id": "fehd-rl-2251804264",
+      "name_zh": "冬菇亭",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（冬菇亭／牌照2251804264／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251804264",
+      "address": "九龍牛頭角道3號得寶花園得寶商場地下A7舖"
+    },
+    {
+      "id": "fehd-rl-2251804750",
+      "name_zh": "新之食",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新之食／牌照2251804750／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251804750",
+      "address": "九龍觀塘牛頭角道357-375號仁安大廈地下E鋪"
+    },
+    {
+      "id": "fehd-rl-2251805744",
+      "name_zh": "無名持牌食肆（牌照2251805744）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：FEHD 店名空白，禁止估",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（無名／牌照2251805744／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251805744",
+      "address": "九龍九龍灣牛頭角道3號得寶商場1樓218號鋪及218號鋪對面 座位間"
+    },
+    {
+      "id": "fehd-rl-2251805948",
+      "name_zh": "雲桂香",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（雲桂香／牌照2251805948／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251805948",
+      "address": "九龍觀塘牛頭角道343號興達大廈地下"
+    },
+    {
+      "id": "fehd-rl-2251806491",
+      "name_zh": "金華餐廳",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金華餐廳／牌照2251806491／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251806491",
+      "address": "九龍觀塘坪石邨鑽石樓1樓109-114鋪"
+    },
+    {
+      "id": "fehd-rl-2251806899",
+      "name_zh": "魚米（FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：魚米啟業",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（魚米／牌照2251806899／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251806899",
+      "address": "九龍九龍灣啟業邨啟賢樓地下3A號舖"
+    },
+    {
+      "id": "fehd-rl-2251806941",
+      "name_zh": "無名持牌食肆（牌照2251806941）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：FEHD 店名空白，禁止估",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（無名／牌照2251806941／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251806941",
+      "address": "九龍觀塘振華道70號樂華南北邨近安華樓 1,2,3及4號熟食檔位"
+    },
+    {
+      "id": "fehd-rl-2251807175",
+      "name_zh": "友義氣酸菜魚",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（友義氣酸菜魚／牌照2251807175／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251807175",
+      "address": "九龍牛頭角道3號得寶花園得寶商場1樓R2舖"
+    },
+    {
+      "id": "fehd-rl-2251807625",
+      "name_zh": "味傳奇（牛頭角）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "boundary_industrial：偉業街93號3樓工廈，僅 FEHD，未核公眾午市堂食",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（味傳奇／牌照2251807625／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251807625",
+      "address": "九龍牛頭角偉業街93號發昌集團大廈3/F"
+    },
+    {
+      "id": "fehd-rl-2251808211",
+      "name_zh": "川味閣",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（川味閣／牌照2251808211／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251808211",
+      "address": "九龍觀塘啟業邨街市地下1號檔"
+    },
+    {
+      "id": "fehd-rl-2251808521",
+      "name_zh": "吉野家（得寶）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "hours_unverified／可能已遷出：得寶吉野家 v1.4 已剔除；官網仍未能核實現營，本輪 FEHD 牌對照再剔除",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（吉野家／牌照2251808521／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251808521",
+      "address": "九龍觀塘牛頭角道3號 得寶花園, 得寶商場地下122號舖A部分"
+    },
+    {
+      "id": "fehd-rl-2251808576",
+      "name_zh": "客家莊",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（客家莊／牌照2251808576／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251808576",
+      "address": "九龍觀塘牛頭角道3號 得寶商場1樓 210號舖"
+    },
+    {
+      "id": "fehd-rl-2251808743",
+      "name_zh": "重慶老巷",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（重慶老巷／牌照2251808743／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251808743",
+      "address": "九龍牛頭角道33號宏光樓地下16號舖"
+    },
+    {
+      "id": "fehd-rl-2251809108",
+      "name_zh": "金飯館",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金飯館／牌照2251809108／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251809108",
+      "address": "九龍牛頭角牛頭角道305-325號 觀塘立成大廈地下J號舖"
+    },
+    {
+      "id": "fehd-rl-2251809737",
+      "name_zh": "新記（FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：對應現庫 sun-kee-tung-ming（新記／興達大廈）",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新記／牌照2251809737／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251809737",
+      "address": "九龍通明街1-5號牛頭角道347-349號 興達大廈地下及閣樓7及8號舖"
+    },
+    {
+      "id": "fehd-rl-2251810607",
+      "name_zh": "港明美食",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（港明美食／牌照2251810607／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251810607",
+      "address": "九龍九龍灣牛頭角道3號得寶花園地下H鋪"
+    },
+    {
+      "id": "fehd-rl-2251810616",
+      "name_zh": "客館（牛頭角）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：皓日1樓，僅 FEHD，未取得輔助來源",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（客館／牌照2251810616／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251810616",
+      "address": "九龍牛頭角牛頭角道11號皓日1樓101及102號舖"
+    },
+    {
+      "id": "fehd-rl-2251810759",
+      "name_zh": "OK 冰室（牛頭角）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：皓日新商場冰室，僅 FEHD，未取得商場官方租戶第二來源",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（OK 冰室／牌照2251810759／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "2251810759",
+      "address": "九龍牛頭角道11號皓日地下G04鋪"
+    },
+    {
+      "id": "fehd-rl-3851811386",
+      "name_zh": "木椰餐廳（牛頭角）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "address_conflict：FEHD 列啟業商場地下10號，但民坊名冊同舖為大家樂；禁止估，剔除",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（木椰餐廳／牌照3851811386／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3851811386",
+      "address": "九龍觀塘九龍灣啟業邨啟業商場地下10號舖"
+    },
+    {
+      "id": "fehd-rr-3151265106",
+      "name_zh": "盈東小食（牛頭角）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "snack：店名小食；RR 牌，非正餐午餐定位",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（盈東小食／牌照3151265106／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151265106",
+      "address": "九龍牛頭角定安街100-102號仁寧大廈地下E號舖"
+    },
+    {
+      "id": "fehd-rr-3151801014",
+      "name_zh": "八方雲集鍋貼水餃專門店（FEHD 重複）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "duplicate_vs_v14：八方雲集仁安大廈",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（八方雲集鍋貼水餃專門店／牌照3151801014／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151801014",
+      "address": "九龍觀塘牛頭角道357-375號, 康寧道23號及 通明街8號仁安大廈地下K鋪"
+    },
+    {
+      "id": "fehd-rr-3151802080",
+      "name_zh": "NOCINO（牛頭角）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：偉業街93號，店名偏酒吧／咖啡，僅 FEHD，未核正餐午市",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（NOCINO／牌照3151802080／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151802080",
+      "address": "九龍牛頭角偉業街93號地下"
+    },
+    {
+      "id": "fehd-rr-3151803092",
+      "name_zh": "輪住食",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（輪住食／牌照3151803092／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151803092",
+      "address": "九龍九龍灣啟業邨地下啟業市場K-KY31-32號舖"
+    },
+    {
+      "id": "fehd-rr-3151803436",
+      "name_zh": "魚木丼飯便當（牛頭角）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "boundary_hai_bun：海濱匯2樓，邊界工廈；本輪未核商場目錄堂食時段，暫剔除／可入 pending",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（魚木丼飯便當／牌照3151803436／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151803436",
+      "address": "九龍牛頭角海濱道77號海濱匯2樓11號鋪"
+    },
+    {
+      "id": "fehd-rr-3151803506",
+      "name_zh": "潮文園",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（潮文園／牌照3151803506／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151803506",
+      "address": "九龍觀塘牛頭角道33號宏光樓地下3號鋪"
+    },
+    {
+      "id": "fehd-rr-3151803579",
+      "name_zh": "歡樂麵家（牛頭角）",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：皓日地下，僅 FEHD RR，未取得輔助來源",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（歡樂麵家／牌照3151803579／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3151803579",
+      "address": "九龍九龍灣牛頭角道11號皓日地下G02號舖"
+    },
+    {
+      "id": "fehd-rr-3951803993",
+      "name_zh": "上海麥記美食",
+      "name_en": "",
+      "lat": null,
+      "lng": null,
+      "exclude_reason": "unverified_lunch：僅 FEHD 持牌，本輪無輔助來源確認平日午市堂食正餐",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（上海麥記美食／牌照3951803993／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "食環署公開頁",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "fehd_licence_no": "3951803993",
+      "address": "九龍牛頭角道17號嘉和園 地下8號舖"
     }
   ],
   "meta": {
-    "status": "user attachment merge on v1.3",
-    "phase": "phase-2.6",
-    "notes_zh": "v1.4：保留研究員 v1.3（52），合併用戶附件新增店；跳過 id／全名重複、先前剔除政策（如 HI TEA）、明顯同分店異 id；部分標「邊界鄰近觀塘」（裕民坊／康寧道等）。",
-    "added_this_round": 18,
+    "status": "fehd licence expand",
+    "phase": "phase-fehd-v1.5",
+    "notes_zh": "v1.5：以食環署持牌食肆 XML（GENERATION_DATE 2026-09-28）擴庫。主攻 priority_core_non_amoy＋淘大明顯正餐缺口；輔助來源含房委商場名冊、民坊啟業、恒隆淘大、爭鮮／德聲官網。湯加啟業改 excluded（民坊＋爭鮮顯示同址已為爭鮮）。收費 API：0。",
+    "added_this_round": 31,
     "added_ids": [
-      "ming-fai-noodle-cafe-ntk-road",
-      "wohi-yunnan-noodle-garden-estate",
-      "chun-tin-kitchen-garden-estate",
-      "cheung-wing-cha-bing-ntk-road",
-      "sun-luen-fat-cafe-ting-fook",
-      "yat-chau-min-garden-estate",
-      "curry-king-kitchen-ting-fook",
-      "macau-curry-king-ntk-road",
-      "maxims-mx-upper-ntk-estate",
-      "mcdonalds-lok-wah",
-      "tamjai-samgor-tak-bo",
-      "saizeriya-tak-bo",
-      "cafe-de-coral-paul-y-hung-to",
-      "fairwood-ping-shek",
-      "mcdonalds-ping-shek",
-      "yumai-kai-yip",
-      "tong-ka-kai-yip",
-      "cafe-de-coral-kai-yip"
+      "tin-shing-bing-satt-choi-tak",
+      "lung-kee-restaurant-choi-tak",
+      "lung-shun-hin-choi-tak",
+      "leng-kee-cha-chaan-teng-on-kay",
+      "hollywood-cafe-lok-wah",
+      "tai-wah-restaurant-lok-wah",
+      "tai-wah-congee-noodle-lok-wah",
+      "tak-sing-restaurant-lok-wah",
+      "tsui-hing-lau-lok-wah",
+      "lok-wah-dai-pai-dong",
+      "kam-tai-pan-lok-wah",
+      "sam-yuet-bing-satt-kai-yip",
+      "wing-kee-beef-noodle-kai-yip",
+      "itamomo-chicken-factory-kai-yip",
+      "chuen-fuk-tong-kai-yip",
+      "sun-wah-yuen-kai-yip",
+      "sik-hou-di-kai-yip",
+      "san-hop-hing-kai-yip",
+      "chiu-ching-wo-kai-yip",
+      "sushiexpress-kai-yip",
+      "sushiexpress-wai-king-mansion",
+      "sushiexpress-ping-shek",
+      "jiu-fen-full-amoy-plaza",
+      "ging-sun-ho-amoy-plaza",
+      "huo-huo-chicken-amoy-plaza",
+      "thai-cool-amoy-plaza",
+      "grand-dumplings-amoy-plaza",
+      "veggie-factory-amoy-plaza",
+      "machiya-tak-bo",
+      "fei-zai-yunnan-noodle-tak-bo",
+      "issyokemen-tak-bo"
     ],
-    "excluded_added_this_round": 4,
+    "excluded_added_this_round": 66,
+    "excluded_added_ids": [
+      "fehd-rr-3151802071",
+      "fehd-rr-3151802318",
+      "fehd-rr-3151802479",
+      "fehd-rr-3151802770",
+      "fehd-rr-3151803214",
+      "fehd-rr-3151803694",
+      "fehd-rl-2251801432",
+      "fehd-rl-2251804024",
+      "fehd-rl-2251804556",
+      "fehd-rl-2251805638",
+      "fehd-rl-2251805841",
+      "fehd-rl-2251806118",
+      "fehd-rl-2251806330",
+      "fehd-rl-2251807403",
+      "fehd-rl-2251809506",
+      "fehd-rl-2251809524",
+      "fehd-rl-2251810236",
+      "fehd-rl-2251810290",
+      "fehd-rl-2251810324",
+      "fehd-rl-2251810333",
+      "fehd-rl-2251810379",
+      "fehd-rl-2251810449",
+      "fehd-rl-3851811216",
+      "fehd-rl-3851811368",
+      "fehd-rr-3151800385",
+      "fehd-rr-3151800622",
+      "fehd-rr-3151803171",
+      "fehd-rr-3151803366",
+      "fehd-rr-3951804075",
+      "fehd-rl-2251065003",
+      "fehd-rl-2251303619",
+      "fehd-rl-2251801195",
+      "fehd-rl-2251801557",
+      "fehd-rl-2251801742",
+      "fehd-rl-2251802505",
+      "fehd-rl-2251802930",
+      "fehd-rl-2251804158",
+      "fehd-rl-2251804228",
+      "fehd-rl-2251804264",
+      "fehd-rl-2251804750",
+      "fehd-rl-2251805744",
+      "fehd-rl-2251805948",
+      "fehd-rl-2251806491",
+      "fehd-rl-2251806899",
+      "fehd-rl-2251806941",
+      "fehd-rl-2251807175",
+      "fehd-rl-2251807625",
+      "fehd-rl-2251808211",
+      "fehd-rl-2251808521",
+      "fehd-rl-2251808576",
+      "fehd-rl-2251808743",
+      "fehd-rl-2251809108",
+      "fehd-rl-2251809737",
+      "fehd-rl-2251810607",
+      "fehd-rl-2251810616",
+      "fehd-rl-2251810759",
+      "fehd-rl-3851811386",
+      "fehd-rr-3151265106",
+      "fehd-rr-3151801014",
+      "fehd-rr-3151802080",
+      "fehd-rr-3151803092",
+      "fehd-rr-3151803436",
+      "fehd-rr-3151803506",
+      "fehd-rr-3151803579",
+      "fehd-rr-3951803993"
+    ],
+    "relocated_to_excluded": [
+      "tong-ka-kai-yip"
+    ],
+    "fehd": {
+      "source_xml": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+      "fehd_page": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
+      "data_gov": "https://data.gov.hk/tc-data/dataset/hk-fehd-fehdlmis-restaurant-licences",
+      "generation_date": "2026-09-28",
+      "matched_total_queues": 275,
+      "dupes_vs_v14_precomputed": 50,
+      "new_kept": 31,
+      "new_excluded": 65,
+      "pending_clues": 27,
+      "paid_api_calls": 0
+    },
     "bbox_approx": [
       22.312,
       114.208,
@@ -4502,14 +7223,8 @@
       114.217
     ],
     "paid_api_calls": 0,
-    "merge": {
-      "added": 54,
-      "added_kt_boundary": 31,
-      "added_ntk_core": 23,
-      "skipped_id_or_name": 14,
-      "skipped_same_shop": 2,
-      "skipped_exclude_policy": 1,
-      "excluded_merged": 16
-    }
+    "previous_version": "1.4",
+    "previous_kept": 106,
+    "previous_excluded": 29
   }
 }
