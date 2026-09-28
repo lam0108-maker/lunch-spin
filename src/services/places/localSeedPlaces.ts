@@ -50,7 +50,7 @@ const DISTRICT_SEEDS: DistrictSeed[] = [
     seed: tkoSeedData as SeedFile,
   },
   {
-    // 牛頭角站／下邨／淘大／樂華／坪石一帶；同觀塘、九龍灣有邊界重疊，多 hit 時用半徑內 seed 數量決勝
+    // 牛頭角站／下邨／淘大／樂華／坪石一帶；同觀塘、九龍灣有邊界重疊（nearby 已改合併全庫，唔再靠單區 resolve）
     label: '牛頭角',
     bbox: {
       minLat: 22.312,
@@ -198,31 +198,11 @@ function districtCenter(d: DistrictSeed): { lat: number; lng: number } {
   };
 }
 
-/** Count seed restaurants within radius of origin (haversine). */
-function countSeedInRadius(
-  d: DistrictSeed,
-  origin: { lat: number; lng: number },
-  radius: number,
-): number {
-  const list = d.seed.restaurants ?? [];
-  let n = 0;
-  for (const r of list) {
-    if (typeof r.lat !== 'number' || typeof r.lng !== 'number') continue;
-    if (haversineMeters(origin, { lat: r.lat, lng: r.lng }) <= radius) n += 1;
-  }
-  return n;
-}
-
 /**
- * Resolve which district seed to use for coords.
- * Label match wins. Else bbox hits: if multiple overlap, pick the district
- * with the most seed restaurants within `radius` (tie-break: nearest bbox center).
- * When radius omitted (isIn* helpers), treat radius as Infinity (count all seeds).
+ * Resolve district for label/bbox helpers (chips / isIn*).
+ * Nearby fetch no longer uses this — see getLocalSeedNearbyPlaces merged pool.
  */
-function resolveDistrictSeed(
-  coords: UserCoords,
-  radius?: RadiusMeters,
-): DistrictSeed | null {
+function resolveDistrictSeed(coords: UserCoords): DistrictSeed | null {
   const label = coords.label ?? '';
   // 地圖揀位等無地區 label：唔好用「包含」誤中；只認明確地區名
   const byLabel = DISTRICT_SEEDS.find((d) => label.includes(d.label));
@@ -235,14 +215,12 @@ function resolveDistrictSeed(
   if (hits.length === 1) return hits[0]!;
 
   const origin = { lat: coords.latitude, lng: coords.longitude };
-  const r = radius ?? Number.POSITIVE_INFINITY;
   return hits
     .map((d) => ({
       d,
-      count: countSeedInRadius(d, origin, r),
       dist: haversineMeters(origin, districtCenter(d)),
     }))
-    .sort((a, b) => b.count - a.count || a.dist - b.dist)[0]!.d;
+    .sort((a, b) => a.dist - b.dist)[0]!.d;
 }
 
 /** @deprecated use hasLocalSeedDistrict — kept for call-site clarity */
@@ -301,53 +279,58 @@ export function isInYauMaTei(coords: UserCoords): boolean {
   return d?.label === '油麻地';
 }
 
-/** True if coords match any curated local-seed district (label or bbox). */
+/** True if coords match any curated local-seed district (label or bbox). Nearby fetch no longer gates on this. */
 export function hasLocalSeedDistrict(coords: UserCoords): boolean {
   return resolveDistrictSeed(coords) != null;
 }
 
 /**
- * Map curated district seed restaurants to Place[], filtered by haversine radius.
- * Ignores `excluded`; only uses `restaurants[]` of the matched district.
+ * Merge ALL curated district seeds into one pool, filter by haversine ≤ radius,
+ * dedupe by restaurant id. Does not pick a single district.
  */
 export function getLocalSeedNearbyPlaces(
   coords: UserCoords,
   radius: RadiusMeters,
 ): Place[] {
-  const district = resolveDistrictSeed(coords, radius);
-  if (!district) return [];
-
   const origin = { lat: coords.latitude, lng: coords.longitude };
-  const list = district.seed.restaurants ?? [];
-  const places: Place[] = [];
+  const byId = new Map<string, Place>();
 
-  for (const r of list) {
-    if (typeof r.lat !== 'number' || typeof r.lng !== 'number') continue;
-    const dist = Math.round(
-      haversineMeters(origin, { lat: r.lat, lng: r.lng }),
-    );
-    if (dist > radius) continue;
-    const cuisine = (r.cuisine ?? []).map((c) => c.trim()).filter(Boolean);
-    const tags = (r.tags ?? []).map((t) => t.trim()).filter(Boolean);
-    const lunchNotes = (r.lunch_notes ?? '').trim() || undefined;
-    const priceLunchHkd = (r.price_lunch_hkd ?? '').trim() || undefined;
-    places.push({
-      placeId: r.id,
-      name: (r.name_zh || r.name_en || r.id).trim(),
-      distanceMeters: dist,
-      priceLevel: r.price_level ?? null,
-      priceLunchHkd,
-      rating: null,
-      ratingCount: null,
-      isOpenNow: null,
-      address: r.address || r.area || undefined,
-      lat: r.lat,
-      lng: r.lng,
-      cuisine: cuisine.length ? cuisine : undefined,
-      tags: tags.length ? tags : undefined,
-      lunchNotes,
-    });
+  for (const district of DISTRICT_SEEDS) {
+    const list = district.seed.restaurants ?? [];
+    for (const r of list) {
+      if (typeof r.lat !== 'number' || typeof r.lng !== 'number') continue;
+      const id = (r.id ?? '').trim();
+      if (!id) continue;
+      const dist = Math.round(
+        haversineMeters(origin, { lat: r.lat, lng: r.lng }),
+      );
+      if (dist > radius) continue;
+      const existing = byId.get(id);
+      if (existing && existing.distanceMeters <= dist) continue;
+      const cuisine = (r.cuisine ?? []).map((c) => c.trim()).filter(Boolean);
+      const tags = (r.tags ?? []).map((t) => t.trim()).filter(Boolean);
+      const lunchNotes = (r.lunch_notes ?? '').trim() || undefined;
+      const priceLunchHkd = (r.price_lunch_hkd ?? '').trim() || undefined;
+      byId.set(id, {
+        placeId: id,
+        name: (r.name_zh || r.name_en || id).trim(),
+        distanceMeters: dist,
+        priceLevel: r.price_level ?? null,
+        priceLunchHkd,
+        rating: null,
+        ratingCount: null,
+        isOpenNow: null,
+        address: r.address || r.area || undefined,
+        lat: r.lat,
+        lng: r.lng,
+        cuisine: cuisine.length ? cuisine : undefined,
+        tags: tags.length ? tags : undefined,
+        lunchNotes,
+      });
+    }
   }
 
-  return places.sort((a, b) => a.distanceMeters - b.distanceMeters);
+  return [...byId.values()].sort(
+    (a, b) => a.distanceMeters - b.distanceMeters,
+  );
 }

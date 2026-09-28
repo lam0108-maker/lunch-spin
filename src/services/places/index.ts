@@ -1,10 +1,7 @@
 import Constants from 'expo-constants';
 import type { Place, RadiusMeters, UserCoords } from '../../types/place';
 import { searchNearbyGoogle } from './googlePlaces';
-import {
-  getLocalSeedNearbyPlaces,
-  hasLocalSeedDistrict,
-} from './localSeedPlaces';
+import { getLocalSeedNearbyPlaces } from './localSeedPlaces';
 import { getMockNearbyPlaces } from './mockPlaces';
 import { searchNearbyOsm } from './osmPlaces';
 import { readPlacesCache, writePlacesCache } from './placesCache';
@@ -40,7 +37,7 @@ export function isMockPlacesMode(): boolean {
 }
 
 /**
- * 附近餐廳：有種子區優先本地庫；否則預設 OpenStreetMap；可選 Google；失敗再 mock。
+ * 附近餐廳：本地種子合併池按半徑優先；半徑內無 seed 則 OSM／Google；失敗再 mock。
  */
 export async function fetchNearbyRestaurants(
   coords: UserCoords,
@@ -62,8 +59,9 @@ export async function fetchNearbyRestaurants(
     };
   }
 
-  // 種子區（將軍澳／九龍東／尖沙咀／佐敦／油麻地…）：優先 curated seed（唔寫入 osm/google cache）
-  if (isLocalSeedEnabled() && hasLocalSeedDistrict(coords)) {
+  // 本地種子庫：合併全部區 seed，按半徑過濾；有結果先用（唔寫入 osm/google cache）
+  // 半徑內 0 間（或種子關閉）先落到下面 OSM／Google／mock
+  if (isLocalSeedEnabled()) {
     const local = getLocalSeedNearbyPlaces(coords, radius);
     if (local.length > 0) {
       return {
