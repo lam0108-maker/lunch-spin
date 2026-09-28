@@ -1,7 +1,7 @@
 {
   "district": "觀塘",
-  "version": "1.2",
-  "updated_at": "2026-09-25",
+  "version": "1.3",
+  "updated_at": "2026-09-28",
   "criteria": {
     "serves_lunch": true,
     "dine_in": true,
@@ -2011,6 +2011,782 @@
         }
       ],
       "price_lunch_hkd": "約 $50–90（午餐套餐／未核實官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "flames-quayside",
+      "name_zh": "Flames（海濱匯）",
+      "name_en": "Flames (The Quayside)",
+      "lat": 22.3165414,
+      "lng": 114.2137609,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道77號 海濱匯1樓2號舖",
+      "cuisine": [
+        "多國菜",
+        "燒雞"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "商場店"
+      ],
+      "lunch_notes": "海濱匯官方「美饌盛宴」列 Flames（1樓2號舖），主打澳洲燒雞同戶外用餐；平日午市堂食，服務海濱工貿帶午餐客。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Flames - NTK／牌照2251807759／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "海濱匯官方｜美饌盛宴（Flames）",
+          "url": "https://thequayside.com.hk/tc/amenities/live-healthy/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道77號 海濱匯",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9377%E8%99%9F%20%E6%B5%B7%E6%BF%B1%E5%8C%AF&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "mano-quayside",
+      "name_zh": "Mano（海濱匯）",
+      "name_en": "Mano (The Quayside)",
+      "lat": 22.3165814,
+      "lng": 114.2138009,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道77號海濱匯1樓4號舖",
+      "cuisine": [
+        "意大利菜",
+        "薄餅"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "商場店"
+      ],
+      "lunch_notes": "海濱匯官方列 MANO（1樓4號舖），供應手工薄餅同意大利菜堂食；平日午餐時段有正餐。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Mano-TQS／牌照2251809180／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "海濱匯官方｜MANO",
+          "url": "https://thequayside.com.hk/tc/amenities/live-healthy/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道77號 海濱匯",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9377%E8%99%9F%20%E6%B5%B7%E6%BF%B1%E5%8C%AF&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "frites-quayside",
+      "name_zh": "FRITES Belgium on Tap（海濱匯）",
+      "name_en": "FRITES Belgium on Tap (The Quayside)",
+      "lat": 22.3166214,
+      "lng": 114.2138409,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道77號 海濱匯第一期及第二期1樓3號舖",
+      "cuisine": [
+        "比利時菜",
+        "西式"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "商場店"
+      ],
+      "lunch_notes": "海濱匯官方列 Frites（1樓3號舖），比利時菜同戶外座位；可作平日堂食午餐。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（FRITES BELGIUM ON TAP／牌照2251807731／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "海濱匯官方｜Frites",
+          "url": "https://thequayside.com.hk/tc/amenities/live-healthy/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道77號 海濱匯",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9377%E8%99%9F%20%E6%B5%B7%E6%BF%B1%E5%8C%AF&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "pho-woo-quayside",
+      "name_zh": "葫越（海濱匯）",
+      "name_en": "Pho Woo (The Quayside)",
+      "lat": 22.3166614,
+      "lng": 114.2138809,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道77號 海濱匯1及2座 1樓 1A號舖",
+      "cuisine": [
+        "越南菜",
+        "粉麵"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "商場店"
+      ],
+      "lunch_notes": "海濱匯官方列葫越（1樓1A號舖），主打地道越南菜堂食；粉麵類適合工廈平日午餐。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（葫越／牌照3151802859／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "海濱匯官方｜葫越",
+          "url": "https://thequayside.com.hk/tc/amenities/live-healthy/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道77號 海濱匯",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9377%E8%99%9F%20%E6%B5%B7%E6%BF%B1%E5%8C%AF&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "ochicken-quayside",
+      "name_zh": "O'CHICKEN（海濱匯）",
+      "name_en": "O'CHICKEN (The Quayside)",
+      "lat": 22.3167014,
+      "lng": 114.2139209,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道77號海濱匯1樓８A號舖",
+      "cuisine": [
+        "星馬菜",
+        "海南雞"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "商場店"
+      ],
+      "lunch_notes": "海濱匯官方列 O'Chicken（1樓8A號舖），海南雞同東南亞菜堂食；適合平日午餐。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（O'CHICKEN／牌照2251809153／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "海濱匯官方｜O'Chicken",
+          "url": "https://thequayside.com.hk/tc/amenities/live-healthy/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道77號 海濱匯",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9377%E8%99%9F%20%E6%B5%B7%E6%BF%B1%E5%8C%AF&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "pret-a-manger-quayside",
+      "name_zh": "Pret A Manger（海濱匯）",
+      "name_en": "Pret A Manger (The Quayside)",
+      "lat": 22.3165014,
+      "lng": 114.2137209,
+      "area": "海濱匯／海濱道",
+      "address": "九龍九龍灣 海濱道77號 海濱匯地下 1及3號舖",
+      "cuisine": [
+        "沙律",
+        "三文治"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "連鎖",
+        "商場店"
+      ],
+      "lunch_notes": "Pret 官方 Find a Pret 列 Quayside（Kowloon Bay）地下1及3號舖；連鎖輕食／三文治堂食，平日午餐常見。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（PRET A MANGER／牌照3151802664／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Pret A Manger 官方 Find a Pret（Quayside）",
+          "url": "https://www.pret.hk/en-HK/find-a-pret",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道77號 海濱匯",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9377%E8%99%9F%20%E6%B5%B7%E6%BF%B1%E5%8C%AF&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "mcdonalds-cos-centre",
+      "name_zh": "麥當勞（中海日升中心）",
+      "name_en": "McDonald's (COS Centre)",
+      "lat": 22.3110594,
+      "lng": 114.2228064,
+      "area": "駿業街",
+      "address": "九龍觀塘駿業街56號中海日昇中心1樓K號鋪",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "連鎖",
+        "快餐"
+      ],
+      "lunch_notes": "麥當勞官方分店搜尋列「駿業街」：中海日升中心1樓K號舖；工廈帶快餐堂食午餐。App常見超值套餐約$36起（連鎖慣例／未核實本店官價）。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（麥當勞餐廳／牌照2251809427／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "麥當勞官方分店搜尋（駿業街／中海日升中心）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 駿業街56號 中海日升中心",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E9%A7%BF%E6%A5%AD%E8%A1%9756%E8%99%9F%20%E4%B8%AD%E6%B5%B7%E6%97%A5%E5%8D%87%E4%B8%AD%E5%BF%83&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": "約 $36–55（連鎖慣例／未核實本店官價）"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "pizza-express-hiex-how-ming",
+      "name_zh": "PizzaExpress（智選假日酒店／巧明街）",
+      "name_en": "PizzaExpress (Holiday Inn Express Kwun Tong)",
+      "lat": 22.3127575,
+      "lng": 114.2230564,
+      "area": "巧明街",
+      "address": "九龍觀塘巧明街97號 HOLIDAY INN EXPRESS HONG KONG KOWLOON CBD2 1樓部份",
+      "cuisine": [
+        "薄餅",
+        "意式"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "連鎖",
+        "酒店餐飲"
+      ],
+      "lunch_notes": "PizzaExpress 官方分店頁列智選假日酒店1樓（巧明街97號），每日11:30起堂食；可作商貿區平日午餐。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（PIZZA EXPRESS／牌照2251807096／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "PizzaExpress 官方（Holiday Inn Express Kwun Tong）",
+          "url": "https://www.pizzaexpress.com.hk/restaurants/holiday-inn-express-kwun-tong",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 巧明街97號 Holiday Inn Express",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E5%B7%A7%E6%98%8E%E8%A1%9797%E8%99%9F%20Holiday%20Inn%20Express&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "cozi-deli-hotel-cozi",
+      "name_zh": "COZi DELI（麗東酒店／偉業街）",
+      "name_en": "COZi DELI (Hotel COZi Harbour View)",
+      "lat": 22.312137,
+      "lng": 114.2196845,
+      "area": "偉業街",
+      "address": "九龍觀塘偉業街163號觀塘麗東酒店地下1號舖",
+      "cuisine": [
+        "西式輕食",
+        "套餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "酒店餐飲"
+      ],
+      "lunch_notes": "Hotel COZi 餐飲訂座頁列 COZi DELI 平日午餐 11:30–14:30（公眾假期除外）堂食套餐；麗東酒店地下，服務偉業街工貿午餐。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（COZI DELI／牌照2251805683／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "COZi DELI 網上訂座（Hotel COZi Harbour View 午餐時段）",
+          "url": "https://book.bistrochat.com/cozi-deli-hchv?l=zh_TW",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 偉業街163號 麗東酒店",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E5%81%89%E6%A5%AD%E8%A1%97163%E8%99%9F%20%E9%BA%97%E6%9D%B1%E9%85%92%E5%BA%97&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "sushiro-yen-sheng",
+      "name_zh": "壽司郎（源成中心）",
+      "name_en": "Sushiro (Yen Sheng Centre)",
+      "lat": 22.3107802,
+      "lng": 114.2254623,
+      "area": "開源道",
+      "address": "九龍觀塘開源道64號源成中心1樓",
+      "cuisine": [
+        "壽司",
+        "日本菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "連鎖"
+      ],
+      "lunch_notes": "新假期／WeekendHK 報導確認壽司郎觀塘店位於開源道64號源成中心1樓；迴轉壽司連鎖，平日午市堂食。價目未核實官價。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（壽司郎觀塘店／牌照2251810193／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "WeekendHK：壽司郎觀塘店（源成中心）",
+          "url": "https://www.weekendhk.com/dining/%e5%a3%bd%e5%8f%b8%e9%83%8e-%e8%a7%80%e5%a1%98-%e5%88%86%e5%ba%97-%e9%96%8b%e5%b9%95-ww01-1787201/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 開源道64號 源成中心",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E9%96%8B%E6%BA%90%E9%81%9364%E8%99%9F%20%E6%BA%90%E6%88%90%E4%B8%AD%E5%BF%83&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "ben-gor-mixian-one-bay-east",
+      "name_zh": "朋友冰室／Ben哥米線（One Bay East）",
+      "name_en": "Ben Gor Mixian (One Bay East)",
+      "lat": 22.3157231,
+      "lng": 114.214644,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道83號宏利大廈一樓W3鋪",
+      "cuisine": [
+        "米線",
+        "港式"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "EatSmart"
+      ],
+      "lunch_notes": "衞生署星級有營食肆列 Ben哥米線（海濱道83號宏利大樓1樓W3），菜式含麵食／中菜廳；FEHD 同址朋友冰室／Ben哥米線，平日堂食午餐合理。價目未核實官價。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（朋友冰室/Ben哥米線／牌照2251807838／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "衞生署星級有營食肆（Ben哥米線・海濱道）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10892",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道83號 One Bay East",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9383%E8%99%9F%20One%20Bay%20East&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "iso-no-suisan-mg-tower",
+      "name_zh": "磯の水產（萬兆豐中心）",
+      "name_en": "Iso no Suisan (MG Tower)",
+      "lat": 22.3130302,
+      "lng": 114.2174154,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道133號萬兆豐中心地下3號鋪",
+      "cuisine": [
+        "日本菜",
+        "海鮮"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "EatSmart"
+      ],
+      "lunch_notes": "衞生署星級有營食肆列磯之水產（海濱道133號萬兆豐中心地下3號舖），亞洲菜／日韓菜堂食；海濱工貿帶午餐。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（磯の水產／牌照2251809472／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "衞生署星級有營食肆（磯之水產）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10891",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道133號 萬兆豐中心",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%93133%E8%99%9F%20%E8%90%AC%E5%85%86%E8%B1%90%E4%B8%AD%E5%BF%83&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "lemon-bing-satt-cos",
+      "name_zh": "檸檬冰室（中海日升中心）",
+      "name_en": "Lemon Cafe (COS Centre)",
+      "lat": 22.3111094,
+      "lng": 114.2228564,
+      "area": "駿業街",
+      "address": "九龍觀塘駿業街56號中海日升中心 地下D鋪部分及E鋪部分",
+      "cuisine": [
+        "港式茶餐廳",
+        "冰室"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "茶餐廳"
+      ],
+      "lunch_notes": "ugo-hk 目錄列中海日升中心檸檬冰室（地下D/E舖），港式冰室／茶餐廳常餐堂食；服務駿業街工廈平日午餐。價目未核實官價。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（檸檬冰室／牌照2251810315／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "ugo-hk：檸檬冰室（中海日升中心）",
+          "url": "https://ugo-hk.com/restaurant/17915/%E6%AA%B8%E6%AA%AC%E5%86%B0%E5%AE%A4-%E4%B8%AD%E6%B5%B7%E6%97%A5%E5%8D%87%E4%B8%AD%E5%BF%83",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 駿業街56號 中海日升中心",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E9%A7%BF%E6%A5%AD%E8%A1%9756%E8%99%9F%20%E4%B8%AD%E6%B5%B7%E6%97%A5%E5%8D%87%E4%B8%AD%E5%BF%83&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "pokegreen-the-angle",
+      "name_zh": "POKEGREEN（The ANGLE）",
+      "name_en": "POKEGREEN (The ANGLE)",
+      "lat": 22.3126444,
+      "lng": 114.2214258,
+      "area": "巧明街",
+      "address": "九龍觀塘巧明街98號8樓803號鋪",
+      "cuisine": [
+        "波奇飯",
+        "輕食"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "商場店"
+      ],
+      "lunch_notes": "ugo-hk The ANGLE 商戶目錄列8樓 Poke Green；夏威夷波奇飯堂食，適合商貿區平日午餐。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（POKEGREEN／牌照2251810874／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "ugo-hk：The ANGLE 餐飲商戶（Poke Green）",
+          "url": "https://ugo-hk.com/landmark/16214/The-ANGLE",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 巧明街98號 The ANGLE",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E5%B7%A7%E6%98%8E%E8%A1%9798%E8%99%9F%20The%20ANGLE&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "nplus-burger-the-angle",
+      "name_zh": "N+ BURGER（The ANGLE）",
+      "name_en": "N+ BURGER (The ANGLE)",
+      "lat": 22.3126944,
+      "lng": 114.2214758,
+      "area": "巧明街",
+      "address": "九龍觀塘巧明街98號 三布目L9層樓915號舖",
+      "cuisine": [
+        "漢堡",
+        "美式"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "商場店"
+      ],
+      "lunch_notes": "ugo-hk The ANGLE 商戶目錄列9樓 N+ BURGER；漢堡堂食，可作巧明街商貿午餐。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（N+ BURGER／牌照2251810944／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "ugo-hk：The ANGLE 餐飲商戶（N+ BURGER）",
+          "url": "https://ugo-hk.com/landmark/16214/The-ANGLE",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 巧明街98號 The ANGLE",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E5%B7%A7%E6%98%8E%E8%A1%9798%E8%99%9F%20The%20ANGLE&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "dosi-lok-the-angle",
+      "name_zh": "DOSI 樂（The ANGLE）",
+      "name_en": "DOSI Lok (The ANGLE)",
+      "lat": 22.3127444,
+      "lng": 114.2215258,
+      "area": "巧明街",
+      "address": "九龍觀塘巧明街98號10樓1003號鋪",
+      "cuisine": [
+        "韓式",
+        "蓋飯"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "商場店"
+      ],
+      "lunch_notes": "ugo-hk The ANGLE 商戶目錄列10樓 Dosi樂；韓式堂食定位，平日午餐可選。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（DOSI 樂／牌照2251810573／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "ugo-hk：The ANGLE 餐飲商戶（Dosi樂）",
+          "url": "https://ugo-hk.com/landmark/16214/The-ANGLE",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 巧明街98號 The ANGLE",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E5%B7%A7%E6%98%8E%E8%A1%9798%E8%99%9F%20The%20ANGLE&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "flames-two-sky-parc",
+      "name_zh": "Flames（TWO SKY PARC／鴻圖道）",
+      "name_en": "Flames (TWO SKY PARC / Hung To Road)",
+      "lat": 22.3114373,
+      "lng": 114.221908,
+      "area": "鴻圖道工廈",
+      "address": "九龍觀塘鴻圖道51號 TWO SKY PARC 地下1號鋪",
+      "cuisine": [
+        "多國菜",
+        "燒雞"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐"
+      ],
+      "lunch_notes": "Eatigo 訂座目錄列 Flames @ 觀塘地址為鴻圖道51號 Two Sky Parc 地下1號舖；同品牌海濱匯店為正餐堂食。工廈帶平日午餐。價目未核實官價。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Flames-HTR／牌照2251809409／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Eatigo：Flames @ 觀塘（TWO SKY PARC）",
+          "url": "https://eatigo.com/zh-hk/branches/3373693164570",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 鴻圖道51號 TWO SKY PARC",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E9%B4%BB%E5%9C%96%E9%81%9351%E8%99%9F%20TWO%20SKY%20PARC&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-09-28",
+      "id": "jade-restaurant-mg-tower",
+      "name_zh": "翡翠餐廳（萬兆豐中心）",
+      "name_en": "Jade Restaurant (MG Tower)",
+      "lat": 22.3130802,
+      "lng": 114.2174654,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道133號萬兆豐中心地下1號舖",
+      "cuisine": [
+        "港式茶餐廳",
+        "粵菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "茶餐廳"
+      ],
+      "lunch_notes": "FeeHK 目錄列翡翠餐廳於海濱道133號萬兆豐中心地下1號舖，茶餐廳／常餐堂食（更新2026-09-28）；海濱工貿午餐。價目未核實官價。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（翡翠餐廳／牌照2251805391／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "FeeHK：翡翠餐廳（萬兆豐中心）",
+          "url": "https://www.feehk.com/%E8%A7%80%E5%A1%98%E9%A4%90%E5%BB%B3/%E7%BF%A1%E7%BF%A0%E9%A4%90%E5%BB%B3-18088",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道133號 萬兆豐中心",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%93133%E8%99%9F%20%E8%90%AC%E5%85%86%E8%B1%90%E4%B8%AD%E5%BF%83&limit=1",
+          "checked_at": "2026-09-28"
+        }
+      ],
+      "price_lunch_hkd": null
     }
   ],
   "excluded": [
@@ -2223,12 +2999,222 @@
           "checked_at": "2026-09-24"
         }
       ]
+    },
+    {
+      "id": "fehd-rr-3151801050",
+      "name_zh": "Santo Coffee",
+      "name_en": "Santo Coffee",
+      "lat": 22.3076393,
+      "lng": 114.2237765,
+      "exclude_reason": "pure_cafe／bakery：隊列標 pure_cafe_dessert；甜品／咖啡／烘焙，非正餐午餐堂食；地址：九龍官塘偉業街223-231號宏利金融中心1樓2號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Santo Coffee／牌照3151801050／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rr-3151801245",
+      "name_zh": "MG Cafe",
+      "name_en": "MG Cafe",
+      "lat": 22.3130302,
+      "lng": 114.2174154,
+      "exclude_reason": "pure_cafe／bakery：隊列標 pure_cafe_dessert；甜品／咖啡／烘焙，非正餐午餐堂食；地址：九龍觀塘海濱道133號萬兆豐中心地下2號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（MG Cafe／牌照3151801245／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rr-3151801874",
+      "name_zh": "LINKZY CAFE",
+      "name_en": "LINKZY CAFE",
+      "lat": 22.3157231,
+      "lng": 114.214644,
+      "exclude_reason": "pure_cafe／bakery：隊列標 pure_cafe_dessert；甜品／咖啡／烘焙，非正餐午餐堂食；地址：九龍觀塘海濱道83號CITI TOWER, ONE BAY EAST 1樓E6單位",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（LINKZY CAFE／牌照3151801874／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rr-3151802488",
+      "name_zh": "The Meek Coffee",
+      "name_en": "The Meek Coffee",
+      "lat": 22.3121044,
+      "lng": 114.2265117,
+      "exclude_reason": "pure_cafe／bakery：隊列標 pure_cafe_dessert；甜品／咖啡／烘焙，非正餐午餐堂食；地址：九龍觀塘偉業街93號發昌集團大廈11樓01&02室",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（The Meek Coffee／牌照3151802488／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rr-3951804002",
+      "name_zh": "享樂烘焙",
+      "name_en": "享樂烘焙",
+      "lat": 22.3126444,
+      "lng": 114.2214258,
+      "exclude_reason": "pure_cafe／bakery：隊列標 pure_cafe_dessert；甜品／咖啡／烘焙，非正餐午餐堂食；地址：九龍觀塘巧明街98號三布目地下G21鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（享樂烘焙／牌照3951804002／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rr-3151802752",
+      "name_zh": "OPAK MALT WHISKY BAR",
+      "name_en": "OPAK MALT WHISKY BAR",
+      "lat": 22.3121044,
+      "lng": 114.2265117,
+      "exclude_reason": "pure_bar：店名 OPAK MALT WHISKY BAR，純威士忌酒吧定位，非正餐午餐；FEHD：九龍觀塘偉業街93號26樓",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（OPAK MALT WHISKY BAR／牌照3151802752／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rr-3151803542",
+      "name_zh": "Rooftop Bar",
+      "name_en": "Rooftop Bar",
+      "lat": 22.3128861,
+      "lng": 114.2203763,
+      "exclude_reason": "pure_bar：店名 Rooftop Bar，純天台酒吧，非正餐午餐；FEHD：九龍觀塘巧明街94-96號鴻圖中心天台部分",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Rooftop Bar／牌照3151803542／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rr-3151803533",
+      "name_zh": "GENERAL 8 CLUB",
+      "name_en": "GENERAL 8 CLUB",
+      "lat": 22.312,
+      "lng": 114.225,
+      "exclude_reason": "pure_bar／club：GENERAL 8 CLUB，會所／酒吧定位，非正餐午餐堂食；FEHD：九龍觀塘駿業街44號銀八9樓B部分",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（GENERAL 8 CLUB／牌照3151803533／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rl-2251805586",
+      "name_zh": "The Hunt Coffee&Roastery",
+      "name_en": "The Hunt Coffee&Roastery",
+      "lat": 22.3121044,
+      "lng": 114.2265117,
+      "exclude_reason": "pure_cafe：The Hunt Coffee&Roastery，咖啡烘焙店名，未確認正餐午餐；FEHD：九龍觀塘鴻圖道73-75號KOHO地下A&B鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（The Hunt Coffee&Roastery／牌照2251805586／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rl-2251802310",
+      "name_zh": "ASK CAFE",
+      "name_en": "ASK CAFE",
+      "lat": 22.3076393,
+      "lng": 114.2237765,
+      "exclude_reason": "pure_cafe：ASK CAFE，店名 cafe；本輪未取得正餐午餐輔助來源；FEHD：九龍觀塘偉業街223號宏利金融中心地下2號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（ASK CAFE／牌照2251802310／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rr-3151802725",
+      "name_zh": "FUEL ESPRESSO QUAYSIDE",
+      "name_en": "FUEL ESPRESSO QUAYSIDE",
+      "lat": 22.3165414,
+      "lng": 114.2137609,
+      "exclude_reason": "pure_cafe：FUEL ESPRESSO QUAYSIDE，精品咖啡，非正餐午餐定位；FEHD：九龍觀塘海濱道77號 海濱匯1座及2座地下2號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（FUEL ESPRESSO QUAYSIDE／牌照3151802725／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rl-2251810740",
+      "name_zh": "貓員外",
+      "name_en": "貓員外",
+      "lat": 22.3126444,
+      "lng": 114.2214258,
+      "exclude_reason": "pure_bar：ugo-hk The ANGLE 列「貓員外酒吧餐廳」，酒吧為主定位，本輪不收作午餐正餐；FEHD：九龍觀塘巧明街98號10樓1005號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（貓員外／牌照2251810740／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rr-3151803667",
+      "name_zh": "GOLFZON KOWLOON BAY",
+      "name_en": "GOLFZON KOWLOON BAY",
+      "lat": 22.3165414,
+      "lng": 114.2137609,
+      "exclude_reason": "not_lunch_restaurant：GOLFZON 高爾夫模擬娛樂，非餐廳午餐堂食；FEHD：九龍觀塘海濱道77號海濱匯1樓11號鋪A部份",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（GOLFZON KOWLOON BAY／牌照3151803667／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "fehd-rl-2251808354",
+      "name_zh": "天仁茗茶‧壹柒零伍",
+      "name_en": "天仁茗茶‧壹柒零伍",
+      "lat": 22.3165414,
+      "lng": 114.2137609,
+      "exclude_reason": "pure_cafe／茶飲：天仁茗茶‧壹柒零伍，茶飲專門店，非正餐午餐堂食；FEHD：九龍觀塘海濱道123號 綠景地下2及3號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（天仁茗茶‧壹柒零伍／牌照2251808354／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        }
+      ]
     }
   ],
   "meta": {
-    "status": "enrichment complete",
-    "phase": "phase-2.5",
-    "notes_zh": "phase-2.5 enrichment（v1.2）：為既有52間加厚 cuisine、lunch_notes、新增 price_lunch_hkd；唔開新店、唔改收錄／剔除名單。價錢以官網推廣／目錄／可信食評為據，未核實者標「午餐套餐／未核實官價」模糊帶。",
+    "status": "fehd industrial expand complete",
+    "phase": "phase-3-kt-industrial-fehd",
+    "notes_zh": "phase-3-kt-industrial-fehd（v1.3）：以食環署持牌食肆 XML（GENERATION_DATE 2026-09-28）擴觀塘工廈／商貿帶（偉業街、鴻圖道、巧明街、駿業街、開源道、海濱道／海濱匯）。本輪新增 kept 18、excluded 14、pending 81；既有 52 間保留。輔助來源：海濱匯官網、Pret／麥當勞／PizzaExpress 官網、Hotel COZi 訂座、EatSmart、WeekendHK、ugo-hk The ANGLE／中海日升、FeeHK、Eatigo。收費 API：0。跳過已在牛頭角庫 1；隊列內已與觀塘庫重疊 2。",
     "bbox_approx": [
       22.305,
       114.22,
@@ -2238,6 +3224,7 @@
     "center_approx": [
       22.312,
       114.225
-    ]
+    ],
+    "paid_api_calls": 0
   }
 }
