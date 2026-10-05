@@ -1,7 +1,7 @@
 import type { Place, PlaceId } from '../types/place';
 
 /**
- * w = 1 / (1 + rejectCount)^1.3
+ * w_reject = 1 / (1 + rejectCount)^1.3
  * 純加權隨機，唔會用 AI。
  */
 export function weightForRejects(rejectCount: number): number {
@@ -9,15 +9,29 @@ export function weightForRejects(rejectCount: number): number {
   return 1 / Math.pow(1 + c, 1.3);
 }
 
-export function weightedPick<T extends { placeId: PlaceId }>(
+/**
+ * w_rating = 2^(effective - 3.5)
+ * missing/null → 3.5；有數就封頂 5。
+ */
+export function weightForRating(rating: number | null | undefined): number {
+  const effective =
+    rating == null || Number.isNaN(rating) ? 3.5 : Math.min(5, rating);
+  return Math.pow(2, effective - 3.5);
+}
+
+export function weightedPick<
+  T extends { placeId: PlaceId; rating?: number | null },
+>(
   items: T[],
   rejectCounts: Record<PlaceId, number>,
   rng: () => number = Math.random,
 ): T | null {
   if (items.length === 0) return null;
 
-  const weights = items.map((item) =>
-    weightForRejects(rejectCounts[item.placeId] ?? 0),
+  const weights = items.map(
+    (item) =>
+      weightForRejects(rejectCounts[item.placeId] ?? 0) *
+      weightForRating(item.rating),
   );
   const total = weights.reduce((a, b) => a + b, 0);
   if (total <= 0) return items[Math.floor(rng() * items.length)] ?? null;

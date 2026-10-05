@@ -24,6 +24,8 @@ interface SeedRestaurant {
   cuisine?: string[];
   tags?: string[];
   lunch_notes?: string | null;
+  google_rating?: number | null;
+  google_review_count?: number | null;
 }
 
 interface SeedFile {
@@ -311,14 +313,23 @@ export function getLocalSeedNearbyPlaces(
       const tags = (r.tags ?? []).map((t) => t.trim()).filter(Boolean);
       const lunchNotes = (r.lunch_notes ?? '').trim() || undefined;
       const priceLunchHkd = (r.price_lunch_hkd ?? '').trim() || undefined;
+      const googleRating =
+        typeof r.google_rating === 'number' && !Number.isNaN(r.google_rating)
+          ? r.google_rating
+          : null;
+      const googleReviewCount =
+        typeof r.google_review_count === 'number' &&
+        !Number.isNaN(r.google_review_count)
+          ? r.google_review_count
+          : null;
       byId.set(id, {
         placeId: id,
         name: (r.name_zh || r.name_en || id).trim(),
         distanceMeters: dist,
         priceLevel: r.price_level ?? null,
         priceLunchHkd,
-        rating: null,
-        ratingCount: null,
+        rating: googleRating,
+        ratingCount: googleReviewCount,
         isOpenNow: null,
         address: r.address || r.area || undefined,
         lat: r.lat,
