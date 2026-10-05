@@ -1,6 +1,6 @@
 {
   "district": "觀塘",
-  "version": "1.6",
+  "version": "1.7",
   "updated_at": "2026-10-05",
   "criteria": {
     "serves_lunch": true,
@@ -1075,51 +1075,6 @@
       "google_rating": 3.9,
       "google_review_count": 1003,
       "google_place_id": "ChIJn6jUmEoBBDQRc6u0QJ81RLs"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "asok-thai-apm",
-      "name_zh": "Asok Thai（apm）",
-      "name_en": "Asok Thai (apm)",
-      "lat": 22.3122155,
-      "lng": 114.2251439,
-      "area": "apm／創紀之城五期",
-      "address": "九龍觀塘道418號創紀之城五期(apm)地面低層3a號舖",
-      "cuisine": [
-        "泰式"
-      ],
-      "tags": [
-        "泰式",
-        "正餐",
-        "商場店"
-      ],
-      "lunch_notes": "apm 地面低層 Asok Thai，泰式正餐午餐堂食。同類泰菜人均多約七十至一百二；未核實官價，商場舖適合想食咖喱／冬蔭功嘅人。",
-      "price_level": 2,
-      "sources": [
-        {
-          "name": "apm 官方美食匯萃",
-          "url": "https://www.hkapm.com.hk/dining/",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Photon apm",
-          "url": "https://photon.komoot.io/api/?q=apm+Kwun+Tong",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Google 地圖公開頁評分（5／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJW4wDJgABBDQRWR39JjlUV0U",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $70–120（午餐套餐／未核實官價）",
-      "google_rating": 5,
-      "google_review_count": null,
-      "google_place_id": "ChIJW4wDJgABBDQRWR39JjlUV0U"
     },
     {
       "dine_in": true,
@@ -6404,64 +6359,6 @@
       "fehd_licence_no": "3151013259"
     },
     {
-      "id": "coffee-art-east-plaza",
-      "name_zh": "Coffee Art（寧晉中心東廣場）",
-      "name_en": "Coffee Art",
-      "lat": 22.3109587,
-      "lng": 114.2262485,
-      "district": "觀塘",
-      "area": "成業街／東廣場",
-      "address": "九龍觀塘成業街7號寧晉中心東廣場地下46-48舖",
-      "cuisine": [
-        "西式",
-        "早午餐"
-      ],
-      "tags": [
-        "商場店",
-        "fehd_licensed",
-        "fehd_rr",
-        "google_3.5_plus",
-        "hold_ratings_round"
-      ],
-      "dine_in": true,
-      "serves_lunch": true,
-      "lunch_notes": "Google 地圖平日營業 11:30–20:30，覆蓋 12:30–13:30 午市；Google 類別：咖啡店／早餐店／早午餐餐廳／甜品店／餐廳／西餐廳。FEHD 小食食肆牌照 3151801607。hold-ratings round（2026-10-05）入庫。",
-      "price_level": 2,
-      "price_lunch_hkd": null,
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（Coffee Art／牌照3151801607／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（4.1／418 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ28GzWUUBBDQRsKchA7EwzZ8",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁（座標／營業時間／營業狀態：營業中 · 打烊時間：20:30）",
-          "type": "google_maps_place",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ28GzWUUBBDQRsKchA7EwzZ8",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "hold-ratings round 建議入庫",
-          "type": "hold_ratings_round",
-          "url": "/workspace/lunch-data/review/ntk-kt-round1-hold-ratings.json",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "verified_at": "2026-10-05",
-      "google_rating": 4.1,
-      "google_review_count": 418,
-      "google_place_id": "ChIJ28GzWUUBBDQRsKchA7EwzZ8",
-      "licence_type": "小食食肆",
-      "fehd_licence_no": "3151801607"
-    },
-    {
       "id": "my-burger-east-plaza",
       "name_zh": "My Burger（寧晉中心東廣場）",
       "name_en": "MY BURGER",
@@ -10227,12 +10124,119 @@
       "exclude_reason": "純甜品：Google 類別「餐廳／甜品店」＋ cuisine「甜品／港式」，無正常午餐主食證據",
       "excluded_at": "2026-10-05",
       "excluded_from": "dessert_sweep"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "asok-thai-apm",
+      "name_zh": "Asok Thai（apm）",
+      "name_en": "Asok Thai (apm)",
+      "lat": 22.3122155,
+      "lng": 114.2251439,
+      "area": "apm／創紀之城五期",
+      "address": "九龍觀塘道418號創紀之城五期(apm)地面低層3a號舖",
+      "cuisine": [
+        "泰式"
+      ],
+      "tags": [
+        "泰式",
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "apm 地面低層 Asok Thai，泰式正餐午餐堂食。同類泰菜人均多約七十至一百二；未核實官價，商場舖適合想食咖喱／冬蔭功嘅人。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "apm 官方美食匯萃",
+          "url": "https://www.hkapm.com.hk/dining/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon apm",
+          "url": "https://photon.komoot.io/api/?q=apm+Kwun+Tong",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Google 地圖公開頁評分（5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJW4wDJgABBDQRWR39JjlUV0U",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $70–120（午餐套餐／未核實官價）",
+      "google_rating": 5,
+      "google_review_count": null,
+      "google_place_id": "ChIJW4wDJgABBDQRWR39JjlUV0U",
+      "exclude_reason": "餅店／非正餐：Google「Asok Thai Cake」／餅店類別，非正常午餐主食",
+      "excluded_at": "2026-10-05"
+    },
+    {
+      "id": "coffee-art-east-plaza",
+      "name_zh": "Coffee Art（寧晉中心東廣場）",
+      "name_en": "Coffee Art",
+      "lat": 22.3109587,
+      "lng": 114.2262485,
+      "district": "觀塘",
+      "area": "成業街／東廣場",
+      "address": "九龍觀塘成業街7號寧晉中心東廣場地下46-48舖",
+      "cuisine": [
+        "西式",
+        "早午餐"
+      ],
+      "tags": [
+        "商場店",
+        "fehd_licensed",
+        "fehd_rr",
+        "google_3.5_plus",
+        "hold_ratings_round"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–20:30，覆蓋 12:30–13:30 午市；Google 類別：咖啡店／早餐店／早午餐餐廳／甜品店／餐廳／西餐廳。FEHD 小食食肆牌照 3151801607。hold-ratings round（2026-10-05）入庫。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Coffee Art／牌照3151801607／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.1／418 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ28GzWUUBBDQRsKchA7EwzZ8",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間／營業狀態：營業中 · 打烊時間：20:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ28GzWUUBBDQRsKchA7EwzZ8",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "hold-ratings round 建議入庫",
+          "type": "hold_ratings_round",
+          "url": "/workspace/lunch-data/review/ntk-kt-round1-hold-ratings.json",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "verified_at": "2026-10-05",
+      "google_rating": 4.1,
+      "google_review_count": 418,
+      "google_place_id": "ChIJ28GzWUUBBDQRsKchA7EwzZ8",
+      "licence_type": "小食食肆",
+      "fehd_licence_no": "3151801607",
+      "exclude_reason": "咖啡店／非正餐：主要定位咖啡店，非正常午餐主食",
+      "excluded_at": "2026-10-05"
     }
   ],
   "meta": {
     "status": "dessert-sweep applied",
     "phase": "ntk-kt-dessert-sweep",
-    "notes_zh": "v1.6（2026-10-05）：dessert-sweep。用戶抽到龍記甜品（宜安街）屬純甜品，移 excluded。全量用 Google 類別掃漏網：明確剔 1 間；邊界 2 間列 review/ntk-kt-dessert-borderline；例外保留（有午餐主食證據）1 間。腳本加 nonmeal_rules 硬規則。冇用 OpenRice；收費 API：0。",
+    "notes_zh": "v1.6（2026-10-05）：dessert-sweep。用戶抽到龍記甜品（宜安街）屬純甜品，移 excluded。全量用 Google 類別掃漏網：明確剔 1 間；邊界 2 間列 review/ntk-kt-dessert-borderline；例外保留（有午餐主食證據）1 間。腳本加 nonmeal_rules 硬規則。冇用 OpenRice；收費 API：0。｜2026-10-05 邊界個案批核：移 excluded asok-thai-apm, coffee-art-east-plaza（餅店／咖啡店非正餐）。",
     "bbox_approx": [
       22.305,
       114.22,
@@ -10244,8 +10248,8 @@
       114.225
     ],
     "paid_api_calls": 0,
-    "previous_version": "1.5",
-    "previous_kept": 129,
+    "previous_version": "1.6",
+    "previous_kept": 128,
     "previous_excluded": 108,
     "kept": 128,
     "excluded": 109,
