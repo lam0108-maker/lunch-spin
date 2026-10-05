@@ -1,6 +1,6 @@
 {
   "district": "觀塘",
-  "version": "1.5",
+  "version": "1.6",
   "updated_at": "2026-10-05",
   "criteria": {
     "serves_lunch": true,
@@ -9,10 +9,14 @@
       "bakery",
       "pure_cafe",
       "takeaway_only",
-      "no_dine_in"
+      "no_dine_in",
+      "dessert",
+      "sugar_water",
+      "tea_drink"
     ],
     "min_google_rating": 3.5,
-    "google_rating_note_zh": "Google 地圖公開頁評分 ≥3.5 先入 kept（hold-ratings，2026-10-05）；未取得評分嘅種子暫留 kept 並標 rating_pending。"
+    "google_rating_note_zh": "Google 地圖公開頁評分 ≥3.5 先入 kept（hold-ratings，2026-10-05）；未取得評分嘅種子暫留 kept 並標 rating_pending。",
+    "dessert_rule_zh": "Google 類別／cuisine 主要屬甜品、糖水、麵包／烘焙、純咖啡、茶飲 → 一律 excluded；即使同時寫「餐廳」都照剔。例外：有正常午餐主食（飯／麵／套餐等）證據先可留。"
   },
   "restaurants": [
     {
@@ -869,7 +873,7 @@
         "套餐",
         "商場店"
       ],
-      "lunch_notes": "apm 四樓茶木‧台式休閒餐廳，有牛肉麵、飯同定食式正餐。公開目錄人均約$51–100；商場店，適合想食完整台式午餐多過快餐。",
+      "lunch_notes": "apm 四樓茶木‧台式休閒餐廳，有牛肉麵、飯同定食式正餐。公開目錄人均約$51–100；商場店，適合想食完整台式午餐多過快餐。（dessert-sweep 例外保留：有午餐主食證據——apm 四樓茶木‧台式休閒餐廳，有牛肉麵、飯同定食式正餐。公開目錄人均約$51–100；商場店，適合想食完整台式午餐多過快餐。；連鎖 正餐 套餐 商場店）",
       "price_level": 2,
       "sources": [
         {
@@ -6284,65 +6288,6 @@
       "fehd_licence_no": "2251810041"
     },
     {
-      "id": "lung-kee-desserts-yee-on",
-      "name_zh": "龍記甜品（宜安街）",
-      "name_en": "Lung Kee Desserts",
-      "lat": 22.3154494,
-      "lng": 114.2225572,
-      "district": "觀塘",
-      "area": "宜安街／市中心",
-      "address": "九龍觀塘宜安街9-27號有利大樓地下J舖",
-      "cuisine": [
-        "甜品",
-        "港式"
-      ],
-      "tags": [
-        "街舖",
-        "甜品",
-        "fehd_licensed",
-        "fehd_rl",
-        "google_3.5_plus",
-        "hold_ratings_round"
-      ],
-      "dine_in": true,
-      "serves_lunch": true,
-      "lunch_notes": "Google 地圖平日營業 12:00–02:00，覆蓋 12:30–13:30 午市；Google 類別：餐廳／甜品店。FEHD 普通食肆牌照 2251810227。hold-ratings round（2026-10-05）入庫。",
-      "price_level": 1,
-      "price_lunch_hkd": null,
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（龍記甜品／牌照2251810227／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（4.2／62 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJzWcHaK0BBDQRg3Y0flF32Vw",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁（座標／營業時間／營業狀態：營業中 · 打烊時間：02:00）",
-          "type": "google_maps_place",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJzWcHaK0BBDQRg3Y0flF32Vw",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "hold-ratings round 建議入庫",
-          "type": "hold_ratings_round",
-          "url": "/workspace/lunch-data/review/ntk-kt-round1-hold-ratings.json",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "verified_at": "2026-10-05",
-      "google_rating": 4.2,
-      "google_review_count": 62,
-      "google_place_id": "ChIJzWcHaK0BBDQRg3Y0flF32Vw",
-      "licence_type": "普通食肆",
-      "fehd_licence_no": "2251810227"
-    },
-    {
       "id": "grove-the-angle",
       "name_zh": "GROVE（THE ANGLE）",
       "name_en": "Grove",
@@ -10220,12 +10165,74 @@
       "excluded_at": "2026-10-05",
       "excluded_from": "restaurants（v1.4 kept）",
       "merged_into": "ngau-tau-kok/uosho-ym2"
+    },
+    {
+      "id": "lung-kee-desserts-yee-on",
+      "name_zh": "龍記甜品（宜安街）",
+      "name_en": "Lung Kee Desserts",
+      "lat": 22.3154494,
+      "lng": 114.2225572,
+      "district": "觀塘",
+      "area": "宜安街／市中心",
+      "address": "九龍觀塘宜安街9-27號有利大樓地下J舖",
+      "cuisine": [
+        "甜品",
+        "港式"
+      ],
+      "tags": [
+        "街舖",
+        "甜品",
+        "fehd_licensed",
+        "fehd_rl",
+        "google_3.5_plus",
+        "hold_ratings_round"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 12:00–02:00，覆蓋 12:30–13:30 午市；Google 類別：餐廳／甜品店。FEHD 普通食肆牌照 2251810227。hold-ratings round（2026-10-05）入庫。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（龍記甜品／牌照2251810227／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.2／62 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJzWcHaK0BBDQRg3Y0flF32Vw",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間／營業狀態：營業中 · 打烊時間：02:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJzWcHaK0BBDQRg3Y0flF32Vw",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "hold-ratings round 建議入庫",
+          "type": "hold_ratings_round",
+          "url": "/workspace/lunch-data/review/ntk-kt-round1-hold-ratings.json",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "verified_at": "2026-10-05",
+      "google_rating": 4.2,
+      "google_review_count": 62,
+      "google_place_id": "ChIJzWcHaK0BBDQRg3Y0flF32Vw",
+      "licence_type": "普通食肆",
+      "fehd_licence_no": "2251810227",
+      "exclude_reason": "純甜品：Google 類別「餐廳／甜品店」＋ cuisine「甜品／港式」，無正常午餐主食證據",
+      "excluded_at": "2026-10-05",
+      "excluded_from": "dessert_sweep"
     }
   ],
   "meta": {
-    "status": "hold-ratings applied",
-    "phase": "ntk-kt-hold-ratings",
-    "notes_zh": "v1.5（2026-10-05）：用戶批准 hold-ratings round。種子：1 間更新評分清 rating_pending；2 間 Google <3.5 移 excluded；其餘種子暫緩維持 rating_pending。非種子新入 40 間（必須有 Google 地圖座標；tag／sources 註 hold-ratings round；門檻 ≥3.5）。再確認 Google「已歇業」移 excluded 3 間。合併重複種子：移走 himurei-ym2／hong-hon-meals-ym2／uo-show-ym2（併入 NTK 對應條）。唔入 round2 招牌掃街。冇用 OpenRice；收費 API：0。",
+    "status": "dessert-sweep applied",
+    "phase": "ntk-kt-dessert-sweep",
+    "notes_zh": "v1.6（2026-10-05）：dessert-sweep。用戶抽到龍記甜品（宜安街）屬純甜品，移 excluded。全量用 Google 類別掃漏網：明確剔 1 間；邊界 2 間列 review/ntk-kt-dessert-borderline；例外保留（有午餐主食證據）1 間。腳本加 nonmeal_rules 硬規則。冇用 OpenRice；收費 API：0。",
     "bbox_approx": [
       22.305,
       114.22,
@@ -10237,11 +10244,11 @@
       114.225
     ],
     "paid_api_calls": 0,
-    "previous_version": "1.4",
-    "previous_kept": 97,
-    "previous_excluded": 75,
-    "kept": 129,
-    "excluded": 108,
+    "previous_version": "1.5",
+    "previous_kept": 129,
+    "previous_excluded": 108,
+    "kept": 128,
+    "excluded": 109,
     "round1": {
       "review_file": "review/ntk-kt-round1.json",
       "apply_report": "review/ntk-kt-round1-apply-report.json",

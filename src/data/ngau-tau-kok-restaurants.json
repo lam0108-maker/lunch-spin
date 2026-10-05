@@ -1,6 +1,6 @@
 {
   "district": "牛頭角",
-  "version": "1.7",
+  "version": "1.8",
   "updated_at": "2026-10-05",
   "criteria": {
     "serves_lunch": true,
@@ -9,10 +9,14 @@
       "bakery",
       "pure_cafe",
       "takeaway_only",
-      "no_dine_in"
+      "no_dine_in",
+      "dessert",
+      "sugar_water",
+      "tea_drink"
     ],
     "min_google_rating": 3.5,
-    "google_rating_note_zh": "Google 地圖公開頁評分 ≥3.5 先入 kept（hold-ratings，2026-10-05）；未取得評分嘅種子暫留 kept 並標 rating_pending。"
+    "google_rating_note_zh": "Google 地圖公開頁評分 ≥3.5 先入 kept（hold-ratings，2026-10-05）；未取得評分嘅種子暫留 kept 並標 rating_pending。",
+    "dessert_rule_zh": "Google 類別／cuisine 主要屬甜品、糖水、麵包／烘焙、純咖啡、茶飲 → 一律 excluded；即使同時寫「餐廳」都照剔。例外：有正常午餐主食（飯／麵／套餐等）證據先可留。"
   },
   "restaurants": [
     {
@@ -9401,9 +9405,9 @@
     }
   ],
   "meta": {
-    "status": "hold-ratings applied",
-    "phase": "ntk-kt-hold-ratings",
-    "notes_zh": "v1.7（2026-10-05）：用戶批准 hold-ratings round。種子：1 間更新評分清 rating_pending；7 間 Google <3.5 移 excluded；其餘種子暫緩維持 rating_pending。非種子新入 4 間（必須有 Google 地圖座標；tag／sources 註 hold-ratings round；門檻 ≥3.5）。再確認 Google「已歇業」移 excluded 5 間。合併重複種子：保留 himotei-ym2／kang-ben-shan-ym2／uosho-ym2。唔入 round2 招牌掃街。冇用 OpenRice；收費 API：0。",
+    "status": "dessert-sweep applied",
+    "phase": "ntk-kt-dessert-sweep",
+    "notes_zh": "v1.8（2026-10-05）：dessert-sweep 全量掃 Google 類別；牛頭角 kept 無明確純甜品／烘焙／純咖啡／茶飲漏網需剔。邊界／例外見 review。腳本加 nonmeal_rules 硬規則。冇用 OpenRice；收費 API：0。",
     "fehd": {
       "source_xml": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
       "fehd_page": "https://www.fehd.gov.hk/tc_chi/licensing/licence-foodPremises-rest.html",
@@ -9428,9 +9432,9 @@
       114.217
     ],
     "paid_api_calls": 0,
-    "previous_version": "1.6",
-    "previous_kept": 85,
-    "previous_excluded": 160,
+    "previous_version": "1.7",
+    "previous_kept": 77,
+    "previous_excluded": 179,
     "kept": 77,
     "excluded": 179,
     "round1": {

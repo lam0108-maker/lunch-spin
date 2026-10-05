@@ -1,4 +1,8 @@
 import type { Place, RadiusMeters, UserCoords } from '../../types/place';
+import {
+  sanitizeLunchNotes,
+  userFacingTags,
+} from '../../utils/displayLabels';
 import kbSeedData from '../../data/kowloon-bay-restaurants.json';
 import ktSeedData from '../../data/kwun-tong-restaurants.json';
 import lymSeedData from '../../data/lei-yue-mun-restaurants.json';
@@ -310,8 +314,8 @@ export function getLocalSeedNearbyPlaces(
       const existing = byId.get(id);
       if (existing && existing.distanceMeters <= dist) continue;
       const cuisine = (r.cuisine ?? []).map((c) => c.trim()).filter(Boolean);
-      const tags = (r.tags ?? []).map((t) => t.trim()).filter(Boolean);
-      const lunchNotes = (r.lunch_notes ?? '').trim() || undefined;
+      const tags = userFacingTags(r.tags);
+      const lunchNotes = sanitizeLunchNotes(r.lunch_notes) || undefined;
       const priceLunchHkd = (r.price_lunch_hkd ?? '').trim() || undefined;
       const googleRating =
         typeof r.google_rating === 'number' && !Number.isNaN(r.google_rating)

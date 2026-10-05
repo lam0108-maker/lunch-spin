@@ -28,6 +28,10 @@ import {
   truncateNotes,
 } from '../src/utils/format';
 import { shareLunchResult } from '../src/utils/shareResult';
+import {
+  sanitizeLunchNotes,
+  userFacingTags,
+} from '../src/utils/displayLabels';
 
 const NOTES_PREVIEW = 80;
 
@@ -51,7 +55,7 @@ export default function ResultScreen() {
     for (const c of lastPick.cuisine ?? []) {
       if (c && !out.includes(c)) out.push(c);
     }
-    for (const t of lastPick.tags ?? []) {
+    for (const t of userFacingTags(lastPick.tags)) {
       if (t && !out.includes(t)) out.push(t);
     }
     return out.slice(0, 8);
@@ -68,7 +72,7 @@ export default function ResultScreen() {
     );
   }
 
-  const notesFull = (lastPick.lunchNotes ?? '').trim();
+  const notesFull = sanitizeLunchNotes(lastPick.lunchNotes);
   const notesLong = notesFull.length > NOTES_PREVIEW;
   const notesShown =
     notesFull &&
