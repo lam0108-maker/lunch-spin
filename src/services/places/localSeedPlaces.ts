@@ -14,6 +14,7 @@ import tkoSeedData from '../../data/tseung-kwan-o-restaurants.json';
 import tstSeedData from '../../data/tsim-sha-tsui-restaurants.json';
 import jordanSeedData from '../../data/jordan-restaurants.json';
 import yauMaTeiSeedData from '../../data/yau-ma-tei-restaurants.json';
+import mkSeedData from '../../data/mong-kok-restaurants.json';
 
 interface SeedRestaurant {
   id: string;
@@ -166,6 +167,17 @@ const DISTRICT_SEEDS: DistrictSeed[] = [
     },
     seed: yauMaTeiSeedData as SeedFile,
   },
+  {
+    // 旺角／太子一帶（含太子）；同油麻地北緣可輕微重疊
+    label: '旺角',
+    bbox: {
+      minLat: 22.315,
+      maxLat: 22.328,
+      minLng: 114.165,
+      maxLng: 114.176,
+    },
+    seed: mkSeedData as SeedFile,
+  },
 ];
 
 function haversineMeters(
@@ -283,6 +295,11 @@ export function isInJordan(coords: UserCoords): boolean {
 export function isInYauMaTei(coords: UserCoords): boolean {
   const d = resolveDistrictSeed(coords);
   return d?.label === '油麻地';
+}
+
+export function isInMongKok(coords: UserCoords): boolean {
+  const d = resolveDistrictSeed(coords);
+  return d?.label === '旺角';
 }
 
 /** True if coords match any curated local-seed district (label or bbox). Nearby fetch no longer gates on this. */
