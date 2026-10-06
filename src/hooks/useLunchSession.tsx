@@ -198,11 +198,14 @@ export function LunchSessionProvider({
       return null;
     }
     const chosen = chosenList[0]!;
-    // reel 展示用：池內最多 24 個；對齊主結果（第一間）
+    // reel 展示用：池內最多 24 個；確保全部抽中結果都喺名單（multi-slot 落地）
     const forWheel = pool.slice(0, 24);
-    if (!forWheel.find((p) => p.placeId === chosen.placeId)) {
-      forWheel[0] = chosen;
+    for (const pick of [...chosenList].reverse()) {
+      if (!forWheel.find((p) => p.placeId === pick.placeId)) {
+        forWheel.unshift(pick);
+      }
     }
+    if (forWheel.length > 24) forWheel.length = 24;
     // 不足 12 就循環填
     while (forWheel.length < 12 && pool.length > 0) {
       forWheel.push(pool[forWheel.length % pool.length]!);

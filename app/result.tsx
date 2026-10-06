@@ -52,11 +52,13 @@ function PlaceResultCard({
   index,
   total,
   compact,
+  alt,
 }: {
   place: Place;
   index: number;
   total: number;
   compact?: boolean;
+  alt?: boolean;
 }) {
   const [notesExpanded, setNotesExpanded] = useState(false);
   const priceLabel = formatPlacePrice(place);
@@ -76,9 +78,19 @@ function PlaceResultCard({
   };
 
   return (
-    <View style={[styles.resultCard, shadows.card, compact && styles.resultCardCompact]}>
+    <View
+      style={[
+        styles.resultCard,
+        shadows.card,
+        compact && styles.resultCardCompact,
+        alt && styles.resultCardAlt,
+        total > 1 && styles.resultCardMulti,
+      ]}
+    >
       {total > 1 ? (
-        <Text style={styles.cardIndex}>第 {index + 1} 間</Text>
+        <View style={styles.cardIndexRow}>
+          <Text style={styles.cardIndex}>第 {index + 1} 間</Text>
+        </View>
       ) : (
         <Text style={styles.emoji}>🍽️</Text>
       )}
@@ -214,6 +226,11 @@ export default function ResultScreen() {
         {multi ? (
           <Text style={styles.multiTitle}>抽中 {picks.length} 間</Text>
         ) : null}
+        {multi ? (
+          <Text style={styles.reelNote}>
+            轉盤已同時停晒全部結果；下面係詳細資料
+          </Text>
+        ) : null}
 
         {picks.map((p, i) => (
           <PlaceResultCard
@@ -222,6 +239,7 @@ export default function ResultScreen() {
             index={i}
             total={picks.length}
             compact={multi}
+            alt={multi && i % 2 === 1}
           />
         ))}
 
@@ -293,9 +311,9 @@ const styles = StyleSheet.create({
   container: {
     paddingHorizontal: spacing.lg,
     paddingTop: spacing.sm,
-    paddingBottom: spacing.xl,
+    paddingBottom: spacing.xl + spacing.lg,
     alignItems: 'center',
-    gap: spacing.md,
+    gap: spacing.md + 2,
   },
   center: {
     flex: 1,
@@ -306,11 +324,18 @@ const styles = StyleSheet.create({
   },
   multiTitle: {
     ...typography.title,
-    fontSize: 20,
-    color: colors.text,
+    fontSize: 22,
+    color: colors.primaryDark,
     alignSelf: 'stretch',
     textAlign: 'center',
     marginBottom: spacing.xs,
+  },
+  reelNote: {
+    ...typography.caption,
+    color: colors.textMuted,
+    textAlign: 'center',
+    marginBottom: spacing.xs,
+    fontWeight: '600',
   },
   resultCard: {
     width: '100%',
@@ -326,10 +351,25 @@ const styles = StyleSheet.create({
     paddingVertical: spacing.md,
     borderRadius: radius.lg,
   },
+  resultCardMulti: {
+    borderWidth: 1.5,
+    borderColor: colors.primaryMuted,
+  },
+  resultCardAlt: {
+    backgroundColor: colors.surface,
+  },
+  cardIndexRow: {
+    alignSelf: 'stretch',
+    alignItems: 'center',
+    marginBottom: spacing.xs,
+    paddingVertical: 4,
+    borderRadius: radius.pill,
+    backgroundColor: colors.primaryMuted,
+  },
   cardIndex: {
-    fontSize: 12,
+    fontSize: 13,
     fontWeight: '800',
-    color: colors.primary,
+    color: colors.primaryDark,
     letterSpacing: 0.5,
   },
   emoji: { fontSize: 48 },

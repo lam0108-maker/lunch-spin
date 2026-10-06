@@ -19,6 +19,7 @@ import {
 import { useLunchSession } from '../src/hooks/useLunchSession';
 
 const RESULT_DELAY_MS = 360;
+const RESULT_DELAY_MULTI_MS = 1400;
 
 export default function WheelScreen() {
   const router = useRouter();
@@ -47,9 +48,11 @@ export default function WheelScreen() {
 
   const onSpinEnd = () => {
     setSpinning(false);
+    const delay =
+      lastPicks.length > 1 ? RESULT_DELAY_MULTI_MS : RESULT_DELAY_MS;
     setTimeout(() => {
       router.push('/result');
-    }, RESULT_DELAY_MS);
+    }, delay);
   };
 
   if (places.length === 0) {
@@ -60,24 +63,28 @@ export default function WheelScreen() {
     );
   }
 
+  const multi = lastPicks.length > 1;
+  const winnerIds = lastPicks.map((p) => p.placeId);
+
   const statusCopy =
     busy && !ready
       ? '準備餐廳中…'
       : spinning
-        ? '名單掃緊…'
-        : null;
+        ? multi
+          ? `名單掃緊…（抽 ${lastPicks.length} 間）`
+          : '名單掃緊…'
+        : multi
+          ? `停咗 · ${lastPicks.length} 間一齊顯示`
+          : null;
 
   return (
     <SafeAreaView style={styles.safe} edges={['bottom']}>
       <View style={styles.container}>
-        <Text style={styles.title}>抽緊…</Text>
+        <Text style={styles.title}>
+          {multi ? `抽緊 ${lastPicks.length} 間…` : '抽緊…'}
+        </Text>
         {statusCopy ? (
           <Text style={styles.status}>{statusCopy}</Text>
-        ) : null}
-        {lastPicks.length > 1 ? (
-          <Text style={styles.multiHint}>
-            轉盤顯示第 1 間 · 其餘 {lastPicks.length - 1} 間喺結果頁
-          </Text>
         ) : null}
         {isMock && (
           <Text style={styles.mock}>模擬資料 · 示範名單</Text>
@@ -92,6 +99,7 @@ export default function WheelScreen() {
           <NameReel
             places={wheelPlaces}
             winnerId={lastPick.placeId}
+            winnerIds={winnerIds.length > 0 ? winnerIds : undefined}
             spinning={spinning}
             onSpinEnd={onSpinEnd}
           />
@@ -136,12 +144,6 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '600',
     color: colors.primary,
-  },
-  multiHint: {
-    marginTop: spacing.xs,
-    fontSize: 12,
-    fontWeight: '600',
-    color: colors.textMuted,
   },
   mock: {
     color: colors.textMuted,
