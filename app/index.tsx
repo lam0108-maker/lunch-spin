@@ -42,6 +42,7 @@ const RADIUS_MIN = 100;
 const RADIUS_MAX = 2000;
 
 const SEED_DISTRICTS = [
+  '中環／金鐘',
   '將軍澳',
   '牛頭角',
   '觀塘',
@@ -236,7 +237,7 @@ export default function SetupScreen() {
         <View style={styles.heroBlock}>
           <Text style={styles.hero}>今日食咩好？</Text>
           <Text style={styles.sub}>
-            附近餐廳抽獎 · 將軍澳／九龍東／尖沙咀／佐敦／油麻地／旺角本地庫優先
+            附近餐廳抽獎 · 中環／金鐘／將軍澳／九龍東／尖沙咀／佐敦／油麻地／旺角本地庫優先
           </Text>
         </View>
 

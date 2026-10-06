@@ -4,6 +4,7 @@ import type { UserCoords } from '../types/place';
 export const HK_DISTRICTS: Record<string, UserCoords> = {
   中環: { latitude: 22.2819, longitude: 114.1581, label: '中環', isFallback: true },
   金鐘: { latitude: 22.2783, longitude: 114.1647, label: '金鐘', isFallback: true },
+  '中環／金鐘': { latitude: 22.2815, longitude: 114.162, label: '中環／金鐘', isFallback: true },
   灣仔: { latitude: 22.2783, longitude: 114.1722, label: '灣仔', isFallback: true },
   銅鑼灣: { latitude: 22.2800, longitude: 114.1850, label: '銅鑼灣', isFallback: true },
   尖沙咀: { latitude: 22.2976, longitude: 114.1722, label: '尖沙咀', isFallback: true },
