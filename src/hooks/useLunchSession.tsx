@@ -21,7 +21,9 @@ import {
 import { fetchNearbyRestaurants } from '../services/places';
 import { applyPlaceFilters, uniqueCuisinesFromPlaces } from '../utils/placeFilters';
 import { formatPlacePrice } from '../utils/format';
-import { filterPool, weightedPick } from '../utils/weightedPick';
+import { filterPool, weightedPickN } from '../utils/weightedPick';
+
+export type SpinCount = 1 | 2 | 3;
 
 interface LunchSessionValue {
   coords: UserCoords | null;
@@ -36,12 +38,18 @@ interface LunchSessionValue {
   isMock: boolean;
   loading: boolean;
   error: string | null;
+  /** 一次抽幾間（1–3），預設 1 */
+  spinCount: SpinCount;
+  /** 今次全部結果；單抽時 length === 1 */
+  lastPicks: Place[];
+  /** 主結果＝lastPicks[0]，畀 NameReel／wheel 用 */
   lastPick: Place | null;
   wheelPlaces: Place[];
   setRadius: (r: RadiusMeters) => void;
   setCoords: (c: UserCoords) => void;
   setFilterCuisines: (c: string[]) => void;
   setPriceCapHkd: (v: number | null) => void;
+  setSpinCount: (n: SpinCount) => void;
   toggleFilterCuisine: (c: string) => void;
   loadPlaces: () => Promise<Place[]>;
   spin: () => Promise<Place | null>;
@@ -77,6 +85,8 @@ export function LunchSessionProvider({
   const [isMock, setIsMock] = useState(true);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [spinCount, setSpinCount] = useState<SpinCount>(1);
+  const [lastPicks, setLastPicks] = useState<Place[]>([]);
   const [lastPick, setLastPick] = useState<Place | null>(null);
   const [wheelPlaces, setWheelPlaces] = useState<Place[]>([]);
 
@@ -181,12 +191,14 @@ export function LunchSessionProvider({
     for (const p of pool) {
       counts[p.placeId] = rejectMap[p.placeId]?.count ?? 0;
     }
-    const chosen = weightedPick(pool, counts);
-    if (!chosen) {
+    const n = Math.min(spinCount, pool.length);
+    const chosenList = weightedPickN(pool, counts, n);
+    if (chosenList.length === 0) {
       setError('抽獎失敗');
       return null;
     }
-    // reel 展示用：池內最多 24 個
+    const chosen = chosenList[0]!;
+    // reel 展示用：池內最多 24 個；對齊主結果（第一間）
     const forWheel = pool.slice(0, 24);
     if (!forWheel.find((p) => p.placeId === chosen.placeId)) {
       forWheel[0] = chosen;
@@ -196,35 +208,44 @@ export function LunchSessionProvider({
       forWheel.push(pool[forWheel.length % pool.length]!);
     }
     setWheelPlaces(forWheel);
+    setLastPicks(chosenList);
     setLastPick(chosen);
     setError(null);
     try {
-      await recordSpinResult(chosen, formatPlacePrice(chosen) || undefined);
+      for (const p of chosenList) {
+        await recordSpinResult(p, formatPlacePrice(p) || undefined);
+      }
     } catch {
       // 歷史寫入失敗唔阻抽獎
     }
     return chosen;
-  }, [places]);
+  }, [places, spinCount]);
 
   const rejectLast = useCallback(async () => {
-    if (!lastPick) return;
-    await incrementReject(lastPick.placeId);
-    try {
-      await markHistoryRejected(lastPick.placeId);
-    } catch {
-      // ignore
+    const targets = lastPicks.length > 0 ? lastPicks : lastPick ? [lastPick] : [];
+    if (targets.length === 0) return;
+    for (const p of targets) {
+      await incrementReject(p.placeId);
+      try {
+        await markHistoryRejected(p.placeId);
+      } catch {
+        // ignore
+      }
     }
-  }, [lastPick]);
+  }, [lastPicks, lastPick]);
 
   const confirmGone = useCallback(async () => {
-    if (!lastPick) return;
-    await markGoneToday(lastPick.placeId);
-    try {
-      await markHistoryGone(lastPick.placeId);
-    } catch {
-      // ignore
+    const targets = lastPicks.length > 0 ? lastPicks : lastPick ? [lastPick] : [];
+    if (targets.length === 0) return;
+    for (const p of targets) {
+      await markGoneToday(p.placeId);
+      try {
+        await markHistoryGone(p.placeId);
+      } catch {
+        // ignore
+      }
     }
-  }, [lastPick]);
+  }, [lastPicks, lastPick]);
 
   const value = useMemo(
     () => ({
@@ -238,12 +259,15 @@ export function LunchSessionProvider({
       isMock,
       loading,
       error,
+      spinCount,
+      lastPicks,
       lastPick,
       wheelPlaces,
       setRadius,
       setCoords,
       setFilterCuisines: setFilterCuisinesAndReapply,
       setPriceCapHkd: setPriceCapAndReapply,
+      setSpinCount,
       toggleFilterCuisine,
       loadPlaces,
       spin,
@@ -262,6 +286,8 @@ export function LunchSessionProvider({
       isMock,
       loading,
       error,
+      spinCount,
+      lastPicks,
       lastPick,
       wheelPlaces,
       setFilterCuisinesAndReapply,

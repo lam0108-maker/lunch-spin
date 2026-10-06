@@ -20,6 +20,7 @@ import {
 } from '../src/constants/theme';
 import { useLunchSession } from '../src/hooks/useLunchSession';
 import { mapsUrlForPlace } from '../src/services/places';
+import type { Place } from '../src/types/place';
 import {
   formatDistance,
   formatPlacePrice,
@@ -35,33 +36,131 @@ import {
 
 const NOTES_PREVIEW = 80;
 
+function placeTagPills(place: Place): string[] {
+  const out: string[] = [];
+  for (const c of place.cuisine ?? []) {
+    if (c && !out.includes(c)) out.push(c);
+  }
+  for (const t of userFacingTags(place.tags)) {
+    if (t && !out.includes(t)) out.push(t);
+  }
+  return out.slice(0, 8);
+}
+
+function PlaceResultCard({
+  place,
+  index,
+  total,
+  compact,
+}: {
+  place: Place;
+  index: number;
+  total: number;
+  compact?: boolean;
+}) {
+  const [notesExpanded, setNotesExpanded] = useState(false);
+  const priceLabel = formatPlacePrice(place);
+  const ratingLabel = formatRating(place.rating, place.ratingCount);
+  const walkLabel = formatWalkMinutes(place.distanceMeters);
+  const tagPills = useMemo(() => placeTagPills(place), [place]);
+  const notesFull = sanitizeLunchNotes(place.lunchNotes);
+  const notesLong = notesFull.length > NOTES_PREVIEW;
+  const notesShown =
+    notesFull &&
+    (notesExpanded || !notesLong
+      ? notesFull
+      : truncateNotes(notesFull, NOTES_PREVIEW));
+
+  const openMaps = async () => {
+    await Linking.openURL(mapsUrlForPlace(place));
+  };
+
+  return (
+    <View style={[styles.resultCard, shadows.card, compact && styles.resultCardCompact]}>
+      {total > 1 ? (
+        <Text style={styles.cardIndex}>第 {index + 1} 間</Text>
+      ) : (
+        <Text style={styles.emoji}>🍽️</Text>
+      )}
+      <Text style={[styles.name, compact && styles.nameCompact]}>{place.name}</Text>
+
+      {walkLabel ? (
+        <Text style={styles.walkMain}>{walkLabel}</Text>
+      ) : null}
+      <Text style={styles.distSub}>
+        （{formatDistance(place.distanceMeters)}）
+      </Text>
+
+      <View style={styles.meta}>
+        {priceLabel ? (
+          <View style={styles.pill}>
+            <Text style={styles.pillText}>{priceLabel}</Text>
+          </View>
+        ) : null}
+        {ratingLabel ? (
+          <View style={styles.pill}>
+            <Text style={styles.pillText}>{ratingLabel}</Text>
+          </View>
+        ) : null}
+      </View>
+
+      {tagPills.length > 0 ? (
+        <View style={styles.tagRow}>
+          {tagPills.map((t) => (
+            <View key={t} style={styles.tagPill}>
+              <Text style={styles.tagPillText}>{t}</Text>
+            </View>
+          ))}
+        </View>
+      ) : null}
+
+      {place.address ? (
+        <Text style={styles.address}>{place.address}</Text>
+      ) : null}
+
+      {notesShown ? (
+        <View style={styles.notesBox}>
+          <Text style={styles.notesLabel}>午餐筆記</Text>
+          <Text style={styles.notes}>{notesShown}</Text>
+          {notesLong ? (
+            <Pressable
+              onPress={() => setNotesExpanded((v) => !v)}
+              hitSlop={8}
+            >
+              <Text style={styles.notesToggle}>
+                {notesExpanded ? '收起' : '睇多啲'}
+              </Text>
+            </Pressable>
+          ) : null}
+        </View>
+      ) : null}
+
+      {place.isOpenNow === true && (
+        <Text style={styles.open}>而家營業中</Text>
+      )}
+
+      {total > 1 ? (
+        <Pressable style={styles.cardMaps} onPress={() => void openMaps()}>
+          <Text style={styles.cardMapsText}>開 Google Maps</Text>
+        </Pressable>
+      ) : null}
+    </View>
+  );
+}
+
 export default function ResultScreen() {
   const router = useRouter();
-  const { lastPick, rejectLast, confirmGone, spin } = useLunchSession();
+  const { lastPick, lastPicks, rejectLast, confirmGone, spin } =
+    useLunchSession();
   const [busy, setBusy] = useState(false);
   const [shareBusy, setShareBusy] = useState(false);
-  const [notesExpanded, setNotesExpanded] = useState(false);
 
-  const priceLabel = lastPick ? formatPlacePrice(lastPick) : '';
-  const ratingLabel = lastPick
-    ? formatRating(lastPick.rating, lastPick.ratingCount)
-    : '';
-  const walkLabel = lastPick
-    ? formatWalkMinutes(lastPick.distanceMeters)
-    : '';
-  const tagPills = useMemo(() => {
-    if (!lastPick) return [] as string[];
-    const out: string[] = [];
-    for (const c of lastPick.cuisine ?? []) {
-      if (c && !out.includes(c)) out.push(c);
-    }
-    for (const t of userFacingTags(lastPick.tags)) {
-      if (t && !out.includes(t)) out.push(t);
-    }
-    return out.slice(0, 8);
-  }, [lastPick]);
+  const picks =
+    lastPicks.length > 0 ? lastPicks : lastPick ? [lastPick] : [];
+  const multi = picks.length > 1;
+  const primary = picks[0] ?? null;
 
-  if (!lastPick) {
+  if (!primary) {
     return (
       <View style={styles.center}>
         <Text style={styles.muted}>未有結果，返去再抽。</Text>
@@ -72,17 +171,8 @@ export default function ResultScreen() {
     );
   }
 
-  const notesFull = sanitizeLunchNotes(lastPick.lunchNotes);
-  const notesLong = notesFull.length > NOTES_PREVIEW;
-  const notesShown =
-    notesFull &&
-    (notesExpanded || !notesLong
-      ? notesFull
-      : truncateNotes(notesFull, NOTES_PREVIEW));
-
-  const openMaps = async () => {
-    const url = mapsUrlForPlace(lastPick);
-    await Linking.openURL(url);
+  const openMapsPrimary = async () => {
+    await Linking.openURL(mapsUrlForPlace(primary));
   };
 
   const onGone = async () => {
@@ -109,7 +199,7 @@ export default function ResultScreen() {
   const onShare = async () => {
     setShareBusy(true);
     try {
-      await shareLunchResult(lastPick);
+      await shareLunchResult(picks);
     } finally {
       setShareBusy(false);
     }
@@ -121,68 +211,21 @@ export default function ResultScreen() {
         contentContainerStyle={styles.container}
         keyboardShouldPersistTaps="handled"
       >
-        <View style={[styles.resultCard, shadows.card]}>
-          <Text style={styles.emoji}>🍽️</Text>
-          <Text style={styles.name}>{lastPick.name}</Text>
+        {multi ? (
+          <Text style={styles.multiTitle}>抽中 {picks.length} 間</Text>
+        ) : null}
 
-          {walkLabel ? (
-            <Text style={styles.walkMain}>{walkLabel}</Text>
-          ) : null}
-          <Text style={styles.distSub}>
-            （{formatDistance(lastPick.distanceMeters)}）
-          </Text>
-
-          <View style={styles.meta}>
-            {priceLabel ? (
-              <View style={styles.pill}>
-                <Text style={styles.pillText}>{priceLabel}</Text>
-              </View>
-            ) : null}
-            {ratingLabel ? (
-              <View style={styles.pill}>
-                <Text style={styles.pillText}>{ratingLabel}</Text>
-              </View>
-            ) : null}
-          </View>
-
-          {tagPills.length > 0 ? (
-            <View style={styles.tagRow}>
-              {tagPills.map((t) => (
-                <View key={t} style={styles.tagPill}>
-                  <Text style={styles.tagPillText}>{t}</Text>
-                </View>
-              ))}
-            </View>
-          ) : null}
-
-          {lastPick.address ? (
-            <Text style={styles.address}>{lastPick.address}</Text>
-          ) : null}
-
-          {notesShown ? (
-            <View style={styles.notesBox}>
-              <Text style={styles.notesLabel}>午餐筆記</Text>
-              <Text style={styles.notes}>{notesShown}</Text>
-              {notesLong ? (
-                <Pressable
-                  onPress={() => setNotesExpanded((v) => !v)}
-                  hitSlop={8}
-                >
-                  <Text style={styles.notesToggle}>
-                    {notesExpanded ? '收起' : '睇多啲'}
-                  </Text>
-                </Pressable>
-              ) : null}
-            </View>
-          ) : null}
-
-          {lastPick.isOpenNow === true && (
-            <Text style={styles.open}>而家營業中</Text>
-          )}
-        </View>
+        {picks.map((p, i) => (
+          <PlaceResultCard
+            key={`${p.placeId}-${i}`}
+            place={p}
+            index={i}
+            total={picks.length}
+            compact={multi}
+          />
+        ))}
 
         <View style={styles.actions}>
-          {/* 主：去食 */}
           <Pressable
             style={[styles.primary, shadows.elevated, busy && styles.disabled]}
             disabled={busy}
@@ -191,20 +234,22 @@ export default function ResultScreen() {
             {busy ? (
               <ActivityIndicator color={colors.textOnPrimary} />
             ) : (
-              <Text style={styles.primaryText}>去食</Text>
+              <Text style={styles.primaryText}>
+                {multi ? '去食（全部標記）' : '去食'}
+              </Text>
             )}
           </Pressable>
 
-          {/* 次：Maps outline */}
-          <Pressable
-            style={[styles.maps, (busy || shareBusy) && styles.disabled]}
-            disabled={busy || shareBusy}
-            onPress={() => void openMaps()}
-          >
-            <Text style={styles.mapsText}>開 Google Maps</Text>
-          </Pressable>
+          {!multi ? (
+            <Pressable
+              style={[styles.maps, (busy || shareBusy) && styles.disabled]}
+              disabled={busy || shareBusy}
+              onPress={() => void openMapsPrimary()}
+            >
+              <Text style={styles.mapsText}>開 Google Maps</Text>
+            </Pressable>
+          ) : null}
 
-          {/* Ghost／text：分享 */}
           <Pressable
             style={[styles.share, (busy || shareBusy) && styles.disabled]}
             disabled={busy || shareBusy}
@@ -213,7 +258,9 @@ export default function ResultScreen() {
             {shareBusy ? (
               <ActivityIndicator color={colors.primary} />
             ) : (
-              <Text style={styles.shareText}>分享</Text>
+              <Text style={styles.shareText}>
+                {multi ? '分享全部' : '分享'}
+              </Text>
             )}
           </Pressable>
 
@@ -222,11 +269,15 @@ export default function ResultScreen() {
             disabled={busy}
             onPress={() => void onReject()}
           >
-            <Text style={styles.rejectText}>唔鍾意再抽</Text>
+            <Text style={styles.rejectText}>
+              {multi ? '唔鍾意再抽（全部）' : '唔鍾意再抽'}
+            </Text>
           </Pressable>
 
           <Text style={styles.hint}>
-            「唔鍾意」會降低呢間之後抽中機率；今日已唔鍾意嘅唔會再入池。
+            {multi
+              ? '「去食」會將今次全部結果今日排除；「唔鍾意」會降低全部之後機率再抽。'
+              : '「唔鍾意」會降低呢間之後抽中機率；今日已唔鍾意嘅唔會再入池。'}
           </Text>
         </View>
       </ScrollView>
@@ -244,6 +295,7 @@ const styles = StyleSheet.create({
     paddingTop: spacing.sm,
     paddingBottom: spacing.xl,
     alignItems: 'center',
+    gap: spacing.md,
   },
   center: {
     flex: 1,
@@ -251,6 +303,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: spacing.md,
     backgroundColor: colors.background,
+  },
+  multiTitle: {
+    ...typography.title,
+    fontSize: 20,
+    color: colors.text,
+    alignSelf: 'stretch',
+    textAlign: 'center',
+    marginBottom: spacing.xs,
   },
   resultCard: {
     width: '100%',
@@ -262,6 +322,16 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.border,
   },
+  resultCardCompact: {
+    paddingVertical: spacing.md,
+    borderRadius: radius.lg,
+  },
+  cardIndex: {
+    fontSize: 12,
+    fontWeight: '800',
+    color: colors.primary,
+    letterSpacing: 0.5,
+  },
   emoji: { fontSize: 48 },
   name: {
     ...typography.title,
@@ -270,6 +340,10 @@ const styles = StyleSheet.create({
     color: colors.text,
     textAlign: 'center',
     marginTop: spacing.sm,
+  },
+  nameCompact: {
+    fontSize: 20,
+    lineHeight: 26,
   },
   walkMain: {
     marginTop: spacing.md,
@@ -367,9 +441,24 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     fontSize: 13,
   },
+  cardMaps: {
+    marginTop: spacing.md,
+    paddingVertical: 10,
+    paddingHorizontal: spacing.md,
+    borderRadius: radius.md,
+    borderWidth: 1.5,
+    borderColor: colors.secondary,
+    alignSelf: 'stretch',
+    alignItems: 'center',
+  },
+  cardMapsText: {
+    color: colors.secondary,
+    fontWeight: '700',
+    fontSize: 14,
+  },
   actions: {
     width: '100%',
-    marginTop: spacing.lg,
+    marginTop: spacing.sm,
     gap: spacing.sm,
     alignItems: 'center',
   },

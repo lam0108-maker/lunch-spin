@@ -2,17 +2,34 @@ import { Alert, Platform, Share } from 'react-native';
 import type { Place } from '../types/place';
 import { formatPlacePrice, formatWalkMinutes } from './format';
 
-export function buildShareText(place: Place, includeAddress = true): string {
+function lineForPlace(place: Place, includeAddress: boolean): string {
   const cuisine =
     (place.cuisine ?? []).find((c) => !!c?.trim())?.trim() || '未分類';
   const price = formatPlacePrice(place) || '價錢未知';
   const walk = formatWalkMinutes(place.distanceMeters) || '行路時間未知';
-  // formatWalkMinutes：「少過 1 分鐘」／「約 X 分鐘行路」
-  let text = `今日抽Lunch：${place.name}｜${cuisine}｜${price}｜${walk}`;
+  let line = `${place.name}｜${cuisine}｜${price}｜${walk}`;
   if (includeAddress && place.address?.trim()) {
-    text += `\n${place.address.trim()}`;
+    line += `\n${place.address.trim()}`;
   }
-  return text;
+  return line;
+}
+
+export function buildShareText(place: Place, includeAddress = true): string {
+  // formatWalkMinutes：「少過 1 分鐘」／「約 X 分鐘行路」
+  return `今日抽Lunch：${lineForPlace(place, includeAddress)}`;
+}
+
+/** 多間結果分享：列出全部店名 */
+export function buildShareTextMulti(
+  places: Place[],
+  includeAddress = true,
+): string {
+  if (places.length === 0) return '今日抽Lunch：未有結果';
+  if (places.length === 1) return buildShareText(places[0]!, includeAddress);
+  const lines = places.map(
+    (p, i) => `${i + 1}. ${lineForPlace(p, includeAddress)}`,
+  );
+  return `今日抽Lunch（${places.length} 間）：\n${lines.join('\n')}`;
 }
 
 async function copyToClipboard(text: string): Promise<boolean> {
@@ -51,8 +68,16 @@ async function copyToClipboard(text: string): Promise<boolean> {
  * Web：navigator.share → clipboard + Alert
  * Native：React Native Share
  */
-export async function shareLunchResult(place: Place): Promise<void> {
-  const message = buildShareText(place, true);
+export async function shareLunchResult(
+  placeOrPlaces: Place | Place[],
+): Promise<void> {
+  const places = Array.isArray(placeOrPlaces)
+    ? placeOrPlaces
+    : [placeOrPlaces];
+  const message =
+    places.length > 1
+      ? buildShareTextMulti(places, true)
+      : buildShareText(places[0]!, true);
 
   if (Platform.OS === 'web') {
     const nav = typeof navigator !== 'undefined' ? navigator : null;

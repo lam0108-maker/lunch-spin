@@ -22,7 +22,7 @@ const RESULT_DELAY_MS = 360;
 
 export default function WheelScreen() {
   const router = useRouter();
-  const { places, spin, lastPick, wheelPlaces, error, isMock } =
+  const { places, spin, lastPick, lastPicks, wheelPlaces, error, isMock } =
     useLunchSession();
   const [spinning, setSpinning] = useState(false);
   const [ready, setReady] = useState(false);
@@ -73,6 +73,11 @@ export default function WheelScreen() {
         <Text style={styles.title}>抽緊…</Text>
         {statusCopy ? (
           <Text style={styles.status}>{statusCopy}</Text>
+        ) : null}
+        {lastPicks.length > 1 ? (
+          <Text style={styles.multiHint}>
+            轉盤顯示第 1 間 · 其餘 {lastPicks.length - 1} 間喺結果頁
+          </Text>
         ) : null}
         {isMock && (
           <Text style={styles.mock}>模擬資料 · 示範名單</Text>
@@ -131,6 +136,12 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '600',
     color: colors.primary,
+  },
+  multiHint: {
+    marginTop: spacing.xs,
+    fontSize: 12,
+    fontWeight: '600',
+    color: colors.textMuted,
   },
   mock: {
     color: colors.textMuted,

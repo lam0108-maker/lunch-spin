@@ -101,6 +101,8 @@ export default function SetupScreen() {
     setPriceCapHkd,
     toggleFilterCuisine,
     setFilterCuisines,
+    spinCount,
+    setSpinCount,
   } = useLunchSession();
 
   const [locBusy, setLocBusy] = useState(false);
@@ -554,6 +556,34 @@ export default function SetupScreen() {
           { paddingBottom: Math.max(insets.bottom, spacing.md) },
         ]}
       >
+        <View style={styles.spinCountRow}>
+          <Text style={styles.spinCountLabel}>抽幾間：</Text>
+          {([1, 2, 3] as const).map((n) => {
+            const selected = spinCount === n;
+            return (
+              <Pressable
+                key={n}
+                style={[
+                  styles.spinCountChip,
+                  selected && styles.spinCountChipSelected,
+                ]}
+                onPress={() => setSpinCount(n)}
+                accessibilityRole="button"
+                accessibilityState={{ selected }}
+                accessibilityLabel={`抽 ${n} 間`}
+              >
+                <Text
+                  style={[
+                    styles.spinCountChipText,
+                    selected && styles.spinCountChipTextSelected,
+                  ]}
+                >
+                  {n}
+                </Text>
+              </Pressable>
+            );
+          })}
+        </View>
         <Pressable
           style={[
             styles.primaryBtn,
@@ -566,7 +596,9 @@ export default function SetupScreen() {
           {loading ? (
             <ActivityIndicator color={colors.textOnPrimary} />
           ) : (
-            <Text style={styles.primaryBtnText}>開始抽Lunch</Text>
+            <Text style={styles.primaryBtnText}>
+              {spinCount === 1 ? '開始抽Lunch' : `開始抽 ${spinCount} 間`}
+            </Text>
           )}
         </Pressable>
       </View>
@@ -829,6 +861,41 @@ const styles = StyleSheet.create({
     backgroundColor: colors.stickyBar,
     borderTopWidth: StyleSheet.hairlineWidth,
     borderTopColor: colors.border,
+    gap: spacing.sm,
+  },
+  spinCountRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: spacing.chipGap,
+  },
+  spinCountLabel: {
+    fontSize: 13,
+    fontWeight: '700',
+    color: colors.textMuted,
+    marginRight: spacing.xs,
+  },
+  spinCountChip: {
+    minWidth: 40,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderRadius: radius.pill,
+    backgroundColor: colors.chipBg,
+    borderWidth: 1,
+    borderColor: colors.border,
+    alignItems: 'center',
+  },
+  spinCountChipSelected: {
+    backgroundColor: colors.chipSelected,
+    borderColor: colors.primaryDark,
+  },
+  spinCountChipText: {
+    fontSize: 15,
+    fontWeight: '700',
+    color: colors.text,
+  },
+  spinCountChipTextSelected: {
+    color: colors.chipSelectedText,
   },
   primaryBtn: {
     backgroundColor: colors.primary,

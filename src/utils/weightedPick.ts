@@ -78,3 +78,30 @@ export function buildWheelLabels(
   // 打亂，但之後會由 UI 對齊 chosen 嘅扇形
   return list.slice(0, Math.min(max, Math.max(8, list.length)));
 }
+
+/**
+ * Pick up to `n` items without replacement using the same weight formula
+ * (reject × rating). After each pick, that item is removed and weights are
+ * recomputed over the remaining pool.
+ */
+export function weightedPickN<
+  T extends { placeId: PlaceId; rating?: number | null },
+>(
+  items: T[],
+  rejectCounts: Record<PlaceId, number>,
+  n: number,
+  rng: () => number = Math.random,
+): T[] {
+  if (items.length === 0 || n <= 0) return [];
+  const remaining = [...items];
+  const picked: T[] = [];
+  const count = Math.min(n, remaining.length);
+  for (let i = 0; i < count; i++) {
+    const next = weightedPick(remaining, rejectCounts, rng);
+    if (!next) break;
+    picked.push(next);
+    const idx = remaining.findIndex((x) => x.placeId === next.placeId);
+    if (idx >= 0) remaining.splice(idx, 1);
+  }
+  return picked;
+}
