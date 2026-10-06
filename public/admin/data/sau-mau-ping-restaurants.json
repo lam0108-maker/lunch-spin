@@ -1,0 +1,819 @@
+{
+  "district": "秀茂坪",
+  "version": "1.2",
+  "updated_at": "2026-09-25",
+  "criteria": {
+    "serves_lunch": true,
+    "dine_in": true,
+    "exclude": [
+      "bakery",
+      "pure_cafe",
+      "takeaway_only",
+      "no_dine_in"
+    ]
+  },
+  "restaurants": [
+    {
+      "id": "cafe-de-coral-sau-mau-ping",
+      "name_zh": "大家樂（秀茂坪商場）",
+      "name_en": "Café de Coral (Sau Mau Ping Shopping Centre)",
+      "lat": 22.3195598,
+      "lng": 114.2321021,
+      "district": "秀茂坪",
+      "area": "秀茂坪商場",
+      "address": "九龍觀塘秀明道101號秀茂坪商場一樓101號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店",
+        "EatSmart"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "秀茂坪商場大家樂，EatSmart列快餐店；午市飯／粉麵／焗飯套餐連飲。公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；邨商場舖。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（大家樂秀茂坪）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10982",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "mcdonalds-sau-mau-ping",
+      "name_zh": "麥當勞（秀茂坪商場）",
+      "name_en": "McDonald's (Sau Mau Ping Shopping Centre)",
+      "lat": 22.32010921,
+      "lng": 114.231747,
+      "district": "秀茂坪",
+      "area": "秀茂坪商場",
+      "address": "觀塘秀茂坪邨秀茂坪商場地下1號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店",
+        "大堂座位",
+        "24小時"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "秀茂坪商場麥當勞，有大堂座位，漢堡／套餐作午餐；標示24小時。App常見超值套餐約$36起，正價套餐約四十多至五十多元。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "麥當勞官方分店（秀茂坪邨）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/231/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $36–55"
+    },
+    {
+      "id": "tamjai-sau-mau-ping",
+      "name_zh": "譚仔雲南米線（秀茂坪商場）",
+      "name_en": "TamJai Yunnan Mixian (Sau Mau Ping Shopping Centre)",
+      "lat": 22.3195598,
+      "lng": 114.2321021,
+      "district": "秀茂坪",
+      "area": "秀茂坪商場",
+      "address": "觀塘秀明道101號秀茂坪商場3樓310A舖",
+      "cuisine": [
+        "米線",
+        "雲南菜"
+      ],
+      "tags": [
+        "連鎖",
+        "自選配料",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "秀茂坪商場譚仔雲南米線，自選湯底同配料米線作主食午餐。目錄／食評人均多約$50上下，加小食會再高；邨商場舖。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "譚仔雲南米線官方分店（觀塘秀茂坪商場）",
+          "url": "https://tamjaimixian.com/stores/%e8%a7%80%e5%a1%98%e7%a7%80%e8%8c%82%e5%9d%aa%e5%95%86%e5%a0%b4/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "衞生署星級有營食肆（譚仔雲南米線秀茂坪商場）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10401",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔雲南米線人均約$50以下",
+          "url": "https://www.feehk.com/%E5%B0%96%E6%B2%99%E5%92%80%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E9%9B%B2%E5%8D%97%E7%B1%B3%E7%B7%9A-26751",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "新假期：譚仔雲南米線人均約$50以下",
+          "url": "https://www.weekendhk.com/restaurant/%e8%ad%9a%e4%bb%94%e9%9b%b2%e5%8d%97%e7%b1%b3%e7%b7%9a%e9%a0%8c%e5%ae%89%e5%95%86%e5%a0%b4-%e9%a6%ac%e9%9e%8d%e5%b1%b1-3345778/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $45–70"
+    },
+    {
+      "id": "percent-hundred-sau-mau-ping",
+      "name_zh": "百份百餐廳（秀茂坪商場）",
+      "name_en": "100% Restaurant (Sau Mau Ping Shopping Centre)",
+      "lat": 22.3195598,
+      "lng": 114.2321021,
+      "district": "秀茂坪",
+      "area": "秀茂坪商場",
+      "address": "九龍秀茂坪秀明道秀茂坪商場二樓201號舖",
+      "cuisine": [
+        "茶餐廳",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "秀茂坪商場百份百餐廳，港式茶餐廳常餐、碟頭飯同粉麵。食評提及午餐人均約$60上下；邨商場定位，適合街坊抽Lunch。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（百份百餐廳秀茂坪商場）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10797",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice／食評：百份百餐廳午餐人均約$50–80",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%99%BE%E4%BB%BD%E7%99%BE%E9%A4%90%E5%BB%B3-%E8%A7%80%E5%A1%98-%E6%B8%AF%E5%BC%8F-r775021/reviews",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $50–80"
+    },
+    {
+      "id": "genki-sau-mau-ping",
+      "name_zh": "元気寿司（秀茂坪商場）",
+      "name_en": "Genki Sushi (Sau Mau Ping Shopping Centre)",
+      "lat": 22.319284,
+      "lng": 114.23218,
+      "district": "秀茂坪",
+      "area": "秀茂坪商場",
+      "address": "觀塘秀茂坪商場地下3號舖",
+      "cuisine": [
+        "日式",
+        "壽司"
+      ],
+      "tags": [
+        "連鎖",
+        "壽司",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "秀茂坪商場元気寿司，迴轉／點餐壽司連鎖。官方午食の選低至$59起（堂食限定，視分店）；掃碟可再高，午市人多建議錯峰。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "元気寿司官方分店位置",
+          "url": "https://order.genkisushi.com.hk/tc/store-locations",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "元気寿司 choose_store API（秀茂坪商場）",
+          "url": "https://order.genkisushi.com.hk/choose_store/api/getsourceslocation",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "元気寿司官網：午食の選低至$59起",
+          "url": "https://order.genkisushi.com.hk/tc/dine-in-menu/lunch-menu-may-2026",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $59–120"
+    },
+    {
+      "id": "cafe-de-coral-po-tat",
+      "name_zh": "大家樂（寶達商場）",
+      "name_en": "Café de Coral (Po Tat Shopping Centre)",
+      "lat": 22.3173906,
+      "lng": 114.236278,
+      "district": "秀茂坪",
+      "area": "寶達商場",
+      "address": "九龍秀茂坪寶達邨寶達商場地下11-13號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "寶達商場大家樂，連鎖快餐午市飯麵／套餐連飲。公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；邨商場舖適合赶時間。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（大家樂秀茂寶達）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10985",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "mcdonalds-po-tat",
+      "name_zh": "麥當勞（寶達商場）",
+      "name_en": "McDonald's (Po Tat Shopping Centre)",
+      "lat": 22.31746683,
+      "lng": 114.236371,
+      "district": "秀茂坪",
+      "area": "寶達商場",
+      "address": "觀塘寶達邨寶達商場2樓206號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店",
+        "大堂座位"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "寶達商場麥當勞，有大堂座位，漢堡／套餐作午餐。App常見超值套餐約$36起，正價套餐約四十多至五十多元；邨商場定位。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "麥當勞官方分店（寶達邨）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/226/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Grassroots O2 寶達商場商戶名單 @2026-09-07",
+          "url": "http://o2and00823.blogspot.com/2026/09/2026-09-07.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $36–55"
+    },
+    {
+      "id": "tsui-ho-po-tat",
+      "name_zh": "翠河餐廳（寶達商場）",
+      "name_en": "Tsui Ho Restaurant (Po Tat Shopping Centre)",
+      "lat": 22.3173906,
+      "lng": 114.236278,
+      "district": "秀茂坪",
+      "area": "寶達商場",
+      "address": "秀茂坪寶達商場1樓115號舖",
+      "cuisine": [
+        "茶餐廳",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "寶達商場翠河餐廳，港式茶餐廳常餐／碟頭飯午餐堂食。FeeHK目錄人均約$51–100；邨商場舖，適合街坊正餐抽Lunch。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "翠河餐廳官方分店資料",
+          "url": "https://grct-hk.com/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Grassroots O2 寶達商場商戶名單 @2026-09-07",
+          "url": "http://o2and00823.blogspot.com/2026/09/2026-09-07.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：翠河餐廳人均約$51–100",
+          "url": "https://www.feehk.com/%E7%B4%85%E7%A3%A1%E9%A4%90%E5%BB%B3/%E7%BF%A0%E6%B2%B3%E9%A4%90%E5%BB%B3-18942",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $50–90"
+    },
+    {
+      "id": "pizza-hut-po-tat",
+      "name_zh": "必勝客（寶達商場）",
+      "name_en": "Pizza Hut (Po Tat Shopping Centre)",
+      "lat": 22.3173906,
+      "lng": 114.236278,
+      "district": "秀茂坪",
+      "area": "寶達商場",
+      "address": "九龍秀茂坪寶林路2號寶達商場1樓117及117A舖",
+      "cuisine": [
+        "意式",
+        "薄餅"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "寶達商場必勝客，薄餅／意粉午餐堂食。公開目錄個人／午市套餐多約六十至一百二；未核實本店官價，適合一人套餐或分薄餅。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "旅發局 Pizza Hut 分店名單",
+          "url": "https://www.discoverhongkong.com/tc/travel-guide/qts/restaurants-results/restaurants-details.id84290.pizza-hut.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Grassroots O2 寶達商場商戶名單 @2026-09-07",
+          "url": "http://o2and00823.blogspot.com/2026/09/2026-09-07.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "必勝客公開目錄個人／午市套餐多約六十至一百二（未核實官價）",
+          "url": "https://www.pizzahut.com.hk/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $60–120（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "cafe-de-coral-on-tat",
+      "name_zh": "大家樂（安達商場）",
+      "name_en": "Café de Coral (On Tat Shopping Centre)",
+      "lat": 22.3201,
+      "lng": 114.2350478,
+      "district": "秀茂坪",
+      "area": "安達商場",
+      "address": "九龍觀塘安達商場LG16號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "安達商場大家樂，連鎖快餐午市飯麵／套餐連飲。公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；新邨商場定位。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（大家樂觀塘安達）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10989",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "旅發局 Café de Coral 分店名單",
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/restaurants-results/restaurants-details.id3239.%E5%A4%A7%E5%AE%B6%E6%A8%82%E5%BF%AB%E9%A4%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Today：大家樂超值午餐$39",
+          "url": "https://www.jetsotoday.com/cafe-de-coral-bt-202601/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "maxim-mx-on-tai",
+      "name_zh": "美心MX（安泰商場）",
+      "name_en": "MX (On Tai Shopping Centre)",
+      "lat": 22.3254889,
+      "lng": 114.2311501,
+      "district": "秀茂坪",
+      "area": "安泰商場",
+      "address": "九龍觀塘安秀路20號安泰邨安泰購物中心地下低層1號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "燒味",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "安泰商場美心MX，港式快餐午市常見雙餸飯、燒味飯同米線。公開午市雙餸飯連熱飲約$39，加燒味會再高少少；商場舖。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（美心MX安泰）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10502",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "旅發局 MX 分店名單",
+          "url": "https://www.discoverhongkong.com/tc/travel-guide/qts/restaurants-results/restaurants-details.id15969.mx.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "美心MX公開午市雙餸飯連熱飲約$39",
+          "url": "https://www.maximsmx.com.hk/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $39–65"
+    },
+    {
+      "id": "rud-sau-mau-ping",
+      "name_zh": "RUD燒肉（秀茂坪商場）",
+      "name_en": "RUD (Sau Mau Ping Shopping Centre)",
+      "lat": 22.3195598,
+      "lng": 114.2321021,
+      "district": "秀茂坪",
+      "area": "秀茂坪商場",
+      "address": "九龍秀茂坪秀明道秀茂坪邨秀茂坪商場二樓201號舖",
+      "cuisine": [
+        "日式",
+        "燒肉"
+      ],
+      "tags": [
+        "連鎖",
+        "一人燒肉",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "秀茂坪商場RUD燒肉，一人無煙燒肉定食／丼飯午餐堂食。U Food報導定食約$48–$78起，平日激安套餐約$78–109；適合獨食燒肉。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "Taste of Asia RUD 分店（秀茂坪）",
+          "url": "https://www.tasteofasia.com.hk/brand/rud",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "U Food：RUD燒肉定食約$48–$78起／激安套餐約$78–109",
+          "url": "https://ufood.com.hk/restaurant/news/detail/20104001/rud%E7%87%92%E8%82%89%E6%8E%A8%E4%BB%8B-%E7%87%92%E8%82%89%E6%BF%80%E5%AE%89%E5%84%AA%E6%83%A0",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $48–110"
+    },
+    {
+      "id": "aroi-thai-sau-mau-ping",
+      "name_zh": "亞萊泰（秀茂坪商場）",
+      "name_en": "Aroi Thai (Sau Mau Ping Shopping Centre)",
+      "lat": 22.3195598,
+      "lng": 114.2321021,
+      "district": "秀茂坪",
+      "area": "秀茂坪商場",
+      "address": "觀塘秀茂坪秀明道101號秀茂坪商場3樓304-307號舖",
+      "cuisine": [
+        "泰國菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "秀茂坪商場亞萊泰，泰式正餐／套餐午餐堂食。同類泰菜公開目錄人均多約七十至一百二；未核實官價，適合想換口味。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "Grassroots O2 秀茂坪商場巡視 @2024-07-04（其後更新確認）",
+          "url": "http://o2and00823.blogspot.com/2024/07/2024-07-04.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "IFOODCOURT 亞萊泰分店名單",
+          "url": "https://ifoodcourt.com.hk/roithai",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "同類泰菜正餐公開目錄人均約$70–120（未核實官價）",
+          "url": "https://www.openrice.com/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）"
+    },
+    {
+      "id": "satay-king-sau-mau-ping",
+      "name_zh": "沙嗲王（秀茂坪商場）",
+      "name_en": "Satay King (Sau Mau Ping Shopping Centre)",
+      "lat": 22.3195598,
+      "lng": 114.2321021,
+      "district": "秀茂坪",
+      "area": "秀茂坪商場",
+      "address": "九龍觀塘秀茂坪秀明道101號秀茂坪商場2樓218號舖",
+      "cuisine": [
+        "東南亞",
+        "沙嗲"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "秀茂坪商場沙嗲王，白豬飯／沙嗲牛等正餐午餐堂食。同類沙嗲王人均多約五十至八十幾；未核實本店官價，商場正餐定位。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "沙嗲王官方分店地址（秀茂坪）",
+          "url": "https://www.satayking.hk/address",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Grassroots O2 秀茂坪商場巡視",
+          "url": "http://o2and00823.blogspot.com/2024/07/2024-07-04.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "同類沙嗲王人均多約五十至八十幾（未核實官價）",
+          "url": "https://www.openrice.com/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $50–85（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "kfc-sau-mau-ping",
+      "name_zh": "肯德基（秀茂坪商場）",
+      "name_en": "KFC (Sau Mau Ping Shopping Centre)",
+      "lat": 22.3195598,
+      "lng": 114.2321021,
+      "district": "秀茂坪",
+      "area": "秀茂坪商場",
+      "address": "觀塘秀明道101號秀茂坪商場1樓114號舖",
+      "cuisine": [
+        "炸雞",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "秀茂坪商場肯德基，炸雞／套餐堂食午餐。公開推廣一人套餐常見約三十九至六十幾；未核實本店當日官價，商場快餐定位。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "Grassroots O2 秀茂坪商場巡視（KFC 114）",
+          "url": "http://o2and00823.blogspot.com/2024/07/2024-07-04.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "foodpanda KFC 秀茂坪商場",
+          "url": "https://www.foodpanda.hk/zh/restaurant/e5ka/kfc-sau-mau-ping-shopping-centre-halal-friendly",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "肯德基公開推廣一人套餐常見約三十九至六十幾（未核實官價）",
+          "url": "https://www.kfc.com.hk/",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $39–65（午餐套餐／未核實官價）"
+    },
+    {
+      "id": "bafang-po-tat",
+      "name_zh": "八方雲集（寶達商場）",
+      "name_en": "Bafang Dumpling (Po Tat Shopping Centre)",
+      "lat": 22.3173906,
+      "lng": 114.236278,
+      "district": "秀茂坪",
+      "area": "寶達商場",
+      "address": "觀塘秀茂坪寶琳路2號寶達商場地下8號舖",
+      "cuisine": [
+        "台式",
+        "餃子"
+      ],
+      "tags": [
+        "連鎖",
+        "鍋貼",
+        "商場店"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "寶達商場八方雲集，鍋貼／水餃／湯麵堂食午餐。FeeHK／OpenRice人均約$50以下；十隻鍋貼套餐常見四十幾，適合抵食。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "Grassroots O2 寶達商場巡視 @2026-09-07",
+          "url": "http://o2and00823.blogspot.com/2026/09/2026-09-07.html",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "IFOODCOURT 八方雲集分店名單（寶達）",
+          "url": "https://ifoodcourt.com.hk/Bafang",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK／OpenRice：八方雲集人均約$50以下",
+          "url": "https://www.feehk.com/%E5%85%83%E6%9C%97%E9%A4%90%E5%BB%B3/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86%E9%8D%8B%E8%B2%BC%E6%B0%B4%E9%A4%83%E5%B0%88%E9%96%80%E5%BA%97-10285",
+          "checked_at": "2026-09-25"
+        }
+      ],
+      "verified_at": "2026-09-25",
+      "price_lunch_hkd": "約 $35–55"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "tenren-tea-sau-mau-ping",
+      "name_zh": "天仁茗茶（秀茂坪商場）",
+      "name_en": "Ten Ren Tea (Sau Mau Ping Shopping Centre)",
+      "lat": 22.3195598,
+      "lng": 114.2321021,
+      "exclude_reason": "pure_cafe：新假期推介列天仁茗茶（地下23號舖）為台式飲品店，平均消費低於$50，非正餐午餐堂食定位",
+      "sources": [
+        {
+          "name": "新假期：5間秀茂坪商場餐廳推介2025",
+          "url": "https://www.weekendhk.com/restaurant/%e7%a7%80%e8%8c%82%e5%9d%aa%e5%95%86%e5%a0%b4%e9%a4%90%e5%bb%b3%e5%bf%85%e9%a3%9f%e6%8e%a8%e4%bb%8b-2-2930495/",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "maxim-cake-po-tat",
+      "name_zh": "美心西餅（寶達商場）",
+      "name_en": "Maxim's Cakes (Po Tat Shopping Centre)",
+      "lat": 22.3173906,
+      "lng": 114.236278,
+      "exclude_reason": "bakery：Grassroots O2 2026-09-07 寶達商場商戶名單列美心西餅（9號舖），屬餅店／麵包舖",
+      "sources": [
+        {
+          "name": "Grassroots O2 寶達商場商戶名單 @2026-09-07",
+          "url": "http://o2and00823.blogspot.com/2026/09/2026-09-07.html",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "sushiro-express-po-tat",
+      "name_zh": "爭鮮外帶壽司（寶達商場）",
+      "name_en": "Sushiro Express / Takeaway (Po Tat Shopping Centre)",
+      "lat": 22.3173906,
+      "lng": 114.236278,
+      "exclude_reason": "takeaway_only：Grassroots O2 2026-09-07 名單列「爭鮮外帶壽司」（15號舖），外帶定位，非堂食正餐",
+      "sources": [
+        {
+          "name": "Grassroots O2 寶達商場商戶名單 @2026-09-07",
+          "url": "http://o2and00823.blogspot.com/2026/09/2026-09-07.html",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "cultural-bakery-po-tat",
+      "name_zh": "文化烘焙（寶達商場）",
+      "name_en": "Cultural Bakery (Po Tat Shopping Centre)",
+      "lat": 22.3173906,
+      "lng": 114.236278,
+      "exclude_reason": "bakery：Grassroots O2 2026-09-07 名單列文化烘焙（3號舖），屬烘焙舖",
+      "sources": [
+        {
+          "name": "Grassroots O2 寶達商場商戶名單 @2026-09-07",
+          "url": "http://o2and00823.blogspot.com/2026/09/2026-09-07.html",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "sun-tin-tin-sau-mau-ping-police",
+      "name_zh": "新天天飯堂（秀茂坪警署）",
+      "name_en": "Sun Tin Tin Canteen (Sau Mau Ping Police Station)",
+      "lat": 22.3193,
+      "lng": 114.2326,
+      "exclude_reason": "no_dine_in／非公眾午膳場景：EatSmart 地址為「康寧道200號秀茂坪警署5字樓」，屬警署內飯堂，非商場／街坊可隨意堂食之午餐餐廳，不納入抽Lunch seed",
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（新天天飯堂秀茂坪）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=4733",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "a1-bakery-sau-mau-ping",
+      "name_zh": "A1 Bakery（秀茂坪商場）",
+      "name_en": "A1 Bakery (Sau Mau Ping Shopping Centre)",
+      "lat": 22.3195598,
+      "lng": 114.2321021,
+      "exclude_reason": "bakery：Grassroots O2 巡視更新列 A1 Bakery（104號舖，前 Chateraise），屬麵包舖，非正餐午餐堂食定位",
+      "sources": [
+        {
+          "name": "Grassroots O2 秀茂坪商場巡視更新",
+          "url": "http://o2and00823.blogspot.com/2024/07/2024-07-04.html",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "id": "sharetea-sau-mau-ping-3f",
+      "name_zh": "歇腳亭（秀茂坪商場三樓）",
+      "name_en": "Sharetea (Sau Mau Ping Shopping Centre 3/F)",
+      "lat": 22.3195598,
+      "lng": 114.2321021,
+      "exclude_reason": "pure_cafe：Grassroots O2 列 Sharetea 歇脚亭（302號舖），屬茶飲，非正餐午餐堂食定位",
+      "sources": [
+        {
+          "name": "Grassroots O2 秀茂坪商場巡視",
+          "url": "http://o2and00823.blogspot.com/2024/07/2024-07-04.html",
+          "checked_at": "2026-09-24"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "status": "enrichment complete",
+    "phase": "phase-2.5",
+    "notes_zh": "phase-2.5（v1.2）：16 間加厚 cuisine／tags／lunch_notes／price_lunch_hkd；有價 16（其中有公開推廣／目錄依據 12，未核實官價 4）。唔開新店、唔改 excluded。仍缺：岡山一番店／六和冰室／山牛／遇見小麵／曉光街街舖仍缺品牌官網或營業時段第二來源；安達臣道新商場未開業不收。",
+    "bbox_approx": [
+      22.315,
+      114.23,
+      22.33,
+      114.25
+    ],
+    "center_approx": [
+      22.32,
+      114.235
+    ]
+  }
+}

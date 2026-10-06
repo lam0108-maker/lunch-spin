@@ -1,0 +1,151 @@
+name: Restaurant health check
+
+on:
+  schedule:
+    # Weekly Monday 04:00 UTC
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Larger sample (capped ~120). Default false = ~40 stratified."
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+      limit:
+        description: "Optional hard limit override (0 = use mode default)"
+        required: false
+        default: "0"
+        type: string
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run health check
+        id: check
+        env:
+          FULL: ${{ github.event.inputs.full || 'false' }}
+          LIMIT: ${{ github.event.inputs.limit || '0' }}
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          EXTRA=()
+          if [ "${FULL}" = "true" ]; then EXTRA+=(--full); fi
+          if [ "${LIMIT}" != "0" ] && [ -n "${LIMIT}" ]; then EXTRA+=(--limit "${LIMIT}"); fi
+          python3 scripts/restaurant_health_check.py \
+            --out reports/restaurant-health.md \
+            --seed "${GITHUB_RUN_ID:-20261007}" \
+            "${EXTRA[@]}"
+          echo "report=reports/restaurant-health.md" >> "$GITHUB_OUTPUT"
+          # Count flagged lines for issue title
+          FLAG_N=$(python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("reports/restaurant-health.json")
+          if not p.exists():
+            print(0)
+          else:
+            d = json.loads(p.read_text())
+            print(sum(1 for r in d.get("results") or [] if r.get("flags")))
+          PY
+          )
+          echo "flagged=${FLAG_N}" >> "$GITHUB_OUTPUT"
+          DATE_UTC=$(date -u +%Y-%m-%d)
+          echo "date_utc=${DATE_UTC}" >> "$GITHUB_OUTPUT"
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: restaurant-health-${{ steps.check.outputs.date_utc }}
+          path: |
+            reports/restaurant-health.md
+            reports/restaurant-health.json
+          if-no-files-found: error
+          retention-days: 90
+
+      - name: Open or update GitHub Issue
+        uses: actions/github-script@v7
+        env:
+          FLAG_N: ${{ steps.check.outputs.flagged }}
+          DATE_UTC: ${{ steps.check.outputs.date_utc }}
+          MODE: ${{ github.event.inputs.full == 'true' && 'full' || 'sample' }}
+        with:
+          script: |
+            const fs = require('fs');
+            const md = fs.readFileSync('reports/restaurant-health.md', 'utf8');
+            const flagged = process.env.FLAG_N || '0';
+            const dateUtc = process.env.DATE_UTC;
+            const mode = process.env.MODE || 'sample';
+            const title = `Restaurant health ${dateUtc} (${mode}): ${flagged} flagged`;
+            const body = [
+              'Automated weekly (or manual) restaurant health check.',
+              '',
+              '**Does not edit seed JSON.** Review candidates below, then update `lunch-data/<district>/restaurants.json` and sync into the app.',
+              '',
+              `Workflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              '',
+              '<details><summary>Full markdown report</summary>',
+              '',
+              md,
+              '',
+              '</details>',
+            ].join('\n');
+
+            const labels = ['restaurant-health', 'data'];
+            // Ensure labels exist (best-effort)
+            for (const name of labels) {
+              try {
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name,
+                  color: name === 'restaurant-health' ? 'B60205' : '0E8A16',
+                });
+              } catch (e) {
+                // already exists or no permission — ignore
+              }
+            }
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'restaurant-health',
+              per_page: 20,
+            });
+            const existing = (issues || []).find(i => i.title.startsWith(`Restaurant health ${dateUtc}`));
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                title,
+                body,
+              });
+              core.info(`Updated issue #${existing.number}`);
+            } else {
+              const created = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels,
+              });
+              core.info(`Opened issue #${created.data.number}`);
+            }

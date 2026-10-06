@@ -19,3 +19,6 @@ web-build/
 
 expo-env.d.ts
 # @end expo-cli
+# local health-check scratch (CI uploads artifacts)
+reports/restaurant-health.md
+reports/restaurant-health.json

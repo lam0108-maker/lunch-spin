@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+  <title>抽Lunch · 餐廳資料 Admin</title>
+  <link rel="stylesheet" href="./admin.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <h1>抽Lunch · 餐廳資料 <span class="badge">read-only</span></h1>
+      <p class="sub">本地種子庫瀏覽（kept / excluded）。改庫仍要經 researcher → restaurants.json → Apps Programmer sync。</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls card">
+      <div class="row">
+        <label>
+          地區
+          <select id="district">
+            <option value="">全部地區</option>
+          </select>
+        </label>
+        <label class="grow">
+          搜尋
+          <input id="q" type="search" placeholder="name_zh / name_en / address / id" autocomplete="off" />
+        </label>
+      </div>
+      <div class="row tabs" role="tablist">
+        <button type="button" class="tab active" data-tab="kept" role="tab" aria-selected="true">Kept</button>
+        <button type="button" class="tab" data-tab="excluded" role="tab" aria-selected="false">Excluded</button>
+      </div>
+      <div id="counts" class="counts" aria-live="polite"></div>
+    </section>
+
+    <section id="status" class="status">載入中…</section>
+    <section id="list" class="list" aria-live="polite"></section>
+  </main>
+
+  <footer class="foot">
+    <p>Data mirrored from <code>src/data/*-restaurants.json</code> at build/sync time. No auth (v1 viewer).</p>
+  </footer>
+
+  <script src="./admin.js"></script>
+</body>
+</html>

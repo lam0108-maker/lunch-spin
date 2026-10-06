@@ -1,0 +1,1102 @@
+{
+  "district": "佐敦",
+  "version": "1.0",
+  "updated_at": "2026-09-26",
+  "criteria": {
+    "serves_lunch": true,
+    "dine_in": true,
+    "exclude": [
+      "bakery",
+      "pure_cafe",
+      "takeaway_only",
+      "no_dine_in"
+    ]
+  },
+  "restaurants": [
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "cafe-de-coral-jordan-pak-shing",
+      "name_zh": "大家樂（佐敦百誠）",
+      "name_en": "Café de Coral (Jordan Pak Shing Building)",
+      "lat": 22.3054914,
+      "lng": 114.1704077,
+      "area": "佐敦道／百誠大廈",
+      "address": "佐敦道31-37號百誠大廈地下A1號舖",
+      "cuisine": [
+        "港式",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "寫字樓午市",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列大家樂（佐敦百誠）為快餐店，地址佐敦道百誠大廈地下A1；連鎖平日午市供應飯／粉麵／套餐堂食。近佐敦站，寫字樓午市或需輪候。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–60（午市套餐／連鎖參考）",
+      "sources": [
+        {
+          "name": "EatSmart：大家樂（佐敦百誠）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10973",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 百誠大廈",
+          "url": "https://photon.komoot.io/api/?q=Pak+Shing+Building+Jordan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "JetsoBear：大家樂午市優惠約$42起（連鎖參考）",
+          "url": "https://jetsobear.com/cafedecoral-good-price-breakfast-lunch-deals-2026-p313861/",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "cafe-de-coral-austin-tal",
+      "name_zh": "大家樂（柯士甸）",
+      "name_en": "Café de Coral (Austin Road)",
+      "lat": 22.3033285,
+      "lng": 114.1700055,
+      "area": "柯士甸道／聯業大廈",
+      "address": "九龍柯士甸道45號聯業大廈地下B號舖",
+      "cuisine": [
+        "港式",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "寫字樓午市",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列大家樂（柯士甸）為快餐店，聯業大廈地下B舖；屬佐敦／柯士甸道返工帶午餐堂食點。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–60（午市套餐／連鎖參考）",
+      "sources": [
+        {
+          "name": "EatSmart：大家樂（柯士甸）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10974",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 聯業大廈",
+          "url": "https://photon.komoot.io/api/?q=聯業大廈+柯士甸道",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "fairwood-jordan-sino-cheer",
+      "name_zh": "大快活（佐敦新寶廣場）",
+      "name_en": "Fairwood (Jordan Sino Cheer Plaza)",
+      "lat": 22.3055081,
+      "lng": 114.1708756,
+      "area": "佐敦道／新寶廣場",
+      "address": "九龍佐敦道23號新寶廣場1樓1及2號舖",
+      "cuisine": [
+        "港式",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "寫字樓午市",
+        "堂食"
+      ],
+      "lunch_notes": "大快活官網分店列「佐敦新寶廣場」，營業約06:30–21:00並標示堂食；平日午市有飯／粉麵／套餐。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $35–60（午市／連鎖參考）",
+      "sources": [
+        {
+          "name": "大快活官網分店（佐敦新寶廣場）",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 新寶廣場",
+          "url": "https://photon.komoot.io/api/?q=新寶廣場+佐敦",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "JetsoToday：大快活午市雙餸碗優惠參考",
+          "url": "https://www.jetsotoday.com/fairwood-rice-20251130/",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "tamjai-samgor-jordan-road",
+      "name_zh": "譚仔三哥米線（佐敦道）",
+      "name_en": "TamJai SamGor Mixian (Jordan Road)",
+      "lat": 22.30481,
+      "lng": 114.1717074,
+      "area": "佐敦道",
+      "address": "九龍佐敦道46號地下",
+      "cuisine": [
+        "雲南菜",
+        "米線"
+      ],
+      "tags": [
+        "連鎖",
+        "米線",
+        "午餐",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列譚仔三哥米線（佐敦道），地址佐敦道46號地下；米線／配料可作午市主食堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $45–70（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：譚仔三哥米線（佐敦道）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10436",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 佐敦站一帶",
+          "url": "https://photon.komoot.io/api/?q=Jordan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "tamjai-yunnan-parkes",
+      "name_zh": "譚仔雲南米線（白加士街）",
+      "name_en": "TamJai Yunnan Mixian (Parkes Street)",
+      "lat": 22.3047325,
+      "lng": 114.1707693,
+      "area": "白加士街／凱豪商業中心",
+      "address": "九龍佐敦白加士街56號凱豪商業中心地下01-02舖",
+      "cuisine": [
+        "雲南菜",
+        "米線"
+      ],
+      "tags": [
+        "連鎖",
+        "米線",
+        "午餐",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列譚仔雲南米線（白加士街），凱豪商業中心地下；米線可作午市堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $45–70（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：譚仔雲南米線（白加士街）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10337",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 凱豪商業中心",
+          "url": "https://photon.komoot.io/api/?q=凱豪商業中心+白加士街",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "tai-hing-parkes",
+      "name_zh": "太興（白加士街）",
+      "name_en": "Tai Hing (Parkes Street)",
+      "lat": 22.3051303,
+      "lng": 114.1703513,
+      "area": "白加士街",
+      "address": "佐敦白加士街66號",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳式",
+        "燒味",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列太興（白加士街）為快餐店；太興官網亦列白加士街66號地舖。燒味飯／粉麵適合午市堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $50–80（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：太興（白加士街）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10205",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "太興官網品牌／分店資料（白加士街）",
+          "url": "https://www.taihing.com/?lang=2&route=business",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 白加士街",
+          "url": "https://photon.komoot.io/api/?q=Parkes+Street+Jordan+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "sushiro-jd-mall",
+      "name_zh": "壽司郎（佐敦薈）",
+      "name_en": "Sushiro (JD Mall)",
+      "lat": 22.3048679,
+      "lng": 114.1713449,
+      "area": "彌敦道／佐敦薈",
+      "address": "九龍佐敦彌敦道233-239號佐敦薈1樓",
+      "cuisine": [
+        "日本菜",
+        "壽司"
+      ],
+      "tags": [
+        "連鎖",
+        "迴轉壽司",
+        "商場店"
+      ],
+      "lunch_notes": "壽司郎官網列「佐敦薈店」，地址佐敦薈1樓，營業約10:30–22:00；迴轉壽司可作午餐堂食。近佐敦站C出口。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–150（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "壽司郎官網店舖一覽（佐敦薈店）",
+          "url": "https://sushirohk.com.hk/tc/shop.php?wid=13",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 佐敦薈",
+          "url": "https://photon.komoot.io/api/?q=JD+Mall+Nathan+Road+Jordan+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "qingye-seafood-jordan-road",
+      "name_zh": "青葉海鮮酒家（佐敦）",
+      "name_en": "Qing Ye Seafood Restaurant (Jordan)",
+      "lat": 22.30481,
+      "lng": 114.1717074,
+      "area": "佐敦道",
+      "address": "九龍佐敦佐敦道41號瑞香園大廈地舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "酒家",
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列青葉海鮮酒家（佐敦）為中菜廳／火鍋，佐敦道41號地舖；可作午市粵菜／海鮮堂食（實際午市餐牌以當日為準）。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–150（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：青葉海鮮酒家（佐敦）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=9999",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 佐敦道",
+          "url": "https://photon.komoot.io/api/?q=Jordan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "jinglin-mixian-parkes",
+      "name_zh": "景霖正宗四川麻辣米線（佐敦）",
+      "name_en": "Jing Lin Sichuan Spicy Mixian (Jordan)",
+      "lat": 22.3038913,
+      "lng": 114.1705487,
+      "area": "白加士街／伯嘉士大廈",
+      "address": "九龍佐敦白加士街17-23號伯嘉士大廈地下A舖",
+      "cuisine": [
+        "四川菜",
+        "米線"
+      ],
+      "tags": [
+        "米線",
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列景霖正宗四川麻辣米線（佐敦），菜式含中菜／麵食；米線可作午市主食堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $45–75（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：景霖正宗四川麻辣米線（佐敦）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=5177",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 伯嘉士大廈",
+          "url": "https://photon.komoot.io/api/?q=伯嘉士大廈+白加士街",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "yin-long-parkes",
+      "name_zh": "銀龍茶餐廳（白加士街）",
+      "name_en": "Ngan Lung Restaurant (Parkes Street)",
+      "lat": 22.3051303,
+      "lng": 114.1703513,
+      "area": "白加士街",
+      "address": "佐敦白加士街60-62號地舖地下及閣樓",
+      "cuisine": [
+        "港式",
+        "茶餐廳"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列銀龍茶餐廳（白加士街），菜式含茶餐廳／麵食；常規午市有飯麵／常餐堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $45–75（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：銀龍茶餐廳（白加士街）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10654",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 白加士街",
+          "url": "https://photon.komoot.io/api/?q=Parkes+Street+Jordan+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "little-india-woosung",
+      "name_zh": "小印度餐廳",
+      "name_en": "Little India Restaurant",
+      "lat": 22.3051973,
+      "lng": 114.1699002,
+      "area": "吳松街",
+      "address": "佐敦吳松街19號地舖",
+      "cuisine": [
+        "印度菜",
+        "亞洲菜"
+      ],
+      "tags": [
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列小印度餐廳於吳松街19號，菜式亞洲菜／東南亞菜；可作午市咖喱／主食堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：小印度餐廳",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10666",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 吳松街",
+          "url": "https://photon.komoot.io/api/?q=Woosung+Street+Jordan+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "taipei-ren-man-yuen",
+      "name_zh": "台北人",
+      "name_en": "Taipei Ren",
+      "lat": 22.307583,
+      "lng": 114.1668653,
+      "area": "渡船角／文苑街",
+      "address": "佐敦文苑街31號文輝樓地舖",
+      "cuisine": [
+        "台灣菜",
+        "中菜"
+      ],
+      "tags": [
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列台北人於文苑街31號，菜式中菜廳；台式主食可作午市堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $50–90（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：台北人",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10631",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 文苑樓一帶",
+          "url": "https://photon.komoot.io/api/?q=Man+Yuen+Street+Jordan+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "ruyi-man-ying",
+      "name_zh": "如一餐廳",
+      "name_en": "Ru Yi Restaurant",
+      "lat": 22.3072193,
+      "lng": 114.1662651,
+      "area": "渡船角／文英街",
+      "address": "佐敦文英街7號地舖",
+      "cuisine": [
+        "港式",
+        "茶餐廳"
+      ],
+      "tags": [
+        "茶餐廳",
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列如一餐廳於文英街7號，菜式茶餐廳／麵食；可作午市堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：如一餐廳",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10632",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 文英街",
+          "url": "https://photon.komoot.io/api/?q=Man+Ying+Street+Ferry+Point",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "via-vegetarian-tak-hing",
+      "name_zh": "維亞軒素食",
+      "name_en": "Via Vegetarian",
+      "lat": 22.3047193,
+      "lng": 114.172122,
+      "area": "德興街",
+      "address": "佐敦德興街13號怡興閣地舖",
+      "cuisine": [
+        "素食",
+        "中菜"
+      ],
+      "tags": [
+        "素食",
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列維亞軒素食於德興街13號，菜式中菜／素食；可作午市素食堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–100（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：維亞軒素食",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10772",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 德興街",
+          "url": "https://photon.komoot.io/api/?q=Tak+Hing+Street+Jordan+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "lotus-vegetarian-ning-po",
+      "name_zh": "蓮花健康素食",
+      "name_en": "Lotus Healthy Vegetarian",
+      "lat": 22.3070059,
+      "lng": 114.1695002,
+      "area": "寧波街",
+      "address": "佐敦寧波街31號地舖",
+      "cuisine": [
+        "素食",
+        "中菜"
+      ],
+      "tags": [
+        "素食",
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列蓮花健康素食於寧波街31號；素食主食可作午市堂食。寧波街屬佐敦站南緣，本批按佐敦邊界收錄。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $50–90（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：蓮花健康素食",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10817",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 寧波街一帶",
+          "url": "https://photon.komoot.io/api/?q=Ning+Po+Street+Jordan+Kowloon",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "marcos-oyster-jordan",
+      "name_zh": "Marco's Oyster Bar & Grill（佐敦）",
+      "name_en": "Marco's Oyster Bar & Grill (Jordan)",
+      "lat": 22.3069487,
+      "lng": 114.1723611,
+      "area": "西貢街／彩鴻酒店",
+      "address": "九龍佐敦西貢街23號彩鴻酒店1樓",
+      "cuisine": [
+        "西餐",
+        "海鮮"
+      ],
+      "tags": [
+        "酒店餐廳",
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列 Marco's Oyster Bar & Grill（佐敦）為西餐廳，彩鴻酒店1樓；可作午市西餐／海鮮堂食（價位偏酒店餐廳）。",
+      "price_level": 3,
+      "price_lunch_hkd": "約 $150–300（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：Marco's Oyster Bar & Grill（佐敦）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1145",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 彩鴻酒店",
+          "url": "https://photon.komoot.io/api/?q=彩鴻酒店+西貢街",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "yue-pin-wui-scout",
+      "name_zh": "粵品匯",
+      "name_en": "Yue Pin Wui",
+      "lat": 22.3025498,
+      "lng": 114.1694478,
+      "area": "柯士甸道／香港童軍中心",
+      "address": "九龍佐敦柯士甸道8號香港童軍總會8樓",
+      "cuisine": [
+        "粵菜"
+      ],
+      "tags": [
+        "中菜",
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列粵品匯於柯士甸道8號香港童軍總會8樓，菜式中菜廳；可作午市粵菜堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–150（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：粵品匯",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1729",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 香港童軍中心",
+          "url": "https://photon.komoot.io/api/?q=香港童軍中心+柯士甸道",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "the-astor-eaton-hk",
+      "name_zh": "普慶餐廳（逸東酒店）",
+      "name_en": "The Astor (Eaton HK)",
+      "lat": 22.3080618,
+      "lng": 114.1718264,
+      "area": "彌敦道／逸東酒店",
+      "address": "九龍彌敦道380號香港逸東酒店B1樓",
+      "cuisine": [
+        "自助餐",
+        "國際菜"
+      ],
+      "tags": [
+        "酒店餐廳",
+        "自助午餐",
+        "堂食"
+      ],
+      "lunch_notes": "逸東酒店／普慶餐廳官網列 Level B1，每日06:30–21:30；平日自助午餐約12:00–14:30，官網列星期一至五成人約HK$418（另加一）。",
+      "price_level": 3,
+      "price_lunch_hkd": "平日自助午餐約 $418（另加一／官網）",
+      "sources": [
+        {
+          "name": "普慶餐廳 The Astor 官方（午餐時段及價錢）",
+          "url": "https://www.theastorhk.com/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "逸東酒店官方（普慶餐廳簡介）",
+          "url": "https://www.eatonworkshop.com/zh-hant/hong-kong/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 逸東酒店",
+          "url": "https://photon.komoot.io/api/?q=Eaton+HK+380+Nathan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "yat-tung-heen-eaton-hk",
+      "name_zh": "逸東軒（逸東酒店）",
+      "name_en": "Yat Tung Heen (Eaton HK)",
+      "lat": 22.3080618,
+      "lng": 114.1718264,
+      "area": "彌敦道／逸東酒店",
+      "address": "九龍彌敦道380號香港逸東酒店",
+      "cuisine": [
+        "粵菜"
+      ],
+      "tags": [
+        "酒店餐廳",
+        "米芝蓮",
+        "堂食"
+      ],
+      "lunch_notes": "逸東酒店官方列逸東軒星期一至五上午11時至下午4時供應；屬粵菜正餐午市堂食（高級定位）。",
+      "price_level": 4,
+      "price_lunch_hkd": "高級粵菜午市（未核實官價）",
+      "sources": [
+        {
+          "name": "逸東酒店官方（逸東軒營業時段）",
+          "url": "https://www.eatonworkshop.com/zh-hant/hong-kong/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 逸東酒店",
+          "url": "https://photon.komoot.io/api/?q=Eaton+HK+380+Nathan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "eaton-food-hall",
+      "name_zh": "Food Hall 美食廣場（逸東酒店）",
+      "name_en": "Food Hall (Eaton HK)",
+      "lat": 22.3080618,
+      "lng": 114.1718264,
+      "area": "彌敦道／逸東酒店",
+      "address": "九龍彌敦道380號香港逸東酒店",
+      "cuisine": [
+        "多國菜",
+        "麵食"
+      ],
+      "tags": [
+        "美食廣場",
+        "酒店",
+        "堂食"
+      ],
+      "lunch_notes": "逸東酒店官方列 Food Hall 美食廣場上午11時至晚上10時，並提及手打烏冬等餐飲選擇；屬可堂食午市點（多檔口，各檔實際餐牌以現場為準）。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–120（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "逸東酒店官方（Food Hall 美食廣場）",
+          "url": "https://www.eatonworkshop.com/zh-hant/hong-kong/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 逸東酒店",
+          "url": "https://photon.komoot.io/api/?q=Eaton+HK+380+Nathan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "ex-gorkha-wai-ching",
+      "name_zh": "Ex-Gorkha Restaurant & Bar",
+      "name_en": "Ex-Gorkha Restaurant & Bar",
+      "lat": 22.3063367,
+      "lng": 114.1676014,
+      "area": "渡船角／偉晴街",
+      "address": "佐敦偉晴街65-75號偉景閣地下5號舖",
+      "cuisine": [
+        "尼泊爾菜",
+        "亞洲菜"
+      ],
+      "tags": [
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列 Ex-Gorkha Restaurant & Bar，菜式亞洲菜／東南亞菜；可作午市咖喱等主食堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：Ex-Gorkha Restaurant & Bar",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10774",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 偉晴街",
+          "url": "https://photon.komoot.io/api/?q=Wai+Ching+Street+Jordan",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "the-nest-wai-ching",
+      "name_zh": "The Nest Restaurant & Bar",
+      "name_en": "The Nest Restaurant & Bar",
+      "lat": 22.3063367,
+      "lng": 114.1676014,
+      "area": "渡船角／偉晴街",
+      "address": "佐敦偉晴街11-19號利成大廈地下C號舖",
+      "cuisine": [
+        "亞洲菜",
+        "東南亞菜"
+      ],
+      "tags": [
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列 The Nest Restaurant & Bar，菜式亞洲菜／東南亞菜；可作午市主食堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：The Nest Restaurant & Bar",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10776",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 偉晴街",
+          "url": "https://photon.komoot.io/api/?q=Wai+Ching+Street+Jordan",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "fusion-restaurant-canton-rd",
+      "name_zh": "融合餐廳酒吧",
+      "name_en": "Fusion Restaurant & Bar",
+      "lat": 22.308645,
+      "lng": 114.1687167,
+      "area": "渡船角／廣東道",
+      "address": "佐敦廣東道505號地舖",
+      "cuisine": [
+        "亞洲菜",
+        "東南亞菜"
+      ],
+      "tags": [
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列融合餐廳酒吧於廣東道505號，菜式亞洲菜／東南亞菜；可作午市主食堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：融合餐廳酒吧",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10775",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 廣東道渡船角",
+          "url": "https://photon.komoot.io/api/?q=Canton+Road+Jordan+Ferry+Point",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "go-my-way-man-wai",
+      "name_zh": "我行我素音樂餐廳",
+      "name_en": "Go My Own Way Music Restaurant",
+      "lat": 22.307583,
+      "lng": 114.1668653,
+      "area": "渡船角／文蔚街",
+      "address": "佐敦文蔚街23號地舖",
+      "cuisine": [
+        "西餐",
+        "素食"
+      ],
+      "tags": [
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列我行我素音樂餐廳為西餐廳／素食；可作午市堂食（音樂餐廳定位，實際午市供應以當日為準）。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–130（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：我行我素音樂餐廳",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10773",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 文蔚街",
+          "url": "https://photon.komoot.io/api/?q=Man+Wai+Street+Jordan",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "佐敦",
+      "verified_at": "2026-09-26",
+      "id": "shu-yi-shao-ning-po",
+      "name_zh": "蜀一燒",
+      "name_en": "Shu Yi Shao",
+      "lat": 22.3070059,
+      "lng": 114.1695002,
+      "area": "寧波街",
+      "address": "九龍油尖寧波街27-31號地下E,F,G及H號舖",
+      "cuisine": [
+        "四川菜",
+        "中菜"
+      ],
+      "tags": [
+        "堂食",
+        "有營食肆"
+      ],
+      "lunch_notes": "EatSmart 列蜀一燒於寧波街27-31號，菜式中菜廳；可作午市川菜堂食。寧波街屬佐敦站南緣。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–130（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：蜀一燒",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=1075",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 寧波街一帶",
+          "url": "https://photon.komoot.io/api/?q=Ning+Po+Street+Jordan+Kowloon",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "breadtalk-jd-mall",
+      "name_zh": "麵包新語 BreadTalk（佐敦薈）",
+      "name_en": "BreadTalk (JD Mall)",
+      "lat": 22.3048679,
+      "lng": 114.1713449,
+      "exclude_reason": "bakery：維基百科佐敦薈商戶表列 BreadTalk（G/F），屬麵包舖／烘焙零售，非正餐午餐堂食餐廳",
+      "sources": [
+        {
+          "name": "維基百科：佐敦薈商戶列表",
+          "url": "https://zh.wikipedia.org/zh-hk/%E4%BD%90%E6%95%A6%E8%96%88",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "toast-box-jd-mall",
+      "name_zh": "土司工坊 Toast Box（佐敦薈）",
+      "name_en": "Toast Box (JD Mall)",
+      "lat": 22.3048679,
+      "lng": 114.1713449,
+      "exclude_reason": "未確認堂食正餐：僅見維基百科佐敦薈商戶表列 Toast Box；未取得官方目錄／第二來源確認此舖平日正餐午餐堂食，本批暫緩",
+      "sources": [
+        {
+          "name": "維基百科：佐敦薈商戶列表",
+          "url": "https://zh.wikipedia.org/zh-hk/%E4%BD%90%E6%95%A6%E8%96%88",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "maxims-cake-jordan-mtr",
+      "name_zh": "美心西餅（港鐵佐敦站）",
+      "name_en": "Maxim's Cake Shop (Jordan MTR)",
+      "lat": 22.30481,
+      "lng": 114.1717074,
+      "exclude_reason": "bakery：第三方目錄列港鐵佐敦站 JOR14 美心西餅，屬餅店／麵包零售，非正餐午餐堂食",
+      "sources": [
+        {
+          "name": "FeeHK：美心西餅佐敦站地址",
+          "url": "https://www.feehk.com/%E4%BD%90%E6%95%A6%E9%A4%90%E5%BB%B3/%E7%BE%8E%E5%BF%83%E8%A5%BF%E9%A4%85-76815",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "jk-bakery-jordan-road",
+      "name_zh": "JK Bakery（佐敦道）",
+      "name_en": "JK Bakery (Jordan Road)",
+      "lat": 22.30481,
+      "lng": 114.1717074,
+      "exclude_reason": "bakery：OpenRice 等列佐敦道7號 JK Bakery，屬烘焙店，無正餐午餐堂食定位",
+      "sources": [
+        {
+          "name": "OpenRice：JK Bakery（佐敦道）",
+          "url": "https://www.openrice.com/en/hongkong/r-jk-bakery-jordan-hong-kong-style-bakery-r746670",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "terrible-baby-eaton",
+      "name_zh": "Terrible Baby（逸東酒店）",
+      "name_en": "Terrible Baby (Eaton HK)",
+      "lat": 22.3080618,
+      "lng": 114.1718264,
+      "exclude_reason": "純酒吧／Lounge：逸東酒店官方列 Terrible Baby 星期日至四下午2時起營業，以酒吧／現場音樂為主，未覆蓋平日11:00起正常午餐時段",
+      "sources": [
+        {
+          "name": "逸東酒店官方（Terrible Baby）",
+          "url": "https://www.eatonworkshop.com/zh-hant/hong-kong/",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "shuangyue-izakaya-parkes-127",
+      "name_zh": "霜月居酒屋（白加士街127）",
+      "name_en": "Shuang Yue Izakaya (Parkes Street 127)",
+      "lat": 22.3051303,
+      "lng": 114.1703513,
+      "exclude_reason": "邊界暫緩：EatSmart 有列白加士街127號，惟門牌偏南近廟街／油麻地緣；本批按「廟街以南偏油麻地歸下批」暫不收入佐敦 seed",
+      "sources": [
+        {
+          "name": "EatSmart：霜月居酒屋",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10780",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "fujinxuan-temple-street",
+      "name_zh": "富金軒雲南米線（廟街）",
+      "name_en": "Fu Jin Xuan Yunnan Mixian (Temple Street)",
+      "lat": 22.30481,
+      "lng": 114.1717074,
+      "exclude_reason": "邊界歸油麻地下批：EatSmart 列廟街259A，屬廟街南段；按準則廟街以南偏油麻地店留待下批",
+      "sources": [
+        {
+          "name": "EatSmart 油尖旺名單（富金軒雲南米線／廟街）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res_adv.aspx?dist_id=6",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "sando-vegetarian-jd-mall-wiki-only",
+      "name_zh": "三德素食館（佐敦薈）",
+      "name_en": "Sam Tak Vegetarian (JD Mall)",
+      "lat": 22.3048679,
+      "lng": 114.1713449,
+      "exclude_reason": "未確認第二來源：僅見維基百科佐敦薈商戶表；未取得 EatSmart／官方目錄核實堂食午餐，禁止估，本批暫緩",
+      "sources": [
+        {
+          "name": "維基百科：佐敦薈商戶列表",
+          "url": "https://zh.wikipedia.org/zh-hk/%E4%BD%90%E6%95%A6%E8%96%88",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "phase": "phase-3",
+    "status": "seed complete",
+    "region": "九龍西",
+    "notes_zh": "phase-3 seed（v1.0）：收錄 25、剔除範例 8。優先佐敦站／佐敦道、白加士街、柯士甸道、佐敦薈、逸東酒店、渡船角一帶；以 EatSmart、連鎖官網（大快活／壽司郎／太興）、逸東酒店目錄為主。廟街南段／油麻地、圓方／西九龍站、街舖缺官方來源者暫緩。座標多為 Photon 街／大廈級近似（約 1 req/s、有 cache）。收費 API：0。",
+    "bbox_approx": [
+      22.302,
+      114.166,
+      22.309,
+      114.173
+    ],
+    "center_approx": [
+      22.305,
+      114.17
+    ],
+    "paid_api_calls": 0,
+    "counts": {
+      "restaurants": 25,
+      "excluded": 8
+    }
+  }
+}

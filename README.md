@@ -141,3 +141,36 @@ Pages 來源：`gh-pages` branch、`/`（root）。
 - **唔好**把真正 Google API keys commit 入 repo
 - 要換 key／provider：本地改 `.env` → 重新 `expo export` → 再推 `gh-pages`
 - 之後若用 GitHub Actions 重建，把 keys 放喺 Actions secrets，唔好寫死喺 yaml
+
+
+## 餐廳資料 Admin（GitHub Pages）
+
+唯讀瀏覽各區 `*-restaurants.json` 嘅 **kept / excluded**（地區 filter、文字搜尋、執笠／已歇業標示、Google Maps 連結）。
+
+- **URL**：https://lam0108-maker.github.io/lunch-spin/admin/
+- 原始檔：`public/admin/`（`npx expo export -p web` 會抄去 `dist/admin/`）
+- 同步資料（改咗 `src/data/*-restaurants.json` 之後）：
+
+```bash
+npm run sync:admin
+# 或：bash scripts/sync-admin-data.sh
+```
+
+Admin **唔會**改 seed；正式改庫流程仍然係：researcher 批核 → `lunch-data/<district>/restaurants.json` → Apps Programmer sync 入 App `src/data/` →（可選）再 `sync:admin` + 重新 export／部署 Pages。
+
+### 每週 business-status / rating 檢查（GitHub Actions）
+
+- Workflow：`.github/workflows/restaurant-health.yml`
+- 排程：逢星期一 04:00 UTC；亦可喺 Actions 頁手動 **Run workflow**
+- 預設 **sample**（約 40 間、按地區分層、只要有 `google_place_id`）；可設 `full=true`（上限約 120）或自訂 `limit`
+- **0 收費 API**：用公開 Google 地圖 HTML（best-effort；失敗會 log 然後繼續）
+- **唔會自動改** production seed JSON；產出 markdown／JSON artifact，並開（或更新）標籤 `restaurant-health` 嘅 GitHub Issue 畀人審
+- 本地試跑：
+
+```bash
+python3 scripts/restaurant_health_check.py --limit 5 --out reports/restaurant-health.md
+```
+
+報告入面嘅「closure / rating_delta」只係 **candidates**；要改庫先經 researcher。
+
+

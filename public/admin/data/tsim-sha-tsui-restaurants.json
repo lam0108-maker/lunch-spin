@@ -1,0 +1,1892 @@
+{
+  "district": "尖沙咀",
+  "version": "1.0",
+  "updated_at": "2026-09-25",
+  "criteria": {
+    "serves_lunch": true,
+    "dine_in": true,
+    "exclude": [
+      "bakery",
+      "pure_cafe",
+      "takeaway_only",
+      "no_dine_in"
+    ]
+  },
+  "restaurants": [
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "mcdonalds-harbour-city-gateway",
+      "name_zh": "麥當勞（海港城港威）",
+      "name_en": "McDonald's (Harbour City Gateway)",
+      "lat": 22.2970015,
+      "lng": 114.1684199,
+      "area": "海港城／港威商場",
+      "address": "尖沙咀海港城港威商場 L4 4002號舖",
+      "cuisine": [
+        "漢堡",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店",
+        "大堂座位"
+      ],
+      "lunch_notes": "海港城港威商場 L4 麥當勞，官方目錄列輕便美食，營業約 07:00–23:00，有大堂座位可作午市漢堡／套餐。商場寫字樓午市高峰或會排隊。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $36–55",
+      "sources": [
+        {
+          "name": "海港城官方餐廳目錄（麥當勞 GW L4 4002）",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 海港城",
+          "url": "https://photon.komoot.io/api/?q=Harbour+City+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "MoneyHK：麥當勞App超值套餐約$36起（連鎖參考）",
+          "url": "https://www.moneyhk101.com/mcdonald-discount/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "tamjai-yunnan-mixian-harbour-city-gateway",
+      "name_zh": "譚仔雲南米線（海港城港威）",
+      "name_en": "TamJai Yunnan Mixian (Harbour City Gateway)",
+      "lat": 22.2970015,
+      "lng": 114.1684199,
+      "area": "海港城／港威商場",
+      "address": "尖沙咀海港城港威商場 L4 4001號舖",
+      "cuisine": [
+        "雲南菜",
+        "米線"
+      ],
+      "tags": [
+        "連鎖",
+        "米線",
+        "午餐套餐",
+        "商場店"
+      ],
+      "lunch_notes": "港威商場 L4 譚仔雲南米線，海港城官方中菜目錄有列，米線／配料作午市主食。寫字樓午餐時段人流較密，或需稍候。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $45–70（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方中菜目錄（TamJai Yunnan Mixian GW L4 4001）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/chinese_cuisines/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 海港城",
+          "url": "https://photon.komoot.io/api/?q=Harbour+City+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "maks-noodle-harbour-city-ot",
+      "name_zh": "麥奀雲吞麵世家（海港城海運）",
+      "name_en": "Mak's Noodle (Harbour City Ocean Terminal)",
+      "lat": 22.2952245,
+      "lng": 114.1676059,
+      "area": "海港城／海運大廈",
+      "address": "尖沙咀海港城海運大廈 G OTG02號舖",
+      "cuisine": [
+        "雲吞麵",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "商場店"
+      ],
+      "lunch_notes": "海運大廈地下麥奀，官方目錄營業約 10:00–22:00，雲吞麵／麵食可作午餐堂食。近碼頭人流，午市或需輪候。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方中菜目錄（Mak's Noodle OT G OTG02）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/chinese_cuisines/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄（10:00–22:00）",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 海運大廈",
+          "url": "https://photon.komoot.io/api/?q=Ocean+Terminal+Harbour+City+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "putien-harbour-city-gateway",
+      "name_zh": "莆田（海港城港威）",
+      "name_en": "PUTIEN (Harbour City Gateway)",
+      "lat": 22.2970015,
+      "lng": 114.1684199,
+      "area": "海港城／港威商場",
+      "address": "尖沙咀海港城港威商場 G G103號舖",
+      "cuisine": [
+        "福建菜",
+        "中菜"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "港威商場地下莆田，海港城官方中菜目錄有列，福建海鮮／飯麵作堂食午市。屬中價正餐，適合寫字樓較長午休。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–150（午市／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方中菜目錄（PUTIEN GW G G103）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/chinese_cuisines/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 海港城",
+          "url": "https://photon.komoot.io/api/?q=Harbour+City+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "jiang-nan-crystal-jade-harbour-city",
+      "name_zh": "江南．翡翠（海港城港威）",
+      "name_en": "Jiang Nan by Crystal Jade (Harbour City)",
+      "lat": 22.2970015,
+      "lng": 114.1684199,
+      "area": "海港城／港威商場",
+      "address": "尖沙咀海港城港威商場 L3 3328號舖",
+      "cuisine": [
+        "粵菜",
+        "中菜"
+      ],
+      "tags": [
+        "連鎖",
+        "酒樓",
+        "商場店",
+        "午市"
+      ],
+      "lunch_notes": "港威 L3 江南．翡翠，官方目錄營業約 11:00–22:00，中菜／點心可作午市堂食。同系午市套餐宣傳常見，實際以分店餐牌為準。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $98–160（午市套餐參考／未核實本店官價）",
+      "sources": [
+        {
+          "name": "海港城官方中菜目錄（Jiang Nan by Crystal Jade GW L3 3328）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/chinese_cuisines/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄（11:00–22:00）",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "經濟日報：翡翠江南午市一人套餐$98起（同系參考）",
+          "url": "https://paper.hket.com/article/3998080/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "sen-ryo-harbour-city-gateway",
+      "name_zh": "千両（海港城港威）",
+      "name_en": "sen-ryo (Harbour City Gateway)",
+      "lat": 22.2970015,
+      "lng": 114.1684199,
+      "area": "海港城／港威商場",
+      "address": "尖沙咀海港城港威商場 L2 2101-2號舖",
+      "cuisine": [
+        "日本菜",
+        "壽司"
+      ],
+      "tags": [
+        "連鎖",
+        "壽司",
+        "商場店"
+      ],
+      "lunch_notes": "港威 L2 千両，官方亞洲目錄列平日約 11:30–22:30，壽司／定食作午市堂食。商場午市或需輪候。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方亞洲目錄（sen-ryo GW L2 2101-2）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/asian_delights/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 海港城",
+          "url": "https://photon.komoot.io/api/?q=Harbour+City+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "gyu-kaku-harbour-city-ot",
+      "name_zh": "牛角日本燒肉專門店（海港城海運）",
+      "name_en": "Gyu-Kaku (Harbour City Ocean Terminal)",
+      "lat": 22.2952245,
+      "lng": 114.1676059,
+      "area": "海港城／海運大廈",
+      "address": "尖沙咀海港城海運大廈 L3 LCX 37B號舖",
+      "cuisine": [
+        "日本燒肉"
+      ],
+      "tags": [
+        "連鎖",
+        "燒肉",
+        "商場店"
+      ],
+      "lunch_notes": "海運大廈 LCX 牛角，官方目錄約 11:30 起市，燒肉／定食可作午市堂食。用餐時間較長，適合稍長午休。",
+      "price_level": 3,
+      "price_lunch_hkd": "約 $100–200（午市定食／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方亞洲目錄（Gyu-Kaku OT L3 LCX 37B）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/asian_delights/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 海運大廈",
+          "url": "https://photon.komoot.io/api/?q=Ocean+Terminal+Harbour+City+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "on-yasai-harbour-city-ot",
+      "name_zh": "温野菜（海港城海運）",
+      "name_en": "On-Yasai (Harbour City Ocean Terminal)",
+      "lat": 22.2952245,
+      "lng": 114.1676059,
+      "area": "海港城／海運大廈",
+      "address": "尖沙咀海港城海運大廈 L3 LCX 37A號舖",
+      "cuisine": [
+        "日本菜",
+        "涮涮鍋"
+      ],
+      "tags": [
+        "連鎖",
+        "火鍋",
+        "商場店"
+      ],
+      "lunch_notes": "海運 LCX 温野菜，官方亞洲目錄約 11:30–23:00，野菜涮涮鍋作午市堂食。用餐節奏較慢，預留足夠午休時間。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–150（午市／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方亞洲目錄（On-Yasai OT L3 LCX 37A）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/asian_delights/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 海運大廈",
+          "url": "https://photon.komoot.io/api/?q=Ocean+Terminal+Harbour+City+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "shake-shack-harbour-city-ot",
+      "name_zh": "Shake Shack（海港城海運）",
+      "name_en": "Shake Shack (Harbour City Ocean Terminal)",
+      "lat": 22.2952245,
+      "lng": 114.1676059,
+      "area": "海港城／海運大廈",
+      "address": "尖沙咀海港城海運大廈 G OTG53號舖",
+      "cuisine": [
+        "漢堡",
+        "美式"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店"
+      ],
+      "lunch_notes": "海運地下 Shake Shack，官方目錄約 11:00–23:00，漢堡／套餐可堂食午餐。近碼頭遊客／寫字樓人流，高峰或排隊。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–130（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方餐廳目錄（Shake Shack OT G OTG53）",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 海運大廈",
+          "url": "https://photon.komoot.io/api/?q=Ocean+Terminal+Harbour+City+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "auntie-malay-harbour-city-ot",
+      "name_zh": "安娣瑪萊（海港城海運）",
+      "name_en": "Auntie Malay (Harbour City Ocean Terminal)",
+      "lat": 22.2952245,
+      "lng": 114.1676059,
+      "area": "海港城／海運大廈",
+      "address": "尖沙咀海港城海運大廈 G OTG16號舖",
+      "cuisine": [
+        "馬來菜",
+        "東南亞"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "海運地下安娣瑪萊，官方亞洲目錄約 11:30–21:30，馬來飯麵／咖喱可作午市堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–100（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方亞洲目錄（Auntie Malay OT G OTG16）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/asian_delights/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "nha-trang-harbour-city-ot",
+      "name_zh": "芽莊越式料理（海港城海運）",
+      "name_en": "Nha Trang Vietnamese Cuisine (Harbour City)",
+      "lat": 22.2952245,
+      "lng": 114.1676059,
+      "area": "海港城／海運大廈",
+      "address": "尖沙咀海港城海運大廈 G OTG51號舖",
+      "cuisine": [
+        "越南菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "海運地下芽莊，官方目錄平日約 11:30–17:00 及晚市，越南粉／飯可作午餐堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–100（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方亞洲目錄（Nha Trang OT G OTG51）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/asian_delights/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄（平日午市時段）",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "sweet-basil-harbour-city-ot",
+      "name_zh": "金不換泰國餐廳（海港城海運）",
+      "name_en": "Sweet Basil Thai Cuisine (Harbour City)",
+      "lat": 22.2952245,
+      "lng": 114.1676059,
+      "area": "海港城／海運大廈",
+      "address": "尖沙咀海港城海運大廈 L2 OT260-3號舖",
+      "cuisine": [
+        "泰國菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "海運 L2 金不換泰國餐廳，官方目錄約 10:00–22:00，泰菜主食／套餐可作午市堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方亞洲目錄（Sweet Basil OT L2 OT260-3）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/asian_delights/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "dan-ryans-harbour-city-ot",
+      "name_zh": "Dan Ryan's Chicago Grill（海港城海運）",
+      "name_en": "Dan Ryan's Chicago Grill (Harbour City)",
+      "lat": 22.2952245,
+      "lng": 114.1676059,
+      "area": "海港城／海運大廈",
+      "address": "尖沙咀海港城海運大廈 L3 OT315號舖",
+      "cuisine": [
+        "美式",
+        "扒房"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "海運 L3 Dan Ryan's，官方目錄平日約 11:00 起市，漢堡／扒類／正餐可作午餐堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $100–180（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方餐廳目錄（Dan Ryan's OT L3 OT315，11:00 起）",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 海運大廈",
+          "url": "https://photon.komoot.io/api/?q=Ocean+Terminal+Harbour+City+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "nabe-urawa-harbour-city-gateway",
+      "name_zh": "牛気 Nabe Urawa（海港城港威）",
+      "name_en": "Nabe Urawa (Harbour City Gateway)",
+      "lat": 22.2970015,
+      "lng": 114.1684199,
+      "area": "海港城／港威商場",
+      "address": "尖沙咀海港城港威商場 L2 2307及2307A號舖",
+      "cuisine": [
+        "日本菜",
+        "火鍋"
+      ],
+      "tags": [
+        "連鎖",
+        "火鍋",
+        "商場店"
+      ],
+      "lunch_notes": "港威 L2 牛気，海港城官方亞洲目錄有列，日式鍋物可作午市堂食。用餐時間較長。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–150（午市／未核實官價）",
+      "sources": [
+        {
+          "name": "海港城官方亞洲目錄（Nabe Urawa GW L2 2307）",
+          "url": "https://www.harbourcity.com.hk/en/cuisine/asian_delights/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "海港城官方餐廳目錄",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "kfc-mira-place",
+      "name_zh": "KFC（美麗華）",
+      "name_en": "KFC (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀彌敦道美麗華廣場一期 G37號舖",
+      "cuisine": [
+        "炸雞",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 地下 KFC，官方餐飲目錄有列，炸雞／套餐可堂食午餐。近寫字樓及彌敦道人流。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄（KFC G37）",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon Mira Place",
+          "url": "https://photon.komoot.io/api/?q=Mira+Place+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "gyu-kaku-buffet-mira-place",
+      "name_zh": "牛角 Buffet（美麗華）",
+      "name_en": "Gyu-kaku Buffet (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 G08-G09號舖",
+      "cuisine": [
+        "日本燒肉"
+      ],
+      "tags": [
+        "連鎖",
+        "燒肉",
+        "放題",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 地下牛角 Buffet，官方店頁平日約 12:00–23:00，燒肉放題可作午餐。用餐時間較長。",
+      "price_level": 3,
+      "price_lunch_hkd": "約 $150–280（放題／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方店頁：牛角 Buffet（開放時間）",
+          "url": "https://www.miraplace.com.hk/tc/shop/gyu-kaku-buffet/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Mira Place 官方餐飲目錄",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "tsui-hang-village-mira-place",
+      "name_zh": "翠亨邨（美麗華）",
+      "name_en": "Tsui Hang Village (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 L5 507號舖",
+      "cuisine": [
+        "粵菜"
+      ],
+      "tags": [
+        "酒樓",
+        "午市",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 L5 翠亨邨，官方店頁平日午市 11:30–15:00，粵菜／點心堂食。屬寫字樓常見中菜午市選擇。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $100–200（午市／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方店頁：翠亨邨（平日 11:30–15:00）",
+          "url": "https://www.miraplace.com.hk/tc/shop/tsui-hang-village/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Mira Place 官方餐飲目錄",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "sun-tung-lok-mira-place",
+      "name_zh": "新同樂（美麗華）",
+      "name_en": "SUN TUNG LOK (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 L4 401號舖",
+      "cuisine": [
+        "粵菜",
+        "海鮮"
+      ],
+      "tags": [
+        "酒樓",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 L4 新同樂，官方餐飲目錄列中菜，海鮮／粵菜可作午市堂食。實際午市時段以分店為準。",
+      "price_level": 3,
+      "price_lunch_hkd": "約 $150–300（午市／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄（新同樂 401）",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Mira Place Explore 目錄（SUN TUNG LOK／Chinese Cuisine）",
+          "url": "https://www.miraplace.com.hk/en/news/explore-miraculous-place/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "fu-ho-mira-place",
+      "name_zh": "富豪酒家（美麗華）",
+      "name_en": "Fu Ho Restaurant (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 L4 402號舖",
+      "cuisine": [
+        "粵菜"
+      ],
+      "tags": [
+        "酒樓",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 L4 富豪酒家，官方目錄列中菜，粵菜／點心可作午市堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $100–200（午市／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄（富豪酒家 402）",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Mira Place Explore 目錄（Fu Ho／Chinese Cuisine）",
+          "url": "https://www.miraplace.com.hk/en/news/explore-miraculous-place/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "sorabol-mira-place",
+      "name_zh": "新羅寳（美麗華）",
+      "name_en": "Sorabol Korean Restaurant (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 L4 403號舖",
+      "cuisine": [
+        "韓國菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 L4 新羅寳，官方目錄列亞洲菜，韓式主食／定食可作午餐堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–150（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄（新羅寳 403）",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Mira Place Explore 目錄（Sorabol／Asian Cuisine）",
+          "url": "https://www.miraplace.com.hk/en/news/explore-miraculous-place/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "mue-mue-mira-place",
+      "name_zh": "Mue Mue（美麗華）",
+      "name_en": "Mue Mue (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 L3 302號舖",
+      "cuisine": [
+        "泰國菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店",
+        "午市"
+      ],
+      "lunch_notes": "Mira Place 1 L3 Mue Mue，官方店頁每日午市 12:00–15:00，摩登泰菜堂食。適合稍長午休。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $100–180（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方店頁：Mue Mue（12:00–15:00 午市）",
+          "url": "https://www.miraplace.com.hk/tc/shop/mue-mue/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Mira Place 官方餐飲目錄",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "sen-ryo-mira-place",
+      "name_zh": "千両（美麗華）",
+      "name_en": "sen-ryo (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 L2 205號舖",
+      "cuisine": [
+        "日本菜",
+        "壽司"
+      ],
+      "tags": [
+        "連鎖",
+        "壽司",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 L2 千両，官方餐飲目錄有列，壽司／定食可作午市堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄（千両 205）",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon Mira Place",
+          "url": "https://photon.komoot.io/api/?q=Mira+Place+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "hakata-yari-udon-mira-place",
+      "name_zh": "博多槍烏冬（美麗華）",
+      "name_en": "Hakata Yari Udon (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 L2 228號舖",
+      "cuisine": [
+        "烏冬",
+        "日本菜"
+      ],
+      "tags": [
+        "麵食",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 L2 博多槍烏冬，官方目錄有列，烏冬／飯類可作午餐堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $50–90（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄（博多槍烏冬 228）",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Mira Place Explore 目錄（Hakata Yari Udon／Asian）",
+          "url": "https://www.miraplace.com.hk/en/news/explore-miraculous-place/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "habitu-table-mira-place",
+      "name_zh": "HABITŪ table（美麗華）",
+      "name_en": "HABITŪ table (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 B1 B142號舖",
+      "cuisine": [
+        "西式",
+        "咖啡廳正餐"
+      ],
+      "tags": [
+        "連鎖",
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 B1 HABITŪ table，官方 Explore 目錄列 Western Cuisine，主食／套餐可作午餐堂食（非純咖啡店）。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–140（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄（HABITŪ table B142）",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Mira Place Explore 目錄（HABITŪ table／Western Cuisine）",
+          "url": "https://www.miraplace.com.hk/en/news/explore-miraculous-place/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "cafe-meal-muji-mira-place",
+      "name_zh": "Café&Meal MUJI（美麗華）",
+      "name_en": "Café&Meal MUJI (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 B1 B131-B141號舖",
+      "cuisine": [
+        "日式輕食",
+        "定食"
+      ],
+      "tags": [
+        "連鎖",
+        "定食",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 B1 Café&Meal MUJI，官方目錄有列，定食／飯麵輕食可堂食午餐（有正餐，非純 cafe）。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $50–90（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄（Café&Meal MUJI B131-B141）",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Mira Place Explore 目錄",
+          "url": "https://www.miraplace.com.hk/en/news/explore-miraculous-place/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "gaia-veggie-mira-place",
+      "name_zh": "大自然素食（美麗華）",
+      "name_en": "Gaia Veggie Shop (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "美麗華 Mira Place 1",
+      "address": "尖沙咀美麗華廣場一期 L2 212號舖",
+      "cuisine": [
+        "素食"
+      ],
+      "tags": [
+        "素食",
+        "商場店"
+      ],
+      "lunch_notes": "Mira Place 1 L2 大自然素食，官方目錄有列，素食飯麵／套餐可作午餐堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $50–90（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄（大自然素食 212）",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon Mira Place",
+          "url": "https://photon.komoot.io/api/?q=Mira+Place+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "afuri-the-one",
+      "name_zh": "AFURI（The ONE）",
+      "name_en": "AFURI (The ONE)",
+      "lat": 22.2998602,
+      "lng": 114.172688,
+      "area": "The ONE",
+      "address": "尖沙咀彌敦道100號 The ONE L2",
+      "cuisine": [
+        "拉麵",
+        "日本菜"
+      ],
+      "tags": [
+        "連鎖",
+        "拉麵",
+        "商場店"
+      ],
+      "lunch_notes": "The ONE L2 AFURI，商場官方餐飲目錄有列，柚子鹽／拉麵可作午餐堂食。近彌敦道寫字樓人流。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–130（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "The ONE 官方 Dining（AFURI L2）",
+          "url": "https://www.the-one.hk/en/dining/dining.asp?dining=foodandbeverage",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon The ONE",
+          "url": "https://photon.komoot.io/api/?q=The+ONE+Nathan+Road+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "tonkichi-the-one",
+      "name_zh": "とん吉日式吉列專門店（The ONE）",
+      "name_en": "Tonkichi Tonkatsu (The ONE)",
+      "lat": 22.2998602,
+      "lng": 114.172688,
+      "area": "The ONE",
+      "address": "尖沙咀彌敦道100號 The ONE L4 401號舖",
+      "cuisine": [
+        "吉列",
+        "日本菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "The ONE L4 とん吉，官方目錄有列，炸豬扒定食可作午餐堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–140（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "The ONE 官方 Dining（Tonkichi L401）",
+          "url": "https://www.the-one.hk/en/dining/dining.asp?dining=foodandbeverage",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon The ONE",
+          "url": "https://photon.komoot.io/api/?q=The+ONE+Nathan+Road+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "le-viet-the-one",
+      "name_zh": "Le Viet（The ONE）",
+      "name_en": "Le Viet (The ONE)",
+      "lat": 22.2998602,
+      "lng": 114.172688,
+      "area": "The ONE",
+      "address": "尖沙咀彌敦道100號 The ONE L4 402號舖",
+      "cuisine": [
+        "越南菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "The ONE L4 Le Viet，官方目錄有列，越南粉／飯可作午餐堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–100（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "The ONE 官方 Dining（Le Viet L402）",
+          "url": "https://www.the-one.hk/en/dining/dining.asp?dining=foodandbeverage",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon The ONE",
+          "url": "https://photon.komoot.io/api/?q=The+ONE+Nathan+Road+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "cambo-the-one",
+      "name_zh": "Cambo（The ONE）",
+      "name_en": "Cambo (The ONE)",
+      "lat": 22.2998602,
+      "lng": 114.172688,
+      "area": "The ONE",
+      "address": "尖沙咀彌敦道100號 The ONE L4 403號舖",
+      "cuisine": [
+        "柬埔寨菜",
+        "東南亞"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "The ONE L4 Cambo，官方目錄有列，東南亞主食可作午餐堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "The ONE 官方 Dining（Cambo L403）",
+          "url": "https://www.the-one.hk/en/dining/dining.asp?dining=foodandbeverage",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon The ONE",
+          "url": "https://photon.komoot.io/api/?q=The+ONE+Nathan+Road+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "nabe-one-the-one",
+      "name_zh": "牛一（The ONE）",
+      "name_en": "Nabe One (The ONE)",
+      "lat": 22.2998602,
+      "lng": 114.172688,
+      "area": "The ONE",
+      "address": "尖沙咀彌敦道100號 The ONE L5 501號舖",
+      "cuisine": [
+        "日本菜",
+        "火鍋"
+      ],
+      "tags": [
+        "火鍋",
+        "商場店"
+      ],
+      "lunch_notes": "The ONE L5 牛一，官方目錄有列，日式鍋物可作午市堂食。用餐時間較長。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $100–180（午市／未核實官價）",
+      "sources": [
+        {
+          "name": "The ONE 官方 Dining（Nabe One L501）",
+          "url": "https://www.the-one.hk/en/dining/dining.asp?dining=foodandbeverage",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon The ONE",
+          "url": "https://photon.komoot.io/api/?q=The+ONE+Nathan+Road+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "kokon2-the-one",
+      "name_zh": "古今二（The ONE）",
+      "name_en": "KOKON2 (The ONE)",
+      "lat": 22.2998602,
+      "lng": 114.172688,
+      "area": "The ONE",
+      "address": "尖沙咀彌敦道100號 The ONE L5 502號舖",
+      "cuisine": [
+        "日本菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "The ONE L5 古今二，官方目錄有列，日式主食可作午餐堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–150（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "The ONE 官方 Dining（KOKON2 L502）",
+          "url": "https://www.the-one.hk/en/dining/dining.asp?dining=foodandbeverage",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon The ONE",
+          "url": "https://photon.komoot.io/api/?q=The+ONE+Nathan+Road+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "xiabu-xiabu-the-one",
+      "name_zh": "呷哺呷哺·茶米茶（The ONE）",
+      "name_en": "XIABU XIABU·TeameTea (The ONE)",
+      "lat": 22.2998602,
+      "lng": 114.172688,
+      "area": "The ONE",
+      "address": "尖沙咀彌敦道100號 The ONE UG220-UG221號舖",
+      "cuisine": [
+        "火鍋",
+        "台式"
+      ],
+      "tags": [
+        "連鎖",
+        "火鍋",
+        "商場店"
+      ],
+      "lunch_notes": "The ONE UG 呷哺呷哺·茶米茶，官方目錄有列，小鍋／飯麵可作午餐堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $50–90（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "The ONE 官方 Dining（XIABU XIABU UG220-UG221）",
+          "url": "https://www.the-one.hk/en/dining/dining.asp?dining=foodandbeverage",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon The ONE",
+          "url": "https://photon.komoot.io/api/?q=The+ONE+Nathan+Road+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "royal-inn-the-one",
+      "name_zh": "Royal INN（The ONE）",
+      "name_en": "Royal INN (The ONE)",
+      "lat": 22.2998602,
+      "lng": 114.172688,
+      "area": "The ONE",
+      "address": "尖沙咀彌敦道100號 The ONE L1 121號舖",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "The ONE L1 Royal INN，官方目錄有列，中菜正餐可作午餐堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–130（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "The ONE 官方 Dining（Royal INN L121）",
+          "url": "https://www.the-one.hk/en/dining/dining.asp?dining=foodandbeverage",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon The ONE",
+          "url": "https://photon.komoot.io/api/?q=The+ONE+Nathan+Road+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "takano-ramen-k11-musea",
+      "name_zh": "多賀野拉麵（K11 MUSEA）",
+      "name_en": "Takano Ramen (K11 MUSEA)",
+      "lat": 22.2945704,
+      "lng": 114.1745591,
+      "area": "K11 MUSEA",
+      "address": "尖沙咀梳士巴利道18號 K11 MUSEA 2樓 220號舖",
+      "cuisine": [
+        "拉麵",
+        "日本菜"
+      ],
+      "tags": [
+        "拉麵",
+        "商場店"
+      ],
+      "lunch_notes": "K11 MUSEA L2 多賀野，官方店頁營業 11:30–22:00，拉麵可作午餐堂食。近維港文化匯寫字樓／商場人流。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–130（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "K11 MUSEA 官方店頁：Takano Ramen（11:30AM–10PM）",
+          "url": "https://www.k11musea.com/taste/takano-ramen/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "K11 MUSEA Gift Card 指定商戶名單（L2 220）",
+          "url": "https://www.k11musea.com/zh-hk/k11-musea-gift-card-list-of-designated-merchants/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "glasshouse-greenery-k11-musea",
+      "name_zh": "Glasshouse Greenery（K11 MUSEA）",
+      "name_en": "Glasshouse Greenery (K11 MUSEA)",
+      "lat": 22.2945704,
+      "lng": 114.1745591,
+      "area": "K11 MUSEA",
+      "address": "尖沙咀梳士巴利道18號 K11 MUSEA 5樓 501號舖",
+      "cuisine": [
+        "亞洲融合",
+        "西式"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "K11 MUSEA L5 Glasshouse Greenery，官方店頁約 11:00–23:00，主食／全日餐可作午餐堂食。",
+      "price_level": 3,
+      "price_lunch_hkd": "約 $150–280（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "K11 MUSEA 官方店頁：Glasshouse Greenery（11AM–11PM）",
+          "url": "https://www.k11musea.com/taste/glasshouse-greenery/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "K11 MUSEA Gift Card 指定商戶名單（L5 501）",
+          "url": "https://www.k11musea.com/zh-hk/k11-musea-gift-card-list-of-designated-merchants/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "greyhound-cafe-k11-musea",
+      "name_zh": "Greyhound Café Galleria（K11 MUSEA）",
+      "name_en": "Greyhound Café Galleria (K11 MUSEA)",
+      "lat": 22.2945704,
+      "lng": 114.1745591,
+      "area": "K11 MUSEA",
+      "address": "尖沙咀梳士巴利道18號 K11 MUSEA 3樓 327A及327C號舖",
+      "cuisine": [
+        "泰國菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "K11 MUSEA L3 Greyhound Café Galleria，官方商戶名單有列，泰式主食可作午餐堂食（非純咖啡店）。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $100–180（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "K11 MUSEA Gift Card 指定商戶名單（L3 327A & 327C Greyhound Café Galleria）",
+          "url": "https://www.k11musea.com/zh-hk/k11-musea-gift-card-list-of-designated-merchants/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon K11 MUSEA",
+          "url": "https://photon.komoot.io/api/?q=K11+MUSEA+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "deng-g-sichuan-k11-musea",
+      "name_zh": "鄧記川菜（K11 MUSEA）",
+      "name_en": "Deng G Sichuan (K11 MUSEA)",
+      "lat": 22.2945704,
+      "lng": 114.1745591,
+      "area": "K11 MUSEA",
+      "address": "尖沙咀梳士巴利道18號 K11 MUSEA 4樓 412及413號舖",
+      "cuisine": [
+        "川菜"
+      ],
+      "tags": [
+        "正餐",
+        "商場店"
+      ],
+      "lunch_notes": "K11 MUSEA L4 鄧記川菜，官方商戶名單有列，川菜主食可作午餐堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $80–150（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "K11 MUSEA Gift Card 指定商戶名單（L4 412 & 413 Deng G Sichuan）",
+          "url": "https://www.k11musea.com/zh-hk/k11-musea-gift-card-list-of-designated-merchants/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon K11 MUSEA",
+          "url": "https://photon.komoot.io/api/?q=K11+MUSEA+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "maks-noodle-k11-musea",
+      "name_zh": "麥奀雲吞麵世家（K11 MUSEA）",
+      "name_en": "Mak's Noodle (K11 MUSEA)",
+      "lat": 22.2945704,
+      "lng": 114.1745591,
+      "area": "K11 MUSEA",
+      "address": "尖沙咀梳士巴利道18號 K11 MUSEA B2 B201-28及29號舖",
+      "cuisine": [
+        "雲吞麵",
+        "港式"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "商場店"
+      ],
+      "lunch_notes": "K11 MUSEA B2 麥奀，官方商戶名單有列，雲吞麵可作午餐堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "K11 MUSEA Gift Card 指定商戶名單（B2 Mak's Noodle）",
+          "url": "https://www.k11musea.com/zh-hk/k11-musea-gift-card-list-of-designated-merchants/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon K11 MUSEA",
+          "url": "https://photon.komoot.io/api/?q=K11+MUSEA+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "cafe-de-coral-china-hong-kong-city",
+      "name_zh": "大家樂（中港城）",
+      "name_en": "Café de Coral (China Hong Kong City)",
+      "lat": 22.2999066,
+      "lng": 114.1676832,
+      "area": "中港城",
+      "address": "尖沙咀廣東道33號中港城一樓 R1A及4-5號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店"
+      ],
+      "lunch_notes": "中港城一樓大家樂，EatSmart 列油尖旺快餐店，飯麵／套餐可堂食午餐。鄰近中港碼頭及寫字樓，午市人流較大。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70",
+      "sources": [
+        {
+          "name": "EatSmart：大家樂（中港城）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10968",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 中港城",
+          "url": "https://photon.komoot.io/api/?q=China+Hong+Kong+City+Tsim+Sha+Tsui",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "星島／Jetso 大家樂午市推廣價（連鎖參考）",
+          "url": "https://std.stheadline.com/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "maxims-mx-prince-group-centre",
+      "name_zh": "美心MX（太子集團中心）",
+      "name_en": "Maxim's MX (Prince Group Centre)",
+      "lat": 22.296479,
+      "lng": 114.1713084,
+      "area": "北京道／太子集團中心",
+      "address": "尖沙咀北京道12號太子集團大廈 B01號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐"
+      ],
+      "lunch_notes": "北京道太子集團大廈地庫美心MX，EatSmart 列快餐／輕食，飯麵／套餐可堂食午餐。近海港城寫字樓帶。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70",
+      "sources": [
+        {
+          "name": "EatSmart：美心MX（太子集團中心）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10850",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 太子／北京道近似",
+          "url": "https://photon.komoot.io/api/?q=Prince+Group+Centre+Peking+Road+Tsim+Sha+Tsui",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "fairwood-pacific-building-tst",
+      "name_zh": "大快活（尖沙咀太平洋大廈）",
+      "name_en": "Fairwood (Pacific Building TST)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "area": "彌敦道／太平洋大廈",
+      "address": "尖沙咀彌敦道172及174號太平洋大廈1樓",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐"
+      ],
+      "lunch_notes": "彌敦道太平洋大廈大快活，官網分店列 07:00–21:00 堂食，飯麵／焗餐可作午市。座標為商場／街段級近似。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $39–60",
+      "sources": [
+        {
+          "name": "大快活官網分店（尖沙咀太平洋大廈）",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "大快活官網午市餐牌",
+          "url": "https://www.fairwood.com.hk/food_menus?tab=lunch",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "fairwood-empire-hotel-tst",
+      "name_zh": "大快活（尖沙咀帝國酒店）",
+      "name_en": "Fairwood (Empire Hotel TST)",
+      "lat": 22.2969432,
+      "lng": 114.171857,
+      "area": "彌敦道／帝國酒店",
+      "address": "尖沙咀彌敦道32-34號帝國酒店1樓",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐"
+      ],
+      "lunch_notes": "帝國酒店一樓大快活，官網分店列 07:00–21:00，飯麵可堂食午餐。近彌敦道南段商場／酒店寫字樓帶。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $39–60",
+      "sources": [
+        {
+          "name": "大快活官網分店（尖沙咀帝國酒店）",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "fairwood-new-mandarin-plaza",
+      "name_zh": "大快活（新文華中心）",
+      "name_en": "Fairwood (New Mandarin Plaza)",
+      "lat": 22.3004089,
+      "lng": 114.1784997,
+      "area": "尖東／新文華中心",
+      "address": "尖沙咀科學館道14號新文華中心1樓105-109及110-113號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐"
+      ],
+      "lunch_notes": "尖東新文華中心大快活，官網分店列 07:00–21:00，服務尖東寫字樓午市飯麵／套餐堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $39–60",
+      "sources": [
+        {
+          "name": "大快活官網分店（新文華中心）",
+          "url": "https://www.fairwood.com.hk/stores",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 新文華中心",
+          "url": "https://photon.komoot.io/api/?q=New+World+Centre+Science+Museum+Road+Tsim+Sha+Tsui",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "大快活官網：雙餸碗連熱飲$39",
+          "url": "https://www.fairwood.com.hk/articles/109",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "尖沙咀",
+      "verified_at": "2026-09-25",
+      "id": "tamjai-samgor-tai-hing-plaza",
+      "name_zh": "譚仔三哥米線（太興廣場）",
+      "name_en": "TamJai SamGor Mixian (Tai Hing Plaza)",
+      "lat": 22.2992676,
+      "lng": 114.1743116,
+      "area": "金馬倫道／太興廣場",
+      "address": "尖沙咀金馬倫道5號太興廣場1樓",
+      "cuisine": [
+        "雲南菜",
+        "米線"
+      ],
+      "tags": [
+        "連鎖",
+        "米線",
+        "午餐套餐"
+      ],
+      "lunch_notes": "金馬倫道太興廣場譚仔三哥，EatSmart 列快餐／麵食，米線可堂食午餐。近美麗華／The ONE 寫字樓帶。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $45–70（午餐／未核實官價）",
+      "sources": [
+        {
+          "name": "EatSmart：譚仔三哥米線（太興廣場）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10450",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Photon 金馬倫道近似",
+          "url": "https://photon.komoot.io/api/?q=Tai+Hing+Plaza+Cameron+Road+Tsim+Sha+Tsui+Hong+Kong",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "starbucks-harbour-city-oc",
+      "name_zh": "星巴克咖啡（海港城海洋中心）",
+      "name_en": "Starbucks Coffee (Harbour City Ocean Centre)",
+      "lat": 22.2970015,
+      "lng": 114.1684199,
+      "exclude_reason": "pure_cafe：海港城官方目錄列星巴克（OC L4 406），屬純咖啡店，無確認正餐午餐",
+      "sources": [
+        {
+          "name": "海港城官方餐廳目錄",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "starbucks-mira-place",
+      "name_zh": "星巴克咖啡（美麗華）",
+      "name_en": "Starbucks Coffee (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "exclude_reason": "pure_cafe：Mira Place 官方目錄列星巴克（L1 107C／108C），屬純咖啡店",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "luckin-coffee-mira-place",
+      "name_zh": "瑞幸咖啡（美麗華）",
+      "name_en": "Luckin Coffee (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "exclude_reason": "pure_cafe：Mira Place 官方目錄列瑞幸咖啡（L1 110C），屬純咖啡店",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "the-matcha-tokyo-harbour-city",
+      "name_zh": "The Matcha Tokyo（海港城港威）",
+      "name_en": "The Matcha Tokyo (Harbour City)",
+      "lat": 22.2970015,
+      "lng": 114.1684199,
+      "exclude_reason": "pure_cafe：海港城官方目錄列 The Matcha Tokyo，屬抹茶／cafe，無確認正餐午餐",
+      "sources": [
+        {
+          "name": "海港城官方餐廳目錄",
+          "url": "https://www.harbourcity.com.hk/tc/shop-dine/restaurant/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "gram-cafe-pancakes-the-one",
+      "name_zh": "Gram cafe & pancakes（The ONE）",
+      "name_en": "Gram cafe & pancakes (The ONE)",
+      "lat": 22.2998602,
+      "lng": 114.172688,
+      "exclude_reason": "pure_cafe：The ONE 官方 Dining 列 Gram cafe & pancakes（L408），以 pancakes／cafe 為主，無確認正餐午餐主食套餐",
+      "sources": [
+        {
+          "name": "The ONE 官方 Dining",
+          "url": "https://www.the-one.hk/en/dining/dining.asp?dining=foodandbeverage",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "palace-banquet-the-one",
+      "name_zh": "煌府婚宴專門店（The ONE）",
+      "name_en": "The Palace Banquet (The ONE)",
+      "lat": 22.2998602,
+      "lng": 114.172688,
+      "exclude_reason": "宴會廳／非日常午餐：The ONE 空中食府列煌府婚宴專門店（L13），屬婚宴專門，非平日寫字樓日常午市",
+      "sources": [
+        {
+          "name": "The ONE 空中食府目錄",
+          "url": "https://www.the-one.hk/tc/dining/dining.asp?dining=sky_dining",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "auntie-annes-mira-place",
+      "name_zh": "Auntie Anne's（美麗華）",
+      "name_en": "Auntie Anne's (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "exclude_reason": "bakery／小食：Mira Place 目錄列 Auntie Anne's（G38），屬炸麵包圈小食，無正餐午餐",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "meet-fresh-mira-place",
+      "name_zh": "鮮芋仙（美麗華）",
+      "name_en": "Meet Fresh (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "exclude_reason": "純甜品：Mira Place 目錄列鮮芋仙（L2 206），屬甜品糖水，無正餐午餐",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "donki-mira-place",
+      "name_zh": "Don Don Donki（美麗華）",
+      "name_en": "Don Don Donki (Mira Place)",
+      "lat": 22.3008808,
+      "lng": 114.1725838,
+      "exclude_reason": "超市熟食無確認餐廳座位：Mira Place 目錄列 Don Don Donki（B1），屬超市／零售美食，未確認獨立正餐堂食餐廳",
+      "sources": [
+        {
+          "name": "Mira Place 官方餐飲目錄",
+          "url": "https://www.miraplace.com.hk/tc/dining-directory/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "g-room-bar-k11-musea",
+      "name_zh": "G Room Bar & Lounge（K11 MUSEA）",
+      "name_en": "G Room Bar & Lounge (K11 MUSEA)",
+      "lat": 22.2945704,
+      "lng": 114.1745591,
+      "exclude_reason": "純酒吧／Lounge：K11 MUSEA 商戶名單列 G Room Bar & Lounge（L5 504），以酒吧為主，未確認正餐午餐",
+      "sources": [
+        {
+          "name": "K11 MUSEA Gift Card 指定商戶名單",
+          "url": "https://www.k11musea.com/zh-hk/k11-musea-gift-card-list-of-designated-merchants/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "yoku-moku-k11-musea",
+      "name_zh": "YOKU MOKU（K11 MUSEA）",
+      "name_en": "YOKU MOKU (K11 MUSEA)",
+      "lat": 22.2945704,
+      "lng": 114.1745591,
+      "exclude_reason": "bakery／零售甜品：K11 MUSEA 商戶名單列 YOKU MOKU（B2），屬雪茄蛋卷／餅店零售，無正餐午餐",
+      "sources": [
+        {
+          "name": "K11 MUSEA Gift Card 指定商戶名單",
+          "url": "https://www.k11musea.com/zh-hk/k11-musea-gift-card-list-of-designated-merchants/",
+          "checked_at": "2026-09-25"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "phase": "phase-3",
+    "status": "seed complete",
+    "region": "九龍西",
+    "notes_zh": "phase-3 seed（v1.0）：收錄 45、剔除範例 11。優先寫字樓／商場午餐人流（海港城、中港城、美麗華、The ONE、K11 MUSEA）＋EatSmart／大快活官網核實連鎖。座標多為商場級 Photon 近似（約 1 req/s、有 cache）。收費 API：0。",
+    "bbox_approx": [
+      22.293,
+      114.166,
+      22.303,
+      114.18
+    ],
+    "center_approx": [
+      22.298,
+      114.172
+    ],
+    "paid_api_calls": 0,
+    "counts": {
+      "restaurants": 45,
+      "excluded": 11
+    }
+  }
+}
