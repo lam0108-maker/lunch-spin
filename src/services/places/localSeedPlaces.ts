@@ -20,6 +20,7 @@ import wcSeedData from '../../data/wan-chai-restaurants.json';
 import cwbSeedData from '../../data/causeway-bay-restaurants.json';
 import qbSeedData from '../../data/quarry-bay-restaurants.json';
 import npSeedData from '../../data/north-point-restaurants.json';
+import kfSeedData from '../../data/kwai-fong-restaurants.json';
 
 interface SeedRestaurant {
   id: string;
@@ -237,6 +238,17 @@ const DISTRICT_SEEDS: DistrictSeed[] = [
       maxLng: 114.208,
     },
     seed: npSeedData as SeedFile,
+  },
+  {
+    // 葵芳／葵涌廣場／新都會／葵青劇院／興芳路（v1.0）
+    label: '葵芳',
+    bbox: {
+      minLat: 22.354,
+      maxLat: 22.366,
+      minLng: 114.120,
+      maxLng: 114.136,
+    },
+    seed: kfSeedData as SeedFile,
   },
 ];
 

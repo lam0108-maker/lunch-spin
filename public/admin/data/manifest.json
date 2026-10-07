@@ -38,6 +38,15 @@
       "excluded": 30
     },
     {
+      "slug": "kwai-fong",
+      "file": "kwai-fong-restaurants.json",
+      "district": "葵芳",
+      "version": "1.0",
+      "updated_at": "2026-10-07",
+      "kept": 203,
+      "excluded": 53
+    },
+    {
       "slug": "kwun-tong",
       "file": "kwun-tong-restaurants.json",
       "district": "觀塘",

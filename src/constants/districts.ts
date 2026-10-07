@@ -19,6 +19,7 @@ export const HK_DISTRICTS: Record<string, UserCoords> = {
   秀茂坪: { latitude: 22.3200, longitude: 114.2350, label: '秀茂坪', isFallback: true },
   鯉魚門: { latitude: 22.2910, longitude: 114.2380, label: '鯉魚門', isFallback: true },
   荃灣: { latitude: 22.3707, longitude: 114.1145, label: '荃灣', isFallback: true },
+  葵芳: { latitude: 22.3575, longitude: 114.1275, label: '葵芳', isFallback: true },
   沙田: { latitude: 22.3828, longitude: 114.1880, label: '沙田', isFallback: true },
   大埔: { latitude: 22.4508, longitude: 114.1645, label: '大埔', isFallback: true },
   屯門: { latitude: 22.3916, longitude: 113.9770, label: '屯門', isFallback: true },
