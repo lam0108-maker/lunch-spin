@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   ActivityIndicator,
   Linking,
@@ -36,6 +36,10 @@ import {
 
 const NOTES_PREVIEW = 80;
 
+function hasValidDistance(meters: number | null | undefined): boolean {
+  return Number.isFinite(meters) && (meters as number) >= 0;
+}
+
 function placeTagPills(place: Place): string[] {
   const out: string[] = [];
   for (const c of place.cuisine ?? []) {
@@ -53,17 +57,26 @@ function PlaceResultCard({
   total,
   compact,
   alt,
+  busy,
+  onSkipToday,
+  onBlacklist,
 }: {
   place: Place;
   index: number;
   total: number;
   compact?: boolean;
   alt?: boolean;
+  busy?: boolean;
+  onSkipToday: (place: Place) => void;
+  onBlacklist: (place: Place) => void;
 }) {
   const [notesExpanded, setNotesExpanded] = useState(false);
   const priceLabel = formatPlacePrice(place);
   const ratingLabel = formatRating(place.rating, place.ratingCount);
-  const walkLabel = formatWalkMinutes(place.distanceMeters);
+  const showDist = hasValidDistance(place.distanceMeters);
+  const walkLabel = showDist
+    ? formatWalkMinutes(place.distanceMeters)
+    : '';
   const tagPills = useMemo(() => placeTagPills(place), [place]);
   const notesFull = sanitizeLunchNotes(place.lunchNotes);
   const notesLong = notesFull.length > NOTES_PREVIEW;
@@ -99,9 +112,11 @@ function PlaceResultCard({
       {walkLabel ? (
         <Text style={styles.walkMain}>{walkLabel}</Text>
       ) : null}
-      <Text style={styles.distSub}>
-        （{formatDistance(place.distanceMeters)}）
-      </Text>
+      {showDist ? (
+        <Text style={styles.distSub}>
+          （{formatDistance(place.distanceMeters)}）
+        </Text>
+      ) : null}
 
       <View style={styles.meta}>
         {priceLabel ? (
@@ -156,19 +171,49 @@ function PlaceResultCard({
           <Text style={styles.cardMapsText}>開 Google Maps</Text>
         </Pressable>
       ) : null}
+
+      <View style={styles.cardActions}>
+        <Pressable
+          style={[styles.cardSkip, busy && styles.disabled]}
+          disabled={busy}
+          onPress={() => onSkipToday(place)}
+        >
+          <Text style={styles.cardSkipText}>今日剔走</Text>
+        </Pressable>
+        <Pressable
+          style={[styles.cardBan, busy && styles.disabled]}
+          disabled={busy}
+          onPress={() => onBlacklist(place)}
+        >
+          <Text style={styles.cardBanText}>永久唔想再見到</Text>
+        </Pressable>
+      </View>
     </View>
   );
 }
 
 export default function ResultScreen() {
   const router = useRouter();
-  const { lastPick, lastPicks, rejectLast, confirmGone, spin } =
-    useLunchSession();
+  const {
+    lastPick,
+    lastPicks,
+    rejectLast,
+    confirmGone,
+    spin,
+    skipPlaceToday,
+    blacklistPlace,
+  } = useLunchSession();
   const [busy, setBusy] = useState(false);
   const [shareBusy, setShareBusy] = useState(false);
+  const [displayed, setDisplayed] = useState<Place[]>([]);
 
-  const picks =
-    lastPicks.length > 0 ? lastPicks : lastPick ? [lastPick] : [];
+  useEffect(() => {
+    const fromSession =
+      lastPicks.length > 0 ? lastPicks : lastPick ? [lastPick] : [];
+    setDisplayed(fromSession);
+  }, [lastPicks, lastPick]);
+
+  const picks = displayed;
   const multi = picks.length > 1;
   const primary = picks[0] ?? null;
 
@@ -217,6 +262,37 @@ export default function ResultScreen() {
     }
   };
 
+  const onSkipToday = async (place: Place) => {
+    setBusy(true);
+    try {
+      await skipPlaceToday(place.placeId);
+      await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+      await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+      const next = picks.filter((p) => p.placeId !== place.placeId);
+      setDisplayed(next);
+      if (next.length === 0) {
+        router.replace('/');
+      }
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const onBlacklist = async (place: Place) => {
+    setBusy(true);
+    try {
+      await blacklistPlace(place);
+      await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+      const next = picks.filter((p) => p.placeId !== place.placeId);
+      setDisplayed(next);
+      if (next.length === 0) {
+        router.replace('/');
+      }
+    } finally {
+      setBusy(false);
+    }
+  };
+
   return (
     <SafeAreaView style={styles.safe} edges={['bottom']}>
       <ScrollView
@@ -240,6 +316,9 @@ export default function ResultScreen() {
             total={picks.length}
             compact={multi}
             alt={multi && i % 2 === 1}
+            busy={busy}
+            onSkipToday={(place) => void onSkipToday(place)}
+            onBlacklist={(place) => void onBlacklist(place)}
           />
         ))}
 
@@ -296,6 +375,9 @@ export default function ResultScreen() {
             {multi
               ? '「去食」會將今次全部結果今日排除；「唔鍾意」會降低全部之後機率再抽。'
               : '「唔鍾意」會降低呢間之後抽中機率；今日已唔鍾意嘅唔會再入池。'}
+          </Text>
+          <Text style={styles.hint}>
+            今日剔走嘅店當日之後抽獎唔會再入池，過零點（香港）自動失效。永久唔想再見到要喺主頁黑名單先還原。
           </Text>
         </View>
       </ScrollView>
@@ -495,6 +577,33 @@ const styles = StyleSheet.create({
     color: colors.secondary,
     fontWeight: '700',
     fontSize: 14,
+  },
+  cardActions: {
+    marginTop: spacing.md,
+    width: '100%',
+    gap: spacing.sm,
+  },
+  cardSkip: {
+    paddingVertical: 10,
+    borderRadius: radius.md,
+    borderWidth: 1.5,
+    borderColor: colors.accentWarm,
+    alignItems: 'center',
+    backgroundColor: colors.accentSoft,
+  },
+  cardSkipText: {
+    color: colors.primaryDark,
+    fontWeight: '700',
+    fontSize: 14,
+  },
+  cardBan: {
+    paddingVertical: 8,
+    alignItems: 'center',
+  },
+  cardBanText: {
+    color: colors.danger,
+    fontWeight: '600',
+    fontSize: 13,
   },
   actions: {
     width: '100%',

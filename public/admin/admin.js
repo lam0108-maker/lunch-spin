@@ -2,11 +2,60 @@
   'use strict';
 
   var DATA_BASE = './data/';
+
+  /** slug or district label → 港島／九龍／新界 */
+  var REGION_BY_KEY = {
+    'central-admiralty': '港島',
+    '中環／金鐘': '港島',
+    '中環': '港島',
+    '金鐘': '港島',
+    'wan-chai': '港島',
+    '灣仔': '港島',
+    '銅鑼灣': '港島',
+    '北角': '港島',
+    '鰂魚涌': '港島',
+    '西環': '港島',
+    'tsim-sha-tsui': '九龍',
+    '尖沙咀': '九龍',
+    'jordan': '九龍',
+    '佐敦': '九龍',
+    'yau-ma-tei': '九龍',
+    '油麻地': '九龍',
+    'mong-kok': '九龍',
+    '旺角': '九龍',
+    '太子': '九龍',
+    'ngau-tau-kok': '九龍',
+    '牛頭角': '九龍',
+    'kwun-tong': '九龍',
+    '觀塘': '九龍',
+    'kowloon-bay': '九龍',
+    '九龍灣': '九龍',
+    'lam-tin': '九龍',
+    '藍田': '九龍',
+    'yau-tong': '九龍',
+    '油塘': '九龍',
+    'sau-mau-ping': '九龍',
+    '秀茂坪': '九龍',
+    'lei-yue-mun': '九龍',
+    '鯉魚門': '九龍',
+    '紅磡': '九龍',
+    'tseung-kwan-o': '新界',
+    '將軍澳': '新界',
+    '荃灣': '新界',
+    '沙田': '新界',
+    '大埔': '新界',
+    '屯門': '新界',
+    '元朗': '新界',
+  };
+
+  var REGION_ORDER = { 港島: 0, 九龍: 1, 新界: 2, 其他: 3 };
+
   var state = {
     manifest: null,
     bySlug: {},
     tab: 'kept',
     district: '',
+    districtSort: 'name',
     q: '',
     loading: true,
     error: null,
@@ -14,6 +63,7 @@
 
   var el = {
     district: document.getElementById('district'),
+    districtSort: document.getElementById('districtSort'),
     q: document.getElementById('q'),
     counts: document.getElementById('counts'),
     status: document.getElementById('status'),
@@ -27,6 +77,43 @@
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
+  }
+
+  function regionOf(d) {
+    if (!d) return '其他';
+    if (REGION_BY_KEY[d.slug]) return REGION_BY_KEY[d.slug];
+    if (REGION_BY_KEY[d.district]) return REGION_BY_KEY[d.district];
+    return '其他';
+  }
+
+  function cmpName(a, b) {
+    return String(a.district || '').localeCompare(String(b.district || ''), 'zh-HK');
+  }
+
+  function sortDistricts(list) {
+    var mode = state.districtSort || 'name';
+    var arr = list.slice();
+    if (mode === 'kept') {
+      arr.sort(function (a, b) {
+        return b.kept - a.kept || cmpName(a, b);
+      });
+    } else if (mode === 'excluded') {
+      arr.sort(function (a, b) {
+        return b.excluded - a.excluded || cmpName(a, b);
+      });
+    } else if (mode === 'region') {
+      arr.sort(function (a, b) {
+        var ra = regionOf(a);
+        var rb = regionOf(b);
+        var oa = REGION_ORDER[ra] != null ? REGION_ORDER[ra] : 9;
+        var ob = REGION_ORDER[rb] != null ? REGION_ORDER[rb] : 9;
+        if (oa !== ob) return oa - ob;
+        return cmpName(a, b);
+      });
+    } else {
+      arr.sort(cmpName);
+    }
+    return arr;
   }
 
   function isClosed(row) {
@@ -76,15 +163,63 @@
   }
 
   function fillDistrictSelect() {
+    // keep first "全部地區" option; rebuild rest
+    while (el.district.options.length > 1) el.district.remove(1);
     var frag = document.createDocumentFragment();
-    state.manifest.districts.forEach(function (d) {
-      var opt = document.createElement('option');
-      opt.value = d.slug;
-      opt.textContent =
-        d.district + ' · kept ' + d.kept + ' / excl ' + d.excluded + (d.version ? ' (v' + d.version + ')' : '');
-      frag.appendChild(opt);
+    var sorted = sortDistricts(state.manifest.districts);
+    var lastRegion = null;
+    sorted.forEach(function (d) {
+      if (state.districtSort === 'region') {
+        var reg = regionOf(d);
+        if (reg !== lastRegion) {
+          var group = document.createElement('optgroup');
+          group.label = reg;
+          frag.appendChild(group);
+          lastRegion = reg;
+          // options must be appended to optgroup — handle below via currentGroup
+        }
+      }
     });
+    // rebuild cleanly with optgroups when region mode
+    if (state.districtSort === 'region') {
+      lastRegion = null;
+      var currentGroup = null;
+      sorted.forEach(function (d) {
+        var reg = regionOf(d);
+        if (reg !== lastRegion) {
+          currentGroup = document.createElement('optgroup');
+          currentGroup.label = reg;
+          frag.appendChild(currentGroup);
+          lastRegion = reg;
+        }
+        var opt = document.createElement('option');
+        opt.value = d.slug;
+        opt.textContent =
+          d.district +
+          ' · kept ' +
+          d.kept +
+          ' / excl ' +
+          d.excluded +
+          (d.version ? ' (v' + d.version + ')' : '');
+        currentGroup.appendChild(opt);
+      });
+    } else {
+      sorted.forEach(function (d) {
+        var opt = document.createElement('option');
+        opt.value = d.slug;
+        opt.textContent =
+          d.district +
+          ' · kept ' +
+          d.kept +
+          ' / excl ' +
+          d.excluded +
+          (d.version ? ' (v' + d.version + ')' : '');
+        frag.appendChild(opt);
+      });
+    }
     el.district.appendChild(frag);
+    // restore selection
+    el.district.value = state.district || '';
   }
 
   function ensureLoaded(slug) {
@@ -106,9 +241,10 @@
   }
 
   function loadNeeded() {
+    var ordered = sortDistricts(state.manifest.districts);
     var slugs = state.district
       ? [state.district]
-      : state.manifest.districts.map(function (d) {
+      : ordered.map(function (d) {
           return d.slug;
         });
     el.status.textContent = '載入 ' + slugs.length + ' 個地區…';
@@ -116,11 +252,14 @@
   }
 
   function collectRows() {
+    var orderedMeta = sortDistricts(state.manifest.districts);
     var packs = state.district
       ? [state.bySlug[state.district]].filter(Boolean)
-      : state.manifest.districts.map(function (d) {
-          return state.bySlug[d.slug];
-        }).filter(Boolean);
+      : orderedMeta
+          .map(function (d) {
+            return state.bySlug[d.slug];
+          })
+          .filter(Boolean);
 
     var q = (state.q || '').trim().toLowerCase();
     var rows = [];
@@ -138,6 +277,7 @@
         district: pack.meta.district,
         kept: kept,
         excluded: excl,
+        region: regionOf(pack.meta),
       });
 
       var src = state.tab === 'kept' ? pack.kept : pack.excluded;
@@ -147,6 +287,7 @@
           row: row,
           districtLabel: row.district || pack.meta.district,
           slug: pack.slug,
+          region: regionOf(pack.meta),
         });
       });
     });
@@ -164,9 +305,19 @@
         '</strong></span>'
     );
     html.push(
-      '<span class="pill">目前 tab 顯示 <strong>' + info.rows.length + '</strong> 筆' + (state.q ? '（已搜尋）' : '') + '</span>'
+      '<span class="pill">目前 tab 顯示 <strong>' +
+        info.rows.length +
+        '</strong> 筆' +
+        (state.q ? '（已搜尋）' : '') +
+        '</span>'
     );
+
+    var lastRegion = null;
     info.perDistrict.forEach(function (d) {
+      if (state.districtSort === 'region' && d.region !== lastRegion) {
+        html.push('<span class="pill region">' + esc(d.region) + '</span>');
+        lastRegion = d.region;
+      }
       html.push(
         '<span class="pill">' +
           esc(d.district) +
@@ -185,37 +336,43 @@
       el.list.innerHTML = '<div class="empty">冇符合條件嘅餐廳。</div>';
       return;
     }
-    var html = info.rows
-      .map(function (item) {
-        var r = item.row;
-        var closed = isClosed(r);
-        var tags = (r.tags || []).slice(0, 12);
-        var rating =
-          r.google_rating != null
-            ? '<span class="rating">★ ' +
-              esc(r.google_rating) +
-              (r.google_review_count != null ? '（' + esc(r.google_review_count) + '）' : '') +
-              '</span>'
-            : '<span class="meta">無 rating</span>';
-        var map =
-          r.google_place_id
-            ? '<a class="map" href="' +
-              esc(mapsUrl(r.google_place_id)) +
-              '" target="_blank" rel="noopener noreferrer">Google Maps</a>'
-            : '';
-        var tagHtml = tags
-          .map(function (t) {
-            var c = /closed|已歇業|執笠/i.test(String(t)) ? ' tag closed-tag' : '';
-            return '<span class="tag' + c + '">' + esc(t) + '</span>';
-          })
-          .join('');
-        if (closed) tagHtml = '<span class="tag closed-tag">執笠／已歇業</span>' + tagHtml;
-        var reason =
-          state.tab === 'excluded' && r.exclude_reason
-            ? '<div class="reason">' + esc(r.exclude_reason) + '</div>'
-            : '';
-        return (
-          '<article class="item' +
+    var html = [];
+    var lastRegion = null;
+    var lastSlug = null;
+    info.rows.forEach(function (item) {
+      if (state.districtSort === 'region' && !state.district && item.region !== lastRegion) {
+        html.push('<div class="region-head">' + esc(item.region) + '</div>');
+        lastRegion = item.region;
+      }
+      var r = item.row;
+      var closed = isClosed(r);
+      var tags = (r.tags || []).slice(0, 12);
+      var rating =
+        r.google_rating != null
+          ? '<span class="rating">★ ' +
+            esc(r.google_rating) +
+            (r.google_review_count != null ? '（' + esc(r.google_review_count) + '）' : '') +
+            '</span>'
+          : '<span class="meta">無 rating</span>';
+      var map =
+        r.google_place_id
+          ? '<a class="map" href="' +
+            esc(mapsUrl(r.google_place_id)) +
+            '" target="_blank" rel="noopener noreferrer">Google Maps</a>'
+          : '';
+      var tagHtml = tags
+        .map(function (t) {
+          var c = /closed|已歇業|執笠/i.test(String(t)) ? ' tag closed-tag' : '';
+          return '<span class="tag' + c + '">' + esc(t) + '</span>';
+        })
+        .join('');
+      if (closed) tagHtml = '<span class="tag closed-tag">執笠／已歇業</span>' + tagHtml;
+      var reason =
+        state.tab === 'excluded' && r.exclude_reason
+          ? '<div class="reason">' + esc(r.exclude_reason) + '</div>'
+          : '';
+      html.push(
+        '<article class="item' +
           (closed ? ' closed' : '') +
           '">' +
           '<div class="item-head">' +
@@ -238,10 +395,10 @@
           (tagHtml ? '<div class="flags">' + tagHtml + '</div>' : '') +
           reason +
           '</article>'
-        );
-      })
-      .join('');
-    el.list.innerHTML = html;
+      );
+      lastSlug = item.slug;
+    });
+    el.list.innerHTML = html.join('');
   }
 
   function refresh() {
@@ -255,6 +412,8 @@
         el.status.textContent =
           '就緒 · tab=' +
           state.tab +
+          ' · sort=' +
+          state.districtSort +
           (state.district ? ' · district=' + state.district : ' · all districts');
       })
       .catch(function (err) {
@@ -281,6 +440,14 @@
     state.district = el.district.value;
     refresh();
   });
+
+  if (el.districtSort) {
+    el.districtSort.addEventListener('change', function () {
+      state.districtSort = el.districtSort.value || 'name';
+      fillDistrictSelect();
+      refresh();
+    });
+  }
 
   var qTimer = null;
   el.q.addEventListener('input', function () {

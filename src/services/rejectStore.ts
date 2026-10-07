@@ -108,3 +108,65 @@ export async function clearAllRejectData(): Promise<void> {
     DAY_KEY,
   ]);
 }
+
+/** 只清今日「剔走／去食」名單；唔清永久 reject 權重、今日唔鍾意、永久黑名單 */
+export async function clearTodayGone(): Promise<void> {
+  await rollDayIfNeeded();
+  await AsyncStorage.setItem(TODAY_GONE_KEY, JSON.stringify([]));
+}
+
+const BLACKLIST_KEY = 'lunchspin:blacklist';
+
+export interface BlacklistEntry {
+  placeId: PlaceId;
+  name: string;
+}
+
+async function readBlacklist(): Promise<BlacklistEntry[]> {
+  const raw = await AsyncStorage.getItem(BLACKLIST_KEY);
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw) as BlacklistEntry[] | PlaceId[];
+    if (!Array.isArray(parsed)) return [];
+    // 兼容純 id 陣列
+    return parsed.map((item) =>
+      typeof item === 'string'
+        ? { placeId: item, name: item }
+        : {
+            placeId: (item as BlacklistEntry).placeId,
+            name: (item as BlacklistEntry).name || (item as BlacklistEntry).placeId,
+          },
+    );
+  } catch {
+    return [];
+  }
+}
+
+export async function getBlacklist(): Promise<BlacklistEntry[]> {
+  return readBlacklist();
+}
+
+export async function getBlacklistIds(): Promise<PlaceId[]> {
+  const list = await readBlacklist();
+  return list.map((e) => e.placeId);
+}
+
+export async function addToBlacklist(
+  placeId: PlaceId,
+  name: string,
+): Promise<void> {
+  const list = await readBlacklist();
+  if (list.some((e) => e.placeId === placeId)) return;
+  list.push({ placeId, name: name.trim() || placeId });
+  await AsyncStorage.setItem(BLACKLIST_KEY, JSON.stringify(list));
+}
+
+export async function removeFromBlacklist(placeId: PlaceId): Promise<void> {
+  const list = await readBlacklist();
+  const next = list.filter((e) => e.placeId !== placeId);
+  await AsyncStorage.setItem(BLACKLIST_KEY, JSON.stringify(next));
+}
+
+export async function clearBlacklist(): Promise<void> {
+  await AsyncStorage.setItem(BLACKLIST_KEY, JSON.stringify([]));
+}

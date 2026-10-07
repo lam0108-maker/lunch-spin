@@ -15,7 +15,7 @@ function lineForPlace(place: Place, includeAddress: boolean): string {
 }
 
 export function buildShareText(place: Place, includeAddress = true): string {
-  // formatWalkMinutes：「少過 1 分鐘」／「約 X 分鐘行路」
+  // formatWalkMinutes：「少過 1 分鐘」／「約 X 分鐘」
   return `今日抽Lunch：${lineForPlace(place, includeAddress)}`;
 }
 

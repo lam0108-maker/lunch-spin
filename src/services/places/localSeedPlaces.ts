@@ -16,6 +16,7 @@ import jordanSeedData from '../../data/jordan-restaurants.json';
 import yauMaTeiSeedData from '../../data/yau-ma-tei-restaurants.json';
 import mkSeedData from '../../data/mong-kok-restaurants.json';
 import caSeedData from '../../data/central-admiralty-restaurants.json';
+import wcSeedData from '../../data/wan-chai-restaurants.json';
 
 interface SeedRestaurant {
   id: string;
@@ -189,6 +190,17 @@ const DISTRICT_SEEDS: DistrictSeed[] = [
       maxLng: 114.172,
     },
     seed: caSeedData as SeedFile,
+  },
+  {
+    // 灣仔／會展／軒尼詩／駱克／莊士敦（v1.0）；bbox 22.274–22.283 / 114.168–114.180
+    label: '灣仔',
+    bbox: {
+      minLat: 22.274,
+      maxLat: 22.283,
+      minLng: 114.168,
+      maxLng: 114.180,
+    },
+    seed: wcSeedData as SeedFile,
   },
 ];
 

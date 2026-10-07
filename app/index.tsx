@@ -36,6 +36,7 @@ import {
   statusLabelZh,
   type SpinHistoryEntry,
 } from '../src/services/spinHistoryStore';
+import { clearTodayGone } from '../src/services/rejectStore';
 import { PRICE_CAP_OPTIONS } from '../src/utils/placeFilters';
 
 const RADIUS_MIN = 100;
@@ -43,6 +44,7 @@ const RADIUS_MAX = 2000;
 
 const SEED_DISTRICTS = [
   '中環／金鐘',
+  '灣仔',
   '將軍澳',
   '牛頭角',
   '觀塘',
@@ -105,6 +107,11 @@ export default function SetupScreen() {
     setFilterCuisines,
     spinCount,
     setSpinCount,
+    moreSurprise,
+    setMoreSurprise,
+    blacklist,
+    unblacklistPlace,
+    clearAllBlacklist,
   } = useLunchSession();
 
   const [locBusy, setLocBusy] = useState(false);
@@ -212,6 +219,18 @@ export default function SetupScreen() {
     setHistoryBusy(true);
     await clearTodayHistory();
     await refreshHistory();
+    setHistoryBusy(false);
+  };
+
+  const onClearTodayGone = async () => {
+    setHistoryBusy(true);
+    await clearTodayGone();
+    setHistoryBusy(false);
+  };
+
+  const onClearBlacklist = async () => {
+    setHistoryBusy(true);
+    await clearAllBlacklist();
     setHistoryBusy(false);
   };
 
@@ -532,11 +551,82 @@ export default function SetupScreen() {
                   <Text style={styles.outlineBtnText}>清除今日記錄</Text>
                 </Pressable>
               )}
+              <Pressable
+                style={[styles.outlineBtn, historyBusy && styles.disabled]}
+                disabled={historyBusy}
+                onPress={() => void onClearTodayGone()}
+              >
+                <Text style={styles.outlineBtnText}>清除今日剔走</Text>
+              </Pressable>
               <Text style={styles.captionNote}>
-                「去食」過嘅店今日唔會再入抽獎池。清除今日記錄只清顯示用歷史，唔會還原已去食／唔鍾意排除。
+                「去食／今日剔走」過嘅店今日唔會再入抽獎池。清除今日記錄只清顯示用歷史；清除今日剔走會將今日剔走／去食嘅店還原入今日抽獎池。永久唔鍾意權重同永久黑名單唔會清。
               </Text>
             </View>
           )}
+        </View>
+
+        <View style={[styles.card, shadows.card]}>
+          <Text style={styles.label}>抽獎偏好</Text>
+          <Pressable
+            style={styles.toggleRow}
+            onPress={() => void setMoreSurprise(!moreSurprise)}
+            accessibilityRole="switch"
+            accessibilityState={{ checked: moreSurprise }}
+          >
+            <View style={{ flex: 1, gap: 2 }}>
+              <Text style={styles.body}>多啲驚喜</Text>
+              <Text style={styles.captionNote}>
+                開啟後會減低高評分店主導，抽中結果更分散。
+              </Text>
+            </View>
+            <View
+              style={[
+                styles.toggleTrack,
+                moreSurprise && styles.toggleTrackOn,
+              ]}
+            >
+              <View
+                style={[
+                  styles.toggleThumb,
+                  moreSurprise && styles.toggleThumbOn,
+                ]}
+              />
+            </View>
+          </Pressable>
+        </View>
+
+        <View style={[styles.card, shadows.card]}>
+          <Text style={styles.label}>永久黑名單</Text>
+          {blacklist.length === 0 ? (
+            <Text style={styles.muted}>未有永久排除嘅店</Text>
+          ) : (
+            blacklist.map((e) => (
+              <View key={e.placeId} style={styles.blacklistRow}>
+                <Text style={[styles.historyLine, { flex: 1 }]}>
+                  {e.name || e.placeId}
+                </Text>
+                <Pressable
+                  disabled={historyBusy}
+                  onPress={() => void unblacklistPlace(e.placeId)}
+                  hitSlop={8}
+                >
+                  <Text style={styles.linkBtn}>移除</Text>
+                </Pressable>
+              </View>
+            ))
+          )}
+          {blacklist.length > 0 ? (
+            <Pressable
+              style={[styles.outlineBtn, historyBusy && styles.disabled]}
+              disabled={historyBusy}
+              onPress={() => void onClearBlacklist()}
+            >
+              <Text style={styles.outlineBtnText}>清除全部黑名單</Text>
+            </Pressable>
+          ) : null}
+          <Text style={styles.captionNote}>
+            永久黑名單唔會過零點失效；要喺呢度手動移除先會再入池。
+          </Text>
         </View>
 
         {rawPlaces.length > 0 && (
@@ -911,6 +1001,38 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
   disabled: { opacity: 0.5 },
+  toggleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    paddingVertical: spacing.xs,
+  },
+  toggleTrack: {
+    width: 48,
+    height: 28,
+    borderRadius: 14,
+    backgroundColor: colors.borderStrong,
+    padding: 3,
+    justifyContent: 'center',
+  },
+  toggleTrackOn: {
+    backgroundColor: colors.primary,
+  },
+  toggleThumb: {
+    width: 22,
+    height: 22,
+    borderRadius: 11,
+    backgroundColor: colors.card,
+  },
+  toggleThumbOn: {
+    alignSelf: 'flex-end',
+  },
+  blacklistRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    paddingVertical: 4,
+  },
   poolHint: {
     ...typography.caption,
     color: colors.textMuted,

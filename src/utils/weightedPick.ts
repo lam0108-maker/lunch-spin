@@ -19,19 +19,39 @@ export function weightForRating(rating: number | null | undefined): number {
   return Math.pow(2, effective - 3.5);
 }
 
+/**
+ * 「多啲驚喜」：用 2^((effective-3.5)*0.35) 壓扁評分曲線，高分店冇咁主導。
+ */
+export function weightForRatingSurprise(
+  rating: number | null | undefined,
+): number {
+  const effective =
+    rating == null || Number.isNaN(rating) ? 3.5 : Math.min(5, rating);
+  return Math.pow(2, (effective - 3.5) * 0.35);
+}
+
+export type WeightedPickOptions = {
+  moreSurprise?: boolean;
+};
+
 export function weightedPick<
   T extends { placeId: PlaceId; rating?: number | null },
 >(
   items: T[],
   rejectCounts: Record<PlaceId, number>,
   rng: () => number = Math.random,
+  options: WeightedPickOptions = {},
 ): T | null {
   if (items.length === 0) return null;
+
+  const ratingW = options.moreSurprise
+    ? weightForRatingSurprise
+    : weightForRating;
 
   const weights = items.map(
     (item) =>
       weightForRejects(rejectCounts[item.placeId] ?? 0) *
-      weightForRating(item.rating),
+      ratingW(item.rating),
   );
   const total = weights.reduce((a, b) => a + b, 0);
   if (total <= 0) return items[Math.floor(rng() * items.length)] ?? null;
@@ -44,13 +64,18 @@ export function weightedPick<
   return items[items.length - 1]!;
 }
 
-/** 今日已 reject／已「去食」嘅地方唔入池 */
+/** 今日已 reject／已「剔走／去食」／永久黑名單唔入池 */
 export function filterPool(
   places: Place[],
   todayRejects: PlaceId[],
   todayGone: PlaceId[],
+  permanentBlacklist: PlaceId[] = [],
 ): Place[] {
-  const ban = new Set([...todayRejects, ...todayGone]);
+  const ban = new Set([
+    ...todayRejects,
+    ...todayGone,
+    ...permanentBlacklist,
+  ]);
   return places.filter((p) => !ban.has(p.placeId));
 }
 
@@ -91,13 +116,14 @@ export function weightedPickN<
   rejectCounts: Record<PlaceId, number>,
   n: number,
   rng: () => number = Math.random,
+  options: WeightedPickOptions = {},
 ): T[] {
   if (items.length === 0 || n <= 0) return [];
   const remaining = [...items];
   const picked: T[] = [];
   const count = Math.min(n, remaining.length);
   for (let i = 0; i < count; i++) {
-    const next = weightedPick(remaining, rejectCounts, rng);
+    const next = weightedPick(remaining, rejectCounts, rng, options);
     if (!next) break;
     picked.push(next);
     const idx = remaining.findIndex((x) => x.placeId === next.placeId);

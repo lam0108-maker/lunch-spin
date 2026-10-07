@@ -161,3 +161,18 @@ a.map:hover { text-decoration: underline; }
   .top h1 { font-size: 1.15rem; }
   .item-head { flex-direction: column; align-items: flex-start; }
 }
+
+.region-head {
+  margin: 0.85rem 0 0.35rem;
+  padding: 0.35rem 0.55rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ink);
+  background: #f3f4f6;
+  border-radius: 8px;
+  border: 1px solid var(--line, #e5e7eb);
+}
+.pill.region {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}

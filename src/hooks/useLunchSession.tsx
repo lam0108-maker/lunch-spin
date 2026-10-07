@@ -2,22 +2,30 @@ import React, {
   createContext,
   useCallback,
   useContext,
+  useEffect,
   useMemo,
   useState,
 } from 'react';
-import type { Place, RadiusMeters, UserCoords } from '../types/place';
+import type { Place, PlaceId, RadiusMeters, UserCoords } from '../types/place';
 import {
+  addToBlacklist,
+  getBlacklist,
+  getBlacklistIds,
   getRejectMap,
   getTodayGone,
   getTodayRejects,
   incrementReject,
   markGoneToday,
+  removeFromBlacklist,
+  clearBlacklist,
+  type BlacklistEntry,
 } from '../services/rejectStore';
 import {
   markHistoryGone,
   markHistoryRejected,
   recordSpinResult,
 } from '../services/spinHistoryStore';
+import { getMoreSurprise, setMoreSurprise as persistMoreSurprise } from '../services/prefsStore';
 import { fetchNearbyRestaurants } from '../services/places';
 import { applyPlaceFilters, uniqueCuisinesFromPlaces } from '../utils/placeFilters';
 import { formatPlacePrice } from '../utils/format';
@@ -45,16 +53,25 @@ interface LunchSessionValue {
   /** 主結果＝lastPicks[0]，畀 NameReel／wheel 用 */
   lastPick: Place | null;
   wheelPlaces: Place[];
+  moreSurprise: boolean;
+  blacklist: BlacklistEntry[];
   setRadius: (r: RadiusMeters) => void;
   setCoords: (c: UserCoords) => void;
   setFilterCuisines: (c: string[]) => void;
   setPriceCapHkd: (v: number | null) => void;
   setSpinCount: (n: SpinCount) => void;
+  setMoreSurprise: (on: boolean) => Promise<void>;
   toggleFilterCuisine: (c: string) => void;
   loadPlaces: () => Promise<Place[]>;
   spin: () => Promise<Place | null>;
   rejectLast: () => Promise<void>;
   confirmGone: () => Promise<void>;
+  /** 只剔走單一間（今日） */
+  skipPlaceToday: (placeId: PlaceId) => Promise<void>;
+  blacklistPlace: (place: Place) => Promise<void>;
+  unblacklistPlace: (placeId: PlaceId) => Promise<void>;
+  clearAllBlacklist: () => Promise<void>;
+  refreshBlacklist: () => Promise<void>;
   clearError: () => void;
 }
 
@@ -89,11 +106,41 @@ export function LunchSessionProvider({
   const [lastPicks, setLastPicks] = useState<Place[]>([]);
   const [lastPick, setLastPick] = useState<Place | null>(null);
   const [wheelPlaces, setWheelPlaces] = useState<Place[]>([]);
+  const [moreSurprise, setMoreSurpriseState] = useState(false);
+  const [blacklist, setBlacklist] = useState<BlacklistEntry[]>([]);
 
   const availableCuisines = useMemo(
     () => uniqueCuisinesFromPlaces(rawPlaces),
     [rawPlaces],
   );
+
+  const refreshBlacklist = useCallback(async () => {
+    try {
+      setBlacklist(await getBlacklist());
+    } catch {
+      // ignore
+    }
+  }, []);
+
+  useEffect(() => {
+    void (async () => {
+      try {
+        setMoreSurpriseState(await getMoreSurprise());
+      } catch {
+        // ignore
+      }
+      await refreshBlacklist();
+    })();
+  }, [refreshBlacklist]);
+
+  const setMoreSurprise = useCallback(async (on: boolean) => {
+    setMoreSurpriseState(on);
+    try {
+      await persistMoreSurprise(on);
+    } catch {
+      // ignore
+    }
+  }, []);
 
   const reapplyFilters = useCallback(
     (raw: Place[], cuisines: string[], cap: number | null) => {
@@ -131,7 +178,6 @@ export function LunchSessionProvider({
           ? prev.filter((x) => x !== cuisine)
           : [...prev, cuisine];
         if (rawPlaces.length > 0) {
-          // 用最新 next 即時重篩
           setPlaces(applyFiltersToRaw(rawPlaces, next, priceCapHkd));
         }
         return next;
@@ -177,12 +223,14 @@ export function LunchSessionProvider({
   }, [coords, radius, filterCuisines, priceCapHkd]);
 
   const spin = useCallback(async (): Promise<Place | null> => {
-    const [rejectMap, todayRejects, todayGone] = await Promise.all([
-      getRejectMap(),
-      getTodayRejects(),
-      getTodayGone(),
-    ]);
-    const pool = filterPool(places, todayRejects, todayGone);
+    const [rejectMap, todayRejects, todayGone, blacklistIds] =
+      await Promise.all([
+        getRejectMap(),
+        getTodayRejects(),
+        getTodayGone(),
+        getBlacklistIds(),
+      ]);
+    const pool = filterPool(places, todayRejects, todayGone, blacklistIds);
     if (pool.length === 0) {
       setError('今日附近餐廳都抽過／唔鍾意晒喇，試吓加大範圍或換地區。');
       return null;
@@ -192,7 +240,9 @@ export function LunchSessionProvider({
       counts[p.placeId] = rejectMap[p.placeId]?.count ?? 0;
     }
     const n = Math.min(spinCount, pool.length);
-    const chosenList = weightedPickN(pool, counts, n);
+    const chosenList = weightedPickN(pool, counts, n, Math.random, {
+      moreSurprise,
+    });
     if (chosenList.length === 0) {
       setError('抽獎失敗');
       return null;
@@ -222,7 +272,7 @@ export function LunchSessionProvider({
       // 歷史寫入失敗唔阻抽獎
     }
     return chosen;
-  }, [places, spinCount]);
+  }, [places, spinCount, moreSurprise]);
 
   const rejectLast = useCallback(async () => {
     const targets = lastPicks.length > 0 ? lastPicks : lastPick ? [lastPick] : [];
@@ -250,6 +300,46 @@ export function LunchSessionProvider({
     }
   }, [lastPicks, lastPick]);
 
+  const skipPlaceToday = useCallback(async (placeId: PlaceId) => {
+    await markGoneToday(placeId);
+    try {
+      await markHistoryGone(placeId);
+    } catch {
+      // ignore
+    }
+    setLastPicks((prev) => {
+      const next = prev.filter((p) => p.placeId !== placeId);
+      setLastPick(next[0] ?? null);
+      return next;
+    });
+  }, []);
+
+  const blacklistPlace = useCallback(
+    async (place: Place) => {
+      await addToBlacklist(place.placeId, place.name);
+      await refreshBlacklist();
+      setLastPicks((prev) => {
+        const next = prev.filter((p) => p.placeId !== place.placeId);
+        setLastPick(next[0] ?? null);
+        return next;
+      });
+    },
+    [refreshBlacklist],
+  );
+
+  const unblacklistPlace = useCallback(
+    async (placeId: PlaceId) => {
+      await removeFromBlacklist(placeId);
+      await refreshBlacklist();
+    },
+    [refreshBlacklist],
+  );
+
+  const clearAllBlacklist = useCallback(async () => {
+    await clearBlacklist();
+    await refreshBlacklist();
+  }, [refreshBlacklist]);
+
   const value = useMemo(
     () => ({
       coords,
@@ -266,16 +356,24 @@ export function LunchSessionProvider({
       lastPicks,
       lastPick,
       wheelPlaces,
+      moreSurprise,
+      blacklist,
       setRadius,
       setCoords,
       setFilterCuisines: setFilterCuisinesAndReapply,
       setPriceCapHkd: setPriceCapAndReapply,
       setSpinCount,
+      setMoreSurprise,
       toggleFilterCuisine,
       loadPlaces,
       spin,
       rejectLast,
       confirmGone,
+      skipPlaceToday,
+      blacklistPlace,
+      unblacklistPlace,
+      clearAllBlacklist,
+      refreshBlacklist,
       clearError: () => setError(null),
     }),
     [
@@ -293,13 +391,21 @@ export function LunchSessionProvider({
       lastPicks,
       lastPick,
       wheelPlaces,
+      moreSurprise,
+      blacklist,
       setFilterCuisinesAndReapply,
       setPriceCapAndReapply,
+      setMoreSurprise,
       toggleFilterCuisine,
       loadPlaces,
       spin,
       rejectLast,
       confirmGone,
+      skipPlaceToday,
+      blacklistPlace,
+      unblacklistPlace,
+      clearAllBlacklist,
+      refreshBlacklist,
     ],
   );
 

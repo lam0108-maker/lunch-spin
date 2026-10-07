@@ -101,6 +101,15 @@
       "excluded": 11
     },
     {
+      "slug": "wan-chai",
+      "file": "wan-chai-restaurants.json",
+      "district": "灣仔",
+      "version": "1.0",
+      "updated_at": "2026-10-07",
+      "kept": 506,
+      "excluded": 227
+    },
+    {
       "slug": "yau-ma-tei",
       "file": "yau-ma-tei-restaurants.json",
       "district": "油麻地",

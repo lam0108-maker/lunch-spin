@@ -7,13 +7,13 @@ export function formatDistance(meters: number): string {
 export const WALK_METERS_PER_MIN = 80;
 
 /**
- * 顯示「約 X 分鐘行路」；少過 1 分離「少過 1 分鐘」。
+ * 顯示「約 N 分鐘」；少過 1 分離「少過 1 分鐘」。距離無效回空字串。
  */
 export function formatWalkMinutes(meters: number): string {
   if (!Number.isFinite(meters) || meters < 0) return '';
   const mins = meters / WALK_METERS_PER_MIN;
   if (mins < 1) return '少過 1 分鐘';
-  return `約 ${Math.round(mins)} 分鐘行路`;
+  return `約 ${Math.round(mins)} 分鐘`;
 }
 
 /** 只回傳分鐘數字（整數），少過 1 回 0；分享文案用 */

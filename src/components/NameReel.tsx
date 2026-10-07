@@ -187,11 +187,15 @@ export function NameReel({
                   {cuisine ? (
                     <Text style={styles.cuisine} numberOfLines={1}>
                       {cuisine}
-                      {p.distanceMeters != null
+                      {Number.isFinite(p.distanceMeters) &&
+                      p.distanceMeters >= 0 &&
+                      formatWalkMinutes(p.distanceMeters)
                         ? ` · ${formatWalkMinutes(p.distanceMeters)}`
                         : ''}
                     </Text>
-                  ) : p.distanceMeters != null ? (
+                  ) : Number.isFinite(p.distanceMeters) &&
+                    p.distanceMeters >= 0 &&
+                    formatWalkMinutes(p.distanceMeters) ? (
                     <Text style={styles.cuisine} numberOfLines={1}>
                       {formatWalkMinutes(p.distanceMeters)}
                     </Text>
