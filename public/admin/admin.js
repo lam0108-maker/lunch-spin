@@ -301,17 +301,40 @@
     return { rows: rows, keptTotal: keptTotal, exclTotal: exclTotal, perDistrict: perDistrict };
   }
 
+  function districtPillStats() {
+    // Always show every district (from manifest), so pills stay selectable
+    // even when the list is filtered to one district.
+    return sortDistricts(state.manifest.districts).map(function (d) {
+      var pack = state.bySlug[d.slug];
+      return {
+        slug: d.slug,
+        district: d.district,
+        kept: pack ? pack.kept.length : d.kept,
+        excluded: pack ? pack.excluded.length : d.excluded,
+        region: regionOf(d),
+      };
+    });
+  }
+
+  function setDistrict(slug) {
+    var next = slug || '';
+    if (state.district === next) return;
+    state.district = next;
+    if (el.district) el.district.value = next;
+    refresh();
+  }
+
   function renderCounts(info) {
     var html = [];
     html.push(
-      '<span class="pill">合計 <strong>kept ' +
+      '<span class="pill summary">合計 <strong>kept ' +
         info.keptTotal +
         '</strong> / <strong>excluded ' +
         info.exclTotal +
         '</strong></span>'
     );
     html.push(
-      '<span class="pill">目前 tab 顯示 <strong>' +
+      '<span class="pill summary">目前 tab 顯示 <strong>' +
         info.rows.length +
         '</strong> 筆' +
         (state.q ? '（已搜尋）' : '') +
@@ -319,19 +342,28 @@
     );
 
     var lastRegion = null;
-    info.perDistrict.forEach(function (d) {
+    districtPillStats().forEach(function (d) {
       if (state.districtSort === 'region' && d.region !== lastRegion) {
         html.push('<span class="pill region">' + esc(d.region) + '</span>');
         lastRegion = d.region;
       }
+      var selected = state.district === d.slug;
       html.push(
-        '<span class="pill">' +
+        '<button type="button" class="pill district-pill' +
+          (selected ? ' selected' : '') +
+          '" data-slug="' +
+          esc(d.slug) +
+          '" aria-pressed="' +
+          (selected ? 'true' : 'false') +
+          '" title="' +
+          (selected ? '再撳取消地區篩選' : '篩選：' + esc(d.district)) +
+          '">' +
           esc(d.district) +
           ': kept <strong>' +
           d.kept +
           '</strong> / excl <strong>' +
           d.excluded +
-          '</strong></span>'
+          '</strong></button>'
       );
     });
     el.counts.innerHTML = html.join('');
@@ -443,8 +475,15 @@
   });
 
   el.district.addEventListener('change', function () {
-    state.district = el.district.value;
-    refresh();
+    setDistrict(el.district.value);
+  });
+
+  el.counts.addEventListener('click', function (ev) {
+    var btn = ev.target.closest ? ev.target.closest('.district-pill') : null;
+    if (!btn || !el.counts.contains(btn)) return;
+    var slug = btn.getAttribute('data-slug') || '';
+    // Toggle: click selected pill → 全部地區
+    setDistrict(state.district === slug ? '' : slug);
   });
 
   if (el.districtSort) {
