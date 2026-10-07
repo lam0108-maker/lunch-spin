@@ -1,7 +1,7 @@
 {
   "district": "灣仔",
-  "version": "1.0",
-  "updated_at": "2026-10-07",
+  "version": "1.1",
+  "updated_at": "2026-10-07T12:00:00+08:00",
   "criteria": {
     "serves_lunch": true,
     "dine_in": true,
@@ -15,8 +15,8 @@
       "tea_drink",
       "karaoke_nightlife"
     ],
-    "min_google_rating": 3.5,
-    "google_rating_note_zh": "Google 地圖公開頁評分 ≥3.5 先入 kept（wan-chai-round1，2026-10-07）。",
+    "min_google_rating": null,
+    "google_rating_note_zh": "Google 地圖公開頁評分只作顯示、唔再作入庫門檻（評分門檻回填 2026-10-07；原 ≥3.5 規則取消）。",
     "dessert_rule_zh": "Google 類別／cuisine 主要屬甜品、糖水、麵包／烘焙、純咖啡、茶飲、卡拉 OK／夜總會 → 一律 excluded；即使同時寫「餐廳」都照剔。例外：有正常午餐主食證據先可留。邊界 28 間經 CEO 批核後全部移 excluded。",
     "causeway_bay_zh": "唔開銅鑼灣；東停銅鑼灣西緣（時代廣場／希慎／SOGO 核心 skip）。",
     "ca_overlap_zh": "同中環／金鐘西緣輕微重疊；place_id／牌照已在 central-admiralty kept 者暫緩／唔入灣仔 kept（Maison ES、Mr Tomahawk 等）。"
@@ -24916,9 +24916,7 @@
       "google_place_id": "ChIJHaxa71YBBDQR3Zi1WoxLyMM",
       "fehd_licence_no": "2212818101",
       "licence_type": "普通食肆"
-    }
-  ],
-  "excluded": [
+    },
     {
       "id": "8-hao-bing-shi-luo-ke",
       "name_zh": "8號冰室",
@@ -24928,8 +24926,6 @@
       "district": "灣仔",
       "area": "駱克",
       "address": "香港灣仔駱克道125號安安大樓地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（416 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
       "sources": [
         {
           "name": "食環署持牌食肆 XML（8號冰室／牌照2212817029／普通食肆）",
@@ -24948,8 +24944,2434 @@
       "google_rating": 3.2,
       "google_review_count": 416,
       "fehd_licence_no": "2212817029",
-      "google_place_id": "ChIJyw9XZFwABDQR69gfvWYuSs4"
+      "google_place_id": "ChIJyw9XZFwABDQR69gfvWYuSs4",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.2／416 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
     },
+    {
+      "id": "apa-fiesta-hui-zhan-gang-wan",
+      "name_zh": "APA Fiesta",
+      "name_en": "APA Fiesta",
+      "lat": 22.280125299999998,
+      "lng": 114.170131,
+      "district": "灣仔",
+      "area": "會展／港灣道",
+      "address": "灣仔告士打道1號UG層香港演藝學院",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJoTKaw10ABDQReHIzFVmkjvQ",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJoTKaw10ABDQReHIzFVmkjvQ",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "dosi-le-hui-zhan-gang-wan",
+      "name_zh": "Dosi樂",
+      "name_en": "Dosi樂",
+      "lat": 22.2810258,
+      "lng": 114.1750919,
+      "district": "灣仔",
+      "area": "會展／港灣道",
+      "address": "香港島灣仔港灣道25號海港中心1樓shop106",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJZ1VAegABBDQRhB2E7U0ccqY",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.1,
+      "google_review_count": null,
+      "google_place_id": "ChIJZ1VAegABBDQRhB2E7U0ccqY",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：韓國餐廳。Google 評分 2.1（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "grand-lok-hainan-chicken-wan-wan-zai",
+      "name_zh": "Grand Lok Hainan Chicken (Wan Chai)",
+      "name_en": "Grand Lok Hainan Chicken (Wan Chai)",
+      "lat": 22.275502,
+      "lng": 114.17257359999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "29, 41 Spring Garden Ln, Wan Chai, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJfbrHSAABBDQRRMSs6MKr0i0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJfbrHSAABBDQRRMSs6MKr0i0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜外賣。Google 評分 2.8（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "grove-hui-zhan-gang-wan",
+      "name_zh": "Grove",
+      "name_en": "Grove",
+      "lat": 22.2810988,
+      "lng": 114.1755924,
+      "district": "灣仔",
+      "area": "會展／港灣道",
+      "address": "香港灣仔港灣道25號 海港中心1樓105號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Grove／牌照3112810503／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJeeAWTEBBDQRgF1taTIq1a0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "3112810503",
+      "google_place_id": "ChIJJeeAWTEBBDQRgF1taTIq1a0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "international-curry-house-the-emperor-wan-zai",
+      "name_zh": "International Curry House 國際咖哩館 (The Emperor Hotel)",
+      "name_en": null,
+      "lat": 22.2748255,
+      "lng": 114.17825459999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港島灣仔皇后大道東373號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJrWG7JwABBDQRUt9Wkzg3KK8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.6,
+      "google_review_count": null,
+      "google_place_id": "ChIJrWG7JwABBDQRUt9Wkzg3KK8",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：亞洲菜餐廳。Google 評分 2.6（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.6 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "james-kitchen-xuan-ni-shi",
+      "name_zh": "James Kitchen",
+      "name_en": "James Kitchen",
+      "lat": 22.278153099999997,
+      "lng": 114.16887639999999,
+      "district": "灣仔",
+      "area": "軒尼詩",
+      "address": "香港島灣仔軒尼詩道1號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJmywCUgABBDQRSjZkatJqXQQ",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.5,
+      "google_review_count": null,
+      "google_place_id": "ChIJmywCUgABBDQRSjZkatJqXQQ",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 2.5（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.5 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "luk-kwok-centre-wan-chai-wan-zai",
+      "name_zh": "Luk Kwok Centre, Wan Chai, Hong Kong",
+      "name_en": "Luk Kwok Centre, Wan Chai, Hong Kong",
+      "lat": 22.278865,
+      "lng": 114.172354,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港島灣仔告士打道72號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／12 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJL8CCaVwABDQRXkNCFt3KXsQ",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 12,
+      "google_place_id": "ChIJL8CCaVwABDQRXkNCFt3KXsQ",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：公司辦公室。Google 評分 3.3／12 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "partager-bistro-hui-zhan-gang-wan",
+      "name_zh": "PARTAGER BISTRO",
+      "name_en": "Partager Bistro",
+      "lat": 22.2801945,
+      "lng": 114.1724002,
+      "district": "灣仔",
+      "area": "會展／港灣道",
+      "address": "香港灣仔港灣道12號灣仔政府大樓 地下A部份及上層",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（PARTAGER BISTRO／牌照3112809998／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ5TVgFQABBDQRglE4FYD9wo8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "3112809998",
+      "google_place_id": "ChIJ5TVgFQABBDQRglE4FYD9wo8",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：西餐廳／早餐店。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "revenue-tower-wan-zai",
+      "name_zh": "Revenue Tower",
+      "name_en": "Revenue Tower",
+      "lat": 22.2796603,
+      "lng": 114.1719272,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港島灣仔告士打道5號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／19 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMQyf9KwBBDQRPos2AD3cJyM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 19,
+      "google_place_id": "ChIJMQyf9KwBBDQRPos2AD3cJyM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中央政府部門。Google 評分 3.4／19 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "sushitsuru-wan-zai",
+      "name_zh": "Sushitsuru",
+      "name_en": "Sushitsuru",
+      "lat": 22.278781499999997,
+      "lng": 114.172907,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "Shop A 1/G, 香海大廈121-123 Jaffe Rd, Wan Chai, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.5／2 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJV_wCblwABDQRvnuygWDChx8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.5,
+      "google_review_count": 2,
+      "google_place_id": "ChIJV_wCblwABDQRvnuygWDChx8",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 2.5／2 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.5 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "taiwan-lang-tai-wan-zhuang-shi-dun-xiu",
+      "name_zh": "Taiwan Lang 台灣郎",
+      "name_en": null,
+      "lat": 22.2771497,
+      "lng": 114.17053519999999,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港島灣仔莊士敦道33號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.8／8 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ4TCbRgABBDQRHFNfS7zws-A",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.8,
+      "google_review_count": 8,
+      "google_place_id": "ChIJ4TCbRgABBDQRHFNfS7zws-A",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：台灣餐廳。Google 評分 2.8／8 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yakiniku-like-wan-zai",
+      "name_zh": "Yakiniku Like",
+      "name_en": "Yakiniku LIKE (Hopewell Centre)",
+      "lat": 22.2746386,
+      "lng": 114.17172529999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔皇后大道東183號 合和中心3樓322-323號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Yakiniku Like／牌照2212822548／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／53 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ4zmcVB4BBDQRZ9u5nVMa_lU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 53,
+      "fehd_licence_no": "2212822548",
+      "google_place_id": "ChIJ4zmcVB4BBDQRZ9u5nVMa_lU",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：日式燒肉餐廳。Google 評分 3.4／53 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yky-homemade-noodle-wanchai-wan-zai",
+      "name_zh": "YkY Homemade Noodle(WanChai)",
+      "name_en": "YkY Homemade Noodle(WanChai)",
+      "lat": 22.2760605,
+      "lng": 114.1715796,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港島灣仔大王東街樹德大廈地下3號鋪",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.9／10 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRXztoQ0BBDQRC9Y0HwL8OEo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.9,
+      "google_review_count": 10,
+      "google_place_id": "ChIJRXztoQ0BBDQRC9Y0HwL8OEo",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 評分 2.9／10 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.9 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yi-kou-xiang-dian-xin-wan-zai",
+      "name_zh": "一口香點心專賣店",
+      "name_en": null,
+      "lat": 22.2783111,
+      "lng": 114.17981329999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔天樂里7號地下及閣樓",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（一口香點心專賣店／牌照2212807620／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／20 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJD9hWVQABBDQRi7U4RO2R2FE",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 20,
+      "fehd_licence_no": "2212807620",
+      "google_place_id": "ChIJD9hWVQABBDQRi7U4RO2R2FE",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：酒樓。Google 評分 3.3／20 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "wu-xing-can-ting-wan-zai",
+      "name_zh": "五星餐廳",
+      "name_en": "Wuxing Dim Sum Restaurant",
+      "lat": 22.278544399999998,
+      "lng": 114.17246109999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港謝斐道110-116號美暉大廈地下3號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（五星餐廳／牌照2212222252／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／157 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJCz2SaFwABDQRKRa-G_7TbIA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 157,
+      "fehd_licence_no": "2212222252",
+      "google_place_id": "ChIJCz2SaFwABDQRKRa-G_7TbIA",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4／157 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "ya-su-ji-fan-xuan-ni-shi",
+      "name_zh": "亞蘇雞飯",
+      "name_en": null,
+      "lat": 22.2776847,
+      "lng": 114.17218749999999,
+      "district": "灣仔",
+      "area": "軒尼詩",
+      "address": "香港灣仔軒尼詩道107號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（亞蘇雞飯／牌照3812825205／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_YGh0zABBDQR9utZiABk0tU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 1,
+      "google_review_count": null,
+      "fehd_licence_no": "3812825205",
+      "google_place_id": "ChIJ_YGh0zABBDQR9utZiABk0tU",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：亞洲菜餐廳。Google 評分 1（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jia-ji-mei-shi-xuan-ni-shi",
+      "name_zh": "佳記美食",
+      "name_en": null,
+      "lat": 22.278125,
+      "lng": 114.17577399999999,
+      "district": "灣仔",
+      "area": "軒尼詩",
+      "address": "香港灣仔軒尼詩道229-233號地下A舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（佳記美食／牌照2212818253／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJmQ_9_50BBDQRMM_9zBDEr1s",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "2212818253",
+      "google_place_id": "ChIJmQ_9_50BBDQRMM_9zBDEr1s",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "you-tian-niu-tun-wang-hui-zhan-gang-wan",
+      "name_zh": "友田牛 / 豚王",
+      "name_en": null,
+      "lat": 22.2810258,
+      "lng": 114.1750919,
+      "district": "灣仔",
+      "area": "會展／港灣道",
+      "address": "香港灣仔港灣道23號鷹君中心1樓 121-122號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（友田牛 / 豚王／牌照2212824298／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.8／19 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJTetfVAABBDQRgqncQf8UOf0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.8,
+      "google_review_count": 19,
+      "fehd_licence_no": "2212824298",
+      "google_place_id": "ChIJTetfVAABBDQRgqncQf8UOf0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：拉麵店。Google 評分 2.8／19 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "ji-ye-jia-zhuang-shi-dun-xiu",
+      "name_zh": "吉野家",
+      "name_en": "Yoshinoya",
+      "lat": 22.2764827,
+      "lng": 114.1734771,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港灣仔莊士敦道128號台山中心地下(部份)及地庫",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（吉野家／牌照2212814163／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／673 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvf9YnlwABDQRrRyy729XABY",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 673,
+      "fehd_licence_no": "2212814163",
+      "google_place_id": "ChIJvf9YnlwABDQRrRyy729XABY",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：牛丼餐廳／快餐店／日本餐廳。Google 評分 3.3／673 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "xi-ji-bi-feng-tang-wan-zai",
+      "name_zh": "喜記避風塘炒辣蟹",
+      "name_en": "Hee Kee Fried Crab Expert Ltd",
+      "lat": 22.2800799,
+      "lng": 114.1797778,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港謝斐道379-389號特麗樓地下1-4號",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（喜記避風塘炒辣蟹／牌照2212223769／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ48pNVlcABDQRRxAU8IPuWhs",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "2212223769",
+      "google_place_id": "ChIJ48pNVlcABDQRRxAU8IPuWhs",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：海鮮餐廳。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "da-le-yue-nan-niu-luo-ke",
+      "name_zh": "大叻越南牛肉粉餐廳",
+      "name_en": "DALAT Vietnamese Restaurant (Lockhart Road)",
+      "lat": 22.2784548,
+      "lng": 114.1768505,
+      "district": "灣仔",
+      "area": "駱克",
+      "address": "香港灣仔駱克道272-274號 東成大廈地下B鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大叻越南牛肉粉餐廳／牌照2212821624／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／127 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJL8nCE9oBBDQRMc99M74l1UY",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 127,
+      "fehd_licence_no": "2212821624",
+      "google_place_id": "ChIJL8nCE9oBBDQRMc99M74l1UY",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：越南餐廳。Google 評分 3.4／127 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "da-le-yue-nan-niu-luo-ke-2",
+      "name_zh": "大叻越南牛肉粉餐廳",
+      "name_en": null,
+      "lat": 22.2783448,
+      "lng": 114.173448,
+      "district": "灣仔",
+      "area": "駱克",
+      "address": "香港灣仔駱克道151號地下B鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大叻越南牛肉粉餐廳／牌照2212824030／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／5 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2_wlRgABBDQRFSvLUi0k0jU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": 5,
+      "fehd_licence_no": "2212824030",
+      "google_place_id": "ChIJ2_wlRgABBDQRFSvLUi0k0jU",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：亞洲菜餐廳。Google 評分 3／5 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "da-jia-le-luo-ke",
+      "name_zh": "大家樂",
+      "name_en": "Café de Coral",
+      "lat": 22.2783779,
+      "lng": 114.1733405,
+      "district": "灣仔",
+      "area": "駱克",
+      "address": "香港灣仔駱克道149, 151, 153 及155號1樓",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大家樂／牌照2212102260／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／804 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJz4_9blkABDQRlqsfRVnAVEw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 804,
+      "fehd_licence_no": "2212102260",
+      "google_place_id": "ChIJz4_9blkABDQRlqsfRVnAVEw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店／餐廳。Google 評分 3.4／804 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "da-fa-zhou-fen-mian-wan-zai",
+      "name_zh": "大發粥粉麵",
+      "name_en": null,
+      "lat": 22.278743799999997,
+      "lng": 114.1809509,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔堅拿道西10號 冠景樓地下C鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大發粥粉麵／牌照2212821420／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／92 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJV0uYwEcBBDQRdxzEPCQ_lJs",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 92,
+      "fehd_licence_no": "2212821420",
+      "google_place_id": "ChIJV0uYwEcBBDQRdxzEPCQ_lJs",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4／92 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "an-nan-yue-niu-rou-zhuang-shi-dun-xiu",
+      "name_zh": "安南越南牛肉粉",
+      "name_en": "An Nam Pho",
+      "lat": 22.277110999999998,
+      "lng": 114.17467169999999,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港灣仔莊士敦道181號大有大廈大有商場2樓 208及209號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（安南越南牛肉粉／牌照2212814710／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／254 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJ5tgcFsABDQRsDuJ7xv4fPw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 254,
+      "fehd_licence_no": "2212814710",
+      "google_place_id": "ChIJJ5tgcFsABDQRsDuJ7xv4fPw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：越式河粉餐廳。Google 評分 3.4／254 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "2-dai-min-wan-zai-zhuang-shi-dun-xiu",
+      "name_zh": "岱民灣仔店(2)",
+      "name_en": null,
+      "lat": 22.2788707,
+      "lng": 114.1794625,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港灣仔譚臣道105-111號 豪富商業大廈地下C鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（岱民灣仔店(2)／牌照2212823967／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／19 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMxyOMAUBBDQRGeX_aN8LmIw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 19,
+      "fehd_licence_no": "2212823967",
+      "google_place_id": "ChIJMxyOMAUBBDQRGeX_aN8LmIw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜外賣。Google 評分 3.4／19 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "ping-min-mei-shi-luo-ke",
+      "name_zh": "平民美食",
+      "name_en": null,
+      "lat": 22.278246499999998,
+      "lng": 114.1731677,
+      "district": "灣仔",
+      "area": "駱克",
+      "address": "香港島灣仔駱克道143-145號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.9／18 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJf_ZyLwABBDQR4ZGyw-fISus",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.9,
+      "google_review_count": 18,
+      "google_place_id": "ChIJf_ZyLwABBDQR4ZGyw-fISus",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：小吃攤。Google 評分 2.9／18 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.9 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "gong-zhao-zi-xuan-mian-wan-zai",
+      "name_zh": "拱照自選麵",
+      "name_en": "Kung Chiu Noodle",
+      "lat": 22.2766107,
+      "lng": 114.16983909999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔機利臣街1號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（拱照自選麵／牌照2212808067／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／205 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJZ-InJV0ABDQRcLgnOhU5faw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 205,
+      "fehd_licence_no": "2212808067",
+      "google_place_id": "ChIJZ-InJV0ABDQRcLgnOhU5faw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.3／205 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "min-hua-bing-ting-wan-zai",
+      "name_zh": "敏華冰廳",
+      "name_en": "Men Wah Bing Teng (Wan Chai)",
+      "lat": 22.276629399999997,
+      "lng": 114.1754362,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔灣仔道109號壹嘉地下1號鋪(大部份)",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（敏華冰廳／牌照2212818031／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／313 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJpUViElsABDQRg0J94hwnvSA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 313,
+      "fehd_licence_no": "2212818031",
+      "google_place_id": "ChIJpUViElsABDQRg0J94hwnvSA",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.3／313 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "xin-shen-zhou-dian-xuan-ni-shi",
+      "name_zh": "新深粥店",
+      "name_en": "Sun Sum Congee",
+      "lat": 22.2775252,
+      "lng": 114.17375639999999,
+      "district": "灣仔",
+      "area": "軒尼詩",
+      "address": "香港灣仔軒尼詩道168號煥然樓地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新深粥店／牌照2212812787／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／203 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7RTGgFwABDQRn33AmJyDZNI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.1,
+      "google_review_count": 203,
+      "fehd_licence_no": "2212812787",
+      "google_place_id": "ChIJ7RTGgFwABDQRn33AmJyDZNI",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粥餐廳。Google 評分 3.1／203 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "xin-feng-ji-zhuang-shi-dun-xiu",
+      "name_zh": "新豐記",
+      "name_en": "Sun Fung Kee",
+      "lat": 22.2767765,
+      "lng": 114.174027,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港灣仔莊士敦道149號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新豐記／牌照2212216527／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJKXt_Y1sABDQRXkVl_Zhpblg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "fehd_licence_no": "2212216527",
+      "google_place_id": "ChIJKXt_Y1sABDQRXkVl_Zhpblg",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "xin-xuan-ni-shi-cha-zhuang-shi-dun-xiu",
+      "name_zh": "新軒尼詩茶餐廳",
+      "name_en": "New Hennessy Restaurant",
+      "lat": 22.2783941,
+      "lng": 114.17305189999999,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港灣仔柯布連道6號A及B(地下)及6號B(閣樓)",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新軒尼詩茶餐廳／牌照2212116166／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJKa6ccFwABDQRtJPoUn5kmEk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "fehd_licence_no": "2212116166",
+      "google_place_id": "ChIJKa6ccFwABDQRtJPoUn5kmEk",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "zhi-zun-suan-cai-yu-wan-zai",
+      "name_zh": "智尊酸菜魚",
+      "name_en": "Supreme Pickled Fish",
+      "lat": 22.2775096,
+      "lng": 114.17709099999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔克街1-15號展鴻大廈地下及夾層A舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（智尊酸菜魚／牌照2212819991／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJz9_AVW8BBDQRIqnZ1akCmdE",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "2212819991",
+      "google_place_id": "ChIJz9_AVW8BBDQRIqnZ1akCmdE",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yue-jie-xiao-guan-wan-zai-xi-xing",
+      "name_zh": "月街小館",
+      "name_en": "Moon Corner",
+      "lat": 22.2760592,
+      "lng": 114.1687493,
+      "district": "灣仔",
+      "area": "灣仔西／星街・分域",
+      "address": "香港灣仔月街17A號月豐閣地下C舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（月街小館／牌照2212810134／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJVVW-Tl0ABDQRGPHYEYeV7b0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "2212810134",
+      "google_place_id": "ChIJVVW-Tl0ABDQRGPHYEYeV7b0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：日本餐廳。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "you-mi-can-ting-xiao-wan-zai",
+      "name_zh": "有米餐廳小廚",
+      "name_en": null,
+      "lat": 22.2772184,
+      "lng": 114.179921,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔摩理臣山道26-28號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（有米餐廳小廚／牌照2212815184／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／33 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJafqABjMBBDQRaW6kLxKtdPU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": 33,
+      "fehd_licence_no": "2212815184",
+      "google_place_id": "ChIJafqABjMBBDQRaW6kLxKtdPU",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3／33 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "dong-jing-shi-tang-wan-zai",
+      "name_zh": "東京食堂",
+      "name_en": "Tokyo Shokudo",
+      "lat": 22.275125199999998,
+      "lng": 114.1711433,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔堅尼地道15號 合和商場6樓610鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（東京食堂／牌照2212823833／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7VERCQABBDQRgpqHSFIwfP0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.8,
+      "google_review_count": null,
+      "fehd_licence_no": "2212823833",
+      "google_place_id": "ChIJ7VERCQABBDQRgpqHSFIwfP0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：日本餐廳。Google 評分 2.8（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "dong-bei-xiao-guan-wan-zai",
+      "name_zh": "東北小館",
+      "name_en": null,
+      "lat": 22.276545499999997,
+      "lng": 114.16984099999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔機利臣街3號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（東北小館／牌照2212165052／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ9YjoMgABBDQRSGqU3JPMzPk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 1,
+      "google_review_count": null,
+      "fehd_licence_no": "2212165052",
+      "google_place_id": "ChIJ9YjoMgABBDQRSGqU3JPMzPk",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 1（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "chu-liu-xiang-zhuang-shi-dun-xiu",
+      "name_zh": "楚留香",
+      "name_en": null,
+      "lat": 22.277500699999997,
+      "lng": 114.17362519999999,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港灣仔軒尼詩道156,160及162號及 柯布連道7A及7B號 利榮大樓地下A舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（楚留香／牌照2212821615／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJw-mwrcMBBDQRr01buzXAj2E",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.1,
+      "google_review_count": null,
+      "fehd_licence_no": "2212821615",
+      "google_place_id": "ChIJw-mwrcMBBDQRr01buzXAj2E",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店／中菜館。Google 評分 3.1（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "shui-men-tai-shi-hai-zhuang-shi-dun-xiu",
+      "name_zh": "水門泰式海南雞飯專門店",
+      "name_en": null,
+      "lat": 22.276967,
+      "lng": 114.1712225,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港灣仔譚臣道8號 威利商業大廈地下C舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（水門泰式海南雞飯專門店／牌照2212823897／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／28 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJl1hXxQcBBDQRwvOv5domEVk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.1,
+      "google_review_count": 28,
+      "fehd_licence_no": "2212823897",
+      "google_place_id": "ChIJl1hXxQcBBDQRwvOv5domEVk",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 3.1／28 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yong-hua-ri-chang-wan-zai",
+      "name_zh": "永華日常",
+      "name_en": "Wing Wah Allday (Wan Chai)",
+      "lat": 22.2755951,
+      "lng": 114.17243409999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔皇后大道東200號 利東街地下G22-23號舖及1樓F22A號舖及舖旁露天座位",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（永華日常／牌照2212820287／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7awht1wABDQRfJfkK19omiM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "2212820287",
+      "google_place_id": "ChIJ7awht1wABDQRfJfkK19omiM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "tai-zu-le-zhuang-shi-dun-xiu",
+      "name_zh": "泰足樂",
+      "name_en": null,
+      "lat": 22.2772209,
+      "lng": 114.170609,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港島灣仔莊士敦道25號Cheong Hong MansionFlat A 1 Floor",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／2 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJcXdZflwABDQRndk1OocQFg4",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": 2,
+      "google_place_id": "ChIJcXdZflwABDQRndk1OocQFg4",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：泰式按摩治療師。Google 評分 3／2 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "hao-ji-cha-can-ting-wan-zai",
+      "name_zh": "浩記茶餐廳",
+      "name_en": "Ho Kee Restaurant",
+      "lat": 22.2796357,
+      "lng": 114.178542,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔謝斐道315-317號帝城大廈地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（浩記茶餐廳／牌照2212801899／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／149 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ14NeHloABDQRTHNASuzbyko",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 149,
+      "fehd_licence_no": "2212801899",
+      "google_place_id": "ChIJ14NeHloABDQRTHNASuzbyko",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳／中菜館。Google 評分 3.4／149 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "hai-de-zhong-xin-zhuang-shi-dun-xiu",
+      "name_zh": "海德中心",
+      "name_en": "One Capital Place",
+      "lat": 22.2784631,
+      "lng": 114.1719656,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港島灣仔盧押道18號7樓B室",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.1／174 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJs-YeXVwABDQRNVXUxaDHxyw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.1,
+      "google_review_count": 174,
+      "google_place_id": "ChIJs-YeXVwABDQRNVXUxaDHxyw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：辦公室。Google 評分 2.1／174 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "gang-wan-cha-can-ting-hui-zhan-gang-wan",
+      "name_zh": "港灣茶餐廳",
+      "name_en": "Harbour Kitchen",
+      "lat": 22.2810541,
+      "lng": 114.1729032,
+      "district": "灣仔",
+      "area": "會展／港灣道",
+      "address": "香港灣仔港灣道1號香港會議展覽中心 地下(南面部份)",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（港灣茶餐廳／牌照2212228481／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJuydir14ABDQR0e10ePT6ft0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.1,
+      "google_review_count": null,
+      "fehd_licence_no": "2212228481",
+      "google_place_id": "ChIJuydir14ABDQR0e10ePT6ft0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.1（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "xiang-wei-ji-jing-dian-luo-ke",
+      "name_zh": "湘味記經典湖南菜",
+      "name_en": null,
+      "lat": 22.2783203,
+      "lng": 114.1730011,
+      "district": "灣仔",
+      "area": "駱克",
+      "address": "香港灣仔駱克道137-147號香江大廈地下H鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（湘味記經典湖南菜／牌照2212804144／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.9／12 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJBUYIWgABBDQRB9woC1fZKR8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.9,
+      "google_review_count": 12,
+      "fehd_licence_no": "2212804144",
+      "google_place_id": "ChIJBUYIWgABBDQRB9woC1fZKR8",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 2.9／12 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.9 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "chao-niu-nan-wan-zai",
+      "name_zh": "潮牛腩",
+      "name_en": null,
+      "lat": 22.2796409,
+      "lng": 114.17832849999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔謝斐道307-311號快添大廈地下2號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（潮牛腩／牌照2212819548／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／102 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ16udS2MBBDQRnbt5nKlVw9A",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 102,
+      "fehd_licence_no": "2212819548",
+      "google_place_id": "ChIJ16udS2MBBDQRnbt5nKlVw9A",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：麵店。Google 評分 3.4／102 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "chao-xing-xuan-ni-shi",
+      "name_zh": "潮興",
+      "name_en": "Chiu Hing Noodle House",
+      "lat": 22.2773961,
+      "lng": 114.1714212,
+      "district": "灣仔",
+      "area": "軒尼詩",
+      "address": "香港灣仔軒尼詩道109號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（潮興／牌照2212824261／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJjVyb8FwABDQR8x7xHWmzM6s",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "fehd_licence_no": "2212824261",
+      "google_place_id": "ChIJjVyb8FwABDQR8x7xHWmzM6s",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中式麵食店。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "wan-zai-zheng-fu-da-hui-zhan-gang-wan",
+      "name_zh": "灣仔政府大樓停車場",
+      "name_en": "Wanchai Tower Car Park",
+      "lat": 22.2803081,
+      "lng": 114.17251239999999,
+      "district": "灣仔",
+      "area": "會展／港灣道",
+      "address": "香港島灣仔港灣道12號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.2／59 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJc-quHlwABDQR0fJeLZacxmg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": 59,
+      "google_place_id": "ChIJc-quHlwABDQR0fJeLZacxmg",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：停車場。Google 評分 3.2／59 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "bai-le-chuan-shao-can-wan-zai",
+      "name_zh": "百樂(串燒)餐廳",
+      "name_en": "Bai Le Restaurant",
+      "lat": 22.278523,
+      "lng": 114.172365,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港謝斐道108號地下1號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（百樂(串燒)餐廳／牌照2212821013／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／70 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ463FZ1wABDQRrwMZ0qFzHE0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 70,
+      "fehd_licence_no": "2212821013",
+      "google_place_id": "ChIJ463FZ1wABDQRrwMZ0qFzHE0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.3／70 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "huang-hou-jiao-zi-wan-zai",
+      "name_zh": "皇后餃子",
+      "name_en": "Queen's Dumpling",
+      "lat": 22.277064,
+      "lng": 114.17665849999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔灣仔道152-158號 南開大廈地下D鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（皇后餃子／牌照3112808825／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJEzAcfugBBDQR5a8mmOLhKlw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.9,
+      "google_review_count": null,
+      "fehd_licence_no": "3112808825",
+      "google_place_id": "ChIJEzAcfugBBDQR5a8mmOLhKlw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餃子店。Google 評分 2.9（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.9 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "kanzan-menya-hopewell-centre-phase-wan-zai",
+      "name_zh": "神山麺屋合和中心二期灣仔 Kanzan Menya Hopewell Centre Phase 2 Wan Chai",
+      "name_en": null,
+      "lat": 22.275123,
+      "lng": 114.17114409999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "Phase 2, Hopewell Centre, Shop 6A, 6/F, 15 Kennedy Rd, Wan Chai, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.6／16 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWQhLdY0BBDQRfVoCcu4QqN0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.6,
+      "google_review_count": 16,
+      "google_place_id": "ChIJWQhLdY0BBDQRfVoCcu4QqN0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：拉麵店。Google 評分 2.6／16 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.6 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "lao-ban-niang-jia-chang-zhuang-shi-dun-xiu",
+      "name_zh": "老闆娘家常飯",
+      "name_en": "Lady Boss Mixed Veg Rice",
+      "lat": 22.277443899999998,
+      "lng": 114.1712422,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港島灣仔軒尼詩道68號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJI77MCAABBDQRz2BKwzlFgPA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJI77MCAABBDQRz2BKwzlFgPA",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜外賣。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "hua-nan-fen-mian-cha-zhuang-shi-dun-xiu",
+      "name_zh": "華南粉麵茶餐廳",
+      "name_en": "Wah Nam Noodle Restaurant",
+      "lat": 22.277200999999998,
+      "lng": 114.170834,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港灣仔譚臣道5-11號地下D室及一字樓",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（華南粉麵茶餐廳／牌照2212079056／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／458 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJP3sG4lwABDQRsmz6W2dhhGA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 458,
+      "fehd_licence_no": "2212079056",
+      "google_place_id": "ChIJP3sG4lwABDQRsmz6W2dhhGA",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中式麵食店／中菜館。Google 評分 3.3／458 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jie-fang-mei-shi-luo-ke",
+      "name_zh": "街坊美食",
+      "name_en": null,
+      "lat": 22.2782987,
+      "lng": 114.1730614,
+      "district": "灣仔",
+      "area": "駱克",
+      "address": "香港島灣仔駱克道145號地下",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJwfLY0SwBBDQRxYU6KVL2RY8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJwfLY0SwBBDQRxYU6KVL2RY8",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：小食/零食吧。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yuan-ji-yun-jiao-wan-zai",
+      "name_zh": "袁記雲餃",
+      "name_en": "Yuan Ji Yun Jiao",
+      "lat": 22.2752056,
+      "lng": 114.1741021,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔灣仔道3號 尚翹峰第1座地下B2號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（袁記雲餃／牌照3112809208／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／83 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJYJC10YBBDQR0H4Z2IcsiX4",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": 83,
+      "fehd_licence_no": "3112809208",
+      "google_place_id": "ChIJJYJC10YBBDQR0H4Z2IcsiX4",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餃子店。Google 評分 3／83 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "tan-zai-yun-nan-mi-zhuang-shi-dun-xiu",
+      "name_zh": "譚仔雲南米線",
+      "name_en": "TamJai Yunnan Mixian (Wan Chai)",
+      "lat": 22.2774234,
+      "lng": 114.17324479999999,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港灣仔軒尼詩道130-150號 修頓中心地下B,C及D4舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（譚仔雲南米線／牌照2212821235／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJCTWAwhABBDQRCuH_02e_J00",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.8,
+      "google_review_count": null,
+      "fehd_licence_no": "2212821235",
+      "google_place_id": "ChIJCTWAwhABBDQRCuH_02e_J00",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 2.8（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jing-cha-zong-bu-hui-wan-zai",
+      "name_zh": "警察總部匯敍西餐廳",
+      "name_en": "Cafe Rendezvous",
+      "lat": 22.278893,
+      "lng": 114.16807929999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港島灣仔軍器廠街1號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2_ePhV0ABDQR93BSEx_rlBM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.1,
+      "google_review_count": null,
+      "google_place_id": "ChIJ2_ePhV0ABDQR93BSEx_rlBM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：西餐廳。Google 評分 3.1（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "chao-ren-shao-e-wan-zai",
+      "name_zh": "超人燒鵝",
+      "name_en": null,
+      "lat": 22.2786279,
+      "lng": 114.1810131,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔堅拿道西10號 冠景樓地下J鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（超人燒鵝／牌照2212821165／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.6／22 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJdV22OscBBDQRHvKfG6YSkZU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.6,
+      "google_review_count": 22,
+      "fehd_licence_no": "2212821165",
+      "google_place_id": "ChIJdV22OscBBDQRHvKfG6YSkZU",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜外賣。Google 評分 2.6／22 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.6 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "xuan-ni-shi-bing-ting-zhuang-shi-dun-xiu",
+      "name_zh": "軒尼詩冰廳",
+      "name_en": null,
+      "lat": 22.2785354,
+      "lng": 114.1730805,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "Yee On Mansion, 6A&B, 6A-B O'Brien Rd, Wan Chai",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ3d4lVhYBBDQRWqgI1u_eMN0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJ3d4lVhYBBDQRWqgI1u_eMN0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "lian-feng-shao-wei-can-wan-zai",
+      "name_zh": "連豐燒味餐室",
+      "name_en": null,
+      "lat": 22.2786279,
+      "lng": 114.1810131,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔堅拿道西10號冠景樓地下I鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（連豐燒味餐室／牌照2212817931／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJF5eFcHQBBDQRt_F22C41sm8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.6,
+      "google_review_count": null,
+      "fehd_licence_no": "2212817931",
+      "google_place_id": "ChIJF5eFcHQBBDQRt_F22C41sm8",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粵菜館。Google 評分 2.6（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.6 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "na-ge-tai-nan-gu-xuan-ni-shi",
+      "name_zh": "那個台南古早料理",
+      "name_en": null,
+      "lat": 22.2778727,
+      "lng": 114.17411279999999,
+      "district": "灣仔",
+      "area": "軒尼詩",
+      "address": "香港島灣仔軒尼詩道181號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.9／19 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ6UtGRQABBDQRssMYd5NPnSA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.9,
+      "google_review_count": 19,
+      "google_place_id": "ChIJ6UtGRQABBDQRssMYd5NPnSA",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：台灣餐廳。Google 評分 2.9／19 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.9 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jin-bao-cha-can-ting-wan-zai",
+      "name_zh": "金堡茶餐廳",
+      "name_en": "Kambo Restaurant",
+      "lat": 22.278626499999998,
+      "lng": 114.1740866,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔謝斐道233號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金堡茶餐廳／牌照2212806159／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／211 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxaqHi1sABDQR_o0BitzYJDM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 211,
+      "fehd_licence_no": "2212806159",
+      "google_place_id": "ChIJxaqHi1sABDQR_o0BitzYJDM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4／211 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jin-fu-wan-zai",
+      "name_zh": "金福",
+      "name_en": "Kam Fook Restaurant",
+      "lat": 22.2752628,
+      "lng": 114.17095259999999,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔皇后大道東133號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金福／牌照2212039034／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／55 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJsct3T0MABDQRqSGf6tzse6g",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": 55,
+      "fehd_licence_no": "2212039034",
+      "google_place_id": "ChIJsct3T0MABDQRqSGf6tzse6g",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.2／55 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "3-0-jin-fan-guan-wan-zai",
+      "name_zh": "金飯館 3.0",
+      "name_en": "Golden Bowl",
+      "lat": 22.278275,
+      "lng": 114.1795856,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港島灣仔天樂里6-18號恆安大廈地下D&E舖",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／57 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJW0sDrhkBBDQR4qPWuN4PEEg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 57,
+      "google_place_id": "ChIJW0sDrhkBBDQR4qPWuN4PEEg",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.4／57 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "hka1-a-yi-suan-la-wan-zai",
+      "name_zh": "阿一酸辣豬扒米線 Hka1",
+      "name_en": null,
+      "lat": 22.2785103,
+      "lng": 114.1772719,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "290 Lockhart Road, 290 Lockhart Rd, Wan Chai, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／12 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJS21NQwABBDQRggZ5FdmXuJE",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 12,
+      "google_place_id": "ChIJS21NQwABBDQRggZ5FdmXuJE",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：亞洲菜餐廳。Google 評分 3.3／12 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "tao-yuan-jiu-jia-wan-zai",
+      "name_zh": "陶源酒家",
+      "name_en": "Sportful Garden Restaurant",
+      "lat": 22.2773331,
+      "lng": 114.1746684,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港菲林明道8號大同商場2字樓 及1字樓3-4及5號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（陶源酒家／牌照2212800850／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／919 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJCehLdlsABDQRVoBAiflFyWI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 919,
+      "fehd_licence_no": "2212800850",
+      "google_place_id": "ChIJCehLdlsABDQRVoBAiflFyWI",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粵菜館／中菜館。Google 評分 3.4／919 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "shuang-xi-shao-la-kuai-wan-zai",
+      "name_zh": "雙喜燒臘快餐",
+      "name_en": null,
+      "lat": 22.2786418,
+      "lng": 114.1734121,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港島灣仔謝斐道132號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.2／149 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_6uUe1wABDQRPmvFBINOs2Q",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": 149,
+      "google_place_id": "ChIJ_6uUe1wABDQRPmvFBINOs2Q",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粵菜館。Google 評分 3.2／149 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "ji-wei-nong-wan-zai",
+      "name_zh": "雞味濃",
+      "name_en": null,
+      "lat": 22.276087,
+      "lng": 114.171555,
+      "district": "灣仔",
+      "area": "灣仔",
+      "address": "香港灣仔大王東街22-30號樹德大廈地下1號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（雞味濃／牌照2212819371／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／72 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvfZxAh4BBDQRf12Ms7cnzcs",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 72,
+      "fehd_licence_no": "2212819371",
+      "google_place_id": "ChIJvfZxAh4BBDQRf12Ms7cnzcs",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：雞肉料理餐廳。Google 評分 3.4／72 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yu-lin-xuan-zhuang-shi-dun-xiu",
+      "name_zh": "雨林軒",
+      "name_en": "Jungle Cafe",
+      "lat": 22.277190899999997,
+      "lng": 114.17370849999999,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港灣仔譚臣道103號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（雨林軒／牌照2212203864／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.5／14 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJb7960Q8BBDQRhqq9uukVwBo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.5,
+      "google_review_count": 14,
+      "fehd_licence_no": "2212203864",
+      "google_place_id": "ChIJb7960Q8BBDQRhqq9uukVwBo",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 2.5／14 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.5 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "xiang-gang-hui-yi-zhan-hui-zhan-gang-wan",
+      "name_zh": "香港會議展覽中心演講廳",
+      "name_en": null,
+      "lat": 22.281419,
+      "lng": 114.17218199999999,
+      "district": "灣仔",
+      "area": "會展／港灣道",
+      "address": "Grand Hyatt Hotel",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJhTtYvV4ABDQRtagYYMAhXBI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": null,
+      "google_place_id": "ChIJhTtYvV4ABDQRtagYYMAhXBI",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：展覽貿易中心。Google 評分 3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "long-chuan-yun-nan-mi-xuan-ni-shi",
+      "name_zh": "龍川雲南米線",
+      "name_en": null,
+      "lat": 22.277789499999997,
+      "lng": 114.17350309999999,
+      "district": "灣仔",
+      "area": "軒尼詩",
+      "address": "香港灣仔軒尼詩道153號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（龍川雲南米線／牌照2212818721／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.7／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJhesDcgABBDQR8lOdx8tOXto",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.7,
+      "google_review_count": null,
+      "fehd_licence_no": "2212818721",
+      "google_place_id": "ChIJhesDcgABBDQR8lOdx8tOXto",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中式麵食店。Google 評分 2.7（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.7 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "long-men-da-jiu-lou-zhuang-shi-dun-xiu",
+      "name_zh": "龍門大酒樓舊址",
+      "name_en": "Former Lung Moon Restaurant",
+      "lat": 22.2764863,
+      "lng": 114.1737423,
+      "district": "灣仔",
+      "area": "莊士敦／修頓",
+      "address": "香港島灣仔莊士敦道130～136號恆生莊士敦道大廈",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／3 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJLQyIYVsABDQRxjjdk3g-f4I",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 3,
+      "google_place_id": "ChIJLQyIYVsABDQRxjjdk3g-f4I",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.3／3 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    }
+  ],
+  "excluded": [
     {
       "id": "a-plus-restaurant-wan-zai",
       "name_zh": "A Plus Restaurant",
@@ -24980,30 +27402,6 @@
       "google_review_count": null,
       "fehd_licence_no": "3112803325",
       "google_place_id": "ChIJx3Ehb1oABDQRT5-_IOPTi7E"
-    },
-    {
-      "id": "apa-fiesta-hui-zhan-gang-wan",
-      "name_zh": "APA Fiesta",
-      "name_en": "APA Fiesta",
-      "lat": 22.280125299999998,
-      "lng": 114.170131,
-      "district": "灣仔",
-      "area": "會展／港灣道",
-      "address": "灣仔告士打道1號UG層香港演藝學院",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJoTKaw10ABDQReHIzFVmkjvQ",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJoTKaw10ABDQReHIzFVmkjvQ"
     },
     {
       "id": "associazione-chianti-wan-zai-xi-xing",
@@ -25744,30 +28142,6 @@
       "google_place_id": "ChIJHzGscVsABDQRDXdIzXqa5Ps"
     },
     {
-      "id": "dosi-le-hui-zhan-gang-wan",
-      "name_zh": "Dosi樂",
-      "name_en": "Dosi樂",
-      "lat": 22.2810258,
-      "lng": 114.1750919,
-      "district": "灣仔",
-      "area": "會展／港灣道",
-      "address": "香港島灣仔港灣道25號海港中心1樓shop106",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.1（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJZ1VAegABBDQRhB2E7U0ccqY",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.1,
-      "google_review_count": null,
-      "google_place_id": "ChIJZ1VAegABBDQRhB2E7U0ccqY"
-    },
-    {
       "id": "dusk-till-dawn-wan-zai",
       "name_zh": "Dusk Till Dawn",
       "name_en": "Dusk Till Dawn",
@@ -26010,30 +28384,6 @@
       "google_place_id": "ChIJPW4cgbQBBDQRggIPtrPqpT0"
     },
     {
-      "id": "grand-lok-hainan-chicken-wan-wan-zai",
-      "name_zh": "Grand Lok Hainan Chicken (Wan Chai)",
-      "name_en": "Grand Lok Hainan Chicken (Wan Chai)",
-      "lat": 22.275502,
-      "lng": 114.17257359999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "29, 41 Spring Garden Ln, Wan Chai, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJfbrHSAABBDQRRMSs6MKr0i0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.8,
-      "google_review_count": null,
-      "google_place_id": "ChIJfbrHSAABBDQRRMSs6MKr0i0"
-    },
-    {
       "id": "grandma-s-coffee-wan-zai",
       "name_zh": "Grandma’s Coffee",
       "name_en": "Grandma’s Coffee",
@@ -26056,37 +28406,6 @@
       "google_rating": 4.9,
       "google_review_count": 95,
       "google_place_id": "ChIJU5rCDwABBDQR-SiQ8xtJMyo"
-    },
-    {
-      "id": "grove-hui-zhan-gang-wan",
-      "name_zh": "Grove",
-      "name_en": "Grove",
-      "lat": 22.2810988,
-      "lng": 114.1755924,
-      "district": "灣仔",
-      "area": "會展／港灣道",
-      "address": "香港灣仔港灣道25號 海港中心1樓105號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（Grove／牌照3112810503／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJeeAWTEBBDQRgF1taTIq1a0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "3112810503",
-      "google_place_id": "ChIJJeeAWTEBBDQRgF1taTIq1a0"
     },
     {
       "id": "h-coffee-shop-the-corner-zhuang-shi-dun-xiu",
@@ -26262,30 +28581,6 @@
       "google_place_id": "ChIJkbvL1pwBBDQRRjtgbjUoTHc"
     },
     {
-      "id": "international-curry-house-the-emperor-wan-zai",
-      "name_zh": "International Curry House 國際咖哩館 (The Emperor Hotel)",
-      "name_en": null,
-      "lat": 22.2748255,
-      "lng": 114.17825459999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港島灣仔皇后大道東373號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.6（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.6／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJrWG7JwABBDQRUt9Wkzg3KK8",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.6,
-      "google_review_count": null,
-      "google_place_id": "ChIJrWG7JwABBDQRUt9Wkzg3KK8"
-    },
-    {
       "id": "j-o-m-wan-zai",
       "name_zh": "J.O.M.O.",
       "name_en": "JOMO",
@@ -26315,30 +28610,6 @@
       "google_review_count": null,
       "fehd_licence_no": "3112809633",
       "google_place_id": "ChIJzxWSh4YBBDQRDrlbY28RwWc"
-    },
-    {
-      "id": "james-kitchen-xuan-ni-shi",
-      "name_zh": "James Kitchen",
-      "name_en": "James Kitchen",
-      "lat": 22.278153099999997,
-      "lng": 114.16887639999999,
-      "district": "灣仔",
-      "area": "軒尼詩",
-      "address": "香港島灣仔軒尼詩道1號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.5（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.5／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJmywCUgABBDQRSjZkatJqXQQ",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.5,
-      "google_review_count": null,
-      "google_place_id": "ChIJmywCUgABBDQRSjZkatJqXQQ"
     },
     {
       "id": "keiba-by-sensory-zero-wan-zai-xi-xing",
@@ -26536,30 +28807,6 @@
       "google_rating": 4.5,
       "google_review_count": 60,
       "google_place_id": "ChIJPZYUb1oABDQRmQ68QB71WHY"
-    },
-    {
-      "id": "luk-kwok-centre-wan-chai-wan-zai",
-      "name_zh": "Luk Kwok Centre, Wan Chai, Hong Kong",
-      "name_en": "Luk Kwok Centre, Wan Chai, Hong Kong",
-      "lat": 22.278865,
-      "lng": 114.172354,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港島灣仔告士打道72號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（12 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／12 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJL8CCaVwABDQRXkNCFt3KXsQ",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 12,
-      "google_place_id": "ChIJL8CCaVwABDQRXkNCFt3KXsQ"
     },
     {
       "id": "lung-kee-noodles-zhuang-shi-dun-xiu",
@@ -27137,37 +29384,6 @@
       "google_place_id": "ChIJZV9yWmcABDQRRIl168oTgJ0"
     },
     {
-      "id": "partager-bistro-hui-zhan-gang-wan",
-      "name_zh": "PARTAGER BISTRO",
-      "name_en": "Partager Bistro",
-      "lat": 22.2801945,
-      "lng": 114.1724002,
-      "district": "灣仔",
-      "area": "會展／港灣道",
-      "address": "香港灣仔港灣道12號灣仔政府大樓 地下A部份及上層",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（PARTAGER BISTRO／牌照3112809998／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ5TVgFQABBDQRglE4FYD9wo8",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "3112809998",
-      "google_place_id": "ChIJ5TVgFQABBDQRglE4FYD9wo8"
-    },
-    {
       "id": "passione-wan-zai",
       "name_zh": "PASSIONE",
       "name_en": "Passion by Gerard Dubois",
@@ -27353,30 +29569,6 @@
       "google_review_count": 268,
       "fehd_licence_no": "3112809077",
       "google_place_id": "ChIJB-NXETgBBDQRYvhrBaVsUIs"
-    },
-    {
-      "id": "revenue-tower-wan-zai",
-      "name_zh": "Revenue Tower",
-      "name_en": "Revenue Tower",
-      "lat": 22.2796603,
-      "lng": 114.1719272,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港島灣仔告士打道5號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（19 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／19 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMQyf9KwBBDQRPos2AD3cJyM",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 19,
-      "google_place_id": "ChIJMQyf9KwBBDQRPos2AD3cJyM"
     },
     {
       "id": "scratch-luo-ke",
@@ -27613,30 +29805,6 @@
       "google_place_id": "ChIJiy4McuwBBDQR6-xMi2zi0I0"
     },
     {
-      "id": "sushitsuru-wan-zai",
-      "name_zh": "Sushitsuru",
-      "name_en": "Sushitsuru",
-      "lat": 22.278781499999997,
-      "lng": 114.172907,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "Shop A 1/G, 香海大廈121-123 Jaffe Rd, Wan Chai, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.5（2 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.5／2 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJV_wCblwABDQRvnuygWDChx8",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.5,
-      "google_review_count": 2,
-      "google_place_id": "ChIJV_wCblwABDQRvnuygWDChx8"
-    },
-    {
       "id": "taboo-zhuang-shi-dun-xiu",
       "name_zh": "TABOO",
       "name_en": "Taboo",
@@ -27825,30 +29993,6 @@
       "round1_borderline": true,
       "fehd_licence_no": "2212804658",
       "google_place_id": "ChIJQeOf_1wABDQR1tka9_Hob_8"
-    },
-    {
-      "id": "taiwan-lang-tai-wan-zhuang-shi-dun-xiu",
-      "name_zh": "Taiwan Lang 台灣郎",
-      "name_en": null,
-      "lat": 22.2771497,
-      "lng": 114.17053519999999,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港島灣仔莊士敦道33號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（8 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.8／8 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ4TCbRgABBDQRHFNfS7zws-A",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.8,
-      "google_review_count": 8,
-      "google_place_id": "ChIJ4TCbRgABBDQRHFNfS7zws-A"
     },
     {
       "id": "tao-shin-coffee-xuan-ni-shi",
@@ -28174,37 +30318,6 @@
       "google_place_id": "ChIJQ83NLAABBDQRmjvw1ZVVU1w"
     },
     {
-      "id": "yakiniku-like-wan-zai",
-      "name_zh": "Yakiniku Like",
-      "name_en": "Yakiniku LIKE (Hopewell Centre)",
-      "lat": 22.2746386,
-      "lng": 114.17172529999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔皇后大道東183號 合和中心3樓322-323號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（53 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（Yakiniku Like／牌照2212822548／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／53 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ4zmcVB4BBDQRZ9u5nVMa_lU",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 53,
-      "fehd_licence_no": "2212822548",
-      "google_place_id": "ChIJ4zmcVB4BBDQRZ9u5nVMa_lU"
-    },
-    {
       "id": "yakitori-yamato-wan-zai",
       "name_zh": "Yakitori Yamato",
       "name_en": "Yakitori Yamato",
@@ -28227,30 +30340,6 @@
       "google_rating": 4.2,
       "google_review_count": null,
       "google_place_id": "ChIJS5MadPwBBDQRLycJt_kqcuA"
-    },
-    {
-      "id": "yky-homemade-noodle-wanchai-wan-zai",
-      "name_zh": "YkY Homemade Noodle(WanChai)",
-      "name_en": "YkY Homemade Noodle(WanChai)",
-      "lat": 22.2760605,
-      "lng": 114.1715796,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港島灣仔大王東街樹德大廈地下3號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.9（10 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.9／10 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRXztoQ0BBDQRC9Y0HwL8OEo",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.9,
-      "google_review_count": 10,
-      "google_place_id": "ChIJRXztoQ0BBDQRC9Y0HwL8OEo"
     },
     {
       "id": "zero-one-coffee-roastery-wan-zai",
@@ -28315,37 +30404,6 @@
       "google_place_id": "ChIJ87xB3dwBBDQRs4EilH-BcjQ"
     },
     {
-      "id": "yi-kou-xiang-dian-xin-wan-zai",
-      "name_zh": "一口香點心專賣店",
-      "name_en": null,
-      "lat": 22.2783111,
-      "lng": 114.17981329999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔天樂里7號地下及閣樓",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（20 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（一口香點心專賣店／牌照2212807620／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／20 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJD9hWVQABBDQRi7U4RO2R2FE",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 20,
-      "fehd_licence_no": "2212807620",
-      "google_place_id": "ChIJD9hWVQABBDQRi7U4RO2R2FE"
-    },
-    {
       "id": "shi-hua-cha-can-ting-zhuang-shi-dun-xiu",
       "name_zh": "世華茶餐廳",
       "name_en": "Sai Wah Tea Restaurant",
@@ -28407,99 +30465,6 @@
       "google_review_count": 6,
       "fehd_licence_no": "2212823028",
       "google_place_id": "ChIJ46wUZjcBBDQRfYItTkkcRrE"
-    },
-    {
-      "id": "wu-xing-can-ting-wan-zai",
-      "name_zh": "五星餐廳",
-      "name_en": "Wuxing Dim Sum Restaurant",
-      "lat": 22.278544399999998,
-      "lng": 114.17246109999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港謝斐道110-116號美暉大廈地下3號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（157 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（五星餐廳／牌照2212222252／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／157 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJCz2SaFwABDQRKRa-G_7TbIA",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 157,
-      "fehd_licence_no": "2212222252",
-      "google_place_id": "ChIJCz2SaFwABDQRKRa-G_7TbIA"
-    },
-    {
-      "id": "ya-su-ji-fan-xuan-ni-shi",
-      "name_zh": "亞蘇雞飯",
-      "name_en": null,
-      "lat": 22.2776847,
-      "lng": 114.17218749999999,
-      "district": "灣仔",
-      "area": "軒尼詩",
-      "address": "香港灣仔軒尼詩道107號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 1（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（亞蘇雞飯／牌照3812825205／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_YGh0zABBDQR9utZiABk0tU",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 1,
-      "google_review_count": null,
-      "fehd_licence_no": "3812825205",
-      "google_place_id": "ChIJ_YGh0zABBDQR9utZiABk0tU"
-    },
-    {
-      "id": "jia-ji-mei-shi-xuan-ni-shi",
-      "name_zh": "佳記美食",
-      "name_en": null,
-      "lat": 22.278125,
-      "lng": 114.17577399999999,
-      "district": "灣仔",
-      "area": "軒尼詩",
-      "address": "香港灣仔軒尼詩道229-233號地下A舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（佳記美食／牌照2212818253／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJmQ_9_50BBDQRMM_9zBDEr1s",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "2212818253",
-      "google_place_id": "ChIJmQ_9_50BBDQRMM_9zBDEr1s"
     },
     {
       "id": "chu-shui-quan-zu-wan-zai",
@@ -28588,68 +30553,6 @@
       "google_place_id": "ChIJN4mNW8MBBDQRHW2KArUG398"
     },
     {
-      "id": "you-tian-niu-tun-wang-hui-zhan-gang-wan",
-      "name_zh": "友田牛 / 豚王",
-      "name_en": null,
-      "lat": 22.2810258,
-      "lng": 114.1750919,
-      "district": "灣仔",
-      "area": "會展／港灣道",
-      "address": "香港灣仔港灣道23號鷹君中心1樓 121-122號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（19 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（友田牛 / 豚王／牌照2212824298／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.8／19 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJTetfVAABBDQRgqncQf8UOf0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.8,
-      "google_review_count": 19,
-      "fehd_licence_no": "2212824298",
-      "google_place_id": "ChIJTetfVAABBDQRgqncQf8UOf0"
-    },
-    {
-      "id": "ji-ye-jia-zhuang-shi-dun-xiu",
-      "name_zh": "吉野家",
-      "name_en": "Yoshinoya",
-      "lat": 22.2764827,
-      "lng": 114.1734771,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港灣仔莊士敦道128號台山中心地下(部份)及地庫",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（673 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（吉野家／牌照2212814163／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／673 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvf9YnlwABDQRrRyy729XABY",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 673,
-      "fehd_licence_no": "2212814163",
-      "google_place_id": "ChIJvf9YnlwABDQRrRyy729XABY"
-    },
-    {
       "id": "ming-hai-ge-wan-zai",
       "name_zh": "名海閣",
       "name_en": null,
@@ -28679,37 +30582,6 @@
       "google_review_count": null,
       "fehd_licence_no": "2212802971",
       "google_place_id": "ChIJI8GFdwABBDQR7MbqQ5gWNzk"
-    },
-    {
-      "id": "xi-ji-bi-feng-tang-wan-zai",
-      "name_zh": "喜記避風塘炒辣蟹",
-      "name_en": "Hee Kee Fried Crab Expert Ltd",
-      "lat": 22.2800799,
-      "lng": 114.1797778,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港謝斐道379-389號特麗樓地下1-4號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（喜記避風塘炒辣蟹／牌照2212223769／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ48pNVlcABDQRRxAU8IPuWhs",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "2212223769",
-      "google_place_id": "ChIJ48pNVlcABDQRRxAU8IPuWhs"
     },
     {
       "id": "si-ji-chang-can-zhuang-shi-dun-xiu",
@@ -28789,130 +30661,6 @@
       "google_rating": 3.8,
       "google_review_count": null,
       "google_place_id": "ChIJHyKHw1wABDQRPyIbJ7SCSLc"
-    },
-    {
-      "id": "da-le-yue-nan-niu-luo-ke",
-      "name_zh": "大叻越南牛肉粉餐廳",
-      "name_en": "DALAT Vietnamese Restaurant (Lockhart Road)",
-      "lat": 22.2784548,
-      "lng": 114.1768505,
-      "district": "灣仔",
-      "area": "駱克",
-      "address": "香港灣仔駱克道272-274號 東成大廈地下B鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（127 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（大叻越南牛肉粉餐廳／牌照2212821624／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／127 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJL8nCE9oBBDQRMc99M74l1UY",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 127,
-      "fehd_licence_no": "2212821624",
-      "google_place_id": "ChIJL8nCE9oBBDQRMc99M74l1UY"
-    },
-    {
-      "id": "da-le-yue-nan-niu-luo-ke-2",
-      "name_zh": "大叻越南牛肉粉餐廳",
-      "name_en": null,
-      "lat": 22.2783448,
-      "lng": 114.173448,
-      "district": "灣仔",
-      "area": "駱克",
-      "address": "香港灣仔駱克道151號地下B鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（5 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（大叻越南牛肉粉餐廳／牌照2212824030／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／5 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2_wlRgABBDQRFSvLUi0k0jU",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": 5,
-      "fehd_licence_no": "2212824030",
-      "google_place_id": "ChIJ2_wlRgABBDQRFSvLUi0k0jU"
-    },
-    {
-      "id": "da-jia-le-luo-ke",
-      "name_zh": "大家樂",
-      "name_en": "Café de Coral",
-      "lat": 22.2783779,
-      "lng": 114.1733405,
-      "district": "灣仔",
-      "area": "駱克",
-      "address": "香港灣仔駱克道149, 151, 153 及155號1樓",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（804 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（大家樂／牌照2212102260／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／804 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJz4_9blkABDQRlqsfRVnAVEw",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 804,
-      "fehd_licence_no": "2212102260",
-      "google_place_id": "ChIJz4_9blkABDQRlqsfRVnAVEw"
-    },
-    {
-      "id": "da-fa-zhou-fen-mian-wan-zai",
-      "name_zh": "大發粥粉麵",
-      "name_en": null,
-      "lat": 22.278743799999997,
-      "lng": 114.1809509,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔堅拿道西10號 冠景樓地下C鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（92 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（大發粥粉麵／牌照2212821420／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／92 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJV0uYwEcBBDQRdxzEPCQ_lJs",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 92,
-      "fehd_licence_no": "2212821420",
-      "google_place_id": "ChIJV0uYwEcBBDQRdxzEPCQ_lJs"
     },
     {
       "id": "tian-ren-ming-cha-wan-xuan-ni-shi",
@@ -29011,92 +30759,6 @@
       "google_place_id": "ChIJU-JEHVsABDQRYPNCBL9xuAE"
     },
     {
-      "id": "an-nan-yue-niu-rou-zhuang-shi-dun-xiu",
-      "name_zh": "安南越南牛肉粉",
-      "name_en": "An Nam Pho",
-      "lat": 22.277110999999998,
-      "lng": 114.17467169999999,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港灣仔莊士敦道181號大有大廈大有商場2樓 208及209號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（254 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（安南越南牛肉粉／牌照2212814710／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／254 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJ5tgcFsABDQRsDuJ7xv4fPw",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 254,
-      "fehd_licence_no": "2212814710",
-      "google_place_id": "ChIJJ5tgcFsABDQRsDuJ7xv4fPw"
-    },
-    {
-      "id": "2-dai-min-wan-zai-zhuang-shi-dun-xiu",
-      "name_zh": "岱民灣仔店(2)",
-      "name_en": null,
-      "lat": 22.2788707,
-      "lng": 114.1794625,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港灣仔譚臣道105-111號 豪富商業大廈地下C鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（19 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（岱民灣仔店(2)／牌照2212823967／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／19 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMxyOMAUBBDQRGeX_aN8LmIw",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 19,
-      "fehd_licence_no": "2212823967",
-      "google_place_id": "ChIJMxyOMAUBBDQRGeX_aN8LmIw"
-    },
-    {
-      "id": "ping-min-mei-shi-luo-ke",
-      "name_zh": "平民美食",
-      "name_en": null,
-      "lat": 22.278246499999998,
-      "lng": 114.1731677,
-      "district": "灣仔",
-      "area": "駱克",
-      "address": "香港島灣仔駱克道143-145號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.9（18 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.9／18 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJf_ZyLwABBDQR4ZGyw-fISus",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.9,
-      "google_review_count": 18,
-      "google_place_id": "ChIJf_ZyLwABBDQR4ZGyw-fISus"
-    },
-    {
       "id": "cai-yu-wan-zai",
       "name_zh": "彩羽",
       "name_en": null,
@@ -29190,37 +30852,6 @@
       "google_place_id": "ChIJD0W7-FkABDQR-ChXgecZk0Q"
     },
     {
-      "id": "gong-zhao-zi-xuan-mian-wan-zai",
-      "name_zh": "拱照自選麵",
-      "name_en": "Kung Chiu Noodle",
-      "lat": 22.2766107,
-      "lng": 114.16983909999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔機利臣街1號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（205 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（拱照自選麵／牌照2212808067／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／205 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJZ-InJV0ABDQRcLgnOhU5faw",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 205,
-      "fehd_licence_no": "2212808067",
-      "google_place_id": "ChIJZ-InJV0ABDQRcLgnOhU5faw"
-    },
-    {
       "id": "shi-wei-shan-xi-dao-wan-zai",
       "name_zh": "拾味山西刀削麵",
       "name_en": null,
@@ -29276,37 +30907,6 @@
       "google_place_id": "ChIJ07uwU1oABDQRVweWoERCY14"
     },
     {
-      "id": "min-hua-bing-ting-wan-zai",
-      "name_zh": "敏華冰廳",
-      "name_en": "Men Wah Bing Teng (Wan Chai)",
-      "lat": 22.276629399999997,
-      "lng": 114.1754362,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔灣仔道109號壹嘉地下1號鋪(大部份)",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（313 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（敏華冰廳／牌照2212818031／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／313 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJpUViElsABDQRg0J94hwnvSA",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 313,
-      "fehd_licence_no": "2212818031",
-      "google_place_id": "ChIJpUViElsABDQRg0J94hwnvSA"
-    },
-    {
       "id": "xin-guang-chao-zhou-cai-luo-ke",
       "name_zh": "新光潮洲菜館",
       "name_en": "Sun Kwong Chiu Chow Restaurant",
@@ -29336,99 +30936,6 @@
       "google_review_count": null,
       "fehd_licence_no": "2212080272",
       "google_place_id": "ChIJsVs2TlcABDQRzKc16qnChtA"
-    },
-    {
-      "id": "xin-shen-zhou-dian-xuan-ni-shi",
-      "name_zh": "新深粥店",
-      "name_en": "Sun Sum Congee",
-      "lat": 22.2775252,
-      "lng": 114.17375639999999,
-      "district": "灣仔",
-      "area": "軒尼詩",
-      "address": "香港灣仔軒尼詩道168號煥然樓地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（203 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（新深粥店／牌照2212812787／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／203 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7RTGgFwABDQRn33AmJyDZNI",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.1,
-      "google_review_count": 203,
-      "fehd_licence_no": "2212812787",
-      "google_place_id": "ChIJ7RTGgFwABDQRn33AmJyDZNI"
-    },
-    {
-      "id": "xin-feng-ji-zhuang-shi-dun-xiu",
-      "name_zh": "新豐記",
-      "name_en": "Sun Fung Kee",
-      "lat": 22.2767765,
-      "lng": 114.174027,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港灣仔莊士敦道149號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（新豐記／牌照2212216527／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJKXt_Y1sABDQRXkVl_Zhpblg",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "fehd_licence_no": "2212216527",
-      "google_place_id": "ChIJKXt_Y1sABDQRXkVl_Zhpblg"
-    },
-    {
-      "id": "xin-xuan-ni-shi-cha-zhuang-shi-dun-xiu",
-      "name_zh": "新軒尼詩茶餐廳",
-      "name_en": "New Hennessy Restaurant",
-      "lat": 22.2783941,
-      "lng": 114.17305189999999,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港灣仔柯布連道6號A及B(地下)及6號B(閣樓)",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（新軒尼詩茶餐廳／牌照2212116166／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJKa6ccFwABDQRtJPoUn5kmEk",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "fehd_licence_no": "2212116166",
-      "google_place_id": "ChIJKa6ccFwABDQRtJPoUn5kmEk"
     },
     {
       "id": "wang-ji-da-leng-xiao-wan-zai",
@@ -29484,161 +30991,6 @@
       "google_rating": 4.6,
       "google_review_count": null,
       "google_place_id": "ChIJEdExFpMBBDQRxU5-lgMzbfE"
-    },
-    {
-      "id": "zhi-zun-suan-cai-yu-wan-zai",
-      "name_zh": "智尊酸菜魚",
-      "name_en": "Supreme Pickled Fish",
-      "lat": 22.2775096,
-      "lng": 114.17709099999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔克街1-15號展鴻大廈地下及夾層A舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（智尊酸菜魚／牌照2212819991／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJz9_AVW8BBDQRIqnZ1akCmdE",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "2212819991",
-      "google_place_id": "ChIJz9_AVW8BBDQRIqnZ1akCmdE"
-    },
-    {
-      "id": "yue-jie-xiao-guan-wan-zai-xi-xing",
-      "name_zh": "月街小館",
-      "name_en": "Moon Corner",
-      "lat": 22.2760592,
-      "lng": 114.1687493,
-      "district": "灣仔",
-      "area": "灣仔西／星街・分域",
-      "address": "香港灣仔月街17A號月豐閣地下C舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（月街小館／牌照2212810134／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJVVW-Tl0ABDQRGPHYEYeV7b0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "2212810134",
-      "google_place_id": "ChIJVVW-Tl0ABDQRGPHYEYeV7b0"
-    },
-    {
-      "id": "you-mi-can-ting-xiao-wan-zai",
-      "name_zh": "有米餐廳小廚",
-      "name_en": null,
-      "lat": 22.2772184,
-      "lng": 114.179921,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔摩理臣山道26-28號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（33 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（有米餐廳小廚／牌照2212815184／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／33 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJafqABjMBBDQRaW6kLxKtdPU",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": 33,
-      "fehd_licence_no": "2212815184",
-      "google_place_id": "ChIJafqABjMBBDQRaW6kLxKtdPU"
-    },
-    {
-      "id": "dong-jing-shi-tang-wan-zai",
-      "name_zh": "東京食堂",
-      "name_en": "Tokyo Shokudo",
-      "lat": 22.275125199999998,
-      "lng": 114.1711433,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔堅尼地道15號 合和商場6樓610鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（東京食堂／牌照2212823833／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7VERCQABBDQRgpqHSFIwfP0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.8,
-      "google_review_count": null,
-      "fehd_licence_no": "2212823833",
-      "google_place_id": "ChIJ7VERCQABBDQRgpqHSFIwfP0"
-    },
-    {
-      "id": "dong-bei-xiao-guan-wan-zai",
-      "name_zh": "東北小館",
-      "name_en": null,
-      "lat": 22.276545499999997,
-      "lng": 114.16984099999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔機利臣街3號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 1（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（東北小館／牌照2212165052／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ9YjoMgABBDQRSGqU3JPMzPk",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 1,
-      "google_review_count": null,
-      "fehd_licence_no": "2212165052",
-      "google_place_id": "ChIJ9YjoMgABBDQRSGqU3JPMzPk"
     },
     {
       "id": "dong-bao-xiao-guan-wan-zai",
@@ -29697,37 +31049,6 @@
       "google_place_id": "ChIJz_v38HEBBDQRT5y5gd6yEpw"
     },
     {
-      "id": "chu-liu-xiang-zhuang-shi-dun-xiu",
-      "name_zh": "楚留香",
-      "name_en": null,
-      "lat": 22.277500699999997,
-      "lng": 114.17362519999999,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港灣仔軒尼詩道156,160及162號及 柯布連道7A及7B號 利榮大樓地下A舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（楚留香／牌照2212821615／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJw-mwrcMBBDQRr01buzXAj2E",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.1,
-      "google_review_count": null,
-      "fehd_licence_no": "2212821615",
-      "google_place_id": "ChIJw-mwrcMBBDQRr01buzXAj2E"
-    },
-    {
       "id": "x-duan-chun-zhen-ri-zhuang-shi-dun-xiu",
       "name_zh": "段純貞 x 日出茶太 (莊士敦道店)",
       "name_en": "Duan Chun Zhen x Chatime",
@@ -29750,295 +31071,6 @@
       "google_rating": 4.3,
       "google_review_count": 282,
       "google_place_id": "ChIJZeG97J4BBDQRIC0wssTgDuU"
-    },
-    {
-      "id": "shui-men-tai-shi-hai-zhuang-shi-dun-xiu",
-      "name_zh": "水門泰式海南雞飯專門店",
-      "name_en": null,
-      "lat": 22.276967,
-      "lng": 114.1712225,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港灣仔譚臣道8號 威利商業大廈地下C舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（28 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（水門泰式海南雞飯專門店／牌照2212823897／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／28 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJl1hXxQcBBDQRwvOv5domEVk",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.1,
-      "google_review_count": 28,
-      "fehd_licence_no": "2212823897",
-      "google_place_id": "ChIJl1hXxQcBBDQRwvOv5domEVk"
-    },
-    {
-      "id": "yong-hua-ri-chang-wan-zai",
-      "name_zh": "永華日常",
-      "name_en": "Wing Wah Allday (Wan Chai)",
-      "lat": 22.2755951,
-      "lng": 114.17243409999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔皇后大道東200號 利東街地下G22-23號舖及1樓F22A號舖及舖旁露天座位",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（永華日常／牌照2212820287／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7awht1wABDQRfJfkK19omiM",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "2212820287",
-      "google_place_id": "ChIJ7awht1wABDQRfJfkK19omiM"
-    },
-    {
-      "id": "tai-zu-le-zhuang-shi-dun-xiu",
-      "name_zh": "泰足樂",
-      "name_en": null,
-      "lat": 22.2772209,
-      "lng": 114.170609,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港島灣仔莊士敦道25號Cheong Hong MansionFlat A 1 Floor",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（2 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／2 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJcXdZflwABDQRndk1OocQFg4",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": 2,
-      "google_place_id": "ChIJcXdZflwABDQRndk1OocQFg4"
-    },
-    {
-      "id": "hao-ji-cha-can-ting-wan-zai",
-      "name_zh": "浩記茶餐廳",
-      "name_en": "Ho Kee Restaurant",
-      "lat": 22.2796357,
-      "lng": 114.178542,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔謝斐道315-317號帝城大廈地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（149 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（浩記茶餐廳／牌照2212801899／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／149 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ14NeHloABDQRTHNASuzbyko",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 149,
-      "fehd_licence_no": "2212801899",
-      "google_place_id": "ChIJ14NeHloABDQRTHNASuzbyko"
-    },
-    {
-      "id": "hai-de-zhong-xin-zhuang-shi-dun-xiu",
-      "name_zh": "海德中心",
-      "name_en": "One Capital Place",
-      "lat": 22.2784631,
-      "lng": 114.1719656,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港島灣仔盧押道18號7樓B室",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.1（174 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.1／174 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJs-YeXVwABDQRNVXUxaDHxyw",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.1,
-      "google_review_count": 174,
-      "google_place_id": "ChIJs-YeXVwABDQRNVXUxaDHxyw"
-    },
-    {
-      "id": "gang-wan-cha-can-ting-hui-zhan-gang-wan",
-      "name_zh": "港灣茶餐廳",
-      "name_en": "Harbour Kitchen",
-      "lat": 22.2810541,
-      "lng": 114.1729032,
-      "district": "灣仔",
-      "area": "會展／港灣道",
-      "address": "香港灣仔港灣道1號香港會議展覽中心 地下(南面部份)",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（港灣茶餐廳／牌照2212228481／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJuydir14ABDQR0e10ePT6ft0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.1,
-      "google_review_count": null,
-      "fehd_licence_no": "2212228481",
-      "google_place_id": "ChIJuydir14ABDQR0e10ePT6ft0"
-    },
-    {
-      "id": "xiang-wei-ji-jing-dian-luo-ke",
-      "name_zh": "湘味記經典湖南菜",
-      "name_en": null,
-      "lat": 22.2783203,
-      "lng": 114.1730011,
-      "district": "灣仔",
-      "area": "駱克",
-      "address": "香港灣仔駱克道137-147號香江大廈地下H鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.9（12 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（湘味記經典湖南菜／牌照2212804144／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.9／12 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJBUYIWgABBDQRB9woC1fZKR8",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.9,
-      "google_review_count": 12,
-      "fehd_licence_no": "2212804144",
-      "google_place_id": "ChIJBUYIWgABBDQRB9woC1fZKR8"
-    },
-    {
-      "id": "chao-niu-nan-wan-zai",
-      "name_zh": "潮牛腩",
-      "name_en": null,
-      "lat": 22.2796409,
-      "lng": 114.17832849999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔謝斐道307-311號快添大廈地下2號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（102 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（潮牛腩／牌照2212819548／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／102 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ16udS2MBBDQRnbt5nKlVw9A",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 102,
-      "fehd_licence_no": "2212819548",
-      "google_place_id": "ChIJ16udS2MBBDQRnbt5nKlVw9A"
-    },
-    {
-      "id": "chao-xing-xuan-ni-shi",
-      "name_zh": "潮興",
-      "name_en": "Chiu Hing Noodle House",
-      "lat": 22.2773961,
-      "lng": 114.1714212,
-      "district": "灣仔",
-      "area": "軒尼詩",
-      "address": "香港灣仔軒尼詩道109號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（潮興／牌照2212824261／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJjVyb8FwABDQR8x7xHWmzM6s",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "fehd_licence_no": "2212824261",
-      "google_place_id": "ChIJjVyb8FwABDQR8x7xHWmzM6s"
-    },
-    {
-      "id": "wan-zai-zheng-fu-da-hui-zhan-gang-wan",
-      "name_zh": "灣仔政府大樓停車場",
-      "name_en": "Wanchai Tower Car Park",
-      "lat": 22.2803081,
-      "lng": 114.17251239999999,
-      "district": "灣仔",
-      "area": "會展／港灣道",
-      "address": "香港島灣仔港灣道12號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（59 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.2／59 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJc-quHlwABDQR0fJeLZacxmg",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.2,
-      "google_review_count": 59,
-      "google_place_id": "ChIJc-quHlwABDQR0fJeLZacxmg"
     },
     {
       "id": "dining-tan-huo-yan-wan-zai",
@@ -30158,68 +31190,6 @@
       "google_place_id": "ChIJOw_mOigBBDQRe07dTEVOqvs"
     },
     {
-      "id": "bai-le-chuan-shao-can-wan-zai",
-      "name_zh": "百樂(串燒)餐廳",
-      "name_en": "Bai Le Restaurant",
-      "lat": 22.278523,
-      "lng": 114.172365,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港謝斐道108號地下1號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（70 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（百樂(串燒)餐廳／牌照2212821013／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／70 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ463FZ1wABDQRrwMZ0qFzHE0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 70,
-      "fehd_licence_no": "2212821013",
-      "google_place_id": "ChIJ463FZ1wABDQRrwMZ0qFzHE0"
-    },
-    {
-      "id": "huang-hou-jiao-zi-wan-zai",
-      "name_zh": "皇后餃子",
-      "name_en": "Queen's Dumpling",
-      "lat": 22.277064,
-      "lng": 114.17665849999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔灣仔道152-158號 南開大廈地下D鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.9（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（皇后餃子／牌照3112808825／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJEzAcfugBBDQR5a8mmOLhKlw",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.9,
-      "google_review_count": null,
-      "fehd_licence_no": "3112808825",
-      "google_place_id": "ChIJEzAcfugBBDQR5a8mmOLhKlw"
-    },
-    {
       "id": "imperial-patisserie-huang-yue-wan-xuan-ni-shi",
       "name_zh": "皇玥 Imperial Patisserie (灣仔店)",
       "name_en": null,
@@ -30242,30 +31212,6 @@
       "google_rating": 4.4,
       "google_review_count": 10,
       "google_place_id": "ChIJDTe4nNcBBDQRT9dqKyF3Yc8"
-    },
-    {
-      "id": "kanzan-menya-hopewell-centre-phase-wan-zai",
-      "name_zh": "神山麺屋合和中心二期灣仔 Kanzan Menya Hopewell Centre Phase 2 Wan Chai",
-      "name_en": null,
-      "lat": 22.275123,
-      "lng": 114.17114409999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "Phase 2, Hopewell Centre, Shop 6A, 6/F, 15 Kennedy Rd, Wan Chai, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.6（16 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.6／16 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWQhLdY0BBDQRfVoCcu4QqN0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.6,
-      "google_review_count": 16,
-      "google_place_id": "ChIJWQhLdY0BBDQRfVoCcu4QqN0"
     },
     {
       "id": "shui-wu-ju-wan-zai",
@@ -30434,30 +31380,6 @@
       "google_place_id": "ChIJ_YuAV1oABDQRWuKaj0uVZyA"
     },
     {
-      "id": "lao-ban-niang-jia-chang-zhuang-shi-dun-xiu",
-      "name_zh": "老闆娘家常飯",
-      "name_en": "Lady Boss Mixed Veg Rice",
-      "lat": 22.277443899999998,
-      "lng": 114.1712422,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港島灣仔軒尼詩道68號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJI77MCAABBDQRz2BKwzlFgPA",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJI77MCAABBDQRz2BKwzlFgPA"
-    },
-    {
       "id": "chang-fen-huang-wan-zai",
       "name_zh": "腸粉皇",
       "name_en": "Cheung Fun Wong",
@@ -30512,37 +31434,6 @@
       "google_review_count": null,
       "fehd_licence_no": "3112810637",
       "google_place_id": "ChIJAefQOVsBBDQRN17kGI7UnJE"
-    },
-    {
-      "id": "hua-nan-fen-mian-cha-zhuang-shi-dun-xiu",
-      "name_zh": "華南粉麵茶餐廳",
-      "name_en": "Wah Nam Noodle Restaurant",
-      "lat": 22.277200999999998,
-      "lng": 114.170834,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港灣仔譚臣道5-11號地下D室及一字樓",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（458 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（華南粉麵茶餐廳／牌照2212079056／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／458 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJP3sG4lwABDQRsmz6W2dhhGA",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 458,
-      "fehd_licence_no": "2212079056",
-      "google_place_id": "ChIJP3sG4lwABDQRsmz6W2dhhGA"
     },
     {
       "id": "xue-ji-yu-li-wan-zai-xi-xing",
@@ -30600,147 +31491,6 @@
       "google_place_id": "ChIJWV6tFwABBDQRqdHcU-2oOnc"
     },
     {
-      "id": "jie-fang-mei-shi-luo-ke",
-      "name_zh": "街坊美食",
-      "name_en": null,
-      "lat": 22.2782987,
-      "lng": 114.1730614,
-      "district": "灣仔",
-      "area": "駱克",
-      "address": "香港島灣仔駱克道145號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJwfLY0SwBBDQRxYU6KVL2RY8",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJwfLY0SwBBDQRxYU6KVL2RY8"
-    },
-    {
-      "id": "yuan-ji-yun-jiao-wan-zai",
-      "name_zh": "袁記雲餃",
-      "name_en": "Yuan Ji Yun Jiao",
-      "lat": 22.2752056,
-      "lng": 114.1741021,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔灣仔道3號 尚翹峰第1座地下B2號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（83 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（袁記雲餃／牌照3112809208／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／83 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJYJC10YBBDQR0H4Z2IcsiX4",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": 83,
-      "fehd_licence_no": "3112809208",
-      "google_place_id": "ChIJJYJC10YBBDQR0H4Z2IcsiX4"
-    },
-    {
-      "id": "tan-zai-yun-nan-mi-zhuang-shi-dun-xiu",
-      "name_zh": "譚仔雲南米線",
-      "name_en": "TamJai Yunnan Mixian (Wan Chai)",
-      "lat": 22.2774234,
-      "lng": 114.17324479999999,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港灣仔軒尼詩道130-150號 修頓中心地下B,C及D4舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（譚仔雲南米線／牌照2212821235／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJCTWAwhABBDQRCuH_02e_J00",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.8,
-      "google_review_count": null,
-      "fehd_licence_no": "2212821235",
-      "google_place_id": "ChIJCTWAwhABBDQRCuH_02e_J00"
-    },
-    {
-      "id": "jing-cha-zong-bu-hui-wan-zai",
-      "name_zh": "警察總部匯敍西餐廳",
-      "name_en": "Cafe Rendezvous",
-      "lat": 22.278893,
-      "lng": 114.16807929999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港島灣仔軍器廠街1號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2_ePhV0ABDQR93BSEx_rlBM",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.1,
-      "google_review_count": null,
-      "google_place_id": "ChIJ2_ePhV0ABDQR93BSEx_rlBM"
-    },
-    {
-      "id": "chao-ren-shao-e-wan-zai",
-      "name_zh": "超人燒鵝",
-      "name_en": null,
-      "lat": 22.2786279,
-      "lng": 114.1810131,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔堅拿道西10號 冠景樓地下J鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.6（22 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（超人燒鵝／牌照2212821165／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.6／22 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJdV22OscBBDQRHvKfG6YSkZU",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.6,
-      "google_review_count": 22,
-      "fehd_licence_no": "2212821165",
-      "google_place_id": "ChIJdV22OscBBDQRHvKfG6YSkZU"
-    },
-    {
       "id": "che-mian-guan-zhuang-shi-dun-xiu",
       "name_zh": "車麵館",
       "name_en": null,
@@ -30794,85 +31544,6 @@
       "google_review_count": null,
       "fehd_licence_no": "2212819928",
       "google_place_id": "ChIJDXhJ4WoBBDQRquoaqUmGoQI"
-    },
-    {
-      "id": "xuan-ni-shi-bing-ting-zhuang-shi-dun-xiu",
-      "name_zh": "軒尼詩冰廳",
-      "name_en": null,
-      "lat": 22.2785354,
-      "lng": 114.1730805,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "Yee On Mansion, 6A&B, 6A-B O'Brien Rd, Wan Chai",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ3d4lVhYBBDQRWqgI1u_eMN0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJ3d4lVhYBBDQRWqgI1u_eMN0"
-    },
-    {
-      "id": "lian-feng-shao-wei-can-wan-zai",
-      "name_zh": "連豐燒味餐室",
-      "name_en": null,
-      "lat": 22.2786279,
-      "lng": 114.1810131,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔堅拿道西10號冠景樓地下I鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.6（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（連豐燒味餐室／牌照2212817931／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.6／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJF5eFcHQBBDQRt_F22C41sm8",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.6,
-      "google_review_count": null,
-      "fehd_licence_no": "2212817931",
-      "google_place_id": "ChIJF5eFcHQBBDQRt_F22C41sm8"
-    },
-    {
-      "id": "na-ge-tai-nan-gu-xuan-ni-shi",
-      "name_zh": "那個台南古早料理",
-      "name_en": null,
-      "lat": 22.2778727,
-      "lng": 114.17411279999999,
-      "district": "灣仔",
-      "area": "軒尼詩",
-      "address": "香港島灣仔軒尼詩道181號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.9（19 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.9／19 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ6UtGRQABBDQRssMYd5NPnSA",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.9,
-      "google_review_count": 19,
-      "google_place_id": "ChIJ6UtGRQABBDQRssMYd5NPnSA"
     },
     {
       "id": "jiu-wei-wan-zai-xi-xing",
@@ -30937,68 +31608,6 @@
       "google_place_id": "ChIJkSRV1xgBBDQREVkDC3KYTd8"
     },
     {
-      "id": "jin-bao-cha-can-ting-wan-zai",
-      "name_zh": "金堡茶餐廳",
-      "name_en": "Kambo Restaurant",
-      "lat": 22.278626499999998,
-      "lng": 114.1740866,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔謝斐道233號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（211 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（金堡茶餐廳／牌照2212806159／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／211 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxaqHi1sABDQR_o0BitzYJDM",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 211,
-      "fehd_licence_no": "2212806159",
-      "google_place_id": "ChIJxaqHi1sABDQR_o0BitzYJDM"
-    },
-    {
-      "id": "jin-fu-wan-zai",
-      "name_zh": "金福",
-      "name_en": "Kam Fook Restaurant",
-      "lat": 22.2752628,
-      "lng": 114.17095259999999,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔皇后大道東133號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（55 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（金福／牌照2212039034／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／55 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJsct3T0MABDQRqSGf6tzse6g",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.2,
-      "google_review_count": 55,
-      "fehd_licence_no": "2212039034",
-      "google_place_id": "ChIJsct3T0MABDQRqSGf6tzse6g"
-    },
-    {
       "id": "jin-hui-dian-xin-wan-zai-2",
       "name_zh": "金輝點心",
       "name_en": null,
@@ -31028,30 +31637,6 @@
       "google_review_count": 18,
       "fehd_licence_no": "2212813452",
       "google_place_id": "ChIJgwAvRkYBBDQR7cBjP0V41rs"
-    },
-    {
-      "id": "3-0-jin-fan-guan-wan-zai",
-      "name_zh": "金飯館 3.0",
-      "name_en": "Golden Bowl",
-      "lat": 22.278275,
-      "lng": 114.1795856,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港島灣仔天樂里6-18號恆安大廈地下D&E舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（57 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／57 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJW0sDrhkBBDQR4qPWuN4PEEg",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 57,
-      "google_place_id": "ChIJW0sDrhkBBDQR4qPWuN4PEEg"
     },
     {
       "id": "guo-quan-shi-hui-xuan-ni-shi",
@@ -31086,61 +31671,6 @@
       "google_place_id": "ChIJ-eFYJ38HxA4R1L2zAvhtsPc"
     },
     {
-      "id": "hka1-a-yi-suan-la-wan-zai",
-      "name_zh": "阿一酸辣豬扒米線 Hka1",
-      "name_en": null,
-      "lat": 22.2785103,
-      "lng": 114.1772719,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "290 Lockhart Road, 290 Lockhart Rd, Wan Chai, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（12 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／12 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJS21NQwABBDQRggZ5FdmXuJE",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 12,
-      "google_place_id": "ChIJS21NQwABBDQRggZ5FdmXuJE"
-    },
-    {
-      "id": "tao-yuan-jiu-jia-wan-zai",
-      "name_zh": "陶源酒家",
-      "name_en": "Sportful Garden Restaurant",
-      "lat": 22.2773331,
-      "lng": 114.1746684,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港菲林明道8號大同商場2字樓 及1字樓3-4及5號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（919 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（陶源酒家／牌照2212800850／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／919 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJCehLdlsABDQRVoBAiflFyWI",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 919,
-      "fehd_licence_no": "2212800850",
-      "google_place_id": "ChIJCehLdlsABDQRVoBAiflFyWI"
-    },
-    {
       "id": "xiong-guan-si-fang-cai-xuan-ni-shi",
       "name_zh": "雄館私房菜",
       "name_en": "Hung's Cuisine",
@@ -31170,92 +31700,6 @@
       "google_review_count": 183,
       "fehd_licence_no": "2212808687",
       "google_place_id": "ChIJ-zRwndcBBDQRgezNFnwe4xo"
-    },
-    {
-      "id": "shuang-xi-shao-la-kuai-wan-zai",
-      "name_zh": "雙喜燒臘快餐",
-      "name_en": null,
-      "lat": 22.2786418,
-      "lng": 114.1734121,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港島灣仔謝斐道132號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（149 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.2／149 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_6uUe1wABDQRPmvFBINOs2Q",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.2,
-      "google_review_count": 149,
-      "google_place_id": "ChIJ_6uUe1wABDQRPmvFBINOs2Q"
-    },
-    {
-      "id": "ji-wei-nong-wan-zai",
-      "name_zh": "雞味濃",
-      "name_en": null,
-      "lat": 22.276087,
-      "lng": 114.171555,
-      "district": "灣仔",
-      "area": "灣仔",
-      "address": "香港灣仔大王東街22-30號樹德大廈地下1號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（72 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（雞味濃／牌照2212819371／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／72 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvfZxAh4BBDQRf12Ms7cnzcs",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 72,
-      "fehd_licence_no": "2212819371",
-      "google_place_id": "ChIJvfZxAh4BBDQRf12Ms7cnzcs"
-    },
-    {
-      "id": "yu-lin-xuan-zhuang-shi-dun-xiu",
-      "name_zh": "雨林軒",
-      "name_en": "Jungle Cafe",
-      "lat": 22.277190899999997,
-      "lng": 114.17370849999999,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港灣仔譚臣道103號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.5（14 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（雨林軒／牌照2212203864／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.5／14 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJb7960Q8BBDQRhqq9uukVwBo",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.5,
-      "google_review_count": 14,
-      "fehd_licence_no": "2212203864",
-      "google_place_id": "ChIJb7960Q8BBDQRhqq9uukVwBo"
     },
     {
       "id": "ba-wang-cha-ji-chao-wan-zai",
@@ -31362,30 +31806,6 @@
       "google_place_id": "ChIJl7qOrmkBBDQRPliUT7_rdCE"
     },
     {
-      "id": "xiang-gang-hui-yi-zhan-hui-zhan-gang-wan",
-      "name_zh": "香港會議展覽中心演講廳",
-      "name_en": null,
-      "lat": 22.281419,
-      "lng": 114.17218199999999,
-      "district": "灣仔",
-      "area": "會展／港灣道",
-      "address": "Grand Hyatt Hotel",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJhTtYvV4ABDQRtagYYMAhXBI",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": null,
-      "google_place_id": "ChIJhTtYvV4ABDQRtagYYMAhXBI"
-    },
-    {
       "id": "xiang-gang-yan-yi-xue-hui-zhan-gang-wan",
       "name_zh": "香港演藝學院",
       "name_en": "The Hong Kong Academy for Performing Arts",
@@ -31447,67 +31867,12 @@
       "google_review_count": 3,
       "fehd_licence_no": "3112101706",
       "google_place_id": "ChIJa5o1dwABBDQRvEScVKTCF2Q"
-    },
-    {
-      "id": "long-chuan-yun-nan-mi-xuan-ni-shi",
-      "name_zh": "龍川雲南米線",
-      "name_en": null,
-      "lat": 22.277789499999997,
-      "lng": 114.17350309999999,
-      "district": "灣仔",
-      "area": "軒尼詩",
-      "address": "香港灣仔軒尼詩道153號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.7（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（龍川雲南米線／牌照2212818721／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.7／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJhesDcgABBDQR8lOdx8tOXto",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.7,
-      "google_review_count": null,
-      "fehd_licence_no": "2212818721",
-      "google_place_id": "ChIJhesDcgABBDQR8lOdx8tOXto"
-    },
-    {
-      "id": "long-men-da-jiu-lou-zhuang-shi-dun-xiu",
-      "name_zh": "龍門大酒樓舊址",
-      "name_en": "Former Lung Moon Restaurant",
-      "lat": 22.2764863,
-      "lng": 114.1737423,
-      "district": "灣仔",
-      "area": "莊士敦／修頓",
-      "address": "香港島灣仔莊士敦道130～136號恆生莊士敦道大廈",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（3 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／3 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJLQyIYVsABDQRxjjdk3g-f4I",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 3,
-      "google_place_id": "ChIJLQyIYVsABDQRxjjdk3g-f4I"
     }
   ],
   "meta": {
-    "status": "wan-chai-round1 applied / initial",
+    "status": "rating-backfill 2026-10-07",
     "phase": "wan-chai-round1",
-    "notes_zh": "v1.0（2026-10-07）：CEO 批准灣仔 round1 新建寫庫。Google ≥3.5；評分／營業狀態／營業時間／座標來自 Google 地圖公開網頁（非 Places API）；牌照來自食環署持牌食肆 XML（2026-10-05）；掃街商場／街道招牌；冇用 OpenRice；收費 API：0。review approve 517（對牌 325＋只 Google 192）；實入 kept 506（減邊界 approve 轉 excluded、出區／無座標／合併略過）；excluded 227（reject 199＋邊界 28）；暫緩 hold 唔入 363；CA 重疊暫緩唔入 kept 2；出區／無座標略過 7；合併略過 0。",
+    "notes_zh": "v1.1（2026-10-07）：評分門檻回填。候選 83；搬入 kept 73；維持 excluded nonmeal=8 closed=0 no_lunch=2 no_dine_in=0 no_coords=0。收費 API：0。｜v1.0（2026-10-07）：CEO 批准灣仔 round1 新建寫庫。Google ≥3.5；評分／營業狀態／營業時間／座標來自 Google 地圖公開網頁（非 Places API）；牌照來自食環署持牌食肆 XML（2026-10-05）；掃街商場／街道招牌；冇用 OpenRice；收費 API：0。review approve 517（對牌 325＋只 Google 192）；實入 kept 506（減邊界 approve 轉 excluded、出區／無座標／合併略過）；excluded 227（reject 199＋邊界 28）；暫緩 hold 唔入 363；CA 重疊暫緩唔入 kept 2；出區／無座標略過 7；合併略過 0。",
     "bbox_approx": [
       22.274,
       114.168,
@@ -31518,11 +31883,11 @@
       22.2783,
       114.1722
     ],
-    "previous_version": null,
-    "previous_kept": 0,
-    "previous_excluded": 0,
-    "kept": 506,
-    "excluded": 227,
+    "previous_version": "1.0",
+    "previous_kept": 506,
+    "previous_excluded": 227,
+    "kept": 579,
+    "excluded": 154,
     "paid_api_calls": 0,
     "fehd": {
       "source_xml": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
@@ -32088,6 +32453,93 @@
         "bakery-by-the-grand-wan-zai",
         "mr-tomahawk-member-of-louis-hui-zhan-gang-wan"
       ]
+    },
+    "rating_backfill": {
+      "applied_at": "2026-10-07",
+      "approved_by": "CEO",
+      "backup": "restaurants.json.bak-pre-rating-backfill-2026-10-07",
+      "candidates": 83,
+      "moved": 73,
+      "moved_ids": [
+        "8-hao-bing-shi-luo-ke",
+        "apa-fiesta-hui-zhan-gang-wan",
+        "dosi-le-hui-zhan-gang-wan",
+        "grand-lok-hainan-chicken-wan-wan-zai",
+        "grove-hui-zhan-gang-wan",
+        "international-curry-house-the-emperor-wan-zai",
+        "james-kitchen-xuan-ni-shi",
+        "luk-kwok-centre-wan-chai-wan-zai",
+        "partager-bistro-hui-zhan-gang-wan",
+        "revenue-tower-wan-zai",
+        "sushitsuru-wan-zai",
+        "taiwan-lang-tai-wan-zhuang-shi-dun-xiu",
+        "yakiniku-like-wan-zai",
+        "yky-homemade-noodle-wanchai-wan-zai",
+        "yi-kou-xiang-dian-xin-wan-zai",
+        "wu-xing-can-ting-wan-zai",
+        "ya-su-ji-fan-xuan-ni-shi",
+        "jia-ji-mei-shi-xuan-ni-shi",
+        "you-tian-niu-tun-wang-hui-zhan-gang-wan",
+        "ji-ye-jia-zhuang-shi-dun-xiu",
+        "xi-ji-bi-feng-tang-wan-zai",
+        "da-le-yue-nan-niu-luo-ke",
+        "da-le-yue-nan-niu-luo-ke-2",
+        "da-jia-le-luo-ke",
+        "da-fa-zhou-fen-mian-wan-zai",
+        "an-nan-yue-niu-rou-zhuang-shi-dun-xiu",
+        "2-dai-min-wan-zai-zhuang-shi-dun-xiu",
+        "ping-min-mei-shi-luo-ke",
+        "gong-zhao-zi-xuan-mian-wan-zai",
+        "min-hua-bing-ting-wan-zai",
+        "xin-shen-zhou-dian-xuan-ni-shi",
+        "xin-feng-ji-zhuang-shi-dun-xiu",
+        "xin-xuan-ni-shi-cha-zhuang-shi-dun-xiu",
+        "zhi-zun-suan-cai-yu-wan-zai",
+        "yue-jie-xiao-guan-wan-zai-xi-xing",
+        "you-mi-can-ting-xiao-wan-zai",
+        "dong-jing-shi-tang-wan-zai",
+        "dong-bei-xiao-guan-wan-zai",
+        "chu-liu-xiang-zhuang-shi-dun-xiu",
+        "shui-men-tai-shi-hai-zhuang-shi-dun-xiu",
+        "yong-hua-ri-chang-wan-zai",
+        "tai-zu-le-zhuang-shi-dun-xiu",
+        "hao-ji-cha-can-ting-wan-zai",
+        "hai-de-zhong-xin-zhuang-shi-dun-xiu",
+        "gang-wan-cha-can-ting-hui-zhan-gang-wan",
+        "xiang-wei-ji-jing-dian-luo-ke",
+        "chao-niu-nan-wan-zai",
+        "chao-xing-xuan-ni-shi",
+        "wan-zai-zheng-fu-da-hui-zhan-gang-wan",
+        "bai-le-chuan-shao-can-wan-zai",
+        "huang-hou-jiao-zi-wan-zai",
+        "kanzan-menya-hopewell-centre-phase-wan-zai",
+        "lao-ban-niang-jia-chang-zhuang-shi-dun-xiu",
+        "hua-nan-fen-mian-cha-zhuang-shi-dun-xiu",
+        "jie-fang-mei-shi-luo-ke",
+        "yuan-ji-yun-jiao-wan-zai",
+        "tan-zai-yun-nan-mi-zhuang-shi-dun-xiu",
+        "jing-cha-zong-bu-hui-wan-zai",
+        "chao-ren-shao-e-wan-zai",
+        "xuan-ni-shi-bing-ting-zhuang-shi-dun-xiu",
+        "lian-feng-shao-wei-can-wan-zai",
+        "na-ge-tai-nan-gu-xuan-ni-shi",
+        "jin-bao-cha-can-ting-wan-zai",
+        "jin-fu-wan-zai",
+        "3-0-jin-fan-guan-wan-zai",
+        "hka1-a-yi-suan-la-wan-zai",
+        "tao-yuan-jiu-jia-wan-zai",
+        "shuang-xi-shao-la-kuai-wan-zai",
+        "ji-wei-nong-wan-zai",
+        "yu-lin-xuan-zhuang-shi-dun-xiu",
+        "xiang-gang-hui-yi-zhan-hui-zhan-gang-wan",
+        "long-chuan-yun-nan-mi-xuan-ni-shi",
+        "long-men-da-jiu-lou-zhuang-shi-dun-xiu"
+      ],
+      "stayed_excluded_nonmeal": 8,
+      "stayed_excluded_closed": 0,
+      "stayed_excluded_no_lunch": 2,
+      "stayed_excluded_no_dine_in": 0,
+      "stayed_excluded_no_coords": 0
     }
   }
 }

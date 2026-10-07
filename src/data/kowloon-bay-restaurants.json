@@ -1,7 +1,7 @@
 {
   "district": "九龍灣",
-  "version": "2.0",
-  "updated_at": "2026-10-06",
+  "version": "2.1",
+  "updated_at": "2026-10-07T12:00:00+08:00",
   "criteria": {
     "serves_lunch": true,
     "dine_in": true,
@@ -15,8 +15,8 @@
       "tea_drink",
       "furniture_only"
     ],
-    "min_google_rating": 3.5,
-    "google_rating_note_zh": "Google 地圖公開頁評分 ≥3.5 先入 kept（kowloon-bay-round1，2026-10-06）。",
+    "min_google_rating": null,
+    "google_rating_note_zh": "Google 地圖公開頁評分只作顯示、唔再作入庫門檻（評分門檻回填 2026-10-07；原 ≥3.5 規則取消）。",
     "dessert_rule_zh": "Google 類別／cuisine 主要屬甜品、糖水、麵包／烘焙、純咖啡、茶飲 → 一律 excluded；即使同時寫「餐廳」都照剔。例外：有正常午餐主食（飯／麵／套餐等）證據先可留。邊界個案（享樂烘焙）經 CEO 批核後移 excluded。"
   },
   "restaurants": [
@@ -5639,9 +5639,7 @@
       "google_review_count": 1,
       "google_place_id": "ChIJzR1kts0GBDQRobfBGOqKK6Y",
       "fehd_licence_no": "2251805090"
-    }
-  ],
-  "excluded": [
+    },
     {
       "dine_in": true,
       "serves_lunch": true,
@@ -5662,9 +5660,10 @@
         "連鎖",
         "茶餐廳風",
         "燒味飯",
-        "商場店"
+        "商場店",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "MegaBox L10 太興，供應燒味飯、粉麵同港式焗飯等堂食午餐。公開目錄人均約$51–100；燒味拼盤或套餐喺呢個價帶，商場午市或稍等。",
+      "lunch_notes": "MegaBox L10 太興，供應燒味飯、粉麵同港式焗飯等堂食午餐。公開目錄人均約$51–100；燒味拼盤或套餐喺呢個價帶，商場午市或稍等。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 2,
       "sources": [
         {
@@ -5690,9 +5689,6 @@
         }
       ],
       "price_lunch_hkd": "約 $55–100",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.4,
       "google_review_count": null,
       "google_place_id": "ChIJ2-wo5zMBBDQRhXmwbz4oA0M"
@@ -5717,9 +5713,10 @@
         "連鎖",
         "快餐",
         "丼飯",
-        "商場店"
+        "商場店",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "MegaBox L2 AEON 吉野家，牛肉飯／定食快餐堂食。公開推廣午市丼飯加餃子約$35起；一般一人午餐多四十至六十元，適合赶時間。",
+      "lunch_notes": "MegaBox L2 AEON 吉野家，牛肉飯／定食快餐堂食。公開推廣午市丼飯加餃子約$35起；一般一人午餐多四十至六十元，適合赶時間。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 1,
       "sources": [
         {
@@ -5745,9 +5742,6 @@
         }
       ],
       "price_lunch_hkd": "約 $35–60",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.2,
       "google_review_count": null,
       "google_place_id": "ChIJl1T6YWMABDQR5XvomkPhn6c"
@@ -5771,9 +5765,10 @@
       "tags": [
         "連鎖",
         "粥品",
-        "商場店"
+        "商場店",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "MegaBox L10 靠得住粥麵小館，粥、粉麵同小菜作午餐堂食。公開目錄人均多約$51–100帶；未核實本店官價，一份粥加小食大約呢個範圍。",
+      "lunch_notes": "MegaBox L10 靠得住粥麵小館，粥、粉麵同小菜作午餐堂食。公開目錄人均多約$51–100帶；未核實本店官價，一份粥加小食大約呢個範圍。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 2,
       "sources": [
         {
@@ -5799,9 +5794,6 @@
         }
       ],
       "price_lunch_hkd": "約 $45–80（午餐／未核實官價）",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（268 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.3,
       "google_review_count": 268,
       "google_place_id": "ChIJK0RQmzUHBDQRY-xxmgoZIh4"
@@ -5826,9 +5818,10 @@
         "快餐",
         "午餐套餐",
         "商場店",
-        "EatSmart"
+        "EatSmart",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "德福廣場大家樂，EatSmart列快餐店；午市有飯／粉麵／焗飯套餐連飲。公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
+      "lunch_notes": "德福廣場大家樂，EatSmart列快餐店；午市有飯／粉麵／焗飯套餐連飲。公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 1,
       "sources": [
         {
@@ -5864,9 +5857,6 @@
         }
       ],
       "price_lunch_hkd": "約 $39–65",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（289 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.3,
       "google_review_count": 289,
       "google_place_id": "ChIJDxMtpjUBBDQRezODDsTgGPg"
@@ -5890,9 +5880,10 @@
       "tags": [
         "連鎖",
         "鐵板飯",
-        "商場店"
+        "商場店",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "德福二期 Pepper Lunch Express，官方約11:30–22:00；自煮鐵板飯午餐堂食。公開目錄人均約$51–100，推廣鐵板餐約$62起；Express 定位偏快，適合赶時間。",
+      "lunch_notes": "德福二期 Pepper Lunch Express，官方約11:30–22:00；自煮鐵板飯午餐堂食。公開目錄人均約$51–100，推廣鐵板餐約$62起；Express 定位偏快，適合赶時間。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 2,
       "sources": [
         {
@@ -5923,9 +5914,6 @@
         }
       ],
       "price_lunch_hkd": "約 $55–100",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.4,
       "google_review_count": null,
       "google_place_id": "ChIJQdvrpzUBBDQR5Cu7eMCCDS8"
@@ -5949,9 +5937,10 @@
       "tags": [
         "連鎖",
         "常餐",
-        "商場店"
+        "商場店",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "德福一期敏華冰廳，官方約07:00–22:00；港式冰室飯麵／常餐作午餐。公開目錄人均約$51–100，單點常餐多五十至七十元帶；德福地下舖午市或滿座。",
+      "lunch_notes": "德福一期敏華冰廳，官方約07:00–22:00；港式冰室飯麵／常餐作午餐。公開目錄人均約$51–100，單點常餐多五十至七十元帶；德福地下舖午市或滿座。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 1,
       "sources": [
         {
@@ -5977,9 +5966,6 @@
         }
       ],
       "price_lunch_hkd": "約 $50–90",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.3,
       "google_review_count": null,
       "google_place_id": "ChIJK5qqLTUBBDQRaN8I5gyjk0Q"
@@ -6003,9 +5989,10 @@
       "tags": [
         "連鎖",
         "迴轉壽司",
-        "商場店"
+        "商場店",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "德福二期壽司郎，官方約10:30–22:00；迴轉壽司堂食。公開紅碟約$12起，一人午餐視碟數常約八十至一百五；人氣高建議 App 取票。",
+      "lunch_notes": "德福二期壽司郎，官方約10:30–22:00；迴轉壽司堂食。公開紅碟約$12起，一人午餐視碟數常約八十至一百五；人氣高建議 App 取票。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 2,
       "sources": [
         {
@@ -6031,9 +6018,6 @@
         }
       ],
       "price_lunch_hkd": "約 $80–150",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.2,
       "google_review_count": null,
       "google_place_id": "ChIJvUMTIAABBDQRr4zJ94sAdfU"
@@ -6057,9 +6041,10 @@
       "tags": [
         "連鎖",
         "正餐",
-        "商場店"
+        "商場店",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "德福一期亞參雞飯，官方約11:00–21:30；海南雞飯／咖哩麵作午餐堂食。公開目錄人均約$51–100；一份雞飯加飲大致呢個價帶。",
+      "lunch_notes": "德福一期亞參雞飯，官方約11:00–21:30；海南雞飯／咖哩麵作午餐堂食。公開目錄人均約$51–100；一份雞飯加飲大致呢個價帶。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 1,
       "sources": [
         {
@@ -6085,9 +6070,6 @@
         }
       ],
       "price_lunch_hkd": "約 $55–90",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.2,
       "google_review_count": null,
       "google_place_id": "ChIJh4AROjUBBDQRF_mMVO7ao90"
@@ -6111,9 +6093,10 @@
         "連鎖",
         "快餐",
         "午餐套餐",
-        "商場店"
+        "商場店",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "麗晶商場大快活，官網標示堂食／外賣，約07:00–20:30。雙餸碗連熱飲約$39，一般午市套餐約四十至六十元；邨商場街坊店定位。",
+      "lunch_notes": "麗晶商場大快活，官網標示堂食／外賣，約07:00–20:30。雙餸碗連熱飲約$39，一般午市套餐約四十至六十元；邨商場街坊店定位。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 1,
       "sources": [
         {
@@ -6144,9 +6127,6 @@
         }
       ],
       "price_lunch_hkd": "約 $39–60",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.3,
       "google_review_count": null,
       "google_place_id": "ChIJ1SO4ts0GBDQRBtLl4aTArg8"
@@ -6171,9 +6151,10 @@
         "連鎖",
         "快餐",
         "商場店",
-        "大堂座位"
+        "大堂座位",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "麗晶商場麥當勞，有大堂座位，漢堡／套餐作午餐。App常見超值套餐約$36起，正價套餐約四十多至五十多元；邨商場人流相對穩陣。",
+      "lunch_notes": "麗晶商場麥當勞，有大堂座位，漢堡／套餐作午餐。App常見超值套餐約$36起，正價套餐約四十多至五十多元；邨商場人流相對穩陣。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 1,
       "sources": [
         {
@@ -6199,9 +6180,6 @@
         }
       ],
       "price_lunch_hkd": "約 $36–55",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（397 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.4,
       "google_review_count": 397,
       "google_place_id": "ChIJ54A5t80GBDQRInYOGmj5LFQ"
@@ -6225,9 +6203,10 @@
       "tags": [
         "連鎖",
         "酒樓",
-        "商場店"
+        "商場店",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "德福二期稻香，日間時段有點心／中菜午餐堂食。OpenRice食評顯示稻香午市孖寶／定食常見約三十幾至八十元帶；酒樓加一另計，人多要等位。",
+      "lunch_notes": "德福二期稻香，日間時段有點心／中菜午餐堂食。OpenRice食評顯示稻香午市孖寶／定食常見約三十幾至八十元帶；酒樓加一另計，人多要等位。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 2,
       "sources": [
         {
@@ -6258,9 +6237,6 @@
         }
       ],
       "price_lunch_hkd": "約 $50–100",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.3,
       "google_review_count": null,
       "google_place_id": "ChIJ7wdBvDUBBDQRJv8YpOid1NE"
@@ -6284,9 +6260,10 @@
       "tags": [
         "連鎖",
         "酒樓",
-        "大廈底"
+        "大廈底",
+        "google_below_3_5_backfill"
       ],
-      "lunch_notes": "一號九龍稻香．茶居，官方約11:00–16:00涵蓋午市；點心／中式套餐堂食。OpenRice食評顯示稻香午市孖寶／定食常見約三十幾至八十元帶；寫字樓區，加一另計。",
+      "lunch_notes": "一號九龍稻香．茶居，官方約11:00–16:00涵蓋午市；點心／中式套餐堂食。OpenRice食評顯示稻香午市孖寶／定食常見約三十幾至八十元帶；寫字樓區，加一另計。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
       "price_level": 2,
       "sources": [
         {
@@ -6312,13 +6289,1287 @@
         }
       ],
       "price_lunch_hkd": "約 $50–100",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "excluded_from": "restaurants（v1.2 kept）",
       "google_rating": 3.4,
       "google_review_count": null,
       "google_place_id": "ChIJIX7S5JoBBDQR1zI0e57-tTs"
     },
+    {
+      "id": "antoshimo-cafe-bakery-megabox",
+      "name_zh": "Antoshimo Cafe & Bakery（MegaBox）",
+      "name_en": "Antoshimo Cafe & Bakery (MegaBox)",
+      "lat": 22.319638899999998,
+      "lng": 114.2085,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（Antoshimo）",
+          "url": "https://www.megabox.com.hk/shopping_directory.php?mid=5&smc=D",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "google_rating": 3.4,
+      "google_review_count": 36,
+      "google_place_id": "ChIJKwy94jMBBDQR5p2eH-Ts-Ho",
+      "verified_at": "2026-10-06",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：日本餐廳。Google 評分 3.4／36 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "matcha-tokyo-megabox",
+      "name_zh": "THE MATCHA TOKYO（MegaBox）",
+      "name_en": "THE MATCHA TOKYO (MegaBox)",
+      "lat": 22.319865999999998,
+      "lng": 114.208827,
+      "sources": [
+        {
+          "name": "MegaBox 官方 Dining 目錄（THE MATCHA TOKYO）",
+          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "google_rating": 3.4,
+      "google_review_count": 38,
+      "google_place_id": "ChIJ100bTj8BBDQREDE0SrP--Y4",
+      "verified_at": "2026-10-06",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：茶藝館。Google 評分 3.4／38 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "club-one-telford-gardens",
+      "name_zh": "會所1号 · 德藝會（德福花園）",
+      "name_en": "Club One / Tak Art Club (Telford Gardens)",
+      "lat": 22.322885,
+      "lng": 114.2125485,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆（會所1号 · 德藝會）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=329",
+          "checked_at": "2026-09-24"
+        }
+      ],
+      "google_rating": 3.4,
+      "google_review_count": 168,
+      "google_place_id": "ChIJH8vqPTUBBDQRKhoSkCajVuY",
+      "verified_at": "2026-10-06",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：康樂中心。Google 評分 3.4／168 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "nan-feng-can-ting-li-jing-shang-chang",
+      "name_zh": "南豐餐廳",
+      "name_en": "Nam Fung Restaurant & Cake Shop",
+      "lat": 22.3293002,
+      "lng": 114.2061234,
+      "address": "九龍九龍灣 麗晶花園麗晶商場地下G1號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（南豐餐廳／牌照2251129259／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／413 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJFy6Hts0GBDQRKHBTdaZvnlQ",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.3,
+      "google_review_count": 413,
+      "fehd_licence_no": "2251129259",
+      "google_place_id": "ChIJFy6Hts0GBDQRKHBTdaZvnlQ",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳／中菜館。Google 評分 3.3／413 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "xun-cai-bao-jing-wu-megabox",
+      "name_zh": "旬彩爆丼屋",
+      "name_en": "Big Ban Don",
+      "lat": 22.320000399999998,
+      "lng": 114.20856479999999,
+      "address": "九龍九龍灣宏照道38號MEGABOX10樓5號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（旬彩爆丼屋／牌照2251802408／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ4QLsnf0BBDQRTDFmtAwnUcY",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3,
+      "google_review_count": null,
+      "fehd_licence_no": "2251802408",
+      "google_place_id": "ChIJ4QLsnf0BBDQRTDFmtAwnUcY",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：日本餐廳。Google 評分 3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "zheng-xian-hui-zhuan-shou-jiu-long-wan",
+      "name_zh": "爭鮮迴轉壽司",
+      "name_en": "Sushi Express (Kai Tak)",
+      "lat": 22.3297061,
+      "lng": 114.199916,
+      "address": "九龍九龍灣牛頭角道165-169號偉景樓地下F,G,H及I舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（爭鮮迴轉壽司／牌照2251802602／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／52 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJQfMo2E8HBDQR32Y8nxiyqo0",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.3,
+      "google_review_count": 52,
+      "fehd_licence_no": "2251802602",
+      "google_place_id": "ChIJQfMo2E8HBDQR32Y8nxiyqo0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：迴轉壽司餐廳。Google 評分 3.3／52 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "man-xiao-chu-li-jing-shang-chang",
+      "name_zh": "滿小廚",
+      "name_en": "Full Kitchen",
+      "lat": 22.329675299999998,
+      "lng": 114.2058921,
+      "address": "九龍九龍灣宏光道80號麗晶商場1樓133號",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（滿小廚／牌照2251803003／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJbfK3t80GBDQRogC3Px6txeo",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.9,
+      "google_review_count": null,
+      "fehd_licence_no": "2251803003",
+      "google_place_id": "ChIJbfK3t80GBDQRogC3Px6txeo",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粵菜館。Google 評分 2.9（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.9 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "mian-dang-qi-ye-guang-chang",
+      "name_zh": "麵檔",
+      "name_en": null,
+      "lat": 22.3221259,
+      "lng": 114.2079076,
+      "address": "九龍九龍灣常悅道9號企業廣場1期1B1舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（麵檔／牌照2251803182／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_yYMojMBBDQRk8HPPDBURz0",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "2251803182",
+      "google_place_id": "ChIJ_yYMojMBBDQRk8HPPDBURz0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "mr-oj-qi-ye-guang-chang",
+      "name_zh": "Mr. OJ",
+      "name_en": null,
+      "lat": 22.3217066,
+      "lng": 114.2112758,
+      "address": "九龍九龍灣宏開道8號其士商業中心地下3號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Mr. OJ／牌照2251804741／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWQBsn44BBDQRI_sup5mSfEk",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.9,
+      "google_review_count": null,
+      "fehd_licence_no": "2251804741",
+      "google_place_id": "ChIJWQBsn44BBDQRI_sup5mSfEk",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：快餐店。Google 評分 2.9（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.9 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "san-yue-bing-shi-qi-ye-cun",
+      "name_zh": "三悅冰室",
+      "name_en": "Sam Yeut Cafe",
+      "lat": 22.3289825,
+      "lng": 114.209398,
+      "address": "九龍觀塘九龍灣啟業邨啟業商場地下6號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（三悅冰室／牌照2251807245／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJP5nKQgAHBDQRTsn3yPqA1sU",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.8,
+      "google_review_count": null,
+      "fehd_licence_no": "2251807245",
+      "google_place_id": "ChIJP5nKQgAHBDQRTsn3yPqA1sU",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 2.8（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "tian-ji-jiao-zi-megabox",
+      "name_zh": "甜記餃子",
+      "name_en": "Tin Kee Dumplings",
+      "lat": 22.319776599999997,
+      "lng": 114.20839989999999,
+      "address": "九龍九龍灣宏照道38號 MEGABOX1樓19-20舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（甜記餃子／牌照2251808017／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJpwv5BroBBDQRPRzbEc6Sa_o",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.8,
+      "google_review_count": null,
+      "fehd_licence_no": "2251808017",
+      "google_place_id": "ChIJpwv5BroBBDQRPRzbEc6Sa_o",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餃子店。Google 評分 2.8（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "yue-nan-hui-guan-de-fu-guang-chang",
+      "name_zh": "越南會館",
+      "name_en": "Maison Saigon",
+      "lat": 22.3211002,
+      "lng": 114.2132784,
+      "address": "九龍九龍灣德福廣場II期4樓419-420鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（越南會館／牌照2251809700／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.7／80 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJqRJhbOUBBDQRumH4IrZzIr8",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.7,
+      "google_review_count": 80,
+      "fehd_licence_no": "2251809700",
+      "google_place_id": "ChIJqRJhbOUBBDQRumH4IrZzIr8",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：越南餐廳。Google 評分 2.7／80 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.7 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "hong-cha-qi-ye-guang-chang",
+      "name_zh": "紅茶",
+      "name_en": "Red Tea (Kowloon Bay)",
+      "lat": 22.3222377,
+      "lng": 114.2111642,
+      "address": "九龍九龍灣常悅道21號東匯地下1-2號舗",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（紅茶／牌照2251810351／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／70 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ6-h3CgABBDQRjdHQxQphKKw",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": 70,
+      "fehd_licence_no": "2251810351",
+      "google_place_id": "ChIJ6-h3CgABBDQRjdHQxQphKKw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.4／70 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "zhong-ji-zhou-pin-qi-ye-cun",
+      "name_zh": "忠記粥品",
+      "name_en": null,
+      "lat": 22.3289083,
+      "lng": 114.2092965,
+      "address": "九龍九龍灣啟業邨 啟業商場地下3號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（忠記粥品／牌照2251810564／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJXdEVfsIHBDQRRiZ3mvwAq_E",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "2251810564",
+      "google_place_id": "ChIJXdEVfsIHBDQRRiZ3mvwAq_E",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粥餐廳。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "qiang-ni-bing-shi-jiu-long-wan",
+      "name_zh": "強尼冰室",
+      "name_en": null,
+      "lat": 22.319135,
+      "lng": 114.2117554,
+      "address": "九龍九龍灣偉業街38號富臨中心1字樓C1舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（強尼冰室／牌照2251810625／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.4／7 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ9aw4x28BBDQR1YBLvvxkLOw",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.4,
+      "google_review_count": 7,
+      "fehd_licence_no": "2251810625",
+      "google_place_id": "ChIJ9aw4x28BBDQR1YBLvvxkLOw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 2.4／7 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "lin-li-can-shi-jiu-long-wan",
+      "name_zh": "鄰里餐室",
+      "name_en": null,
+      "lat": 22.3199675,
+      "lng": 114.2099076,
+      "address": "九龍九龍灣宏泰道23號 MANHATTAN PLACE地下G01號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（鄰里餐室／牌照3151800783／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.7／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJd5hHDQABBDQRkJdGM1y2Z08",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.7,
+      "google_review_count": null,
+      "fehd_licence_no": "3151800783",
+      "google_place_id": "ChIJd5hHDQABBDQRkJdGM1y2Z08",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 2.7（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.7 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "ba-fang-yun-ji-megabox",
+      "name_zh": "八方雲集",
+      "name_en": "Bafang Dumpling",
+      "lat": 22.319793699999998,
+      "lng": 114.208832,
+      "address": "九龍九龍灣宏照道38號企業廣場5期 MEGABOX 永旺九龍灣店二樓L203鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（八方雲集／牌照3151801430／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／48 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJgzPq5DMBBDQR641dQuVj0eM",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": 48,
+      "fehd_licence_no": "3151801430",
+      "google_place_id": "ChIJgzPq5DMBBDQR641dQuVj0eM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餃子店。Google 評分 3.4／48 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "jin-feng-che-zai-mian-li-jing-shang-chang",
+      "name_zh": "金豐車仔麵",
+      "name_en": null,
+      "lat": 22.32961,
+      "lng": 114.20591599999999,
+      "address": "九龍九龍灣麗晶花園商場1樓131舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金豐車仔麵／牌照3151802576／持牌食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-06"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／8 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJzR1kts0GBDQRp8DVU0YLits",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3,
+      "google_review_count": 8,
+      "fehd_licence_no": "3151802576",
+      "google_place_id": "ChIJzR1kts0GBDQRp8DVU0YLits",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 評分 3／8 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "qi-ye-guang-chang-qi-ye-guang-chang",
+      "name_zh": "企業廣場",
+      "name_en": "Enterprise Square",
+      "lat": 22.3219469,
+      "lng": 114.20786559999999,
+      "address": "九龍九龍灣常悅道九號企業廣場",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWUPFmTMBBDQRYu5ewN4yAJ0",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJWUPFmTMBBDQRYu5ewN4yAJ0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：商業中心／公司辦公室。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "chimac-qi-ye-guang-chang-qi-ye-guang-chang",
+      "name_zh": "CHIMAC(企業廣場)",
+      "name_en": null,
+      "lat": 22.3216721,
+      "lng": 114.2076357,
+      "address": "九龍九龍灣常悅道9號企業廣場地下1號舖部分",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJq65vPFoBBDQRV98s4Dtecfo",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.9,
+      "google_review_count": null,
+      "google_place_id": "ChIJq65vPFoBBDQRV98s4Dtecfo",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：韓國餐廳。Google 評分 2.9（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.9 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "1-fu-lin-huang-shi-qi-ye-guang-chang",
+      "name_zh": "富臨皇室1號 (九龍灣店)",
+      "name_en": "Fulum Palace",
+      "lat": 22.3223566,
+      "lng": 114.2078074,
+      "address": "九龍九龍灣常悅道9號企業廣場",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJVVWVmDMBBDQRlrEGbGUjJy0",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJVVWVmDMBBDQRlrEGbGUjJy0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "foodeli-2-de-fu-guang-de-fu-guang-chang",
+      "name_zh": "Foodeli (德福廣場2期)",
+      "name_en": null,
+      "lat": 22.3210853,
+      "lng": 114.2132694,
+      "address": "九龍九龍灣偉業街33號德福廣場2期5樓501B號舖",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJn-G9DwABBDQRflzf8KG3UIk",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.1,
+      "google_review_count": null,
+      "google_place_id": "ChIJn-G9DwABBDQRflzf8KG3UIk",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：美食廣場。Google 評分 3.1（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "tiger-ramen-telford-plaza-de-fu-guang-chang",
+      "name_zh": "Tiger Ramen (Telford Plaza)",
+      "name_en": "Tiger Ramen (Telford Plaza)",
+      "lat": 22.3224104,
+      "lng": 114.2128769,
+      "address": "5/F, Plaza 2, Telford Plaza, 33 Wai Yip St 501b3, Kowloon Bay, Kowloon",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.2／11 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJ_MSmTEBBDQRfZ5VVAdcUvs",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.2,
+      "google_review_count": 11,
+      "google_place_id": "ChIJJ_MSmTEBBDQRfZ5VVAdcUvs",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 2.2／11 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "li-jing-shang-chang-li-jing-shang-chang",
+      "name_zh": "麗晶商場",
+      "name_en": "Richland Gardens Shopping Centre",
+      "lat": 22.3294651,
+      "lng": 114.20600429999999,
+      "address": "九龍九龍灣宏光道80號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJidt18lEHBDQRBjuNzAhJltg",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJidt18lEHBDQRBjuNzAhJltg",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：商場。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "li-jing-hua-yuan-li-jing-shang-chang",
+      "name_zh": "麗晶花園",
+      "name_en": "Richland Gardens",
+      "lat": 22.3294481,
+      "lng": 114.2070531,
+      "address": "九龍九龍灣宏光道80號麗晶花園1座",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxVfFM8wGBDQRmxsJiJ9YGBQ",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJxVfFM8wGBDQRmxsJiJ9YGBQ",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：私人屋苑。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "asian-lab-jiu-long-wan",
+      "name_zh": "Asian Lab",
+      "name_en": "Asian Lab",
+      "lat": 22.3318566,
+      "lng": 114.20157189999999,
+      "address": "九龍啟德沐翠街12號雙子匯2期14樓",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／41 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJa4MNQwAHBDQRo3HdeVNSZhg",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.3,
+      "google_review_count": 41,
+      "google_place_id": "ChIJa4MNQwAHBDQRo3HdeVNSZhg",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：亞洲菜餐廳。Google 評分 3.3／41 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "jin-feng-da-can-ting-jiu-long-wan",
+      "name_zh": "金鳳大餐廳",
+      "name_en": "Golden Phoenix Restaurant",
+      "lat": 22.3310764,
+      "lng": 114.2027494,
+      "address": "九龍啟德沐翠街晴朗商場（A區）B003+B004號舖",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／615 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJbSkBdIGBDQRZB4q6Bgq1W8",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": 615,
+      "google_place_id": "ChIJJbSkBdIGBDQRZB4q6Bgq1W8",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：扒房。Google 評分 3.4／615 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "ya-yi-shi-tang-jiu-long-wan",
+      "name_zh": "亞一食堂",
+      "name_en": "A1 Canteen",
+      "lat": 22.324185,
+      "lng": 114.210512,
+      "address": "Unit B6, Workshop No. 2, G/F, Metro Centre, 32 Lam Hing Street, Kowloon Bay",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.2／10 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJR3xbtzQBBDQRtVTiXWgmHDY",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.2,
+      "google_review_count": 10,
+      "google_place_id": "ChIJR3xbtzQBBDQRtVTiXWgmHDY",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.2／10 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "royal-one-qi-ye-guang-chang",
+      "name_zh": "Royal One",
+      "name_en": "Royal One",
+      "lat": 22.322304799999998,
+      "lng": 114.20802169999999,
+      "address": "九龍九龍灣常悅道9號企業廣場",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.7／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJG1LOmTMBBDQRjg3D32kkbmE",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.7,
+      "google_review_count": null,
+      "google_place_id": "ChIJG1LOmTMBBDQRjg3D32kkbmE",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：酒樓。Google 評分 2.7（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.7 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "qi-shi-shang-ye-zhong-qi-ye-guang-chang",
+      "name_zh": "其士商業中心",
+      "name_en": "Chevalier Commercial Centre",
+      "lat": 22.3215446,
+      "lng": 114.2113019,
+      "address": "8 Wang Hoi Rd, Kowloon Bay, Kowloon",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJV9rcWzQBBDQRxSEPN-vT_fY",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJV9rcWzQBBDQRxSEPN-vT_fY",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：商業中心。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "qi-xing-jin-ge-qi-ye-guang-chang",
+      "name_zh": "奇興金閣",
+      "name_en": "Kee Hing Restaurant",
+      "lat": 22.3228851,
+      "lng": 114.20802599999999,
+      "address": "九龍九龍灣臨樂街19號南豐商業中心",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJrfBhCzMBBDQRzV9dOobzQ9U",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJrfBhCzMBBDQRzV9dOobzQ9U",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳／中菜館。Google 評分 3.2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "da-feng-ao-men-can-jiu-long-wan",
+      "name_zh": "大豐澳門餐廳 (景發分店)",
+      "name_en": null,
+      "lat": 22.3223523,
+      "lng": 114.2105826,
+      "address": "九龍九龍灣 Wang Hoi Rd, 13號大廈地下7至8號舖 Kingsford Industrial Centre",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJs8h7RjABBDQRpgfpvochv58",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJs8h7RjABBDQRpgfpvochv58",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "hong-li-bing-shi-qi-ye-guang-chang",
+      "name_zh": "宏力冰室",
+      "name_en": null,
+      "lat": 22.3213972,
+      "lng": 114.2073458,
+      "address": "九龍九龍灣常怡道33號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJra3UwDMBBDQRRYn6JAV9teA",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJra3UwDMBBDQRRYn6JAV9teA",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "kopitiam-jiu-long-wan",
+      "name_zh": "Kopitiam",
+      "name_en": "Kopitiam",
+      "lat": 22.3198331,
+      "lng": 114.2102195,
+      "address": "九龍九龍灣宏泰道23號, Manhattan Place, G/F",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ053bKwABBDQROayBoeG1uHw",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJ053bKwABBDQROayBoeG1uHw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：亞洲菜餐廳。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "bin-cheng-hai-nan-ji-qi-ye-guang-chang",
+      "name_zh": "檳城海南雞專門店",
+      "name_en": null,
+      "lat": 22.3224967,
+      "lng": 114.2092392,
+      "address": "九龍九龍灣宏照道25號地下3A號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.7／37 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJVYlsQOkBBDQR_UyEQRP_-5s",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.7,
+      "google_review_count": 37,
+      "google_place_id": "ChIJVYlsQOkBBDQR_UyEQRP_-5s",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：雞肉料理餐廳。Google 評分 2.7／37 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.7 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "kang-le-xuan-jiu-long-wan",
+      "name_zh": "康樂軒",
+      "name_en": "Hong Lok Tea House",
+      "lat": 22.3235107,
+      "lng": 114.2084941,
+      "address": "九龍九龍灣宏冠道金漢工業大廈地下",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.1／261 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJu6bzaDMBBDQRzM3LTH_Ntlk",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.1,
+      "google_review_count": 261,
+      "google_place_id": "ChIJu6bzaDMBBDQRzM3LTH_Ntlk",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.1／261 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "ri-xing-shi-tang-qi-ye-guang-chang",
+      "name_zh": "日興食堂",
+      "name_en": null,
+      "lat": 22.3221345,
+      "lng": 114.20589249999999,
+      "address": "九龍九龍灣宏光道興力工業中心",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／35 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ-07oUTIBBDQRf3CwAfwWvEM",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": 35,
+      "google_place_id": "ChIJ-07oUTIBBDQRf3CwAfwWvEM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4／35 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "li-ji-mei-shi-zhong-qi-ye-guang-chang",
+      "name_zh": "禮記美食中心",
+      "name_en": null,
+      "lat": 22.321842099999998,
+      "lng": 114.2094382,
+      "address": "九龍九龍灣常悅道13號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／117 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJqz-r-PQBBDQRMHOCC7EEIVY",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": 117,
+      "google_place_id": "ChIJqz-r-PQBBDQRMHOCC7EEIVY",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.4／117 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "xiang-he-shi-tang-jiu-long-wan",
+      "name_zh": "祥和食堂",
+      "name_en": null,
+      "lat": 22.3255612,
+      "lng": 114.20533719999999,
+      "address": "九龍九龍灣",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／16 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJd6EHzTIBBDQRB-DLJTLCFlc",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": 16,
+      "google_place_id": "ChIJd6EHzTIBBDQRB-DLJTLCFlc",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.4／16 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "long-cheng-bing-shi-jiu-long-wan",
+      "name_zh": "龍城冰室",
+      "name_en": "Dragon City Cafe",
+      "lat": 22.32538,
+      "lng": 114.21504399999999,
+      "address": "九龍九龍灣牛頭角道55號利基大廈C座c舖",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／1107 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJj9xODmYHBDQRvyJDZMnOJsE",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.4,
+      "google_review_count": 1107,
+      "google_place_id": "ChIJj9xODmYHBDQRvyJDZMnOJsE",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店。Google 評分 3.4／1107 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "tang-shu-xiao-chu-fang-qi-ye-guang-chang",
+      "name_zh": "湯叔叔小廚房",
+      "name_en": null,
+      "lat": 22.3156595,
+      "lng": 114.21183649999999,
+      "address": "九龍九龍灣臨澤街2號大家樂門口開放式咖啡店啟匯地下",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.3／7 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0U1OPpABBDQReVWqVl7w8hM",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 2.3,
+      "google_review_count": 7,
+      "google_place_id": "ChIJ0U1OPpABBDQReVWqVl7w8hM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：湯羹餐廳。Google 評分 2.3／7 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    },
+    {
+      "id": "mx-mei-xin-niu-tou-jiu-long-wan",
+      "name_zh": "美心 MX (牛頭角上邨店)",
+      "name_en": "Maxim's MX",
+      "lat": 22.320407,
+      "lng": 114.2158302,
+      "address": "Shop no. 1 Upper Ngau Tau Kok Estate Shopping Center, Ngau Tau Kok, Kowloon",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ-TjNb0oBBDQRI4cMGbhjBWs",
+          "checked_at": "2026-10-06"
+        }
+      ],
+      "verified_at": "2026-10-06",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJ-TjNb0oBBDQRI4cMGbhjBWs",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店／中菜館／快餐店。Google 評分 3.2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "九龍灣",
+      "cuisine": []
+    }
+  ],
+  "excluded": [
     {
       "id": "luckin-coffee-megabox",
       "name_zh": "瑞幸咖啡（MegaBox）",
@@ -6357,26 +7608,6 @@
       "google_rating": 3.6,
       "google_review_count": null,
       "google_place_id": "ChIJd3BG4zMBBDQRGd_NtDo2Ow8",
-      "verified_at": "2026-10-06"
-    },
-    {
-      "id": "antoshimo-cafe-bakery-megabox",
-      "name_zh": "Antoshimo Cafe & Bakery（MegaBox）",
-      "name_en": "Antoshimo Cafe & Bakery (MegaBox)",
-      "lat": 22.319638899999998,
-      "lng": 114.2085,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（36 則），round1 門檻 3.5（2026-10-06）",
-      "sources": [
-        {
-          "name": "MegaBox 官方 Dining 目錄（Antoshimo）",
-          "url": "https://www.megabox.com.hk/shopping_directory.php?mid=5&smc=D",
-          "checked_at": "2026-09-24"
-        }
-      ],
-      "excluded_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": 36,
-      "google_place_id": "ChIJKwy94jMBBDQR5p2eH-Ts-Ho",
       "verified_at": "2026-10-06"
     },
     {
@@ -6457,26 +7688,6 @@
       "verified_at": "2026-10-06"
     },
     {
-      "id": "matcha-tokyo-megabox",
-      "name_zh": "THE MATCHA TOKYO（MegaBox）",
-      "name_en": "THE MATCHA TOKYO (MegaBox)",
-      "lat": 22.319865999999998,
-      "lng": 114.208827,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（38 則），round1 門檻 3.5（2026-10-06）",
-      "sources": [
-        {
-          "name": "MegaBox 官方 Dining 目錄（THE MATCHA TOKYO）",
-          "url": "https://www.megabox.com.hk/shopping_directory_table.php?mid=5&scid=&smc=D",
-          "checked_at": "2026-09-24"
-        }
-      ],
-      "excluded_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": 38,
-      "google_place_id": "ChIJ100bTj8BBDQREDE0SrP--Y4",
-      "verified_at": "2026-10-06"
-    },
-    {
       "id": "tds-training-restaurant-kowloon-bay",
       "name_zh": "TDS 訓練餐廳（九龍灣）",
       "name_en": "TDS Training Restaurant (Kowloon Bay)",
@@ -6491,26 +7702,6 @@
         }
       ],
       "round1_hold_retained": true,
-      "verified_at": "2026-10-06"
-    },
-    {
-      "id": "club-one-telford-gardens",
-      "name_zh": "會所1号 · 德藝會（德福花園）",
-      "name_en": "Club One / Tak Art Club (Telford Gardens)",
-      "lat": 22.322885,
-      "lng": 114.2125485,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（168 則），round1 門檻 3.5（2026-10-06）",
-      "sources": [
-        {
-          "name": "衞生署星級有營食肆（會所1号 · 德藝會）",
-          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=329",
-          "checked_at": "2026-09-24"
-        }
-      ],
-      "excluded_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": 168,
-      "google_place_id": "ChIJH8vqPTUBBDQRKhoSkCajVuY",
       "verified_at": "2026-10-06"
     },
     {
@@ -6568,238 +7759,6 @@
       "google_place_id": "ChIJIWKjT8sGBDQRonM4dmv8JiA"
     },
     {
-      "id": "nan-feng-can-ting-li-jing-shang-chang",
-      "name_zh": "南豐餐廳",
-      "name_en": "Nam Fung Restaurant & Cake Shop",
-      "lat": 22.3293002,
-      "lng": 114.2061234,
-      "address": "九龍九龍灣 麗晶花園麗晶商場地下G1號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（413 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（南豐餐廳／牌照2251129259／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／413 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJFy6Hts0GBDQRKHBTdaZvnlQ",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.3,
-      "google_review_count": 413,
-      "fehd_licence_no": "2251129259",
-      "google_place_id": "ChIJFy6Hts0GBDQRKHBTdaZvnlQ"
-    },
-    {
-      "id": "xun-cai-bao-jing-wu-megabox",
-      "name_zh": "旬彩爆丼屋",
-      "name_en": "Big Ban Don",
-      "lat": 22.320000399999998,
-      "lng": 114.20856479999999,
-      "address": "九龍九龍灣宏照道38號MEGABOX10樓5號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（旬彩爆丼屋／牌照2251802408／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ4QLsnf0BBDQRTDFmtAwnUcY",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3,
-      "google_review_count": null,
-      "fehd_licence_no": "2251802408",
-      "google_place_id": "ChIJ4QLsnf0BBDQRTDFmtAwnUcY"
-    },
-    {
-      "id": "zheng-xian-hui-zhuan-shou-jiu-long-wan",
-      "name_zh": "爭鮮迴轉壽司",
-      "name_en": "Sushi Express (Kai Tak)",
-      "lat": 22.3297061,
-      "lng": 114.199916,
-      "address": "九龍九龍灣牛頭角道165-169號偉景樓地下F,G,H及I舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（52 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（爭鮮迴轉壽司／牌照2251802602／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／52 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJQfMo2E8HBDQR32Y8nxiyqo0",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.3,
-      "google_review_count": 52,
-      "fehd_licence_no": "2251802602",
-      "google_place_id": "ChIJQfMo2E8HBDQR32Y8nxiyqo0"
-    },
-    {
-      "id": "man-xiao-chu-li-jing-shang-chang",
-      "name_zh": "滿小廚",
-      "name_en": "Full Kitchen",
-      "lat": 22.329675299999998,
-      "lng": 114.2058921,
-      "address": "九龍九龍灣宏光道80號麗晶商場1樓133號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.9（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（滿小廚／牌照2251803003／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJbfK3t80GBDQRogC3Px6txeo",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.9,
-      "google_review_count": null,
-      "fehd_licence_no": "2251803003",
-      "google_place_id": "ChIJbfK3t80GBDQRogC3Px6txeo"
-    },
-    {
-      "id": "mian-dang-qi-ye-guang-chang",
-      "name_zh": "麵檔",
-      "name_en": null,
-      "lat": 22.3221259,
-      "lng": 114.2079076,
-      "address": "九龍九龍灣常悅道9號企業廣場1期1B1舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（麵檔／牌照2251803182／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_yYMojMBBDQRk8HPPDBURz0",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "2251803182",
-      "google_place_id": "ChIJ_yYMojMBBDQRk8HPPDBURz0"
-    },
-    {
-      "id": "mr-oj-qi-ye-guang-chang",
-      "name_zh": "Mr. OJ",
-      "name_en": null,
-      "lat": 22.3217066,
-      "lng": 114.2112758,
-      "address": "九龍九龍灣宏開道8號其士商業中心地下3號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.9（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（Mr. OJ／牌照2251804741／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWQBsn44BBDQRI_sup5mSfEk",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.9,
-      "google_review_count": null,
-      "fehd_licence_no": "2251804741",
-      "google_place_id": "ChIJWQBsn44BBDQRI_sup5mSfEk"
-    },
-    {
-      "id": "san-yue-bing-shi-qi-ye-cun",
-      "name_zh": "三悅冰室",
-      "name_en": "Sam Yeut Cafe",
-      "lat": 22.3289825,
-      "lng": 114.209398,
-      "address": "九龍觀塘九龍灣啟業邨啟業商場地下6號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（三悅冰室／牌照2251807245／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJP5nKQgAHBDQRTsn3yPqA1sU",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.8,
-      "google_review_count": null,
-      "fehd_licence_no": "2251807245",
-      "google_place_id": "ChIJP5nKQgAHBDQRTsn3yPqA1sU"
-    },
-    {
-      "id": "tian-ji-jiao-zi-megabox",
-      "name_zh": "甜記餃子",
-      "name_en": "Tin Kee Dumplings",
-      "lat": 22.319776599999997,
-      "lng": 114.20839989999999,
-      "address": "九龍九龍灣宏照道38號 MEGABOX1樓19-20舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（甜記餃子／牌照2251808017／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJpwv5BroBBDQRPRzbEc6Sa_o",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.8,
-      "google_review_count": null,
-      "fehd_licence_no": "2251808017",
-      "google_place_id": "ChIJpwv5BroBBDQRPRzbEc6Sa_o"
-    },
-    {
       "id": "coti-the-bistro-qi-ye-guang-chang",
       "name_zh": "COTI THE BISTRO",
       "name_en": null,
@@ -6827,122 +7786,6 @@
       "google_review_count": 50,
       "fehd_licence_no": "2251808187",
       "google_place_id": "ChIJ-xCImVYBBDQRozhRea8WDYM"
-    },
-    {
-      "id": "yue-nan-hui-guan-de-fu-guang-chang",
-      "name_zh": "越南會館",
-      "name_en": "Maison Saigon",
-      "lat": 22.3211002,
-      "lng": 114.2132784,
-      "address": "九龍九龍灣德福廣場II期4樓419-420鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.7（80 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（越南會館／牌照2251809700／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.7／80 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJqRJhbOUBBDQRumH4IrZzIr8",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.7,
-      "google_review_count": 80,
-      "fehd_licence_no": "2251809700",
-      "google_place_id": "ChIJqRJhbOUBBDQRumH4IrZzIr8"
-    },
-    {
-      "id": "hong-cha-qi-ye-guang-chang",
-      "name_zh": "紅茶",
-      "name_en": "Red Tea (Kowloon Bay)",
-      "lat": 22.3222377,
-      "lng": 114.2111642,
-      "address": "九龍九龍灣常悅道21號東匯地下1-2號舗",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（70 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（紅茶／牌照2251810351／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／70 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ6-h3CgABBDQRjdHQxQphKKw",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": 70,
-      "fehd_licence_no": "2251810351",
-      "google_place_id": "ChIJ6-h3CgABBDQRjdHQxQphKKw"
-    },
-    {
-      "id": "zhong-ji-zhou-pin-qi-ye-cun",
-      "name_zh": "忠記粥品",
-      "name_en": null,
-      "lat": 22.3289083,
-      "lng": 114.2092965,
-      "address": "九龍九龍灣啟業邨 啟業商場地下3號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（忠記粥品／牌照2251810564／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJXdEVfsIHBDQRRiZ3mvwAq_E",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "2251810564",
-      "google_place_id": "ChIJXdEVfsIHBDQRRiZ3mvwAq_E"
-    },
-    {
-      "id": "qiang-ni-bing-shi-jiu-long-wan",
-      "name_zh": "強尼冰室",
-      "name_en": null,
-      "lat": 22.319135,
-      "lng": 114.2117554,
-      "address": "九龍九龍灣偉業街38號富臨中心1字樓C1舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.4（7 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（強尼冰室／牌照2251810625／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.4／7 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ9aw4x28BBDQR1YBLvvxkLOw",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.4,
-      "google_review_count": 7,
-      "fehd_licence_no": "2251810625",
-      "google_place_id": "ChIJ9aw4x28BBDQR1YBLvvxkLOw"
     },
     {
       "id": "li-hua-chao-ji-san-de-fu-guang-chang",
@@ -7090,35 +7933,6 @@
       "google_place_id": "ChIJW7GWdTQBBDQRNEs0DCKmzgI"
     },
     {
-      "id": "lin-li-can-shi-jiu-long-wan",
-      "name_zh": "鄰里餐室",
-      "name_en": null,
-      "lat": 22.3199675,
-      "lng": 114.2099076,
-      "address": "九龍九龍灣宏泰道23號 MANHATTAN PLACE地下G01號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.7（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（鄰里餐室／牌照3151800783／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.7／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJd5hHDQABBDQRkJdGM1y2Z08",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.7,
-      "google_review_count": null,
-      "fehd_licence_no": "3151800783",
-      "google_place_id": "ChIJd5hHDQABBDQRkJdGM1y2Z08"
-    },
-    {
       "id": "artista-perfetto-qi-ye-guang-chang",
       "name_zh": "ARTISTA PERFETTO",
       "name_en": "ARTISTA PERFETTO (Kowloon Bay)",
@@ -7146,64 +7960,6 @@
       "google_review_count": null,
       "fehd_licence_no": "3151800969",
       "google_place_id": "ChIJd2F_owkBBDQRjCQFAsqB-7w"
-    },
-    {
-      "id": "ba-fang-yun-ji-megabox",
-      "name_zh": "八方雲集",
-      "name_en": "Bafang Dumpling",
-      "lat": 22.319793699999998,
-      "lng": 114.208832,
-      "address": "九龍九龍灣宏照道38號企業廣場5期 MEGABOX 永旺九龍灣店二樓L203鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（48 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（八方雲集／牌照3151801430／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／48 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJgzPq5DMBBDQR641dQuVj0eM",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": 48,
-      "fehd_licence_no": "3151801430",
-      "google_place_id": "ChIJgzPq5DMBBDQR641dQuVj0eM"
-    },
-    {
-      "id": "jin-feng-che-zai-mian-li-jing-shang-chang",
-      "name_zh": "金豐車仔麵",
-      "name_en": null,
-      "lat": 22.32961,
-      "lng": 114.20591599999999,
-      "address": "九龍九龍灣麗晶花園商場1樓131舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（8 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（金豐車仔麵／牌照3151802576／持牌食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-06"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／8 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJzR1kts0GBDQRp8DVU0YLits",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3,
-      "google_review_count": 8,
-      "fehd_licence_no": "3151802576",
-      "google_place_id": "ChIJzR1kts0GBDQRp8DVU0YLits"
     },
     {
       "id": "italian-tomato-de-fu-guang-chang",
@@ -7402,50 +8158,6 @@
       "google_place_id": "ChIJQYhidQcBBDQRm8bh3AjL_ic"
     },
     {
-      "id": "qi-ye-guang-chang-qi-ye-guang-chang",
-      "name_zh": "企業廣場",
-      "name_en": "Enterprise Square",
-      "lat": 22.3219469,
-      "lng": 114.20786559999999,
-      "address": "九龍九龍灣常悅道九號企業廣場",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWUPFmTMBBDQRYu5ewN4yAJ0",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJWUPFmTMBBDQRYu5ewN4yAJ0"
-    },
-    {
-      "id": "chimac-qi-ye-guang-chang-qi-ye-guang-chang",
-      "name_zh": "CHIMAC(企業廣場)",
-      "name_en": null,
-      "lat": 22.3216721,
-      "lng": 114.2076357,
-      "address": "九龍九龍灣常悅道9號企業廣場地下1號舖部分",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.9（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJq65vPFoBBDQRV98s4Dtecfo",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.9,
-      "google_review_count": null,
-      "google_place_id": "ChIJq65vPFoBBDQRV98s4Dtecfo"
-    },
-    {
       "id": "jiu-wu-cha-zuo-fang-megabox",
       "name_zh": "九五茶座 放宮樂園",
       "name_en": "95 Cafe - Off Work Kingdom",
@@ -7466,182 +8178,6 @@
       "google_rating": 3.4,
       "google_review_count": null,
       "google_place_id": "ChIJaX-e4TMBBDQRLDY9aN3t2mo"
-    },
-    {
-      "id": "1-fu-lin-huang-shi-qi-ye-guang-chang",
-      "name_zh": "富臨皇室1號 (九龍灣店)",
-      "name_en": "Fulum Palace",
-      "lat": 22.3223566,
-      "lng": 114.2078074,
-      "address": "九龍九龍灣常悅道9號企業廣場",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJVVWVmDMBBDQRlrEGbGUjJy0",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "google_place_id": "ChIJVVWVmDMBBDQRlrEGbGUjJy0"
-    },
-    {
-      "id": "foodeli-2-de-fu-guang-de-fu-guang-chang",
-      "name_zh": "Foodeli (德福廣場2期)",
-      "name_en": null,
-      "lat": 22.3210853,
-      "lng": 114.2132694,
-      "address": "九龍九龍灣偉業街33號德福廣場2期5樓501B號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJn-G9DwABBDQRflzf8KG3UIk",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.1,
-      "google_review_count": null,
-      "google_place_id": "ChIJn-G9DwABBDQRflzf8KG3UIk"
-    },
-    {
-      "id": "tiger-ramen-telford-plaza-de-fu-guang-chang",
-      "name_zh": "Tiger Ramen (Telford Plaza)",
-      "name_en": "Tiger Ramen (Telford Plaza)",
-      "lat": 22.3224104,
-      "lng": 114.2128769,
-      "address": "5/F, Plaza 2, Telford Plaza, 33 Wai Yip St 501b3, Kowloon Bay, Kowloon",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.2（11 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.2／11 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJ_MSmTEBBDQRfZ5VVAdcUvs",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.2,
-      "google_review_count": 11,
-      "google_place_id": "ChIJJ_MSmTEBBDQRfZ5VVAdcUvs"
-    },
-    {
-      "id": "li-jing-shang-chang-li-jing-shang-chang",
-      "name_zh": "麗晶商場",
-      "name_en": "Richland Gardens Shopping Centre",
-      "lat": 22.3294651,
-      "lng": 114.20600429999999,
-      "address": "九龍九龍灣宏光道80號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJidt18lEHBDQRBjuNzAhJltg",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJidt18lEHBDQRBjuNzAhJltg"
-    },
-    {
-      "id": "li-jing-hua-yuan-li-jing-shang-chang",
-      "name_zh": "麗晶花園",
-      "name_en": "Richland Gardens",
-      "lat": 22.3294481,
-      "lng": 114.2070531,
-      "address": "九龍九龍灣宏光道80號麗晶花園1座",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxVfFM8wGBDQRmxsJiJ9YGBQ",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJxVfFM8wGBDQRmxsJiJ9YGBQ"
-    },
-    {
-      "id": "asian-lab-jiu-long-wan",
-      "name_zh": "Asian Lab",
-      "name_en": "Asian Lab",
-      "lat": 22.3318566,
-      "lng": 114.20157189999999,
-      "address": "九龍啟德沐翠街12號雙子匯2期14樓",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（41 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／41 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJa4MNQwAHBDQRo3HdeVNSZhg",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.3,
-      "google_review_count": 41,
-      "google_place_id": "ChIJa4MNQwAHBDQRo3HdeVNSZhg"
-    },
-    {
-      "id": "jin-feng-da-can-ting-jiu-long-wan",
-      "name_zh": "金鳳大餐廳",
-      "name_en": "Golden Phoenix Restaurant",
-      "lat": 22.3310764,
-      "lng": 114.2027494,
-      "address": "九龍啟德沐翠街晴朗商場（A區）B003+B004號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（615 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／615 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJbSkBdIGBDQRZB4q6Bgq1W8",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": 615,
-      "google_place_id": "ChIJJbSkBdIGBDQRZB4q6Bgq1W8"
-    },
-    {
-      "id": "ya-yi-shi-tang-jiu-long-wan",
-      "name_zh": "亞一食堂",
-      "name_en": "A1 Canteen",
-      "lat": 22.324185,
-      "lng": 114.210512,
-      "address": "Unit B6, Workshop No. 2, G/F, Metro Centre, 32 Lam Hing Street, Kowloon Bay",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（10 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.2／10 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJR3xbtzQBBDQRtVTiXWgmHDY",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.2,
-      "google_review_count": 10,
-      "google_place_id": "ChIJR3xbtzQBBDQRtVTiXWgmHDY"
     },
     {
       "id": "pace-coffee-qi-ye-guang-chang",
@@ -7666,72 +8202,6 @@
       "google_place_id": "ChIJI-I-rIIBBDQRq_9jsAjzADo"
     },
     {
-      "id": "royal-one-qi-ye-guang-chang",
-      "name_zh": "Royal One",
-      "name_en": "Royal One",
-      "lat": 22.322304799999998,
-      "lng": 114.20802169999999,
-      "address": "九龍九龍灣常悅道9號企業廣場",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.7（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.7／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJG1LOmTMBBDQRjg3D32kkbmE",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.7,
-      "google_review_count": null,
-      "google_place_id": "ChIJG1LOmTMBBDQRjg3D32kkbmE"
-    },
-    {
-      "id": "qi-shi-shang-ye-zhong-qi-ye-guang-chang",
-      "name_zh": "其士商業中心",
-      "name_en": "Chevalier Commercial Centre",
-      "lat": 22.3215446,
-      "lng": 114.2113019,
-      "address": "8 Wang Hoi Rd, Kowloon Bay, Kowloon",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJV9rcWzQBBDQRxSEPN-vT_fY",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJV9rcWzQBBDQRxSEPN-vT_fY"
-    },
-    {
-      "id": "qi-xing-jin-ge-qi-ye-guang-chang",
-      "name_zh": "奇興金閣",
-      "name_en": "Kee Hing Restaurant",
-      "lat": 22.3228851,
-      "lng": 114.20802599999999,
-      "address": "九龍九龍灣臨樂街19號南豐商業中心",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJrfBhCzMBBDQRzV9dOobzQ9U",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "google_place_id": "ChIJrfBhCzMBBDQRzV9dOobzQ9U"
-    },
-    {
       "id": "dejavu-qi-ye-guang-chang",
       "name_zh": "DeJaVu",
       "name_en": "DeJaVu",
@@ -7752,160 +8222,6 @@
       "google_rating": 5,
       "google_review_count": null,
       "google_place_id": "ChIJMQV6AAABBDQRdiT88_kOgEc"
-    },
-    {
-      "id": "da-feng-ao-men-can-jiu-long-wan",
-      "name_zh": "大豐澳門餐廳 (景發分店)",
-      "name_en": null,
-      "lat": 22.3223523,
-      "lng": 114.2105826,
-      "address": "九龍九龍灣 Wang Hoi Rd, 13號大廈地下7至8號舖 Kingsford Industrial Centre",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJs8h7RjABBDQRpgfpvochv58",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJs8h7RjABBDQRpgfpvochv58"
-    },
-    {
-      "id": "hong-li-bing-shi-qi-ye-guang-chang",
-      "name_zh": "宏力冰室",
-      "name_en": null,
-      "lat": 22.3213972,
-      "lng": 114.2073458,
-      "address": "九龍九龍灣常怡道33號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJra3UwDMBBDQRRYn6JAV9teA",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "google_place_id": "ChIJra3UwDMBBDQRRYn6JAV9teA"
-    },
-    {
-      "id": "kopitiam-jiu-long-wan",
-      "name_zh": "Kopitiam",
-      "name_en": "Kopitiam",
-      "lat": 22.3198331,
-      "lng": 114.2102195,
-      "address": "九龍九龍灣宏泰道23號, Manhattan Place, G/F",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ053bKwABBDQROayBoeG1uHw",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJ053bKwABBDQROayBoeG1uHw"
-    },
-    {
-      "id": "bin-cheng-hai-nan-ji-qi-ye-guang-chang",
-      "name_zh": "檳城海南雞專門店",
-      "name_en": null,
-      "lat": 22.3224967,
-      "lng": 114.2092392,
-      "address": "九龍九龍灣宏照道25號地下3A號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.7（37 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.7／37 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJVYlsQOkBBDQR_UyEQRP_-5s",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.7,
-      "google_review_count": 37,
-      "google_place_id": "ChIJVYlsQOkBBDQR_UyEQRP_-5s"
-    },
-    {
-      "id": "kang-le-xuan-jiu-long-wan",
-      "name_zh": "康樂軒",
-      "name_en": "Hong Lok Tea House",
-      "lat": 22.3235107,
-      "lng": 114.2084941,
-      "address": "九龍九龍灣宏冠道金漢工業大廈地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（261 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.1／261 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJu6bzaDMBBDQRzM3LTH_Ntlk",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.1,
-      "google_review_count": 261,
-      "google_place_id": "ChIJu6bzaDMBBDQRzM3LTH_Ntlk"
-    },
-    {
-      "id": "ri-xing-shi-tang-qi-ye-guang-chang",
-      "name_zh": "日興食堂",
-      "name_en": null,
-      "lat": 22.3221345,
-      "lng": 114.20589249999999,
-      "address": "九龍九龍灣宏光道興力工業中心",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（35 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／35 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ-07oUTIBBDQRf3CwAfwWvEM",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": 35,
-      "google_place_id": "ChIJ-07oUTIBBDQRf3CwAfwWvEM"
-    },
-    {
-      "id": "li-ji-mei-shi-zhong-qi-ye-guang-chang",
-      "name_zh": "禮記美食中心",
-      "name_en": null,
-      "lat": 22.321842099999998,
-      "lng": 114.2094382,
-      "address": "九龍九龍灣常悅道13號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（117 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／117 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJqz-r-PQBBDQRMHOCC7EEIVY",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": 117,
-      "google_place_id": "ChIJqz-r-PQBBDQRMHOCC7EEIVY"
     },
     {
       "id": "sana-coffee-qi-ye-guang-chang",
@@ -7974,72 +8290,6 @@
       "google_place_id": "ChIJaUBCSOQHBDQRmAJsMW5pJ-k"
     },
     {
-      "id": "xiang-he-shi-tang-jiu-long-wan",
-      "name_zh": "祥和食堂",
-      "name_en": null,
-      "lat": 22.3255612,
-      "lng": 114.20533719999999,
-      "address": "九龍九龍灣",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（16 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／16 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJd6EHzTIBBDQRB-DLJTLCFlc",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": 16,
-      "google_place_id": "ChIJd6EHzTIBBDQRB-DLJTLCFlc"
-    },
-    {
-      "id": "long-cheng-bing-shi-jiu-long-wan",
-      "name_zh": "龍城冰室",
-      "name_en": "Dragon City Cafe",
-      "lat": 22.32538,
-      "lng": 114.21504399999999,
-      "address": "九龍九龍灣牛頭角道55號利基大廈C座c舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（1107 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／1107 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJj9xODmYHBDQRvyJDZMnOJsE",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.4,
-      "google_review_count": 1107,
-      "google_place_id": "ChIJj9xODmYHBDQRvyJDZMnOJsE"
-    },
-    {
-      "id": "tang-shu-xiao-chu-fang-qi-ye-guang-chang",
-      "name_zh": "湯叔叔小廚房",
-      "name_en": null,
-      "lat": 22.3156595,
-      "lng": 114.21183649999999,
-      "address": "九龍九龍灣臨澤街2號大家樂門口開放式咖啡店啟匯地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.3（7 則），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.3／7 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0U1OPpABBDQReVWqVl7w8hM",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 2.3,
-      "google_review_count": 7,
-      "google_place_id": "ChIJ0U1OPpABBDQReVWqVl7w8hM"
-    },
-    {
       "id": "pcc-cafe-qi-ye-guang-chang",
       "name_zh": "PCC Cafe",
       "name_en": "PCC Cafe",
@@ -8060,34 +8310,12 @@
       "google_rating": 3.5,
       "google_review_count": 2,
       "google_place_id": "ChIJeeCeBTcBBDQRhCG1ZftWznA"
-    },
-    {
-      "id": "mx-mei-xin-niu-tou-jiu-long-wan",
-      "name_zh": "美心 MX (牛頭角上邨店)",
-      "name_en": "Maxim's MX",
-      "lat": 22.320407,
-      "lng": 114.2158302,
-      "address": "Shop no. 1 Upper Ngau Tau Kok Estate Shopping Center, Ngau Tau Kok, Kowloon",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-06）",
-      "excluded_at": "2026-10-06",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ-TjNb0oBBDQRI4cMGbhjBWs",
-          "checked_at": "2026-10-06"
-        }
-      ],
-      "verified_at": "2026-10-06",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "google_place_id": "ChIJ-TjNb0oBBDQRI4cMGbhjBWs"
     }
   ],
   "meta": {
-    "status": "kowloon-bay-round1 applied / expanded",
+    "status": "rating-backfill 2026-10-07",
     "phase": "kowloon-bay-round1",
-    "notes_zh": "v2.0（2026-10-06）：CEO 批准 kowloon-bay-round1 寫庫。Google ≥3.5；評分／營業狀態／營業時間／座標來自 Google 地圖公開網頁（非 Places API）；牌照來自食環署持牌食肆 XML（2026-10-05）；掃街商場／街道招牌；收費 API：0。種子 kept 更新 19；種子 reject 移 excluded 12；種子 hold 暫緩移出 kept 2；茜廊餐廳（德福）由 excluded 翻生；享樂烘焙由 hold 強制 bakery excluded；新入 92 間；出區／傢俬略過 6；無可用座標 0；合併略過 0；reject 新線索寫 excluded 60；暫緩 hold 唔入 71。",
+    "notes_zh": "v2.1（2026-10-07）：評分門檻回填。候選 59；搬入 kept 54；維持 excluded nonmeal=4 closed=0 no_lunch=1 no_dine_in=0 no_coords=0。收費 API：0。｜v2.0（2026-10-06）：CEO 批准 kowloon-bay-round1 寫庫。Google ≥3.5；評分／營業狀態／營業時間／座標來自 Google 地圖公開網頁（非 Places API）；牌照來自食環署持牌食肆 XML（2026-10-05）；掃街商場／街道招牌；收費 API：0。種子 kept 更新 19；種子 reject 移 excluded 12；種子 hold 暫緩移出 kept 2；茜廊餐廳（德福）由 excluded 翻生；享樂烘焙由 hold 強制 bakery excluded；新入 92 間；出區／傢俬略過 6；無可用座標 0；合併略過 0；reject 新線索寫 excluded 60；暫緩 hold 唔入 71。",
     "bbox_approx": [
       22.318,
       114.205,
@@ -8098,11 +8326,11 @@
       22.323,
       114.21
     ],
-    "previous_version": "1.2",
-    "previous_kept": 33,
-    "previous_excluded": 11,
-    "kept": 112,
-    "excluded": 84,
+    "previous_version": "2.0",
+    "previous_kept": 112,
+    "previous_excluded": 84,
+    "kept": 166,
+    "excluded": 30,
     "paid_api_calls": 0,
     "fehd": {
       "source_xml": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
@@ -8240,6 +8468,74 @@
         "tao-heung-telford",
         "tao-heung-teahouse-one-kowloon"
       ]
+    },
+    "rating_backfill": {
+      "applied_at": "2026-10-07",
+      "approved_by": "CEO",
+      "backup": "restaurants.json.bak-pre-rating-backfill-2026-10-07",
+      "candidates": 59,
+      "moved": 54,
+      "moved_ids": [
+        "tai-hing-megabox",
+        "yoshinoya-megabox-aeon",
+        "trusty-congee-king-megabox",
+        "cafe-de-coral-telford",
+        "pepper-lunch-express-telford",
+        "menwah-bingteng-telford",
+        "sushiro-telford",
+        "asam-chicken-rice-telford",
+        "fairwood-richland",
+        "mcdonalds-richland",
+        "tao-heung-telford",
+        "tao-heung-teahouse-one-kowloon",
+        "antoshimo-cafe-bakery-megabox",
+        "matcha-tokyo-megabox",
+        "club-one-telford-gardens",
+        "nan-feng-can-ting-li-jing-shang-chang",
+        "xun-cai-bao-jing-wu-megabox",
+        "zheng-xian-hui-zhuan-shou-jiu-long-wan",
+        "man-xiao-chu-li-jing-shang-chang",
+        "mian-dang-qi-ye-guang-chang",
+        "mr-oj-qi-ye-guang-chang",
+        "san-yue-bing-shi-qi-ye-cun",
+        "tian-ji-jiao-zi-megabox",
+        "yue-nan-hui-guan-de-fu-guang-chang",
+        "hong-cha-qi-ye-guang-chang",
+        "zhong-ji-zhou-pin-qi-ye-cun",
+        "qiang-ni-bing-shi-jiu-long-wan",
+        "lin-li-can-shi-jiu-long-wan",
+        "ba-fang-yun-ji-megabox",
+        "jin-feng-che-zai-mian-li-jing-shang-chang",
+        "qi-ye-guang-chang-qi-ye-guang-chang",
+        "chimac-qi-ye-guang-chang-qi-ye-guang-chang",
+        "1-fu-lin-huang-shi-qi-ye-guang-chang",
+        "foodeli-2-de-fu-guang-de-fu-guang-chang",
+        "tiger-ramen-telford-plaza-de-fu-guang-chang",
+        "li-jing-shang-chang-li-jing-shang-chang",
+        "li-jing-hua-yuan-li-jing-shang-chang",
+        "asian-lab-jiu-long-wan",
+        "jin-feng-da-can-ting-jiu-long-wan",
+        "ya-yi-shi-tang-jiu-long-wan",
+        "royal-one-qi-ye-guang-chang",
+        "qi-shi-shang-ye-zhong-qi-ye-guang-chang",
+        "qi-xing-jin-ge-qi-ye-guang-chang",
+        "da-feng-ao-men-can-jiu-long-wan",
+        "hong-li-bing-shi-qi-ye-guang-chang",
+        "kopitiam-jiu-long-wan",
+        "bin-cheng-hai-nan-ji-qi-ye-guang-chang",
+        "kang-le-xuan-jiu-long-wan",
+        "ri-xing-shi-tang-qi-ye-guang-chang",
+        "li-ji-mei-shi-zhong-qi-ye-guang-chang",
+        "xiang-he-shi-tang-jiu-long-wan",
+        "long-cheng-bing-shi-jiu-long-wan",
+        "tang-shu-xiao-chu-fang-qi-ye-guang-chang",
+        "mx-mei-xin-niu-tou-jiu-long-wan"
+      ],
+      "stayed_excluded_nonmeal": 4,
+      "stayed_excluded_closed": 0,
+      "stayed_excluded_no_lunch": 1,
+      "stayed_excluded_no_dine_in": 0,
+      "stayed_excluded_no_coords": 0
     }
   }
 }

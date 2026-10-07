@@ -5,10 +5,10 @@
       "slug": "central-admiralty",
       "file": "central-admiralty-restaurants.json",
       "district": "中環／金鐘",
-      "version": "1.0",
-      "updated_at": "2026-10-07",
-      "kept": 526,
-      "excluded": 366
+      "version": "1.1",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 583,
+      "excluded": 309
     },
     {
       "slug": "jordan",
@@ -23,19 +23,19 @@
       "slug": "kowloon-bay",
       "file": "kowloon-bay-restaurants.json",
       "district": "九龍灣",
-      "version": "2.0",
-      "updated_at": "2026-10-06",
-      "kept": 112,
-      "excluded": 84
+      "version": "2.1",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 166,
+      "excluded": 30
     },
     {
       "slug": "kwun-tong",
       "file": "kwun-tong-restaurants.json",
       "district": "觀塘",
-      "version": "1.7",
-      "updated_at": "2026-10-05",
-      "kept": 126,
-      "excluded": 111
+      "version": "1.8",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 184,
+      "excluded": 53
     },
     {
       "slug": "lam-tin",
@@ -59,19 +59,19 @@
       "slug": "mong-kok",
       "file": "mong-kok-restaurants.json",
       "district": "旺角",
-      "version": "1.0",
-      "updated_at": "2026-10-06",
-      "kept": 551,
-      "excluded": 403
+      "version": "1.1",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 668,
+      "excluded": 286
     },
     {
       "slug": "ngau-tau-kok",
       "file": "ngau-tau-kok-restaurants.json",
       "district": "牛頭角",
-      "version": "1.8",
-      "updated_at": "2026-10-05",
-      "kept": 77,
-      "excluded": 179
+      "version": "1.9",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 155,
+      "excluded": 101
     },
     {
       "slug": "sau-mau-ping",
@@ -86,10 +86,10 @@
       "slug": "tseung-kwan-o",
       "file": "tseung-kwan-o-restaurants.json",
       "district": "將軍澳",
-      "version": "2.0",
-      "updated_at": "2026-10-06",
-      "kept": 193,
-      "excluded": 237
+      "version": "2.1",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 351,
+      "excluded": 79
     },
     {
       "slug": "tsim-sha-tsui",
@@ -104,10 +104,10 @@
       "slug": "wan-chai",
       "file": "wan-chai-restaurants.json",
       "district": "灣仔",
-      "version": "1.0",
-      "updated_at": "2026-10-07",
-      "kept": 506,
-      "excluded": 227
+      "version": "1.1",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 579,
+      "excluded": 154
     },
     {
       "slug": "yau-ma-tei",

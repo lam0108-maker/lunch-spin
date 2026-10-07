@@ -1,7 +1,7 @@
 {
   "district": "中環／金鐘",
-  "version": "1.0",
-  "updated_at": "2026-10-07",
+  "version": "1.1",
+  "updated_at": "2026-10-07T12:00:00+08:00",
   "criteria": {
     "serves_lunch": true,
     "dine_in": true,
@@ -15,8 +15,8 @@
       "tea_drink",
       "karaoke_nightlife"
     ],
-    "min_google_rating": 3.5,
-    "google_rating_note_zh": "Google 地圖公開頁評分 ≥3.5 先入 kept（central-admiralty-round1，2026-10-07）。",
+    "min_google_rating": null,
+    "google_rating_note_zh": "Google 地圖公開頁評分只作顯示、唔再作入庫門檻（評分門檻回填 2026-10-07；原 ≥3.5 規則取消）。",
     "dessert_rule_zh": "Google 類別／cuisine 主要屬甜品、糖水、麵包／烘焙、純咖啡、茶飲、卡拉 OK／夜總會 → 一律 excluded；即使同時寫「餐廳」都照剔。例外：有正常午餐主食證據先可留。邊界 47 間經 CEO 批核後全部移 excluded。",
     "wan_chai_zh": "唔開灣仔；添美道／中信大廈歸金鐘東緣保留；灣仔核心／銅鑼灣地址 skip。"
   },
@@ -25986,6 +25986,1862 @@
       "google_place_id": "ChIJj05bcaIBBDQRJA0cesnsbk4",
       "fehd_licence_no": "3118808526",
       "licence_type": "小食食肆"
+    },
+    {
+      "id": "asaaf-lebanese-cousine-soho-zhong-huan-xi",
+      "name_zh": "Asaaf Lebanese Cousine",
+      "name_en": "Asaaf Lebanese Cousine",
+      "lat": 22.2826135,
+      "lng": 114.1537893,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港島中環結志街6號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／1 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJraD1bnsABDQR2kZQe8GGlWg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": 1,
+      "google_place_id": "ChIJraD1bnsABDQR2kZQe8GGlWg",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 3／1 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "can-teen-jin-zhong",
+      "name_zh": "CAN.TEEN",
+      "name_en": "can.teen",
+      "lat": 22.279484999999998,
+      "lng": 114.164822,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "香港夏慤道18號 海富中心1期1樓 中庭及44號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（CAN.TEEN／牌照2213037071／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／769 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJAVcMBmcABDQRx1T1JWcZMCw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 769,
+      "fehd_licence_no": "2213037071",
+      "google_place_id": "ChIJAVcMBmcABDQRx1T1JWcZMCw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店。Google 評分 3.4／769 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "can-teen-zhong-huan",
+      "name_zh": "CAN.TEEN",
+      "name_en": "can.teen",
+      "lat": 22.2798463,
+      "lng": 114.1605556,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港中環皇后大道中2號長江集團中心地庫第一層A 1號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（CAN.TEEN／牌照2218812424／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJr1m97asBBDQR7HXr2GgsW1M",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.1,
+      "google_review_count": null,
+      "fehd_licence_no": "2218812424",
+      "google_place_id": "ChIJr1m97asBBDQR7HXr2GgsW1M",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店。Google 評分 3.1（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "central-table-zhong-huan-he-xin",
+      "name_zh": "Central Table",
+      "name_en": "CENTRAL TABLE",
+      "lat": 22.281057999999998,
+      "lng": 114.1578758,
+      "district": "中環／金鐘",
+      "area": "中環核心",
+      "address": "香港中環皇后大道中15號置地廣場3樓308-309號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Central Table／牌照2218820395／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ25MG48EBBDQRrabBbS7w0sw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "2218820395",
+      "google_place_id": "ChIJ25MG48EBBDQRrabBbS7w0sw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：多國菜餐廳。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "don-bowls-rolls-by-sushi-zhong-huan-he-xin",
+      "name_zh": "Don Bowls & Rolls by Sushi Fujimoto",
+      "name_en": "Don Bowls & Rolls by Sushi Fujimoto",
+      "lat": 22.283043799999998,
+      "lng": 114.15915749999999,
+      "district": "中環／金鐘",
+      "area": "中環核心",
+      "address": "LG/F, 1 Connaught Pl, Central, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.7／3 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJByhnZQABBDQRHv1Q-4Rma8U",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.7,
+      "google_review_count": 3,
+      "google_place_id": "ChIJByhnZQABBDQRHv1Q-4Rma8U",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：海鮮丼餐廳。Google 評分 2.7／3 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.7 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "fete-up-zhong-huan-he-xin",
+      "name_zh": "Fete up",
+      "name_en": "Fete Up (Basehall 2)",
+      "lat": 22.283056,
+      "lng": 114.15888899999999,
+      "district": "中環／金鐘",
+      "area": "中環核心",
+      "address": "Connaught Place Jardine House, Basehall 2, Central, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ4Zm8OQABBDQRdflDso97PBU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJ4Zm8OQABBDQRdflDso97PBU",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：快餐店。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "general-provisions-by-alfred-s-zhong-huan-he-xin",
+      "name_zh": "General Provisions by Alfred's",
+      "name_en": "General Provisions by Alfred's",
+      "lat": 22.281925299999997,
+      "lng": 114.1584888,
+      "district": "中環／金鐘",
+      "area": "中環核心",
+      "address": "Shop 303, 3/F, Landmark Atrium, 15 Queen's Road Central, Central, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJGWjOoHoBBDQRqtCyo7lVWAI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": null,
+      "google_place_id": "ChIJGWjOoHoBBDQRqtCyo7lVWAI",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "hex-tech-zhong-huan",
+      "name_zh": "Hex Tech",
+      "name_en": "Hex Tech",
+      "lat": 22.283627,
+      "lng": 114.156354,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港島中環砵典乍街",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJg2fFI48BBDQRR6PGUxRDsPI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": null,
+      "google_place_id": "ChIJg2fFI48BBDQRR6PGUxRDsPI",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jw-s-shou-si-ba-jin-zhong",
+      "name_zh": "JW’s 壽司吧",
+      "name_en": null,
+      "lat": 22.277192,
+      "lng": 114.164323,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "金鐘 金鐘道88號太古廣場香港JW萬豪酒店5樓",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／2 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJyidMWYABDQRxFSVvbA3xDc",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": 2,
+      "google_place_id": "ChIJJyidMWYABDQRxFSVvbA3xDc",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：壽司店。Google 評分 3／2 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "joa-admiralty-jin-zhong",
+      "name_zh": "JoA - Admiralty",
+      "name_en": "JoA - Admiralty",
+      "lat": 22.279965,
+      "lng": 114.16406529999999,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "Shop D4, UG/F, 遠東金融中心16 Harcourt Rd, Admiralty, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.3／7 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJLZxrCwABBDQRYoFUvLom7fI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 7,
+      "google_place_id": "ChIJLZxrCwABBDQRYoFUvLom7fI",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：韓國餐廳。Google 評分 3.3／7 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "kiki-mian-dian-ifc-zhong-huan-bei",
+      "name_zh": "KIKI麵店",
+      "name_en": "Kiki Noodle Bar (IFC)",
+      "lat": 22.2843828,
+      "lng": 114.15829989999999,
+      "district": "中環／金鐘",
+      "area": "中環北／IFC",
+      "address": "香港中環港景街1號 國際金融中心2樓2017鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（KIKI麵店／牌照2218813968／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／112 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJSQfHKfEBBDQRnATwT0Lcu44",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 112,
+      "fehd_licence_no": "2218813968",
+      "google_place_id": "ChIJSQfHKfEBBDQRnATwT0Lcu44",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：台灣餐廳。Google 評分 3.4／112 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "morty-s-delicatessen-zhong-huan-he-xin",
+      "name_zh": "MORTY'S DELICATESSEN",
+      "name_en": "Morty's (Jardine House)",
+      "lat": 22.283028899999998,
+      "lng": 114.1589161,
+      "district": "中環／金鐘",
+      "area": "中環核心",
+      "address": "香港中環康樂廣場1號怡和大廈地下低層12-14號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（MORTY'S DELICATESSEN／牌照2218810464／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJSaQucwABBDQRpfV9Ad0K800",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.3,
+      "google_review_count": null,
+      "fehd_licence_no": "2218810464",
+      "google_place_id": "ChIJSaQucwABBDQRpfV9Ad0K800",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：熟食店。Google 評分 2.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "mega-coffee-central-soho-zhong-huan-xi",
+      "name_zh": "Mega Coffee Central",
+      "name_en": "Mega Coffee Central",
+      "lat": 22.282791,
+      "lng": 114.15395629999999,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港島中環閣麟街37號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（1／1 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJtTmu77kBBDQRdsVrhJBLN0U",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 1,
+      "google_review_count": 1,
+      "google_place_id": "ChIJtTmu77kBBDQRdsVrhJBLN0U",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：早午餐餐廳／咖啡店。Google 評分 1／1 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "mix-soho-zhong-huan-xi",
+      "name_zh": "Mix",
+      "name_en": "Mix",
+      "lat": 22.2814797,
+      "lng": 114.1555703,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港島中環",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／3 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJh1KbM3sABDQRshQYfXV2W0s",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": 3,
+      "google_place_id": "ChIJh1KbM3sABDQRshQYfXV2W0s",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：西餐廳。Google 評分 3／3 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "polo-ralph-lauren-jin-zhong",
+      "name_zh": "Polo Ralph Lauren",
+      "name_en": "POLO RALPH LAUREN Pacific Place",
+      "lat": 22.277509,
+      "lng": 114.16634099999999,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "香港金鐘金鐘道88號 太古廣場2座L1樓100A號舖A部份",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Polo Ralph Lauren／牌照3118812015／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／5 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJd7k_xgoBBDQRgCvqe-AWHYY",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": 5,
+      "fehd_licence_no": "3118812015",
+      "google_place_id": "ChIJd7k_xgoBBDQRgCvqe-AWHYY",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：時裝店／男士服裝店／女士服裝店。Google 評分 3.2／5 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "pret-a-manger-jin-zhong-2",
+      "name_zh": "Pret A Manger",
+      "name_en": "Pret A Manger",
+      "lat": 22.2770182,
+      "lng": 114.1679465,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "香港皇后大道東1號太古廣場三座B3樓1及2號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Pret A Manger／牌照3112802924／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJq6q3Ql0ABDQR7WugILsTQ34",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "fehd_licence_no": "3112802924",
+      "google_place_id": "ChIJq6q3Ql0ABDQR7WugILsTQ34",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：三文治店。Google 評分 3.2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "wow-charsiu-hao-cha-wei-jin-zhong",
+      "name_zh": "Wow Charsiu 好叉好味",
+      "name_en": null,
+      "lat": 22.2793143,
+      "lng": 114.16512759999999,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "香港島金鐘海富中心2樓102舖",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJq31euXcBBDQRm8VincN1tug",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.6,
+      "google_review_count": null,
+      "google_place_id": "ChIJq31euXcBBDQRm8VincN1tug",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 2.6（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.6 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "zagin-soba-zhong-huan-he-xin",
+      "name_zh": "Zagin Soba",
+      "name_en": "Zagin Soba",
+      "lat": 22.282892399999998,
+      "lng": 114.1593146,
+      "district": "中環／金鐘",
+      "area": "中環核心",
+      "address": "Shop K15-16, B1/F, 1 Connaught Pl, Central, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.6／13 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ69bcbwABBDQRyQKzSjiLkLk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.6,
+      "google_review_count": 13,
+      "google_place_id": "ChIJ69bcbwABBDQRyQKzSjiLkLk",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：拉麵店。Google 評分 2.6／13 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.6 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yi-le-shao-e-zhong-huan",
+      "name_zh": "一樂燒鵝",
+      "name_en": "Yat Lok Restaurant",
+      "lat": 22.2824956,
+      "lng": 114.1552995,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港中環士丹利街34-38號金禾大廈地下1號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（一樂燒鵝／牌照2218804632／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／6015 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJbe5PTnsABDQR1euH3jQKgJs",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 6015,
+      "fehd_licence_no": "2218804632",
+      "google_place_id": "ChIJbe5PTnsABDQR1euH3jQKgJs",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粵菜館／餐廳。Google 評分 3.4／6015 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yi-qiao-la-mian-soho-zhong-huan-xi",
+      "name_zh": "一橋拉麵",
+      "name_en": "Bashi Ramen (Central)",
+      "lat": 22.282417499999998,
+      "lng": 114.1551523,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港中環威靈頓街43-49號 新利大廈地下A鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（一橋拉麵／牌照3118812088／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／111 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJSZ0pQgABBDQRrwnWafu_yd4",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 111,
+      "fehd_licence_no": "3118812088",
+      "google_place_id": "ChIJSZ0pQgABBDQRrwnWafu_yd4",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：日本餐廳。Google 評分 3.4／111 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yi-zhi-cai-zhong-huan-zhong-huan",
+      "name_zh": "一汁一菜 (中環街市)",
+      "name_en": "ICHIJUISSAI (Central Market)",
+      "lat": 22.2839325,
+      "lng": 114.1553613,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港島中環德輔道中80號2樓243號舖",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJcbXcJgkBBDQRRT1nQxCWByo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJcbXcJgkBBDQRRT1nQxCWByo",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：湯品餐廳。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "yi-zhou-mian-zhong-huan-ifc-zhong-huan-bei",
+      "name_zh": "一粥麵 (中環站店)",
+      "name_en": "Super Super Congee & Noodles",
+      "lat": 22.2844268,
+      "lng": 114.15852249999999,
+      "district": "中環／金鐘",
+      "area": "中環北／IFC",
+      "address": "香港島中環港景街國際金融中心一期",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJE66PSccBBDQRXP_bGXTZmYg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": null,
+      "google_place_id": "ChIJE66PSccBBDQRXP_bGXTZmYg",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粥餐廳。Google 評分 3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "shang-xi-mian-guan-jin-zhong",
+      "name_zh": "上囍麵館",
+      "name_en": null,
+      "lat": 22.279965,
+      "lng": 114.16406529999999,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "香港中環夏道16號遠東金融中心地下高層E1及E2舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（上囍麵館／牌照2218812558／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.2／6 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJOamwJQABBDQRcAUY6XvfcbA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.2,
+      "google_review_count": 6,
+      "fehd_licence_no": "2218812558",
+      "google_place_id": "ChIJOamwJQABBDQRcAUY6XvfcbA",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 2.2／6 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jiu-zhong-huan-dian-zhong-huan",
+      "name_zh": "久久 (中環店)",
+      "name_en": "Chew Taiwan (Central)",
+      "lat": 22.2840679,
+      "lng": 114.15548349999999,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港島中環皇后大道中93號中環街市地下G18號舖",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.1／72 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJW6Cl-RoBBDQRwT3BtkFz1BM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.1,
+      "google_review_count": 72,
+      "google_place_id": "ChIJW6Cl-RoBBDQRwT3BtkFz1BM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：台灣餐廳。Google 評分 3.1／72 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jia-yue-zhong-huan",
+      "name_zh": "佳越",
+      "name_en": "G Viet Vietnamese Cusime",
+      "lat": 22.284328,
+      "lng": 114.15519499999999,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港中環租庇利街9及11號富興大廈租庇利街11號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（佳越／牌照2218815575／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJKUzBsHwABDQRFbW-nW_nKiY",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.9,
+      "google_review_count": null,
+      "fehd_licence_no": "2218815575",
+      "google_place_id": "ChIJKUzBsHwABDQRFbW-nW_nKiY",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：越式河粉餐廳。Google 評分 2.9（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.9 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "li-yuan-jiu-jia-ifc-zhong-huan-bei",
+      "name_zh": "利苑酒家",
+      "name_en": "Lei Garden",
+      "lat": 22.284612,
+      "lng": 114.15899259999999,
+      "district": "中環／金鐘",
+      "area": "中環北／IFC",
+      "address": "香港中環港景街一號 國際金融中心商場三樓3008至3011店",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（利苑酒家／牌照2218800065／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJS2mpO2MABDQR1FWI1DcGjwc",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "fehd_licence_no": "2218800065",
+      "google_place_id": "ChIJS2mpO2MABDQR1FWI1DcGjwc",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "shi-ba-zuo-gou-zai-soho-zhong-huan-xi",
+      "name_zh": "十八座狗仔粉",
+      "name_en": null,
+      "lat": 22.2811758,
+      "lng": 114.1557033,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港中環德己立街20號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（十八座狗仔粉／牌照3118810170／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWbImLyoBBDQRQx10-ShVKlQ",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "3118810170",
+      "google_place_id": "ChIJWbImLyoBBDQRQx10-ShVKlQ",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "qian-jin-mi-xian-zhong-huan",
+      "name_zh": "千金米線",
+      "name_en": null,
+      "lat": 22.285241799999998,
+      "lng": 114.1553203,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港島中環德輔道中127號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJE7FPHwABBDQRlwsVK2j1P-c",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJE7FPHwABBDQRlwsVK2j1P-c",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 2.8（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "da-le-yue-nan-niu-zhong-huan",
+      "name_zh": "大叻越南牛肉粉餐廳",
+      "name_en": "Dalat Vietnamese Restaurant (Gilman's Bazaar)",
+      "lat": 22.2857412,
+      "lng": 114.15488549999999,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港中環機利文街48號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大叻越南牛肉粉餐廳／牌照2218818626／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／41 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJKSea0ywBBDQRiEHRtK3BQz0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": 41,
+      "fehd_licence_no": "2218818626",
+      "google_place_id": "ChIJKSea0ywBBDQRiEHRtK3BQz0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：亞洲菜餐廳。Google 評分 3.2／41 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "da-jia-le-zhong-huan-2",
+      "name_zh": "大家樂",
+      "name_en": "Café de Coral",
+      "lat": 22.2831406,
+      "lng": 114.1551291,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港皇后大道中88號 勵精中心地下(部份)及1樓",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大家樂／牌照2213126155／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／37 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJhacv2qEBBDQRghI9M6Hwhfk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 37,
+      "fehd_licence_no": "2213126155",
+      "google_place_id": "ChIJhacv2qEBBDQRghI9M6Hwhfk",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店。Google 評分 3.3／37 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "da-jia-le-zhong-huan-3",
+      "name_zh": "大家樂",
+      "name_en": "Café de Coral",
+      "lat": 22.286462999999998,
+      "lng": 114.1536893,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港德輔道中199號無限極廣場 第一層108號舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大家樂／牌照2213235462／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／549 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJi39I_XwABDQRF01KZPWMEG0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 549,
+      "fehd_licence_no": "2213235462",
+      "google_place_id": "ChIJi39I_XwABDQRF01KZPWMEG0",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店。Google 評分 3.4／549 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "da-jia-le-xiang-gang-ifc-zhong-huan-bei",
+      "name_zh": "大家樂 (香港站店)",
+      "name_en": "Café de Coral",
+      "lat": 22.284575099999998,
+      "lng": 114.1577544,
+      "district": "中環／金鐘",
+      "area": "中環北／IFC",
+      "address": "香港島中環港景街1號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.2／18 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJpTe4D2MABDQR9sp-cusg6LI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": 18,
+      "google_place_id": "ChIJpTe4D2MABDQR9sp-cusg6LI",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店。Google 評分 3.2／18 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "hao-shao-wei-ifc-zhong-huan-bei",
+      "name_zh": "好燒味",
+      "name_en": "Good BBQ Takeaway",
+      "lat": 22.284733,
+      "lng": 114.15818499999999,
+      "district": "中環／金鐘",
+      "area": "中環北／IFC",
+      "address": "號舖, 中環港鐵香港站HOK67, Central, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJXYhABcwBBDQRzc4Gg-fAWYM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJXYhABcwBBDQRzc4Gg-fAWYM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜外賣。Google 評分 2.8（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "hong-fa-shao-e-can-zhong-huan",
+      "name_zh": "宏發燒鵝餐室",
+      "name_en": "Wang Fat Roasted Goose Restaurant",
+      "lat": 22.2845205,
+      "lng": 114.1538166,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港中環皇后大道中149號華源大廈地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（宏發燒鵝餐室／牌照2218814758／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ3TFrfgABBDQRuECEn-F1Etw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.6,
+      "google_review_count": null,
+      "fehd_licence_no": "2218814758",
+      "google_place_id": "ChIJ3TFrfgABBDQRuECEn-F1Etw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粵菜館。Google 評分 2.6（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.6 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "xiao-yu-tian-zhong-huan",
+      "name_zh": "小雨天",
+      "name_en": "Small Rainy Day",
+      "lat": 22.2834264,
+      "lng": 114.1544905,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港中環士丹利街74-78號地下",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（小雨天／牌照2218815609／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2bFzX3sABDQRVZwRht__1Vo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "2218815609",
+      "google_place_id": "ChIJ2bFzX3sABDQRVZwRht__1Vo",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "xin-xian-qing-tang-nan-soho-zhong-huan-xi",
+      "name_zh": "新仙清湯腩",
+      "name_en": null,
+      "lat": 22.2818987,
+      "lng": 114.1555576,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港中環威靈頓街27-29號 元益大廈地下29號鋪部分",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新仙清湯腩／牌照3118812282／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／59 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ--NJXAABBDQRGW28oAvM8i8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 59,
+      "fehd_licence_no": "3118812282",
+      "google_place_id": "ChIJ--NJXAABBDQRGW28oAvM8i8",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4／59 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "xin-long-men-jin-zhong",
+      "name_zh": "新龍門",
+      "name_en": "Sun Lung Moon",
+      "lat": 22.279377999999998,
+      "lng": 114.16513099999999,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "Kavaklıdere Kong",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJoVwGBGcABDQRMDdmV-od_Ng",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2,
+      "google_review_count": null,
+      "google_place_id": "ChIJoVwGBGcABDQRMDdmV-od_Ng",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 評分 2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "shu-xiang-men-di-soho-zhong-huan-xi",
+      "name_zh": "書湘門第",
+      "name_en": "Cafe Hunan",
+      "lat": 22.282055699999997,
+      "lng": 114.1554426,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港中環威靈頓街33號THE LOOP 13樓",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（書湘門第／牌照2218815645／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／30 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMxBonKwBBDQRUuFM-CgAzwM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 30,
+      "fehd_licence_no": "2218815645",
+      "google_place_id": "ChIJMxBonKwBBDQRUuFM-CgAzwM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：湘菜館。Google 評分 3.3／30 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "ye-zi-ka-li-soho-zhong-huan-xi",
+      "name_zh": "椰子咖哩",
+      "name_en": "Coconut Curry",
+      "lat": 22.281058599999998,
+      "lng": 114.1551988,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "中環德己立街27-37號榮華里8號B座地下N室",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJdT1IL3sABDQRn_I2GwX7lpE",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.5,
+      "google_review_count": null,
+      "google_place_id": "ChIJdT1IL3sABDQRn_I2GwX7lpE",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：印度餐廳。Google 評分 2.5（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.5 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jiang-nan-ifc-zhong-huan-bei",
+      "name_zh": "江南",
+      "name_en": null,
+      "lat": 22.284586599999997,
+      "lng": 114.1579512,
+      "district": "中環／金鐘",
+      "area": "中環北／IFC",
+      "address": "香港島商場HK 號舖 香港中環國際金融中心3092BHKshop2018-20 ifc mall3092B",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJXTf-rbwBBDQRJfmMdz3xgLU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJXTf-rbwBBDQRJfmMdz3xgLU",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：亞洲菜餐廳。Google 評分 3.2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "tai-guo-ma-lai-xi-soho-zhong-huan-xi",
+      "name_zh": "泰國馬來西亞餐廳",
+      "name_en": "Taiguo Malaysian Restaurant",
+      "lat": 22.2814071,
+      "lng": 114.1552562,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "中環蘭桂坊榮華里",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ38xNMHsABDQR5UaiVwLFD7A",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 1,
+      "google_review_count": null,
+      "google_place_id": "ChIJ38xNMHsABDQR5UaiVwLFD7A",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 1（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "mi-zhen-xian-soho-zhong-huan-xi",
+      "name_zh": "米真鮮",
+      "name_en": null,
+      "lat": 22.2825232,
+      "lng": 114.15472609999999,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港中環擺花街1號 一號廣場地下9號鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（米真鮮／牌照3118810347／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJwSnOTLgBBDQRjlshsjZm-VM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "fehd_licence_no": "3118810347",
+      "google_place_id": "ChIJwSnOTLgBBDQRjlshsjZm-VM",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "mi-xian-zhen-jin-zhong",
+      "name_zh": "米線陣",
+      "name_en": "mixian sense",
+      "lat": 22.279377999999998,
+      "lng": 114.16513099999999,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "香港夏愨道18號海富中心地下 42-68號C舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（米線陣／牌照2218818282／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJHy1EB2cABDQRKbPHDXXaIzk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "fehd_licence_no": "2218818282",
+      "google_place_id": "ChIJHy1EB2cABDQRKbPHDXXaIzk",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中式麵食店／中菜館。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "mx-mei-xin-zhong-huan-he-xin",
+      "name_zh": "美心MX",
+      "name_en": "Maxim's MX",
+      "lat": 22.282089799999998,
+      "lng": 114.160771,
+      "district": "中環／金鐘",
+      "area": "中環核心",
+      "address": "香港中環 愛丁堡廣場大會堂高座入口",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（美心MX／牌照2213210702／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJA_OBAGQABDQRZpNj99N_9Bw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "fehd_licence_no": "2213210702",
+      "google_place_id": "ChIJA_OBAGQABDQRZpNj99N_9Bw",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "mei-hua-cha-can-ting-soho-zhong-huan-xi",
+      "name_zh": "美華茶餐廳",
+      "name_en": "May Wah Restaurant",
+      "lat": 22.2839301,
+      "lng": 114.15299879999999,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港中環鴨巴甸街8, 8 A, 10及10A 結志街39-41及45-49號新中環大廈地下D舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（美華茶餐廳／牌照2218805282／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_Z1tgHwABDQRJWDOC_7jm3c",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.1,
+      "google_review_count": null,
+      "fehd_licence_no": "2218805282",
+      "google_place_id": "ChIJ_Z1tgHwABDQRJWDOC_7jm3c",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.1（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "ken-de-ji-zhong-huan",
+      "name_zh": "肯德基",
+      "name_en": "KFC",
+      "lat": 22.2852604,
+      "lng": 114.1553162,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港德輔道中127-131號有餘貿易中心1樓",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（肯德基／牌照2218809567／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／609 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJa3N483wABDQRYz0htD8Wssg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 609,
+      "fehd_licence_no": "2218809567",
+      "google_place_id": "ChIJa3N483wABDQRYz0htD8Wssg",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：雞肉料理餐廳。Google 評分 3.4／609 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "tai-pin-jin-zhong",
+      "name_zh": "臺品",
+      "name_en": null,
+      "lat": 22.279377999999998,
+      "lng": 114.16513099999999,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "香港島金鐘",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvVsGBGcABDQRC9KjhacSp1o",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": null,
+      "google_place_id": "ChIJvVsGBGcABDQRC9KjhacSp1o",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "liang-you-soho-zhong-huan-xi",
+      "name_zh": "良友",
+      "name_en": "Good Companion",
+      "lat": 22.282539999999997,
+      "lng": 114.1525834,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港島中環卑利街59a號",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJv5TqmHsABDQRieLBXXXmCrI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": null,
+      "google_place_id": "ChIJv5TqmHsABDQRieLBXXXmCrI",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "lab-concept-hua-yu-jie-jin-zhong",
+      "name_zh": "華御結 (Lab Concept店)",
+      "name_en": "hana-musubi",
+      "lat": 22.2792109,
+      "lng": 114.1644888,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "Lab Concept, Shop F07, 1/F, 93 Queensway, Admiralty, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（3／1 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvUlsmBwBBDQRp619RBn-yvo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": 1,
+      "google_place_id": "ChIJvUlsmBwBBDQRp619RBn-yvo",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：正宗日式料理餐廳。Google 評分 3／1 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "2-hua-yu-jie-zhong-zhong-huan-he-xin",
+      "name_zh": "華御結 (中環站2號店)",
+      "name_en": "hana-musubi",
+      "lat": 22.2824565,
+      "lng": 114.15765569999999,
+      "district": "中環／金鐘",
+      "area": "中環核心",
+      "address": "Shop CEN W8, Central MTR Station, Central, Hong Kong Island",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_XDkVAEBBDQRnU8_NKkGwS8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.6,
+      "google_review_count": null,
+      "google_place_id": "ChIJ_XDkVAEBBDQRnU8_NKkGwS8",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：正宗日式料理餐廳。Google 評分 2.6（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.6 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "tan-zai-san-ge-mi-soho-zhong-huan-xi",
+      "name_zh": "譚仔三哥米線",
+      "name_en": "TamJai SamGor (Central)",
+      "lat": 22.281716,
+      "lng": 114.155677,
+      "district": "中環／金鐘",
+      "area": "中環西／蘭桂坊・SoHo",
+      "address": "香港中環威靈頓街15D-19號香港工商大廈 地下低層(A部份)及地下(A部份)",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（譚仔三哥米線／牌照2218816046／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ3yXS1WYBBDQRwhk0wDWxDqA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": null,
+      "fehd_licence_no": "2218816046",
+      "google_place_id": "ChIJ3yXS1WYBBDQRwhk0wDWxDqA",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中式麵食店。Google 評分 3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "tan-zai-yun-nan-mi-jin-zhong",
+      "name_zh": "譚仔雲南米線",
+      "name_en": "TamJai Yunnan Mixian (Admiralty)",
+      "lat": 22.2800992,
+      "lng": 114.1642014,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "香港金鐘夏愨道16號遠東金融中心 地下上層A2舖及地下B舖",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（譚仔雲南米線／牌照2218817164／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.7／69 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRxeZR28BBDQRtYOF_AuymKg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.7,
+      "google_review_count": 69,
+      "fehd_licence_no": "2218817164",
+      "google_place_id": "ChIJRxeZR28BBDQRtYOF_AuymKg",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中式麵食店。Google 評分 2.7／69 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.7 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "er-hao-bing-shi-zhong-zhong-huan-2",
+      "name_zh": "貳號冰室(中環)",
+      "name_en": null,
+      "lat": 22.284483299999998,
+      "lng": 114.15541739999999,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港島中環德輔道中84及86號地庫地下及",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.7／3 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJsxmMkg8BBDQRrxrMNTy_GjQ",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.7,
+      "google_review_count": 3,
+      "google_place_id": "ChIJsxmMkg8BBDQRrxrMNTy_GjQ",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 2.7／3 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.7 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "lian-he-shao-zhu-can-zhong-huan",
+      "name_zh": "連和燒豬餐廳 (中環店)",
+      "name_en": "Lin Wo Roasted Pork Restaurant",
+      "lat": 22.2817251,
+      "lng": 114.15598159999999,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港島中環士丹利街6號歐亞大廈",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJYWQC8NUBBDQRghPzo6oGYiA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJYWQC8NUBBDQRghPzo6oGYiA",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粵菜館。Google 評分 2.8（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jin-yu-zhong-huan",
+      "name_zh": "金御",
+      "name_en": "Majesty Seafood Restaurant (Central)",
+      "lat": 22.283163,
+      "lng": 114.155113,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港中環皇后大道中88號 勵精中心3樓全層",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金御／牌照2213190057／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／449 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJfdx7V3sABDQRBWZeTd-V0vo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 449,
+      "fehd_licence_no": "2213190057",
+      "google_place_id": "ChIJfdx7V3sABDQRBWZeTd-V0vo",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粵菜館。Google 評分 3.4／449 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "jiao-dian-shou-gong-zi-jin-zhong",
+      "name_zh": "餃掂手工餃子雲吞專門店",
+      "name_en": null,
+      "lat": 22.280640899999998,
+      "lng": 114.1629785,
+      "district": "中環／金鐘",
+      "area": "金鐘",
+      "address": "香港中環夏愨道12號美國銀行中心地下G08鋪",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（餃掂手工餃子雲吞專門店／牌照3918813502／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（1.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJO9RcRA4BBDQRAPJZhvSvm98",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 1.6,
+      "google_review_count": null,
+      "fehd_licence_no": "3918813502",
+      "google_place_id": "ChIJO9RcRA4BBDQRAPJZhvSvm98",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餃子店。Google 評分 1.6（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 1.6 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
+    },
+    {
+      "id": "unnamed-zhong-huan",
+      "name_zh": "얏 록 레스토랑",
+      "name_en": null,
+      "lat": 22.2824967,
+      "lng": 114.1552909,
+      "district": "中環／金鐘",
+      "area": "中環",
+      "address": "香港島中環士丹利街34-38號, Conwell House, Room 3013/F",
+      "sources": [
+        {
+          "name": "Google 地圖公開頁評分（2.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJraGzdQABBDQRsfKvuKMaH9g",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJraGzdQABBDQRsfKvuKMaH9g",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：燒烤餐廳。Google 評分 2.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "cuisine": []
     }
   ],
   "excluded": [
@@ -26270,30 +28126,6 @@
       "google_review_count": 59,
       "fehd_licence_no": "3118804870",
       "google_place_id": "ChIJP59lFmkBBDQRmPHqnnihJ1s"
-    },
-    {
-      "id": "asaaf-lebanese-cousine-soho-zhong-huan-xi",
-      "name_zh": "Asaaf Lebanese Cousine",
-      "name_en": "Asaaf Lebanese Cousine",
-      "lat": 22.2826135,
-      "lng": 114.1537893,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港島中環結志街6號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（1 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／1 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJraD1bnsABDQR2kZQe8GGlWg",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": 1,
-      "google_place_id": "ChIJraD1bnsABDQR2kZQe8GGlWg"
     },
     {
       "id": "asok-thai-cake-zhong-huan",
@@ -26890,68 +28722,6 @@
       "google_place_id": "ChIJ91O_K4cBBDQRhqhmZIUCkNw"
     },
     {
-      "id": "can-teen-jin-zhong",
-      "name_zh": "CAN.TEEN",
-      "name_en": "can.teen",
-      "lat": 22.279484999999998,
-      "lng": 114.164822,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "香港夏慤道18號 海富中心1期1樓 中庭及44號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（769 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（CAN.TEEN／牌照2213037071／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／769 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJAVcMBmcABDQRx1T1JWcZMCw",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 769,
-      "fehd_licence_no": "2213037071",
-      "google_place_id": "ChIJAVcMBmcABDQRx1T1JWcZMCw"
-    },
-    {
-      "id": "can-teen-zhong-huan",
-      "name_zh": "CAN.TEEN",
-      "name_en": "can.teen",
-      "lat": 22.2798463,
-      "lng": 114.1605556,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港中環皇后大道中2號長江集團中心地庫第一層A 1號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（CAN.TEEN／牌照2218812424／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJr1m97asBBDQR7HXr2GgsW1M",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.1,
-      "google_review_count": null,
-      "fehd_licence_no": "2218812424",
-      "google_place_id": "ChIJr1m97asBBDQR7HXr2GgsW1M"
-    },
-    {
       "id": "censu-soho-zhong-huan-xi",
       "name_zh": "CENSU",
       "name_en": "CENSU",
@@ -27262,37 +29032,6 @@
       "google_review_count": 473,
       "fehd_licence_no": "2218810987",
       "google_place_id": "ChIJGfSa13oABDQRJxaw_yNLVQc"
-    },
-    {
-      "id": "central-table-zhong-huan-he-xin",
-      "name_zh": "Central Table",
-      "name_en": "CENTRAL TABLE",
-      "lat": 22.281057999999998,
-      "lng": 114.1578758,
-      "district": "中環／金鐘",
-      "area": "中環核心",
-      "address": "香港中環皇后大道中15號置地廣場3樓308-309號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（Central Table／牌照2218820395／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ25MG48EBBDQRrabBbS7w0sw",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "2218820395",
-      "google_place_id": "ChIJ25MG48EBBDQRrabBbS7w0sw"
     },
     {
       "id": "chrono-soho-zhong-huan-xi",
@@ -27806,30 +29545,6 @@
       "google_place_id": "ChIJBekM_2MABDQRe89A18Y9XwY"
     },
     {
-      "id": "don-bowls-rolls-by-sushi-zhong-huan-he-xin",
-      "name_zh": "Don Bowls & Rolls by Sushi Fujimoto",
-      "name_en": "Don Bowls & Rolls by Sushi Fujimoto",
-      "lat": 22.283043799999998,
-      "lng": 114.15915749999999,
-      "district": "中環／金鐘",
-      "area": "中環核心",
-      "address": "LG/F, 1 Connaught Pl, Central, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.7（3 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.7／3 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJByhnZQABBDQRHv1Q-4Rma8U",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.7,
-      "google_review_count": 3,
-      "google_place_id": "ChIJByhnZQABBDQRHv1Q-4Rma8U"
-    },
-    {
       "id": "draftland-soho-zhong-huan-xi",
       "name_zh": "Draftland",
       "name_en": "Draft Land HK",
@@ -28182,30 +29897,6 @@
       "google_rating": 4.1,
       "google_review_count": 32,
       "google_place_id": "ChIJaac2ZgMBBDQR6d4jjwWDGAY"
-    },
-    {
-      "id": "fete-up-zhong-huan-he-xin",
-      "name_zh": "Fete up",
-      "name_en": "Fete Up (Basehall 2)",
-      "lat": 22.283056,
-      "lng": 114.15888899999999,
-      "district": "中環／金鐘",
-      "area": "中環核心",
-      "address": "Connaught Place Jardine House, Basehall 2, Central, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ4Zm8OQABBDQRdflDso97PBU",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJ4Zm8OQABBDQRdflDso97PBU"
     },
     {
       "id": "fineprint-soho-zhong-huan-xi",
@@ -28561,30 +30252,6 @@
       "google_place_id": "ChIJ5wN8KXsABDQRxhuCK3ulvKk"
     },
     {
-      "id": "general-provisions-by-alfred-s-zhong-huan-he-xin",
-      "name_zh": "General Provisions by Alfred's",
-      "name_en": "General Provisions by Alfred's",
-      "lat": 22.281925299999997,
-      "lng": 114.1584888,
-      "district": "中環／金鐘",
-      "area": "中環核心",
-      "address": "Shop 303, 3/F, Landmark Atrium, 15 Queen's Road Central, Central, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJGWjOoHoBBDQRqtCyo7lVWAI",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": null,
-      "google_place_id": "ChIJGWjOoHoBBDQRqtCyo7lVWAI"
-    },
-    {
       "id": "godenya-soho-zhong-huan-xi",
       "name_zh": "Godenya",
       "name_en": "Godenya",
@@ -28892,30 +30559,6 @@
       "google_place_id": "ChIJE1-jhG4BBDQRpmUskIC4k7c"
     },
     {
-      "id": "hex-tech-zhong-huan",
-      "name_zh": "Hex Tech",
-      "name_en": "Hex Tech",
-      "lat": 22.283627,
-      "lng": 114.156354,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港島中環砵典乍街",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJg2fFI48BBDQRR6PGUxRDsPI",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": null,
-      "google_place_id": "ChIJg2fFI48BBDQRR6PGUxRDsPI"
-    },
-    {
       "id": "holdon-club-restaurant-soho-zhong-huan-xi",
       "name_zh": "Holdon Club & Restaurant",
       "name_en": "Holdon Club & Restaurant",
@@ -29096,30 +30739,6 @@
       "google_place_id": "ChIJu7g_1VgBBDQR7JyuncimyOs"
     },
     {
-      "id": "jw-s-shou-si-ba-jin-zhong",
-      "name_zh": "JW’s 壽司吧",
-      "name_en": null,
-      "lat": 22.277192,
-      "lng": 114.164323,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "金鐘 金鐘道88號太古廣場香港JW萬豪酒店5樓",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（2 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／2 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJyidMWYABDQRxFSVvbA3xDc",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": 2,
-      "google_place_id": "ChIJJyidMWYABDQRxFSVvbA3xDc"
-    },
-    {
       "id": "jean-pierre-ifc-zhong-huan-bei",
       "name_zh": "Jean-Pierre",
       "name_en": "Jean-Pierre",
@@ -29168,30 +30787,6 @@
       "google_place_id": "ChIJz3BS3jEBBDQR98mQkEMn2FQ"
     },
     {
-      "id": "joa-admiralty-jin-zhong",
-      "name_zh": "JoA - Admiralty",
-      "name_en": "JoA - Admiralty",
-      "lat": 22.279965,
-      "lng": 114.16406529999999,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "Shop D4, UG/F, 遠東金融中心16 Harcourt Rd, Admiralty, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（7 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.3／7 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJLZxrCwABBDQRYoFUvLom7fI",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 7,
-      "google_place_id": "ChIJLZxrCwABBDQRYoFUvLom7fI"
-    },
-    {
       "id": "k-97-soho-zhong-huan-xi",
       "name_zh": "K 97",
       "name_en": null,
@@ -29222,37 +30817,6 @@
       "round1_borderline": true,
       "fehd_licence_no": "3113201340",
       "google_place_id": "ChIJL1xpj_0BBDQRi6wlOsUsEtg"
-    },
-    {
-      "id": "kiki-mian-dian-ifc-zhong-huan-bei",
-      "name_zh": "KIKI麵店",
-      "name_en": "Kiki Noodle Bar (IFC)",
-      "lat": 22.2843828,
-      "lng": 114.15829989999999,
-      "district": "中環／金鐘",
-      "area": "中環北／IFC",
-      "address": "香港中環港景街1號 國際金融中心2樓2017鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（112 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（KIKI麵店／牌照2218813968／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／112 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJSQfHKfEBBDQRnATwT0Lcu44",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 112,
-      "fehd_licence_no": "2218813968",
-      "google_place_id": "ChIJSQfHKfEBBDQRnATwT0Lcu44"
     },
     {
       "id": "kinsman-soho-zhong-huan-xi",
@@ -30254,37 +31818,6 @@
       "google_place_id": "ChIJT_m7YAABBDQR8D1dVezrdGg"
     },
     {
-      "id": "morty-s-delicatessen-zhong-huan-he-xin",
-      "name_zh": "MORTY'S DELICATESSEN",
-      "name_en": "Morty's (Jardine House)",
-      "lat": 22.283028899999998,
-      "lng": 114.1589161,
-      "district": "中環／金鐘",
-      "area": "中環核心",
-      "address": "香港中環康樂廣場1號怡和大廈地下低層12-14號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（MORTY'S DELICATESSEN／牌照2218810464／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJSaQucwABBDQRpfV9Ad0K800",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.3,
-      "google_review_count": null,
-      "fehd_licence_no": "2218810464",
-      "google_place_id": "ChIJSaQucwABBDQRpfV9Ad0K800"
-    },
-    {
       "id": "muses-xiang-gang-da-hui-zhong-huan-he-xin",
       "name_zh": "MUSES 香港大會堂店",
       "name_en": "MUSES (City Hall, Central)",
@@ -30467,30 +32000,6 @@
       "google_place_id": "ChIJ75Kc_2MABDQRrz3TKSfcOfs"
     },
     {
-      "id": "mega-coffee-central-soho-zhong-huan-xi",
-      "name_zh": "Mega Coffee Central",
-      "name_en": "Mega Coffee Central",
-      "lat": 22.282791,
-      "lng": 114.15395629999999,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港島中環閣麟街37號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 1（1 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（1／1 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJtTmu77kBBDQRdsVrhJBLN0U",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 1,
-      "google_review_count": 1,
-      "google_place_id": "ChIJtTmu77kBBDQRdsVrhJBLN0U"
-    },
-    {
       "id": "meme-soho-zhong-huan-xi",
       "name_zh": "Meme",
       "name_en": "MEME bar",
@@ -30582,30 +32091,6 @@
       "google_review_count": null,
       "fehd_licence_no": "3118810462",
       "google_place_id": "ChIJOePOMOoBBDQRquKeMeiKTM8"
-    },
-    {
-      "id": "mix-soho-zhong-huan-xi",
-      "name_zh": "Mix",
-      "name_en": "Mix",
-      "lat": 22.2814797,
-      "lng": 114.1555703,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港島中環",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（3 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／3 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJh1KbM3sABDQRshQYfXV2W0s",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": 3,
-      "google_place_id": "ChIJh1KbM3sABDQRshQYfXV2W0s"
     },
     {
       "id": "moon-izakaya-soho-zhong-huan-xi",
@@ -31474,68 +32959,6 @@
       "google_rating": 3.7,
       "google_review_count": null,
       "google_place_id": "ChIJ941_r2MABDQRlv2shQAW2vk"
-    },
-    {
-      "id": "polo-ralph-lauren-jin-zhong",
-      "name_zh": "Polo Ralph Lauren",
-      "name_en": "POLO RALPH LAUREN Pacific Place",
-      "lat": 22.277509,
-      "lng": 114.16634099999999,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "香港金鐘金鐘道88號 太古廣場2座L1樓100A號舖A部份",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（5 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（Polo Ralph Lauren／牌照3118812015／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／5 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJd7k_xgoBBDQRgCvqe-AWHYY",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.2,
-      "google_review_count": 5,
-      "fehd_licence_no": "3118812015",
-      "google_place_id": "ChIJd7k_xgoBBDQRgCvqe-AWHYY"
-    },
-    {
-      "id": "pret-a-manger-jin-zhong-2",
-      "name_zh": "Pret A Manger",
-      "name_en": "Pret A Manger",
-      "lat": 22.2770182,
-      "lng": 114.1679465,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "香港皇后大道東1號太古廣場三座B3樓1及2號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（Pret A Manger／牌照3112802924／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJq6q3Ql0ABDQR7WugILsTQ34",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "fehd_licence_no": "3112802924",
-      "google_place_id": "ChIJq6q3Ql0ABDQR7WugILsTQ34"
     },
     {
       "id": "prince-and-the-peacock-soho-zhong-huan-xi",
@@ -33965,30 +35388,6 @@
       "google_place_id": "ChIJASUgn3sABDQRFpCG26svHiA"
     },
     {
-      "id": "wow-charsiu-hao-cha-wei-jin-zhong",
-      "name_zh": "Wow Charsiu 好叉好味",
-      "name_en": null,
-      "lat": 22.2793143,
-      "lng": 114.16512759999999,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "香港島金鐘海富中心2樓102舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.6（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.6／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJq31euXcBBDQRm8VincN1tug",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.6,
-      "google_review_count": null,
-      "google_place_id": "ChIJq31euXcBBDQRm8VincN1tug"
-    },
-    {
       "id": "yardleys-soho-zhong-huan-xi",
       "name_zh": "YARDLEYS",
       "name_en": "Yardleys Taproom",
@@ -34192,30 +35591,6 @@
       "google_place_id": "ChIJ21AqSmsBBDQR0B81ATQblF4"
     },
     {
-      "id": "zagin-soba-zhong-huan-he-xin",
-      "name_zh": "Zagin Soba",
-      "name_en": "Zagin Soba",
-      "lat": 22.282892399999998,
-      "lng": 114.1593146,
-      "district": "中環／金鐘",
-      "area": "中環核心",
-      "address": "Shop K15-16, B1/F, 1 Connaught Pl, Central, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.6（13 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.6／13 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ69bcbwABBDQRyQKzSjiLkLk",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.6,
-      "google_review_count": 13,
-      "google_place_id": "ChIJ69bcbwABBDQRyQKzSjiLkLk"
-    },
-    {
       "id": "agn-s-b-caf-d-ifc-zhong-huan-bei",
       "name_zh": "agnès b. CAFÉ/DÉLICES/FLEURISTE 國金中心LA LOGGIA bis店",
       "name_en": "agnès b. CAFÉ",
@@ -34271,116 +35646,6 @@
       "google_place_id": "ChIJYTpwhmQABDQRY_5OG2IwBRE"
     },
     {
-      "id": "yi-le-shao-e-zhong-huan",
-      "name_zh": "一樂燒鵝",
-      "name_en": "Yat Lok Restaurant",
-      "lat": 22.2824956,
-      "lng": 114.1552995,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港中環士丹利街34-38號金禾大廈地下1號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（6015 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（一樂燒鵝／牌照2218804632／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／6015 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJbe5PTnsABDQR1euH3jQKgJs",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 6015,
-      "fehd_licence_no": "2218804632",
-      "google_place_id": "ChIJbe5PTnsABDQR1euH3jQKgJs"
-    },
-    {
-      "id": "yi-qiao-la-mian-soho-zhong-huan-xi",
-      "name_zh": "一橋拉麵",
-      "name_en": "Bashi Ramen (Central)",
-      "lat": 22.282417499999998,
-      "lng": 114.1551523,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港中環威靈頓街43-49號 新利大廈地下A鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（111 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（一橋拉麵／牌照3118812088／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／111 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJSZ0pQgABBDQRrwnWafu_yd4",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 111,
-      "fehd_licence_no": "3118812088",
-      "google_place_id": "ChIJSZ0pQgABBDQRrwnWafu_yd4"
-    },
-    {
-      "id": "yi-zhi-cai-zhong-huan-zhong-huan",
-      "name_zh": "一汁一菜 (中環街市)",
-      "name_en": "ICHIJUISSAI (Central Market)",
-      "lat": 22.2839325,
-      "lng": 114.1553613,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港島中環德輔道中80號2樓243號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJcbXcJgkBBDQRRT1nQxCWByo",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJcbXcJgkBBDQRRT1nQxCWByo"
-    },
-    {
-      "id": "yi-zhou-mian-zhong-huan-ifc-zhong-huan-bei",
-      "name_zh": "一粥麵 (中環站店)",
-      "name_en": "Super Super Congee & Noodles",
-      "lat": 22.2844268,
-      "lng": 114.15852249999999,
-      "district": "中環／金鐘",
-      "area": "中環北／IFC",
-      "address": "香港島中環港景街國際金融中心一期",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJE66PSccBBDQRXP_bGXTZmYg",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": null,
-      "google_place_id": "ChIJE66PSccBBDQRXP_bGXTZmYg"
-    },
-    {
       "id": "one-tea-house-central-shop-soho-zhong-huan-xi",
       "name_zh": "一茶軒 One Tea House - 中環店 Central Shop",
       "name_en": null,
@@ -34405,37 +35670,6 @@
       "google_place_id": "ChIJR_OkkQgBBDQRH_MZPmDV0qE"
     },
     {
-      "id": "shang-xi-mian-guan-jin-zhong",
-      "name_zh": "上囍麵館",
-      "name_en": null,
-      "lat": 22.279965,
-      "lng": 114.16406529999999,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "香港中環夏道16號遠東金融中心地下高層E1及E2舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.2（6 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（上囍麵館／牌照2218812558／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.2／6 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJOamwJQABBDQRcAUY6XvfcbA",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.2,
-      "google_review_count": 6,
-      "fehd_licence_no": "2218812558",
-      "google_place_id": "ChIJOamwJQABBDQRcAUY6XvfcbA"
-    },
-    {
       "id": "zhong-huan-cheng-zhai-soho-zhong-huan-xi",
       "name_zh": "中環城寨",
       "name_en": null,
@@ -34458,30 +35692,6 @@
       "google_rating": 4.7,
       "google_review_count": null,
       "google_place_id": "ChIJF6v_SAABBDQRmUOytGrVkd4"
-    },
-    {
-      "id": "jiu-zhong-huan-dian-zhong-huan",
-      "name_zh": "久久 (中環店)",
-      "name_en": "Chew Taiwan (Central)",
-      "lat": 22.2840679,
-      "lng": 114.15548349999999,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港島中環皇后大道中93號中環街市地下G18號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（72 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.1／72 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJW6Cl-RoBBDQRwT3BtkFz1BM",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.1,
-      "google_review_count": 72,
-      "google_place_id": "ChIJW6Cl-RoBBDQRwT3BtkFz1BM"
     },
     {
       "id": "er-san-zhi-jian-soho-zhong-huan-xi",
@@ -34546,37 +35756,6 @@
       "google_place_id": "ChIJkXaOSmwBBDQR6wXq6jFE2SQ"
     },
     {
-      "id": "jia-yue-zhong-huan",
-      "name_zh": "佳越",
-      "name_en": "G Viet Vietnamese Cusime",
-      "lat": 22.284328,
-      "lng": 114.15519499999999,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港中環租庇利街9及11號富興大廈租庇利街11號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.9（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（佳越／牌照2218815575／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJKUzBsHwABDQRFbW-nW_nKiY",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.9,
-      "google_review_count": null,
-      "fehd_licence_no": "2218815575",
-      "google_place_id": "ChIJKUzBsHwABDQRFbW-nW_nKiY"
-    },
-    {
       "id": "ba-shi-shen-xian-cao-soho-zhong-huan-xi",
       "name_zh": "八時神仙草",
       "name_en": "Pa Shih (Central)",
@@ -34606,92 +35785,6 @@
       "google_review_count": null,
       "fehd_licence_no": "3118810897",
       "google_place_id": "ChIJ00HG-icBBDQRcDeEQrBjP3I"
-    },
-    {
-      "id": "li-yuan-jiu-jia-ifc-zhong-huan-bei",
-      "name_zh": "利苑酒家",
-      "name_en": "Lei Garden",
-      "lat": 22.284612,
-      "lng": 114.15899259999999,
-      "district": "中環／金鐘",
-      "area": "中環北／IFC",
-      "address": "香港中環港景街一號 國際金融中心商場三樓3008至3011店",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（利苑酒家／牌照2218800065／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJS2mpO2MABDQR1FWI1DcGjwc",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "fehd_licence_no": "2218800065",
-      "google_place_id": "ChIJS2mpO2MABDQR1FWI1DcGjwc"
-    },
-    {
-      "id": "shi-ba-zuo-gou-zai-soho-zhong-huan-xi",
-      "name_zh": "十八座狗仔粉",
-      "name_en": null,
-      "lat": 22.2811758,
-      "lng": 114.1557033,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港中環德己立街20號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（十八座狗仔粉／牌照3118810170／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWbImLyoBBDQRQx10-ShVKlQ",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "3118810170",
-      "google_place_id": "ChIJWbImLyoBBDQRQx10-ShVKlQ"
-    },
-    {
-      "id": "qian-jin-mi-xian-zhong-huan",
-      "name_zh": "千金米線",
-      "name_en": null,
-      "lat": 22.285241799999998,
-      "lng": 114.1553203,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港島中環德輔道中127號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJE7FPHwABBDQRlwsVK2j1P-c",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.8,
-      "google_review_count": null,
-      "google_place_id": "ChIJE7FPHwABBDQRlwsVK2j1P-c"
     },
     {
       "id": "kou-li-fu-soho-zhong-huan-xi",
@@ -34860,147 +35953,6 @@
       "google_place_id": "ChIJKyhbx6oBBDQRaGYNifrxkas"
     },
     {
-      "id": "da-le-yue-nan-niu-zhong-huan",
-      "name_zh": "大叻越南牛肉粉餐廳",
-      "name_en": "Dalat Vietnamese Restaurant (Gilman's Bazaar)",
-      "lat": 22.2857412,
-      "lng": 114.15488549999999,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港中環機利文街48號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（41 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（大叻越南牛肉粉餐廳／牌照2218818626／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／41 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJKSea0ywBBDQRiEHRtK3BQz0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.2,
-      "google_review_count": 41,
-      "fehd_licence_no": "2218818626",
-      "google_place_id": "ChIJKSea0ywBBDQRiEHRtK3BQz0"
-    },
-    {
-      "id": "da-jia-le-zhong-huan-2",
-      "name_zh": "大家樂",
-      "name_en": "Café de Coral",
-      "lat": 22.2831406,
-      "lng": 114.1551291,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港皇后大道中88號 勵精中心地下(部份)及1樓",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（37 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（大家樂／牌照2213126155／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／37 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJhacv2qEBBDQRghI9M6Hwhfk",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 37,
-      "fehd_licence_no": "2213126155",
-      "google_place_id": "ChIJhacv2qEBBDQRghI9M6Hwhfk"
-    },
-    {
-      "id": "da-jia-le-zhong-huan-3",
-      "name_zh": "大家樂",
-      "name_en": "Café de Coral",
-      "lat": 22.286462999999998,
-      "lng": 114.1536893,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港德輔道中199號無限極廣場 第一層108號舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（549 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（大家樂／牌照2213235462／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／549 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJi39I_XwABDQRF01KZPWMEG0",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 549,
-      "fehd_licence_no": "2213235462",
-      "google_place_id": "ChIJi39I_XwABDQRF01KZPWMEG0"
-    },
-    {
-      "id": "da-jia-le-xiang-gang-ifc-zhong-huan-bei",
-      "name_zh": "大家樂 (香港站店)",
-      "name_en": "Café de Coral",
-      "lat": 22.284575099999998,
-      "lng": 114.1577544,
-      "district": "中環／金鐘",
-      "area": "中環北／IFC",
-      "address": "香港島中環港景街1號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（18 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.2／18 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJpTe4D2MABDQR9sp-cusg6LI",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.2,
-      "google_review_count": 18,
-      "google_place_id": "ChIJpTe4D2MABDQR9sp-cusg6LI"
-    },
-    {
-      "id": "hao-shao-wei-ifc-zhong-huan-bei",
-      "name_zh": "好燒味",
-      "name_en": "Good BBQ Takeaway",
-      "lat": 22.284733,
-      "lng": 114.15818499999999,
-      "district": "中環／金鐘",
-      "area": "中環北／IFC",
-      "address": "號舖, 中環港鐵香港站HOK67, Central, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJXYhABcwBBDQRzc4Gg-fAWYM",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.8,
-      "google_review_count": null,
-      "google_place_id": "ChIJXYhABcwBBDQRzc4Gg-fAWYM"
-    },
-    {
       "id": "in-the-mood-for-food-soho-zhong-huan-xi",
       "name_zh": "好蘭好味 In the Mood for Food",
       "name_en": null,
@@ -35024,68 +35976,6 @@
       "google_review_count": null,
       "round1_borderline": true,
       "google_place_id": "ChIJj2A2t0EBBDQR9xgJ96m8yIw"
-    },
-    {
-      "id": "hong-fa-shao-e-can-zhong-huan",
-      "name_zh": "宏發燒鵝餐室",
-      "name_en": "Wang Fat Roasted Goose Restaurant",
-      "lat": 22.2845205,
-      "lng": 114.1538166,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港中環皇后大道中149號華源大廈地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.6（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（宏發燒鵝餐室／牌照2218814758／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.6／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ3TFrfgABBDQRuECEn-F1Etw",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.6,
-      "google_review_count": null,
-      "fehd_licence_no": "2218814758",
-      "google_place_id": "ChIJ3TFrfgABBDQRuECEn-F1Etw"
-    },
-    {
-      "id": "xiao-yu-tian-zhong-huan",
-      "name_zh": "小雨天",
-      "name_en": "Small Rainy Day",
-      "lat": 22.2834264,
-      "lng": 114.1544905,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港中環士丹利街74-78號地下",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（小雨天／牌照2218815609／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2bFzX3sABDQRVZwRht__1Vo",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "2218815609",
-      "google_place_id": "ChIJ2bFzX3sABDQRVZwRht__1Vo"
     },
     {
       "id": "qiao-ke-li-zhi-jia-ifc-zhong-huan-bei",
@@ -35183,61 +36073,6 @@
       "google_review_count": null,
       "round1_borderline": true,
       "google_place_id": "ChIJDSrY2X0ABDQR9-Jv3GQatvc"
-    },
-    {
-      "id": "xin-xian-qing-tang-nan-soho-zhong-huan-xi",
-      "name_zh": "新仙清湯腩",
-      "name_en": null,
-      "lat": 22.2818987,
-      "lng": 114.1555576,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港中環威靈頓街27-29號 元益大廈地下29號鋪部分",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（59 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（新仙清湯腩／牌照3118812282／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／59 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ--NJXAABBDQRGW28oAvM8i8",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 59,
-      "fehd_licence_no": "3118812282",
-      "google_place_id": "ChIJ--NJXAABBDQRGW28oAvM8i8"
-    },
-    {
-      "id": "xin-long-men-jin-zhong",
-      "name_zh": "新龍門",
-      "name_en": "Sun Lung Moon",
-      "lat": 22.279377999999998,
-      "lng": 114.16513099999999,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "Kavaklıdere Kong",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJoVwGBGcABDQRMDdmV-od_Ng",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2,
-      "google_review_count": null,
-      "google_place_id": "ChIJoVwGBGcABDQRMDdmV-od_Ng"
     },
     {
       "id": "lv-wo-soho-zhong-huan-xi",
@@ -35351,61 +36186,6 @@
       "google_place_id": "ChIJhe1AanUBBDQRhFD5N2qx2Xc"
     },
     {
-      "id": "shu-xiang-men-di-soho-zhong-huan-xi",
-      "name_zh": "書湘門第",
-      "name_en": "Cafe Hunan",
-      "lat": 22.282055699999997,
-      "lng": 114.1554426,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港中環威靈頓街33號THE LOOP 13樓",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（30 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（書湘門第／牌照2218815645／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／30 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMxBonKwBBDQRUuFM-CgAzwM",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": 30,
-      "fehd_licence_no": "2218815645",
-      "google_place_id": "ChIJMxBonKwBBDQRUuFM-CgAzwM"
-    },
-    {
-      "id": "ye-zi-ka-li-soho-zhong-huan-xi",
-      "name_zh": "椰子咖哩",
-      "name_en": "Coconut Curry",
-      "lat": 22.281058599999998,
-      "lng": 114.1551988,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "中環德己立街27-37號榮華里8號B座地下N室",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.5（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.5／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJdT1IL3sABDQRn_I2GwX7lpE",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.5,
-      "google_review_count": null,
-      "google_place_id": "ChIJdT1IL3sABDQRn_I2GwX7lpE"
-    },
-    {
       "id": "le-cha-xuan-soho-zhong-huan-xi",
       "name_zh": "樂茶軒",
       "name_en": "LockCha (Central)",
@@ -35468,54 +36248,6 @@
       "round1_borderline": true,
       "fehd_licence_no": "3118800221",
       "google_place_id": "ChIJxRskE2YABDQRf8ZmwgK3h6E"
-    },
-    {
-      "id": "jiang-nan-ifc-zhong-huan-bei",
-      "name_zh": "江南",
-      "name_en": null,
-      "lat": 22.284586599999997,
-      "lng": 114.1579512,
-      "district": "中環／金鐘",
-      "area": "中環北／IFC",
-      "address": "香港島商場HK 號舖 香港中環國際金融中心3092BHKshop2018-20 ifc mall3092B",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJXTf-rbwBBDQRJfmMdz3xgLU",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "google_place_id": "ChIJXTf-rbwBBDQRJfmMdz3xgLU"
-    },
-    {
-      "id": "tai-guo-ma-lai-xi-soho-zhong-huan-xi",
-      "name_zh": "泰國馬來西亞餐廳",
-      "name_en": "Taiguo Malaysian Restaurant",
-      "lat": 22.2814071,
-      "lng": 114.1552562,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "中環蘭桂坊榮華里",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 1（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ38xNMHsABDQR5UaiVwLFD7A",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 1,
-      "google_review_count": null,
-      "google_place_id": "ChIJ38xNMHsABDQR5UaiVwLFD7A"
     },
     {
       "id": "pu-he-ri-ben-liao-zhong-huan",
@@ -35769,209 +36501,6 @@
       "google_place_id": "ChIJWa88vmYABDQR6wkL7Tfgz9c"
     },
     {
-      "id": "mi-zhen-xian-soho-zhong-huan-xi",
-      "name_zh": "米真鮮",
-      "name_en": null,
-      "lat": 22.2825232,
-      "lng": 114.15472609999999,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港中環擺花街1號 一號廣場地下9號鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（米真鮮／牌照3118810347／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJwSnOTLgBBDQRjlshsjZm-VM",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "fehd_licence_no": "3118810347",
-      "google_place_id": "ChIJwSnOTLgBBDQRjlshsjZm-VM"
-    },
-    {
-      "id": "mi-xian-zhen-jin-zhong",
-      "name_zh": "米線陣",
-      "name_en": "mixian sense",
-      "lat": 22.279377999999998,
-      "lng": 114.16513099999999,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "香港夏愨道18號海富中心地下 42-68號C舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（米線陣／牌照2218818282／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJHy1EB2cABDQRKbPHDXXaIzk",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "fehd_licence_no": "2218818282",
-      "google_place_id": "ChIJHy1EB2cABDQRKbPHDXXaIzk"
-    },
-    {
-      "id": "mx-mei-xin-zhong-huan-he-xin",
-      "name_zh": "美心MX",
-      "name_en": "Maxim's MX",
-      "lat": 22.282089799999998,
-      "lng": 114.160771,
-      "district": "中環／金鐘",
-      "area": "中環核心",
-      "address": "香港中環 愛丁堡廣場大會堂高座入口",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（美心MX／牌照2213210702／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJA_OBAGQABDQRZpNj99N_9Bw",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "fehd_licence_no": "2213210702",
-      "google_place_id": "ChIJA_OBAGQABDQRZpNj99N_9Bw"
-    },
-    {
-      "id": "mei-hua-cha-can-ting-soho-zhong-huan-xi",
-      "name_zh": "美華茶餐廳",
-      "name_en": "May Wah Restaurant",
-      "lat": 22.2839301,
-      "lng": 114.15299879999999,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港中環鴨巴甸街8, 8 A, 10及10A 結志街39-41及45-49號新中環大廈地下D舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（美華茶餐廳／牌照2218805282／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_Z1tgHwABDQRJWDOC_7jm3c",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.1,
-      "google_review_count": null,
-      "fehd_licence_no": "2218805282",
-      "google_place_id": "ChIJ_Z1tgHwABDQRJWDOC_7jm3c"
-    },
-    {
-      "id": "ken-de-ji-zhong-huan",
-      "name_zh": "肯德基",
-      "name_en": "KFC",
-      "lat": 22.2852604,
-      "lng": 114.1553162,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港德輔道中127-131號有餘貿易中心1樓",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（609 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（肯德基／牌照2218809567／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／609 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJa3N483wABDQRYz0htD8Wssg",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 609,
-      "fehd_licence_no": "2218809567",
-      "google_place_id": "ChIJa3N483wABDQRYz0htD8Wssg"
-    },
-    {
-      "id": "tai-pin-jin-zhong",
-      "name_zh": "臺品",
-      "name_en": null,
-      "lat": 22.279377999999998,
-      "lng": 114.16513099999999,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "香港島金鐘",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvVsGBGcABDQRC9KjhacSp1o",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": null,
-      "google_place_id": "ChIJvVsGBGcABDQRC9KjhacSp1o"
-    },
-    {
-      "id": "liang-you-soho-zhong-huan-xi",
-      "name_zh": "良友",
-      "name_en": "Good Companion",
-      "lat": 22.282539999999997,
-      "lng": 114.1525834,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港島中環卑利街59a號",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJv5TqmHsABDQRieLBXXXmCrI",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": null,
-      "google_place_id": "ChIJv5TqmHsABDQRieLBXXXmCrI"
-    },
-    {
       "id": "zhi-jia-ge-chuan-shao-soho-zhong-huan-xi",
       "name_zh": "芝加哥串燒酒場 中環店",
       "name_en": "Chicago Dragon Barbecue Bar – Central",
@@ -35994,54 +36523,6 @@
       "google_rating": 4.3,
       "google_review_count": null,
       "google_place_id": "ChIJMRvhqCIBBDQReBAG41gBogA"
-    },
-    {
-      "id": "lab-concept-hua-yu-jie-jin-zhong",
-      "name_zh": "華御結 (Lab Concept店)",
-      "name_en": "hana-musubi",
-      "lat": 22.2792109,
-      "lng": 114.1644888,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "Lab Concept, Shop F07, 1/F, 93 Queensway, Admiralty, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（1 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（3／1 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvUlsmBwBBDQRp619RBn-yvo",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": 1,
-      "google_place_id": "ChIJvUlsmBwBBDQRp619RBn-yvo"
-    },
-    {
-      "id": "2-hua-yu-jie-zhong-zhong-huan-he-xin",
-      "name_zh": "華御結 (中環站2號店)",
-      "name_en": "hana-musubi",
-      "lat": 22.2824565,
-      "lng": 114.15765569999999,
-      "district": "中環／金鐘",
-      "area": "中環核心",
-      "address": "Shop CEN W8, Central MTR Station, Central, Hong Kong Island",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.6（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.6／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_XDkVAEBBDQRnU8_NKkGwS8",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.6,
-      "google_review_count": null,
-      "google_place_id": "ChIJ_XDkVAEBBDQRnU8_NKkGwS8"
     },
     {
       "id": "jiang-jiao-suo-soho-zhong-huan-xi",
@@ -36075,68 +36556,6 @@
       "google_place_id": "ChIJ9ci2JQMBBDQRCL1Wb64pEvU"
     },
     {
-      "id": "tan-zai-san-ge-mi-soho-zhong-huan-xi",
-      "name_zh": "譚仔三哥米線",
-      "name_en": "TamJai SamGor (Central)",
-      "lat": 22.281716,
-      "lng": 114.155677,
-      "district": "中環／金鐘",
-      "area": "中環西／蘭桂坊・SoHo",
-      "address": "香港中環威靈頓街15D-19號香港工商大廈 地下低層(A部份)及地下(A部份)",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（譚仔三哥米線／牌照2218816046／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ3yXS1WYBBDQRwhk0wDWxDqA",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3,
-      "google_review_count": null,
-      "fehd_licence_no": "2218816046",
-      "google_place_id": "ChIJ3yXS1WYBBDQRwhk0wDWxDqA"
-    },
-    {
-      "id": "tan-zai-yun-nan-mi-jin-zhong",
-      "name_zh": "譚仔雲南米線",
-      "name_en": "TamJai Yunnan Mixian (Admiralty)",
-      "lat": 22.2800992,
-      "lng": 114.1642014,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "香港金鐘夏愨道16號遠東金融中心 地下上層A2舖及地下B舖",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.7（69 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（譚仔雲南米線／牌照2218817164／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.7／69 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRxeZR28BBDQRtYOF_AuymKg",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.7,
-      "google_review_count": 69,
-      "fehd_licence_no": "2218817164",
-      "google_place_id": "ChIJRxeZR28BBDQRtYOF_AuymKg"
-    },
-    {
       "id": "mao-yuan-wai-zhong-huan",
       "name_zh": "貓員外",
       "name_en": "RichKat Craft Brewing (Central)",
@@ -36166,30 +36585,6 @@
       "google_review_count": 113,
       "fehd_licence_no": "3118807763",
       "google_place_id": "ChIJ31L9IgABBDQRkzAC8EeGDHs"
-    },
-    {
-      "id": "er-hao-bing-shi-zhong-zhong-huan-2",
-      "name_zh": "貳號冰室(中環)",
-      "name_en": null,
-      "lat": 22.284483299999998,
-      "lng": 114.15541739999999,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港島中環德輔道中84及86號地庫地下及",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.7（3 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.7／3 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJsxmMkg8BBDQRrxrMNTy_GjQ",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.7,
-      "google_review_count": 3,
-      "google_place_id": "ChIJsxmMkg8BBDQRrxrMNTy_GjQ"
     },
     {
       "id": "tiao-hai-jiu-guan-soho-zhong-huan-xi",
@@ -36283,61 +36678,6 @@
       "google_review_count": null,
       "fehd_licence_no": "3113202565",
       "google_place_id": "ChIJFUw8i8ABBDQR1HpZM6ZTm-U"
-    },
-    {
-      "id": "lian-he-shao-zhu-can-zhong-huan",
-      "name_zh": "連和燒豬餐廳 (中環店)",
-      "name_en": "Lin Wo Roasted Pork Restaurant",
-      "lat": 22.2817251,
-      "lng": 114.15598159999999,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港島中環士丹利街6號歐亞大廈",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJYWQC8NUBBDQRghPzo6oGYiA",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.8,
-      "google_review_count": null,
-      "google_place_id": "ChIJYWQC8NUBBDQRghPzo6oGYiA"
-    },
-    {
-      "id": "jin-yu-zhong-huan",
-      "name_zh": "金御",
-      "name_en": "Majesty Seafood Restaurant (Central)",
-      "lat": 22.283163,
-      "lng": 114.155113,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港中環皇后大道中88號 勵精中心3樓全層",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（449 則），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（金御／牌照2213190057／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／449 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJfdx7V3sABDQRBWZeTd-V0vo",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 3.4,
-      "google_review_count": 449,
-      "fehd_licence_no": "2213190057",
-      "google_place_id": "ChIJfdx7V3sABDQRBWZeTd-V0vo"
     },
     {
       "id": "guo-lu-soho-zhong-huan-xi",
@@ -36496,37 +36836,6 @@
       "google_place_id": "ChIJwZxEBLkBBDQRLukeeVcHt-g"
     },
     {
-      "id": "jiao-dian-shou-gong-zi-jin-zhong",
-      "name_zh": "餃掂手工餃子雲吞專門店",
-      "name_en": null,
-      "lat": 22.280640899999998,
-      "lng": 114.1629785,
-      "district": "中環／金鐘",
-      "area": "金鐘",
-      "address": "香港中環夏愨道12號美國銀行中心地下G08鋪",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 1.6（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（餃掂手工餃子雲吞專門店／牌照3918813502／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-07"
-        },
-        {
-          "name": "Google 地圖公開頁評分（1.6／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJO9RcRA4BBDQRAPJZhvSvm98",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 1.6,
-      "google_review_count": null,
-      "fehd_licence_no": "3918813502",
-      "google_place_id": "ChIJO9RcRA4BBDQRAPJZhvSvm98"
-    },
-    {
       "id": "ma-zu-soho-zhong-huan-xi",
       "name_zh": "馬祖",
       "name_en": "Taiwanese Mazu Lifestyle Noodles",
@@ -36580,36 +36889,12 @@
       "google_rating": null,
       "google_review_count": null,
       "fehd_licence_no": "2218817094"
-    },
-    {
-      "id": "unnamed-zhong-huan",
-      "name_zh": "얏 록 레스토랑",
-      "name_en": null,
-      "lat": 22.2824967,
-      "lng": 114.1552909,
-      "district": "中環／金鐘",
-      "area": "中環",
-      "address": "香港島中環士丹利街34-38號, Conwell House, Room 3013/F",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.4（則數未顯示），round1 門檻 3.5（2026-10-07）",
-      "excluded_at": "2026-10-07",
-      "sources": [
-        {
-          "name": "Google 地圖公開頁評分（2.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJraGzdQABBDQRsfKvuKMaH9g",
-          "checked_at": "2026-10-07"
-        }
-      ],
-      "verified_at": "2026-10-07",
-      "google_rating": 2.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJraGzdQABBDQRsfKvuKMaH9g"
     }
   ],
   "meta": {
-    "status": "central-admiralty-round1 applied / initial",
+    "status": "rating-backfill 2026-10-07",
     "phase": "central-admiralty-round1",
-    "notes_zh": "v1.0（2026-10-07）：CEO 批准中環／金鐘 round1 新建寫庫。Google ≥3.5；評分／營業狀態／營業時間／座標來自 Google 地圖公開網頁（非 Places API）；牌照來自食環署持牌食肆 XML（2026-10-05）；掃街商場／街道招牌；冇用 OpenRice；收費 API：0。review approve 536（對牌 339＋只 Google 197）；實入 kept 526（減邊界 approve 轉 excluded、出區／無座標／合併略過）；excluded 366（reject 319＋邊界 47）；暫緩 hold 唔入 490；出區／無座標略過 3；合併略過 0。",
+    "notes_zh": "v1.1（2026-10-07）：評分門檻回填。候選 71；搬入 kept 57；維持 excluded nonmeal=14 closed=0 no_lunch=0 no_dine_in=0 no_coords=0。收費 API：0。｜v1.0（2026-10-07）：CEO 批准中環／金鐘 round1 新建寫庫。Google ≥3.5；評分／營業狀態／營業時間／座標來自 Google 地圖公開網頁（非 Places API）；牌照來自食環署持牌食肆 XML（2026-10-05）；掃街商場／街道招牌；冇用 OpenRice；收費 API：0。review approve 536（對牌 339＋只 Google 197）；實入 kept 526（減邊界 approve 轉 excluded、出區／無座標／合併略過）；excluded 366（reject 319＋邊界 47）；暫緩 hold 唔入 490；出區／無座標略過 3；合併略過 0。",
     "bbox_approx": [
       22.277,
       114.152,
@@ -36620,11 +36905,11 @@
       22.2815,
       114.162
     ],
-    "previous_version": null,
-    "previous_kept": 0,
-    "previous_excluded": 0,
-    "kept": 526,
-    "excluded": 366,
+    "previous_version": "1.0",
+    "previous_kept": 526,
+    "previous_excluded": 366,
+    "kept": 583,
+    "excluded": 309,
     "paid_api_calls": 0,
     "fehd": {
       "source_xml": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
@@ -37228,6 +37513,77 @@
         "evershine-cafe-soho-zhong-huan-xi",
         "cova-pasticceria-caffetteria-jin-zhong"
       ]
+    },
+    "rating_backfill": {
+      "applied_at": "2026-10-07",
+      "approved_by": "CEO",
+      "backup": "restaurants.json.bak-pre-rating-backfill-2026-10-07",
+      "candidates": 71,
+      "moved": 57,
+      "moved_ids": [
+        "asaaf-lebanese-cousine-soho-zhong-huan-xi",
+        "can-teen-jin-zhong",
+        "can-teen-zhong-huan",
+        "central-table-zhong-huan-he-xin",
+        "don-bowls-rolls-by-sushi-zhong-huan-he-xin",
+        "fete-up-zhong-huan-he-xin",
+        "general-provisions-by-alfred-s-zhong-huan-he-xin",
+        "hex-tech-zhong-huan",
+        "jw-s-shou-si-ba-jin-zhong",
+        "joa-admiralty-jin-zhong",
+        "kiki-mian-dian-ifc-zhong-huan-bei",
+        "morty-s-delicatessen-zhong-huan-he-xin",
+        "mega-coffee-central-soho-zhong-huan-xi",
+        "mix-soho-zhong-huan-xi",
+        "polo-ralph-lauren-jin-zhong",
+        "pret-a-manger-jin-zhong-2",
+        "wow-charsiu-hao-cha-wei-jin-zhong",
+        "zagin-soba-zhong-huan-he-xin",
+        "yi-le-shao-e-zhong-huan",
+        "yi-qiao-la-mian-soho-zhong-huan-xi",
+        "yi-zhi-cai-zhong-huan-zhong-huan",
+        "yi-zhou-mian-zhong-huan-ifc-zhong-huan-bei",
+        "shang-xi-mian-guan-jin-zhong",
+        "jiu-zhong-huan-dian-zhong-huan",
+        "jia-yue-zhong-huan",
+        "li-yuan-jiu-jia-ifc-zhong-huan-bei",
+        "shi-ba-zuo-gou-zai-soho-zhong-huan-xi",
+        "qian-jin-mi-xian-zhong-huan",
+        "da-le-yue-nan-niu-zhong-huan",
+        "da-jia-le-zhong-huan-2",
+        "da-jia-le-zhong-huan-3",
+        "da-jia-le-xiang-gang-ifc-zhong-huan-bei",
+        "hao-shao-wei-ifc-zhong-huan-bei",
+        "hong-fa-shao-e-can-zhong-huan",
+        "xiao-yu-tian-zhong-huan",
+        "xin-xian-qing-tang-nan-soho-zhong-huan-xi",
+        "xin-long-men-jin-zhong",
+        "shu-xiang-men-di-soho-zhong-huan-xi",
+        "ye-zi-ka-li-soho-zhong-huan-xi",
+        "jiang-nan-ifc-zhong-huan-bei",
+        "tai-guo-ma-lai-xi-soho-zhong-huan-xi",
+        "mi-zhen-xian-soho-zhong-huan-xi",
+        "mi-xian-zhen-jin-zhong",
+        "mx-mei-xin-zhong-huan-he-xin",
+        "mei-hua-cha-can-ting-soho-zhong-huan-xi",
+        "ken-de-ji-zhong-huan",
+        "tai-pin-jin-zhong",
+        "liang-you-soho-zhong-huan-xi",
+        "lab-concept-hua-yu-jie-jin-zhong",
+        "2-hua-yu-jie-zhong-zhong-huan-he-xin",
+        "tan-zai-san-ge-mi-soho-zhong-huan-xi",
+        "tan-zai-yun-nan-mi-jin-zhong",
+        "er-hao-bing-shi-zhong-zhong-huan-2",
+        "lian-he-shao-zhu-can-zhong-huan",
+        "jin-yu-zhong-huan",
+        "jiao-dian-shou-gong-zi-jin-zhong",
+        "unnamed-zhong-huan"
+      ],
+      "stayed_excluded_nonmeal": 14,
+      "stayed_excluded_closed": 0,
+      "stayed_excluded_no_lunch": 0,
+      "stayed_excluded_no_dine_in": 0,
+      "stayed_excluded_no_coords": 0
     }
   }
 }

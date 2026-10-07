@@ -1,7 +1,7 @@
 {
   "district": "觀塘",
-  "version": "1.7",
-  "updated_at": "2026-10-05",
+  "version": "1.8",
+  "updated_at": "2026-10-07T12:00:00+08:00",
   "criteria": {
     "serves_lunch": true,
     "dine_in": true,
@@ -14,8 +14,8 @@
       "sugar_water",
       "tea_drink"
     ],
-    "min_google_rating": 3.5,
-    "google_rating_note_zh": "Google 地圖公開頁評分 ≥3.5 先入 kept（hold-ratings，2026-10-05）；未取得評分嘅種子暫留 kept 並標 rating_pending。",
+    "min_google_rating": null,
+    "google_rating_note_zh": "Google 地圖公開頁評分只作顯示、唔再作入庫門檻（評分門檻回填 2026-10-07；原 ≥3.5 規則取消）。",
     "dessert_rule_zh": "Google 類別／cuisine 主要屬甜品、糖水、麵包／烘焙、純咖啡、茶飲 → 一律 excluded；即使同時寫「餐廳」都照剔。例外：有正常午餐主食（飯／麵／套餐等）證據先可留。"
   },
   "restaurants": [
@@ -6706,6 +6706,2335 @@
       "google_place_id": "ChIJ10yCqDcBBDQRMNZkRjZHHGQ",
       "licence_type": "小食食肆",
       "fehd_licence_no": "3151802628"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "tai-hing-crocodile-center",
+      "name_zh": "太興（鱷魚恤中心）",
+      "name_en": "Tai Hing (Crocodile Center)",
+      "lat": 22.3116866,
+      "lng": 114.2257303,
+      "area": "鱷魚恤中心",
+      "address": "九龍觀塘開源道79號鱷魚恤中心地下B號舖",
+      "cuisine": [
+        "港式",
+        "燒味"
+      ],
+      "tags": [
+        "連鎖",
+        "茶餐廳風",
+        "燒味飯",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "鱷魚恤中心太興，供應燒味飯、粉麵同港式焗飯等堂食午餐。公開目錄人均約$51–100；燒味拼盤或套餐喺呢個價帶，商場午市或會稍等。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "鱷魚恤中心官方商場指南（太興）",
+          "url": "https://crocodilecenter.com.hk/zh-HK/shopping-dining",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：太興人均約$51–100",
+          "url": "https://www.feehk.com/%E5%85%83%E6%9C%97%E9%A4%90%E5%BB%B3/%E5%A4%AA%E8%88%88-34245",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJNT0w9U8BBDQRBSKNJVPmEpM",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $55–100",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJNT0w9U8BBDQRBSKNJVPmEpM"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "mixian-zhen-crocodile-center",
+      "name_zh": "米線陣（鱷魚恤中心）",
+      "name_en": "Mixian Zhen (Crocodile Center)",
+      "lat": 22.3116466,
+      "lng": 114.2257103,
+      "area": "鱷魚恤中心",
+      "address": "九龍觀塘開源道79號鱷魚恤中心1樓8號舖",
+      "cuisine": [
+        "米線",
+        "亞洲麵食"
+      ],
+      "tags": [
+        "連鎖",
+        "午餐",
+        "大家樂集團",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "鱷魚恤中心米線陣（大家樂集團），主打米線／麵食堂食。OpenRice連鎖目錄人均約$50以下；以一碗米線加飲為典型午餐，適合赶時間。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "鱷魚恤中心官方商場指南（米線陣）",
+          "url": "https://crocodilecenter.com.hk/zh-HK/shopping-dining",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice 連鎖目錄：米線陣人均約$50以下",
+          "url": "https://www.openrice.com/zh/hongkong/restaurants?chainId=10002886",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMaumEQABBDQRrX-xV5YKeB4",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $45–65",
+      "google_rating": 3.1,
+      "google_review_count": null,
+      "google_place_id": "ChIJMaumEQABBDQRrX-xV5YKeB4"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "akita-ice-house-crocodile-center",
+      "name_zh": "秋田冰室（鱷魚恤中心）",
+      "name_en": "Akita Ice House (Crocodile Center)",
+      "lat": 22.3117166,
+      "lng": 114.2256403,
+      "area": "鱷魚恤中心",
+      "address": "九龍觀塘開源道79號鱷魚恤中心1樓7號舖",
+      "cuisine": [
+        "冰室",
+        "茶餐廳"
+      ],
+      "tags": [
+        "冰室",
+        "午餐",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "鱷魚恤中心秋田冰室，港式冰室定位，供應飯麵／常餐／套餐午餐堂食。同類冰室人均多約四十至七十幾；未截到本店統一官價，以慣例標模糊帶。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "鱷魚恤中心官方商場指南（秋田冰室）",
+          "url": "https://crocodilecenter.com.hk/zh-HK/shopping-dining",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／173 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRZNNBJYBBDQRDpfYD57sstk",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $45–75（午餐常餐／未核實官價）",
+      "google_rating": 3.2,
+      "google_review_count": 173,
+      "google_place_id": "ChIJRZNNBJYBBDQRDpfYD57sstk"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "tao-heung-tea-house-crocodile-center",
+      "name_zh": "稻香．茶居（鱷魚恤中心）",
+      "name_en": "Tao Heung Tea House (Crocodile Center)",
+      "lat": 22.3117666,
+      "lng": 114.2257003,
+      "area": "鱷魚恤中心",
+      "address": "九龍觀塘開源道79號鱷魚恤中心9樓",
+      "cuisine": [
+        "粵菜",
+        "點心"
+      ],
+      "tags": [
+        "連鎖",
+        "酒樓",
+        "點心",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "鱷魚恤中心稻香．茶居，午市有點心／中式套餐堂食（官方列日間時段）。OpenRice食評顯示稻香午市孖寶／定食常見約三十幾至八十元帶；酒樓加一另計，人多要等位。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "鱷魚恤中心官方商場指南（稻香茶居）",
+          "url": "https://crocodilecenter.com.hk/zh-HK/shopping-dining",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "OpenRice食評：稻香午市孖寶／定食約$34–80帶（視點餐）",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E7%A8%BB%E9%A6%99-%E4%B9%9D%E9%BE%8D%E7%81%A3-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E7%81%AB%E9%8D%8B-r534608",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／106 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJhdV5Q-MBBDQRWaJQEoUmPcQ",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $50–100",
+      "google_rating": 3.2,
+      "google_review_count": 106,
+      "google_place_id": "ChIJhdV5Q-MBBDQRWaJQEoUmPcQ"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "yuk-to-hin-crocodile-center",
+      "name_zh": "玉桃軒（鱷魚恤中心）",
+      "name_en": "Yuk To Hin (Crocodile Center)",
+      "lat": 22.3117466,
+      "lng": 114.2256303,
+      "area": "鱷魚恤中心",
+      "address": "九龍觀塘開源道79號鱷魚恤中心6樓",
+      "cuisine": [
+        "粵菜",
+        "點心"
+      ],
+      "tags": [
+        "酒樓",
+        "點心",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "鱷魚恤中心玉桃軒，粵菜／點心午市堂食酒樓。同類商場酒樓午市人均多約八十至一百五；未截到本店統一官價，到店以當日餐牌為準。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "鱷魚恤中心官方商場指南（玉桃軒）",
+          "url": "https://crocodilecenter.com.hk/zh-HK/shopping-dining",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJgX_b808BBDQR0zCydq5nFYs",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $80–150（午市／未核實官價）",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJgX_b808BBDQR0zCydq5nFYs"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "cafe-de-coral-tg-place",
+      "name_zh": "大家樂（電訊一代廣場）",
+      "name_en": "Café de Coral (TG Place)",
+      "lat": 22.3103549,
+      "lng": 114.2258615,
+      "area": "電訊一代廣場",
+      "address": "九龍觀塘成業街10號電訊一代廣場地下一號舖",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "午餐套餐",
+        "商場店",
+        "EatSmart",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "電訊一代廣場大家樂，EatSmart列快餐店；午市有飯／粉麵／焗飯套餐連飲。公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10959",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 電訊一代廣場",
+          "url": "https://photon.komoot.io/api/?q=TG+Place+Kwun+Tong",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
+          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Jetso Bear：大家樂Good價午餐$42起",
+          "url": "https://jetsobear.com/cafedecoral-good-price-breakfast-lunch-deals-2026-p313861/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／84 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJrT6LdhkBBDQR-LXPHh-njYA",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $39–65",
+      "google_rating": 3.2,
+      "google_review_count": 84,
+      "google_place_id": "ChIJrT6LdhkBBDQR-LXPHh-njYA"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "tamjai-samgor-tg-place",
+      "name_zh": "譚仔三哥米線（電訊一代廣場）",
+      "name_en": "TamJai SamGor Mixian (TG Place)",
+      "lat": 22.3103049,
+      "lng": 114.2259015,
+      "area": "電訊一代廣場",
+      "address": "九龍觀塘成業街10號電訊一代廣場1樓C舖",
+      "cuisine": [
+        "米線",
+        "麵食"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料",
+        "EatSmart",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "電訊一代廣場譚仔三哥，主打自選／過橋米線堂食。目錄標示人均約$50以下，實際視乎配料；官方有主餐牌可對湯底同食材。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10466",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔三哥人均約$50以下",
+          "url": "https://www.feehk.com/%E6%97%BA%E8%A7%92%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-66722",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "譚仔三哥官方主餐牌（自選／過橋米線）",
+          "url": "https://www.tjsamgor.com/hk/menu/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／113 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJVSlOQkUBBDQRY1NNEHg-aOs",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $40–65",
+      "google_rating": 3.3,
+      "google_review_count": 113,
+      "google_place_id": "ChIJVSlOQkUBBDQRY1NNEHg-aOs"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "tamjai-samgor-quayside",
+      "name_zh": "譚仔三哥米線（海濱匯）",
+      "name_en": "TamJai SamGor Mixian (The Quayside)",
+      "lat": 22.3165614,
+      "lng": 114.2137809,
+      "area": "海濱匯",
+      "address": "九龍觀塘海濱道77號海濱匯2樓4及5號舖",
+      "cuisine": [
+        "米線",
+        "麵食"
+      ],
+      "tags": [
+        "連鎖",
+        "麵食",
+        "自選配料",
+        "EatSmart",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "海濱匯譚仔三哥米線，自選／過橋米線作午餐堂食。目錄人均約$50以下，配料同小食會影響帳單；寫字樓區午市或要稍等。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "衞生署星級有營食肆",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10484",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon 海濱匯",
+          "url": "https://photon.komoot.io/api/?q=Hoi+Bun+Road+77+Kwun+Tong",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "FeeHK目錄：譚仔三哥人均約$50以下",
+          "url": "https://www.feehk.com/%E6%97%BA%E8%A7%92%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-66722",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "譚仔三哥官方主餐牌（自選／過橋米線）",
+          "url": "https://www.tjsamgor.com/hk/menu/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／16 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJDwH2VoEBBDQRwqtz62h9qKg",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $40–65",
+      "google_rating": 3,
+      "google_review_count": 16,
+      "google_place_id": "ChIJDwH2VoEBBDQRwqtz62h9qKg"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "baifang-bento-ym2",
+      "name_zh": "百芳池上便當（裕民坊）",
+      "name_en": "Bai Fang Pond Bento (YM²)",
+      "lat": 22.3144111,
+      "lng": 114.2248632,
+      "area": "裕民坊",
+      "address": "九龍觀塘協和街33號裕民坊商場2樓208-211號舖",
+      "cuisine": [
+        "台式",
+        "便當"
+      ],
+      "tags": [
+        "便當",
+        "午餐",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "裕民坊百芳池上便當（L2），台式便當／飯類正餐午餐。同類台式便當人均多約四十幾至七十幾；未核實官價，適合想食飯多過麵嘅人。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "YM² 裕民坊官方餐飲美饌（百芳池上便當）",
+          "url": "https://www.ym2.hk/tc/Dining",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJqTK_-ysBBDQROAqF6dpGwbA",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $45–75（午餐套餐／未核實官價）",
+      "google_rating": 2.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJqTK_-ysBBDQROAqF6dpGwbA"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "mos-burger-apm",
+      "name_zh": "摩斯漢堡（apm）",
+      "name_en": "MOS Burger (apm)",
+      "lat": 22.3121155,
+      "lng": 114.2251039,
+      "area": "apm／創紀之城五期",
+      "address": "九龍觀塘道418號創紀之城五期(apm)地面低層6c號舖",
+      "cuisine": [
+        "漢堡",
+        "日式快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "套餐",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "apm 地面低層摩斯漢堡，日式漢堡／飯類堂食。2026公開特惠：輕量套餐約$47–48、一人豐盛餐$70起；商場美食匯萃舖，午市至下午常見推廣。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "apm 官方美食匯萃",
+          "url": "https://www.hkapm.com.hk/dining/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon apm Millennium City 5",
+          "url": "https://photon.komoot.io/api/?q=apm+Millennium+City+5+Hong+Kong",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Jetso Bear：摩斯一人特惠套餐$47–72／二人約人均$61",
+          "url": "https://jetsobear.com/mos-burger-new-value-set-meals-2026-p316240/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.8／16 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJHY2ZetwBBDQR3yqyDt_OzJ0",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $47–75",
+      "google_rating": 2.8,
+      "google_review_count": 16,
+      "google_place_id": "ChIJHY2ZetwBBDQR3yqyDt_OzJ0"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "pizza-hut-apm",
+      "name_zh": "必勝客（apm）",
+      "name_en": "Pizza Hut (apm)",
+      "lat": 22.3122555,
+      "lng": 114.2251439,
+      "area": "apm／創紀之城五期",
+      "address": "九龍觀塘道418號創紀之城五期(apm)二樓1號舖",
+      "cuisine": [
+        "意式",
+        "薄餅"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "apm 二樓必勝客，薄餅／意粉午餐堂食。公開目錄個人／午市套餐多約六十至一百二；未核實本店官價，適合多人分薄餅或一人套餐。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "apm 官方美食匯萃",
+          "url": "https://www.hkapm.com.hk/dining/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon apm Millennium City 5",
+          "url": "https://photon.komoot.io/api/?q=apm+Millennium+City+5+Hong+Kong",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "公開目錄慣例：必勝客個人／午市套餐約$60–120（未核實本店當日官價）",
+          "url": "https://www.pizzahut.com.hk/",
+          "checked_at": "2026-09-25"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／95 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ9xxh75gBBDQRl1g3i091tcQ",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $60–120（午餐套餐／未核實官價）",
+      "google_rating": 3.4,
+      "google_review_count": 95,
+      "google_place_id": "ChIJ9xxh75gBBDQRl1g3i091tcQ"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "sen-ryo-apm",
+      "name_zh": "千両（apm）",
+      "name_en": "Sen-ryo (apm)",
+      "lat": 22.3122355,
+      "lng": 114.2251639,
+      "area": "apm／創紀之城五期",
+      "address": "九龍觀塘道418號創紀之城五期(apm)大堂高層41及43號舖",
+      "cuisine": [
+        "日式",
+        "壽司"
+      ],
+      "tags": [
+        "連鎖",
+        "壽司",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "apm 大堂高層千両，壽司／日式正餐午餐堂食。同類立食／正餐壽司人均多約八十至一百五；未核實官價，商場舖午市或等位。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "apm 官方美食匯萃",
+          "url": "https://www.hkapm.com.hk/dining/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon apm",
+          "url": "https://photon.komoot.io/api/?q=apm+Kwun+Tong",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／59 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJl-xpT44BBDQRiMMFfenFN7Q",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $80–150（午餐套餐／未核實官價）",
+      "google_rating": 3.4,
+      "google_review_count": 59,
+      "google_place_id": "ChIJl-xpT44BBDQRiMMFfenFN7Q"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "pho-woo-quayside",
+      "name_zh": "葫越（海濱匯）",
+      "name_en": "Pho Woo (The Quayside)",
+      "lat": 22.3166614,
+      "lng": 114.2138809,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道77號 海濱匯1及2座 1樓 1A號舖",
+      "cuisine": [
+        "越南菜",
+        "粉麵"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "海濱匯官方列葫越（1樓1A號舖），主打地道越南菜堂食；粉麵類適合工廈平日午餐。價目未核實官價。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（葫越／牌照3151802859／小食食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "海濱匯官方｜葫越",
+          "url": "https://thequayside.com.hk/tc/amenities/live-healthy/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道77號 海濱匯",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9377%E8%99%9F%20%E6%B5%B7%E6%BF%B1%E5%8C%AF&limit=1",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0aqmCyEBBDQRni9sqVOL0uI",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": null,
+      "google_rating": 2.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJ0aqmCyEBBDQRni9sqVOL0uI"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "ochicken-quayside",
+      "name_zh": "O'CHICKEN（海濱匯）",
+      "name_en": "O'CHICKEN (The Quayside)",
+      "lat": 22.3167014,
+      "lng": 114.2139209,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道77號海濱匯1樓８A號舖",
+      "cuisine": [
+        "星馬菜",
+        "海南雞"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "海濱匯官方列 O'Chicken（1樓8A號舖），海南雞同東南亞菜堂食；適合平日午餐。價目未核實官價。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（O'CHICKEN／牌照2251809153／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "海濱匯官方｜O'Chicken",
+          "url": "https://thequayside.com.hk/tc/amenities/live-healthy/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道77號 海濱匯",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9377%E8%99%9F%20%E6%B5%B7%E6%BF%B1%E5%8C%AF&limit=1",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJOYqTYAABBDQR6gVYCpDTQ1Q",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": null,
+      "google_rating": 3,
+      "google_review_count": null,
+      "google_place_id": "ChIJOYqTYAABBDQR6gVYCpDTQ1Q"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "ben-gor-mixian-one-bay-east",
+      "name_zh": "朋友冰室／Ben哥米線（One Bay East）",
+      "name_en": "Ben Gor Mixian (One Bay East)",
+      "lat": 22.3157231,
+      "lng": 114.214644,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道83號宏利大廈一樓W3鋪",
+      "cuisine": [
+        "米線",
+        "港式"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "EatSmart",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "衞生署星級有營食肆列 Ben哥米線（海濱道83號宏利大樓1樓W3），菜式含麵食／中菜廳；FEHD 同址朋友冰室／Ben哥米線，平日堂食午餐合理。價目未核實官價。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（朋友冰室/Ben哥米線／牌照2251807838／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "衞生署星級有營食肆（Ben哥米線・海濱道）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10892",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道83號 One Bay East",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9383%E8%99%9F%20One%20Bay%20East&limit=1",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／45 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJzXCtcXkBBDQRlZifj5-0TmQ",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": null,
+      "google_rating": 3.4,
+      "google_review_count": 45,
+      "google_place_id": "ChIJzXCtcXkBBDQRlZifj5-0TmQ"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "lemon-bing-satt-cos",
+      "name_zh": "檸檬冰室（中海日升中心）",
+      "name_en": "Lemon Cafe (COS Centre)",
+      "lat": 22.3111094,
+      "lng": 114.2228564,
+      "area": "駿業街",
+      "address": "九龍觀塘駿業街56號中海日升中心 地下D鋪部分及E鋪部分",
+      "cuisine": [
+        "港式茶餐廳",
+        "冰室"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "茶餐廳",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "ugo-hk 目錄列中海日升中心檸檬冰室（地下D/E舖），港式冰室／茶餐廳常餐堂食；服務駿業街工廈平日午餐。價目未核實官價。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（檸檬冰室／牌照2251810315／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "ugo-hk：檸檬冰室（中海日升中心）",
+          "url": "https://ugo-hk.com/restaurant/17915/%E6%AA%B8%E6%AA%AC%E5%86%B0%E5%AE%A4-%E4%B8%AD%E6%B5%B7%E6%97%A5%E5%8D%87%E4%B8%AD%E5%BF%83",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 駿業街56號 中海日升中心",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E9%A7%BF%E6%A5%AD%E8%A1%9756%E8%99%9F%20%E4%B8%AD%E6%B5%B7%E6%97%A5%E5%8D%87%E4%B8%AD%E5%BF%83&limit=1",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／95 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMRsiZAABBDQR5ETbhmute00",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": null,
+      "google_rating": 3.1,
+      "google_review_count": 95,
+      "google_place_id": "ChIJMRsiZAABBDQR5ETbhmute00"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "jade-restaurant-mg-tower",
+      "name_zh": "翡翠餐廳（萬兆豐中心）",
+      "name_en": "Jade Restaurant (MG Tower)",
+      "lat": 22.3130802,
+      "lng": 114.2174654,
+      "area": "海濱匯／海濱道",
+      "address": "九龍觀塘海濱道133號萬兆豐中心地下1號舖",
+      "cuisine": [
+        "港式茶餐廳",
+        "粵菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "industrial",
+        "工廈午餐",
+        "茶餐廳",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "FeeHK 目錄列翡翠餐廳於海濱道133號萬兆豐中心地下1號舖，茶餐廳／常餐堂食（更新2026-09-28）；海濱工貿午餐。價目未核實官價。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 1,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（翡翠餐廳／牌照2251805391／普通食肆）",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "FeeHK：翡翠餐廳（萬兆豐中心）",
+          "url": "https://www.feehk.com/%E8%A7%80%E5%A1%98%E9%A4%90%E5%BB%B3/%E7%BF%A1%E7%BF%A0%E9%A4%90%E5%BB%B3-18088",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Photon 香港 觀塘 海濱道133號 萬兆豐中心",
+          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%93133%E8%99%9F%20%E8%90%AC%E5%85%86%E8%B1%90%E4%B8%AD%E5%BF%83&limit=1",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／685 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJv733c0gBBDQRrQ9NLj1Z-L0",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": null,
+      "google_rating": 3.4,
+      "google_review_count": 685,
+      "google_place_id": "ChIJv733c0gBBDQRrQ9NLj1Z-L0"
+    },
+    {
+      "id": "fehd-rl-2251060239",
+      "name_zh": "鴻圖樓",
+      "name_en": "Hung To Restaurant",
+      "lat": 22.312520499999998,
+      "lng": 114.2199752,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（鴻圖樓／牌照2251060239／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／1658 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ46BJEtwBBDQRrxCB0TLaxSU",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251060239",
+      "address": "九龍觀塘 鴻圖道30號地下至5樓",
+      "google_rating": 3.2,
+      "google_review_count": 1658,
+      "google_place_id": "ChIJ46BJEtwBBDQRrxCB0TLaxSU",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.2／1658 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251806233",
+      "name_zh": "金叔叔",
+      "name_en": "Uncle Kim",
+      "lat": 22.312898399999998,
+      "lng": 114.2202703,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金叔叔／牌照2251806233／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2／8 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJaRjdWQABBDQRqdlDpIq75bQ",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251806233",
+      "address": "九龍觀塘巧明街94-96號鴻圖中心地下5D及5E鋪",
+      "google_rating": 2,
+      "google_review_count": 8,
+      "google_place_id": "ChIJaRjdWQABBDQRqdlDpIq75bQ",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：韓國餐廳。Google 評分 2／8 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251808008",
+      "name_zh": "香葉灣",
+      "name_en": "",
+      "lat": 22.3164515,
+      "lng": 114.2137006,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（香葉灣／牌照2251808008／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJNT-PoTkBBDQR8bub3gXuExo",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251808008",
+      "address": "九龍觀塘海濱道77號 海濱匯1座及2座2樓2鋪",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJNT-PoTkBBDQR8bub3gXuExo",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：東南亞餐廳。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251809199",
+      "name_zh": "ICHIJUISSAI",
+      "name_en": "",
+      "lat": 22.3107275,
+      "lng": 114.22539689999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（ICHIJUISSAI／牌照2251809199／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／149 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJA5FCq7MBBDQR4cjRrGrlxzY",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251809199",
+      "address": "九龍觀塘開源道64號源成中心地下(部分)",
+      "google_rating": 3.2,
+      "google_review_count": 149,
+      "google_place_id": "ChIJA5FCq7MBBDQR4cjRrGrlxzY",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：湯品餐廳。Google 評分 3.2／149 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251809870",
+      "name_zh": "辣蟹莊",
+      "name_en": "Spicy Crab",
+      "lat": 22.311236299999997,
+      "lng": 114.22308269999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（辣蟹莊／牌照2251809870／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／796 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJL-ACb4gBBDQR7nKbvzSGIJw",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251809870",
+      "address": "九龍觀塘駿業街58號1樓",
+      "google_rating": 3.4,
+      "google_review_count": 796,
+      "google_place_id": "ChIJL-ACb4gBBDQR7nKbvzSGIJw",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：海鮮餐廳／粵菜館。Google 評分 3.4／796 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251810023",
+      "name_zh": "華記陳皮燒鵝",
+      "name_en": "",
+      "lat": 22.3106886,
+      "lng": 114.22204119999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（華記陳皮燒鵝／牌照2251810023／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／113 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJXXfYMQABBDQRFxFXbPtWkf4",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251810023",
+      "address": "九龍觀塘駿業街48號及鴻圖道48號地下B室",
+      "google_rating": 3.1,
+      "google_review_count": 113,
+      "google_place_id": "ChIJXXfYMQABBDQRFxFXbPtWkf4",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.1／113 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251810111",
+      "name_zh": "贊記粉麵冰室",
+      "name_en": "",
+      "lat": 22.3102829,
+      "lng": 114.2215901,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（贊記粉麵冰室／牌照2251810111／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJi6gTEwABBDQRqfsIMsIE5g4",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251810111",
+      "address": "九龍觀塘駿業街44號銀八地下B及C舖",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJi6gTEwABBDQRqfsIMsIE5g4",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251810865",
+      "name_zh": "樓下冰室",
+      "name_en": "",
+      "lat": 22.3106094,
+      "lng": 114.2220069,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（樓下冰室／牌照2251810865／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／43 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxd4zNAABBDQRj6vg_xlO9CQ",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251810865",
+      "address": "九龍官塘駿業街48號新榮大樓地下A舖",
+      "google_rating": 3,
+      "google_review_count": 43,
+      "google_place_id": "ChIJxd4zNAABBDQRj6vg_xlO9CQ",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3／43 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-3851811313",
+      "name_zh": "金浦食堂",
+      "name_en": "",
+      "lat": 22.3128405,
+      "lng": 114.2214032,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金浦食堂／牌照3851811313／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJhUcDEq0BBDQRCj_bkEtbQII",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3851811313",
+      "address": "九龍觀塘巧明街98號三布目地下G22號舖",
+      "google_rating": 2.9,
+      "google_review_count": null,
+      "google_place_id": "ChIJhUcDEq0BBDQRCj_bkEtbQII",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：韓國餐廳。Google 評分 2.9（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.9 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-3851811359",
+      "name_zh": "XOXO MIKA",
+      "name_en": "",
+      "lat": 22.3128405,
+      "lng": 114.2214032,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（XOXO MIKA／牌照3851811359／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／2 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0ayDVrwBBDQR_JsTIC4BCto",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3851811359",
+      "address": "九龍觀塘巧明街98號 THE ANGLE地下G06及G26A號鋪",
+      "google_rating": 3,
+      "google_review_count": 2,
+      "google_place_id": "ChIJ0ayDVrwBBDQR_JsTIC4BCto",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 3／2 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3151801999",
+      "name_zh": "香港仔一品魚蛋王",
+      "name_en": "Aberdeen Fishball Excellent",
+      "lat": 22.312689799999998,
+      "lng": 114.22021799999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（香港仔一品魚蛋王／牌照3151801999／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／107 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJb6y2pUgBBDQRkKbj2voT9x0",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3151801999",
+      "address": "九龍觀塘巧明街94-96號鴻圖中心地下4B鋪",
+      "google_rating": 3.4,
+      "google_review_count": 107,
+      "google_place_id": "ChIJb6y2pUgBBDQRkKbj2voT9x0",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中式麵食店。Google 評分 3.4／107 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3151803384",
+      "name_zh": "風華茶檔",
+      "name_en": "Fung Wah Tea Stall",
+      "lat": 22.3126306,
+      "lng": 114.22025889999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（風華茶檔／牌照3151803384／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJiVsjTwABBDQRVrrHVENM98A",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3151803384",
+      "address": "九龍觀塘巧明街94-96號鴻圖中心地下4A舖",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJiVsjTwABBDQRVrrHVENM98A",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：快餐店。Google 評分 3.2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251283511",
+      "name_zh": "大家樂",
+      "name_en": "Café de Coral",
+      "lat": 22.3137844,
+      "lng": 114.2210087,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大家樂／牌照2251283511／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJh4BIMU8BBDQRRRIeS4tDwsw",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251283511",
+      "address": "九龍觀塘觀塘道388號 創紀之城I期地下1B號舖",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJh4BIMU8BBDQRRRIeS4tDwsw",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店／快餐店。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251800323",
+      "name_zh": "壹月中菜",
+      "name_en": "",
+      "lat": 22.3127329,
+      "lng": 114.22507139999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（壹月中菜／牌照2251800323／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.8／17 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJgXqAOQABBDQRwY6qe9shhV4",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251800323",
+      "address": "九龍觀塘觀塘道418號創紀之城五期APM3樓L3-01號舖",
+      "google_rating": 2.8,
+      "google_review_count": 17,
+      "google_place_id": "ChIJgXqAOQABBDQRwY6qe9shhV4",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 2.8／17 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.8 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251803216",
+      "name_zh": "神山麺屋",
+      "name_en": "Kanzan Menya (APM Millennium City 5)",
+      "lat": 22.3127329,
+      "lng": 114.22507139999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（神山麺屋／牌照2251803216／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJS1dOmU8BBDQRIzTCOxaWq-g",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251803216",
+      "address": "九龍觀塘觀塘道418號創紀之城5期APM第2層L2-1B號舖",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJS1dOmU8BBDQRIzTCOxaWq-g",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：拉麵店。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251803429",
+      "name_zh": "吉野家",
+      "name_en": "Yoshinoya",
+      "lat": 22.3107866,
+      "lng": 114.2262231,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（吉野家／牌照2251803429／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／249 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJlfsiX0UBBDQRFBTaEjLmu04",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251803429",
+      "address": "九龍觀塘成業街7號寧晉中心地下36號舖及舖前部份",
+      "google_rating": 3.3,
+      "google_review_count": 249,
+      "google_place_id": "ChIJlfsiX0UBBDQRFBTaEjLmu04",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：牛丼餐廳／餐廳。Google 評分 3.3／249 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251805276",
+      "name_zh": "川聚緣",
+      "name_en": "",
+      "lat": 22.3156423,
+      "lng": 114.2236417,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（川聚緣／牌照2251805276／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／13 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJTlWQVwBBDQRBQA7bJF-IKw",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251805276",
+      "address": "九龍觀塘康寧道62號地下",
+      "google_rating": 3.2,
+      "google_review_count": 13,
+      "google_place_id": "ChIJJTlWQVwBBDQRBQA7bJF-IKw",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 3.2／13 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251810528",
+      "name_zh": "富記燒味餐廳",
+      "name_en": "富記燒味-觀塘美食 觀塘燒臘",
+      "lat": 22.315727,
+      "lng": 114.22589099999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（富記燒味餐廳／牌照2251810528／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／107 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ63BnPLYBBDQRrb_t34FwBx0",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251810528",
+      "address": "九龍觀塘協和街109號地下",
+      "google_rating": 3.4,
+      "google_review_count": 107,
+      "google_place_id": "ChIJ63BnPLYBBDQRrb_t34FwBx0",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：燒烤餐廳。Google 評分 3.4／107 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251810801",
+      "name_zh": "牛奶冰室",
+      "name_en": "Milk Cafe (Kwun Tong)",
+      "lat": 22.3128405,
+      "lng": 114.2214032,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（牛奶冰室／牌照2251810801／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／11 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJkeasAAABBDQRJUHwLZf0fr0",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251810801",
+      "address": "九龍觀塘巧明街98號三布目地下G36號鋪",
+      "google_rating": 3.4,
+      "google_review_count": 11,
+      "google_place_id": "ChIJkeasAAABBDQRJUHwLZf0fr0",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.4／11 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251810838",
+      "name_zh": "MOS BURGER",
+      "name_en": "",
+      "lat": 22.3128405,
+      "lng": 114.2214032,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（MOS BURGER／牌照2251810838／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／7 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJL9lTMPMBBDQRQunL6iJhxJE",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251810838",
+      "address": "九龍觀塘巧明街98號三布目L8層807號鋪",
+      "google_rating": 3.1,
+      "google_review_count": 7,
+      "google_place_id": "ChIJL9lTMPMBBDQRQunL6iJhxJE",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：漢堡包餐廳。Google 評分 3.1／7 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-3851811243",
+      "name_zh": "味千拉麵",
+      "name_en": "",
+      "lat": 22.3128405,
+      "lng": 114.2214032,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（味千拉麵／牌照3851811243／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／5 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJuQRQnT0BBDQRIjmuJuma73c",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3851811243",
+      "address": "九龍觀塘巧明街98號三布目L9層樓913號鋪",
+      "google_rating": 3,
+      "google_review_count": 5,
+      "google_place_id": "ChIJuQRQnT0BBDQRIjmuJuma73c",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：拉麵店。Google 評分 3／5 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3151801883",
+      "name_zh": "海福",
+      "name_en": "",
+      "lat": 22.3109865,
+      "lng": 114.22622299999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（海福／牌照3151801883／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJtWQIWUUBBDQRO1_KnCYVovU",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3151801883",
+      "address": "九龍觀塘成業街7號東廣場地下G16 & G17鋪",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJtWQIWUUBBDQRO1_KnCYVovU",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中式麵食店。Google 評分 3.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3151801917",
+      "name_zh": "初味",
+      "name_en": "",
+      "lat": 22.3108932,
+      "lng": 114.2262793,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（初味／牌照3151801917／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／6 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJjTWWbAABBDQRH5eDM6OENKY",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3151801917",
+      "address": "九龍觀塘成業街7號寧晉中心東廣場地下23及23A號鋪",
+      "google_rating": 3,
+      "google_review_count": 6,
+      "google_place_id": "ChIJjTWWbAABBDQRH5eDM6OENKY",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：愛心食堂。Google 評分 3／6 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3151803117",
+      "name_zh": "Food Fiesta",
+      "name_en": "",
+      "lat": 22.312400999999998,
+      "lng": 114.22522199999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Food Fiesta／牌照3151803117／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJmwBS-wgBBDQRKkpvZ5_ONaQ",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3151803117",
+      "address": "九龍觀塘觀塘道418號 創紀之城第5期APM第2層美食廣場F舖",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJmwBS-wgBBDQRKkpvZ5_ONaQ",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：美食廣場。Google 評分 3.2（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3151803418",
+      "name_zh": "The Matcha Tokyo",
+      "name_en": "",
+      "lat": 22.3124282,
+      "lng": 114.2253042,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（The Matcha Tokyo／牌照3151803418／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／60 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvZ1fYV4BBDQR5QBLsv7OOHM",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3151803418",
+      "address": "九龍觀塘觀塘道418號 創紀之城5期 APM 1樓 L1-9B 號舖",
+      "google_rating": 3.3,
+      "google_review_count": 60,
+      "google_place_id": "ChIJvZ1fYV4BBDQR5QBLsv7OOHM",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：茶藝館。Google 評分 3.3／60 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "ore-ryu-shio-ramen-apm",
+      "name_zh": "俺流塩拉麵（apm）",
+      "name_en": "Ore-no-Ryū Shio Ramen (apm)",
+      "lat": 22.3122355,
+      "lng": 114.2251439,
+      "area": "apm／創紀之城五期",
+      "address": "九龍觀塘道418號創紀之城五期(apm)一樓1號舖",
+      "cuisine": [
+        "日式",
+        "拉麵"
+      ],
+      "tags": [
+        "連鎖",
+        "拉麵",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "apm 一樓俺流塩拉麵，塩拉麵專門店正餐午餐。同類拉麵人均多約七十至一百一；未核實官價，午市或會排隊。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "apm 官方美食匯萃",
+          "url": "https://www.hkapm.com.hk/dining/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon apm",
+          "url": "https://photon.komoot.io/api/?q=apm+Kwun+Tong",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／149 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJAzpTuvgBBDQRRWU__2ipf3I",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $70–110（午餐套餐／未核實官價）",
+      "google_rating": 3,
+      "google_review_count": 149,
+      "google_place_id": "ChIJAzpTuvgBBDQRRWU__2ipf3I"
+    },
+    {
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "verified_at": "2026-10-05",
+      "id": "tai-er-apm",
+      "name_zh": "太二老壇子酸菜魚（apm）",
+      "name_en": "Tai Er Sour Fish (apm)",
+      "lat": 22.3122555,
+      "lng": 114.2251439,
+      "area": "apm／創紀之城五期",
+      "address": "九龍觀塘道418號創紀之城五期(apm)一樓13號舖",
+      "cuisine": [
+        "川菜",
+        "酸菜魚"
+      ],
+      "tags": [
+        "連鎖",
+        "川菜",
+        "商場店",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "apm 一樓太二老壇子酸菜魚，酸菜魚正餐午餐堂食。同類川菜館人均多約八十至一百四；未核實官價，分量偏大，適合二人分或大食。 CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.1 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "price_level": 2,
+      "sources": [
+        {
+          "name": "apm 官方美食匯萃",
+          "url": "https://www.hkapm.com.hk/dining/",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Photon apm",
+          "url": "https://photon.komoot.io/api/?q=apm+Kwun+Tong",
+          "checked_at": "2026-09-24"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／26 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJt8Sg0roBBDQRaY1Z_sJVKOE",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "price_lunch_hkd": "約 $80–140（午餐套餐／未核實官價）",
+      "google_rating": 3.1,
+      "google_review_count": 26,
+      "google_place_id": "ChIJt8Sg0roBBDQRaY1Z_sJVKOE"
+    },
+    {
+      "id": "fehd-rl-2251809755",
+      "name_zh": "舊西貢越南料理",
+      "name_en": "",
+      "lat": 22.3073879,
+      "lng": 114.22403539999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（舊西貢越南料理／牌照2251809755／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxY7jGwABBDQRmUm5SQHRH68",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251809755",
+      "address": "九龍觀塘偉業街223-231號宏利金融中心1樓6號鋪",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJxY7jGwABBDQRmUm5SQHRH68",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：亞洲菜餐廳。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251810476",
+      "name_zh": "祥香園餐廳",
+      "name_en": "Cheung Hong Yuen (Ngau Tau Kok)",
+      "lat": 22.3165336,
+      "lng": 114.2137085,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（祥香園餐廳／牌照2251810476／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.5／18 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJFZ8SJwABBDQRUn_MaPOX86Y",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251810476",
+      "address": "九龍觀塘海濱道77號海濱匯1及2座2樓1號舖",
+      "google_rating": 2.5,
+      "google_review_count": 18,
+      "google_place_id": "ChIJFZ8SJwABBDQRUn_MaPOX86Y",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 2.5／18 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.5 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251810962",
+      "name_zh": "杏花薈",
+      "name_en": "",
+      "lat": 22.313903999999997,
+      "lng": 114.217732,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（杏花薈／牌照2251810962／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.7／27 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2eTpMQABBDQRPA_gAPM5fo0",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251810962",
+      "address": "九龍觀塘偉業街133號2樓",
+      "google_rating": 2.7,
+      "google_review_count": 27,
+      "google_place_id": "ChIJ2eTpMQABBDQRPA_gAPM5fo0",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 2.7／27 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.7 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3951804020",
+      "name_zh": "大吃大喝",
+      "name_en": "",
+      "lat": 22.3128405,
+      "lng": 114.2214032,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大吃大喝／牌照3951804020／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJATZ9EwABBDQRy8f93iS5MFs",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3951804020",
+      "address": "九龍觀塘巧明街98號三布目地下G07號鋪",
+      "google_rating": 3.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJATZ9EwABBDQRy8f93iS5MFs",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：快餐店。Google 評分 3.4（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251166883",
+      "name_zh": "大家樂",
+      "name_en": "Café de Coral",
+      "lat": 22.314126899999998,
+      "lng": 114.2233304,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大家樂／牌照2251166883／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／682 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJBz6cHE8BBDQRNMynOTi2JKU",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251166883",
+      "address": "九龍觀塘康寧道11號冠天閣1樓及2樓(部份)",
+      "google_rating": 3.3,
+      "google_review_count": 682,
+      "google_place_id": "ChIJBz6cHE8BBDQRNMynOTi2JKU",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式快餐店。Google 評分 3.3／682 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251188632",
+      "name_zh": "樂翠園海鮮菜館",
+      "name_en": "Lok Chui Yuen",
+      "lat": 22.315232899999998,
+      "lng": 114.2224543,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（樂翠園海鮮菜館／牌照2251188632／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／271 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJUfFC0E4BBDQRxe7y5L6g_WI",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251188632",
+      "address": "九龍觀塘宜安街6A號地下及平台",
+      "google_rating": 3.4,
+      "google_review_count": 271,
+      "google_place_id": "ChIJUfFC0E4BBDQRxe7y5L6g_WI",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4／271 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251804167",
+      "name_zh": "海港酒家",
+      "name_en": "Victoria Harbour Restaurant (Kwun Tong)",
+      "lat": 22.3127037,
+      "lng": 114.2245215,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（海港酒家／牌照2251804167／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／1038 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ91DRmE8BBDQRDF78WTBl2Ng",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251804167",
+      "address": "九龍觀塘觀塘道414號壹亞太中心7樓",
+      "google_rating": 3.4,
+      "google_review_count": 1038,
+      "google_place_id": "ChIJ91DRmE8BBDQRDF78WTBl2Ng",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：粵菜館。Google 評分 3.4／1038 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251808910",
+      "name_zh": "檸檬冰室",
+      "name_en": "Lemon Cafe (Kwun Tong)",
+      "lat": 22.3141848,
+      "lng": 114.22340349999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（檸檬冰室／牌照2251808910／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／359 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxYc0f-EBBDQRysuxO2tcy50",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251808910",
+      "address": "九龍觀塘康寧道11號冠天閣地下高層",
+      "google_rating": 3.4,
+      "google_review_count": 359,
+      "google_place_id": "ChIJxYc0f-EBBDQRysuxO2tcy50",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.4／359 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251809889",
+      "name_zh": "Simplylife Bakery Cafe",
+      "name_en": "",
+      "lat": 22.3127329,
+      "lng": 114.22507139999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Simplylife Bakery Cafe／牌照2251809889／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／132 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ07mxld0BBDQRejPVI-N7pus",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251809889",
+      "address": "九龍觀塘觀塘道418號創紀之城第五期 APM第一層L1-XSITE 1D號舖A部份",
+      "google_rating": 3.4,
+      "google_review_count": 132,
+      "google_place_id": "ChIJ07mxld0BBDQRejPVI-N7pus",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：西餐廳。Google 評分 3.4／132 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rl-2251810360",
+      "name_zh": "雲桂香",
+      "name_en": "",
+      "lat": 22.3108771,
+      "lng": 114.2261728,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（雲桂香／牌照2251810360／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／15 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ70CSCgABBDQRybZLZKqHhQY",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "2251810360",
+      "address": "九龍觀塘成業街7號 寧晉中心東廣場一樓 110, 111 及112號鋪",
+      "google_rating": 3.4,
+      "google_review_count": 15,
+      "google_place_id": "ChIJ70CSCgABBDQRybZLZKqHhQY",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中菜館。Google 評分 3.4／15 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3151010658",
+      "name_zh": "美都",
+      "name_en": "Mei Do Cafe",
+      "lat": 22.3155339,
+      "lng": 114.225708,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（美都／牌照3151010658／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／254 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJtbC5FU4BBDQRsmhWTU30gtc",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3151010658",
+      "address": "九龍觀塘 協和街93號地下",
+      "google_rating": 3.2,
+      "google_review_count": 254,
+      "google_place_id": "ChIJtbC5FU4BBDQRsmhWTU30gtc",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：港式茶餐廳。Google 評分 3.2／254 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.2 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3151802716",
+      "name_zh": "樂園魚旦專家",
+      "name_en": "Lok Yuen Master of Fishball",
+      "lat": 22.315721099999998,
+      "lng": 114.225926,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（樂園魚旦專家／牌照3151802716／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／179 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ16Sz9q8BBDQRp1FrXHpjswc",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3151802716",
+      "address": "九龍觀塘協和街 93,95,99,101,103,105, 107,109,111,113及115號 建德大樓地下C鋪",
+      "google_rating": 3.4,
+      "google_review_count": 179,
+      "google_place_id": "ChIJ16Sz9q8BBDQRp1FrXHpjswc",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：中式麵食店／麵店。Google 評分 3.4／179 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.4 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3151802974",
+      "name_zh": "春香湖",
+      "name_en": "",
+      "lat": 22.3187711,
+      "lng": 114.21504089999999,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（春香湖／牌照3151802974／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／31 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJU8CoMfQBBDQRdaf3-XF3MNY",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3151802974",
+      "address": "九龍觀塘道257-269號 永英樓地下F號舖",
+      "google_rating": 3.3,
+      "google_review_count": 31,
+      "google_place_id": "ChIJU8CoMfQBBDQRdaf3-XF3MNY",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：越南餐廳。Google 評分 3.3／31 則（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 3.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
+    },
+    {
+      "id": "fehd-rr-3151803630",
+      "name_zh": "嘉季",
+      "name_en": "",
+      "lat": 22.311038099999998,
+      "lng": 114.2263043,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（嘉季／牌照3151803630／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-05"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRUiMNwABBDQRTCkMpen5m6A",
+          "checked_at": "2026-10-05"
+        }
+      ],
+      "fehd_licence_no": "3151803630",
+      "address": "九龍觀塘成業街7號東廣場寧晉中心地下11號鋪",
+      "google_rating": 2.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJRUiMNwABBDQRTCkMpen5m6A",
+      "verified_at": "2026-10-05",
+      "tags": [
+        "hold_ratings_round",
+        "google_below_3_5_backfill"
+      ],
+      "lunch_notes": "Google 類別：餐廳。Google 評分 2.3（只顯示）。CEO 批核（2026-10-07）評分門檻回填：Google 評分 2.3 只作顯示，唔再作入庫門檻；已再過 nonmeal／開業／午餐／堂食關。",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "觀塘",
+      "cuisine": []
     }
   ],
   "excluded": [
@@ -7100,1092 +9429,6 @@
       ]
     },
     {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "tai-hing-crocodile-center",
-      "name_zh": "太興（鱷魚恤中心）",
-      "name_en": "Tai Hing (Crocodile Center)",
-      "lat": 22.3116866,
-      "lng": 114.2257303,
-      "area": "鱷魚恤中心",
-      "address": "九龍觀塘開源道79號鱷魚恤中心地下B號舖",
-      "cuisine": [
-        "港式",
-        "燒味"
-      ],
-      "tags": [
-        "連鎖",
-        "茶餐廳風",
-        "燒味飯",
-        "商場店"
-      ],
-      "lunch_notes": "鱷魚恤中心太興，供應燒味飯、粉麵同港式焗飯等堂食午餐。公開目錄人均約$51–100；燒味拼盤或套餐喺呢個價帶，商場午市或會稍等。",
-      "price_level": 2,
-      "sources": [
-        {
-          "name": "鱷魚恤中心官方商場指南（太興）",
-          "url": "https://crocodilecenter.com.hk/zh-HK/shopping-dining",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "FeeHK目錄：太興人均約$51–100",
-          "url": "https://www.feehk.com/%E5%85%83%E6%9C%97%E9%A4%90%E5%BB%B3/%E5%A4%AA%E8%88%88-34245",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJNT0w9U8BBDQRBSKNJVPmEpM",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $55–100",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "google_place_id": "ChIJNT0w9U8BBDQRBSKNJVPmEpM"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "mixian-zhen-crocodile-center",
-      "name_zh": "米線陣（鱷魚恤中心）",
-      "name_en": "Mixian Zhen (Crocodile Center)",
-      "lat": 22.3116466,
-      "lng": 114.2257103,
-      "area": "鱷魚恤中心",
-      "address": "九龍觀塘開源道79號鱷魚恤中心1樓8號舖",
-      "cuisine": [
-        "米線",
-        "亞洲麵食"
-      ],
-      "tags": [
-        "連鎖",
-        "午餐",
-        "大家樂集團",
-        "商場店"
-      ],
-      "lunch_notes": "鱷魚恤中心米線陣（大家樂集團），主打米線／麵食堂食。OpenRice連鎖目錄人均約$50以下；以一碗米線加飲為典型午餐，適合赶時間。",
-      "price_level": 1,
-      "sources": [
-        {
-          "name": "鱷魚恤中心官方商場指南（米線陣）",
-          "url": "https://crocodilecenter.com.hk/zh-HK/shopping-dining",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "OpenRice 連鎖目錄：米線陣人均約$50以下",
-          "url": "https://www.openrice.com/zh/hongkong/restaurants?chainId=10002886",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMaumEQABBDQRrX-xV5YKeB4",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $45–65",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.1,
-      "google_review_count": null,
-      "google_place_id": "ChIJMaumEQABBDQRrX-xV5YKeB4"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "akita-ice-house-crocodile-center",
-      "name_zh": "秋田冰室（鱷魚恤中心）",
-      "name_en": "Akita Ice House (Crocodile Center)",
-      "lat": 22.3117166,
-      "lng": 114.2256403,
-      "area": "鱷魚恤中心",
-      "address": "九龍觀塘開源道79號鱷魚恤中心1樓7號舖",
-      "cuisine": [
-        "冰室",
-        "茶餐廳"
-      ],
-      "tags": [
-        "冰室",
-        "午餐",
-        "商場店"
-      ],
-      "lunch_notes": "鱷魚恤中心秋田冰室，港式冰室定位，供應飯麵／常餐／套餐午餐堂食。同類冰室人均多約四十至七十幾；未截到本店統一官價，以慣例標模糊帶。",
-      "price_level": 1,
-      "sources": [
-        {
-          "name": "鱷魚恤中心官方商場指南（秋田冰室）",
-          "url": "https://crocodilecenter.com.hk/zh-HK/shopping-dining",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／173 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRZNNBJYBBDQRDpfYD57sstk",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $45–75（午餐常餐／未核實官價）",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（173 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.2,
-      "google_review_count": 173,
-      "google_place_id": "ChIJRZNNBJYBBDQRDpfYD57sstk"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "tao-heung-tea-house-crocodile-center",
-      "name_zh": "稻香．茶居（鱷魚恤中心）",
-      "name_en": "Tao Heung Tea House (Crocodile Center)",
-      "lat": 22.3117666,
-      "lng": 114.2257003,
-      "area": "鱷魚恤中心",
-      "address": "九龍觀塘開源道79號鱷魚恤中心9樓",
-      "cuisine": [
-        "粵菜",
-        "點心"
-      ],
-      "tags": [
-        "連鎖",
-        "酒樓",
-        "點心",
-        "商場店"
-      ],
-      "lunch_notes": "鱷魚恤中心稻香．茶居，午市有點心／中式套餐堂食（官方列日間時段）。OpenRice食評顯示稻香午市孖寶／定食常見約三十幾至八十元帶；酒樓加一另計，人多要等位。",
-      "price_level": 2,
-      "sources": [
-        {
-          "name": "鱷魚恤中心官方商場指南（稻香茶居）",
-          "url": "https://crocodilecenter.com.hk/zh-HK/shopping-dining",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "OpenRice食評：稻香午市孖寶／定食約$34–80帶（視點餐）",
-          "url": "https://www.openrice.com/zh/hongkong/r-%E7%A8%BB%E9%A6%99-%E4%B9%9D%E9%BE%8D%E7%81%A3-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E7%81%AB%E9%8D%8B-r534608",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／106 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJhdV5Q-MBBDQRWaJQEoUmPcQ",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $50–100",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（106 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.2,
-      "google_review_count": 106,
-      "google_place_id": "ChIJhdV5Q-MBBDQRWaJQEoUmPcQ"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "yuk-to-hin-crocodile-center",
-      "name_zh": "玉桃軒（鱷魚恤中心）",
-      "name_en": "Yuk To Hin (Crocodile Center)",
-      "lat": 22.3117466,
-      "lng": 114.2256303,
-      "area": "鱷魚恤中心",
-      "address": "九龍觀塘開源道79號鱷魚恤中心6樓",
-      "cuisine": [
-        "粵菜",
-        "點心"
-      ],
-      "tags": [
-        "酒樓",
-        "點心",
-        "商場店"
-      ],
-      "lunch_notes": "鱷魚恤中心玉桃軒，粵菜／點心午市堂食酒樓。同類商場酒樓午市人均多約八十至一百五；未截到本店統一官價，到店以當日餐牌為準。",
-      "price_level": 2,
-      "sources": [
-        {
-          "name": "鱷魚恤中心官方商場指南（玉桃軒）",
-          "url": "https://crocodilecenter.com.hk/zh-HK/shopping-dining",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJgX_b808BBDQR0zCydq5nFYs",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $80–150（午市／未核實官價）",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJgX_b808BBDQR0zCydq5nFYs"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "cafe-de-coral-tg-place",
-      "name_zh": "大家樂（電訊一代廣場）",
-      "name_en": "Café de Coral (TG Place)",
-      "lat": 22.3103549,
-      "lng": 114.2258615,
-      "area": "電訊一代廣場",
-      "address": "九龍觀塘成業街10號電訊一代廣場地下一號舖",
-      "cuisine": [
-        "港式快餐"
-      ],
-      "tags": [
-        "連鎖",
-        "快餐",
-        "午餐套餐",
-        "商場店",
-        "EatSmart"
-      ],
-      "lunch_notes": "電訊一代廣場大家樂，EatSmart列快餐店；午市有飯／粉麵／焗飯套餐連飲。公開推廣常見$39–48超值午餐，一般套餐多喺六十元內；商場午市或會排隊。",
-      "price_level": 1,
-      "sources": [
-        {
-          "name": "衞生署星級有營食肆",
-          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10959",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Photon 電訊一代廣場",
-          "url": "https://photon.komoot.io/api/?q=TG+Place+Kwun+Tong",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "星島頭條／著數報導：大家樂午市套餐約$39–48",
-          "url": "https://www.stheadline.com/food/3549243/%E5%A4%A7%E5%AE%B6%E6%A8%82%E6%97%A9%E5%8D%88%E9%A4%90%E6%8A%B5%E9%A3%9F%E5%84%AA%E6%83%A033%E6%AD%8E%E5%90%89%E5%88%97%E8%B1%AC%E6%89%92%E6%B9%AF%E7%B2%89%E6%97%A9%E9%A4%90-42%E6%B2%99%E8%96%91%E9%9B%9E%E9%A3%AF%E9%85%8D%E7%B4%85%E8%B1%86%E5%86%B0",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "Jetso Bear：大家樂Good價午餐$42起",
-          "url": "https://jetsobear.com/cafedecoral-good-price-breakfast-lunch-deals-2026-p313861/",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／84 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJrT6LdhkBBDQR-LXPHh-njYA",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $39–65",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（84 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.2,
-      "google_review_count": 84,
-      "google_place_id": "ChIJrT6LdhkBBDQR-LXPHh-njYA"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "tamjai-samgor-tg-place",
-      "name_zh": "譚仔三哥米線（電訊一代廣場）",
-      "name_en": "TamJai SamGor Mixian (TG Place)",
-      "lat": 22.3103049,
-      "lng": 114.2259015,
-      "area": "電訊一代廣場",
-      "address": "九龍觀塘成業街10號電訊一代廣場1樓C舖",
-      "cuisine": [
-        "米線",
-        "麵食"
-      ],
-      "tags": [
-        "連鎖",
-        "麵食",
-        "自選配料",
-        "EatSmart"
-      ],
-      "lunch_notes": "電訊一代廣場譚仔三哥，主打自選／過橋米線堂食。目錄標示人均約$50以下，實際視乎配料；官方有主餐牌可對湯底同食材。",
-      "price_level": 1,
-      "sources": [
-        {
-          "name": "衞生署星級有營食肆",
-          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10466",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "FeeHK目錄：譚仔三哥人均約$50以下",
-          "url": "https://www.feehk.com/%E6%97%BA%E8%A7%92%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-66722",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "譚仔三哥官方主餐牌（自選／過橋米線）",
-          "url": "https://www.tjsamgor.com/hk/menu/",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／113 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJVSlOQkUBBDQRY1NNEHg-aOs",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $40–65",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（113 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.3,
-      "google_review_count": 113,
-      "google_place_id": "ChIJVSlOQkUBBDQRY1NNEHg-aOs"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "tamjai-samgor-quayside",
-      "name_zh": "譚仔三哥米線（海濱匯）",
-      "name_en": "TamJai SamGor Mixian (The Quayside)",
-      "lat": 22.3165614,
-      "lng": 114.2137809,
-      "area": "海濱匯",
-      "address": "九龍觀塘海濱道77號海濱匯2樓4及5號舖",
-      "cuisine": [
-        "米線",
-        "麵食"
-      ],
-      "tags": [
-        "連鎖",
-        "麵食",
-        "自選配料",
-        "EatSmart"
-      ],
-      "lunch_notes": "海濱匯譚仔三哥米線，自選／過橋米線作午餐堂食。目錄人均約$50以下，配料同小食會影響帳單；寫字樓區午市或要稍等。",
-      "price_level": 1,
-      "sources": [
-        {
-          "name": "衞生署星級有營食肆",
-          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10484",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Photon 海濱匯",
-          "url": "https://photon.komoot.io/api/?q=Hoi+Bun+Road+77+Kwun+Tong",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "FeeHK目錄：譚仔三哥人均約$50以下",
-          "url": "https://www.feehk.com/%E6%97%BA%E8%A7%92%E9%A4%90%E5%BB%B3/%E8%AD%9A%E4%BB%94%E4%B8%89%E5%93%A5%E7%B1%B3%E7%B7%9A-66722",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "譚仔三哥官方主餐牌（自選／過橋米線）",
-          "url": "https://www.tjsamgor.com/hk/menu/",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／16 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJDwH2VoEBBDQRwqtz62h9qKg",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $40–65",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（16 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3,
-      "google_review_count": 16,
-      "google_place_id": "ChIJDwH2VoEBBDQRwqtz62h9qKg"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "baifang-bento-ym2",
-      "name_zh": "百芳池上便當（裕民坊）",
-      "name_en": "Bai Fang Pond Bento (YM²)",
-      "lat": 22.3144111,
-      "lng": 114.2248632,
-      "area": "裕民坊",
-      "address": "九龍觀塘協和街33號裕民坊商場2樓208-211號舖",
-      "cuisine": [
-        "台式",
-        "便當"
-      ],
-      "tags": [
-        "便當",
-        "午餐",
-        "商場店"
-      ],
-      "lunch_notes": "裕民坊百芳池上便當（L2），台式便當／飯類正餐午餐。同類台式便當人均多約四十幾至七十幾；未核實官價，適合想食飯多過麵嘅人。",
-      "price_level": 1,
-      "sources": [
-        {
-          "name": "YM² 裕民坊官方餐飲美饌（百芳池上便當）",
-          "url": "https://www.ym2.hk/tc/Dining",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJqTK_-ysBBDQROAqF6dpGwbA",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $45–75（午餐套餐／未核實官價）",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.4（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 2.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJqTK_-ysBBDQROAqF6dpGwbA"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "mos-burger-apm",
-      "name_zh": "摩斯漢堡（apm）",
-      "name_en": "MOS Burger (apm)",
-      "lat": 22.3121155,
-      "lng": 114.2251039,
-      "area": "apm／創紀之城五期",
-      "address": "九龍觀塘道418號創紀之城五期(apm)地面低層6c號舖",
-      "cuisine": [
-        "漢堡",
-        "日式快餐"
-      ],
-      "tags": [
-        "連鎖",
-        "快餐",
-        "套餐",
-        "商場店"
-      ],
-      "lunch_notes": "apm 地面低層摩斯漢堡，日式漢堡／飯類堂食。2026公開特惠：輕量套餐約$47–48、一人豐盛餐$70起；商場美食匯萃舖，午市至下午常見推廣。",
-      "price_level": 1,
-      "sources": [
-        {
-          "name": "apm 官方美食匯萃",
-          "url": "https://www.hkapm.com.hk/dining/",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Photon apm Millennium City 5",
-          "url": "https://photon.komoot.io/api/?q=apm+Millennium+City+5+Hong+Kong",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Jetso Bear：摩斯一人特惠套餐$47–72／二人約人均$61",
-          "url": "https://jetsobear.com/mos-burger-new-value-set-meals-2026-p316240/",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.8／16 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJHY2ZetwBBDQR3yqyDt_OzJ0",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $47–75",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（16 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 2.8,
-      "google_review_count": 16,
-      "google_place_id": "ChIJHY2ZetwBBDQR3yqyDt_OzJ0"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "pizza-hut-apm",
-      "name_zh": "必勝客（apm）",
-      "name_en": "Pizza Hut (apm)",
-      "lat": 22.3122555,
-      "lng": 114.2251439,
-      "area": "apm／創紀之城五期",
-      "address": "九龍觀塘道418號創紀之城五期(apm)二樓1號舖",
-      "cuisine": [
-        "意式",
-        "薄餅"
-      ],
-      "tags": [
-        "連鎖",
-        "快餐",
-        "商場店"
-      ],
-      "lunch_notes": "apm 二樓必勝客，薄餅／意粉午餐堂食。公開目錄個人／午市套餐多約六十至一百二；未核實本店官價，適合多人分薄餅或一人套餐。",
-      "price_level": 2,
-      "sources": [
-        {
-          "name": "apm 官方美食匯萃",
-          "url": "https://www.hkapm.com.hk/dining/",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Photon apm Millennium City 5",
-          "url": "https://photon.komoot.io/api/?q=apm+Millennium+City+5+Hong+Kong",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "公開目錄慣例：必勝客個人／午市套餐約$60–120（未核實本店當日官價）",
-          "url": "https://www.pizzahut.com.hk/",
-          "checked_at": "2026-09-25"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／95 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ9xxh75gBBDQRl1g3i091tcQ",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $60–120（午餐套餐／未核實官價）",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（95 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.4,
-      "google_review_count": 95,
-      "google_place_id": "ChIJ9xxh75gBBDQRl1g3i091tcQ"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "sen-ryo-apm",
-      "name_zh": "千両（apm）",
-      "name_en": "Sen-ryo (apm)",
-      "lat": 22.3122355,
-      "lng": 114.2251639,
-      "area": "apm／創紀之城五期",
-      "address": "九龍觀塘道418號創紀之城五期(apm)大堂高層41及43號舖",
-      "cuisine": [
-        "日式",
-        "壽司"
-      ],
-      "tags": [
-        "連鎖",
-        "壽司",
-        "商場店"
-      ],
-      "lunch_notes": "apm 大堂高層千両，壽司／日式正餐午餐堂食。同類立食／正餐壽司人均多約八十至一百五；未核實官價，商場舖午市或等位。",
-      "price_level": 2,
-      "sources": [
-        {
-          "name": "apm 官方美食匯萃",
-          "url": "https://www.hkapm.com.hk/dining/",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Photon apm",
-          "url": "https://photon.komoot.io/api/?q=apm+Kwun+Tong",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／59 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJl-xpT44BBDQRiMMFfenFN7Q",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $80–150（午餐套餐／未核實官價）",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（59 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.4,
-      "google_review_count": 59,
-      "google_place_id": "ChIJl-xpT44BBDQRiMMFfenFN7Q"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "pho-woo-quayside",
-      "name_zh": "葫越（海濱匯）",
-      "name_en": "Pho Woo (The Quayside)",
-      "lat": 22.3166614,
-      "lng": 114.2138809,
-      "area": "海濱匯／海濱道",
-      "address": "九龍觀塘海濱道77號 海濱匯1及2座 1樓 1A號舖",
-      "cuisine": [
-        "越南菜",
-        "粉麵"
-      ],
-      "tags": [
-        "fehd_licensed",
-        "industrial",
-        "工廈午餐",
-        "商場店"
-      ],
-      "lunch_notes": "海濱匯官方列葫越（1樓1A號舖），主打地道越南菜堂食；粉麵類適合工廈平日午餐。價目未核實官價。",
-      "price_level": 2,
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（葫越／牌照3151802859／小食食肆）",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "海濱匯官方｜葫越",
-          "url": "https://thequayside.com.hk/tc/amenities/live-healthy/",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Photon 香港 觀塘 海濱道77號 海濱匯",
-          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9377%E8%99%9F%20%E6%B5%B7%E6%BF%B1%E5%8C%AF&limit=1",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.8／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0aqmCyEBBDQRni9sqVOL0uI",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": null,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 2.8,
-      "google_review_count": null,
-      "google_place_id": "ChIJ0aqmCyEBBDQRni9sqVOL0uI"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "ochicken-quayside",
-      "name_zh": "O'CHICKEN（海濱匯）",
-      "name_en": "O'CHICKEN (The Quayside)",
-      "lat": 22.3167014,
-      "lng": 114.2139209,
-      "area": "海濱匯／海濱道",
-      "address": "九龍觀塘海濱道77號海濱匯1樓８A號舖",
-      "cuisine": [
-        "星馬菜",
-        "海南雞"
-      ],
-      "tags": [
-        "fehd_licensed",
-        "industrial",
-        "工廈午餐",
-        "商場店"
-      ],
-      "lunch_notes": "海濱匯官方列 O'Chicken（1樓8A號舖），海南雞同東南亞菜堂食；適合平日午餐。價目未核實官價。",
-      "price_level": 2,
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（O'CHICKEN／牌照2251809153／普通食肆）",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "海濱匯官方｜O'Chicken",
-          "url": "https://thequayside.com.hk/tc/amenities/live-healthy/",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Photon 香港 觀塘 海濱道77號 海濱匯",
-          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9377%E8%99%9F%20%E6%B5%B7%E6%BF%B1%E5%8C%AF&limit=1",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJOYqTYAABBDQR6gVYCpDTQ1Q",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": null,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3,
-      "google_review_count": null,
-      "google_place_id": "ChIJOYqTYAABBDQR6gVYCpDTQ1Q"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "ben-gor-mixian-one-bay-east",
-      "name_zh": "朋友冰室／Ben哥米線（One Bay East）",
-      "name_en": "Ben Gor Mixian (One Bay East)",
-      "lat": 22.3157231,
-      "lng": 114.214644,
-      "area": "海濱匯／海濱道",
-      "address": "九龍觀塘海濱道83號宏利大廈一樓W3鋪",
-      "cuisine": [
-        "米線",
-        "港式"
-      ],
-      "tags": [
-        "fehd_licensed",
-        "industrial",
-        "工廈午餐",
-        "EatSmart"
-      ],
-      "lunch_notes": "衞生署星級有營食肆列 Ben哥米線（海濱道83號宏利大樓1樓W3），菜式含麵食／中菜廳；FEHD 同址朋友冰室／Ben哥米線，平日堂食午餐合理。價目未核實官價。",
-      "price_level": 1,
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（朋友冰室/Ben哥米線／牌照2251807838／普通食肆）",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "衞生署星級有營食肆（Ben哥米線・海濱道）",
-          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10892",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Photon 香港 觀塘 海濱道83號 One Bay East",
-          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%9383%E8%99%9F%20One%20Bay%20East&limit=1",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／45 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJzXCtcXkBBDQRlZifj5-0TmQ",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": null,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（45 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.4,
-      "google_review_count": 45,
-      "google_place_id": "ChIJzXCtcXkBBDQRlZifj5-0TmQ"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "lemon-bing-satt-cos",
-      "name_zh": "檸檬冰室（中海日升中心）",
-      "name_en": "Lemon Cafe (COS Centre)",
-      "lat": 22.3111094,
-      "lng": 114.2228564,
-      "area": "駿業街",
-      "address": "九龍觀塘駿業街56號中海日升中心 地下D鋪部分及E鋪部分",
-      "cuisine": [
-        "港式茶餐廳",
-        "冰室"
-      ],
-      "tags": [
-        "fehd_licensed",
-        "industrial",
-        "工廈午餐",
-        "茶餐廳"
-      ],
-      "lunch_notes": "ugo-hk 目錄列中海日升中心檸檬冰室（地下D/E舖），港式冰室／茶餐廳常餐堂食；服務駿業街工廈平日午餐。價目未核實官價。",
-      "price_level": 1,
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（檸檬冰室／牌照2251810315／普通食肆）",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "ugo-hk：檸檬冰室（中海日升中心）",
-          "url": "https://ugo-hk.com/restaurant/17915/%E6%AA%B8%E6%AA%AC%E5%86%B0%E5%AE%A4-%E4%B8%AD%E6%B5%B7%E6%97%A5%E5%8D%87%E4%B8%AD%E5%BF%83",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Photon 香港 觀塘 駿業街56號 中海日升中心",
-          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E9%A7%BF%E6%A5%AD%E8%A1%9756%E8%99%9F%20%E4%B8%AD%E6%B5%B7%E6%97%A5%E5%8D%87%E4%B8%AD%E5%BF%83&limit=1",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／95 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMRsiZAABBDQR5ETbhmute00",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": null,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（95 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.1,
-      "google_review_count": 95,
-      "google_place_id": "ChIJMRsiZAABBDQR5ETbhmute00"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "jade-restaurant-mg-tower",
-      "name_zh": "翡翠餐廳（萬兆豐中心）",
-      "name_en": "Jade Restaurant (MG Tower)",
-      "lat": 22.3130802,
-      "lng": 114.2174654,
-      "area": "海濱匯／海濱道",
-      "address": "九龍觀塘海濱道133號萬兆豐中心地下1號舖",
-      "cuisine": [
-        "港式茶餐廳",
-        "粵菜"
-      ],
-      "tags": [
-        "fehd_licensed",
-        "industrial",
-        "工廈午餐",
-        "茶餐廳"
-      ],
-      "lunch_notes": "FeeHK 目錄列翡翠餐廳於海濱道133號萬兆豐中心地下1號舖，茶餐廳／常餐堂食（更新2026-09-28）；海濱工貿午餐。價目未核實官價。",
-      "price_level": 1,
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（翡翠餐廳／牌照2251805391／普通食肆）",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "FeeHK：翡翠餐廳（萬兆豐中心）",
-          "url": "https://www.feehk.com/%E8%A7%80%E5%A1%98%E9%A4%90%E5%BB%B3/%E7%BF%A1%E7%BF%A0%E9%A4%90%E5%BB%B3-18088",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Photon 香港 觀塘 海濱道133號 萬兆豐中心",
-          "url": "https://photon.komoot.io/api/?q=%E9%A6%99%E6%B8%AF%20%E8%A7%80%E5%A1%98%20%E6%B5%B7%E6%BF%B1%E9%81%93133%E8%99%9F%20%E8%90%AC%E5%85%86%E8%B1%90%E4%B8%AD%E5%BF%83&limit=1",
-          "checked_at": "2026-09-28"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／685 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJv733c0gBBDQRrQ9NLj1Z-L0",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": null,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（685 則），round1 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.3 kept）",
-      "google_rating": 3.4,
-      "google_review_count": 685,
-      "google_place_id": "ChIJv733c0gBBDQRrQ9NLj1Z-L0"
-    },
-    {
-      "id": "fehd-rl-2251060239",
-      "name_zh": "鴻圖樓",
-      "name_en": "Hung To Restaurant",
-      "lat": 22.312520499999998,
-      "lng": 114.2199752,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（1658 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（鴻圖樓／牌照2251060239／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／1658 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ46BJEtwBBDQRrxCB0TLaxSU",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251060239",
-      "address": "九龍觀塘 鴻圖道30號地下至5樓",
-      "google_rating": 3.2,
-      "google_review_count": 1658,
-      "google_place_id": "ChIJ46BJEtwBBDQRrxCB0TLaxSU",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251806233",
-      "name_zh": "金叔叔",
-      "name_en": "Uncle Kim",
-      "lat": 22.312898399999998,
-      "lng": 114.2202703,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2（8 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（金叔叔／牌照2251806233／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2／8 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJaRjdWQABBDQRqdlDpIq75bQ",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251806233",
-      "address": "九龍觀塘巧明街94-96號鴻圖中心地下5D及5E鋪",
-      "google_rating": 2,
-      "google_review_count": 8,
-      "google_place_id": "ChIJaRjdWQABBDQRqdlDpIq75bQ",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251808008",
-      "name_zh": "香葉灣",
-      "name_en": "",
-      "lat": 22.3164515,
-      "lng": 114.2137006,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（香葉灣／牌照2251808008／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJNT-PoTkBBDQR8bub3gXuExo",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251808008",
-      "address": "九龍觀塘海濱道77號 海濱匯1座及2座2樓2鋪",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJNT-PoTkBBDQR8bub3gXuExo",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251809199",
-      "name_zh": "ICHIJUISSAI",
-      "name_en": "",
-      "lat": 22.3107275,
-      "lng": 114.22539689999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（149 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（ICHIJUISSAI／牌照2251809199／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／149 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJA5FCq7MBBDQR4cjRrGrlxzY",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251809199",
-      "address": "九龍觀塘開源道64號源成中心地下(部分)",
-      "google_rating": 3.2,
-      "google_review_count": 149,
-      "google_place_id": "ChIJA5FCq7MBBDQR4cjRrGrlxzY",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251809870",
-      "name_zh": "辣蟹莊",
-      "name_en": "Spicy Crab",
-      "lat": 22.311236299999997,
-      "lng": 114.22308269999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（796 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（辣蟹莊／牌照2251809870／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／796 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJL-ACb4gBBDQR7nKbvzSGIJw",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251809870",
-      "address": "九龍觀塘駿業街58號1樓",
-      "google_rating": 3.4,
-      "google_review_count": 796,
-      "google_place_id": "ChIJL-ACb4gBBDQR7nKbvzSGIJw",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251810023",
-      "name_zh": "華記陳皮燒鵝",
-      "name_en": "",
-      "lat": 22.3106886,
-      "lng": 114.22204119999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（113 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（華記陳皮燒鵝／牌照2251810023／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／113 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJXXfYMQABBDQRFxFXbPtWkf4",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251810023",
-      "address": "九龍觀塘駿業街48號及鴻圖道48號地下B室",
-      "google_rating": 3.1,
-      "google_review_count": 113,
-      "google_place_id": "ChIJXXfYMQABBDQRFxFXbPtWkf4",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251810111",
-      "name_zh": "贊記粉麵冰室",
-      "name_en": "",
-      "lat": 22.3102829,
-      "lng": 114.2215901,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（贊記粉麵冰室／牌照2251810111／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJi6gTEwABBDQRqfsIMsIE5g4",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251810111",
-      "address": "九龍觀塘駿業街44號銀八地下B及C舖",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJi6gTEwABBDQRqfsIMsIE5g4",
-      "verified_at": "2026-10-05"
-    },
-    {
       "id": "fehd-rl-2251810412",
       "name_zh": "CASA MARGO",
       "name_en": "",
@@ -8214,146 +9457,6 @@
       "verified_at": "2026-10-05"
     },
     {
-      "id": "fehd-rl-2251810865",
-      "name_zh": "樓下冰室",
-      "name_en": "",
-      "lat": 22.3106094,
-      "lng": 114.2220069,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（43 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（樓下冰室／牌照2251810865／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／43 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxd4zNAABBDQRj6vg_xlO9CQ",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251810865",
-      "address": "九龍官塘駿業街48號新榮大樓地下A舖",
-      "google_rating": 3,
-      "google_review_count": 43,
-      "google_place_id": "ChIJxd4zNAABBDQRj6vg_xlO9CQ",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-3851811313",
-      "name_zh": "金浦食堂",
-      "name_en": "",
-      "lat": 22.3128405,
-      "lng": 114.2214032,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.9（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（金浦食堂／牌照3851811313／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.9／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJhUcDEq0BBDQRCj_bkEtbQII",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3851811313",
-      "address": "九龍觀塘巧明街98號三布目地下G22號舖",
-      "google_rating": 2.9,
-      "google_review_count": null,
-      "google_place_id": "ChIJhUcDEq0BBDQRCj_bkEtbQII",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-3851811359",
-      "name_zh": "XOXO MIKA",
-      "name_en": "",
-      "lat": 22.3128405,
-      "lng": 114.2214032,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（2 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（XOXO MIKA／牌照3851811359／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／2 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0ayDVrwBBDQR_JsTIC4BCto",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3851811359",
-      "address": "九龍觀塘巧明街98號 THE ANGLE地下G06及G26A號鋪",
-      "google_rating": 3,
-      "google_review_count": 2,
-      "google_place_id": "ChIJ0ayDVrwBBDQR_JsTIC4BCto",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rr-3151801999",
-      "name_zh": "香港仔一品魚蛋王",
-      "name_en": "Aberdeen Fishball Excellent",
-      "lat": 22.312689799999998,
-      "lng": 114.22021799999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（107 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（香港仔一品魚蛋王／牌照3151801999／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／107 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJb6y2pUgBBDQRkKbj2voT9x0",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3151801999",
-      "address": "九龍觀塘巧明街94-96號鴻圖中心地下4B鋪",
-      "google_rating": 3.4,
-      "google_review_count": 107,
-      "google_place_id": "ChIJb6y2pUgBBDQRkKbj2voT9x0",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rr-3151803384",
-      "name_zh": "風華茶檔",
-      "name_en": "Fung Wah Tea Stall",
-      "lat": 22.3126306,
-      "lng": 114.22025889999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（風華茶檔／牌照3151803384／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJiVsjTwABBDQRVrrHVENM98A",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3151803384",
-      "address": "九龍觀塘巧明街94-96號鴻圖中心地下4A舖",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "google_place_id": "ChIJiVsjTwABBDQRVrrHVENM98A",
-      "verified_at": "2026-10-05"
-    },
-    {
       "id": "fehd-rr-3951804039",
       "name_zh": "茶大椰",
       "name_en": "",
@@ -8379,258 +9482,6 @@
       "google_rating": 3,
       "google_review_count": null,
       "google_place_id": "ChIJfTfXaAABBDQR048IokY-Z-M",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251283511",
-      "name_zh": "大家樂",
-      "name_en": "Café de Coral",
-      "lat": 22.3137844,
-      "lng": 114.2210087,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（大家樂／牌照2251283511／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJh4BIMU8BBDQRRRIeS4tDwsw",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251283511",
-      "address": "九龍觀塘觀塘道388號 創紀之城I期地下1B號舖",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJh4BIMU8BBDQRRRIeS4tDwsw",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251800323",
-      "name_zh": "壹月中菜",
-      "name_en": "",
-      "lat": 22.3127329,
-      "lng": 114.22507139999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.8（17 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（壹月中菜／牌照2251800323／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.8／17 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJgXqAOQABBDQRwY6qe9shhV4",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251800323",
-      "address": "九龍觀塘觀塘道418號創紀之城五期APM3樓L3-01號舖",
-      "google_rating": 2.8,
-      "google_review_count": 17,
-      "google_place_id": "ChIJgXqAOQABBDQRwY6qe9shhV4",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251803216",
-      "name_zh": "神山麺屋",
-      "name_en": "Kanzan Menya (APM Millennium City 5)",
-      "lat": 22.3127329,
-      "lng": 114.22507139999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（神山麺屋／牌照2251803216／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJS1dOmU8BBDQRIzTCOxaWq-g",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251803216",
-      "address": "九龍觀塘觀塘道418號創紀之城5期APM第2層L2-1B號舖",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJS1dOmU8BBDQRIzTCOxaWq-g",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251803429",
-      "name_zh": "吉野家",
-      "name_en": "Yoshinoya",
-      "lat": 22.3107866,
-      "lng": 114.2262231,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（249 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（吉野家／牌照2251803429／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／249 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJlfsiX0UBBDQRFBTaEjLmu04",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251803429",
-      "address": "九龍觀塘成業街7號寧晉中心地下36號舖及舖前部份",
-      "google_rating": 3.3,
-      "google_review_count": 249,
-      "google_place_id": "ChIJlfsiX0UBBDQRFBTaEjLmu04",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251805276",
-      "name_zh": "川聚緣",
-      "name_en": "",
-      "lat": 22.3156423,
-      "lng": 114.2236417,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（13 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（川聚緣／牌照2251805276／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／13 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJTlWQVwBBDQRBQA7bJF-IKw",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251805276",
-      "address": "九龍觀塘康寧道62號地下",
-      "google_rating": 3.2,
-      "google_review_count": 13,
-      "google_place_id": "ChIJJTlWQVwBBDQRBQA7bJF-IKw",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251810528",
-      "name_zh": "富記燒味餐廳",
-      "name_en": "富記燒味-觀塘美食 觀塘燒臘",
-      "lat": 22.315727,
-      "lng": 114.22589099999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（107 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（富記燒味餐廳／牌照2251810528／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／107 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ63BnPLYBBDQRrb_t34FwBx0",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251810528",
-      "address": "九龍觀塘協和街109號地下",
-      "google_rating": 3.4,
-      "google_review_count": 107,
-      "google_place_id": "ChIJ63BnPLYBBDQRrb_t34FwBx0",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251810801",
-      "name_zh": "牛奶冰室",
-      "name_en": "Milk Cafe (Kwun Tong)",
-      "lat": 22.3128405,
-      "lng": 114.2214032,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（11 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（牛奶冰室／牌照2251810801／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／11 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJkeasAAABBDQRJUHwLZf0fr0",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251810801",
-      "address": "九龍觀塘巧明街98號三布目地下G36號鋪",
-      "google_rating": 3.4,
-      "google_review_count": 11,
-      "google_place_id": "ChIJkeasAAABBDQRJUHwLZf0fr0",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-2251810838",
-      "name_zh": "MOS BURGER",
-      "name_en": "",
-      "lat": 22.3128405,
-      "lng": 114.2214032,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（7 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（MOS BURGER／牌照2251810838／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／7 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJL9lTMPMBBDQRQunL6iJhxJE",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251810838",
-      "address": "九龍觀塘巧明街98號三布目L8層807號鋪",
-      "google_rating": 3.1,
-      "google_review_count": 7,
-      "google_place_id": "ChIJL9lTMPMBBDQRQunL6iJhxJE",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rl-3851811243",
-      "name_zh": "味千拉麵",
-      "name_en": "",
-      "lat": 22.3128405,
-      "lng": 114.2214032,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（5 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（味千拉麵／牌照3851811243／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／5 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJuQRQnT0BBDQRIjmuJuma73c",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3851811243",
-      "address": "九龍觀塘巧明街98號三布目L9層樓913號鋪",
-      "google_rating": 3,
-      "google_review_count": 5,
-      "google_place_id": "ChIJuQRQnT0BBDQRIjmuJuma73c",
       "verified_at": "2026-10-05"
     },
     {
@@ -8690,62 +9541,6 @@
       "verified_at": "2026-10-05"
     },
     {
-      "id": "fehd-rr-3151801883",
-      "name_zh": "海福",
-      "name_en": "",
-      "lat": 22.3109865,
-      "lng": 114.22622299999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（海福／牌照3151801883／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJtWQIWUUBBDQRO1_KnCYVovU",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3151801883",
-      "address": "九龍觀塘成業街7號東廣場地下G16 & G17鋪",
-      "google_rating": 3.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJtWQIWUUBBDQRO1_KnCYVovU",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rr-3151801917",
-      "name_zh": "初味",
-      "name_en": "",
-      "lat": 22.3108932,
-      "lng": 114.2262793,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（6 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（初味／牌照3151801917／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／6 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJjTWWbAABBDQRH5eDM6OENKY",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3151801917",
-      "address": "九龍觀塘成業街7號寧晉中心東廣場地下23及23A號鋪",
-      "google_rating": 3,
-      "google_review_count": 6,
-      "google_place_id": "ChIJjTWWbAABBDQRH5eDM6OENKY",
-      "verified_at": "2026-10-05"
-    },
-    {
       "id": "fehd-rr-3151802956",
       "name_zh": "美心烘焙所",
       "name_en": "Maxim's Cake Lab",
@@ -8802,62 +9597,6 @@
       "verified_at": "2026-10-05"
     },
     {
-      "id": "fehd-rr-3151803117",
-      "name_zh": "Food Fiesta",
-      "name_en": "",
-      "lat": 22.312400999999998,
-      "lng": 114.22522199999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（則數未顯示），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（Food Fiesta／牌照3151803117／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJmwBS-wgBBDQRKkpvZ5_ONaQ",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3151803117",
-      "address": "九龍觀塘觀塘道418號 創紀之城第5期APM第2層美食廣場F舖",
-      "google_rating": 3.2,
-      "google_review_count": null,
-      "google_place_id": "ChIJmwBS-wgBBDQRKkpvZ5_ONaQ",
-      "verified_at": "2026-10-05"
-    },
-    {
-      "id": "fehd-rr-3151803418",
-      "name_zh": "The Matcha Tokyo",
-      "name_en": "",
-      "lat": 22.3124282,
-      "lng": 114.2253042,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（60 則），round1 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（The Matcha Tokyo／牌照3151803418／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／60 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvZ1fYV4BBDQR5QBLsv7OOHM",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3151803418",
-      "address": "九龍觀塘觀塘道418號 創紀之城5期 APM 1樓 L1-9B 號舖",
-      "google_rating": 3.3,
-      "google_review_count": 60,
-      "google_place_id": "ChIJvZ1fYV4BBDQR5QBLsv7OOHM",
-      "verified_at": "2026-10-05"
-    },
-    {
       "id": "fehd-rr-3151803728",
       "name_zh": "瑞幸咖啡",
       "name_en": "",
@@ -8886,104 +9625,6 @@
       "verified_at": "2026-10-05"
     },
     {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "ore-ryu-shio-ramen-apm",
-      "name_zh": "俺流塩拉麵（apm）",
-      "name_en": "Ore-no-Ryū Shio Ramen (apm)",
-      "lat": 22.3122355,
-      "lng": 114.2251439,
-      "area": "apm／創紀之城五期",
-      "address": "九龍觀塘道418號創紀之城五期(apm)一樓1號舖",
-      "cuisine": [
-        "日式",
-        "拉麵"
-      ],
-      "tags": [
-        "連鎖",
-        "拉麵",
-        "商場店"
-      ],
-      "lunch_notes": "apm 一樓俺流塩拉麵，塩拉麵專門店正餐午餐。同類拉麵人均多約七十至一百一；未核實官價，午市或會排隊。",
-      "price_level": 2,
-      "sources": [
-        {
-          "name": "apm 官方美食匯萃",
-          "url": "https://www.hkapm.com.hk/dining/",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Photon apm",
-          "url": "https://photon.komoot.io/api/?q=apm+Kwun+Tong",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3／149 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJAzpTuvgBBDQRRWU__2ipf3I",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $70–110（午餐套餐／未核實官價）",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3（149 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.4 kept）",
-      "google_rating": 3,
-      "google_review_count": 149,
-      "google_place_id": "ChIJAzpTuvgBBDQRRWU__2ipf3I"
-    },
-    {
-      "dine_in": true,
-      "serves_lunch": true,
-      "district": "觀塘",
-      "verified_at": "2026-10-05",
-      "id": "tai-er-apm",
-      "name_zh": "太二老壇子酸菜魚（apm）",
-      "name_en": "Tai Er Sour Fish (apm)",
-      "lat": 22.3122555,
-      "lng": 114.2251439,
-      "area": "apm／創紀之城五期",
-      "address": "九龍觀塘道418號創紀之城五期(apm)一樓13號舖",
-      "cuisine": [
-        "川菜",
-        "酸菜魚"
-      ],
-      "tags": [
-        "連鎖",
-        "川菜",
-        "商場店"
-      ],
-      "lunch_notes": "apm 一樓太二老壇子酸菜魚，酸菜魚正餐午餐堂食。同類川菜館人均多約八十至一百四；未核實官價，分量偏大，適合二人分或大食。",
-      "price_level": 2,
-      "sources": [
-        {
-          "name": "apm 官方美食匯萃",
-          "url": "https://www.hkapm.com.hk/dining/",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Photon apm",
-          "url": "https://photon.komoot.io/api/?q=apm+Kwun+Tong",
-          "checked_at": "2026-09-24"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.1／26 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJt8Sg0roBBDQRaY1Z_sJVKOE",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "price_lunch_hkd": "約 $80–140（午餐套餐／未核實官價）",
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.1（26 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "excluded_at": "2026-10-05",
-      "excluded_from": "restaurants（v1.4 kept）",
-      "google_rating": 3.1,
-      "google_review_count": 26,
-      "google_place_id": "ChIJt8Sg0roBBDQRaY1Z_sJVKOE"
-    },
-    {
       "id": "fehd-rl-2251803313",
       "name_zh": "大宅門(觀塘店)",
       "name_en": "",
@@ -9009,38 +9650,6 @@
       "google_rating": 4.5,
       "google_review_count": 2,
       "google_place_id": "ChIJ6UaZ-UQBBDQRiLAz_-1wivs",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rl-2251809755",
-      "name_zh": "舊西貢越南料理",
-      "name_en": "",
-      "lat": 22.3073879,
-      "lng": 114.22403539999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（舊西貢越南料理／牌照2251809755／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxY7jGwABBDQRmUm5SQHRH68",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251809755",
-      "address": "九龍觀塘偉業街223-231號宏利金融中心1樓6號鋪",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJxY7jGwABBDQRmUm5SQHRH68",
       "verified_at": "2026-10-05",
       "excluded_at": "2026-10-05",
       "tags": [
@@ -9080,134 +9689,6 @@
       ]
     },
     {
-      "id": "fehd-rl-2251810476",
-      "name_zh": "祥香園餐廳",
-      "name_en": "Cheung Hong Yuen (Ngau Tau Kok)",
-      "lat": 22.3165336,
-      "lng": 114.2137085,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.5（18 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（祥香園餐廳／牌照2251810476／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.5／18 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJFZ8SJwABBDQRUn_MaPOX86Y",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251810476",
-      "address": "九龍觀塘海濱道77號海濱匯1及2座2樓1號舖",
-      "google_rating": 2.5,
-      "google_review_count": 18,
-      "google_place_id": "ChIJFZ8SJwABBDQRUn_MaPOX86Y",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rl-2251810962",
-      "name_zh": "杏花薈",
-      "name_en": "",
-      "lat": 22.313903999999997,
-      "lng": 114.217732,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.7（27 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（杏花薈／牌照2251810962／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.7／27 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2eTpMQABBDQRPA_gAPM5fo0",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251810962",
-      "address": "九龍觀塘偉業街133號2樓",
-      "google_rating": 2.7,
-      "google_review_count": 27,
-      "google_place_id": "ChIJ2eTpMQABBDQRPA_gAPM5fo0",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rr-3951804020",
-      "name_zh": "大吃大喝",
-      "name_en": "",
-      "lat": 22.3128405,
-      "lng": 114.2214032,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（則數未顯示），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（大吃大喝／牌照3951804020／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJATZ9EwABBDQRy8f93iS5MFs",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3951804020",
-      "address": "九龍觀塘巧明街98號三布目地下G07號鋪",
-      "google_rating": 3.4,
-      "google_review_count": null,
-      "google_place_id": "ChIJATZ9EwABBDQRy8f93iS5MFs",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rl-2251166883",
-      "name_zh": "大家樂",
-      "name_en": "Café de Coral",
-      "lat": 22.314126899999998,
-      "lng": 114.2233304,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（682 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（大家樂／牌照2251166883／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／682 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJBz6cHE8BBDQRNMynOTi2JKU",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251166883",
-      "address": "九龍觀塘康寧道11號冠天閣1樓及2樓(部份)",
-      "google_rating": 3.3,
-      "google_review_count": 682,
-      "google_place_id": "ChIJBz6cHE8BBDQRNMynOTi2JKU",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
       "id": "fehd-rl-2251169749",
       "name_zh": "華豐",
       "name_en": "",
@@ -9240,38 +9721,6 @@
       ]
     },
     {
-      "id": "fehd-rl-2251188632",
-      "name_zh": "樂翠園海鮮菜館",
-      "name_en": "Lok Chui Yuen",
-      "lat": 22.315232899999998,
-      "lng": 114.2224543,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（271 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（樂翠園海鮮菜館／牌照2251188632／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／271 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJUfFC0E4BBDQRxe7y5L6g_WI",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251188632",
-      "address": "九龍觀塘宜安街6A號地下及平台",
-      "google_rating": 3.4,
-      "google_review_count": 271,
-      "google_place_id": "ChIJUfFC0E4BBDQRxe7y5L6g_WI",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
       "id": "fehd-rl-2251801706",
       "name_zh": "新桃園",
       "name_en": "",
@@ -9297,38 +9746,6 @@
       "google_rating": 4.1,
       "google_review_count": 9,
       "google_place_id": "ChIJPT3D9E4BBDQRtQ5U-Z0J-TQ",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rl-2251804167",
-      "name_zh": "海港酒家",
-      "name_en": "Victoria Harbour Restaurant (Kwun Tong)",
-      "lat": 22.3127037,
-      "lng": 114.2245215,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（1038 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（海港酒家／牌照2251804167／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／1038 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ91DRmE8BBDQRDF78WTBl2Ng",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251804167",
-      "address": "九龍觀塘觀塘道414號壹亞太中心7樓",
-      "google_rating": 3.4,
-      "google_review_count": 1038,
-      "google_place_id": "ChIJ91DRmE8BBDQRDF78WTBl2Ng",
       "verified_at": "2026-10-05",
       "excluded_at": "2026-10-05",
       "tags": [
@@ -9400,38 +9817,6 @@
       ]
     },
     {
-      "id": "fehd-rl-2251808910",
-      "name_zh": "檸檬冰室",
-      "name_en": "Lemon Cafe (Kwun Tong)",
-      "lat": 22.3141848,
-      "lng": 114.22340349999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（359 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（檸檬冰室／牌照2251808910／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／359 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxYc0f-EBBDQRysuxO2tcy50",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251808910",
-      "address": "九龍觀塘康寧道11號冠天閣地下高層",
-      "google_rating": 3.4,
-      "google_review_count": 359,
-      "google_place_id": "ChIJxYc0f-EBBDQRysuxO2tcy50",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
       "id": "fehd-rl-2251808965",
       "name_zh": "蠔燒",
       "name_en": "",
@@ -9483,102 +9868,6 @@
       "google_rating": null,
       "google_review_count": null,
       "google_place_id": "ChIJlWjoEwABBDQRUVaWeFZCcAg",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rl-2251809889",
-      "name_zh": "Simplylife Bakery Cafe",
-      "name_en": "",
-      "lat": 22.3127329,
-      "lng": 114.22507139999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（132 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（Simplylife Bakery Cafe／牌照2251809889／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／132 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ07mxld0BBDQRejPVI-N7pus",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251809889",
-      "address": "九龍觀塘觀塘道418號創紀之城第五期 APM第一層L1-XSITE 1D號舖A部份",
-      "google_rating": 3.4,
-      "google_review_count": 132,
-      "google_place_id": "ChIJ07mxld0BBDQRejPVI-N7pus",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rl-2251810360",
-      "name_zh": "雲桂香",
-      "name_en": "",
-      "lat": 22.3108771,
-      "lng": 114.2261728,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（15 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（雲桂香／牌照2251810360／普通食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／15 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ70CSCgABBDQRybZLZKqHhQY",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "2251810360",
-      "address": "九龍觀塘成業街7號 寧晉中心東廣場一樓 110, 111 及112號鋪",
-      "google_rating": 3.4,
-      "google_review_count": 15,
-      "google_place_id": "ChIJ70CSCgABBDQRybZLZKqHhQY",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rr-3151010658",
-      "name_zh": "美都",
-      "name_en": "Mei Do Cafe",
-      "lat": 22.3155339,
-      "lng": 114.225708,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.2（254 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（美都／牌照3151010658／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.2／254 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJtbC5FU4BBDQRsmhWTU30gtc",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3151010658",
-      "address": "九龍觀塘 協和街93號地下",
-      "google_rating": 3.2,
-      "google_review_count": 254,
-      "google_place_id": "ChIJtbC5FU4BBDQRsmhWTU30gtc",
       "verified_at": "2026-10-05",
       "excluded_at": "2026-10-05",
       "tags": [
@@ -9643,102 +9932,6 @@
       "google_rating": 3.7,
       "google_review_count": 60,
       "google_place_id": "ChIJH4IQ804BBDQRwXVX4U4xHUM",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rr-3151802716",
-      "name_zh": "樂園魚旦專家",
-      "name_en": "Lok Yuen Master of Fishball",
-      "lat": 22.315721099999998,
-      "lng": 114.225926,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.4（179 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（樂園魚旦專家／牌照3151802716／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.4／179 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ16Sz9q8BBDQRp1FrXHpjswc",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3151802716",
-      "address": "九龍觀塘協和街 93,95,99,101,103,105, 107,109,111,113及115號 建德大樓地下C鋪",
-      "google_rating": 3.4,
-      "google_review_count": 179,
-      "google_place_id": "ChIJ16Sz9q8BBDQRp1FrXHpjswc",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rr-3151802974",
-      "name_zh": "春香湖",
-      "name_en": "",
-      "lat": 22.3187711,
-      "lng": 114.21504089999999,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 3.3（31 則），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（春香湖／牌照3151802974／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（3.3／31 則）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJU8CoMfQBBDQRdaf3-XF3MNY",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3151802974",
-      "address": "九龍觀塘道257-269號 永英樓地下F號舖",
-      "google_rating": 3.3,
-      "google_review_count": 31,
-      "google_place_id": "ChIJU8CoMfQBBDQRdaf3-XF3MNY",
-      "verified_at": "2026-10-05",
-      "excluded_at": "2026-10-05",
-      "tags": [
-        "hold_ratings_round"
-      ]
-    },
-    {
-      "id": "fehd-rr-3151803630",
-      "name_zh": "嘉季",
-      "name_en": "",
-      "lat": 22.311038099999998,
-      "lng": 114.2263043,
-      "exclude_reason": "google_rating_below_3.5：Google 地圖公開頁 2.3（則數未顯示），hold-ratings 門檻 3.5（2026-10-05）",
-      "sources": [
-        {
-          "name": "食環署持牌食肆 XML（嘉季／牌照3151803630／小食食肆）",
-          "type": "fehd_licence",
-          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
-          "checked_at": "2026-10-05"
-        },
-        {
-          "name": "Google 地圖公開頁評分（2.3／則數未顯示）",
-          "type": "google_maps_rating",
-          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRUiMNwABBDQRTCkMpen5m6A",
-          "checked_at": "2026-10-05"
-        }
-      ],
-      "fehd_licence_no": "3151803630",
-      "address": "九龍觀塘成業街7號東廣場寧晉中心地下11號鋪",
-      "google_rating": 2.3,
-      "google_review_count": null,
-      "google_place_id": "ChIJRUiMNwABBDQRTCkMpen5m6A",
       "verified_at": "2026-10-05",
       "excluded_at": "2026-10-05",
       "tags": [
@@ -10234,9 +10427,9 @@
     }
   ],
   "meta": {
-    "status": "dessert-sweep applied",
+    "status": "rating-backfill 2026-10-07",
     "phase": "ntk-kt-dessert-sweep",
-    "notes_zh": "v1.6（2026-10-05）：dessert-sweep。用戶抽到龍記甜品（宜安街）屬純甜品，移 excluded。全量用 Google 類別掃漏網：明確剔 1 間；邊界 2 間列 review/ntk-kt-dessert-borderline；例外保留（有午餐主食證據）1 間。腳本加 nonmeal_rules 硬規則。冇用 OpenRice；收費 API：0。｜2026-10-05 邊界個案批核：移 excluded asok-thai-apm, coffee-art-east-plaza（餅店／咖啡店非正餐）。",
+    "notes_zh": "v1.8（2026-10-07）：評分門檻回填。候選 64；搬入 kept 58；維持 excluded nonmeal=4 closed=0 no_lunch=2 no_dine_in=0 no_coords=0。收費 API：0。｜v1.6（2026-10-05）：dessert-sweep。用戶抽到龍記甜品（宜安街）屬純甜品，移 excluded。全量用 Google 類別掃漏網：明確剔 1 間；邊界 2 間列 review/ntk-kt-dessert-borderline；例外保留（有午餐主食證據）1 間。腳本加 nonmeal_rules 硬規則。冇用 OpenRice；收費 API：0。｜2026-10-05 邊界個案批核：移 excluded asok-thai-apm, coffee-art-east-plaza（餅店／咖啡店非正餐）。",
     "bbox_approx": [
       22.305,
       114.22,
@@ -10248,11 +10441,11 @@
       114.225
     ],
     "paid_api_calls": 0,
-    "previous_version": "1.6",
-    "previous_kept": 128,
-    "previous_excluded": 108,
-    "kept": 128,
-    "excluded": 109,
+    "previous_version": "1.7",
+    "previous_kept": 126,
+    "previous_excluded": 111,
+    "kept": 184,
+    "excluded": 53,
     "round1": {
       "review_file": "review/ntk-kt-round1.json",
       "apply_report": "review/ntk-kt-round1-apply-report.json",
@@ -10436,6 +10629,78 @@
         "kwun-tong/hong-hon-meals-ym2",
         "kwun-tong/uo-show-ym2"
       ]
+    },
+    "rating_backfill": {
+      "applied_at": "2026-10-07",
+      "approved_by": "CEO",
+      "backup": "restaurants.json.bak-pre-rating-backfill-2026-10-07",
+      "candidates": 64,
+      "moved": 58,
+      "moved_ids": [
+        "tai-hing-crocodile-center",
+        "mixian-zhen-crocodile-center",
+        "akita-ice-house-crocodile-center",
+        "tao-heung-tea-house-crocodile-center",
+        "yuk-to-hin-crocodile-center",
+        "cafe-de-coral-tg-place",
+        "tamjai-samgor-tg-place",
+        "tamjai-samgor-quayside",
+        "baifang-bento-ym2",
+        "mos-burger-apm",
+        "pizza-hut-apm",
+        "sen-ryo-apm",
+        "pho-woo-quayside",
+        "ochicken-quayside",
+        "ben-gor-mixian-one-bay-east",
+        "lemon-bing-satt-cos",
+        "jade-restaurant-mg-tower",
+        "fehd-rl-2251060239",
+        "fehd-rl-2251806233",
+        "fehd-rl-2251808008",
+        "fehd-rl-2251809199",
+        "fehd-rl-2251809870",
+        "fehd-rl-2251810023",
+        "fehd-rl-2251810111",
+        "fehd-rl-2251810865",
+        "fehd-rl-3851811313",
+        "fehd-rl-3851811359",
+        "fehd-rr-3151801999",
+        "fehd-rr-3151803384",
+        "fehd-rl-2251283511",
+        "fehd-rl-2251800323",
+        "fehd-rl-2251803216",
+        "fehd-rl-2251803429",
+        "fehd-rl-2251805276",
+        "fehd-rl-2251810528",
+        "fehd-rl-2251810801",
+        "fehd-rl-2251810838",
+        "fehd-rl-3851811243",
+        "fehd-rr-3151801883",
+        "fehd-rr-3151801917",
+        "fehd-rr-3151803117",
+        "fehd-rr-3151803418",
+        "ore-ryu-shio-ramen-apm",
+        "tai-er-apm",
+        "fehd-rl-2251809755",
+        "fehd-rl-2251810476",
+        "fehd-rl-2251810962",
+        "fehd-rr-3951804020",
+        "fehd-rl-2251166883",
+        "fehd-rl-2251188632",
+        "fehd-rl-2251804167",
+        "fehd-rl-2251808910",
+        "fehd-rl-2251809889",
+        "fehd-rl-2251810360",
+        "fehd-rr-3151010658",
+        "fehd-rr-3151802716",
+        "fehd-rr-3151802974",
+        "fehd-rr-3151803630"
+      ],
+      "stayed_excluded_nonmeal": 4,
+      "stayed_excluded_closed": 0,
+      "stayed_excluded_no_lunch": 2,
+      "stayed_excluded_no_dine_in": 0,
+      "stayed_excluded_no_coords": 0
     }
   }
 }
