@@ -1,0 +1,167 @@
+{
+  "generated_note": "synced from src/data/*-restaurants.json via scripts/sync-admin-data.sh",
+  "districts": [
+    {
+      "slug": "causeway-bay",
+      "file": "causeway-bay-restaurants.json",
+      "district": "銅鑼灣",
+      "version": "1.0",
+      "updated_at": "2026-10-07",
+      "kept": 357,
+      "excluded": 159
+    },
+    {
+      "slug": "central-admiralty",
+      "file": "central-admiralty-restaurants.json",
+      "district": "中環／金鐘",
+      "version": "1.1",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 583,
+      "excluded": 309
+    },
+    {
+      "slug": "jordan",
+      "file": "jordan-restaurants.json",
+      "district": "佐敦",
+      "version": "1.0",
+      "updated_at": "2026-09-26",
+      "kept": 25,
+      "excluded": 8
+    },
+    {
+      "slug": "kowloon-bay",
+      "file": "kowloon-bay-restaurants.json",
+      "district": "九龍灣",
+      "version": "2.1",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 166,
+      "excluded": 30
+    },
+    {
+      "slug": "kwai-fong",
+      "file": "kwai-fong-restaurants.json",
+      "district": "葵芳",
+      "version": "1.0",
+      "updated_at": "2026-10-07",
+      "kept": 203,
+      "excluded": 53
+    },
+    {
+      "slug": "kwun-tong",
+      "file": "kwun-tong-restaurants.json",
+      "district": "觀塘",
+      "version": "1.8",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 184,
+      "excluded": 53
+    },
+    {
+      "slug": "lam-tin",
+      "file": "lam-tin-restaurants.json",
+      "district": "藍田",
+      "version": "1.2",
+      "updated_at": "2026-09-25",
+      "kept": 24,
+      "excluded": 8
+    },
+    {
+      "slug": "lei-yue-mun",
+      "file": "lei-yue-mun-restaurants.json",
+      "district": "鯉魚門",
+      "version": "1.2",
+      "updated_at": "2026-09-25",
+      "kept": 15,
+      "excluded": 10
+    },
+    {
+      "slug": "mong-kok",
+      "file": "mong-kok-restaurants.json",
+      "district": "旺角",
+      "version": "1.1",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 668,
+      "excluded": 286
+    },
+    {
+      "slug": "ngau-tau-kok",
+      "file": "ngau-tau-kok-restaurants.json",
+      "district": "牛頭角",
+      "version": "1.9",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 155,
+      "excluded": 101
+    },
+    {
+      "slug": "north-point",
+      "file": "north-point-restaurants.json",
+      "district": "北角",
+      "version": "1.0",
+      "updated_at": "2026-10-07",
+      "kept": 103,
+      "excluded": 18
+    },
+    {
+      "slug": "quarry-bay",
+      "file": "quarry-bay-restaurants.json",
+      "district": "鰂魚涌／太古",
+      "version": "1.0",
+      "updated_at": "2026-10-07",
+      "kept": 135,
+      "excluded": 30
+    },
+    {
+      "slug": "sau-mau-ping",
+      "file": "sau-mau-ping-restaurants.json",
+      "district": "秀茂坪",
+      "version": "1.2",
+      "updated_at": "2026-09-25",
+      "kept": 16,
+      "excluded": 7
+    },
+    {
+      "slug": "tseung-kwan-o",
+      "file": "tseung-kwan-o-restaurants.json",
+      "district": "將軍澳",
+      "version": "2.1",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 351,
+      "excluded": 79
+    },
+    {
+      "slug": "tsim-sha-tsui",
+      "file": "tsim-sha-tsui-restaurants.json",
+      "district": "尖沙咀",
+      "version": "1.0",
+      "updated_at": "2026-09-25",
+      "kept": 45,
+      "excluded": 11
+    },
+    {
+      "slug": "wan-chai",
+      "file": "wan-chai-restaurants.json",
+      "district": "灣仔",
+      "version": "1.1",
+      "updated_at": "2026-10-07T12:00:00+08:00",
+      "kept": 579,
+      "excluded": 154
+    },
+    {
+      "slug": "yau-ma-tei",
+      "file": "yau-ma-tei-restaurants.json",
+      "district": "油麻地",
+      "version": "1.0",
+      "updated_at": "2026-09-26",
+      "kept": 17,
+      "excluded": 9
+    },
+    {
+      "slug": "yau-tong",
+      "file": "yau-tong-restaurants.json",
+      "district": "油塘",
+      "version": "1.2",
+      "updated_at": "2026-09-25",
+      "kept": 20,
+      "excluded": 10
+    }
+  ]
+}

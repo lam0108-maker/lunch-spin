@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <!--
+    Default strict-origin-when-cross-origin strips path on cross-origin Maps
+    requests → Referer becomes https://lam0108-maker.github.io/ which often
+    fails HTTP referrer rules like https://lam0108-maker.github.io/*
+    Full URL keeps /lunch-spin/map-picker.html in the Referer.
+  -->
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+  <title>地圖揀位</title>
+  <style>
+    html, body, #map { margin: 0; padding: 0; width: 100%; height: 100%; background: #e8eef2; }
+    .box {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      height: 100%; padding: 24px; box-sizing: border-box; text-align: center;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    h1 { font-size: 16px; color: #1a1a1a; margin: 0 0 12px; }
+    p { font-size: 13px; color: #6b6b6b; line-height: 1.5; margin: 0; max-width: 320px; }
+    code { font-size: 12px; background: #fff; padding: 2px 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var key = (params.get('key') || '').trim();
+      var lat = parseFloat(params.get('lat') || '');
+      var lng = parseFloat(params.get('lng') || '');
+      var zoom = parseFloat(params.get('zoom') || '');
+
+      if (!key || !/^[A-Za-z0-9_-]+$/.test(key)) {
+        document.getElementById('map').innerHTML =
+          '<div class="box"><h1>未設定 Google Maps API key</h1>' +
+          '<p>請喺 <code>.env</code> 設定 <code>EXPO_PUBLIC_GOOGLE_MAPS_API_KEY</code>' +
+          '（或重用 <code>EXPO_PUBLIC_GOOGLE_PLACES_API_KEY</code>），並喺 Google Cloud Console 啟用' +
+          ' <strong>Maps JavaScript API</strong>。詳見 <code>SETUP.md</code>。</p></div>';
+        return;
+      }
+
+      if (!Number.isFinite(lat)) lat = 22.3193;
+      if (!Number.isFinite(lng)) lng = 114.1694;
+      if (!Number.isFinite(zoom)) zoom = 15;
+
+      window.INITIAL = { lat: lat, lng: lng, zoom: zoom };
+
+      var parentOrigin = window.location.origin;
+
+      function postCenter(map) {
+        var c = map.getCenter();
+        if (!c) return;
+        var payload = JSON.stringify({
+          type: 'center',
+          lat: c.lat(),
+          lng: c.lng(),
+          zoom: map.getZoom()
+        });
+        try {
+          if (window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
+            window.ReactNativeWebView.postMessage(payload);
+          }
+        } catch (e) {}
+        try {
+          if (window.parent && window.parent !== window) {
+            window.parent.postMessage(payload, parentOrigin);
+          }
+        } catch (e) {}
+      }
+
+      function triggerResize(map) {
+        try {
+          if (window.google && google.maps && google.maps.event) {
+            google.maps.event.trigger(map, 'resize');
+            var init = window.INITIAL || {};
+            var c = map.getCenter();
+            if (c) map.setCenter(c);
+            else if (Number.isFinite(init.lat) && Number.isFinite(init.lng)) {
+              map.setCenter({ lat: init.lat, lng: init.lng });
+            }
+          }
+        } catch (e) {}
+      }
+
+      window.initMapPicker = function () {
+        var init = window.INITIAL || { lat: 22.3193, lng: 114.1694, zoom: 15 };
+        var el = document.getElementById('map');
+        var map = new google.maps.Map(el, {
+          center: { lat: init.lat, lng: init.lng },
+          zoom: init.zoom,
+          disableDefaultUI: false,
+          zoomControl: true,
+          mapTypeControl: false,
+          streetViewControl: false,
+          fullscreenControl: false,
+          clickableIcons: false
+        });
+        map.addListener('idle', function () { postCenter(map); });
+        map.addListener('click', function (e) {
+          if (e.latLng) map.panTo(e.latLng);
+        });
+
+        // Maps inits blank if container was 0-size / mid-layout; fix on show + resize.
+        triggerResize(map);
+        setTimeout(function () { triggerResize(map); }, 100);
+        setTimeout(function () { triggerResize(map); }, 400);
+        if (typeof ResizeObserver !== 'undefined') {
+          var ro = new ResizeObserver(function () { triggerResize(map); });
+          ro.observe(el);
+        }
+        window.addEventListener('resize', function () { triggerResize(map); });
+      };
+
+      var s = document.createElement('script');
+      s.src =
+        'https://maps.googleapis.com/maps/api/js?key=' +
+        encodeURIComponent(key) +
+        '&callback=initMapPicker';
+      s.async = true;
+      s.defer = true;
+      s.referrerPolicy = 'no-referrer-when-downgrade';
+      document.head.appendChild(s);
+    })();
+  </script>
+</body>
+</html>

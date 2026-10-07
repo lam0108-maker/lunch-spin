@@ -1,0 +1,823 @@
+{
+  "district": "油麻地",
+  "version": "1.0",
+  "updated_at": "2026-09-26",
+  "criteria": {
+    "serves_lunch": true,
+    "dine_in": true,
+    "exclude": [
+      "bakery",
+      "pure_cafe",
+      "takeaway_only",
+      "no_dine_in"
+    ]
+  },
+  "restaurants": [
+    {
+      "id": "tamjai-yunnan-nathan-ymt",
+      "name_zh": "譚仔雲南米線（油麻地彌敦道）",
+      "name_en": "TamJai Yunnan Mixian (Yau Ma Tei Nathan Road)",
+      "lat": 22.3122011,
+      "lng": 114.1710748,
+      "area": "彌敦道／油麻地站",
+      "address": "油麻地彌敦道514-516號地下A舖",
+      "cuisine": [
+        "雲南菜",
+        "米線",
+        "快餐"
+      ],
+      "tags": [
+        "連鎖",
+        "有營食肆",
+        "寫字樓午市"
+      ],
+      "lunch_notes": "EatSmart 列譚仔雲南米線（彌敦道）為快餐／麵食；官網分店頁列平日／週末 11:00–22:00，近油麻地站，適合午市米線堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $45–70（午餐／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "EatSmart：譚仔雲南米線（彌敦道）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10314",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "譚仔雲南米線官網：Yau Ma Tei 分店",
+          "url": "https://tamjaimixian.com/en/stores/yau-ma-tei/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 錦華樓 514-516 Nathan Road",
+          "url": "https://photon.komoot.io/api/?q=Kam+Wa+Building+514+Nathan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "ajisen-lung-ma-ymt",
+      "name_zh": "味千拉麵（油麻地龍馬大廈）",
+      "name_en": "Ajisen Ramen (Lung Ma Building, Yau Ma Tei)",
+      "lat": 22.3142278,
+      "lng": 114.1706705,
+      "area": "彌敦道／龍馬大廈",
+      "address": "油麻地彌敦道550號龍馬大廈地下A號舖",
+      "cuisine": [
+        "日本菜",
+        "拉麵"
+      ],
+      "tags": [
+        "連鎖",
+        "寫字樓午市"
+      ],
+      "lunch_notes": "味千集團官網列油麻地龍馬分店，星期一至日 07:30–23:00；全日供應拉麵正餐，覆蓋平日午市堂食。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–100（午餐／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "味千官網：油麻地彌敦道／龍馬",
+          "url": "https://www.ajisen.com.hk/contact-us/ajisen-ramen-yau-ma-tei/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 龍馬大廈 550-552 Nathan Road",
+          "url": "https://photon.komoot.io/api/?q=%E9%BE%8D%E9%A6%AC%E5%A4%A7%E5%BB%88+%E5%BD%8C%E6%95%A6%E9%81%93550",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "mcdonalds-nathan-tower-ymt",
+      "name_zh": "麥當勞（彌敦行）",
+      "name_en": "McDonald's (Nathan Tower)",
+      "lat": 22.31242077,
+      "lng": 114.171037,
+      "area": "彌敦道／彌敦行",
+      "address": "油麻地彌敦道518-520號彌敦行地下A及C舖",
+      "cuisine": [
+        "快餐",
+        "美式"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "寫字樓午市"
+      ],
+      "lunch_notes": "麥當勞香港官網分店頁列彌敦行，地址油麻地彌敦道518-520號，服務包括堂食；近油麻地站，全日／長時間營業覆蓋午市。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $36–55",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "麥當勞香港：彌敦行分店",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/286/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 彌敦行 518-520 Nathan Road",
+          "url": "https://photon.komoot.io/api/?q=Nathan+Tower+518+Nathan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "mcdonalds-prosperous-garden-ymt",
+      "name_zh": "麥當勞（駿發花園）",
+      "name_en": "McDonald's (Prosperous Garden)",
+      "lat": 22.310413,
+      "lng": 114.169037,
+      "area": "眾坊街／駿發花園",
+      "address": "油麻地眾坊街3號駿發花園G2號舖",
+      "cuisine": [
+        "快餐",
+        "美式"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "寫字樓午市"
+      ],
+      "lunch_notes": "麥當勞香港官網分店資料列駿發花園，地址眾坊街3號，設施含堂食（eatin）；眾坊街／油麻地站西側午市選擇。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $36–55",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "麥當勞香港：駿發花園分店（store 134）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/134/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 駿發花園 Public Square Street",
+          "url": "https://photon.komoot.io/api/?q=Prosperous+Garden+3+Public+Square+Street+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "mcdonalds-full-win-ymt",
+      "name_zh": "麥當勞（富運商業中心）",
+      "name_en": "McDonald's (Full Win Commercial Centre)",
+      "lat": 22.3147679,
+      "lng": 114.170208,
+      "area": "彌敦道／富運商業中心",
+      "address": "油麻地彌敦道569-573A號富運商業中心地下B舖",
+      "cuisine": [
+        "快餐",
+        "美式"
+      ],
+      "tags": [
+        "連鎖",
+        "快餐",
+        "24小時"
+      ],
+      "lunch_notes": "麥當勞香港官網分店資料列富運商業中心，地址油麻地彌敦道569-573A，設施含堂食及24小時；彌敦道北段近登打士／油麻地標籤範圍。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $36–55",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "麥當勞香港：富運商業中心分店（store 102）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/102/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 富運商業中心 Nathan Road",
+          "url": "https://photon.komoot.io/api/?q=Full+Win+Commercial+Centre+573+Nathan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "haidilao-kowloon-building-ymt",
+      "name_zh": "海底撈火鍋（油麻地九龍行）",
+      "name_en": "Haidilao Hot Pot (Kowloon Building, Yau Ma Tei)",
+      "lat": 22.3141253,
+      "lng": 114.1701789,
+      "area": "彌敦道／九龍行",
+      "address": "九龍油麻地彌敦道555號九龍行2樓及3樓",
+      "cuisine": [
+        "四川菜",
+        "火鍋"
+      ],
+      "tags": [
+        "連鎖",
+        "火鍋",
+        "24小時"
+      ],
+      "lunch_notes": "海底撈香港官網（2026年9月更新）列油麻地店九龍行2–3樓，24小時全年無休堂食；平日午市可作火鍋正餐（人均視鍋底／配料，官價以門店為準）。",
+      "price_level": 3,
+      "price_lunch_hkd": "約 $150–280（火鍋午市／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "海底撈香港官網：油麻地店",
+          "url": "https://www.haidilao.com.hk/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 九龍行 555 Nathan Road",
+          "url": "https://photon.komoot.io/api/?q=Kowloon+Building+555+Nathan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "city-cafe-cityview-ymt",
+      "name_zh": "城景閣（城景國際）",
+      "name_en": "City Café (The Cityview)",
+      "lat": 22.3137265,
+      "lng": 114.1714979,
+      "area": "窩打老道／城景國際",
+      "address": "香港九龍窩打老道23號城景國際1樓",
+      "cuisine": [
+        "國際自助餐",
+        "西式"
+      ],
+      "tags": [
+        "酒店餐飲",
+        "自助午餐"
+      ],
+      "lunch_notes": "城景國際（中華基督教青年會）官網列城景閣供應自助午餐 12:00–14:30；官方優惠頁列星期一至五成人約 $218（免加一，優惠期至2026-10-31，須預訂／以官網條款為準）。",
+      "price_level": 3,
+      "price_lunch_hkd": "平日自助午餐約 $218（官網優惠／免加一）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "城景國際：城景閣",
+          "url": "https://thecityview.com.hk/hk/dining-outlets/city-cafe/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "城景國際：環球美饌自助午餐",
+          "url": "https://thecityview.com.hk/hk/city-cafe-international-lunch-buffet/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 中華基督教青年會／城景國際 窩打老道23",
+          "url": "https://photon.komoot.io/api/?q=Chinese+YMCA+The+Cityview+23+Waterloo+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "the-balcony-cityview-ymt",
+      "name_zh": "樂雅軒（城景國際）",
+      "name_en": "The Balcony (The Cityview)",
+      "lat": 22.3137265,
+      "lng": 114.1714979,
+      "area": "窩打老道／城景國際",
+      "address": "香港九龍窩打老道23號城景國際1樓",
+      "cuisine": [
+        "粵菜",
+        "點心"
+      ],
+      "tags": [
+        "酒店餐飲",
+        "點心"
+      ],
+      "lunch_notes": "城景國際官網列樂雅軒供應點心／粵菜；任點任食點心套餐頁列每天 11:00–15:00，原價約 $298／位（另加一；優惠條款以官網為準）。屬平日午市堂食點心。",
+      "price_level": 3,
+      "price_lunch_hkd": "任點任食點心約 $298（官網原價／另加一）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "城景國際：樂雅軒任點任食點心",
+          "url": "https://thecityview.com.hk/hk/all-you-can-eat-dim-sum-menu/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "城景國際：餐飲一覽",
+          "url": "https://thecityview.com.hk/hk/dining-outlets/",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 中華基督教青年會／城景國際 窩打老道23",
+          "url": "https://photon.komoot.io/api/?q=Chinese+YMCA+The+Cityview+23+Waterloo+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "cafe330-kwong-wah-ymt",
+      "name_zh": "cafe330（廣華醫院）",
+      "name_en": "cafe330 (Kwong Wah Hospital)",
+      "lat": 22.315131,
+      "lng": 114.1720769,
+      "area": "窩打老道／廣華醫院",
+      "address": "九龍油麻地窩打老道25號廣華醫院新大樓地下大堂中庭",
+      "cuisine": [
+        "西式",
+        "輕食",
+        "素食"
+      ],
+      "tags": [
+        "社企",
+        "有營食肆",
+        "醫院"
+      ],
+      "lunch_notes": "EatSmart 列 cafe330（廣華醫院）為西餐／輕食／素食；新生精神康復會社企頁列廣華醫院分店，平日上午至晚間營業，開放予公眾及院內人士堂食輕食／正餐簡餐（非職員專用飯堂）。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–80（輕食／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "EatSmart：cafe330（廣華醫院）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10649",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "新生精神康復會：cafe330 廣華醫院",
+          "url": "https://www.nlpra.org.hk/tc/social_enterprises/our%20secatering/65",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 廣華醫院 窩打老道25",
+          "url": "https://photon.komoot.io/api/?q=Kwong+Wah+Hospital+25+Waterloo+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "amber-thai-man-ming-ymt",
+      "name_zh": "安柏娃泰國燒烤菜館（油麻地）",
+      "name_en": "Amber Thai BBQ (Yau Ma Tei)",
+      "lat": 22.3121332,
+      "lng": 114.1709414,
+      "area": "文明里",
+      "address": "油麻地文明里2號地下",
+      "cuisine": [
+        "泰國菜",
+        "亞洲菜"
+      ],
+      "tags": [
+        "有營食肆",
+        "街舖"
+      ],
+      "lunch_notes": "EatSmart 列安柏娃泰國燒烤菜館（油麻地）為亞洲菜／東南亞菜，地址文明里2號地下；屬可堂食泰菜正餐，平日午市時段一般有供應（以店舖當日為準）。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "EatSmart：安柏娃泰國燒烤菜館（油麻地）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10198",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 文明里 油麻地",
+          "url": "https://photon.komoot.io/api/?q=Man+Ming+Lane+Yau+Ma+Tei+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "tin-kee-fishball-pitt-ymt",
+      "name_zh": "田記魚蛋牛腩專門店（碧街）",
+      "name_en": "Tin Kee Fish Ball & Beef Brisket (Pitt Street)",
+      "lat": 22.31424,
+      "lng": 114.170522,
+      "area": "碧街",
+      "address": "油麻地碧街45號地下C1號舖",
+      "cuisine": [
+        "港式",
+        "粉麵",
+        "快餐"
+      ],
+      "tags": [
+        "有營食肆",
+        "粉麵"
+      ],
+      "lunch_notes": "EatSmart 列田記魚蛋牛腩專門店（碧街）為快餐／麵食，地址油麻地碧街45號；粉麵牛腩類正餐，適合平日午市堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–70（午餐／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "EatSmart：田記魚蛋牛腩專門店（碧街）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10200",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 碧街 油麻地",
+          "url": "https://photon.komoot.io/api/?q=Pitt+Street+Yau+Ma+Tei+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "tai-wah-noodles-portland-ymt",
+      "name_zh": "泰華粉麵快餐",
+      "name_en": "Tai Wah Noodles Fast Food",
+      "lat": 22.3131005,
+      "lng": 114.1700518,
+      "area": "砵蘭街",
+      "address": "油麻地砵蘭街44號地舖",
+      "cuisine": [
+        "茶餐廳",
+        "粉麵"
+      ],
+      "tags": [
+        "有營食肆",
+        "茶餐廳"
+      ],
+      "lunch_notes": "EatSmart 列泰華粉麵快餐為茶餐廳／麵食／輕食，地址油麻地砵蘭街44號地舖；屬粉麵茶餐廳堂食，覆蓋平日午市。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $40–65（午餐／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "EatSmart：泰華粉麵快餐",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10679",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 砵蘭街44",
+          "url": "https://photon.komoot.io/api/?q=44+Portland+Street+Yau+Ma+Tei+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "pizza-max-bistro-shanghai-ymt",
+      "name_zh": "Pizza Max Bistro",
+      "name_en": "Pizza Max Bistro",
+      "lat": 22.3056663,
+      "lng": 114.168865,
+      "area": "上海街南",
+      "address": "油麻地上海街22號地舖",
+      "cuisine": [
+        "西餐",
+        "東南亞菜",
+        "薄餅"
+      ],
+      "tags": [
+        "有營食肆",
+        "西餐廳"
+      ],
+      "lunch_notes": "EatSmart 列 Pizza Max Bistro 為西餐／東南亞菜／麵食等，地址油麻地上海街22號地舖；屬可堂食西式正餐。座標為上海街南段／近佐敦道街級近似。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–120（午餐／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "EatSmart：Pizza Max Bistro",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10898",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 上海街／佐敦道一帶（街級近似）",
+          "url": "https://photon.komoot.io/api/?q=Shanghai+Street+Jordan+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "jinfa-shunde-temple-ymt",
+      "name_zh": "金發·順德乾蒸菜（廟街）",
+      "name_en": "Jin Fa Shunde Steamed Dishes (Temple Street)",
+      "lat": 22.3045554,
+      "lng": 114.1695128,
+      "area": "廟街南",
+      "address": "佐敦廟街259A號怡齡閣地下D號舖",
+      "cuisine": [
+        "順德菜",
+        "中菜"
+      ],
+      "tags": [
+        "有營食肆",
+        "廟街"
+      ],
+      "lunch_notes": "EatSmart 列金發·順德乾蒸菜，地址廟街259A怡齡閣；佐敦 seed 已按邊界將廟街南段歸油麻地下批。屬中菜廳堂食正餐。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $70–130（午餐／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "EatSmart：金發·順德乾蒸菜",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10895",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 怡齡閣 廟街259A",
+          "url": "https://photon.komoot.io/api/?q=Ealing+Court+259A+Temple+Street+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "fujinxuan-temple-ymt",
+      "name_zh": "富金軒雲南米線（廟街）",
+      "name_en": "Fu Jin Xuan Yunnan Mixian (Temple Street)",
+      "lat": 22.3045554,
+      "lng": 114.1695128,
+      "area": "廟街南",
+      "address": "佐敦廟街259A號地下E號舖",
+      "cuisine": [
+        "雲南菜",
+        "米線"
+      ],
+      "tags": [
+        "有營食肆",
+        "廟街"
+      ],
+      "lunch_notes": "EatSmart 列富金軒雲南米線，地址廟街259A；佐敦 seed 剔除並註明歸油麻地下批。屬米線／中菜堂食。",
+      "price_level": 1,
+      "price_lunch_hkd": "約 $45–75（午餐／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "EatSmart：富金軒雲南米線",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10896",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 怡齡閣 廟街259A",
+          "url": "https://photon.komoot.io/api/?q=Ealing+Court+259A+Temple+Street+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "salaam-namaste-canton-ymt",
+      "name_zh": "Salaam Namaste（沙拉姆咖哩屋）",
+      "name_en": "Salaam Namaste",
+      "lat": 22.3141279,
+      "lng": 114.1680453,
+      "area": "廣東道／永發大廈",
+      "address": "九龍油麻地廣東道847-865號永發大廈地下6號舖",
+      "cuisine": [
+        "印度菜",
+        "亞洲菜"
+      ],
+      "tags": [
+        "有營食肆",
+        "咖哩"
+      ],
+      "lunch_notes": "EatSmart 列 Salaam Namaste（沙拉姆咖哩屋）為亞洲菜／素食／輕食，地址油麻地廣東道永發大廈；屬可堂食印度／咖哩正餐。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–110（午餐／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "EatSmart：Salaam Namaste（沙拉姆咖哩屋）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=6158",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 永發大廈 廣東道847-865",
+          "url": "https://photon.komoot.io/api/?q=Winfield+Building+847+Canton+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "ma-mui-dimsum-winfield-ymt",
+      "name_zh": "孖妹點心‧又記小廚（永發大廈）",
+      "name_en": "Ma Mui Dim Sum & Yau Kee Kitchen (Winfield Building)",
+      "lat": 22.3141279,
+      "lng": 114.1680453,
+      "area": "廣東道／永發大廈",
+      "address": "旺角廣東道847-851號永發大廈地舖",
+      "cuisine": [
+        "粵菜",
+        "點心",
+        "中菜"
+      ],
+      "tags": [
+        "有營食肆",
+        "點心"
+      ],
+      "lunch_notes": "EatSmart 列孖妹點心‧又記小廚為中菜廳／麵食等，地址廣東道847-851永發大廈地舖（與油麻地標籤之永發大廈同一座）；點心／小廚類堂食，適合午市。",
+      "price_level": 2,
+      "price_lunch_hkd": "約 $60–100（午餐／未核實官價）",
+      "dine_in": true,
+      "serves_lunch": true,
+      "district": "油麻地",
+      "verified_at": "2026-09-26",
+      "sources": [
+        {
+          "name": "EatSmart：孖妹點心‧又記小廚",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10610",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "Photon 永發大廈 廣東道847-865",
+          "url": "https://photon.komoot.io/api/?q=Winfield+Building+847+Canton+Road+Hong+Kong",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "qeh-staff-canteen-ymt",
+      "name_zh": "伊利沙伯醫院職員飯堂",
+      "name_en": "Queen Elizabeth Hospital Staff Canteen",
+      "lat": 22.3085,
+      "lng": 114.1755,
+      "exclude_reason": "no_dine_in／只供職員：EatSmart 列伊利沙伯醫院職員飯堂，屬醫院職員飯堂，非開放予一般公眾午市堂食",
+      "sources": [
+        {
+          "name": "EatSmart：伊利沙伯醫院職員飯堂",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=88",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "amazing-cityview-ymt",
+      "name_zh": "Amazing（城景國際）",
+      "name_en": "Amazing (The Cityview)",
+      "lat": 22.3137265,
+      "lng": 114.1714979,
+      "exclude_reason": "pure_cafe：城景國際官網列 Amazing 以手作咖啡、創意甜品及西日系輕食為主，定位咖啡／甜品／輕食空間，非本批「正常午餐正餐」優先收錄",
+      "sources": [
+        {
+          "name": "城景國際：Amazing",
+          "url": "https://thecityview.com.hk/zh/dining-outlets/amazing/",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "maxims-cake-ymt-mtr",
+      "name_zh": "美心西餅（港鐵油麻地站）",
+      "name_en": "Maxim's Cakes (Yau Ma Tei MTR)",
+      "lat": 22.3126,
+      "lng": 114.1707,
+      "exclude_reason": "bakery：第三方／站內商戶目錄常列港鐵油麻地站美心西餅，屬餅店／麵包零售，非正餐午餐堂食餐廳",
+      "sources": [
+        {
+          "name": "eDining 油麻地目錄（剔除參考）",
+          "url": "https://www.edining.com.hk/search3.php?aim=ilhwnhqryefkhpk&cat=&district=%E6%B2%B9%E9%BA%BB%E5%9C%B0",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "arome-ymt-mtr",
+      "name_zh": "東海堂（港鐵油麻地站）",
+      "name_en": "Arome Bakery (Yau Ma Tei MTR)",
+      "lat": 22.3126,
+      "lng": 114.1707,
+      "exclude_reason": "bakery：目錄列港鐵油麻地站東海堂，屬烘焙零售，非正餐午餐堂食",
+      "sources": [
+        {
+          "name": "eDining 油麻地目錄（剔除參考）",
+          "url": "https://www.edining.com.hk/search3.php?aim=ilhwnhqryefkhpk&cat=&district=%E6%B2%B9%E9%BA%BB%E5%9C%B0",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "nam-kee-nathan-566-mk",
+      "name_zh": "香港仔南記粉麵（名義油麻地／地址旺角）",
+      "name_en": "Aberdeen Nam Kee Noodles (listed YMT name / MK address)",
+      "lat": 22.3165,
+      "lng": 114.1705,
+      "exclude_reason": "邊界暫緩（旺角）：EatSmart 店名含油麻地，惟地址為旺角彌敦道566-568號僑建大廈；按亞皆老街以北／旺角留待下批",
+      "sources": [
+        {
+          "name": "EatSmart：香港仔南記粉麵（油麻地）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=5001",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "mcdonalds-hang-shing-jordan-edge",
+      "name_zh": "麥當勞（恆成大廈）",
+      "name_en": "McDonald's (Hang Shing Building)",
+      "lat": 22.307922,
+      "lng": 114.171108,
+      "exclude_reason": "邊界暫緩（佐敦緣／唔補佐敦缺口）：麥當勞官網列九龍油麻地彌敦道363-373恆成大廈，惟緯度約22.308 落於佐敦 seed bbox 北緣；本批唔收已劃佐敦核心／唔補佐敦缺口",
+      "sources": [
+        {
+          "name": "麥當勞香港：恆成大廈分店（store 338）",
+          "url": "https://www.mcdonalds.com.hk/find-a-restaurant/338/",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "jindu-guoyan-closed",
+      "name_zh": "金都國宴（九龍行）",
+      "name_en": "Gold Capital Banquet (Kowloon Building)",
+      "lat": 22.3141253,
+      "lng": 114.1701789,
+      "exclude_reason": "已結業／無現況：EatSmart《營食Guide》PDF 曾列彌敦道555九龍行，惟多個目錄標示已結業；禁止估，本批不收錄",
+      "sources": [
+        {
+          "name": "EatSmart《營食Guide》PDF（歷史參考）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/files/eatsmart_restaurant_list.pdf",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "tsuiwah-pak-hoi-unverified",
+      "name_zh": "翠華餐廳（北海街）",
+      "name_en": "Tsui Wah (Pak Hoi Street)",
+      "lat": 22.3081267,
+      "lng": 114.1694664,
+      "exclude_reason": "未確認現況：僅見於較舊 EatSmart《營食Guide》PDF；翠華官網現行分店頁未見北海街／碧街油麻地店，禁止估，暫緩",
+      "sources": [
+        {
+          "name": "EatSmart《營食Guide》PDF（歷史參考）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/files/eatsmart_restaurant_list.pdf",
+          "checked_at": "2026-09-26"
+        },
+        {
+          "name": "翠華分店頁（未見此址）",
+          "url": "https://www.tsuiwah.com/index.php/tc/shoplocation",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    },
+    {
+      "id": "tamjai-samgor-waterloo-homantin",
+      "name_zh": "譚仔三哥米線（窩打老道／何文田）",
+      "name_en": "TamJai SamGor (Waterloo Road / Ho Man Tin)",
+      "lat": 22.3185,
+      "lng": 114.1745,
+      "exclude_reason": "邊界剔除（何文田／九龍城）：EatSmart 地址為九龍何文田窩打老道73A，地區列九龍城，非油麻地核心",
+      "sources": [
+        {
+          "name": "EatSmart：譚仔三哥米線（窩打老道）",
+          "url": "https://restaurant.eatsmart.gov.hk/b5/res.aspx?rst_id=10554",
+          "checked_at": "2026-09-26"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "phase": "phase-3",
+    "status": "seed complete",
+    "region": "九龍西",
+    "notes_zh": "phase-3 seed（v1.0）：收錄 17、剔除範例 9。優先油麻地站／彌敦道、眾坊街駿發花園、窩打老道城景國際／廣華、廟街南（佐敦移交）、文明里／碧街／砵蘭街／廣東道永發大廈可核對連鎖或 EatSmart。主來源：EatSmart、麥當勞／味千／譚仔／海底撈／城景國際官網；座標 Photon／官網（約 1 req/s、有 cache）。街舖缺官方來源、旺角（亞皆老以北）、佐敦缺口不補。收費 API：0。",
+    "bbox_approx": [
+      22.304,
+      114.167,
+      22.316,
+      114.173
+    ],
+    "center_approx": [
+      22.312,
+      114.17
+    ],
+    "paid_api_calls": 0,
+    "counts": {
+      "restaurants": 17,
+      "excluded": 9
+    }
+  }
+}

@@ -1,0 +1,5719 @@
+{
+  "district": "北角",
+  "version": "1.0",
+  "updated_at": "2026-10-07",
+  "criteria": {
+    "serves_lunch": true,
+    "dine_in": true,
+    "exclude": [
+      "bakery",
+      "pure_cafe",
+      "takeaway_only",
+      "no_dine_in",
+      "dessert",
+      "sugar_water",
+      "tea_drink",
+      "karaoke_nightlife"
+    ],
+    "min_google_rating": null,
+    "google_rating_note_zh": "Google 地圖公開頁評分只顯示、唔作入庫門檻（north-point-round1，2026-10-07）。",
+    "dessert_rule_zh": "Google 類別／cuisine 主要屬甜品、糖水、麵包／烘焙、純咖啡、茶飲、卡拉 OK／夜總會 → 一律 excluded；即使同時寫「餐廳」都照剔。例外：有正常午餐主食證據先可留。邊界 8 間經 CEO 批核後全部移 excluded。",
+    "cross_district_zh": "place_id／牌照已在 wan-chai 或 central-admiralty kept，或已在本批島區兄區 kept → 唔入本區 kept。"
+  },
+  "restaurants": [
+    {
+      "id": "chicken-chiko-bei-jiao",
+      "name_zh": "Chicken Chiko",
+      "name_en": "Chicken Chiko",
+      "lat": 22.2904131,
+      "lng": 114.19868439999999,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角明園西街2-6號明苑中心地下4號舖",
+      "cuisine": [
+        "韓國菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–21:00，覆蓋 12:30–13:30 午市；Google 類別：韓國餐廳；FEHD 普通食肆牌照 2211806480。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Chicken Chiko／牌照2211806480／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJoeiT9AQBBDQRJGC4xmeyKhw",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–21:00／營業中 · 打烊時間：21:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJoeiT9AQBBDQRJGC4xmeyKhw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.6,
+      "google_review_count": null,
+      "google_place_id": "ChIJoeiT9AQBBDQRJGC4xmeyKhw",
+      "fehd_licence_no": "2211806480",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "mcdonald-s-bei-jiao",
+      "name_zh": "McDonald's",
+      "name_en": "McDonald’s (Healthy Village)",
+      "lat": 22.291300399999997,
+      "lng": 114.2065915,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 七姊妹道194號 健康村第1期地下C鋪",
+      "cuisine": [
+        "快餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 06:00–00:00，覆蓋 12:30–13:30 午市；Google 類別：快餐店；FEHD 普通食肆牌照 2211136134。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（McDonald's／牌照2211136134／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／907 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ73fezQ8BBDQRe4aO1cUJkrg",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 06:00–00:00／營業中 · 打烊時間：00:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ73fezQ8BBDQRe4aO1cUJkrg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 907,
+      "google_place_id": "ChIJ73fezQ8BBDQRe4aO1cUJkrg",
+      "fehd_licence_no": "2211136134",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "the-white-house-bei-jiao",
+      "name_zh": "THE WHITE HOUSE",
+      "name_en": "The White House",
+      "lat": 22.288344199999997,
+      "lng": 114.1920736,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 宏安道14至28號 威德閣7號鋪",
+      "cuisine": [
+        "多國菜",
+        "地中海"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–23:00，覆蓋 12:30–13:30 午市；Google 類別：多國菜餐廳／地中海餐廳；FEHD 普通食肆牌照 2211159931。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（THE WHITE HOUSE／牌照2211159931／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJl60NQtwBBDQR3dlw8jCJS5g",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–23:00／營業中 · 打烊時間：23:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJl60NQtwBBDQR3dlw8jCJS5g",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJl60NQtwBBDQR3dlw8jCJS5g",
+      "fehd_licence_no": "2211159931",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "tulsi-indian-restaurant-bei-jiao",
+      "name_zh": "TULSI INDIAN RESTAURANT",
+      "name_en": "Tulsi Indian Restaurant",
+      "lat": 22.290831,
+      "lng": 114.2008972,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角七姊妹道5至13號昌輝閣2號舖地下",
+      "cuisine": [
+        "印度菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：印度餐廳；FEHD 普通食肆牌照 2211804563。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（TULSI INDIAN RESTAURANT／牌照2211804563／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJO_AhBQUBBDQR7K7J4vm-sG4",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJO_AhBQUBBDQR7K7J4vm-sG4",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJO_AhBQUBBDQR7K7J4vm-sG4",
+      "fehd_licence_no": "2211804563",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "shang-shan-su-can-ting-bei-jiao",
+      "name_zh": "上善素餐廳",
+      "name_en": "Shang Shan Vegetarian Restaurant",
+      "lat": 22.290733,
+      "lng": 114.2000221,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角錦屏街7至9號地下",
+      "cuisine": [
+        "素食"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：素食餐廳；FEHD 普通食肆牌照 2211808352。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（上善素餐廳／牌照2211808352／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJcaqc-wQBBDQRh0qybVl-87E",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJcaqc-wQBBDQRh0qybVl-87E",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4,
+      "google_review_count": null,
+      "google_place_id": "ChIJcaqc-wQBBDQRh0qybVl-87E",
+      "fehd_licence_no": "2211808352",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "dan-na-xiao-chu-bei-jiao",
+      "name_zh": "丹拿小廚",
+      "name_en": null,
+      "lat": 22.2906501,
+      "lng": 114.203159,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角丹拿道60號地下D及E鋪",
+      "cuisine": [
+        "韓國菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl",
+        "lunch_hours_unverified"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 休息（午市覆蓋待核）；Google 類別：韓國餐廳；FEHD 普通食肆牌照 2211805326。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（丹拿小廚／牌照2211805326／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.1／240 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJobDzYwUBBDQRZq6GV7qaPo0",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 休息／營業中 · 打烊時間：23:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJobDzYwUBBDQRZq6GV7qaPo0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.1,
+      "google_review_count": 240,
+      "google_place_id": "ChIJobDzYwUBBDQRZq6GV7qaPo0",
+      "fehd_licence_no": "2211805326",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "er-shi-dao-bei-jiao",
+      "name_zh": "二十道",
+      "name_en": "Niju Ramen & Izakaya",
+      "lat": 22.2915437,
+      "lng": 114.206679,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角七姊妹道193號地下A舖",
+      "cuisine": [
+        "日本菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–15:30 17:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：日本餐廳；FEHD 普通食肆牌照 2211810340。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（二十道／牌照2211810340／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJgUg-2moBBDQRcuM4ocCl_tc",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–15:30 17:30–22:00／營業中 · 打烊時間：15:30 · 恢復營業時間：17:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJgUg-2moBBDQRcuM4ocCl_tc",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJgUg-2moBBDQRcuM4ocCl_tc",
+      "fehd_licence_no": "2211810340",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "jing-chuan-yi-jue-bei-jiao",
+      "name_zh": "京川一絕",
+      "name_en": null,
+      "lat": 22.2906492,
+      "lng": 114.2027899,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角丹拿道52-58號地下D號鋪",
+      "cuisine": [
+        "四川酒家",
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 08:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：四川酒家／中菜館；FEHD 普通食肆牌照 2211801759。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（京川一絕／牌照2211801759／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.2／30 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJeZbYaV8BBDQRARpcSZdTL6c",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 08:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJeZbYaV8BBDQRARpcSZdTL6c",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.2,
+      "google_review_count": 30,
+      "google_place_id": "ChIJeZbYaV8BBDQRARpcSZdTL6c",
+      "fehd_licence_no": "2211801759",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "ren-he-ping-bei-jiao",
+      "name_zh": "人人和平",
+      "name_en": "Hopers' Base",
+      "lat": 22.289508299999998,
+      "lng": 114.1964268,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角堡壘街6-8號地下A號舖",
+      "cuisine": [
+        "粵菜",
+        "餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：粵菜館／餐廳；FEHD 普通食肆牌照 2211805034。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（人人和平／牌照2211805034／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.1／988 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ8x2olAMBBDQRSOuxX_3lw6k",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ8x2olAMBBDQRSOuxX_3lw6k",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.1,
+      "google_review_count": 988,
+      "google_place_id": "ChIJ8x2olAMBBDQRSOuxX_3lw6k",
+      "fehd_licence_no": "2211805034",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "wei-jue-ye-si-fang-bei-jiao",
+      "name_zh": "偉爵爺私房菜",
+      "name_en": "Lord Wei's Kitchen",
+      "lat": 22.2911757,
+      "lng": 114.1964491,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角北角道17號地下",
+      "cuisine": [
+        "餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–02:00，覆蓋 12:30–13:30 午市；Google 類別：未列；FEHD 普通食肆牌照 2211806648。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（偉爵爺私房菜／牌照2211806648／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvX-UHv8BBDQRIUxx90FpD7c",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–02:00／營業中 · 打烊時間：02:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJvX-UHv8BBDQRIUxx90FpD7c",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJvX-UHv8BBDQRIUxx90FpD7c",
+      "fehd_licence_no": "2211806648",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "liang-cao-bei-jiao",
+      "name_zh": "兩草",
+      "name_en": "Two Greens",
+      "lat": 22.2883008,
+      "lng": 114.1919697,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角宏安道18號威德閣地下6號鋪",
+      "cuisine": [
+        "茶餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–21:00，覆蓋 12:30–13:30 午市；Google 類別：港式茶餐廳；FEHD 普通食肆牌照 2211809115。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（兩草／牌照2211809115／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJb6vN1G4BBDQRJvuLRs59-es",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–21:00／營業中 · 打烊時間：21:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJb6vN1G4BBDQRJvuLRs59-es",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4,
+      "google_review_count": null,
+      "google_place_id": "ChIJb6vN1G4BBDQRJvuLRs59-es",
+      "fehd_licence_no": "2211809115",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "shi-er-wei-bei-jiao",
+      "name_zh": "十二味",
+      "name_en": "Twelve Flavors (North Point)",
+      "lat": 22.2924661,
+      "lng": 114.1967382,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角和富道21-53號和富地下G20-21號舖",
+      "cuisine": [
+        "四川酒家"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：四川酒家；FEHD 普通食肆牌照 2211809258。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（十二味／牌照2211809258／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.8／887 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJqdO4YBoBBDQRTzlPhv0zFMc",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJqdO4YBoBBDQRTzlPhv0zFMc",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.8,
+      "google_review_count": 887,
+      "google_place_id": "ChIJqdO4YBoBBDQRTzlPhv0zFMc",
+      "fehd_licence_no": "2211809258",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "qian-le-shao-wei-can-bei-jiao",
+      "name_zh": "千樂燒味餐室",
+      "name_en": "Happy Kitchen",
+      "lat": 22.2910662,
+      "lng": 114.203783,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角七姊妹道112-114號 合偉大廈地下",
+      "cuisine": [
+        "粵菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–23:00，覆蓋 12:30–13:30 午市；Google 類別：粵菜館；FEHD 普通食肆牌照 2211810614。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（千樂燒味餐室／牌照2211810614／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJG_pgz5cBBDQR9kZ12ifP-uk",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–23:00／營業中 · 打烊時間：23:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJG_pgz5cBBDQR9kZ12ifP-uk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.6,
+      "google_review_count": null,
+      "google_place_id": "ChIJG_pgz5cBBDQR9kZ12ifP-uk",
+      "fehd_licence_no": "2211810614",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "ban-dao-bing-shi-bei-jiao",
+      "name_zh": "半島冰室",
+      "name_en": "Angus Cafe",
+      "lat": 22.2882304,
+      "lng": 114.19182529999999,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角宏安道14-28號威德閣地下1號及2號鋪",
+      "cuisine": [
+        "茶餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 06:30–20:45，覆蓋 12:30–13:30 午市；Google 類別：港式茶餐廳；FEHD 普通食肆牌照 2211807988。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（半島冰室／牌照2211807988／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.2／1521 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJF6mv_QEBBDQRXEiJaCuJGYI",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 06:30–20:45／營業中 · 打烊時間：20:45）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJF6mv_QEBBDQRXEiJaCuJGYI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.2,
+      "google_review_count": 1521,
+      "google_place_id": "ChIJF6mv_QEBBDQRXEiJaCuJGYI",
+      "fehd_licence_no": "2211807988",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "hao-yun-da-pai-dang-bei-jiao",
+      "name_zh": "好運大牌檔",
+      "name_en": null,
+      "lat": 22.2917059,
+      "lng": 114.1963272,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 北角道33號 和富豪庭地下B2號鋪",
+      "cuisine": [
+        "亞洲菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–04:00，覆蓋 12:30–13:30 午市；Google 類別：亞洲菜餐廳；FEHD 普通食肆牌照 2211230047。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（好運大牌檔／牌照2211230047／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.3／85 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJjcXlYwABBDQRtNyBtHNPZYg",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–04:00／營業中 · 打烊時間：04:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJjcXlYwABBDQRtNyBtHNPZYg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.3,
+      "google_review_count": 85,
+      "google_place_id": "ChIJjcXlYwABBDQRtNyBtHNPZYg",
+      "fehd_licence_no": "2211230047",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "fu-hui-bei-jiao",
+      "name_zh": "富輝",
+      "name_en": null,
+      "lat": 22.2916646,
+      "lng": 114.1985469,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港 糖水道7號仁德大廈1樓C室部分及地下A室",
+      "cuisine": [
+        "粵菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 06:30–20:00，覆蓋 12:30–13:30 午市；Google 類別：粵菜館；FEHD 普通食肆牌照 2211046288。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（富輝／牌照2211046288／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.7／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJz18plAQBBDQRQEpfGVCp8yA",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 06:30–20:00／營業中 · 打烊時間：20:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJz18plAQBBDQRQEpfGVCp8yA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.7,
+      "google_review_count": null,
+      "google_place_id": "ChIJz18plAQBBDQRQEpfGVCp8yA",
+      "fehd_licence_no": "2211046288",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "de-chang-yu-dan-fen-bei-jiao",
+      "name_zh": "德昌魚蛋粉",
+      "name_en": "Tak Cheong Noodle (North Point)",
+      "lat": 22.291951899999997,
+      "lng": 114.2002617,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 書局街28號 國賓大廈地下1號鋪",
+      "cuisine": [
+        "粉麵",
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–00:00，覆蓋 12:30–13:30 午市；Google 類別：中式麵食店／中菜館；FEHD 普通食肆牌照 2211222608。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（德昌魚蛋粉／牌照2211222608／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.6／111 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMwRN2AQBBDQROdj36TiTHBM",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–00:00／營業中 · 打烊時間：00:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMwRN2AQBBDQROdj36TiTHBM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.6,
+      "google_review_count": 111,
+      "google_place_id": "ChIJMwRN2AQBBDQROdj36TiTHBM",
+      "fehd_licence_no": "2211222608",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "bi-sheng-ke-bei-jiao",
+      "name_zh": "必勝客",
+      "name_en": "Pizza Hut Hong Kong",
+      "lat": 22.291427,
+      "lng": 114.1967662,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角道10號北角亞太商業中心1樓",
+      "cuisine": [
+        "薄餅"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–21:30，覆蓋 12:30–13:30 午市；Google 類別：薄餅餐廳／薄餅外賣；FEHD 普通食肆牌照 2211805201。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（必勝客／牌照2211805201／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.7／583 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0aETcAMBBDQRsZoQVCi7b3o",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0aETcAMBBDQRsZoQVCi7b3o",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.7,
+      "google_review_count": 583,
+      "google_place_id": "ChIJ0aETcAMBBDQRsZoQVCi7b3o",
+      "fehd_licence_no": "2211805201",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "la-mian-ju-jiu-wu-bei-jiao",
+      "name_zh": "拉麵居酒屋神豚",
+      "name_en": null,
+      "lat": 22.2916252,
+      "lng": 114.19578659999999,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 和富道20至36號鋪 1樓7至9號",
+      "cuisine": [
+        "拉麵"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–23:00，覆蓋 12:30–13:30 午市；Google 類別：拉麵店；FEHD 普通食肆牌照 2211153076。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（拉麵居酒屋神豚／牌照2211153076／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.8／30 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJyQuiAxkBBDQRYnzdKvIClmE",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–23:00／營業中 · 打烊時間：23:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJyQuiAxkBBDQRYnzdKvIClmE",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.8,
+      "google_review_count": 30,
+      "google_place_id": "ChIJyQuiAxkBBDQRYnzdKvIClmE",
+      "fehd_licence_no": "2211153076",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "wen-hua-xuan-bei-jiao",
+      "name_zh": "文華軒",
+      "name_en": "The Mandarin House",
+      "lat": 22.2929668,
+      "lng": 114.1996994,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角北角邨里1號北角匯東座2樓202及203號舖",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:30，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211808501。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（文華軒／牌照2211808501／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJyzcMQggBBDQRPlGYaF05Ljw",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:30／營業中 · 打烊時間：22:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJyzcMQggBBDQRPlGYaF05Ljw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.6,
+      "google_review_count": null,
+      "google_place_id": "ChIJyzcMQggBBDQRPlGYaF05Ljw",
+      "fehd_licence_no": "2211808501",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "xin-xing-fen-mian-bei-jiao",
+      "name_zh": "新興粉麵",
+      "name_en": "San Hing Noodles",
+      "lat": 22.290676599999998,
+      "lng": 114.1965637,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 北角道7A號地下",
+      "cuisine": [
+        "粉麵",
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 10:00–01:00，覆蓋 12:30–13:30 午市；Google 類別：中式麵食店／中菜館；FEHD 普通食肆牌照 2211033659。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新興粉麵／牌照2211033659／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.7／197 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJS5VRnQMBBDQRUxuMU7OWfm0",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 10:00–01:00／營業中 · 打烊時間：01:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJS5VRnQMBBDQRUxuMU7OWfm0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.7,
+      "google_review_count": 197,
+      "google_place_id": "ChIJS5VRnQMBBDQRUxuMU7OWfm0",
+      "fehd_licence_no": "2211033659",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "xin-hua-ji-xiao-chu-bei-jiao",
+      "name_zh": "新華記小廚茶餐廳",
+      "name_en": "Sun Wah Kee Restaurant",
+      "lat": 22.292077199999998,
+      "lng": 114.19729609999999,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 和富道82號地下",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–23:00，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211207841。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新華記小廚茶餐廳／牌照2211207841／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.6／121 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWXPfXQMBBDQRp8mNNaSlXeo",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–23:00／營業中 · 打烊時間：23:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWXPfXQMBBDQRp8mNNaSlXeo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.6,
+      "google_review_count": 121,
+      "google_place_id": "ChIJWXPfXQMBBDQRp8mNNaSlXeo",
+      "fehd_licence_no": "2211207841",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "shi-le-bei-jiao",
+      "name_zh": "時時樂",
+      "name_en": "See See Look Restaurant",
+      "lat": 22.2906171,
+      "lng": 114.2015655,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 七姊妹道30至32號 兆年大廈地下低層B鋪",
+      "cuisine": [
+        "港式快餐",
+        "亞洲菜",
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–21:00，覆蓋 12:30–13:30 午市；Google 類別：港式快餐店／亞洲菜餐廳／中菜館；FEHD 普通食肆牌照 2211105767。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（時時樂／牌照2211105767／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／251 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJjzgaEgUBBDQRSIOI6BawGro",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–21:00／營業中 · 打烊時間：21:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJjzgaEgUBBDQRSIOI6BawGro",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 251,
+      "google_place_id": "ChIJjzgaEgUBBDQRSIOI6BawGro",
+      "fehd_licence_no": "2211105767",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yue-jian-ri-ben-liao-bei-jiao",
+      "name_zh": "月見日本料理",
+      "name_en": "Tsukimi Japanese Restaurant",
+      "lat": 22.292002,
+      "lng": 114.19692099999999,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角和富道68-72號新和富大廈地下B及C鋪",
+      "cuisine": [
+        "日本菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl",
+        "lunch_hours_unverified"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 休息（午市覆蓋待核）；Google 類別：日本餐廳；FEHD 普通食肆牌照 2211807128。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（月見日本料理／牌照2211807128／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.4／117 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ637sCkABBDQRaUFpiEb74Lo",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 休息／營業中 · 打烊時間：15:00 · 恢復營業時間：18:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ637sCkABBDQRaUFpiEb74Lo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.4,
+      "google_review_count": 117,
+      "google_place_id": "ChIJ637sCkABBDQRaUFpiEb74Lo",
+      "fehd_licence_no": "2211807128",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "dong-tai-cha-can-ting-bei-jiao",
+      "name_zh": "東泰茶餐廳",
+      "name_en": "Tung Tai Restaurant",
+      "lat": 22.291099199999998,
+      "lng": 114.2035212,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角七姊妹道106至110號富邦大廈地下2號鋪",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–01:30，覆蓋 12:30–13:30 午市；Google 類別：港式快餐店；FEHD 普通食肆牌照 2211801591。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（東泰茶餐廳／牌照2211801591／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／529 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJQVgpiw8BBDQRzsTg7N-b8JA",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–01:30／營業中 · 打烊時間：01:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJQVgpiw8BBDQRzsTg7N-b8JA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 529,
+      "google_place_id": "ChIJQVgpiw8BBDQRzsTg7N-b8JA",
+      "fehd_licence_no": "2211801591",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "xiang-fa-cha-can-ting-bei-jiao",
+      "name_zh": "祥發茶餐廳小廚",
+      "name_en": "Cheung Fat Restaurant",
+      "lat": 22.290941399999998,
+      "lng": 114.2015491,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港 七姊妹道27號 地下D鋪",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:30–21:00，覆蓋 12:30–13:30 午市；Google 類別：港式快餐店；FEHD 普通食肆牌照 2211209078。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（祥發茶餐廳小廚／牌照2211209078／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4／670 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJPXHI31AABDQRKKEr5XkUMKE",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:30–21:00／營業中 · 打烊時間：21:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJPXHI31AABDQRKKEr5XkUMKE",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4,
+      "google_review_count": 670,
+      "google_place_id": "ChIJPXHI31AABDQRKKEr5XkUMKE",
+      "fehd_licence_no": "2211209078",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yue-xiang-shi-bei-jiao",
+      "name_zh": "粵湘食",
+      "name_en": null,
+      "lat": 22.2920959,
+      "lng": 114.1973043,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角和富道84,84A,86-94及94A號 銀輝大廈地下5-6號鋪",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–15:00 17:30–23:00，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211809896。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（粵湘食／牌照2211809896／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRQoqGgABBDQRyEImI3pGftg",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–15:00 17:30–23:00／營業中 · 打烊時間：15:00 · 恢復營業時間：17:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRQoqGgABBDQRyEImI3pGftg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.4,
+      "google_review_count": null,
+      "google_place_id": "ChIJRQoqGgABBDQRyEImI3pGftg",
+      "fehd_licence_no": "2211809896",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yu-yin-ting-bei-jiao",
+      "name_zh": "羽銀亭",
+      "name_en": null,
+      "lat": 22.290753499999997,
+      "lng": 114.2003455,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 書局街9號地下",
+      "cuisine": [
+        "日本菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 12:00–14:30 18:00–00:00，覆蓋 12:30–13:30 午市；Google 類別：日本餐廳；FEHD 普通食肆牌照 2211111021。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（羽銀亭／牌照2211111021／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJM-dX_QQBBDQRoU754IcTfoc",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 12:00–14:30 18:00–00:00／即將開始營業 · 12:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJM-dX_QQBBDQRoU754IcTfoc",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.1,
+      "google_review_count": null,
+      "google_place_id": "ChIJM-dX_QQBBDQRoU754IcTfoc",
+      "fehd_licence_no": "2211111021",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "ju-chao-shan-di-dao-bei-jiao",
+      "name_zh": "聚潮潮汕地道美食",
+      "name_en": null,
+      "lat": 22.292064099999997,
+      "lng": 114.1973838,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港和富道84-94號銀輝大廈地下4號舖",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 08:00–21:00，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211805955。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（聚潮潮汕地道美食／牌照2211805955／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ50lpTvkBBDQRKoq4kMqsZW8",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 08:00–21:00／營業中 · 打烊時間：21:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ50lpTvkBBDQRKoq4kMqsZW8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4,
+      "google_review_count": null,
+      "google_place_id": "ChIJ50lpTvkBBDQRKoq4kMqsZW8",
+      "fehd_licence_no": "2211805955",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "sa-li-ya-yi-shi-bei-jiao",
+      "name_zh": "薩莉亞意式餐廳",
+      "name_en": "Saizeriya",
+      "lat": 22.292252899999998,
+      "lng": 114.1964275,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角和富道21-53號和富中心 地下G28號鋪",
+      "cuisine": [
+        "意大利菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：意大利餐廳；FEHD 普通食肆牌照 2211809823。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（薩莉亞意式餐廳／牌照2211809823／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／60 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMwvfyvsBBDQR3v2XxpkbZ_o",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJMwvfyvsBBDQR3v2XxpkbZ_o",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": 60,
+      "google_place_id": "ChIJMwvfyvsBBDQR3v2XxpkbZ_o",
+      "fehd_licence_no": "2211809823",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "sa-li-ya-yi-shi-bei-jiao-2",
+      "name_zh": "薩莉亞意式餐廳",
+      "name_en": "Saizeriya",
+      "lat": 22.2917749,
+      "lng": 114.199421,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角馬寶道3號君譽峰 地下16號鋪及一樓",
+      "cuisine": [
+        "意大利菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：意大利餐廳；FEHD 普通食肆牌照 2211810526。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（薩莉亞意式餐廳／牌照2211810526／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／106 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJyV6SGpQBBDQRdx5BSy1cY6U",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJyV6SGpQBBDQRdx5BSy1cY6U",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 106,
+      "google_place_id": "ChIJyV6SGpQBBDQRdx5BSy1cY6U",
+      "fehd_licence_no": "2211810526",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "jin-le-xuan-ji-bao-bei-jiao",
+      "name_zh": "金樂軒雞煲魚鍋",
+      "name_en": null,
+      "lat": 22.2922203,
+      "lng": 114.1979523,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角和富道114-118及122-126號 康華大廈地下C3舖",
+      "cuisine": [
+        "火鍋"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–00:00，覆蓋 12:30–13:30 午市；Google 類別：火鍋餐廳；FEHD 普通食肆牌照 2211805016。",
+      "price_level": 3,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金樂軒雞煲魚鍋／牌照2211805016／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.1／249 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJu1VlowQBBDQRZa_e6lg7eIM",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–00:00／營業中 · 打烊時間：00:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJu1VlowQBBDQRZa_e6lg7eIM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.1,
+      "google_review_count": 249,
+      "google_place_id": "ChIJu1VlowQBBDQRZa_e6lg7eIM",
+      "fehd_licence_no": "2211805016",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "jin-pai-fen-mian-bei-jiao",
+      "name_zh": "金牌粉麵",
+      "name_en": "Garshu’s Top Noodles",
+      "lat": 22.291584,
+      "lng": 114.2066816,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 七姊妹道193C至195號地下",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–23:00，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211034980；Google 評論數少（9 則），評分參考性有限。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（金牌粉麵／牌照2211034980／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／9 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJmw10PgABBDQR0uhoUWHFYho",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–23:00／營業中 · 打烊時間：23:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJmw10PgABBDQR0uhoUWHFYho",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 9,
+      "google_place_id": "ChIJmw10PgABBDQR0uhoUWHFYho",
+      "fehd_licence_no": "2211034980",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "tie-hua-cun-bei-jiao",
+      "name_zh": "鐵花村",
+      "name_en": "Tie Hua Cun",
+      "lat": 22.290613,
+      "lng": 114.2024101,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角丹拿道18號 丹拿花園地下6號舖",
+      "cuisine": [
+        "台灣菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–21:00，覆蓋 12:30–13:30 午市；Google 類別：台灣餐廳；FEHD 普通食肆牌照 2211810030。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（鐵花村／牌照2211810030／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJTc8rxDsBBDQRd-_3haqlDEQ",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–21:00／營業中 · 打烊時間：21:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJTc8rxDsBBDQRd-_3haqlDEQ",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.5,
+      "google_review_count": null,
+      "google_place_id": "ChIJTc8rxDsBBDQRd-_3haqlDEQ",
+      "fehd_licence_no": "2211810030",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "han-wei-wu-bei-jiao",
+      "name_zh": "韓味屋",
+      "name_en": null,
+      "lat": 22.2910105,
+      "lng": 114.2034126,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角七姊妹道100至104號天順樓地下部份A舖",
+      "cuisine": [
+        "韓國菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–23:00，覆蓋 12:30–13:30 午市；Google 類別：韓國餐廳；FEHD 普通食肆牌照 2211809470。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（韓味屋／牌照2211809470／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJaz_jBQABBDQRB0TTJdHRytw",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–23:00／營業中 · 打烊時間：23:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJaz_jBQABBDQRB0TTJdHRytw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.1,
+      "google_review_count": null,
+      "google_place_id": "ChIJaz_jBQABBDQRB0TTJdHRytw",
+      "fehd_licence_no": "2211809470",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "xiang-gang-shao-wei-can-bei-jiao",
+      "name_zh": "香港燒味餐廳",
+      "name_en": "HK Roasted Meat Restaurant",
+      "lat": 22.292151099999998,
+      "lng": 114.2012115,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 馬寶道41至47號 華寶商業大廈地下1，2及3號鋪",
+      "cuisine": [
+        "粵菜",
+        "中菜",
+        "餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 08:00–23:00，覆蓋 12:30–13:30 午市；Google 類別：粵菜館／中菜館／餐廳；FEHD 普通食肆牌照 2211121208。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（香港燒味餐廳／牌照2211121208／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／289 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJd0G3OgUBBDQR6ty3kn1-hBo",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 08:00–23:00／營業中 · 打烊時間：23:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJd0G3OgUBBDQR6ty3kn1-hBo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 289,
+      "google_place_id": "ChIJd0G3OgUBBDQR6ty3kn1-hBo",
+      "fehd_licence_no": "2211121208",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "xiang-gang-fan-tang-bei-jiao",
+      "name_zh": "香港飯堂",
+      "name_en": "Hong Kong Canteen",
+      "lat": 22.2920674,
+      "lng": 114.19677539999999,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角和富道68-72號 新和富大廈地下A鋪",
+      "cuisine": [
+        "茶餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–18:00，覆蓋 12:30–13:30 午市；Google 類別：港式茶餐廳；FEHD 普通食肆牌照 2211810580。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（香港飯堂／牌照2211810580／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ1WRDZwMBBDQRVZ8mRCK56UI",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–18:00／營業中 · 打烊時間：18:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ1WRDZwMBBDQRVZ8mRCK56UI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJ1WRDZwMBBDQRVZ8mRCK56UI",
+      "fehd_licence_no": "2211810580",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yu-shi-zhe-bei-jiao",
+      "name_zh": "魚事者",
+      "name_en": "Fisholic",
+      "lat": 22.2884142,
+      "lng": 114.1921393,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角宏安道14-18號威德閣地下14號舖",
+      "cuisine": [
+        "魚料理"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–21:30，覆蓋 12:30–13:30 午市；Google 類別：魚料理餐廳；FEHD 普通食肆牌照 2211804907。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（魚事者／牌照2211804907／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.1／306 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJf-0sYcABBDQRb5gkKh5nnH4",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJf-0sYcABBDQRb5gkKh5nnH4",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.1,
+      "google_review_count": 306,
+      "google_place_id": "ChIJf-0sYcABBDQRb5gkKh5nnH4",
+      "fehd_licence_no": "2211804907",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "pizza-express-zha-hua-dao",
+      "name_zh": "Pizza Express",
+      "name_en": "PizzaExpress (North Point)",
+      "lat": 22.2928256,
+      "lng": 114.20092969999999,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道123號北角匯第2期2樓218-219號舖",
+      "cuisine": [
+        "薄餅"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：薄餅餐廳；FEHD 普通食肆牌照 2211809160。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Pizza Express／牌照2211809160／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJrd3lABwBBDQR4cpSFKanQ1w",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJrd3lABwBBDQR4cpSFKanQ1w",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJrd3lABwBBDQR4cpSFKanQ1w",
+      "fehd_licence_no": "2211809160",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "sol-house-oyster-bar-and-zha-hua-dao",
+      "name_zh": "Sol House Oyster Bar and Restaurant",
+      "name_en": "Sol House Oyster Bar and Restaurant",
+      "lat": 22.2930331,
+      "lng": 114.20087889999999,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道123號北角匯二期2樓206號舖",
+      "cuisine": [
+        "西餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：西餐廳；FEHD 普通食肆牌照 2211809009。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Sol House Oyster Bar and Restaurant／牌照2211809009／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJVVmDGQABBDQRgGoAzZePbjo",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJVVmDGQABBDQRgGoAzZePbjo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJVVmDGQABBDQRgGoAzZePbjo",
+      "fehd_licence_no": "2211809009",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "ucc-coffee-shop-zha-hua-dao",
+      "name_zh": "UCC Coffee Shop",
+      "name_en": "UCC Coffee Shop (North Point)",
+      "lat": 22.2928256,
+      "lng": 114.20092969999999,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道123號北角匯西翼 地庫一層NP-13-001號鋪",
+      "cuisine": [
+        "日式西"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 09:00–21:30，覆蓋 12:30–13:30 午市；Google 類別：日式西餐廳；FEHD 普通食肆牌照 2211808884。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（UCC Coffee Shop／牌照2211808884／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／39 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJIe6ZKwUBBDQRm0eds0PhSKg",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 09:00–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJIe6ZKwUBBDQRm0eds0PhSKg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 39,
+      "google_place_id": "ChIJIe6ZKwUBBDQRm0eds0PhSKg",
+      "fehd_licence_no": "2211808884",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "gong-fu-dian-xin-zha-hua-dao",
+      "name_zh": "功夫點心",
+      "name_en": "Kung Fu Dim Sum",
+      "lat": 22.2920832,
+      "lng": 114.1997353,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道98號THE JAVA地下1至2號鋪",
+      "cuisine": [
+        "粵菜",
+        "酒樓"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 08:00–21:30，覆蓋 12:30–13:30 午市；Google 類別：酒樓；FEHD 普通食肆牌照 2211804484。",
+      "price_level": 3,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（功夫點心／牌照2211804484／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／585 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJb9oX2wQBBDQRbLrW481Scsk",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 08:00–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJb9oX2wQBBDQRbLrW481Scsk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 585,
+      "google_place_id": "ChIJb9oX2wQBBDQRbLrW481Scsk",
+      "fehd_licence_no": "2211804484",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "nan-ji-chun-juan-fen-zha-hua-dao",
+      "name_zh": "南記春卷粉麵有限公司",
+      "name_en": "Nam Kee Spring Roll Noodle",
+      "lat": 22.292023999999998,
+      "lng": 114.19920599999999,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道78號地下",
+      "cuisine": [
+        "粉麵",
+        "亞洲菜",
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：中式麵食店／亞洲菜餐廳／中菜館／麵店；FEHD 普通食肆牌照 2211803816。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（南記春卷粉麵有限公司／牌照2211803816／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.6／402 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7-oxwQQBBDQRKT3BNyoK6M0",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7-oxwQQBBDQRKT3BNyoK6M0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.6,
+      "google_review_count": 402,
+      "google_place_id": "ChIJ7-oxwQQBBDQRKT3BNyoK6M0",
+      "fehd_licence_no": "2211803816",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "tai-mu-zha-hua-dao",
+      "name_zh": "台沐",
+      "name_en": "台沐Kokoyu",
+      "lat": 22.2928256,
+      "lng": 114.20092969999999,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道123號北角匯二期1樓109號舖(A及B部份)",
+      "cuisine": [
+        "泛亞菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：泛亞菜餐廳；FEHD 普通食肆牌照 2211809391。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（台沐／牌照2211809391／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJj05q2CQBBDQRLpB9mzrCboo",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJj05q2CQBBDQRLpB9mzrCboo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJj05q2CQBBDQRLpB9mzrCboo",
+      "fehd_licence_no": "2211809391",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "fu-jing-qing-xiang-mian-zha-hua-dao",
+      "name_zh": "富景清香麵家",
+      "name_en": "Fu King Noodle Shop",
+      "lat": 22.2922171,
+      "lng": 114.2004585,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道132號渣華商業中心地下A鋪",
+      "cuisine": [
+        "粉麵"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 24 小時營業，覆蓋 12:30–13:30 午市；Google 類別：中式麵食店；FEHD 普通食肆牌照 2211810216。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（富景清香麵家／牌照2211810216／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.7／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJR7FG5P0BBDQR1VNxjsuNeh0",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 24 小時營業／24 小時營業）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJR7FG5P0BBDQR1VNxjsuNeh0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.7,
+      "google_review_count": null,
+      "google_place_id": "ChIJR7FG5P0BBDQR1VNxjsuNeh0",
+      "fehd_licence_no": "2211810216",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "xiao-xiang-nong-niu-rou-zha-hua-dao",
+      "name_zh": "小巷弄牛肉麵",
+      "name_en": null,
+      "lat": 22.2928999,
+      "lng": 114.200611,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道123號北角滙二期地下G01號鋪",
+      "cuisine": [
+        "台灣菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：台灣餐廳；FEHD 普通食肆牌照 2211809601。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（小巷弄牛肉麵／牌照2211809601／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2Y3FfI4BBDQRJq0_QeZerNg",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2Y3FfI4BBDQRJq0_QeZerNg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJ2Y3FfI4BBDQRJq0_QeZerNg",
+      "fehd_licence_no": "2211809601",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "zha-huang-la-mian-wu-zha-hua-dao",
+      "name_zh": "札幌拉麵屋",
+      "name_en": "Sapporo Japanese Ramen House",
+      "lat": 22.2922171,
+      "lng": 114.2004585,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角 渣華道124至134號渣華商業中心地下C2號鋪",
+      "cuisine": [
+        "拉麵",
+        "亞洲菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–15:00 18:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：拉麵店／亞洲菜餐廳；FEHD 普通食肆牌照 2211133135。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（札幌拉麵屋／牌照2211133135／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJN0PxJwUBBDQRGpgpJHGLu2s",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–15:00 18:00–22:00／營業中 · 打烊時間：15:00 · 恢復營業時間：18:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJN0PxJwUBBDQRGpgpJHGLu2s",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJN0PxJwUBBDQRGpgpJHGLu2s",
+      "fehd_licence_no": "2211133135",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "tai-lan-huo-zha-hua-dao",
+      "name_zh": "泰瀾鑊",
+      "name_en": "Thailand Wok",
+      "lat": 22.2931784,
+      "lng": 114.20199459999999,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道133號北角匯三期地下 G7及G8號鋪",
+      "cuisine": [
+        "泰國菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–16:30 17:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：泰國餐廳；FEHD 普通食肆牌照 2211810845。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（泰瀾鑊／牌照2211810845／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4／127 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJsyG3aKEBBDQRB7u3x4WpWtU",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–16:30 17:30–22:00／營業中 · 打烊時間：16:30 · 恢復營業時間：17:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJsyG3aKEBBDQRB7u3x4WpWtU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4,
+      "google_review_count": 127,
+      "google_place_id": "ChIJsyG3aKEBBDQRB7u3x4WpWtU",
+      "fehd_licence_no": "2211810845",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "zha-hua-cha-bing-ting-zha-hua-dao",
+      "name_zh": "渣華茶冰廳",
+      "name_en": "Java Cafe",
+      "lat": 22.2920221,
+      "lng": 114.1992046,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道82號地下",
+      "cuisine": [
+        "茶餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 06:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：港式茶餐廳；FEHD 普通食肆牌照 2211804439。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（渣華茶冰廳／牌照2211804439／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJPxiuxgQBBDQRim9LXoHAokQ",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 06:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJPxiuxgQBBDQRim9LXoHAokQ",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.6,
+      "google_review_count": null,
+      "google_place_id": "ChIJPxiuxgQBBDQRim9LXoHAokQ",
+      "fehd_licence_no": "2211804439",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "feng-cheng-zha-hua-dao",
+      "name_zh": "鳳城",
+      "name_en": "Fung Shing Restaurant",
+      "lat": 22.2917362,
+      "lng": 114.1981941,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角 渣華道 62至68號(1樓) 及62號(地下)",
+      "cuisine": [
+        "粵菜",
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 09:00–15:00 18:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：粵菜館／中菜館；FEHD 普通食肆牌照 2211801713。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（鳳城／牌照2211801713／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJd_IpmAQBBDQREJq4kInQcWY",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 09:00–15:00 18:00–22:00／營業中 · 打烊時間：15:00 · 恢復營業時間：18:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJd_IpmAQBBDQREJq4kInQcWY",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJd_IpmAQBBDQREJq4kInQcWY",
+      "fehd_licence_no": "2211801713",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "mian-wu-zang-hu-dong-zha-hua-dao",
+      "name_zh": "麺屋武蔵虎洞",
+      "name_en": "Menya Musashi Kodou (Harbour North)",
+      "lat": 22.2928256,
+      "lng": 114.20092969999999,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道123號北角匯二期1樓118-119號鋪",
+      "cuisine": [
+        "拉麵"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–21:30，覆蓋 12:30–13:30 午市；Google 類別：拉麵店；FEHD 普通食肆牌照 2211809133。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（麺屋武蔵虎洞／牌照2211809133／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJC7WevOcBBDQR00d5MlY58UQ",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJC7WevOcBBDQR00d5MlY58UQ",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3,
+      "google_review_count": null,
+      "google_place_id": "ChIJC7WevOcBBDQR00d5MlY58UQ",
+      "fehd_licence_no": "2211809133",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "ding-liu-xiang-lu-wei-zha-hua-dao",
+      "name_zh": "鼎留香滷味專門店",
+      "name_en": null,
+      "lat": 22.291962599999998,
+      "lng": 114.19926369999999,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道86號地下",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 10:40–20:00，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211806754。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（鼎留香滷味專門店／牌照2211806754／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJZXZYwQQBBDQRaP-tISvhv6E",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 10:40–20:00／營業中 · 打烊時間：20:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJZXZYwQQBBDQRaP-tISvhv6E",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJZXZYwQQBBDQRaP-tISvhv6E",
+      "fehd_licence_no": "2211806754",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "le-188-restaurant-bar-pao-tai-shan",
+      "name_zh": "Le 188 Restaurant & Bar",
+      "name_en": "Le 188° Restaurant & Lounge",
+      "lat": 22.289006699999998,
+      "lng": 114.19184589999999,
+      "district": "北角",
+      "area": "炮台山",
+      "address": "香港北角油街23號港島海逸君綽酒店41樓(主要部份)",
+      "cuisine": [
+        "西餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 12:00–00:00，覆蓋 12:30–13:30 午市；Google 類別：西餐廳；FEHD 普通食肆牌照 2211802345。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Le 188 Restaurant & Bar／牌照2211802345／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7U7ZHAIBBDQR3Kp_PgsCbEQ",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 12:00–00:00／即將開始營業 · 12:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ7U7ZHAIBBDQR3Kp_PgsCbEQ",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJ7U7ZHAIBBDQR3Kp_PgsCbEQ",
+      "fehd_licence_no": "2211802345",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "zheng-xian-hui-zhuan-shou-pao-tai-shan",
+      "name_zh": "爭鮮迴轉壽司",
+      "name_en": "Sushi Express(Fortress Hill)",
+      "lat": 22.2882292,
+      "lng": 114.1933406,
+      "district": "北角",
+      "area": "炮台山",
+      "address": "香港炮台山英皇道147-151號地下3A舖",
+      "cuisine": [
+        "壽司",
+        "壽司外帶"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–21:30，覆蓋 12:30–13:30 午市；Google 類別：迴轉壽司餐廳／壽司外帶；FEHD 普通食肆牌照 2211809212。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（爭鮮迴轉壽司／牌照2211809212／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJTXHeQ5oBBDQRO1XqXh9jXpw",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJTXHeQ5oBBDQRO1XqXh9jXpw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJTXHeQ5oBBDQRO1XqXh9jXpw",
+      "fehd_licence_no": "2211809212",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "ca-restaurant-bar-ying-huang-dao",
+      "name_zh": "CA RESTAURANT & BAR",
+      "name_en": "CA Restaurant & Bar",
+      "lat": 22.2918993,
+      "lng": 114.2064668,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港英皇道668號健康村第二期下層地下3號舖",
+      "cuisine": [
+        "西餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：西餐廳；FEHD 普通食肆牌照 2211806684。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（CA RESTAURANT & BAR／牌照2211806684／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJK0ijCL8BBDQR49b1TEXK--w",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJK0ijCL8BBDQR49b1TEXK--w",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.5,
+      "google_review_count": null,
+      "google_place_id": "ChIJK0ijCL8BBDQR49b1TEXK--w",
+      "fehd_licence_no": "2211806684",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "genki-sushi-ying-huang-dao",
+      "name_zh": "GENKI SUSHI",
+      "name_en": "Genki Sushi (Braemar Point)",
+      "lat": 22.2917538,
+      "lng": 114.2038431,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道560號健威坊商場地下低層L6B,  7, 28 及 29號鋪",
+      "cuisine": [
+        "壽司",
+        "日本菜",
+        "壽司外帶"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:30，覆蓋 12:30–13:30 午市；Google 類別：迴轉壽司餐廳／日本餐廳／壽司外帶；FEHD 普通食肆牌照 2211801722。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（GENKI SUSHI／牌照2211801722／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.7／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJA7BNCnQBBDQRkbuKhuhF5qg",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:30／營業中 · 打烊時間：22:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJA7BNCnQBBDQRkbuKhuhF5qg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.7,
+      "google_review_count": null,
+      "google_place_id": "ChIJA7BNCnQBBDQRkbuKhuhF5qg",
+      "fehd_licence_no": "2211801722",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "gozip-ying-huang-dao",
+      "name_zh": "GOZIP",
+      "name_en": "GOZIP",
+      "lat": 22.2882993,
+      "lng": 114.19316579999999,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道147-151號地下1號舖",
+      "cuisine": [
+        "韓國菜",
+        "韓式燒烤"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 24 小時營業，覆蓋 12:30–13:30 午市；Google 類別：韓國餐廳／韓式燒烤餐廳；FEHD 普通食肆牌照 2211809586。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（GOZIP／牌照2211809586／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.7／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ71_h5MIBBDQRB-ozSfA_USU",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 24 小時營業／24 小時營業）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ71_h5MIBBDQRB-ozSfA_USU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.7,
+      "google_review_count": null,
+      "google_place_id": "ChIJ71_h5MIBBDQRB-ozSfA_USU",
+      "fehd_licence_no": "2211809586",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "jollibee-ying-huang-dao",
+      "name_zh": "Jollibee",
+      "name_en": "Jollibee (North Point)",
+      "lat": 22.290472899999997,
+      "lng": 114.1978453,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道370-374號振華大廈地下",
+      "cuisine": [
+        "快餐",
+        "烤雞速食"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 08:00–21:30，覆蓋 12:30–13:30 午市；Google 類別：快餐店／烤雞速食店；FEHD 普通食肆牌照 2211807784。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Jollibee／牌照2211807784／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4／1037 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ___LfQQBBDQR1GPju8F0SZ0",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 08:00–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ___LfQQBBDQR1GPju8F0SZ0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4,
+      "google_review_count": 1037,
+      "google_place_id": "ChIJ___LfQQBBDQR1GPju8F0SZ0",
+      "fehd_licence_no": "2211807784",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "mcdonald-s-ying-huang-dao",
+      "name_zh": "McDonald's",
+      "name_en": "McDonald's (Roca Centre)",
+      "lat": 22.2910322,
+      "lng": 114.2005574,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角 英皇道466號 樂嘉中心 地庫1層(部分), 2層(部分)5號鋪",
+      "cuisine": [
+        "快餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 24 小時營業，覆蓋 12:30–13:30 午市；Google 類別：快餐店；FEHD 普通食肆牌照 2211087212。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（McDonald's／牌照2211087212／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／1515 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJQ5pzHAUBBDQRrOdtNA3j6oI",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 24 小時營業／24 小時營業）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJQ5pzHAUBBDQRrOdtNA3j6oI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 1515,
+      "google_place_id": "ChIJQ5pzHAUBBDQRrOdtNA3j6oI",
+      "fehd_licence_no": "2211087212",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "viet-house-ying-huang-dao",
+      "name_zh": "Viet House",
+      "name_en": "VietHouse",
+      "lat": 22.2917357,
+      "lng": 114.20185169999999,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道483-497號東寶大廈地下B鋪",
+      "cuisine": [
+        "越南菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–21:00，覆蓋 12:30–13:30 午市；Google 類別：越南餐廳；FEHD 普通食肆牌照 2211809638。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Viet House／牌照2211809638／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.5／51 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxe3326wBBDQRe4H5hopiws8",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–21:00／營業中 · 打烊時間：21:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJxe3326wBBDQRe4H5hopiws8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.5,
+      "google_review_count": 51,
+      "google_place_id": "ChIJxe3326wBBDQRe4H5hopiws8",
+      "fehd_licence_no": "2211809638",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "alfafa-ying-huang-dao",
+      "name_zh": "alfafa",
+      "name_en": "alfafa",
+      "lat": 22.2913428,
+      "lng": 114.2021832,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道500號港運城第一層123-124號鋪",
+      "cuisine": [
+        "西餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：西餐廳；FEHD 普通食肆牌照 2211808194。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（alfafa／牌照2211808194／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJbybOJ54BBDQRL_rVuFenKWM",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJbybOJ54BBDQRL_rVuFenKWM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJbybOJ54BBDQRL_rVuFenKWM",
+      "fehd_licence_no": "2211808194",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yi-zhou-mian-ying-huang-dao",
+      "name_zh": "一粥麵",
+      "name_en": "Super Super Congee & Noodles",
+      "lat": 22.291744599999998,
+      "lng": 114.20392729999999,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道560號健威坊 地下低層L9B,L9C及L9D號舖",
+      "cuisine": [
+        "粥"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–21:00，覆蓋 12:30–13:30 午市；Google 類別：粥餐廳；FEHD 普通食肆牌照 2211810669。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（一粥麵／牌照2211810669／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.8／23 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJaZXMuX4BBDQRCEJKlhYLTNk",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–21:00／營業中 · 打烊時間：21:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJaZXMuX4BBDQRCEJKlhYLTNk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.8,
+      "google_review_count": 23,
+      "google_place_id": "ChIJaZXMuX4BBDQRCEJKlhYLTNk",
+      "fehd_licence_no": "2211810669",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "san-dai-mu-ying-huang-dao",
+      "name_zh": "三代目",
+      "name_en": null,
+      "lat": 22.2913428,
+      "lng": 114.2021832,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道500號 港運城地下011-013號鋪",
+      "cuisine": [
+        "日本菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：日本餐廳；FEHD 普通食肆牌照 2211809878。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（三代目／牌照2211809878／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.9／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJE8zSFCkBBDQRJo44eYKYsMM",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJE8zSFCkBBDQRJo44eYKYsMM",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.9,
+      "google_review_count": null,
+      "google_place_id": "ChIJE8zSFCkBBDQRJo44eYKYsMM",
+      "fehd_licence_no": "2211809878",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "san-de-su-shi-guan-ying-huang-dao",
+      "name_zh": "三德素食館",
+      "name_en": "Three Virtues Vegetarian Restaurant",
+      "lat": 22.291186,
+      "lng": 114.1995355,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道395號1樓東翼",
+      "cuisine": [
+        "素食",
+        "餅",
+        "餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 10:30–21:30，覆蓋 12:30–13:30 午市；Google 類別：素食餐廳／餅店／餐廳；FEHD 普通食肆牌照 2211800613。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（三德素食館／牌照2211800613／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／856 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_zhW7gQBBDQRagBC-TKFr3E",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 10:30–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_zhW7gQBBDQRagBC-TKFr3E",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": 856,
+      "google_place_id": "ChIJ_zhW7gQBBDQRagBC-TKFr3E",
+      "fehd_licence_no": "2211800613",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "ji-ye-jia-ying-huang-dao",
+      "name_zh": "吉野家",
+      "name_en": null,
+      "lat": 22.2917143,
+      "lng": 114.2043363,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道560號健威坊地下高層U39號舖",
+      "cuisine": [
+        "日本菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–22:30，覆蓋 12:30–13:30 午市；Google 類別：日本餐廳；FEHD 普通食肆牌照 2211807137。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（吉野家／牌照2211807137／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（1.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJp6iJYQABBDQR6qdhRSPOdOw",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–22:30／營業中 · 打烊時間：22:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJp6iJYQABBDQR6qdhRSPOdOw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 1.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJp6iJYQABBDQR6qdhRSPOdOw",
+      "fehd_licence_no": "2211807137",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "da-le-yue-nan-niu-ying-huang-dao",
+      "name_zh": "大叻越南牛肉粉餐廳",
+      "name_en": "DALAT Vietnamese Restaurant (North Point)",
+      "lat": 22.290795799999998,
+      "lng": 114.2003261,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角書局街1-25號及英皇道442-456號 美輪大廈地下15號舖",
+      "cuisine": [
+        "越式河粉"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：越式河粉餐廳；FEHD 普通食肆牌照 2211807696。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大叻越南牛肉粉餐廳／牌照2211807696／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.7／178 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJK91t_QQBBDQRuK3qFKIfHnU",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJK91t_QQBBDQRuK3qFKIfHnU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.7,
+      "google_review_count": 178,
+      "google_place_id": "ChIJK91t_QQBBDQRuK3qFKIfHnU",
+      "fehd_licence_no": "2211807696",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "da-jia-le-ying-huang-dao",
+      "name_zh": "大家樂",
+      "name_en": "Café de Coral",
+      "lat": 22.2914314,
+      "lng": 114.20377289999999,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角 英皇道560號健威坊 地下低層L40-L41及 L53A號鋪及地下高層U2號鋪",
+      "cuisine": [
+        "港式快餐",
+        "亞洲菜",
+        "中菜",
+        "快餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–21:30，覆蓋 12:30–13:30 午市；Google 類別：港式快餐店／亞洲菜餐廳／中菜館／快餐店；FEHD 普通食肆牌照 2211201959。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大家樂／牌照2211201959／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／595 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJf9Qt9w8BBDQRrCQCF3uZrRo",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJf9Qt9w8BBDQRrCQCF3uZrRo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 595,
+      "google_place_id": "ChIJf9Qt9w8BBDQRrCQCF3uZrRo",
+      "fehd_licence_no": "2211201959",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "da-xiao-jie-bing-shi-ying-huang-dao",
+      "name_zh": "大小姐冰室",
+      "name_en": "Missy Cafe",
+      "lat": 22.2888655,
+      "lng": 114.1936547,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道165A-175號 公主大廈地下01號舖及10至13號舖",
+      "cuisine": [
+        "茶餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 06:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：港式茶餐廳；FEHD 普通食肆牌照 2211810483。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大小姐冰室／牌照2211810483／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.9／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJEaVeT1wBBDQRAiUD238C0LE",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 06:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJEaVeT1wBBDQRAiUD238C0LE",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.9,
+      "google_review_count": null,
+      "google_place_id": "ChIJEaVeT1wBBDQRAiUD238C0LE",
+      "fehd_licence_no": "2211810483",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "da-kuai-huo-can-ying-huang-dao",
+      "name_zh": "大快活快餐",
+      "name_en": "Fairwood",
+      "lat": 22.2913644,
+      "lng": 114.2024574,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道500號港運城2樓201號舖",
+      "cuisine": [
+        "港式快餐",
+        "快餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–21:30，覆蓋 12:30–13:30 午市；Google 類別：港式快餐店／快餐店；FEHD 普通食肆牌照 2211808088。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大快活快餐／牌照2211808088／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.7／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJYYKAre4BBDQRvNn6MjmyqiQ",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJYYKAre4BBDQRvNn6MjmyqiQ",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.7,
+      "google_review_count": null,
+      "google_place_id": "ChIJYYKAre4BBDQRvNn6MjmyqiQ",
+      "fehd_licence_no": "2211808088",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "da-jiang-hu-ri-ben-ying-huang-dao",
+      "name_zh": "大江戶日本料理",
+      "name_en": "OEDO Japanese Restaurant",
+      "lat": 22.29114,
+      "lng": 114.20264829999999,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角 英皇道500號 港運城地庫B10號鋪",
+      "cuisine": [
+        "日本菜",
+        "壽司",
+        "鐵板燒"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 12:00–14:30 18:00–22:30，覆蓋 12:30–13:30 午市；Google 類別：正宗日式料理餐廳／壽司店／鐵板燒餐廳；FEHD 普通食肆牌照 2211144263。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大江戶日本料理／牌照2211144263／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJpe20bgUBBDQR_LvmXWaWf_A",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 12:00–14:30 18:00–22:30／即將開始營業 · 12:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJpe20bgUBBDQR_LvmXWaWf_A",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJpe20bgUBBDQR_LvmXWaWf_A",
+      "fehd_licence_no": "2211144263",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "cai-fu-xi-yan-ying-huang-dao",
+      "name_zh": "彩福喜宴",
+      "name_en": "Choi Fook Delight Banquet",
+      "lat": 22.2897265,
+      "lng": 114.1944613,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角 英皇道243-255號 國都廣場2樓及3樓全層",
+      "cuisine": [
+        "粵菜",
+        "酒樓"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 08:00–23:00，覆蓋 12:30–13:30 午市；Google 類別：酒樓／粵菜館；FEHD 普通食肆牌照 2211185914。",
+      "price_level": 3,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（彩福喜宴／牌照2211185914／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.6／794 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ-8agSgIBBDQRTmBMWM-YXto",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 08:00–23:00／營業中 · 打烊時間：23:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ-8agSgIBBDQRTmBMWM-YXto",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.6,
+      "google_review_count": 794,
+      "google_place_id": "ChIJ-8agSgIBBDQRTmBMWM-YXto",
+      "fehd_licence_no": "2211185914",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "man-gu-tai-cai-ying-huang-dao",
+      "name_zh": "曼谷泰菜",
+      "name_en": "Bangkok Restaurant",
+      "lat": 22.291679,
+      "lng": 114.20204229999999,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道483-497號 東寶大廈地下E-F鋪",
+      "cuisine": [
+        "泰國菜",
+        "餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:30，覆蓋 12:30–13:30 午市；Google 類別：泰國餐廳／餐廳；FEHD 普通食肆牌照 2211810386。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（曼谷泰菜／牌照2211810386／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／292 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJa6ulPwUBBDQRI9VCL3SlI4w",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:30／營業中 · 打烊時間：22:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJa6ulPwUBBDQRI9VCL3SlI4w",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 292,
+      "google_place_id": "ChIJa6ulPwUBBDQRI9VCL3SlI4w",
+      "fehd_licence_no": "2211810386",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "sen-shi-tang-ying-huang-dao",
+      "name_zh": "森森食堂",
+      "name_en": "Sam Sam Canteen",
+      "lat": 22.2914274,
+      "lng": 114.2008905,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道449-455號華興大廈地下2號鋪 (B部份)及3號鋪",
+      "cuisine": [
+        "茶餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:30–21:30，覆蓋 12:30–13:30 午市；Google 類別：港式茶餐廳；FEHD 普通食肆牌照 2211806745。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（森森食堂／牌照2211806745／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／222 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJH8T1eroBBDQRBdTIxPj1cU8",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:30–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJH8T1eroBBDQRBdTIxPj1cU8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 222,
+      "google_place_id": "ChIJH8T1eroBBDQRBdTIxPj1cU8",
+      "fehd_licence_no": "2211806745",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "le-chu-cha-can-ting-ying-huang-dao",
+      "name_zh": "樂廚茶餐廳",
+      "name_en": "Le Chu Dim Sum Restaurant",
+      "lat": 22.291688699999998,
+      "lng": 114.206834,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道692號北角大廈地下D舖",
+      "cuisine": [
+        "餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–17:30，覆蓋 12:30–13:30 午市；Google 類別：餐廳；FEHD 普通食肆牌照 2211803366；Google 評論數少（12 則），評分參考性有限。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（樂廚茶餐廳／牌照2211803366／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（2.9／12 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJDU8R-zIBBDQRLWrhwMdq4ks",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–17:30／營業中 · 打烊時間：17:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJDU8R-zIBBDQRLWrhwMdq4ks",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 2.9,
+      "google_review_count": 12,
+      "google_place_id": "ChIJDU8R-zIBBDQRLWrhwMdq4ks",
+      "fehd_licence_no": "2211803366",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "jin-ying-huang-dao",
+      "name_zh": "津津",
+      "name_en": "Jinjin Cha Caan Teng Restaurant",
+      "lat": 22.2904879,
+      "lng": 114.2090339,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角 英皇道774號C 模範邨C座地下8號鋪",
+      "cuisine": [
+        "茶餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:30–19:30，覆蓋 12:30–13:30 午市；Google 類別：港式茶餐廳；FEHD 普通食肆牌照 2211037439。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（津津／牌照2211037439／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJsXtHPQ4BBDQRLQCrDDCOEUc",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:30–19:30／營業中 · 打烊時間：19:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJsXtHPQ4BBDQRLQCrDDCOEUc",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": null,
+      "google_place_id": "ChIJsXtHPQ4BBDQRLQCrDDCOEUc",
+      "fehd_licence_no": "2211037439",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "bai-hao-ming-yan-ying-huang-dao",
+      "name_zh": "百好名宴",
+      "name_en": "Very Good Joyful Banquet",
+      "lat": 22.2899852,
+      "lng": 114.1955316,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角 英皇道294至296號 地下(部分)閣樓及1樓",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 06:30–23:00，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211030508。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（百好名宴／牌照2211030508／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／324 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJjwa4PtYBBDQRXjcmwvK6Y94",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 06:30–23:00／營業中 · 打烊時間：23:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJjwa4PtYBBDQRXjcmwvK6Y94",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": 324,
+      "google_place_id": "ChIJjwa4PtYBBDQRXjcmwvK6Y94",
+      "fehd_licence_no": "2211030508",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "zhou-mian-hao-zhan-ying-huang-dao",
+      "name_zh": "粥麵好盞",
+      "name_en": "Jolly Congee & Noodle",
+      "lat": 22.290824399999998,
+      "lng": 114.20188019999999,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道500號 港運城1樓131-132號鋪",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–21:30，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211810793。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（粥麵好盞／牌照2211810793／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.9／47 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRzaW3L4BBDQRo3Bk9jo5--4",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRzaW3L4BBDQRo3Bk9jo5--4",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.9,
+      "google_review_count": 47,
+      "google_place_id": "ChIJRzaW3L4BBDQRo3Bk9jo5--4",
+      "fehd_licence_no": "2211810793",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "su-shi-yuan-fang-ying-huang-dao",
+      "name_zh": "素食園坊",
+      "name_en": "Veggie Express",
+      "lat": 22.290555599999998,
+      "lng": 114.1988889,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角 英皇道406至408號 康威大廈地下3號鋪",
+      "cuisine": [
+        "素食"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 10:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：素食餐廳；FEHD 普通食肆牌照 2211120463。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（素食園坊／牌照2211120463／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.2／602 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ6Vi5igQBBDQRb_ZrM35jMts",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 10:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ6Vi5igQBBDQRb_ZrM35jMts",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.2,
+      "google_review_count": 602,
+      "google_place_id": "ChIJ6Vi5igQBBDQRb_ZrM35jMts",
+      "fehd_licence_no": "2211120463",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "ken-de-ji-ying-huang-dao",
+      "name_zh": "肯德基",
+      "name_en": "KFC",
+      "lat": 22.2917523,
+      "lng": 114.2043233,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道560號健威坊地下低層L9F號舖",
+      "cuisine": [
+        "雞"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:30–23:00，覆蓋 12:30–13:30 午市；Google 類別：雞肉料理餐廳；FEHD 普通食肆牌照 2211808945。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（肯德基／牌照2211808945／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2zVNQEMBBDQRqc1LeBp9tOU",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:30–23:00／營業中 · 打烊時間：23:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ2zVNQEMBBDQRqc1LeBp9tOU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": null,
+      "google_place_id": "ChIJ2zVNQEMBBDQRqc1LeBp9tOU",
+      "fehd_licence_no": "2211808945",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "tan-zai-yun-nan-mi-ying-huang-dao",
+      "name_zh": "譚仔雲南米線",
+      "name_en": "TamJai Yunnan Mixian",
+      "lat": 22.289182,
+      "lng": 114.19398299999999,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道177號利都樓地下B及C鋪",
+      "cuisine": [
+        "餐廳",
+        "亞洲菜",
+        "粉麵"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：餐廳／亞洲菜餐廳／中式麵食店；FEHD 普通食肆牌照 2211805557。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（譚仔雲南米線／牌照2211805557／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.7／439 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJszHGMQIBBDQRxq2dqbpAFwI",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJszHGMQIBBDQRxq2dqbpAFwI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.7,
+      "google_review_count": 439,
+      "google_place_id": "ChIJszHGMQIBBDQRxq2dqbpAFwI",
+      "fehd_licence_no": "2211805557",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "chao-ren-ji-bao-kao-ying-huang-dao",
+      "name_zh": "超人雞煲烤魚",
+      "name_en": null,
+      "lat": 22.288733999999998,
+      "lng": 114.1935599,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港艇街7-9號英皇道163-163B號 中南大廈地下C鋪",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 12:00–20:00，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211810447。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（超人雞煲烤魚／牌照2211810447／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.3／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJl4KJFuABBDQRNLyiTY5y2mA",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 12:00–20:00／營業中 · 打烊時間：20:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJl4KJFuABBDQRNLyiTY5y2mA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.3,
+      "google_review_count": null,
+      "google_place_id": "ChIJl4KJFuABBDQRNLyiTY5y2mA",
+      "fehd_licence_no": "2211810447",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yue-zhong-yi-ying-huang-dao",
+      "name_zh": "越中意",
+      "name_en": "Yuet Chung Yee Vietnam Restaurant",
+      "lat": 22.2912,
+      "lng": 114.1990313,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道395號僑冠大廈地下G24鋪",
+      "cuisine": [
+        "越南菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–21:30，覆蓋 12:30–13:30 午市；Google 類別：越南餐廳；FEHD 普通食肆牌照 2211800923。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（越中意／牌照2211800923／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.7／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJx_2O7gQBBDQRxf6xESjFz8s",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJx_2O7gQBBDQRxf6xESjFz8s",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.7,
+      "google_review_count": null,
+      "google_place_id": "ChIJx_2O7gQBBDQRxf6xESjFz8s",
+      "fehd_licence_no": "2211800923",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yi-long-xuan-ying-huang-dao",
+      "name_zh": "逸龍軒",
+      "name_en": "Yat Lung Heen",
+      "lat": 22.291572799999997,
+      "lng": 114.2083995,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角 英皇道665號 海逸酒店3樓",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211178675。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（逸龍軒／牌照2211178675／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.7／278 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJl_3sYUsBBDQRaRctC0j7n3A",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJl_3sYUsBBDQRaRctC0j7n3A",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.7,
+      "google_review_count": 278,
+      "google_place_id": "ChIJl_3sYUsBBDQRaRctC0j7n3A",
+      "fehd_licence_no": "2211178675",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "dao-sheng-mian-guan-ying-huang-dao",
+      "name_zh": "道生麵館",
+      "name_en": "Infinitas Noodles",
+      "lat": 22.2918552,
+      "lng": 114.2042961,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道560號健威坊地下低層L15號舖",
+      "cuisine": [
+        "粉麵"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl",
+        "lunch_hours_unverified"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 休息（午市覆蓋待核）；Google 類別：中式麵食店；FEHD 普通食肆牌照 2211805450。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（道生麵館／牌照2211805450／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.2／236 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ72plZokBBDQRkrxmfFK3fC4",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 休息／營業中 · 打烊時間：21:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ72plZokBBDQRkrxmfFK3fC4",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.2,
+      "google_review_count": 236,
+      "google_place_id": "ChIJ72plZokBBDQRkrxmfFK3fC4",
+      "fehd_licence_no": "2211805450",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "na-ge-ying-huang-dao",
+      "name_zh": "那個",
+      "name_en": "NAGEI (North Point)",
+      "lat": 22.291671299999997,
+      "lng": 114.20192159999999,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道483至497號東寶大廈地下C及D鋪",
+      "cuisine": [
+        "台灣菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–21:30，覆蓋 12:30–13:30 午市；Google 類別：台灣餐廳；FEHD 普通食肆牌照 2211808103。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（那個／牌照2211808103／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.9／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJve7YJygBBDQRFEwl5XxTgBY",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJve7YJygBBDQRFEwl5XxTgBY",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.9,
+      "google_review_count": null,
+      "google_place_id": "ChIJve7YJygBBDQRFEwl5XxTgBY",
+      "fehd_licence_no": "2211808103",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "shuang-la-wu-ying-huang-dao",
+      "name_zh": "雙辣屋",
+      "name_en": "CHILLIE GARDEN RESTAURANT Indian Cuisine",
+      "lat": 22.2898186,
+      "lng": 114.1954892,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港 英皇道294號 五洲大廈地下C舖",
+      "cuisine": [
+        "印度菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–15:00 18:00–23:00，覆蓋 12:30–13:30 午市；Google 類別：印度餐廳；FEHD 普通食肆牌照 2211235273。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（雙辣屋／牌照2211235273／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJc75TuQMBBDQR23AAfSGNcfI",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–15:00 18:00–23:00／營業中 · 打烊時間：15:00 · 恢復營業時間：18:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJc75TuQMBBDQR23AAfSGNcfI",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.1,
+      "google_review_count": null,
+      "google_place_id": "ChIJc75TuQMBBDQR23AAfSGNcfI",
+      "fehd_licence_no": "2211235273",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "ji-shao-qu-gu-hai-ying-huang-dao",
+      "name_zh": "雞少去骨海南雞",
+      "name_en": "Young Chick & Rice",
+      "lat": 22.2891229,
+      "lng": 114.1939956,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港英皇道177-181,185-191&191A號 福元街7&9號利都樓地下D鋪",
+      "cuisine": [
+        "新加坡菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–21:30，覆蓋 12:30–13:30 午市；Google 類別：新加坡餐廳；FEHD 普通食肆牌照 2211810562。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（雞少去骨海南雞／牌照2211810562／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.1／67 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ60hD7aYBBDQRn-WD5dlapsE",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ60hD7aYBBDQRn-WD5dlapsE",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.1,
+      "google_review_count": 67,
+      "google_place_id": "ChIJ60hD7aYBBDQRn-WD5dlapsE",
+      "fehd_licence_no": "2211810562",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "qian-ying-yang-rou-fen-ying-huang-dao",
+      "name_zh": "黔營羊肉粉",
+      "name_en": "Qianying Lamb Noodles (Fortress Hill Shop)",
+      "lat": 22.289062899999998,
+      "lng": 114.1939568,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角福元街7-9號,英皇道177-191A號 利都樓地下E舖",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:30，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211809735。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（黔營羊肉粉／牌照2211809735／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／72 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJQ1-92R8BBDQRpG8ET1ZQisk",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:30／營業中 · 打烊時間：22:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJQ1-92R8BBDQRpG8ET1ZQisk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 72,
+      "google_place_id": "ChIJQ1-92R8BBDQRpG8ET1ZQisk",
+      "fehd_licence_no": "2211809735",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "frites-belgium-on-tap-dian-qi-dao",
+      "name_zh": "FRITES BELGIUM ON TAP",
+      "name_en": "FRITES Belgium on Tap",
+      "lat": 22.288554899999998,
+      "lng": 114.193148,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角電氣道218號香港李寧大廈地下4-5號舖",
+      "cuisine": [
+        "比利時"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:30，覆蓋 12:30–13:30 午市；Google 類別：比利時餐廳；FEHD 普通食肆牌照 2211808981。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（FRITES BELGIUM ON TAP／牌照2211808981／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.2／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ5fNpZKABBDQRo-fJn3UANII",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:30／營業中 · 打烊時間：22:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ5fNpZKABBDQRo-fJn3UANII",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.2,
+      "google_review_count": null,
+      "google_place_id": "ChIJ5fNpZKABBDQRo-fJn3UANII",
+      "fehd_licence_no": "2211808981",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "pizzaexpress-dian-qi-dao",
+      "name_zh": "PIZZAEXPRESS",
+      "name_en": "PizzaExpress (Fortress Hill)",
+      "lat": 22.288637299999998,
+      "lng": 114.19243469999999,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角電氣道183號 友邦廣場地下20-21號鋪",
+      "cuisine": [
+        "薄餅"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：薄餅餐廳；FEHD 普通食肆牌照 2211810623。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（PIZZAEXPRESS／牌照2211810623／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4／47 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWSFj1w0BBDQR2IJDgXM6pw8",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWSFj1w0BBDQR2IJDgXM6pw8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4,
+      "google_review_count": 47,
+      "google_place_id": "ChIJWSFj1w0BBDQR2IJDgXM6pw8",
+      "fehd_licence_no": "2211810623",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yuan-qi-shou-si-dian-qi-dao",
+      "name_zh": "元氣壽司",
+      "name_en": "Genki Sushi",
+      "lat": 22.2879756,
+      "lng": 114.1922733,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角電氣道183號友邦廣場地下8號鋪(小部分), 9號鋪及10號鋪(主要部分)",
+      "cuisine": [
+        "壽司"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:30，覆蓋 12:30–13:30 午市；Google 類別：迴轉壽司餐廳；FEHD 普通食肆牌照 2211805636。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（元氣壽司／牌照2211805636／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／567 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJtapO8AEBBDQRN_bALIX2X1c",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:30／營業中 · 打烊時間：22:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJtapO8AEBBDQRN_bALIX2X1c",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": 567,
+      "google_place_id": "ChIJtapO8AEBBDQRN_bALIX2X1c",
+      "fehd_licence_no": "2211805636",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "li-yuan-jiu-jia-dian-qi-dao",
+      "name_zh": "利苑酒家",
+      "name_en": "Lei Garden (City Garden)",
+      "lat": 22.2909133,
+      "lng": 114.1932561,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角 城市花園第9至10座 1樓25至28號 33號至36號及39至44號鋪",
+      "cuisine": [
+        "粵菜",
+        "亞洲菜",
+        "酒樓"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–16:00 18:00–22:30，覆蓋 12:30–13:30 午市；Google 類別：粵菜館／亞洲菜餐廳／酒樓；FEHD 普通食肆牌照 2211081904。",
+      "price_level": 3,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（利苑酒家／牌照2211081904／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ1eUWXAIBBDQRU7pwwN3rDvo",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–16:00 18:00–22:30／營業中 · 打烊時間：16:00 · 恢復營業時間：18:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ1eUWXAIBBDQRU7pwwN3rDvo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": null,
+      "google_place_id": "ChIJ1eUWXAIBBDQRU7pwwN3rDvo",
+      "fehd_licence_no": "2211081904",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "si-bao-shi-tang-dian-qi-dao",
+      "name_zh": "四寶食堂",
+      "name_en": "Fortress Kitchen",
+      "lat": 22.2892799,
+      "lng": 114.19374479999999,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角電器道254至280號 華凱大廈地下C舖及D舖(大部份)",
+      "cuisine": [
+        "茶餐廳",
+        "中菜",
+        "港式快餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：港式茶餐廳／中菜館／港式快餐店；FEHD 普通食肆牌照 2211808389。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（四寶食堂／牌照2211808389／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJTfdfNTcBBDQRd3AoQYtUIz8",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJTfdfNTcBBDQRd3AoQYtUIz8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4,
+      "google_review_count": null,
+      "google_place_id": "ChIJTfdfNTcBBDQRd3AoQYtUIz8",
+      "fehd_licence_no": "2211808389",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "da-jia-le-dian-qi-dao",
+      "name_zh": "大家樂",
+      "name_en": "Café de Coral",
+      "lat": 22.290965,
+      "lng": 114.19460699999999,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港 電氣道233號城市花園1,2及3座平台 城市中心1樓1及87號鋪",
+      "cuisine": [
+        "港式快餐",
+        "中菜",
+        "快餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–21:30，覆蓋 12:30–13:30 午市；Google 類別：港式快餐店／中菜館／快餐店；FEHD 普通食肆牌照 2211100416。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（大家樂／牌照2211100416／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／473 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_W20TQIBBDQRoq9Yg9Npt-I",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_W20TQIBBDQRoq9Yg9Npt-I",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 473,
+      "google_place_id": "ChIJ_W20TQIBBDQRoq9Yg9Npt-I",
+      "fehd_licence_no": "2211100416",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "tai-xing-dian-qi-dao",
+      "name_zh": "太興",
+      "name_en": "Tai Hing",
+      "lat": 22.2879014,
+      "lng": 114.1922317,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角電氣道183號友邦廣場地下G10B-13號鋪",
+      "cuisine": [
+        "茶餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 07:00–22:00，覆蓋 12:30–13:30 午市；Google 類別：港式茶餐廳；FEHD 普通食肆牌照 2211809407。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（太興／牌照2211809407／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／65 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJIbB6SgABBDQR2LzTLXavf3A",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 07:00–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJIbB6SgABBDQR2LzTLXavf3A",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.1,
+      "google_review_count": 65,
+      "google_place_id": "ChIJIbB6SgABBDQR2LzTLXavf3A",
+      "fehd_licence_no": "2211809407",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "chuan-pin-yun-nan-mi-dian-qi-dao",
+      "name_zh": "川品雲南米線(北角)",
+      "name_en": null,
+      "lat": 22.290651699999998,
+      "lng": 114.19449069999999,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角電氣道233號城市花園地下53號鋪",
+      "cuisine": [
+        "餐廳"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–21:30，覆蓋 12:30–13:30 午市；Google 類別：餐廳；FEHD 普通食肆牌照 2211805724。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（川品雲南米線(北角)／牌照2211805724／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.1／27 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJodugs1cBBDQRLSTvtLYBzJo",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJodugs1cBBDQRLSTvtLYBzJo",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.1,
+      "google_review_count": 27,
+      "google_place_id": "ChIJodugs1cBBDQRLSTvtLYBzJo",
+      "fehd_licence_no": "2211805724",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yong-sheng-bing-shi-dian-qi-dao",
+      "name_zh": "永勝冰室",
+      "name_en": "Wins Cafe",
+      "lat": 22.2896112,
+      "lng": 114.19403849999999,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角電氣道276-280號華凱大廈1樓",
+      "cuisine": [
+        "港式快餐"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 12:00–21:30，覆蓋 12:30–13:30 午市；Google 類別：港式快餐店；FEHD 普通食肆牌照 2211809179。",
+      "price_level": 1,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（永勝冰室／牌照2211809179／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／138 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJCcC9fwABBDQRDdkB2IHckxs",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 12:00–21:30／營業中 · 打烊時間：21:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJCcC9fwABBDQRDdkB2IHckxs",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": 138,
+      "google_place_id": "ChIJCcC9fwABBDQRDdkB2IHckxs",
+      "fehd_licence_no": "2211809179",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "tai-jin-xiang-xiao-chu-dian-qi-dao",
+      "name_zh": "泰金香小廚",
+      "name_en": "NATONG THAI RESTAURANT",
+      "lat": 22.290298399999998,
+      "lng": 114.19338599999999,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角 電氣道233號 城市花園商場 第14座1樓94號鋪",
+      "cuisine": [
+        "泰國菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：泰國餐廳；FEHD 普通食肆牌照 2211217125。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（泰金香小廚／牌照2211217125／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.3／212 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRwMWdqoABDQRKRTw4ATMEGs",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRwMWdqoABDQRKRTw4ATMEGs",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.3,
+      "google_review_count": 212,
+      "google_place_id": "ChIJRwMWdqoABDQRKRTw4ATMEGs",
+      "fehd_licence_no": "2211217125",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "she-wang-liang-dian-qi-dao",
+      "name_zh": "蛇王良",
+      "name_en": "SHE WONG LEUNG",
+      "lat": 22.2901626,
+      "lng": 114.1945847,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角 電氣道298A號地下",
+      "cuisine": [
+        "中菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:40–22:00，覆蓋 12:30–13:30 午市；Google 類別：中菜館；FEHD 普通食肆牌照 2211209014。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（蛇王良／牌照2211209014／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／332 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJx_UwswMBBDQRdS0nXlXwnnU",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:40–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJx_UwswMBBDQRdS0nXlXwnnU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": 332,
+      "google_place_id": "ChIJx_UwswMBBDQRdS0nXlXwnnU",
+      "fehd_licence_no": "2211209014",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yu-jian-hua-lian-dian-qi-dao",
+      "name_zh": "遇見花蓮",
+      "name_en": "Hualien Dating",
+      "lat": 22.288055,
+      "lng": 114.192033,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角電氣道183號友邦廣場地下14-15號舖",
+      "cuisine": [
+        "台灣菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：台灣餐廳；FEHD 普通食肆牌照 2211805335。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（遇見花蓮／牌照2211805335／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／196 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ6VjcBf0BBDQRv6sC8ZLq9vw",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ6VjcBf0BBDQRv6sC8ZLq9vw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 196,
+      "google_place_id": "ChIJ6VjcBf0BBDQRv6sC8ZLq9vw",
+      "fehd_licence_no": "2211805335",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "ma-liu-dian-qi-dao",
+      "name_zh": "馬六",
+      "name_en": "Malacca Cuisine",
+      "lat": 22.289362399999998,
+      "lng": 114.1938327,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角電氣道254-280號華凱大廈地下F舖",
+      "cuisine": [
+        "東南亞菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:30–22:00，覆蓋 12:30–13:30 午市；Google 類別：東南亞餐廳；FEHD 普通食肆牌照 2211808185。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（馬六／牌照2211808185／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.6／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ5X0UE4IBBDQRayAHe7n0u1k",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:30–22:00／營業中 · 打烊時間：22:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ5X0UE4IBBDQRayAHe7n0u1k",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.6,
+      "google_review_count": null,
+      "google_place_id": "ChIJ5X0UE4IBBDQRayAHe7n0u1k",
+      "fehd_licence_no": "2211808185",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yu-mi-dian-qi-dao",
+      "name_zh": "魚米",
+      "name_en": "YUMAI",
+      "lat": 22.2893649,
+      "lng": 114.1939462,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港電氣道254-280號華凱大廈地下K號舖",
+      "cuisine": [
+        "粉麵"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 11:00–22:30，覆蓋 12:30–13:30 午市；Google 類別：中式麵食店；FEHD 普通食肆牌照 2211806709。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（魚米／牌照2211806709／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.4／144 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ63hhNgIBBDQRfauzEjlnn8g",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 11:00–22:30／營業中 · 打烊時間：22:30）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ63hhNgIBBDQRfauzEjlnn8g",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.4,
+      "google_review_count": 144,
+      "google_place_id": "ChIJ63hhNgIBBDQRfauzEjlnn8g",
+      "fehd_licence_no": "2211806709",
+      "licence_type": "普通食肆"
+    },
+    {
+      "id": "yi-chen-ri-ben-liao-dian-qi-dao",
+      "name_zh": "鮨辰日本料理",
+      "name_en": "Sushi Shin",
+      "lat": 22.2881605,
+      "lng": 114.1921363,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角電氣道183號 友邦廣場地下16號舖",
+      "cuisine": [
+        "壽司",
+        "日本菜"
+      ],
+      "tags": [
+        "fehd_licensed",
+        "fehd_rl"
+      ],
+      "dine_in": true,
+      "serves_lunch": true,
+      "lunch_notes": "Google 地圖平日營業 12:00–14:30 18:00–22:30，覆蓋 12:30–13:30 午市；Google 類別：壽司店／日本餐廳；FEHD 普通食肆牌照 2211810094。",
+      "price_level": 2,
+      "price_lunch_hkd": null,
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（鮨辰日本料理／牌照2211810094／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.7／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWZBtJ6sBBDQRVG3794CdiKA",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁（座標／營業時間 12:00–14:30 18:00–22:30／營業中 · 打烊時間：14:30 · 恢復營業時間：18:00）",
+          "type": "google_maps_place",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJWZBtJ6sBBDQRVG3794CdiKA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.7,
+      "google_review_count": null,
+      "google_place_id": "ChIJWZBtJ6sBBDQRVG3794CdiKA",
+      "fehd_licence_no": "2211810094",
+      "licence_type": "普通食肆"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "harbourview-grill-zha-hua-dao",
+      "name_zh": "Harbourview Grill",
+      "name_en": "Harbourview Grill (North Point)",
+      "lat": 22.2928218,
+      "lng": 114.20096579999999,
+      "district": "北角",
+      "area": "渣華道",
+      "address": "香港北角渣華道123號北角匯弍期壹字樓108室",
+      "exclude_reason": "nonmeal_borderline：CEO 批核（2026-10-07）非正餐邊界——一律 excluded（原 review status=hold；非正餐定位待核：Google 類別「酒吧扒房」（酒吧等），未確認有正常午餐）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Harbourview Grill／牌照2211809744／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.1／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJyYOI4UwBBDQRpWpyFZdVXzs",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.1,
+      "google_review_count": null,
+      "round1_borderline": true,
+      "fehd_licence_no": "2211809744",
+      "google_place_id": "ChIJyYOI4UwBBDQRpWpyFZdVXzs"
+    },
+    {
+      "id": "levain-ying-huang-dao",
+      "name_zh": "LEVAIN",
+      "name_en": "Levain Bakery",
+      "lat": 22.2897844,
+      "lng": 114.20917779999999,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角英皇道856號 君豪峰地下１及２號鋪（主要部分）",
+      "exclude_reason": "nonmeal_borderline：CEO 批核（2026-10-07）非正餐邊界——一律 excluded（原 review status=hold；非正餐邊界待核：主要類別「餅店」屬純甜品／烘焙／咖啡／茶飲，但有疑似午餐主食文字證據，待核）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（LEVAIN／牌照2211810058／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.9／307 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJk2XEmzwBBDQR9TK34S8kw20",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.9,
+      "google_review_count": 307,
+      "round1_borderline": true,
+      "fehd_licence_no": "2211810058",
+      "google_place_id": "ChIJk2XEmzwBBDQR9TK34S8kw20"
+    },
+    {
+      "id": "lobby-lounge-pao-tai-shan",
+      "name_zh": "Lobby Lounge",
+      "name_en": "The Point Lobby Lounge",
+      "lat": 22.2915761,
+      "lng": 114.2084684,
+      "district": "北角",
+      "area": "炮台山",
+      "address": "香港北角油街23號港島海逸君綽酒店地下(小部份)",
+      "exclude_reason": "nonmeal_borderline：CEO 批核（2026-10-07）非正餐邊界——一律 excluded（原 review status=hold；非正餐定位待核：Google 類別「酒吧雅座」（酒吧等），未確認有正常午餐）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（Lobby Lounge／牌照2211802354／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.9／27 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJESwRHQ4BBDQRACSKngIngW0",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.9,
+      "google_review_count": 27,
+      "round1_borderline": true,
+      "fehd_licence_no": "2211802354",
+      "google_place_id": "ChIJESwRHQ4BBDQRACSKngIngW0"
+    },
+    {
+      "id": "ka-wei-ya-de-chu-ying-huang-dao",
+      "name_zh": "卡維亞的廚房",
+      "name_en": null,
+      "lat": 22.292,
+      "lng": 114.205,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港英皇道923號麗池花園大廈 地下A2座",
+      "exclude_reason": "nonmeal_borderline：CEO 批核（2026-10-07）非正餐邊界——一律 excluded（原 review status=hold；未查 Google（lookup 未完成／被限流）｜另：同鰂魚涌待批重疊）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（卡維亞的廚房／牌照2211811477／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": null,
+      "google_review_count": null,
+      "round1_borderline": true,
+      "fehd_licence_no": "2211811477"
+    },
+    {
+      "id": "he-bu-tong-ka-fei-bei-jiao",
+      "name_zh": "和‧不同咖啡吧",
+      "name_en": null,
+      "lat": 22.292280899999998,
+      "lng": 114.1980861,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角和富道114-118,122-126號 康華大廈地下A2號舖",
+      "exclude_reason": "nonmeal：純甜品／糖水／烘焙／純咖啡／茶飲：Google 主要類別「咖啡店」，無正常午餐主食證據",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（和‧不同咖啡吧／牌照2211810252／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJJT8fB8QBBDQRSYxI_IF_Aww",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.5,
+      "google_review_count": null,
+      "fehd_licence_no": "2211810252",
+      "google_place_id": "ChIJJT8fB8QBBDQRSYxI_IF_Aww"
+    },
+    {
+      "id": "dian-xiao-er-bei-jiao",
+      "name_zh": "店小二",
+      "name_en": null,
+      "lat": 22.290568,
+      "lng": 114.2011278,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角七姊妹道14-16號兆景大廈地下A舖",
+      "exclude_reason": "no_lunch：Google 營業時間平日未覆蓋 12:30–13:30（['17:30–22:00']）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（店小二／牌照2211807058／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJUSJKe04BBDQRzoTvvWG-Bww",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4,
+      "google_review_count": null,
+      "fehd_licence_no": "2211807058",
+      "google_place_id": "ChIJUSJKe04BBDQRzoTvvWG-Bww"
+    },
+    {
+      "id": "xin-gang-yan-hui-ting-bei-jiao",
+      "name_zh": "新港宴會廳",
+      "name_en": null,
+      "lat": 22.2920593,
+      "lng": 114.20069559999999,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角馬寶道33號馬寶花園購物商場3樓及2樓(部份)",
+      "exclude_reason": "closed：Google 地圖顯示「已歇業」",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（新港宴會廳／牌照2211803083／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJcbVLn4QBBDQRAE8ulekiS3k",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": null,
+      "fehd_licence_no": "2211803083",
+      "google_place_id": "ChIJcbVLn4QBBDQRAE8ulekiS3k"
+    },
+    {
+      "id": "yong-li-bing-shi-ying-huang-dao",
+      "name_zh": "永利冰室",
+      "name_en": null,
+      "lat": 22.289776,
+      "lng": 114.209751,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港英皇道925號麗池大廈地下A1鋪",
+      "exclude_reason": "nonmeal_borderline：CEO 批核（2026-10-07）非正餐邊界——一律 excluded（原 review status=hold；同鰂魚涌待批重疊暫緩（place_id／牌照已在 quarry-bay-round1；），唔雙重入庫）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（永利冰室／牌照2211801689／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJRcoV2Q0BBDQR1G5lHNX2zBk",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": null,
+      "round1_borderline": true,
+      "fehd_licence_no": "2211801689",
+      "google_place_id": "ChIJRcoV2Q0BBDQR1G5lHNX2zBk"
+    },
+    {
+      "id": "tan-lao-bei-jiao",
+      "name_zh": "炭烙",
+      "name_en": "SUMIRAKU",
+      "lat": 22.290416099999998,
+      "lng": 114.2003618,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角錦屏街23A號 東發大廈A座地下32號鋪",
+      "exclude_reason": "no_lunch：Google 營業時間平日未覆蓋 12:30–13:30（['17:30–01:30']）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（炭烙／牌照2211807605／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJN7VVXQABBDQRs_zR98_gv3E",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": null,
+      "fehd_licence_no": "2211807605",
+      "google_place_id": "ChIJN7VVXQABBDQRs_zR98_gv3E"
+    },
+    {
+      "id": "lv-yin-ge-dian-qi-dao",
+      "name_zh": "綠茵閣",
+      "name_en": "Garden Cafe",
+      "lat": 22.290138499999998,
+      "lng": 114.19411939999999,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角 城市花園道9號 城市花園酒店1樓(部分)",
+      "exclude_reason": "closed：Google 地圖顯示「已歇業」",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（綠茵閣／牌照2211087601／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／385 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJS-suTAIBBDQRZYOTxu2THHg",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": 385,
+      "fehd_licence_no": "2211087601",
+      "google_place_id": "ChIJS-suTAIBBDQRZYOTxu2THHg"
+    },
+    {
+      "id": "cui-yuan-tian-pin-zhuan-bei-jiao",
+      "name_zh": "翠園甜品專家",
+      "name_en": "Tsui Yuen Dessert",
+      "lat": 22.2909763,
+      "lng": 114.1964038,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 北角道11-13號 鴻日大廈地下3號鋪",
+      "exclude_reason": "nonmeal：純甜品／糖水／烘焙／純咖啡／茶飲：Google 主要類別「甜品店」，無正常午餐主食證據",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（翠園甜品專家／牌照2211181578／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／263 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJx6VhdgMBBDQR3OffPjtH0CU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": 263,
+      "fehd_licence_no": "2211181578",
+      "google_place_id": "ChIJx6VhdgMBBDQR3OffPjtH0CU"
+    },
+    {
+      "id": "xing-ji-yun-tun-mian-ying-huang-dao",
+      "name_zh": "興記雲吞麵",
+      "name_en": null,
+      "lat": 22.292,
+      "lng": 114.205,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港英皇道997號 惠利大廈地下A舖",
+      "exclude_reason": "nonmeal_borderline：CEO 批核（2026-10-07）非正餐邊界——一律 excluded（原 review status=hold；未查 Google（lookup 未完成／被限流）｜另：同鰂魚涌待批重疊）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（興記雲吞麵／牌照3111800286／小食食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": null,
+      "google_review_count": null,
+      "round1_borderline": true,
+      "fehd_licence_no": "3111800286"
+    },
+    {
+      "id": "hua-yuan-can-ting-ying-huang-dao",
+      "name_zh": "花園餐廳",
+      "name_en": "Sweetheart Garden Restaurant",
+      "lat": 22.2902083,
+      "lng": 114.1949949,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港北角 英皇道275號1樓",
+      "exclude_reason": "nonmeal_borderline：CEO 批核（2026-10-07）非正餐邊界——一律 excluded（原 review status=hold；非正餐邊界待核：次要類別含非正餐 ['咖啡店']）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（花園餐廳／牌照2211094579／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／則數未顯示）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJa1WlsQMBBDQRmS3w0ZyPRJ8",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": null,
+      "round1_borderline": true,
+      "fehd_licence_no": "2211094579",
+      "google_place_id": "ChIJa1WlsQMBBDQRmS3w0ZyPRJ8"
+    },
+    {
+      "id": "hua-tian-jiu-di-bei-jiao",
+      "name_zh": "花天酒地",
+      "name_en": null,
+      "lat": 22.2905037,
+      "lng": 114.2004827,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角錦屏街25A號東發大廈A座地下",
+      "exclude_reason": "no_lunch：Google 營業時間平日未覆蓋 12:30–13:30（['18:00–23:00']）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（花天酒地／牌照2211805812／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.8／55 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJafSL7LwBBDQRqnGtuhrgvgU",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.8,
+      "google_review_count": 55,
+      "fehd_licence_no": "2211805812",
+      "google_place_id": "ChIJafSL7LwBBDQRqnGtuhrgvgU"
+    },
+    {
+      "id": "he-li-huo-bing-shi-ying-huang-dao",
+      "name_zh": "荷里活冰室",
+      "name_en": null,
+      "lat": 22.292,
+      "lng": 114.205,
+      "district": "北角",
+      "area": "英皇道",
+      "address": "香港 英皇道933號 御皇台5及9號舖",
+      "exclude_reason": "nonmeal_borderline：CEO 批核（2026-10-07）非正餐邊界——一律 excluded（原 review status=hold；未查 Google（lookup 未完成／被限流）｜另：同鰂魚涌待批重疊）",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（荷里活冰室／牌照2211235051／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": null,
+      "google_review_count": null,
+      "round1_borderline": true,
+      "fehd_licence_no": "2211235051"
+    },
+    {
+      "id": "feng-shao-tian-pin-bei-jiao",
+      "name_zh": "鋒少甜品",
+      "name_en": null,
+      "lat": 22.290737999999997,
+      "lng": 114.2003525,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角 書局街7號 美輪大廈地下",
+      "exclude_reason": "nonmeal：純甜品／糖水／烘焙／純咖啡／茶飲：Google 主要類別「甜品店」，無正常午餐主食證據",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（鋒少甜品／牌照2211122238／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.5／66 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_y9t_QQBBDQRH0CtfDwoZbw",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.5,
+      "google_review_count": 66,
+      "fehd_licence_no": "2211122238",
+      "google_place_id": "ChIJ_y9t_QQBBDQRH0CtfDwoZbw"
+    },
+    {
+      "id": "jin-jiang-xuan-shi-fu-dian-qi-dao",
+      "name_zh": "錦江軒食府",
+      "name_en": null,
+      "lat": 22.2910297,
+      "lng": 114.193531,
+      "district": "北角",
+      "area": "電器道",
+      "address": "香港北角城市花園第8座地下 14,15,16及18號鋪",
+      "exclude_reason": "closed：Google 地圖顯示「已歇業」",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（錦江軒食府／牌照2211807669／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（3.8／136 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJYXX8WAIBBDQR5e1ALpcgT8U",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 3.8,
+      "google_review_count": 136,
+      "fehd_licence_no": "2211807669",
+      "google_place_id": "ChIJYXX8WAIBBDQR5e1ALpcgT8U"
+    },
+    {
+      "id": "yi-wei-ju-jiu-wu-bei-jiao",
+      "name_zh": "鮨鮪居酒屋",
+      "name_en": null,
+      "lat": 22.290153999999998,
+      "lng": 114.2002727,
+      "district": "北角",
+      "area": "北角",
+      "address": "香港北角錦屏街21號東發大廈地下",
+      "exclude_reason": "closed：Google 地圖顯示「已歇業」",
+      "excluded_at": "2026-10-07",
+      "sources": [
+        {
+          "name": "食環署持牌食肆 XML（鮨鮪居酒屋／牌照2211804800／普通食肆）",
+          "type": "fehd_licence",
+          "url": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "name": "Google 地圖公開頁評分（4.6／16 則）",
+          "type": "google_maps_rating",
+          "url": "https://www.google.com/maps/place/?q=place_id:ChIJ-16aBoMBBDQR-cFQg6VyABA",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "verified_at": "2026-10-07",
+      "google_rating": 4.6,
+      "google_review_count": 16,
+      "fehd_licence_no": "2211804800",
+      "google_place_id": "ChIJ-16aBoMBBDQR-cFQg6VyABA"
+    }
+  ],
+  "meta": {
+    "status": "north-point-round1 applied / initial",
+    "phase": "north-point-round1",
+    "notes_zh": "v1.0（2026-10-07）：CEO 批准北角（含炮台山） round1 新建寫庫。無 Google ≥3.5 門檻；評分／營業狀態／營業時間／座標來自 Google 地圖公開網頁（非 Places API）；牌照來自食環署持牌食肆 XML（2026-10-05）；冇用 OpenRice；收費 API：0。review approve 103；實入 kept 103（減邊界 approve、出區／無座標／合併／跨區）；excluded 18（reject 10＋邊界 8）；暫緩 hold 唔入 247；出區／無座標略過 0；合併 0；跨區 0。",
+    "bbox_approx": [
+      22.288,
+      114.193,
+      22.298,
+      114.208
+    ],
+    "center_approx": [
+      22.291,
+      114.2005
+    ],
+    "previous_version": null,
+    "previous_kept": 0,
+    "previous_excluded": 0,
+    "kept": 103,
+    "excluded": 18,
+    "paid_api_calls": 0,
+    "fehd": {
+      "source_xml": "https://www.fehd.gov.hk/tc_chi/licensing/license/text/LP_Restaurants_TC.XML",
+      "generation_date": "2026-10-05",
+      "extract_count": 375,
+      "paid_api_calls": 0
+    },
+    "round1": {
+      "review_file": "review/north-point-round1.json",
+      "borderline_file": "review/north-point-round1-borderline.json",
+      "apply_report": "review/north-point-round1-apply-report.json",
+      "apply_script": "review/_cache/apply_island_round1.py",
+      "threshold": null,
+      "min_google_rating": null,
+      "approved_by": "CEO",
+      "applied_at": "2026-10-07",
+      "approve_total_review": 103,
+      "kept": 103,
+      "google_only_in_kept": 0,
+      "borderline_excluded": 8,
+      "borderline_was_approve": 0,
+      "reject_excluded_written": 10,
+      "merged_skipped": 0,
+      "out_of_district_or_bad_coords": 0,
+      "cross_district_skipped": 0,
+      "hold_not_applied": 247,
+      "added_ids": [
+        "ca-restaurant-bar-ying-huang-dao",
+        "chicken-chiko-bei-jiao",
+        "frites-belgium-on-tap-dian-qi-dao",
+        "genki-sushi-ying-huang-dao",
+        "gozip-ying-huang-dao",
+        "jollibee-ying-huang-dao",
+        "le-188-restaurant-bar-pao-tai-shan",
+        "mcdonald-s-ying-huang-dao",
+        "mcdonald-s-bei-jiao",
+        "pizzaexpress-dian-qi-dao",
+        "pizza-express-zha-hua-dao",
+        "sol-house-oyster-bar-and-zha-hua-dao",
+        "the-white-house-bei-jiao",
+        "tulsi-indian-restaurant-bei-jiao",
+        "ucc-coffee-shop-zha-hua-dao",
+        "viet-house-ying-huang-dao",
+        "alfafa-ying-huang-dao",
+        "yi-zhou-mian-ying-huang-dao",
+        "san-dai-mu-ying-huang-dao",
+        "san-de-su-shi-guan-ying-huang-dao",
+        "shang-shan-su-can-ting-bei-jiao",
+        "dan-na-xiao-chu-bei-jiao",
+        "er-shi-dao-bei-jiao",
+        "jing-chuan-yi-jue-bei-jiao",
+        "ren-he-ping-bei-jiao",
+        "wei-jue-ye-si-fang-bei-jiao",
+        "yuan-qi-shou-si-dian-qi-dao",
+        "liang-cao-bei-jiao",
+        "li-yuan-jiu-jia-dian-qi-dao",
+        "gong-fu-dian-xin-zha-hua-dao",
+        "shi-er-wei-bei-jiao",
+        "qian-le-shao-wei-can-bei-jiao",
+        "ban-dao-bing-shi-bei-jiao",
+        "nan-ji-chun-juan-fen-zha-hua-dao",
+        "tai-mu-zha-hua-dao",
+        "ji-ye-jia-ying-huang-dao",
+        "si-bao-shi-tang-dian-qi-dao",
+        "da-le-yue-nan-niu-ying-huang-dao",
+        "da-jia-le-dian-qi-dao",
+        "da-jia-le-ying-huang-dao",
+        "da-xiao-jie-bing-shi-ying-huang-dao",
+        "da-kuai-huo-can-ying-huang-dao",
+        "da-jiang-hu-ri-ben-ying-huang-dao",
+        "tai-xing-dian-qi-dao",
+        "hao-yun-da-pai-dang-bei-jiao",
+        "fu-jing-qing-xiang-mian-zha-hua-dao",
+        "fu-hui-bei-jiao",
+        "xiao-xiang-nong-niu-rou-zha-hua-dao",
+        "chuan-pin-yun-nan-mi-dian-qi-dao",
+        "cai-fu-xi-yan-ying-huang-dao",
+        "de-chang-yu-dan-fen-bei-jiao",
+        "bi-sheng-ke-bei-jiao",
+        "la-mian-ju-jiu-wu-bei-jiao",
+        "wen-hua-xuan-bei-jiao",
+        "xin-xing-fen-mian-bei-jiao",
+        "xin-hua-ji-xiao-chu-bei-jiao",
+        "shi-le-bei-jiao",
+        "man-gu-tai-cai-ying-huang-dao",
+        "yue-jian-ri-ben-liao-bei-jiao",
+        "zha-huang-la-mian-wu-zha-hua-dao",
+        "dong-tai-cha-can-ting-bei-jiao",
+        "sen-shi-tang-ying-huang-dao",
+        "le-chu-cha-can-ting-ying-huang-dao",
+        "yong-sheng-bing-shi-dian-qi-dao",
+        "tai-lan-huo-zha-hua-dao",
+        "tai-jin-xiang-xiao-chu-dian-qi-dao",
+        "jin-ying-huang-dao",
+        "zha-hua-cha-bing-ting-zha-hua-dao",
+        "zheng-xian-hui-zhuan-shou-pao-tai-shan",
+        "bai-hao-ming-yan-ying-huang-dao",
+        "xiang-fa-cha-can-ting-bei-jiao",
+        "zhou-mian-hao-zhan-ying-huang-dao",
+        "yue-xiang-shi-bei-jiao",
+        "su-shi-yuan-fang-ying-huang-dao",
+        "yu-yin-ting-bei-jiao",
+        "ju-chao-shan-di-dao-bei-jiao",
+        "ken-de-ji-ying-huang-dao",
+        "sa-li-ya-yi-shi-bei-jiao",
+        "sa-li-ya-yi-shi-bei-jiao-2",
+        "she-wang-liang-dian-qi-dao",
+        "tan-zai-yun-nan-mi-ying-huang-dao",
+        "chao-ren-ji-bao-kao-ying-huang-dao",
+        "yue-zhong-yi-ying-huang-dao",
+        "yi-long-xuan-ying-huang-dao",
+        "yu-jian-hua-lian-dian-qi-dao",
+        "dao-sheng-mian-guan-ying-huang-dao",
+        "na-ge-ying-huang-dao",
+        "jin-le-xuan-ji-bao-bei-jiao",
+        "jin-pai-fen-mian-bei-jiao",
+        "tie-hua-cun-bei-jiao",
+        "shuang-la-wu-ying-huang-dao",
+        "ji-shao-qu-gu-hai-ying-huang-dao",
+        "han-wei-wu-bei-jiao",
+        "xiang-gang-shao-wei-can-bei-jiao",
+        "xiang-gang-fan-tang-bei-jiao",
+        "ma-liu-dian-qi-dao",
+        "yu-shi-zhe-bei-jiao",
+        "yu-mi-dian-qi-dao",
+        "yi-chen-ri-ben-liao-dian-qi-dao",
+        "feng-cheng-zha-hua-dao",
+        "mian-wu-zang-hu-dong-zha-hua-dao",
+        "qian-ying-yang-rou-fen-ying-huang-dao",
+        "ding-liu-xiang-lu-wei-zha-hua-dao"
+      ],
+      "borderline_ids": [
+        "hua-yuan-can-ting-ying-huang-dao",
+        "he-li-huo-bing-shi-ying-huang-dao",
+        "yong-li-bing-shi-ying-huang-dao",
+        "lobby-lounge-pao-tai-shan",
+        "harbourview-grill-zha-hua-dao",
+        "levain-ying-huang-dao",
+        "ka-wei-ya-de-chu-ying-huang-dao",
+        "xing-ji-yun-tun-mian-ying-huang-dao"
+      ]
+    }
+  }
+}
