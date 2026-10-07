@@ -2,6 +2,15 @@
   "generated_note": "synced from src/data/*-restaurants.json via scripts/sync-admin-data.sh",
   "districts": [
     {
+      "slug": "causeway-bay",
+      "file": "causeway-bay-restaurants.json",
+      "district": "銅鑼灣",
+      "version": "1.0",
+      "updated_at": "2026-10-07",
+      "kept": 357,
+      "excluded": 159
+    },
+    {
       "slug": "central-admiralty",
       "file": "central-admiralty-restaurants.json",
       "district": "中環／金鐘",
@@ -72,6 +81,24 @@
       "updated_at": "2026-10-07T12:00:00+08:00",
       "kept": 155,
       "excluded": 101
+    },
+    {
+      "slug": "north-point",
+      "file": "north-point-restaurants.json",
+      "district": "北角",
+      "version": "1.0",
+      "updated_at": "2026-10-07",
+      "kept": 103,
+      "excluded": 18
+    },
+    {
+      "slug": "quarry-bay",
+      "file": "quarry-bay-restaurants.json",
+      "district": "鰂魚涌／太古",
+      "version": "1.0",
+      "updated_at": "2026-10-07",
+      "kept": 135,
+      "excluded": 30
     },
     {
       "slug": "sau-mau-ping",

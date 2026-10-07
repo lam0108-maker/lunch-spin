@@ -17,6 +17,9 @@ import yauMaTeiSeedData from '../../data/yau-ma-tei-restaurants.json';
 import mkSeedData from '../../data/mong-kok-restaurants.json';
 import caSeedData from '../../data/central-admiralty-restaurants.json';
 import wcSeedData from '../../data/wan-chai-restaurants.json';
+import cwbSeedData from '../../data/causeway-bay-restaurants.json';
+import qbSeedData from '../../data/quarry-bay-restaurants.json';
+import npSeedData from '../../data/north-point-restaurants.json';
 
 interface SeedRestaurant {
   id: string;
@@ -201,6 +204,39 @@ const DISTRICT_SEEDS: DistrictSeed[] = [
       maxLng: 114.180,
     },
     seed: wcSeedData as SeedFile,
+  },
+  {
+    // 銅鑼灣／時代／祟光／記利佐治（v1.0）；bbox 22.276–22.285 / 114.178–114.192
+    label: '銅鑼灣',
+    bbox: {
+      minLat: 22.276,
+      maxLat: 22.285,
+      minLng: 114.178,
+      maxLng: 114.192,
+    },
+    seed: cwbSeedData as SeedFile,
+  },
+  {
+    // 鰂魚涌／太古／太古坊／康山（v1.0）；bbox 22.283–22.295 / 114.205–114.220
+    label: '鰂魚涌／太古',
+    bbox: {
+      minLat: 22.283,
+      maxLat: 22.295,
+      minLng: 114.205,
+      maxLng: 114.220,
+    },
+    seed: qbSeedData as SeedFile,
+  },
+  {
+    // 北角／電器道／英皇道／渣華道／炮台山（v1.0）；bbox 22.288–22.298 / 114.193–114.208
+    label: '北角',
+    bbox: {
+      minLat: 22.288,
+      maxLat: 22.298,
+      minLng: 114.193,
+      maxLng: 114.208,
+    },
+    seed: npSeedData as SeedFile,
   },
 ];
 
